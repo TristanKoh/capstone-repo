@@ -1,0 +1,909 @@
+policy_id: 19
+policy_name: com.callapp.contacts
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Skip to content About The Company Media Features Jobs Blog Support
+    Contact Us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'DOWNLOAD NOW Download Privacy policy Last Updated: March, 2017 As
+    a collaborative community, CallApp''s top priority will always be its relationship
+    with the community. CallApp is firmly committed to the security and protection
+    of the personal integrity of our users, their contacts, and CallApp''s service,
+    as set forth herein.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: This Privacy Policy describes what personal information may be shared
+    with CallApp and other users when activating and using CallApp's services, how
+    CallApp receives, collects and uses this data, and how to opt out.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: CallApp Software Ltd. and its affiliates ("CallApp", "we" or "us")
+    respect the privacy of users ("user" or "you") of CallApp's software ("Software")
+    and services (together with the Software, the "Service") and are committed to
+    protect information, including Received Information.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: '"Received Information" means a user''s private, personal or personally
+    identifying or identifiable data or information, including content and contact
+    information such as name, email address, or social network identifier.'
+  annotations:
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMSI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Received Information" means a user''s private, personal or personally
+      identifying or identifiable data or information, including content and contact
+      information such as name, email address, or social network identifier.'
+    annotations:
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: The terms of this Privacy Policy are incorporated by reference into
+    CallApp's Terms of Service.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: PLEASE READ THIS PRIVACY POLICY CAREFULLY. BY REGISTERING, DOWNLOADING,
+    INSTALLING, ACCESSING, ACTIVATING OR OTHERWISE USING THE SERVICE OR INTERACTING
+    WITH US ON OUR WEBSITE, YOU ARE AGREEING TO THE TERMS OF THIS PRIVACY POLICY,
+    INCLUDING WITHOUT LIMITATION TO THE COLLECTION AND PROCESSING OF YOUR RECEIVED
+    INFORMATION AS SET FORTH HEREIN. IF YOU DISAGREE WITH ANY TERM SET FORTH HEREIN,
+    YOU MAY NOT REGISTER, DOWNLOAD, INSTALL, ACCESS, ACTIVATE OR USE THE SERVICE OR
+    INTERACT WITH US ON OUR WEBSITE, AND YOU ARE OBLIGED TO IMMEDIATELY UNINSTALL
+    OR ERASE THE SOFTWARE FROM YOUR DEVICE.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: The Service is not designed or intended for children under the age
+    of thirteen (13).
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: We reserve the right to request proof of age at any stage to verify
+    that minors under the age of thirteen (13) are not using the Service. If you are
+    under the age of thirteen (13), you may not download the Software or use the Service
+    including the Software, you may not use any feature of the Service that requires
+    registration, and you may not provide us with any Received Information. CallApp
+    will not knowingly collect any Received Information concerning children under
+    the age of thirteen (13).
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: CallApp may update this Privacy Policy from time to time and such
+    updated Privacy Policy will be effective as of the "Last Updated" date. Your continued
+    use of the Service on or after the "Last Updated" date constitutes your consent
+    to such updated Privacy Policy. Contributors of Received Information
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Information from user or user devices When users register, download,
+    install, access, activate or otherwise use the Service or interact with us on
+    our website, Received Information may be received, processed and retained from
+    user and devices the user may use in interactions with the Service.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When users register, download, install, access, activate or otherwise
+      use the Service or interact with us on our website, Received Information may
+      be received, processed and retained from user and devices the user may use in
+      interactions with the Service.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: 'Received Information may include any of the following: geo-location,
+    IP address, device ID or unique identifier, device manufacturer and type, device
+    and hardware settings, ID for advertising, ad data, operating system, operator,
+    IMSI (international mobile subscriber identity), certain information regarding
+    contacts contained in user device phone books ("Contacts"), phone number, connection
+    information, screen resolution, usage statistics, device log and event information,
+    incoming and outgoing calls and messages, times and date of calls, duration of
+    calls, behavioral information, version of the Software used, and other information
+    based on interactions with the Services.'
+  annotations:
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMSI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Received Information may include any of the following: geo-location,
+      IP address, device ID or unique identifier, device manufacturer and type, device
+      and hardware settings, ID for advertising, ad data, operating system, operator,
+      IMSI (international mobile subscriber identity), certain information regarding
+      contacts contained in user device phone books ("Contacts"), phone number, connection
+      information, screen resolution, usage statistics, device log'
+    annotations:
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Received Information may include any of the following: geo-location,
+      IP address, device ID or unique identifier, device manufacturer and type, device
+      and hardware settings, ID for advertising, ad data, operating system, operator,
+      IMSI (international mobile subscriber identity), certain information regarding
+      contacts contained in user device phone books ("Contacts"), phone number, connection
+      information, screen resolution, usage statistics, device log and event information,
+      incoming and outgoing calls and messages, times and date of calls, duration
+      of calls, behavioral information, version of the Software used, and other information
+      based on interactions with the Services.'
+    annotations:
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: In addition, if a user provides user identifier information for third
+    party social media services, such as Facebook, Google+, LinkedIn, Twitter and
+    Foursquare, so that the Services can interoperate with the social media services,
+    the user's identifier associated with the social media service (including mapped
+    photos where applicable) will be stored and processed.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, if a user provides user identifier information for
+      third party social media services, such as Facebook, Google+, LinkedIn, Twitter
+      and Foursquare, so that the Services can interoperate with the social media
+      services, the user's identifier associated with the social media service (including
+      mapped photos where applicable) will be stored and processed.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Please note that we never store any passwords to any social media
+    service.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: You agree that you will exercise caution and common sense if you provide
+    us with or let us collect or receive information, including Received Information,
+    about someone else (including Contact information), and you hereby confirm that
+    it is not false and that it will not corrupt or disrupt the Service, and that
+    you have the right to provide or let us collect, receive, use and share such information
+    according to the terms of this Privacy Policy and our Terms of Service.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMSI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You agree that you will exercise caution and common sense if you
+      provide us with or let us collect or receive information, including Received
+      Information, about someone else (including Contact information),
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: Data/names may also be associated with a phone number through our
+    name/data tagging functionality, which allows a user who receives a call from
+    a phone number which is not associated with data or a name in our resources to
+    indicate the data/name to be associated with that number. This data/name will
+    only be associated with a number through the name/data tagging functionality if
+    a sufficient number of independent users, based on our algorithms, have indicated
+    similar data/name for the relevant number.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Data/names may also be associated with a phone number through our
+      name/data tagging functionality, which allows a user who receives a call from
+      a phone number which is not associated with data or a name in our resources
+      to indicate the data/name to be associated with that number.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: When a user reports a phone number as being "spam", we store that
+    phone number in combination with the user's internal ID in order to maintain the
+    user's spam list online and also for the purpose of building a community-based
+    spam-blocking directory.
+  annotations:
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When a user reports a phone number as being "spam", we store that
+      phone number in combination with the user's internal ID in order to maintain
+      the user's spam list online and also for the purpose of building a community-based
+      spam-blocking directory.
+    annotations:
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Received Information may be linked and combined with data from other
+    sources.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Information from Public Resources and other users of the Service.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: We receive data from Public Resources (as defined under the Terms
+    of Service) associated with users and user Contacts, including from social networks
+    to which users or user Contacts are registered, such as Facebook, Google+, Linkedin,
+    Twitter, and Foursquare.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We receive data from Public Resources (as defined under the Terms
+      of Service) associated with users and user Contacts, including from social networks
+      to which users or user Contacts are registered, such as Facebook, Google+, Linkedin,
+      Twitter, and Foursquare.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: Other users of the Services may provide us with Received Information
+    about you, and you hereby provide your consent to our use and sharing of such
+    Received Information.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Information from cookies and similar technologies.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Information associated with users is collected from cookies and similar
+    technologies such as digital identifiers, log files, web beacons, and plugins
+    ("Cookies"), which store certain information from user devices, allowing us to
+    understand and save preferences for future visits and to compile aggregate data
+    about site traffic and site interaction. If a user provides Received Information
+    to us, then this Received Information may be linked to data stored in Cookies.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information associated with users is collected from cookies and
+      similar technologies such as digital identifiers, log files, web beacons, and
+      plugins ("Cookies"), which store certain information from user devices, allowing
+      us to understand and save preferences for future visits and to compile aggregate
+      data about site traffic and site interaction.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: Information may also be collected by third-party Cookies, which are
+    Cookies that are controlled by a third party and not by us, that store certain
+    Received Information on user devices ("Third-Party Cookies"). Third-Party Cookies
+    may be updated each time a user uses the Service, or each time a user visits other
+    websites or access other applications using similar types of Cookies. We do not
+    control Third-Party Cookies or the types of information that are compiled by them,
+    or the use of Received Information by the relevant third party.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information may also be collected by third-party Cookies, which
+      are Cookies that are controlled by a third party and not by us, that store certain
+      Received Information on user devices ("Third-Party Cookies").
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: You may opt out of Cookies, including Third-Party Cookies. Most browsers
+    allow you to block or remove Cookies. If you block or erase Cookies, including
+    by changing settings, your ability to use the Service may be limited. How we use
+    information, including Received Information
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How we use information, including Received Information
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: If you block or erase Cookies, including by changing settings,
+      your ability to use the Service may be limited.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Most browsers allow you to block or remove Cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You may opt out of Cookies, including Third-Party Cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: 'Information, including Received Information, may be used by us to:
+    provide, maintain and improve the Service, enhance and personalize your experience
+    on the Service, provide you with information and services that are available only
+    to registered users of the Service, share Content with other users of the Service
+    and facilitate communications between users of the Service. help us learn about
+    specific preferences and general trends, provide you with information about the
+    Service and allow us to respond to your queries, allow us to identify and contact
+    you, including in connection with promotional offers and customer service operations
+    such as software updates, provide you with tailored content such as search results
+    and advertisements that may be relevant to you, develop new services and software,
+    understand traffic to our site and for other internal purposes, resolve disputes
+    and enforce our policies including our Terms of Service, detect, prevent, or otherwise
+    address fraud, security or technical issues, protect CallApp and its users. Sharing
+    Received Information'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 'Information, including Received Information, may be shared with third
+    parties as follows: to third party service providers and other users in connection
+    with the provision of the Service, to satisfy applicable law, regulation, legal
+    process, or governmental request,'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: where we deem it necessary to enforce this Privacy Policy or the Terms
+    of Service, to protect any party, to detect, prevent, or otherwise address fraud,
+    security or technical issues, or to respond to claims, including in connection
+    with claims that unauthorized information (e.g. phone number, name, etc.) of a
+    third-party has been retained in CallApp's Resources (as defined in the Terms
+    of Service) and transferred through the Service, to an acquirer of CallApp or
+    of all or part of CallApp's business activity, to a third party examining the
+    business of the company, or a consultant acting under a non-disclosure agreement
+    agreed with us, to third parties for commercialization purposes, as otherwise
+    explicitly set forth in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Received Information shared with third parties may be provided in
+    hashed or encrypted form, consistent with market practices, and may be used to
+    identify users across devices and channels for the purpose of serving targeted
+    advertising. We may be compensated for information, including Received Information,
+    shared with third parties. Users will not receive compensation in connection with
+    such sharing or other use. Third Party Partners
+  annotations:
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMSI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Received Information shared with third parties may be provided
+      in hashed or encrypted form, consistent with market practices, and may be used
+      to identify users across devices and channels for the purpose of serving targeted
+      advertising.
+    annotations:
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 29
+  segment_text: Third-party vendors, including Google, use Cookies to serve ads based
+    on a user's prior visits to our website and other websites. Google's use of advertising
+    Cookies enables it and its partners to serve ads based on visits to our site or
+    other sites on the internet. You can opt out of personalized advertising by visiting
+    Google's Ads Settings. Alternately, you can opt out of other third-party vendors'
+    uses of cookies by visiting the Digital Advertising Alliance's (DAA) opt out page
+    at http://www.aboutads.info/choices or http://www.aboutads.info/appchoices. To
+    find out more about how Google uses data it collects please visit Google Privacy
+    & Principals.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Google's use of advertising Cookies enables it and its partners
+      to serve ads based on visits to our site or other sites on the internet.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third-party vendors, including Google, use Cookies to serve ads
+      based on a user's prior visits to our website and other websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: Third party partners may be engaged for the purpose of identifying
+    users and delivering to them interest-based content and advertisements. We may
+    share Received Information with our partners such as name, postal address, email,
+    or other identifier and may do so in non-human readable form. Our partners also
+    may collect information directly from user devices, such as IP address, device
+    ID, information about browser or operating system, and depending on device settings,
+    geographic location data, including GPS coordinates (e.g. latitude and/or longitude)
+    or similar information regarding the location of the device, and may combine their
+    our information including Received Information with information from other sources;
+    and may place or recognize unique cookies on user browsers. To opt-out of third
+    party cookies, please go to http://www.aboutads.info/choices. To opt-out of the
+    use of device IDs for targeted advertising, please see http://www.aboutads.info/appchoices.
+    Content
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our partners also may collect information directly from user devices,
+      such as IP address, device ID, information about browser or operating system,
+      and depending on device settings, geographic location data, including GPS coordinates
+      (e.g.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third party partners may be engaged for the purpose of identifying
+      users and delivering to them interest-based content and advertisements.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may share Received Information with our partners such as name,
+      postal address, email, or other identifier and may do so in non-human readable
+      form.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+  - sentence_text: latitude and/or longitude) or similar information regarding the
+      location of the device, and may combine their our information including Received
+      Information with information from other sources; and may place or recognize
+      unique cookies on user browsers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: You may upload and share information, including Received Information,
+    into the Service as content ("Content"), subject to your adherence with this Privacy
+    Policy and the Terms of Service. Content may take the form of your profile information,
+    contact information, or other types of information that you upload or otherwise
+    share. All Content may be available to us and to other users, we do not moderate
+    or protect Content, and notwithstanding any other provision herein, you should
+    not have any expectation of privacy with respect to Content.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: All Content may be available to us and to other users, we do not
+      moderate or protect Content, and notwithstanding any other provision herein,
+      you should not have any expectation of privacy with respect to Content.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: Content may take the form of your profile information, contact
+      information, or other types of information that you upload or otherwise share.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: You may upload and share information, including Received Information,
+      into the Service as content ("Content"), subject to your adherence with this
+      Privacy Policy and the Terms of Service.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 32
+  segment_text: You agree that you will exercise caution and common sense when you
+    submit or upload Content, including Received Information, about you or your Contacts,
+    and you hereby confirm that it is not false and that it will not corrupt or disrupt
+    the Service, and that you have the right to share all such Content according to
+    the terms of this Privacy Policy and our Terms of Service. Third Party Sites and
+    Privacy Policies
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Third Party Sites and Privacy Policies
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: You agree that you will exercise caution and common sense when
+      you submit or upload Content, including Received Information, about you or your
+      Contacts, and you hereby confirm that it is not false and that it will not corrupt
+      or disrupt the Service, and that you have the right to share all such Content
+      according to the terms of this Privacy Policy and our Terms of Service.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: The Service may contain links to third-party websites. We are not
+    responsible or liable for the privacy policies, practices, Received Information
+    or other content collected, received, stored, used, or shared by third-party websites.
+    We encourage you to carefully read the privacy policies and the terms of use or
+    service of third party websites prior to submitting any information, including
+    Received Information.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: The Service may offer users the ability to interact with social plugins
+    from social media sites. The social media sites may receive data when users visit
+    a website that has plugins. In some cases, we may know that a user received information
+    from a social media site, or clicked on a social plugin, such as a Facebook Like
+    button. Similarly, if a user previously provided Received Information to a third-party
+    operating a plugin on our website, then that third party may recognize that user
+    when that user visits our website. Use of Received Information by third parties
+    is subject to the applicable third party's privacy policy, so we encourage users
+    to read third party privacy policies carefully. As with linked sites, we are not
+    responsible or liable for the privacy policies, practices, Received Information,
+    or other content that is collected, received, stored, used or shared by social
+    network plugins.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Upon user information, including Received Information, being shared
+    with a third party, we will continue treat the user's information according to
+    the terms of this Privacy Policy, and the relevant third party will treat the
+    user's information according to the terms of its own privacy policy. Opting Out
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Users may opt out of the Service by uninstalling the Software from
+    their device, either by choosing the uninstall option on the Software, or by using
+    the software removal option of the operating system of their device.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: Upon uninstalling the Software, we will no longer collect any further
+    information, including Received Information, from you through the Service, nor
+    will we provide you with the Service, including with information via the Service
+    pertaining to your Contacts or other third parties that initiate phone calls with
+    you.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: If we have already shared your information with a third party, you
+    will need to be in direct contact with that third party in connection with your
+    concern, question, request or demand in connection with such third party's use
+    or sharing of your information. Deletion of Received Information
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 'We may retain information indefinitely except where prohibited by
+    law. If you wish to delete any of your Received Information from our resources
+    and/or servers, please send an email to: support@callapp.com, and we will make
+    reasonable efforts to delete such Received Information pursuant to applicable
+    privacy law requirements. In such event, subject to applicable privacy laws, your
+    information will be deleted or unlisted from our active database but may remain
+    in our archives.'
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: You may unlist your number from the Service by logging onto http://www.callapp.com/unlist.
+    Once you are unlisted from the Service, CallApp will not search the CallApp Universal
+    Contact Book for your phone number. However, your details may still be available
+    to us through Public Resources.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, your details may still be available to us through Public
+      Resources.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: Once you are unlisted from the Service, CallApp will not search
+      the CallApp Universal Contact Book for your phone number.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: You may unlist your number from the Service by logging onto http://www.callapp.com/unlist.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: Notwithstanding the foregoing, if we are required to maintain certain
+    information, including Received Information, about you, we will comply with your
+    deletion request after fulfilling any legal requirements. We will retain anonymous
+    information and may need to retain some identifying information to ensure that
+    your request continues to be honored. Security
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: We take commercially reasonable efforts to maintain the security of
+    the Service and the information you submit to the Service, including your Received
+    Information, and preventing unauthorized access to your information, including
+    your Received Information, through the use of industry-standard technologies and
+    reasonable internal procedures, including transmitting your data using modern
+    security measures such as encryption.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Although we make good faith efforts to store your information in a
+    secure operating environment, we cannot guarantee security. We cannot be responsible
+    for the acts of those who gain unauthorized access to or abuse our Service, and
+    we make no warranty, express, implied or otherwise, that we will prevent such
+    access. You understand and agree that all information, including Received Information,
+    collected through our website or in connection with the Service is at your own
+    risk and is subject to the provisions, disclaimers, and limitations of liability
+    in both this Privacy Policy and our Terms of Service.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: In the event that we become aware of any accidental or unauthorized
+    access to your information, we will use commercially reasonable efforts to notify
+    you of such. Transfer of Information to a Different Jurisdiction
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: Most Received Information is stored in the USA, We or our infrastructure
+    providers may transfer Received Information to a different jurisdiction at our
+    or their sole discretion. Law and Jurisdiction
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: This Privacy Policy shall be construed and governed in accordance
+    with the laws of the State of Israel, regardless of its conflict of laws rules.
+    The courts of Tel Aviv, Israel, shall have sole and exclusive jurisdiction over
+    any dispute under this Privacy Policy or otherwise related to the Service. Updates
+    to this Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: CallApp reserves the right to update this Privacy Policy from time
+    to time. In our sole discretion we may post updates to CallApp's website.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Updates to this Privacy Policy are effective as of the "Last Updated"
+    date, and your continued use of the Service on or after the Last Update date will
+    constitute acceptance of, and agreement to be bound by those changes. Inquiries
+    or Complaints
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: If you have an inquiry or complaint about this Privacy Policy or our
+    information collection practices, please contact CallApp at support@callapp.com.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: GET CALLAPP NOW ! Follow Us Always know Who's Calling With one of
+    the biggest number database in the market, you'll know who is the real caller
+    behind the call.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: Get the App ABOUT The Company Media Jobs
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: SUPPORT FAQ Privacy policy Terms of service Contact About Jobs Support
+    Contact
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: FOLLOW US Privacy policy Terms of service
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: "Copyrights \xA92012 - 2016 CallApp."
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: Message has sent Thank you, We received your message, and someone
+    will return to you as soon as possible
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: CLOSE
+  annotations: []
+  sentences: []

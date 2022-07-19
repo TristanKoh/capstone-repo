@@ -1,0 +1,1045 @@
+policy_id: 274
+policy_name: Motorola
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Motorola Experiences Privacy Policy This privacy policy is subject
+    to change without notice.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: What does this privacy policy cover? Multi-Users How can the Motorola
+    Experiences collect and use information? What kinds of third parties does Motorola
+    share information with?
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: How does Motorola store and protect information it has collected and
+    shared?
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: What about my child's privacy? How do I contact Motorola's privacy
+    program? What are the details of how specific Motorola Experiences collect and
+    use information?
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: This privacy policy is subject to change without notice.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We reserve the right to make changes to this privacy policy at any
+    time. If we make a change to this privacy policy, we will make previous versions
+    available so that you can see when changes occurred and what they are. If one
+    or more Motorola Experiences changes the way they collect, store, transfer, or
+    otherwise use Personal Information, we will ask for your permission before activating
+    the new or modified Motorola Experiences.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'This privacy policy was updated on 2016-05-17 and includes changes
+    to: The organization of this information (to help you find what you need faster)
+    Clarify some experiences and how they affect your privacy Clarify the purpose
+    and uses of your user profile'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: What does this privacy policy cover? This privacy policy explains
+    how Motorola Mobility LLC ("Motorola," "we," or "us") collects, uses, shares,
+    retains, and protects information about our products, services, and users.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: It applies to Motorola products you own and Motorola software and
+    services you use under license provided by the Motorola Experiences Terms and
+    Conditions.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Collectively, we call these products, services, and software the Motorola
+    Experiences.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: This privacy policy does not apply to information collected via Motorola's
+    websites. To learn about our website privacy practices, please visit the privacy
+    policy statement linked to a particular Motorola website. This privacy policy
+    also does not apply to third-party software and services you install on or otherwise
+    access through your Motorola products or to any Motorola software or services
+    you use under an individual license separate from the Motorola Experiences Terms
+    and Conditions.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Multi-Users Please note that secondary users and guest users of devices
+    that support such multi-user capabilities may not have the same abilities to control
+    settings, permissions and choices that the primary user or owner of the device
+    may have.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'How can the Motorola Experiences collect and use information? The
+    Motorola Experiences can use information to keep your Motorola products working
+    their best and help you make the most of them. This includes: Keeping your Motorola
+    Experiences up to date. We''re always working to provide updates that fix bugs
+    and deliver new features. We always collect and use information we need to keep
+    the Motorola Experiences up to date. View details.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Help Improve Motorola Products and Enhanced Device Support. We want
+    to make sure your products, services, and software are always working their best.
+    If you choose to allow it, we collect and use information to identify performance
+    trends, prioritize bug fixes, develop new features, and troubleshoot issues you
+    may be having with the Motorola Experiences. View details.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Creating a User Profile. We may create a profile of your use of our
+    products, services, and websites based on information we have collected from you
+    and your Motorola products. We use the profile to provide services and support
+    and to make improvements to our offerings. View details.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Providing Motorola Experiences functionality. Some Motorola Experiences
+    need access to information to function. They may keep the information locally
+    on your Motorola products or they may transfer it to Motorola or a third party.
+    This information may include personal information like the location of your device,
+    contextual data collected from sensors that describes what you may be doing at
+    the time, and user generated content like app data, calendar entries, contacts,
+    call history, and SMS and MMS messages, and photos, videos, and documents. Some
+    Motorola Experiences may work with companion products like Bluetooth accessories,
+    NFC tags, and other hardware or downloadable software. Motorola Experiences will
+    only access your information if you specifically choose to use them. View details.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some Motorola Experiences need access to information to function.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: They may keep the information locally on your Motorola products
+      or they may transfer it to Motorola or a third party.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This information may include personal information like the location
+      of your device, contextual data collected from sensors that describes what you
+      may be doing at the time, and user generated content like app data, calendar
+      entries, contacts, call history, and SMS and MMS messages, and photos, videos,
+      and documents.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: You can choose whether you want to help improve Motorola products
+    or get enhanced device support by visiting the Motorola privacy settings on your
+    Motorola products and turning these options on or off.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: You can control whether Motorola Experiences collect information from
+    you by turning them on and off. If you turn off a Motorola Experience, it won't
+    collect information. You can find these controls by accessing individual Motorola
+    Experiences' settings.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: If you don't want us to create a user profile, you can turn off data
+    collection options in your Motorola privacy settings and disable Motorola Experiences
+    that collect information. This will stop your Motorola Experiences from collecting
+    new data. Our servers will delete old profile data according to our own policies.
+    If you have questions about what's in your user profile or if you want to delete
+    data from your profile, you can send a request to privacy@motorola.com or contacting
+    our customer service team by phone, email, or Internet chat.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Some Motorola Experiences use Google Analytics for mobile apps to
+    collect performance-related usage information. You can learn more about how Google
+    Analytics handles information by reviewing the Google Analytics Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: What kinds of third parties does Motorola share information with?
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'We limit sharing of information described in this privacy policy
+    to certain types of third parties who help us use it for purposes you have agreed
+    to. They include: Service providers who provide hosting, data analysis, and customer
+    support functions. Motorola affiliates who help provide functionality for the
+    Motorola Experiences and who help us use information as described in this privacy
+    policy. Wireless carriers and their affiliates and service providers, subject
+    to your customer agreement with them. Law enforcement and other government agencies
+    subject to valid legal process. Other third parties helping us protect our rights,
+    our users'' rights, and the rights of others.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We use standard technical and organizational safeguards when we transmit
+    information from your Motorola products to our servers, when we store data, and
+    when we share it with third parties. Before we share information with a service
+    provider, we enter contracts with them that restrict their use of information
+    to authorized purposes and require them to use appropriate safeguards to protect
+    the information that we have provided to them. However, no data stored on a mobile
+    device or transmitted over a wireless or interactive network can ever be completely
+    invulnerable, so you should take steps to manage your privacy and security too.
+    By using the Motorola Experiences you understand that you do so at your own risk.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Our products include features designed to help you protect the information
+    you store on your Motorola products like encryption, face unlock, password and
+    PIN unlock, and remote control over your Motorola products so you can locate,
+    lock, and erase lost or stolen devices.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: You can learn more about these features by accessing your Motorola
+    products' security settings.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: When we collect information described in this privacy policy, we will
+    retain it on our servers as long as necessary to support the Motorola Experiences
+    you are using and to comply with applicable laws and our own policies. If you
+    stop using a Motorola Experience, we will delete information uploaded to our servers
+    as required by law and our own policies.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: As a global company Motorola has users all over the world. Therefore,
+    the information you provide may be transmitted, used, processed and stored outside
+    of the country where you submitted that information, including countries that
+    may not have data privacy laws that provide protection equivalent to such laws
+    in your home country. However, whenever Motorola handles information, regardless
+    of where this occurs, we take appropriate steps to ensure that your information
+    is treated securely and in accordance with the relevant Terms of Use, this Privacy
+    Policy and all applicable laws and regulations.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: What about my child's privacy? The Motorola Experiences are intended
+    for adults and children ages 13 and up who have permission to use them from their
+    parents or legal guardians. We do not seek to collect information about children
+    under the age of 13 and will delete any as soon as we discover it. We also encourage
+    parents to actively supervise their children's use of the Motorola Experiences.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'How do I contact Motorola''s privacy program? For other questions
+    or requests about the use of your information, including requests to opt out of
+    the collection or use of certain kinds of information, please contact Motorola''s
+    Privacy Compliance Program at: Motorola Mobility LLC Attention: Privacy Compliance
+    Program 222 W Merchandise Mart Plaza, Suite 1800 Chicago, IL 60654, USA privacy@motorola.com
+    What are the details of how specific Motorola Experiences collect and use information?'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Not all Motorola products support all Motorola Experiences. Different
+    Motorola Experiences may be available to you and may vary depending on which Motorola
+    products you own.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: "Keeping your Motorola Experiences up to date When we check for updates,\
+    \ we use information like your mobile phone number; your Motorola products' unique\
+    \ identifiers; your Motorola Experiences' version numbers; and whether you're\
+    \ connected to a cellular or Wi\u2011Fi network to know when you have an available\
+    \ update."
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Keeping your Motorola Experiences up to date When we check for\
+      \ updates, we use information like your mobile phone number; your Motorola products'\
+      \ unique identifiers; your Motorola Experiences' version numbers; and whether\
+      \ you're connected to a cellular or Wi\u2011Fi network to know when you have\
+      \ an available update."
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: Help Improve Motorola Products and Enhanced Device Support When you
+    choose Help Improve Motorola Products or Enhanced Device Support, we will collect
+    and use information like how well apps perform on your Motorola products; how
+    well your Motorola Experiences are working, the kinds of accessories you use (like
+    headsets and speakers); how often you use different Motorola Experiences and their
+    features; what causes unusual battery drain; and how good your network connectivity
+    is. When we collect this kind of information to help improve Motorola products,
+    we do so in a way that doesn't identify you or your specific Motorola products.
+    When we collect this kind of information so you can get enhanced device support
+    we will link this information to personal information you provide us like your
+    name and contact information and to your Motorola products' unique identifiers
+    to help troubleshoot your specific issues and to respond to your requests.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Help Improve Motorola Products and Enhanced Device Support When
+      you choose Help Improve Motorola Products or Enhanced Device Support, we will
+      collect and use information like how well apps perform on your Motorola products;
+      how well your Motorola Experiences are working, the kinds of accessories you
+      use (like headsets and speakers); how often you use different Motorola Experiences
+      and their features; what causes unusual battery drain; and how good your network
+      connectivity is.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+  - sentence_text: When we collect this kind of information so you can get enhanced
+      device support we will link this information to personal information you provide
+      us like your name and contact information and to your Motorola products' unique
+      identifiers to help troubleshoot your specific issues and to respond to your
+      requests.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+  - sentence_text: When we collect this kind of information to help improve Motorola
+      products, we do so in a way that doesn't identify you or your specific Motorola
+      products.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+- segment_id: 32
+  segment_text: Creating a user profile Your user profile can consist of information
+    we may have gathered from your visits to our websites, contact with our customer
+    service representatives, and from Motorola products and services that you use.
+    This lets us give certain Motorola Experiences information they need to function;
+    troubleshoot problems you may have; suggest ways to make your Motorola Experiences
+    work better; provide you with news, updates, and information about Motorola's
+    products and services; and provide you with news and information about additional
+    Motorola products and services that you may be interested in. You can learn more
+    about different Motorola Experiences and how they contribute information to or
+    use information from your user profile here.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Providing Motorola Experiences functionality Certain Motorola Experiences
+    need to process information to function. This information may include personal
+    information like your email address and phone number, information from your user
+    profile, contextual data, the location of your Motorola products, and user generated
+    content. These Motorola Experiences may access this information only on your mobile
+    device, or they may collect the information and upload it to our servers.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain Motorola Experiences need to process information to function.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: These Motorola Experiences may access this information only on
+      your mobile device, or they may collect the information and upload it to our
+      servers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This information may include personal information like your email
+      address and phone number, information from your user profile, contextual data,
+      the location of your Motorola products, and user generated content.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: These sections describe these Motorola Experiences in detail. This
+    list may not describe all Motorola Experiences available for your device. Also,
+    not all Motorola products support all Motorola Experiences. Different Motorola
+    Experiences may be available to you and may vary depending on which Motorola products
+    you own.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 'Camera Motorola''s Camera application allows you to: Tag your photos
+    and videos with location data. When you share tagged photos with others, you will
+    also share the location information. If you choose to geo-tag your photos and
+    videos, Motorola''s Gallery app will use the information to help organize your
+    views. Launch the application without touching the screen by using contextual
+    data derived from sensors to detect a launch gesture.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Camera Motorola''s Camera application allows you to: Tag your
+      photos and videos with location data.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: If you choose to geo-tag your photos and videos, Motorola's Gallery
+      app will use the information to help organize your views.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Launch the application without touching the screen by using contextual
+      data derived from sensors to detect a launch gesture.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: When you share tagged photos with others, you will also share the
+      location information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: Take better pictures by using face detection and other analytics on
+    what's in your viewfinder to deliver the best image, which may occur before or
+    after you triggered the shutter. You can compare the best image with the original
+    picture you captured in Gallery and select which images to keep. Face detection
+    information stays on your phone and doesn't get uploaded to Motorola or shared
+    with third parties. To help us troubleshoot performance issues, Camera will store
+    image quality information in your photos' metadata. Sharing the photos will also
+    share image quality information.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: Digital TV Where supported, Motorola Digital TV brings the broadcast
+    TV experience to your mobile device, with the additional support of the Electronic
+    Program Guide (EPG) and Ginga for user interactivity. Users may also record the
+    TV programs they like and choose when to watch their favorite programs. Digital
+    TV will collect certain anonymous event-based data, such as which channels are
+    launched via Digital TV.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: Gallery Motorola's Gallery application has a Highlight Reel feature
+    that helps you make short video clips from your best photos and video scenes,
+    and a People view feature that lets you tag a person. For these features, Gallery
+    will analyze and compare faces that appear in your photos and videos (in addition
+    to other quality measurements) to select the best scenes or to group photos or
+    videos. Gallery keeps all data collected from your photos and videos relating
+    to facial analysis on device and uses it solely to create Highlight Reel content
+    or to group photos or videos.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Moto Moto makes your device more responsive by giving you more ways
+    to control and interact with it. Moto makes it easier for you to get important
+    notifications, control your device with your voice and gestures, and automate
+    useful settings changes depending on where you are or what you may be doing at
+    the time.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 'Moto Actions makes it easier to interact with your Motorola products
+    by letting you use simple gestures to perform tasks quickly. Moto Actions will:
+    Silence incoming calls and snooze alarms with a wave. Keep the screen on when
+    you''re paying attention to your device. Turn your flashlight on or off if you
+    make two "chopping" motions.'
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Moto Display will show important notifications on the screen of supported
+    products so you can get quick access to them without having to power on the screen
+    or unlock your home screen. Moto Display accesses certain content like your contacts,
+    calendar entries, along with other apps and the notifications they send you.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Moto Display accesses certain content like your contacts, calendar
+      entries, along with other apps and the notifications they send you.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: 'Moto Voice lets you control your Motorola products hands-free by
+    speaking commands. It will: Help you respond to calls and texts with your voice
+    when you''re driving, or at any location you choose.'
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Learn to recognize your voice and your launch phrase. This creates
+    a mathematical representation of your voice sample that we use to trigger Moto
+    Voice. For versions of Moto Voice that allow a custom launch phrase, Moto Voice
+    will also keep a recording of it on your device for authentication purposes. You
+    can also play it back to remind yourself at any time.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: Make a short recording after it detects your launch phrase. We use
+    this recording to either process your command or pass it onto Google Voice Search
+    (locales other than China) or LingXi voice search (in China) and don't upload
+    it to Motorola servers unless you specifically agree to share your voice commands
+    with us for performance analysis purposes. See what apps you have installed on
+    your phone so Moto Voice can help you control third-party apps with just your
+    voice.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 'To complete these tasks, Moto: Collects information about your Motorola
+    products'' current location and uploads it to Motorola to help identify places
+    of interest and to determine when you may be in a vehicle. Uses contextual data
+    obtained from your device''s microphone and sensors like the accelerometer and
+    gyroscope to determine when to activate certain modes, but does not upload it
+    to Motorola. Accesses user-generated content like your calendar entries, contacts,
+    and call history, but does not upload it to Motorola.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Accesses user-generated content like your calendar entries, contacts,
+      and call history, but does not upload it to Motorola.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Collects information about your Motorola products' current location
+      and uploads it to Motorola to help identify places of interest and to determine
+      when you may be in a vehicle.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'To complete these tasks, Moto:'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: Where supported, Moto will utilize Google Activity Recognition to
+    help understand contextual data and determine which modes to activate. Moto provides
+    contextual data to Google Activity Recognition subject to Google's privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 'Motorola Connect Motorola Connect lets you easily connect and manage
+    your Motorola products, like wireless earbuds, Bluetooth devices, wearable devices,
+    and applications that run on your computer. Motorola Connect: Checks your location
+    so it knows which supported devices are nearby. Automatically connects nearby
+    supported devices directly (like over Bluetooth) when they come into range, or
+    over the Internet. Syncs information among supported devices so you can switch
+    among them seamlessly. On non-Motorola mobile devices, we also collect information
+    about how often you use Motorola Connect features and how well Motorola Connect
+    is working.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Automatically connects nearby supported devices directly (like
+      over Bluetooth) when they come into range, or over the Internet.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+  - sentence_text: Motorola Connect Motorola Connect lets you easily connect and manage
+      your Motorola products, like wireless earbuds, Bluetooth devices, wearable devices,
+      and applications that run on your computer.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Motorola Connect: Checks your location so it knows which supported
+      devices are nearby.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+  - sentence_text: On non-Motorola mobile devices, we also collect information about
+      how often you use Motorola Connect features and how well Motorola Connect is
+      working.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+  - sentence_text: Syncs information among supported devices so you can switch among
+      them seamlessly.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: Additionally, some devices Motorola Connect manages rely on additional
+    information to work.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 'Motorola Connect Chrome Extension The Motorola Connect Chrome Extension
+    lets you send and receive messages, respond to phone calls, and read notifications
+    via an application you install on your computer''s Google Chrome browser. Motorola
+    Connect relies on user generated content like: Your contacts. Your call and voicemail
+    history. Your phone''s text and MMS messages. The country where you''re located.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Motorola Connect Chrome Extension The Motorola Connect Chrome Extension
+      lets you send and receive messages, respond to phone calls, and read notifications
+      via an application you install on your computer's Google Chrome browser.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Motorola Connect relies on user generated content like: Your contacts.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: The country where you're located.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Your call and voicemail history.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Your phone's text and MMS messages.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 50
+  segment_text: We sync this information to our servers periodically to keep information
+    in the browser extension current. We use location-related information to make
+    sure that we display phone numbers in the right local format but don't collect
+    it. Signing out of Motorola Connect from your Chrome browser extension will delete
+    any synced information from our server and from your computer. We also periodically
+    check (but do not collect) your device's coarse location so the browser extension
+    can display phone numbers properly formatted for the country you're in.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Signing out of Motorola Connect from your Chrome browser extension
+      will delete any synced information from our server and from your computer.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We also periodically check (but do not collect) your device's coarse
+      location so the browser extension can display phone numbers properly formatted
+      for the country you're in.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We sync this information to our servers periodically to keep information
+      in the browser extension current.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use location-related information to make sure that we display
+      phone numbers in the right local format but don't collect it.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 51
+  segment_text: Moto 360 and Moto Body The Moto 360 smartwatch and the related Moto
+    Body application use sensors built into the wearable device to collect wellness-related
+    data like your heart rate, step count, and calories so you can track your progress
+    towards daily and weekly activity goals. You can also create a wellness profile
+    by providing demographic information like your height, weight, gender, and age.
+    This will help your Moto 360 and Moto Body provide more accurate wellness information.
+    If you use the Moto Body Running feature, Moto Body will also track and display
+    your location on your device.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you use the Moto Body Running feature, Moto Body will also track
+      and display your location on your device.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Moto 360 and Moto Body The Moto 360 smartwatch and the related
+      Moto Body application use sensors built into the wearable device to collect
+      wellness-related data like your heart rate, step count, and calories so you
+      can track your progress towards daily and weekly activity goals.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This will help your Moto 360 and Moto Body provide more accurate
+      wellness information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You can also create a wellness profile by providing demographic
+      information like your height, weight, gender, and age.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 52
+  segment_text: Moto 360 and Moto Body can upload your wellness profile, data, and
+    location to our cloud and add it to your user profile. We use this information
+    to provide you with access to more accurate wellness information like activity
+    statistics over time. We also use it to create new, personalized features for
+    your Moto 360, Moto Body and other Motorola products.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: To delete a run, touch > Running. Touch the run you want to delete,
+    then touch
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: '> Delete run. To remove all your Moto Body activity data, contact
+    privacy@motorola.com.'
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: Moto 360 and Moto Body may also collect information about how often
+    you use Moto 360 and Moto Body and how they're working.
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: 'Moto Loop Moto Loop helps you manage your family, home, and supported
+    smart devices. Based on your settings and how you use Loop, it can automatically
+    adjust your devices and help keep track of family members who also use Loop. To
+    work, Loop needs access to the following about you and your family members who
+    accept your invitation to join Loop: GPS, Wi-Fi and mobile network to determine
+    when to adjust your home devices Motorola ID to identify you to other family members
+    Contacts list Your calendar Home, work, school and other times you specify in
+    Loop. Recent device locations for you and the family members who join Loop.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Recent device locations for you and the family members who join
+      Loop.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: 'To work, Loop needs access to the following about you and your
+      family members who accept your invitation to join Loop: GPS, Wi-Fi and mobile
+      network to determine when to adjust your home devices Motorola ID to identify
+      you to other family members Contacts list Your calendar Home, work, school and
+      other times you specify in Loop.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: 'Please note that Moto Loop also needs to send information to the
+    cloud to learn from your daily habits and those of your family. This includes
+    (as described above): Device locations and times Your family''s contact information
+    Your smart devices'' status'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that Moto Loop also needs to send information to the
+      cloud to learn from your daily habits and those of your family.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This includes (as described above): Device locations and times
+      Your family''s contact information Your smart devices'' status'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 58
+  segment_text: We'll save this information under your Motorola ID.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: 'Migrate Migrate lets you transfer certain content and settings from
+    your old devices directly to your new Motorola products. To migrate from another
+    Android device, you need to install an app on the old device. To migrate from
+    a non-smartphone we may have to automatically install software on your old phone,
+    Migrate uses wireless antennas to copy user generated content like: Contacts and
+    calendar information not synced to an online account. Text messages and call logs.
+    Photos, videos, and music stored on your old devices.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Migrate Migrate lets you transfer certain content and settings
+      from your old devices directly to your new Motorola products.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Photos, videos, and music stored on your old devices.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Text messages and call logs.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: 'To migrate from a non-smartphone we may have to automatically
+      install software on your old phone, Migrate uses wireless antennas to copy user
+      generated content like: Contacts and calendar information not synced to an online
+      account.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: To migrate from another Android device, you need to install an
+      app on the old device.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 60
+  segment_text: Using Migrate from a non-smartphone will only transfer contacts. To
+    migrate from an iOS device, we use a third-party service provider to sync select
+    user generated content from your iCloud account to your Google account. When you
+    add that Google account to your new Motorola device, the migrated content will
+    be available.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: 'Your device may also be enabled with the following experiences: Motorola
+    Alert Motorola Alert lets you alert people important to you when you''re in a
+    location that may not be safe and provide them with information they may be able
+    to use to help you. Motorola Alert: Lets you define places of interest like where
+    you live and work. Select emergency contacts from your address book to receive
+    notifications from Motorola Alert. Gives you the option to send automatic messages
+    to emergency contacts based on activities like entering and leaving places of
+    interest or to send predefined messages when you feel like you need help. Lets
+    you trigger an emergency mode, where Motorola Alert will automatically notify
+    your emergency contacts, sound an audible alarm, and enable you to easily place
+    an emergency call.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Gives you the option to send automatic messages to emergency contacts
+      based on activities like entering and leaving places of interest or to send
+      predefined messages when you feel like you need help.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Lets you trigger an emergency mode, where Motorola Alert will automatically
+      notify your emergency contacts, sound an audible alarm, and enable you to easily
+      place an emergency call.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Motorola Alert: Lets you define places of interest like where
+      you live and work.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Select emergency contacts from your address book to receive notifications
+      from Motorola Alert.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Your device may also be enabled with the following experiences:
+      Motorola Alert Motorola Alert lets you alert people important to you when you''re
+      in a location that may not be safe and provide them with information they may
+      be able to use to help you.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 62
+  segment_text: 'In order to work, Motorola Alert needs: Access to your contacts so
+    you can pick recipients for alerts. Make sure you keep this information up to
+    date! Your device''s location so you can share it with selected contacts when
+    you send alerts. To use cellular or Wi-Fi networks to send messages and place
+    emergency calls.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In order to work, Motorola Alert needs: Access to your contacts
+      so you can pick recipients for alerts.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Make sure you keep this information up to date!
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: To use cellular or Wi-Fi networks to send messages and place emergency
+      calls.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Your device's location so you can share it with selected contacts
+      when you send alerts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 63
+  segment_text: 'Droid Zap Droid Zap lets you share user generated content like photos
+    and videos with nearby people who have the Droid Zap app installed on their devices.
+    Droid Zap: Collects your Google account to enable you to share photos and videos
+    with your friends. Uploads your photos, videos, and location to a Motorola server.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Droid Zap lets you share user generated content like photos and
+      videos with nearby people who have the Droid Zap app installed on their devices.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Droid Zap: Collects your Google account to enable you to share
+      photos and videos with your friends.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Uploads your photos, videos, and location to a Motorola server.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 64
+  segment_text: Stores them long enough to allow people within about 1000 feet to
+    download them with a simple gesture. This will collect recipients' location and
+    Google account. Allows you to apply a random PIN so that only people you share
+    the code with can download your photos and videos. Lets you set up automated content
+    sharing sessions called Zap Zones that automatically share photos and videos participants
+    create with everyone else who has joined the Zap Zone.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Allows you to apply a random PIN so that only people you share
+      the code with can download your photos and videos.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Lets you set up automated content sharing sessions called Zap Zones
+      that automatically share photos and videos participants create with everyone
+      else who has joined the Zap Zone.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Stores them long enough to allow people within about 1000 feet
+      to download them with a simple gesture.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This will collect recipients' location and Google account.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED

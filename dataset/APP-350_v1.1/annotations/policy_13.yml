@@ -1,0 +1,448 @@
+policy_id: 13
+policy_name: co.happybits.marcopolo
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home Marco Polo About us Contact
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Back home Privacy Policy We are committed to safeguarding your information
+    This privacy policy ("Policy") describes how Joya Communications Inc. and its
+    related companies ("Company") collect, use, and share personal information of
+    consumer users who visit any of the Joya Communications Inc. websites where this
+    Policy is posted (including, but not limited to, certain websites relating to
+    the Marco Polo) (each a "Site") and video sharing and other mobile applications
+    ("Apps") (collectively, the "Service").
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: What we collect We collect information about you in several ways.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: "Information You Give Us We may collect information you choose to\
+    \ provide to us, such as your\u200E name, email address, mobile phone number,\u200E\
+    \ your photo, your friends' contact information as stored on your phone, and the\
+    \ content that you create, such as your texts, photos, and videos. If, as part\
+    \ of your use of the Service, you connect your Service account with an account\
+    \ from a supported social network account, such as Facebook (a \"Social Media\
+    \ Account\"), we may receive personal information from the corresponding social\
+    \ network that relates to your Social Media Account. Such personal information\
+    \ may be about you and/or your Social Media Account contacts. Please check the\
+    \ policies of the applicable social network in order to understand what information\
+    \ we receive. Even if you later disconnect your Service account from your Social\
+    \ Media Account, we still keep a copy of the personal information (such as your\
+    \ Social Media Account profile photo and your contact list) that we received from\
+    \ the connection of the two accounts, so that we may more easily connect you with\
+    \ your Social Media Account contacts who register with the Service in the future."
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Even if you later disconnect your Service account from your Social
+      Media Account, we still keep a copy of the personal information (such as your
+      Social Media Account profile photo and your contact list) that we received from
+      the connection of the two accounts, so that we may more easily connect you with
+      your Social Media Account contacts who register with the Service in the future.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: If, as part of your use of the Service, you connect your Service
+      account with an account from a supported social network account, such as Facebook
+      (a "Social Media Account"), we may receive personal information from the corresponding
+      social network that relates to your Social Media Account.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Please check the policies of the applicable social network in order
+      to understand what information we receive.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Such personal information may be about you and/or your Social Media
+      Account contacts.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: "We may collect information you choose to provide to us, such as\
+      \ your\u200E name, email address, mobile phone number,\u200E your photo, your\
+      \ friends' contact information as stored on your phone, and the content that\
+      \ you create, such as your texts, photos, and videos"
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Information We Get from Others We may get information about you from
+    other sources, including from social networks you link to through the Service.
+    We may add this to information we get from the Service.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may add this to information we get from the Service.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may get information about you from other sources, including
+      from social networks you link to through the Service.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: "Information Automatically Collected We use a third-party Service\
+    \ Provider (defined below) to automatically log information about you and your\
+    \ computer or mobile device, and how you use and interact with the Service. For\
+    \ example, when you access the Service, we may log\u200E your operating system\
+    \ type,\u200E browser type and\u200E language,\u200E the pages you viewed,\u200E\
+    \ how long you spent on a page,\u200E access times,\u200E Internet protocol (IP)\
+    \ address, your mobile device ID, mobile device serial number, unique user ID,\
+    \ wireless carrier, and information about your use of and actions on the Service.\
+    \ We may also use third party advertisements to support our Service. Some of these\
+    \ advertisers may use technology such as cookies, web beacons, pixel tags, or\
+    \ log files when they advertise on our Service, which may send these advertisers\
+    \ information, including your non-personal information."
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "For example, when you access the Service, we may log\u200E your\
+      \ operating system type,\u200E browser type and\u200E language,\u200E the pages\
+      \ you viewed,\u200E how long you spent on a page,\u200E access times,\u200E\
+      \ Internet protocol (IP) address, your mobile device ID, mobile device serial\
+      \ number, unique user ID, wireless carrier, and information about your use of\
+      \ and actions on the Service."
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some of these advertisers may use technology such as cookies, web
+      beacons, pixel tags, or log files when they advertise on our Service, which
+      may send these advertisers information, including your non-personal information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may also use third party advertisements to support our Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use a third-party Service Provider
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_3rdParty
+      modality: PERFORMED
+  - sentence_text: to automatically log information about you and your computer or
+      mobile device, and how you use and interact with the Service.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Cookies.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We may log information using "cookies." Cookies are small data files
+    stored on your hard drive by a website. Cookies help us make our Service and your
+    visit better. We use cookies to see which parts of our Service people use and
+    like and to count visits to our Service.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are small data files stored on your hard drive by a website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies help us make our Service and your visit better.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may log information using "cookies."
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Web Beacons We may log information using digital images called Web
+    beacons on our Service or in our emails. We use Web beacons to manage cookies,
+    count visits, and to learn what marketing works and what does not. We also use
+    Web Beacons to tell if you open or act on our emails.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may log information using digital images called Web beacons
+      on our Service or in our emails.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use Web beacons to manage cookies, count visits, and to learn
+      what marketing works and what does not.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Tracking Options and California Do Not Track Disclosures. You may
+    adjust your browser or operating system settings to limit this tracking or to
+    decline cookies, but by doing so, you may not be able to use certain features
+    on the Service or take full advantage of all of our offerings. Check the "Help"
+    menu of your browser or operating system to learn how to change your tracking
+    settings or cookie preferences. To learn more about the use of cookies or other
+    technologies to deliver more relevant advertising and your choices about not having
+    this information used by certain Service Providers (defined below), please click
+    here. On your mobile device, you can adjust your privacy and advertising settings
+    to limit your tracking for advertising or control whether you receive more relevant
+    advertising. Note that our systems may not recognize Do Not Track headers or requests
+    from some or all browsers.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Check the "Help" menu of your browser or operating system to learn
+      how to change your tracking settings or cookie preferences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Note that our systems may not recognize Do Not Track headers or
+      requests from some or all browsers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: On your mobile device, you can adjust your privacy and advertising
+      settings to limit your tracking for advertising or control whether you receive
+      more relevant advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: To learn more about the use of cookies or other technologies to
+      deliver more relevant advertising and your choices about not having this information
+      used by certain Service Providers (defined below), please click here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Tracking Options and California Do Not Track Disclosures.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You may adjust your browser or operating system settings to limit
+      this tracking or to decline cookies, but by doing so, you may not be able to
+      use certain features on the Service or take full advantage of all of our offerings.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Use of information We may use the information we collect from and
+    about you to (1) operate, maintain, and improve our Service; (2) allow you to
+    find and connect with your friends (when instructed by you); (3) let your friends
+    know about your activity on the Service; (4) monitor and analyze usage and trends
+    and personalize and improve the Service and your experience using the Service;
+    (5) respond to your comments and questions and provide customer service; (6) send
+    information including confirmations, invoices, technical notices, updates, security
+    alerts, and support and administrative messages; (7) protect, investigate, and
+    deter against fraudulent, unauthorized, or illegal activity; and (8) provide and
+    deliver products and services that you request.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Sharing of personal information We may share the information we collect
+    from and about you (1) with other Service users and social networking services,
+    according to your account preferences; (2) with your consent; (3) for legal, protection,
+    and safety purposes; (4) to comply with laws and in response to lawful requests
+    and legal processes; (5) to protect the rights and property of Joya Communications
+    Inc., our agents, customers, and others, including by enforcing our agreements,
+    policies, and terms of use; and (6) with those who need it to do work for us (our
+    "Service Providers").
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We may sell or purchase assets during the normal course of our business.
+    If another entity acquires us or any of our assets, information we have collected
+    about you may be transferred to such entity. In addition, if any bankruptcy or
+    reorganization proceeding is brought by or against us, such information may be
+    considered an asset of ours and may be sold or transferred to third parties. Should
+    such a sale or transfer occur, we will use reasonable efforts to try to require
+    that the transferee use personal information provided through this Service in
+    a manner that is consistent with this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Service providers We may contract with third parties to perform functions
+    related to the Service ("Service Providers"). Service Providers will have access
+    to your personal information needed to perform their business functions, but may
+    not use or share that personal information for purposes outside the scope of their
+    functions related to the Service.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Your California privacy rights For California residents: We may share
+    your personal information with third parties (including affiliated third parties
+    which may not share the Joya Communications Inc. name) for their direct marketing
+    purposes. Under California law, you may request information about our disclosure
+    of personal information to third parties for their direct marketing purposes.
+    To make such a request, please contact us at privacy@getjoya.com.'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Information choices and changes Our marketing emails tell you how
+    to "opt-out." If you opt out, we may still send you non-marketing emails. Non-marketing
+    emails include emails about your accounts and our business dealings with you.
+    You may send requests about personal information to our Contact Information below.
+    You can request to change contact choices, opt-out of our sharing with others,
+    and update your personal information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you opt out, we may still send you non-marketing emails.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Information choices and changes Our marketing emails tell you how
+      to "opt-out."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Non-marketing emails include emails about your accounts and our
+      business dealings with you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Links to other sites The Service may contain links to other third-party
+    websites or applications. Any information you provide on those sites is subject
+    to that third party's privacy policy. Our Policy does not apply to such sites,
+    and we are not responsible for the privacy and security practices and policies
+    of those third party sites or applications.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Our commitment towards children's privacy We do not direct the Service
+    to, nor do we knowingly collect any personal information from children under 13.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Security of your personal information We have taken certain physical,
+    administrative, and technical steps to help safeguard the information we collect
+    from and about you. While we take steps to help ensure the integrity and security
+    of our network and systems, we cannot guarantee our security measures.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Contact information We welcome your comments or questions about this
+    Policy. You may contact us at privacy@getjoya.com
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Changes to privacy policy We may change this Policy. If we make any
+    changes, we will change the Last Updated date below. We also may provide additional
+    notice, as applicable, depending on the type of change.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Last Updated on August 4th, 2016.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Back home Terms Privacy Law Enforcement
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "\xA9 Joya Communications Inc 2016"
+  annotations: []
+  sentences: []

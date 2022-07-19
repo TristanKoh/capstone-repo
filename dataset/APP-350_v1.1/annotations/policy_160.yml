@@ -1,0 +1,228 @@
+policy_id: 160
+policy_name: com.djinnworks.linerunnerfree
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Djinnworks StickmanSkateBattle MAIN Games Team Contact us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: PrevNext PRIVACY POLICY SOCIAL SHARE POSTS START SOCIAL SHARE POSTS
+    END THE CONTENT START
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Djinnworks GmbH Privacy Policy Djinnworks GmbH ("Djinnworks") has
+    adopted this privacy policy ("Privacy Policy") to explain how Djinnworks collects,
+    stores, and uses the information collected in connection with Djinnwork's products,
+    services and websites.In this policy we may also refer to Djinnworks as "We" or
+    "Us".
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: What we collect and how we use it We use technologies like cookies
+    (small files stored by your browser or operating system), web beacons, or unique
+    device identifiers to anonymously identify your computer or device. Our systems
+    also logs information like your browser, operating system, IP address and anonymous
+    usage data so we can deliver a better experience.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our systems also logs information like your browser, operating
+      system, IP address and anonymous usage data so we can deliver a better experience.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use technologies like cookies (small files stored by your browser
+      or operating system), web beacons, or unique device identifiers to anonymously
+      identify your computer or device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: What we share We do not sell, trade, or rent Users personal identification
+    information to others. We may share generic aggregated anonymous and demographic
+    information not linked to any personal identification information regarding visitors
+    and users with our business partners, trusted affiliates and advertisers for the
+    purposes outlined above.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may share generic aggregated anonymous and demographic information
+      not linked to any personal identification information regarding visitors and
+      users with our business partners, trusted affiliates and advertisers for the
+      purposes outlined above.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: What we don't collect We do not collect personally identifiable information
+    about you. In other words, we do not collect information such as your name, address,
+    phone number or email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: In other words, we do not collect information such as your name,
+      address, phone number or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 6
+  segment_text: We do not knowingly contact or collect personal information from children
+    under 13. If you believe we have inadvertently collected such information, please
+    contact us so we can promptly obtain parental consent or remove the information.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We do not use or collect your precise geographic location.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use or collect your precise geographic location.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 8
+  segment_text: We generally do not collect nor share personally identifiable information
+    (such as name, address, email or phone) with other companies.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We generally do not collect nor share personally identifiable information
+      (such as name, address, email or phone) with other companies.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 9
+  segment_text: Third Party, Services, Ads and Analytics Ad companies may use and
+    collect anonymous data about your interests to customize content and advertising
+    here and in other sites and applications. Interest and location data may be linked
+    to your device, but is not linked to your identity.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Interest and location data may be linked to your device, but is
+      not linked to your identity.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Analytics companies may access anonymous data (such as your IP address
+    or device ID) to help us understand how our services are used. They use this data
+    solely on our behalf. They do not share it except in aggregate form; no data is
+    shared as to any individual user.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytics companies may access anonymous data (such as your IP
+      address or device ID) to help us understand how our services are used.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: In order to serve you, we may share your anonymous information with
+    other companies, including vendors and contractors. Their use of information is
+    limited to these purposes, and subject to agreements that require them to keep
+    the information confidential. Our vendors provide assurance that they take reasonable
+    steps to safeguard the data they hold on our behalf, although data security cannot
+    be guaranteed.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'To operate the service, we also may make identifiable and anonymous
+    information available to third parties in these limited circumstances: (1) with
+    your express consent, (2) when we have a good faith belief it is required by law,
+    (3) when we have a good faith belief it is necessary to protect our rights or
+    property, or (4) to any successor or purchaser in a merger, acquisition, liquidation,
+    dissolution or sale of assets. Your consent will not be required for disclosure
+    in these cases, but we will attempt to notify you, to the extent permitted by
+    law to do so.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Information we collect may be stored or processed on computers located
+    in any country where we do business.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Security We take reasonable steps to secure your information against
+    unauthorized access or disclosure. We encrypt transmission of data on pages where
+    you provide payment information. However, no security or encryption method can
+    be guaranteed to protect information from hackers or human error.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Your acceptance of these terms By using this site or app, you signify
+    your acceptance of this policy. If you do not agree to this policy, please do
+    not use our site or app. Your continued use of the site or app following the posting
+    of changes to this policy will be deemed your acceptance of those changes.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Changes to this privacy policy This privacy policy was last updated
+    on 17th, november 2012. Our privacy policy may change from time to time. We will
+    update the last modification date whenever we change our policy.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 'If you have any questions or concerns about our privacy policies,
+    please contact us: privacy@djinnworks.at PRIVACY POLICY SOCIAL SHARE POSTS START
+    SOCIAL SHARE POSTS END THE CONTENT START'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'If you have any questions or concerns about our privacy policies,
+    please contact us: privacy@djinnworks.at StickmanSkateBattle MAIN Games Team Contact
+    us StickmanSkateBattle MAIN Games Team Contact us'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: undefined
+  annotations: []
+  sentences: []

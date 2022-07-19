@@ -1,0 +1,230 @@
+policy_id: 70
+policy_name: PerfectMobile
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Beauty Circle Privacy Policy We at Perfect Mobile Corp. (hereinafter
+    referred to as the 'Company') will handle all user information with respect to
+    the Company's "Beauty Circle" service and all its related services (hereinafter
+    referred to collectively as the 'Service') in accordance with the following.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Collected Information The Company shall collect following user information:
+    User Information 1) the user''s mobile phone number and email address/ a password
+    for Beauty Circle Service;'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SSID_BSSID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The Company shall collect following user information:'
+    annotations:
+    - practice: Identifier_SSID_BSSID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: the user's mobile phone number and email address/ a password for
+      Beauty Circle Service;
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: 2) the phone-book stored on the device; 3) profile information (Service
+    display names, gender, body profile information such as the skin, hair, nails
+    and eye attributes, profile photos, messages etc.), full name, date of birth,
+    and etc.;
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ), full name, date of birth, and etc.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: profile information (Service display names, gender, body profile
+      information such as the skin, hair, nails and eye attributes, profile photos,
+      messages etc.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: the phone-book stored on the device;
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 4) users' credit card information upon first purchase; 5) cookies;
+    6) user's IP address; 7) device information (OS type, serial number, mobile advertising
+    ID, hardware information etc.) browser type, and browser language;
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: browser type, and browser language;
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+  - sentence_text: cookies;
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: device information (OS type, serial number, mobile advertising
+      ID, hardware information etc.)
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+  - sentence_text: user's IP address;
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 8) user's Facebook and Weibo account name for log-in.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 9) anonymous location data, including but not limited to user's geo-location
+    and WiFi network to which a user's device is connected or in-range where applicable.
+  annotations:
+  - practice: Identifier_SSID_BSSID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: anonymous location data, including but not limited to user's geo-location
+      and WiFi network to which a user's device is connected or in-range where applicable.
+    annotations:
+    - practice: Identifier_SSID_BSSID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 'Purpose of User Information The collected user Information shall
+    be used for any of the following purposes: 1) to find people who the user knows,
+    or who know the user;'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 2) to provide our services to you; 3) for customer service, security,
+    archival and backup purposes in connection with the provision of our services;
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 4) to prevent fraudulent use of the Services by any users;
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 5) to provide you with better advertising and direct marketing experience;
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 6) to develop our new services and improve our existing services.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 7) for aggregated customer analytics and market research purposes.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Disclose the Information The Company will NOT disclose user information
+    to any third parties without the user`s consent, unless it is disclosed to a third
+    party contractor engaged by the Company as set forth below or is otherwise required
+    by laws and regulations of certain jurisdiction the Company is doing business.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Third Party Contractor The Company may engage a third party contractor
+    to handle the personal information collected from the users to achieve certain
+    purpose concerning the use of the Service, if Company, at its discretion, believe
+    it to be necessary. The Company will reasonably evaluate the eligibility and capability
+    of such third party contractor, execute a confidentiality agreement with it, and
+    make it set up a system to manage the collected information.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Shared Use of Information The Company may share the user's personal
+    information with a business partner, provided that the Company shall inform the
+    user of the purpose of information sharing, the name of the business partner,
+    and the information to be shared such a business partner.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Location information The company may share user's anonymous location
+    data with other third parties for interest-based advertising, aggregated customer
+    analytics and market research purposes.
+  annotations:
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Location information The company may share user's anonymous location
+      data with other third parties for interest-based advertising, aggregated customer
+      analytics and market research purposes.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Measurement of Advertising Effectiveness To measure the effectiveness
+    of the advertisement, the Company may install third party modules in the smart
+    phone versions of the Services.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Children's Privacy No Service provided by the Company is to be used
+    by minors. Consequently, the company will not knowingly collect user information
+    from minors. If, however, the Company, via notice or learn by itself, that it
+    has collected any user information from minors, the Company will deactivate that
+    user account and take reasonable measures to promptly delete such user information
+    from our records.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Opt-out right You may limit the disclosure of certain Non-Personal
+    Information by your mobile Device to the Company and our business partners by
+    adjusting the advertising settings on your mobile Device.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Modifications to this Privacy Policy This Privacy Policy may be revised
+    periodically. Notices will be sent to users to advise the changes.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Inquiries If an user has any questions about this Privacy Statement
+    or any complaints or comments on how the Company handle the user information related
+    to the Service, please write to BeautyCircle_AppSupport@PerfectCorp.com.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: This Privacy Policy has been created by Perfect Mobile Corp. February
+    6th 2015.
+  annotations: []
+  sentences: []

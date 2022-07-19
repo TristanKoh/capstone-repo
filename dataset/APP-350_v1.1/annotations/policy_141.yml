@@ -1,0 +1,360 @@
+policy_id: 141
+policy_name: com.appturbo.appoftheday2015
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: App of the Day - Privacy policy AppTurbo, the editor of the application,
+    is involving to protect the privacy rights of our users ("users" or "you"). This
+    privacy policy (the "policy") describes the ways we collect, store, use, and manage
+    the information, including personal information, that you provide or we collect
+    in connection with our mobile application "App of the Day" ("application" or "service").
+    Please note that the scope of this policy is limited to information collected
+    or received by us through your use of the service. We are not responsible for
+    the actions of third party people or companies, the content of their sites, the
+    use of information you provide to them, or any products or services they may offer.
+    Any link to those sites does not constitute our sponsorship of, or affiliation
+    with, those people or companies.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: By using the service, you are expressing your agreement to this policy
+    and the processing of your data, including your personal information, in the manner
+    provided in this policy. If you do not agree to these terms, please do not use
+    the service.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: If you have questions or concerns about our privacy policy or practices,
+    please contact us at privacy@appturbo.it.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Information collection We collects information as described below.
+    AppTurbo's primary goals in collecting and using information is to provide services
+    to you, improve our service, contact you, conduct research and create reports
+    for internal use. We store information on servers located in the United States
+    via Amazon Web Services and may store information on servers and equipment in
+    other countries.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Push notifications This application may send push notifications to
+    you.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: You may at any time opt-out from receiving these types of communications
+    by turning them off at the device level through your settings.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Facebook Authentification By registering or authenticating, you allow
+    us to identify you and give you access to dedicated services.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By registering or authenticating, you allow us to identify you
+      and give you access to dedicated services.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Facebook Authentication is a registration and authentication service
+    provided by Facebook, Inc. and is connected to the Facebook social network.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Facebook Authentication is a registration and authentication service
+      provided by Facebook, Inc. and is connected to the Facebook social network.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: We are able to access some data, stored by Facebook, for registration
+    or identification purposes.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We are able to access some data, stored by Facebook, for registration
+      or identification purposes.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: In addition, we may collect and record information through Facebook
+    in accordance with the policies and terms of Facebook. For more information, you
+    can access to their Privacy Policy here.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For more information, you can access to their Privacy Policy here.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: In addition, we may collect and record information through Facebook
+      in accordance with the policies and terms of Facebook.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: If you want us to delete the data we receive from Facebook about you,
+    please contact us at privacy@appturbo.it.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you want us to delete the data we receive from Facebook about
+      you, please contact us at privacy@appturbo.it.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Data collection Whenever you use our application, we collect data
+    about all of your interactions with the application via server log files. This
+    information may be associated with your advertising Id (Google Advertising Id)
+    for the purpose of providing you our services and improving them. This data is
+    stored within Amazon Web Services.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may be associated with your advertising Id (Google
+      Advertising Id) for the purpose of providing you our services and improving
+      them.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Whenever you use our application, we collect data about all of
+      your interactions with the application via server log files.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Location-based interaction We may collect your location based information
+    for the purpose of providing you location-based services. We will not share this
+    information with any third party. The geographic location of the User is determined
+    in a manner that isn't continuous. Please note, the application may not work properly
+    if we are unable to tell where you are coming from (Country specific).
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect your location based information for the purpose
+      of providing you location-based services.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We will not share this information with any third party.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Third party Services Our services may contain third party tracking
+    tools from our service providers, that include Google Analytics, Facebook Analytics
+    for Apps and Crashlytics. Such third parties may use cookies, APIs, and SDKs in
+    our services to enable them to collect and analyze user information on our behalf.
+    The third parties may have access to information such as your device identifier,
+    MAC address, IMEI, locale (specific location where a given language is spoken),
+    geo-location information, and IP address for the purpose of providing their services
+    under their respective privacy policies. Our privacy policy does not cover the
+    use of tracking tools from third parties. We do not have access or control over
+    these third parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our services may contain third party tracking tools from our service
+      providers, that include Google Analytics, Facebook Analytics for Apps and Crashlytics.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: Such third parties may use cookies, APIs, and SDKs in our services
+      to enable them to collect and analyze user information on our behalf.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: The third parties may have access to information such as your device
+      identifier, MAC address, IMEI, locale (specific location where a given language
+      is spoken), geo-location information, and IP address for the purpose of providing
+      their services under their respective privacy policies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: For operation and maintenance purposes, this application and any third
+    party services may collect files that record interaction with this Application
+    (System logs) or use for this purpose other personal data (such as IP Address).
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For operation and maintenance purposes, this application and any
+      third party services may collect files that record interaction with this Application
+      (System logs) or use for this purpose other personal data (such as IP Address).
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: Social media Our application includes social media features, such
+    as the Facebook Like button and widgets, such as the Share button. These Features
+    may collect your IP address and may set a cookie to enable the feature to function
+    properly. Social media features and widgets are either hosted by a third party
+    or hosted directly on our application. Your interactions with these features are
+    governed by the privacy policy of the company providing it.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our application includes social media features, such as the Facebook
+      Like button and widgets, such as the Share button.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: These Features may collect your IP address and may set a cookie
+      to enable the feature to function properly
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Ad network We may feature advertising within our service. The advertisers
+    may collect and use information about you, such as your service session activity,
+    or your Google advertising ID. They may use this information to provide advertisements
+    of interest to you.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The advertisers may collect and use information about you, such
+      as your service session activity, or your Google advertising ID.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may feature advertising within our service.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Personalized Advertising This application may use location data and
+    personal information for ad serving purposes and don't share any of these data
+    to third party services.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: This application may use location data
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: for ad serving purposes and don't share any of these data to third
+      party services.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 18
+  segment_text: Legal action The user's personal data may be used for legal purposes
+    by us, in Court or in the stages leading to possible legal action arising from
+    improper use of this application or the related services.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: The user declares to be aware that we may be required to reveal personal
+    data upon request of public authorities.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Changes to the policy We reserves the right to update this privacy
+    policy at any time. If we make any material changes we will give notice to you
+    on this page. We encourage you to review often this page for the latest information
+    on our privacy practices.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: If you object to any of the changes to the policy, you must cease
+    using this Application and can request that we remove your personal data at privacy@appturbo.it.
+    Unless stated otherwise, the then-current privacy policy applies to all personal
+    data than we has about you.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Acces to personnal information If your personal information changes,
+    or if you no longer desire our service, you may correct, update, or delete inaccuracies
+    by making the change within your account settings or by contacting us at privacy@appturbo.it.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Data retention We will retain your information for as long as needed
+    to provide you services, or as stated by the purposes outlined in this document.
+    If you wish to cancel your account or request that we no longer use your information
+    to provide you services, contact us at privacy@appturbo.it. We will retain and
+    use your information as necessary to comply with our legal obligations, resolve
+    disputes, and enforce our agreements.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Contact Information AppTurbo 38, rue des Jeuneurs 75002 Paris FRANCE
+    If you have any questions about this Policy, or if you have any request about
+    details concerning the collection or processing of personal data, please contact
+    us at privacy@appturbo.it.
+  annotations: []
+  sentences: []

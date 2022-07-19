@@ -1,0 +1,1033 @@
+policy_id: 224
+policy_name: FDG
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Home iPhone Across Age Across Age 2 Banana Kong Beach Bowling 3D
+    Beyond Ynth Bloody Harry Blosics Blueprint 3D Bobby Carrot Classic Serie Bobby
+    Carrot Forever Captain Antarctica Car Toons Chicken Raid Clear Vision Color the
+    Cartoon Farm Cover Orange Cover Orange: Journey Crystal Siege Expand it Facemania
+    Island Trip Jelly Zoo LONEWOLF Mahjong Elements Oceanhorn Paperama Parachute Panic
+    Red Ball 4 Roar Rampage Scotland Yard Sketch Breaker Slayin Slide Circus Super
+    Cat Bros. Swing Tale Tentacle Wars Tower Boxing Treasure Buster Venture Kid World
+    of Gibbets iPad Across Age HD Across Age 2 Banana Kong Beach Bowling 3D HD Beyond
+    Ynth HD Bloody Harry Blosics HD Blueprint 3D HD Captain Antarctica'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Car Toons! HD Chicken Raid HD Clear Vision Color the Cartoon Farm
+    Cover Orange HD Cover Orange: Journey Crystal Siege Expand it Facemania Island
+    Trip Jelly Zoo LONEWOLF Mahjong Elements HD Oceanhorn Paperama Parachute Panic
+    HD Red Ball 4 Roar Rampage Scotland Yard Sketch Breaker Slayin Slide Circus HD
+    Solitaire HD Super Cat Bros. Swing Tale HD Tentacle Wars HD Thingy Blox HD Tower
+    Boxing Treasure Buster Venture Kid World of Gibbets Android Across Age Across
+    Age 2 Banana Kong Beyond Ynth Blosics Bloody Harry Blueprint 3D CarToons Chicken
+    Raid Cover Orange Cover Orange: Journey Facemania LONEWOLF Oceanhorn Paperama
+    Red Ball 4 Slayin Slide Circus Super Cat Bros. Tentacle Wars Tower Boxing World
+    of Gibbets PS4 Oceanhorn Xbox One Oceanhorn Mac OSX Beyond Ynth HDX Mahjong Elements
+    HDX Cover Orange HDX Guides Beyond Ynth Bobby Carrot Forever Support Home Privacy
+    Policy'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "FDG Entertainment GmbH & Co. KG Privacy Policy (Part I: Websites)\
+    \ Data Processor: FDG Entertainment GmbH & Co.KG (hereinafter referred to as \u201E\
+    FDG\")"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Romanstr. 7/9 80639 Munich Germany Your rights / Contact to Us: FDG
+    is committed to keeping secure the data you provide us and will take reasonable
+    precautions to protect your personally identifiable information from loss, misuse
+    or alteration.'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'If you have any questions regarding data privacy, if you want to
+    inquire about the personal data we have stored on you or request us to delete
+    your personal data or object to the use of your personal data for advertising,
+    please contact us at: Mail: This email address is being protected from spambots.
+    You need JavaScript enabled to view it.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: '1. Collection and Processing of Personal Data: You may visit our
+    website without registering or otherwise submitting personal data.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We only collect personal data in order to process a support query,
+    which you can submit at http://www.fdg-entertainment.com/en/support.html. In this
+    case, we collect your name, company, email address and your query.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In this case, we collect your name, company, email address and
+      your query.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: "We only collect personal data in order to process a support query,\
+      \ which you can submit at\_http://www.fdg-entertainment.com/en/support.html."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: We will not use your personal data for other purposes than processing
+    your query. We will not transmit your personal data with third parties unless
+    we are legally required to do so, for example to criminal prosecution authorities.
+    Your data will not be processed outside Germany or the EU.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: '2. Cookies and pseudonymous user profiles: "Cookies" are pieces of
+    information that a web site transfers to an individual''s hard drive for record-keeping
+    purposes. Cookies allow the web site to remember important information that will
+    make your use of the site more convenient. Like most web sites, FDG uses cookies
+    for a variety of purposes in order to improve your on-line experience. For example,
+    we track the total number of visitors to our site on an anonymous aggregate basis.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies allow the web site to remember important information that
+      will make your use of the site more convenient.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Cookies and pseudonymous user profiles: "Cookies" are pieces of
+      information that a web site transfers to an individual''s hard drive for record-keeping
+      purposes.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, we track the total number of visitors to our site
+      on an anonymous aggregate basis.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Like most web sites, FDG uses cookies for a variety of purposes
+      in order to improve your on-line experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: We may also employ cookies so that we remember you when you return
+    to the site and to help customize your FDGs web experience. We may associate personal
+    information with a cookie file in those instances. Your user profile, however,
+    will always be pseudonymous, that means a random number is used for the cookie.
+    We will not associate other personal data (like your name, address etc.) with
+    your user profile.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also employ cookies so that we remember you when you return
+      to the site and to help customize your FDGs web experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Use the options in your web browser if you do not wish to receive
+    a cookie or if you wish to set your browser to notify you when you receive a cookie.
+    Click on the "Help" section of your browser to learn how to change your cookie
+    preferences. If you disable all cookies, you may not be able to take advantage
+    of all the features of this web site.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Click on the "Help" section of your browser to learn how to change
+      your cookie preferences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: If you disable all cookies, you may not be able to take advantage
+      of all the features of this web site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Use the options in your web browser if you do not wish to receive
+      a cookie or if you wish to set your browser to notify you when you receive a
+      cookie.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: '3. Links to Other Sites: We may offer links to sites that are not
+    operated by FDG. If you visit one of these linked sites, you should review their
+    privacy and other policies. We are not responsible for the policies and practices
+    of other companies, and any information you submit to those companies is subject
+    to their privacy policies.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '4. Changes to our Privacy Policy: From time to time, it may be necessary
+    for FDG to change this privacy policy. If we change our policy, we will post the
+    revised version here, so we suggest that you check here periodically for the most
+    up-to-date version of our privacy policy. Rest assured, however, that any changes
+    will not be retroactively applied and will not alter how we handle previously
+    collected information.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Privacy Policy (Part II: Apps and Services) 1. General a) Consent
+    By using the Services, you agree with the collection, processing and use of information
+    described in the Policy. If you do not agree to the terms of the Policy, please
+    do not use our Services.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: "b) Scope of application This Privacy Policy (the \"Policy\") describes\
+    \ the collection, processing and use of information, including personal information,\
+    \ that you (\"User\" or \"you\") provide to FDG Entertainment GmbH & Co. KG (\u201E\
+    we\" or \u201Eus\") in connection with or to provide our mobile applications and\
+    \ services (together \"our Services\")."
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: The collection, processing and use of information in connection with
+    our website is described in our website privacy policy in Part I above. The Policy
+    also does not apply to your participation in sweepstakes or contests unless provided
+    through our Services. We are not responsible for the actions of third party people
+    or companies, the use of information you provide to them, or any products or services
+    they may offer.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: c) Children We do not knowingly collect personal information from
+    children under 13 years of age. If we become aware that we have inadvertently
+    collected personal information from a child under 13 years of age, we well promptly
+    delete such information. We do not allow our partners to collect personally identifiably
+    information on children under 13 years of age. However, we and our partners collect
+    information that is not personally identifiable, such as IP-based geolocation
+    to ensure that our Services comply with applicable laws.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, we and our partners collect information that is not personally
+      identifiable, such as IP-based geolocation to ensure that our Services comply
+      with applicable laws.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: d) Contacting Us If you have questions or concerns about our privacy
+    policy or practices, please contact us at This email address is being protected
+    from spambots. You need JavaScript enabled to view it.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: If your personal information changes, or if you no longer desire our
+    service, you may correct, update, or delete inaccuracies by making the change
+    within your account settings or by contacting us at This email address is being
+    protected from spambots. You need JavaScript enabled to view it. . We will respond
+    to your access request within 30 days.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: e) Updates of the Policy We may update the Policy from time to time
+    to reflect changes to our information practices. We encourage you to periodically
+    review our website for the latest information on our privacy practices.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 2. Purpose of the Collection, Processing and Use of Information
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'We use information collected through our Services for the purposes
+    described in the Policy or disclosed to you in connection with our Service. For
+    example, we may use your information for the following purposes: a) Registration,
+    i.e. to create game accounts and allow users use our Services or participate in
+    sweepstakes and contests'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: b) Providing our Services, i.e. to - identify and suggest connections
+    with other users of our Services and enable you to communicate with other users;
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: '- operate and improve our Services; - respond to your comments and
+    questions and provide customer service;'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: '- provide and deliver products and services you request.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Whenever you use our Services, we collect data about all of your interactions
+    with the application and with the other players inside the game via server log
+    files. This information may be associated with your player ID, IP address or device
+    ID for the purpose of providing you our Services and improving them.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may be associated with your player ID, IP address
+      or device ID for the purpose of providing you our Services and improving them.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Whenever you use our Services, we collect data about all of your
+      interactions with the application and with the other players inside the game
+      via server log files.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: c) Marketing, i.e. to - send you related information, including confirmations,
+    invoices, technical notices, updates, security alerts, and support and administrative
+    messages;
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: '- communicate with you about promotions, rewards, upcoming events,
+    and other news about products and services offered by Us and our selected partners;'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: d) Developing our Services, i.e. to - understand you and your preferences
+    to enhance your experience using our Services;
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: '- link or combine it with other information we get from third parties,
+    to help understand your preferences and provide you with better services.'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 3. Retention of Information We will retain your information for as
+    long as your account is active or as needed to provide you our Services. If you
+    wish to cancel your account or request that we no longer use your information,
+    contact us at This email address is being protected from spambots. You need JavaScript
+    enabled to view it. . We will retain and continue to use your information, however,
+    as necessary to comply with our legal obligations, resolve disputes, and enforce
+    our agreements.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 4. Disclosure of information We do not share your personal information
+    except as approved by you or as described below.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: With your consent, for example, when you agree to our sharing your
+    information with other third parties for their own marketing purposes subject
+    to their separate privacy policies. If you no longer wish to allow us to share
+    your information with third parties, please contact us at This email address is
+    being protected from spambots. You need JavaScript enabled to view it. . If you
+    no longer wish to receive such communications from third parties, please contact
+    that third party directly.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: We may engage other companies and individuals to perform services
+    on our behalf. This includes analyzing data and providing customer support. These
+    agents and service providers may have access to your personal information in connection
+    with the performance of services for Us.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: We may release your information as permitted by law, such as to comply
+    with a subpoena, or when we believe that release is appropriate to comply with
+    the law; investigate fraud, respond to a government request, enforce or apply
+    our rights; or protect the rights, property, or safety of us or our users, or
+    others. This includes exchanging information with other companies and organizations
+    for fraud protection.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: We may share your information in connection with any merger, sale
+    of our assets, or a financing or acquisition of all or a portion of our business
+    to another company. You will be notified via email and/or notice on our site of
+    any change in ownership or users of your personal information.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: We may share aggregate or anonymous information about you with advertisers,
+    publishers, business partners, sponsors, and other third parties.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 5. Sign-in Services You can log in to our Services using sign-in services
+    such as Facebook Connect, Google+, Google Play Game Services, or Apple Game Center.
+    These services will authenticate your identity and provide you the option to share
+    certain personal information with Us such as your name and email address to pre-populate
+    our sign up form.
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These services will authenticate your identity and provide you
+      the option to share certain personal information with Us such as your name and
+      email address to pre-populate our sign up form.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You can log in to our Services using sign-in services such as Facebook
+      Connect, Google+, Google Play Game Services, or Apple Game Center.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: 'We may collect and record information through the Sign-in Service
+    in accordance with the policies and terms of the respective Sign-in Service. The
+    information we collect when you connect your user account to an Sign-in Service
+    may include: (1) your name, (2) your Sign-in Service user identification number
+    and/or user name, (3) locale, city, state and country, (4) sex, (5) birth date,
+    (6) email address, (7) profile picture or its URL, and (8) the Sign-in Service
+    user identification numbers for your friends that are also connected to our Services.'
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The information we collect when you connect your user account
+      to an Sign-in Service may include: (1) your name, (2) your Sign-in Service user
+      identification number and/or user name, (3) locale, city, state and country,
+      (4) sex, (5) birth date, (6) email address, (7) profile picture or its URL,
+      and (8) the Sign-in Service user identification numbers for your friends that
+      are also connected to our Services.'
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may collect and record information through the Sign-in Service
+      in accordance with the policies and terms of the respective Sign-in Service.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: We may offer you the opportunity to invite your contacts from a Sign-in
+    Service so that those contacts can be located in our Services games and/or you
+    can invite them to join you in our Services. The contact information will not
+    be used for other purposes. You or the addressee may request us to remove this
+    information.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The contact information will not be used for other purposes.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may offer you the opportunity to invite your contacts from a
+      Sign-in Service so that those contacts can be located in our Services games
+      and/or you can invite them to join you in our Services.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You or the addressee may request us to remove this information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: 6. Push Notifications We may occasionally send you push notifications
+    through our mobile applications to send you game updates, high scores and other
+    service related notifications that may be of importance to you. You may at any
+    time opt-out from receiving these types of communications by turning them off
+    at the device level through your settings.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 7. Sweepstakes and Contests We may provide you the opportunity to
+    participate in a sweepstakes or contest through our Services. If you participate,
+    we will request certain personal information from you. Participation in these
+    sweepstakes and contests are voluntary and you therefore have a choice whether
+    or not to disclose this information. The requested information typically includes
+    contact information (such as name and shipping address), and demographic information
+    (such as zip code).
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you participate, we will request certain personal information
+      from you.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: Participation in these sweepstakes and contests are voluntary and
+      you therefore have a choice whether or not to disclose this information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: The requested information typically includes contact information
+      (such as name and shipping address), and demographic information (such as zip
+      code).
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: We may provide you the opportunity to participate in a sweepstakes
+      or contest through our Services.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: We use this information to notify winners and award prizes, to monitor
+    traffic or personalize our Services. We may use a third party service provider
+    to conduct these sweepstakes or contests; that company is prohibited from using
+    your users' personal information for any other purpose.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 8. Analytics a) Cookies A cookie is a small text file that we transfer
+    to your device, to identify a user's device and to remember things about your
+    visit, such as your preferences or a user name and password. Information contained
+    in a cookie may be linked to your personal information, such as your user ID,
+    for purposes such as improving the quality of our Service, tailoring recommendations
+    to your interests, and making our Services easier to use. You can disable cookies
+    at any time, although you may not be able to access or use features of the Service.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A cookie is a small text file that we transfer to your device,
+      to identify a user's device and to remember things about your visit, such as
+      your preferences or a user name and password.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Information contained in a cookie may be linked to your personal
+      information, such as your user ID, for purposes such as improving the quality
+      of our Service, tailoring recommendations to your interests, and making our
+      Services easier to use.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can disable cookies at any time, although you may not be able
+      to access or use features of the Service.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 44
+  segment_text: We may feature advertisements served by third parties that deliver
+    cookies to your device so the content you access and advertisements you see can
+    be tracked. Since the third party advertising companies associate your computer/device
+    with a number, they will be able to recognize your device each time they send
+    you an advertisement. These advertisers may use information about your visits
+    to our Service and third party sites and applications in order to measure advertisement
+    performance and to provide advertisements about goods and services of interest
+    to you.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Since the third party advertising companies associate your computer/device
+      with a number, they will be able to recognize your device each time they send
+      you an advertisement.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may feature advertisements served by third parties that deliver
+      cookies to your device so the content you access and advertisements you see
+      can be tracked.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 45
+  segment_text: b) Mobile Analytics Software We use mobile analytics software to allow
+    us to better understand the functionality of our Services on your device. This
+    software may record information such as how often you use the application, the
+    events that occur within the application, aggregated usage, performance data,
+    and where the application was downloaded from. We do not link the information
+    we store within the analytics software to any personal information you submit
+    within the mobile application.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 9. Third Party Services a) Analytics and tracking Our Services may
+    contain third party analytic and tracking tools from our service providers, including
+    Flurry (flurry.com) and Hockey App (hockeyapp.net). Such third parties may use
+    cookies, APIs, and SDKs in our Services to enable them to collect and analyze
+    user information on our behalf. The third parties may have access to information
+    such as your device identifier, MAC address, IMEI, locale (specific location where
+    a given language is spoken), geo-location information, and IP address for the
+    purpose of providing their services under their respective privacy policies. Our
+    privacy policy does not cover the use of tracking tools from third parties. We
+    do not have access or control over these third parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our Services may contain third party analytic and tracking tools
+      from our service providers, including Flurry (flurry.com) and Hockey App (hockeyapp.net).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: Such third parties may use cookies, APIs, and SDKs in our Services
+      to enable them to collect and analyze user information on our behalf.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: The third parties may have access to information such as your device
+      identifier, MAC address, IMEI, locale (specific location where a given language
+      is spoken), geo-location information, and IP address for the purpose of providing
+      their services under their respective privacy policies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 47
+  segment_text: 'Please refer to the privacy policies of our analytics partners for
+    information on how to opt out at: - http://hockeyapp.net/privacy/ - http://www.flurry.com/legal-privacy/end-user-opt-out
+    b) Ad Networks We may feature advertising within our Service. The advertisers
+    may collect and use information about you, such as your Service session activity,
+    device identifier, MAC address, IMEI, geo-location information and IP address.
+    They may use this information to provide advertisements of interest to you. Please
+    refer to the privacy policies of our advertising partners for more information
+    on how to opt out at: - https://answers.chartboost.com/hc/en-us/articles/200780269-Privacy-Policy
+    - http://www.playhaven.com/privacy - http://home.tapjoy.com/info/about-tapjoy/privacy-policy
+    - http://www.vungle.com/privacy - http://www.inmobi.com/privacy-policy - http://privacy.adcolony.com
+    - http://www.google.com/policies/privacy - http://www.millennialmedia.com/privacy-policy
+    - http://www.apple.com/legal/privacy/en-ww - https://www.amazon.com/gp/help/customer/display.html?nodeId=468496
+    - https://www.heyzap.com/legal/privacy - http://www.mopub.com/legal/ - http://unity3d.com/legal/cookie-policy#cookies
+    - https://www.applovin.com/privacy In addition, you may see our games advertised
+    in other services. After clicking on one of these advertisements and installing
+    our game, you will become a user of our Service. In order to verify the installs,
+    a device identifier may be shared with the advertiser.'
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The advertisers may collect and use information about you, such
+      as your Service session activity, device identifier, MAC address, IMEI, geo-location
+      information and IP address.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may feature advertising within our Service.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: 10. Security of your Personal Information We take reasonable measures
+    to protect your information from unauthorized access or against loss, misuse or
+    alteration by third parties.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: Although we make good faith efforts to store the information collected
+    on the Service in a secure operating environment that is not available to the
+    public, we cannot guarantee the absolute security of that information during its
+    transmission or its storage on our systems. Further, while we attempt to ensure
+    the integrity and security of our network and systems, we cannot guarantee that
+    our security measures will prevent third-party "hackers" from illegally obtaining
+    access to this information. We do not warrant or represent that your information
+    will be protected against, loss, misuse, or alteration by third parties. No method
+    of transmission over the Internet, or method of electronic storage, is 100% secure,
+    however. Therefore, we cannot guarantee its absolute security.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 11. International Transfer Game data is stored on servers located
+    in the United States via Amazon Web Services or profitbricks.com in Germany and
+    may store information on servers and equipment in other countries.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: We may transfer information that we collect about you to affiliated
+    entities, or to other third parties across borders and from your country or jurisdiction
+    to other countries or jurisdictions around the world. Please note that these countries
+    and jurisdictions may not have the same data protection laws as your own jurisdiction,
+    and you consent to the transfer of information to the U.S. and the use and disclosure
+    of information about you, including personal information, as described in the
+    Policy.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 'Last updated: January 2015 Terms of Use Imprint Privacy Policy EULA
+    Contact'
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: "\xA9 2017 - FDG Entertainment GmbH & Co. KG"
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: Thus, we will not request personal information from you. We will not
+    request contact information (such as name and shipping address), and demographic
+    information (such as zip code).
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Thus, we will not request personal information from you. We will
+      not request contact information (such as name and shipping address), and demographic
+      information (such as zip code).
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 55
+  segment_text: No cookies are employed.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No cookies are employed.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 56
+  segment_text: We do not offer you the opportunity to invite your contacts from a
+    Sign-in Service so that those contacts can be located in our Services games and/or
+    you can invite them to join you in our Services.
+  annotations:
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not offer you the opportunity to invite your contacts from
+      a Sign-in Service so that those contacts can be located in our Services games
+      and/or you can invite them to join you in our Services.
+    annotations:
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 57
+  segment_text: We do not collect personal data. In this case, we do not collect your
+    name, company, email address and your query.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect personal data. In this case, we do not collect
+      your name, company, email address and your query.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 58
+  segment_text: We do not feature advertising within our Service. There are no advertisers
+    collecting or using information about you, such as your Service session activity,
+    device identifier, MAC address, IMEI, geo-location information and IP address.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not feature advertising within our Service. There are no
+      advertisers collecting or using information about you, such as your Service
+      session activity, device identifier, MAC address, IMEI, geo-location information
+      and IP address.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 59
+  segment_text: 'You cannot log in to our Services using sign-in services such as
+    Facebook Connect, Google+, Google Play Game Services, or Apple Game Center. We
+    will not collect or record the following information: your name, your Sign-in
+    Service user identification number and/or user name, locale, city, state and country,
+    sex, birth date, email address, profile picture or its URL.'
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'You cannot log in to our Services using sign-in services such
+      as Facebook Connect, Google+, Google Play Game Services, or Apple Game Center.
+      We will not collect or record the following information: your name, your Sign-in
+      Service user identification number and/or user name, locale, city, state and
+      country, sex, birth date, email address, profile picture or its URL.'
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 60
+  segment_text: The third parties do not have access to information such as your device
+    identifier, MAC address, IMEI, locale (specific location where a given language
+    is spoken), geo-location information, or IP address.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The third parties do not have access to information such as your
+      device identifier, MAC address, IMEI, locale (specific location where a given
+      language is spoken), geo-location information, or IP address.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 61
+  segment_text: No collection of information that is potentially personally identifiable,
+    such as IP-based geolocation, is conducted by us or our advertising partners.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No collection of information that is potentially personally identifiable,
+      such as IP-based geolocation, is conducted by us or our advertising partners.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 62
+  segment_text: Our Services contain third party analytic and tracking tools from
+    our service providers. However, such third parties are not using cookies, APIs,
+    and SDKs in our Services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our Services contain third party analytic and tracking tools from
+      our service providers. However, such third parties are not using cookies, APIs,
+      and SDKs in our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED

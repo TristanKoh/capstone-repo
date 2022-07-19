@@ -1,0 +1,1331 @@
+policy_id: 82
+policy_name: SonyMobile
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Please help us improve our website Take our customer survey to evaluate
+    your visit.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: It should only take a few minutes to answer five quick questions.
+    Just click the Launch survey button at the end of your visit to begin.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Launch survey No thanks sony-logo account arrowhead-up cart mobile-menu
+    search sm-bold-x x-skinny-rounded x-skinny arrowhead-down Shop Phones Tablets
+    Smart Products Accessories Apps & Services Apps & Services
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Explore the world of Sony Apps and Services. Photo and video apps
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Let your creativity run wild Music and movie apps
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Your ticket to the biggest hits and hottest shows Tools and productivity
+    apps
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Personalise your Xperia, keep it safe and more Support
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Login My account Log out submit Sony Mobile Communications Sony Mobile
+    Privacy Policy This Privacy Policy was last updated in April 2015 Sony Mobile
+    Communications AB ("Sony Mobile") is the Sony Mobile group company acting as the
+    data controller in connection with any personal information collected or received
+    by Sony Mobile arising from your use of any Sony Mobile products, services, applications,
+    websites (including any e-commerce stores) and contact centres made available
+    to you.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: This Policy explains the types of information that we may collect
+    and hold, how that information is used and with whom the data is shared. It also
+    sets out how you can contact us if you have any queries or concerns about this
+    information.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Please note that other companies in the Sony group are responsible
+    for their respective data processing activities in connection with other Sony
+    products and services. These Sony group companies may have their own privacy policies,
+    which are generally available from the relevant websites for those products and
+    services.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We reserve the right to make changes to this Privacy Policy at any
+    time. Your continued use of our products, applications, services and websites
+    that are subject to this Privacy Policy will signify your acceptance of any and
+    all changes to this Privacy Policy made by us from time to time.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'Click on the relevant section heading to expand that section: 1.
+    Information that we collect 2. How Sony Mobile uses the information that you provide
+    or which it collects'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 3. Sharing information about you 4. Linked Sony accounts ("One Sign
+    In") 5. International transfers of your information 6. Marketing communications
+    7. Security of your personal information 8. Cookies 9. Access to your information
+    and your rights 10. Links to third party sites 11. Children's privacy 12. California
+    Residents Privacy Rights Notice 13. Notice for Australia Residents 14. Notice
+    for New Zealand Residents 15. Notice for Malaysia Residents 16. Notice for Singapore
+    Residents 17. Contact us 1. Information that we collect close What personal information
+    does Sony Mobile collect and where does this information come from?
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Sony Mobile may collect information about you in several different
+    ways. Please take care when submitting information to us, particularly when completing
+    free text fields or uploading content, documents and other materials. Some of
+    our services are automated and we may not recognise that you have accidentally
+    provided us with incorrect or sensitive information. Information that you provide
+    us
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Whenever you interact with Sony Mobile, you may be asked to provide
+    us with information relating to you. For example: Some of our applications or
+    services require you to create an account. When creating your account(s), we may
+    ask you to provide a range of information, such as your name, date of birth, location,
+    contact details, applicable device ID(s) relating to the devices you are using
+    to access and receive particular applications and services, interests and account
+    and marketing preferences and your current mobile network operator When you purchase,
+    register, send for repair or return one of our products via any one of our authorised
+    channels, we may ask you to provide information such as your contact details,
+    applicable device ID (s) relating to your particular product(s), delivery date
+    and place of purchase and payment information When you contact our customer service
+    centres for assistance (by any means of communication including written communications
+    or via our website(s), support forums, telephone, email, SMS, or our social media
+    channels), we may record all customer service calls and keep information about
+    the particular communication, including your name, the product(s) you bought,
+    the reason why you contacted us, applicable device ID(s) relating to your particular
+    product(s), and the advice we gave you so we can track the resolution of any customer
+    service issues and for customer service training purposes When you join and/or
+    participate in one of our loyalty programmes, we may collect information relating
+    to your use of the loyalty programme and the rewards you claim When you visit
+    us at a public event, such as a trade show or exhibition or participate in one
+    of our surveys, competitions or prize draws, we may ask for information, such
+    as your business card, name, contact details, interests and marketing preferences
+    When you use our applications and services or other platforms, we may receive
+    content that you choose to upload, such as product reviews, comments, photos and
+    forum posts, or details of your interests and preferences that you choose to tell
+    us about when, for example, selecting the services that you wish to receive Information
+    we collect from other sources We may also collect information from publicly available
+    sources and third parties, including: When you seek to make a purchase from us,
+    we may carry out credit and financial checks to ensure payment is not made fraudulently
+    and that you have a suitable credit rating If you purchase products or services
+    from a Sony Centre, mobile network operator or other retailer, we may receive
+    certain information about your purchase from that retailer We may also receive
+    information about you from other Sony group companies that you interact with;
+    in particular, when you link your accounts for certain Sony group services (for
+    more information about linked Sony accounts, see the "Linked Sony accounts" section
+    4 below) Information we collect in relation to social networks If you use any
+    of our social network applications, pages or plug-ins or you use one of our products
+    or services that allow interaction with social networks, we may receive information
+    relating to your social network accounts. For instance: If you log-in to one of
+    our websites, applications or services using your social network account, we may
+    receive basic details from your social network profile. The basic details we receive
+    may depend on your social network account privacy settings; however, they might
+    include your social network ID, name, profile picture, gender and locale. We may
+    also receive additional information from your profile if you give us permission
+    to access it'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For instance: If you log-in to one of our websites, applications
+      or services using your social network account, we may receive basic details
+      from your social network profile.'
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: If you use any of our social network applications, pages or plug-ins
+      or you use one of our products or services that allow interaction with social
+      networks, we may receive information relating to your social network accounts.
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Some of our applications or services require you to create an account.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: The basic details we receive may depend on your social network
+      account privacy settings; however, they might include your social network ID,
+      name, profile picture, gender and locale.
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may also receive additional information from your profile if
+      you give us permission to access it
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: When creating your account(s), we may ask you to provide a range
+      of information, such as your name, date of birth, location, contact details,
+      applicable device ID(s) relating to the devices you are using to access and
+      receive particular applications and services, interests and account and marketing
+      preferences and your current mobile network operator
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: When you contact our customer service centres for assistance (by
+      any means of communication including written communications or via our website(s),
+      support forums, telephone, email, SMS, or our social media channels), we may
+      record all customer service calls and keep information about the particular
+      communication, including your name, the product(s) you bought, the reason why
+      you contacted us, applicable device ID(s) relating to your particular product(s),
+      and the advice we gave you so we can track the resolution of any customer service
+      issues and for customer service training purposes
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: When you purchase, register, send for repair or return one of our
+      products via any one of our authorised channels, we may ask you to provide information
+      such as your contact details, applicable device ID (s) relating to your particular
+      product(s), delivery date and place of purchase and payment information
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: When you visit us at a public event, such as a trade show or exhibition
+      or participate in one of our surveys, competitions or prize draws, we may ask
+      for information, such as your business card, name, contact details, interests
+      and marketing preferences
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: If you click on a 'like', '+1' or 'tweet' or similar button in one
+    of our websites or services, we may record the fact that you have done so. In
+    addition, the content that you are viewing may be posted to your social network
+    profile or feed. We may receive information about further interactions with this
+    posted content (for example, if your contacts click on a link in the posted content),
+    which we may associate with the details that we store about you If you 'like',
+    '+1' or similar one of our pages on a social network site, we may receive information
+    about your social network profile, depending on your social network account privacy
+    settings
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'For more information and for details about how you can control access
+    to your social network profile, you should view the privacy policy and other guidance
+    available on your social network''s website. Information we collect when you use
+    websites, products, services and applications from Sony Mobile In order to improve
+    and provide a better user experience, some of our websites, Internet-enabled products
+    and applications and services provide Sony Mobile with information about your
+    use of them, including: Details of your usage patterns, the content (including
+    any advertisements) that you view and interact with including information on the
+    services and applications you are using in-device to personalise services to your
+    specific needs. For example, when you use our websites, we may collect information
+    about your visit, such as your browser software, which pages you view and which
+    items you ''clicked'' on or added to your shopping basket'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In order to improve and provide a better user experience, some
+      of our websites, Internet-enabled products and applications and services provide
+      Sony Mobile with information about your use of them, including:'
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Service, product or server logs, which hold technical information
+    about your use of our service, product or websites, such as your IP address, device
+    ID(s), domain, device and application settings, errors and hardware activity.
+    We may use your IP address to determine your location/country of origin.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Service, product or server logs, which hold technical information
+      about your use of our service, product or websites, such as your IP address,
+      device ID(s), domain, device and application settings, errors and hardware activity.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use your IP address to determine your location/country of
+      origin.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: Device Information such as your device ID(s), including information
+    about where your device is physically located. For example, when you are using
+    a geo-location service or application and you have given consent to your location
+    being shared With your explicit consent, information related to your physical
+    behaviour health, and biometric data such as voice authentication data, fingerprint
+    or facial characteristics or features Interests and preferences that you specify
+    during setup of the Internet enabled product or service Details of your linked
+    Sony accounts and when and how you used them (for more information about linked
+    Sony accounts, see the "Linked Sony accounts" section 4 below)
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Device Information such as your device ID(s), including information
+      about where your device is physically located.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, when you are using a geo-location service or application
+      and you have given consent to your location being shared
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: 2. How Sony Mobile uses the information that you provide or which
+    it collects
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'close How does Sony Mobile use your personal information? Sony Mobile
+    may use the information you provide or which it collects for a wide range of purposes,
+    including: General Sony Mobile may use information it collects for the following
+    purposes: Provide you with a product or service you have requested (including
+    any back up and restore service), delivering your purchase to you or ensuring
+    that you benefit from any relevant special offer or promotion (and fulfil its
+    obligations under any other agreement it may have with you) Fraud prevention and
+    investigation purposes, for example, using device information such as device ID(s)
+    to ensure that any vouchers or discounts relating to any promotions or campaigns
+    are not being redeemed fraudulently, checking that a payment is not made fraudulently'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How does Sony Mobile use your personal information?
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Sony Mobile may use the information you provide or which it collects
+      for a wide range of purposes, including: General Sony Mobile may use information
+      it collects for the following purposes: Provide you with a product or service
+      you have requested (including any back up and restore service), delivering your
+      purchase to you or ensuring that you benefit from any relevant special offer
+      or promotion (and fulfil its obligations under any other agreement it may have
+      with you) Fraud prevention and investigation purposes, for example, using device
+      information such as device ID(s) to ensure that any vouchers or discounts relating
+      to any promotions or campaigns are not being redeemed fraudulently, checking
+      that a payment is not made fraudulently'
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: Create and manage customer database(s) of its users including basic
+    account information (such as your name, date of birth, address, contact details),
+    applicable device ID(s) (relating to the devices you are using to access and receive
+    particular applications and services), related product or service usage information
+    and customer preference information as provided by you from time to time. As part
+    of our ongoing customer relationship management activities, we may consolidate
+    several databases into one or otherwise link separate databases to more effectively
+    manage your accounts.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Create and manage customer database(s) of its users including basic
+      account information (such as your name, date of birth, address, contact details),
+      applicable device ID(s) (relating to the devices you are using to access and
+      receive particular applications and services), related product or service usage
+      information and customer preference information as provided by you from time
+      to time.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Provide you with software updates, (your device will send its device
+    ID to us). These updates may contain critical security and functionality patches
+    that make your phone more secure (protecting all the personal data on your phone)
+    and improve its performance. For staff training and quality assurance purposes,
+    particularly in relation to our customer relations staff at our call, email and
+    other customer support centres Ask for your opinions on Sony Mobile products and
+    services and conduct product surveys Facilitate and process your searches and
+    requests for information when you contact us about Sony Mobile and its products
+    and services Hold prize draws, contests and other promotional offers Consider
+    employing you if contact us via one of Sony Mobile's job application websites
+    Checkout assistance service
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Provide you with software updates, (your device will send its device
+      ID to us).
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: When you use our applications and services including any online e-commerce
+    stores, such as Xperia store, details of any products that you seek to purchase
+    and your email address may be collected as you fill in the checkout form. If you
+    do not complete your purchase, we and/or our authorised fulfilment partner(s)
+    may contact you using these details to offer our assistance (in case, for instance,
+    you were experiencing technical difficulties that prevented you from completing
+    a transaction).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use our applications and services including any online
+      e-commerce stores, such as Xperia store, details of any products that you seek
+      to purchase and your email address may be collected as you fill in the checkout
+      form.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: This is an optional service. You can choose not to receive our checkout
+    assistance emails at any time by following the link at the bottom of each assistance
+    email. Marketing communications
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Sony Mobile and/or other Sony group companies may use your information
+    to provide you with product and service updates, newsletters and other communications
+    about existing and/or new products and services by post, email, telephone, in-device
+    messaging and/or text message (SMS), if you have provided your prior consent or
+    we are otherwise permitted to do so under applicable law. See the Marketing communications
+    section 6 below for more details. Personalised content, recommendations and advertisements
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Personalised content, recommendations and advertisements
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: See the Marketing communications section 6 below for more details.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: Sony Mobile and/or other Sony group companies may use your information
+      to provide you with product and service updates, newsletters and other communications
+      about existing and/or new products and services by post, email, telephone, in-device
+      messaging and/or text message (SMS), if you have provided your prior consent
+      or we are otherwise permitted to do so under applicable law.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: Sony Mobile may use the information it collects and/or any information
+    about you which is shared with us (e.g. from other Sony group companies whose
+    products, applications and services you also use) to personalise its stores, services,
+    content, recommendations and adverts. You may notice this personalisation when
+    you use Sony Mobile products and services, when we send you marketing communications
+    and when you visit our own and third party websites that show advertisements from
+    us or our advertising partners (for example, you might see an advertisement for
+    a product that you have recently viewed on one of our websites).
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Some of the personalisation that you see on our websites or in our
+    online advertisements makes use of cookies set by us or our third party advertising
+    partners. Please see our Cookie Policy for more information. In other cases, our
+    applications and services may have specific settings to control personalised content;
+    you should consult the applicable terms and conditions of the relevant application
+    or service for more information. Statistics and Research Sony Mobile may use your
+    information to create user group profiles or segment data and to otherwise create
+    anonymous, aggregated statistics about the use of our websites, products, services
+    and loyalty programmes, which we may share with third parties and/or make available
+    to the public. Product/Services Improvement Sony Mobile may use your information
+    to improve and enhance existing Sony Mobile products, services and applications
+    and develop new offerings, recommendations, advertisements and other communications
+    and learn more about customers' shopping preferences in general. Publish your
+    reviews, comments and content Where you have uploaded product reviews, comments
+    or content to our websites or services and made them publicly visible, Sony Mobile
+    may link to, publish or publicise these materials elsewhere including in our own
+    advertisements. Forums
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please see our Cookie Policy for more information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some of the personalisation that you see on our websites or in
+      our online advertisements makes use of cookies set by us or our third party
+      advertising partners.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: Each time you create or reply to a post or thread on a website forum
+    from Sony Mobile, in addition to providing this forum service, we may also record
+    the forum name and the time and date of your post or thread with your account
+    details. We do this to better understand the 'typical users' of our forums and
+    to select or tailor our marketing communications to reflect your forum activity.
+    We do not use the actual content of your forum posts or threads for purposes of
+    sending marketing communications. Combining the information we collect
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: We may link or combine the information that we collect from the different
+    sources outlined above in the "Information that we collect" section 1 above (including
+    information received from other Sony group companies about your use of other Sony
+    group products and services). Information may be linked via a unique identifier,
+    such as a cookie or account number (particularly when you link Sony accounts -
+    for more information about linked Sony accounts, see the "Linked Sony accounts"
+    section below). Alternatively, we may decide to combine two or more databases
+    into a single database of customer information. We may do this for your and/or
+    our convenience (for example, to allow you to more easily register for a new service),
+    to allow us to provide more seamless customer support whenever you contact us
+    and to provide you with better, personalised services, content, marketing and
+    adverts.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information may be linked via a unique identifier, such as a cookie
+      or account number (particularly when you link Sony accounts - for more information
+      about linked Sony accounts, see the "Linked Sony accounts" section below).
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may link or combine the information that we collect from the
+      different sources outlined above in the "Information that we collect" section
+      1 above (including information received from other Sony group companies about
+      your use of other Sony group products and services).
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: 3. Sharing information about you close How is information about you
+    shared within Sony and with 3rd parties? Sharing of information by Sony Mobile
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 'In general, Sony Mobile does not disclose information about you to
+    third parties without your consent. However, there are exceptions: Other Sony
+    group companies We may disclose information about you including basic account
+    information (such as your name, date of birth, address, contact details), applicable
+    device ID(s) (relating to the devices you are using to access and receive particular
+    applications and services), related product or service usage information and any
+    customer preference information as provided by you from time to time) to other
+    Sony group companies where (i) we have engaged such other Sony group companies
+    to provide data processing services to us (and these other Sony group companies
+    will only process your data in accordance with our instructions and shall be subject
+    to appropriate confidentiality and security obligations; or'
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: (ii) you use your Sony Mobile devices and/or applications or services
+    to access, purchase or download content, services, applications or products that
+    are published, developed, supported or offered by other Sony group companies.
+    They may combine this information with other details they hold about you. Unless
+    they provide you with their own privacy policy, they may use your personal details
+    for the purposes explained in this Privacy Policy. Where you have multiple accounts
+    with different Sony group companies, these Sony group companies may also share
+    information with us in accordance with their own privacy policies. Sony Centres
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: If you choose to purchase products or services from a Sony Centre
+    (whether in-store, through our website or over the telephone), your purchase information
+    may be shared by Sony Mobile with that Sony Centre. Your purchase information
+    may be combined with other data that Sony Centre holds about you as a customer,
+    such as details of other purchases you have made. Our service providers
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: We may use other Sony group companies and/or third party service providers
+    to provide certain data processing services for us (acting as our authorised data
+    processors). Examples of authorised data processors could include billing and
+    fulfilment partners, data analytics providers who process information on our behalf
+    for the purposes outlined above. For example, we may use the services of third
+    parties to personalise content, fulfil orders, deliver packages, send postal mail
+    and emails, send text messages (SMS), provide marketing assistance, process credit
+    card payments, provide fraud checking services and provide customer services.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: When acting as our authorised data processors, our service providers
+    (including Sony group companies) are required to only process data in accordance
+    with our instructions, in line with this Policy, and are subject to appropriate
+    confidentiality and security obligations. Third Party Advertising Partners
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 'Where you download and/or use any Sony Mobile applications and/or
+    services that include third party advertisements (whether featured within the
+    application or service itself or displayed to end users using a frame, wrapper,
+    pop up or any other form of advertising functionality), we may share information
+    we collect about your usage of the applications and services with our advertising
+    partners so that they can better target and/ or personalise advertisements displayed
+    within any Sony Mobile service or application used by you. Some of our third party
+    advertising partners act independently, and thus will handle shared data under
+    the terms of their own privacy policies. When such sharing occurs our applications
+    and /or services will notify you when you first activate the application and/or
+    service. Additionally, you can control personalised ads in your browser''s cookie
+    settings (for more information see our Cookie Policy) and in your Android device
+    via the Settings menu (Settings -> Google -> Ads). Third party newsletters If
+    you request or agree to receive information or newsletters from one of our business
+    partners, we may provide that third party with your details so that they can contact
+    you and/or respond to your request. Legal and business purposes We may use and/or
+    disclose to third parties information about you: (i) To government bodies and
+    law enforcement agencies to prevent fraud, to comply with applicable laws, regulations
+    and court orders and to comply with valid legal information requests from such
+    bodies (ii) To third parties (including professional advisors) to enforce or defend
+    the legal rights of any Sony group company or the terms and conditions of any
+    Sony product or service (iii) To a third party purchaser or seller, and its and
+    our professional advisors, in connection with a corporate event such as a merger,
+    business acquisition or insolvency situation Anonymous statistics'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, you can control personalised ads in your browser's
+      cookie settings (for more information see our Cookie Policy) and in your Android
+      device via the Settings menu (Settings -> Google -> Ads).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: We prepare anonymous, aggregate or generic data (including "generic"
+    statistics) for a number of purposes as outlined above. As we consider that you
+    cannot reasonably be identified from this information, we may share it with any
+    third party (such as our partners, advertisers, industry bodies, the media and/or
+    the general public). Sharing of information provided by you
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 'A number of our applications and services allow you to upload and
+    share messages, photos, video and other content and links with others and/or create
+    a publicly accessible profile for your account. For example: The communities and
+    forums area (where applicable) of our websites allows you to post comments (with
+    your account name), which are visible to other users of that service Other services
+    allow you to share a link which if clicked on may allow the recipient to access
+    your uploaded content'
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Please be aware that any content and links that you share via Sony
+    Mobile's applications and services might, for instance, be forwarded by your recipients
+    to others. You should always exercise discretion when using such applications
+    and services.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: We ask our users to take responsibility for protecting their own privacy
+    online and to also respect the privacy of others. Participants in any communities,
+    forums and message boards are prohibited from disclosing their own personally
+    identifying information other than their own online IDs. Disclosure of phone numbers,
+    addresses, age or other personally identifying information that may breach someone
+    else's privacy is prohibited. Encouraging or asking users to publicly disclose
+    their personally identifying information is also prohibited.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 4. Linked Sony accounts ("One Sign In") close What are linked Sony
+    accounts and how are they used?
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Your accounts for different Sony applications and services can be
+    linked together so you can use the same sign in details (email address and password)
+    to access them all ("One Sign In"). Other basic account details are also synchronised
+    across your linked accounts, so you can more easily manage your accounts. How
+    are they used by Sony group companies?
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How are they used by Sony group companies?
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Other basic account details are also synchronised across your linked
+      accounts, so you can more easily manage your accounts.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Your accounts for different Sony applications and services can
+      be linked together so you can use the same sign in details (email address and
+      password) to access them all ("One Sign In").
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 43
+  segment_text: This Privacy Policy applies to our use of information relating to
+    your linked account(s) and your use of our applications and services.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: Other applications and services from Sony are operated by different
+    Sony group companies. The privacy policy of each service will tell you how your
+    account details will be used in connection with that service, and which Sony group
+    company is responsible (you can find the privacy policy for a service on its website).
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 'However, Sony group companies may generally use information relating
+    to your linked Sony accounts for the following purposes: Linking accounts / synchronised
+    basic account details We will share basic account details with another Sony group
+    company when you: link your account for our services with your account for that
+    Sony group company''s service(s); or make changes to your basic account details
+    (as these details are synchronised, changes will automatically be made across
+    all of your linked accounts). Customer Support'
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: When you have linked accounts for Sony services, any Sony call, email
+    or other support centre for those services may access your basic account details
+    to handle your queries. As above, changes you make via customer support will automatically
+    be made across all of your linked accounts. Notification of news, competitions
+    and offers from Sony
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: You may be offered the opportunity to sign up to receive information
+    about Sony group news, competitions and offers. If you do, companies in the Sony
+    group may send you their news, competitions and offers and may use your linked
+    Sony accounts to make this information more relevant to you. Customer analysis
+    Information relating to your linked accounts may be collated and analysed by the
+    Sony group (in a manner that does not directly identify you) for product and service
+    development, business promotion and research purposes and the results shared with
+    other Sony group companies and third parties (even if you do not use any of their
+    services)
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: After you have linked your accounts, the Sony group company operating
+    each service you are accessing will continue to control your account for that
+    service (and any data collected when you use that service) in accordance with
+    its privacy policy. Linking your accounts does not change this.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: If you wish to exercise any personal data rights (such as your right
+    of access) in connection with an individual account, you will need to contact
+    the relevant Sony group company controlling that account using the details given
+    in its privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: In the event that you wish to cancel or terminate some or all of your
+    linked accounts, you will need to follow the account cancellation process for
+    each individual service or account you wish to cancel. It will not be possible
+    for you to cancel some or all of your linked accounts by contacting just one Sony
+    group company. Each Sony group company can only process and action account cancellation
+    requests for their own particular services.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: 5. International transfers of your information close How does Sony
+    Mobile transfer information about you to other countries?
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: Sony Mobile is part of the Sony group, which is a global organisation.
+    For the purposes explained in this Policy, your information (including your linked
+    account details - for more information about linked Sony accounts, see the "Linked
+    Sony accounts" section 4) may be transferred to Sony group companies (including
+    service providers operating on their behalf) and other third parties in countries
+    which do not have the same level of data protection laws as those in the country
+    where you are located. Each of those Sony group companies (and their authorised
+    data processors) will however comply with Sony Mobile's internal policy relating
+    to processing of personal data which complies with the key data protection principles
+    of fair handling of personal data and ensuring adequate level of protection of
+    personal data.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 6. Marketing communications close How does Sony Mobile use your personal
+    information to send you marketing communications and how can you change your marketing
+    preferences?
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: When you provide us with contact details, such as when you purchase
+    a product, contact our customer support call centres or create an account for
+    one of our services, you may be given the opportunity to opt-in to (or in certain
+    cases where applicable law allows, opt-out of) receiving various newsletters and
+    other communications from Sony Mobile and/or other Sony group companies. These
+    communications may include, for instance, details about the latest Sony products
+    and services, including upgrades and special offers in which you may be interested.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you provide us with contact details, such as when you purchase
+      a product, contact our customer support call centres or create an account for
+      one of our services, you may be given the opportunity to opt-in to (or in certain
+      cases where applicable law allows, opt-out of) receiving various newsletters
+      and other communications from Sony Mobile and/or other Sony group companies.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 55
+  segment_text: 'You can change your marketing communication preferences at any time:
+    If you would like to unsubscribe from an email sent to you, follow the ''unsubscribe''
+    link and/or instructions placed (typically) at the bottom of the email. But note
+    that: If you use more than one e-mail address to shop or contact Sony Mobile,
+    you will need to unsubscribe separately for each email address'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'But note that: If you use more than one e-mail address to shop
+      or contact Sony Mobile, you will need to unsubscribe separately for each email
+      address'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'You can change your marketing communication preferences at any
+      time: If you would like to unsubscribe from an email sent to you, follow the
+      ''unsubscribe'' link and/or instructions placed (typically) at the bottom of
+      the email.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 56
+  segment_text: This method will only unsubscribe you for emails. You will need to
+    separately unsubscribe for other types of marketing communications you receive.
+    If you have registered with any applications and services provided by Sony Mobile
+    and have your own account, you may log in and amend your marketing communication
+    preferences in the account settings page or area You can contact us using the
+    details in the "Contact us" section below to change your marketing communication
+    preferences
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: Please note that we may occasionally send you important information
+    (including via email) about Sony Mobile products and services that you are using
+    or have used including essential software updates, changes to applicable terms
+    and conditions and/or other communications or notifications as may be required
+    to fulfil our legal and contractual obligations to provide warranty or after sales
+    repair services.
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: These important product and/or service communications are not affected
+    by your marketing communication preferences.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: '7. Security of your personal information close How does Sony Mobile
+    protect your personal information and what can you do to protect yourself? What
+    we do to protect your information While Sony Mobile can''t guarantee that unauthorised
+    access will never occur, rest assured that Sony Mobile takes great care in maintaining
+    the security of your personal data to prevent unauthorised access to it, through
+    the use of appropriate technology and internal procedures. We take a number of
+    steps to protect your information from unauthorised access, use or alteration
+    and unlawful destruction, including where appropriate: Using Secure Sockets Layer
+    (SSL) encryption when collecting or transferring sensitive information, such as
+    credit card details (SSL encryption is designed to make the data unreadable by
+    anyone but us) Limiting access to the information we collect about you (for instance,
+    only those of our personnel who need your information to carry out our business
+    activities are allowed access) Putting in place physical, electronic, and procedural
+    safeguards in line with industry standards What you should do to protect your
+    information As general best practice on the Internet, it is recommended that individuals
+    take great care with user accounts, and follow some basic rules: Do not use trivial
+    passwords (such as single dictionary words) Do not use the same password for multiple
+    accounts Do use very long passwords (at least 10 characters, but preferably much
+    longer)'
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: Do use passwords which contain a combination of upper and lower case
+    letters, numbers and special characters e.g. $%^& etc. Do keep passwords securely
+    (never written down, or shared with anyone) and changed periodically
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: 8. Cookies close What are cookies and how are they used? Our websites
+    use industry-wide technologies, such as "cookies", to collect information about
+    the use of our websites and email communications. For instance, these technologies
+    may tell us which visitors clicked on key elements (such as links or graphics)
+    on a website or email and recognise your browser the next time you visit our websites.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies close What are cookies and how are they used?
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For instance, these technologies may tell us which visitors clicked
+      on key elements (such as links or graphics) on a website or email and recognise
+      your browser the next time you visit our websites.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Our websites use industry-wide technologies, such as "cookies",
+      to collect information about the use of our websites and email communications.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 62
+  segment_text: Cookies allow us to customise your experience to better match your
+    interests and preferences, or to simply facilitate your signing in to use the
+    services. Most browsers will allow you to erase cookies from your computer hard
+    drive, block acceptance of cookies or receive a warning before a cookie is stored.
+    However, if you block or erase cookies, we may not be able to restore any preferences
+    or customisation settings you have previously specified, and our ability to personalise
+    your online experience would be limited. Please refer to your browser instructions
+    to learn more about these functions.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies allow us to customise your experience to better match your
+      interests and preferences, or to simply facilitate your signing in to use the
+      services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: However, if you block or erase cookies, we may not be able to restore
+      any preferences or customisation settings you have previously specified, and
+      our ability to personalise your online experience would be limited.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Most browsers will allow you to erase cookies from your computer
+      hard drive, block acceptance of cookies or receive a warning before a cookie
+      is stored.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please refer to your browser instructions to learn more about these
+      functions.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 63
+  segment_text: More information about our use of cookies can be found in our Cookie
+    Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: More information about our use of cookies can be found in our Cookie
+      Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 64
+  segment_text: 9. Access to your information and your rights close How can you access
+    your personal information and what are your rights?
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: If you would like a copy of the personal information that we store
+    about you in our customer databases, please contact us using the details given
+    in the "Contact us" section below. You may be asked to provide some proof of identification
+    so that we can verify that it is you making the request. We reserve the right,
+    subject to applicable law, to charge a fee (subject to any cap on fees as required
+    by applicable law) for inspection of your personal data held by us.
+  annotations: []
+  sentences: []
+- segment_id: 66
+  segment_text: This is in addition to your legal rights, including the right to access
+    a copy of your personal information, the right to request the deletion or updating
+    of any inaccurate personal data and the right to object, in some cases, to our
+    processing of your personal data. You can exercise these rights by contacting
+    us using the details given in the "Contact us" section below.
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: We will only retain your personal data for as long as is reasonably
+    necessary for the various purposes set out in section 2 above or to otherwise
+    comply with any applicable laws and regulations concerning the mandatory retention
+    of certain types of information relating to our customers and/or any commercial
+    transactions with them. Should any personal data held by us no longer be required
+    by us for any of the purposes set out in section 2 above "How Sony Mobile uses
+    the information that it collects", we undertake to take reasonable steps to destroy
+    or de-identify any personal data after a reasonable period of time has elapsed.
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: If you are concerned that we have not complied with your legal rights
+    or applicable privacy laws, you may contact your local data protection authority.
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: 10. Links to third party sites close Does this Privacy Policy extend
+    to third party websites visited when following links on our website(s)?
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: Some of our websites may contain links to other third party websites
+    that are not operated by Sony Mobile, including websites operated by other Sony
+    group companies.
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: While Sony Mobile tries to link only to sites that share Sony Mobile's
+    high standards and respect for privacy, we are not responsible for the content,
+    security or privacy practices of those third party websites. We strongly encourage
+    you to view the privacy and cookie policies displayed on those third party websites
+    to find out how your personal information may be used.
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: 11. Children's privacy close Sony Mobile considers a child to be anyone
+    under the age of 16. We do not knowingly seek or collect personal information
+    from or about children in contravention of any applicable laws and regulations.
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: 'If Sony Mobile becomes aware that personal information that has been
+    submitted to it relates to a child in contravention of any applicable laws and
+    regulations, Sony Mobile will use reasonable efforts to: Delete that personal
+    information from its files as soon as possible Ensure, where deletion is not possible,
+    that this personal information is not used further for any purpose, nor disclosed
+    further to any third party'
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: Any parent or guardian with queries regarding our processing of personal
+    information relating to their child should contact us using the details provided
+    in the "Contact us" section.
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: '12. California Residents Privacy Rights Notice close California residents
+    have the right to receive: a) information identifying any third party company(ies)
+    to whom Sony Mobile may have disclosed, within the past year, personal information
+    pertaining to you related to direct marketing purposes; and b) a description of
+    the categories of personal information disclosed. Please email your request to
+    Contact us'
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: '"Do Not Track" Signals. Your browser settings may allow you to automatically
+    transmit a so called "Do Not Track" signal to websites and online services you
+    visit. Sony Mobile currently does not alter its practices when it receives a "Do
+    Not Track" signal. More information is available at http://www.allaboutdnt.com.
+    Also note that third parties may collect personal information about your online
+    activities over time and across different websites when you visit our websites
+    or other online websites and services.'
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: 13. Notice for Australia Residents close In relation to Section 5
+    "International transfers of your information" above, we will disclose your personal
+    information to parties in a number of countries, including Singapore, New Zealand,
+    the United States of America, Japan, the United Kingdom, Sweden and Belgium. From
+    time to time we will need to disclose your personal information to parties in
+    other countries not on this list. This will be on an ad hoc or case by case basis
+    and for the purposes for which we collected your personal information.
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: 'Complaints: If you are concerned that we have not complied with your
+    legal rights or applicable privacy laws, you may bring a complaint internally
+    through our complaints process or you may decide to make a formal complaint with
+    the Office of the Australian Information Commissioner (www.oaic.gov.au) (which
+    is the regulator responsible for privacy in Australia). We will deal with complaints
+    as follows: Step 1: let us know If you would like to make a complaint, let us
+    know by contacting our PIM Officer at privacy.australia@sonymobile.com or use
+    the details set out in section 17 "Contact us" below. Step 2: investigation of
+    complaint'
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: 'Your complaint will be investigated by our PIM Officer. A response
+    to your complaint will be given in writing within a reasonable period. Step 3:
+    contact OAIC'
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: 'We expect that our procedures will deal fairly and promptly with
+    your complaint. However, if you remain dissatisfied, you can also contact the
+    Office of the Australian Information Commissioner as follows: Office of the Australian
+    Information Commissioner (OAIC) Complaints must be made in writing Tel: 1300 363
+    992 Address: Director of Compliance Office of the Australian Information Commissioner
+    GPO Box 5218 Sydney NSW 2001 Web: www.oaic.gov.au'
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: 14. Notice for New Zealand Residents close Nothing herein shall limit
+    the rights of customers under the Privacy Act 1993. All instructions regarding
+    your data and queries from you will be followed up and answered by us as soon
+    as possible.
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: 15. Notice for Malaysia Residents close In view of the implementation
+    of the Personal Data Protection Act 2010 ("Act"), Sony Mobile recognises the need
+    to process all personal data obtained in a lawful and appropriate manner. The
+    legal responsibility for compliance with the Act lies with Sony Mobile, which
+    is the "data user" under the Act. Compliance with this Privacy Policy and the
+    Act is the responsibility of all employees of Sony Mobile. As and when Sony Mobile
+    is required to collect personal data, Sony Mobile and its employees must abide
+    by the requirements of this Privacy Policy and the Act. In the context of the
+    Act, "processing" is defined as including the collection, recording, holding or
+    storing of personal data which includes, inter alia, NRIC numbers, home address
+    and contact details.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As and when Sony Mobile is required to collect personal data, Sony
+      Mobile and its employees must abide by the requirements of this Privacy Policy
+      and the Act.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Compliance with this Privacy Policy and the Act is the responsibility
+      of all employees of Sony Mobile.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: In the context of the Act, "processing" is defined as including
+      the collection, recording, holding or storing of personal data which includes,
+      inter alia, NRIC numbers, home address and contact details.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Notice for Malaysia Residents close In view of the implementation
+      of the Personal Data Protection Act 2010 ("Act"), Sony Mobile recognises the
+      need to process all personal data obtained in a lawful and appropriate manner.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: The legal responsibility for compliance with the Act lies with
+      Sony Mobile, which is the "data user" under the Act.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 83
+  segment_text: 'A data subject has the following rights under the Act: i. Request
+    for access to personal data held on the individual, the purpose for which the
+    personal data is being used and those to whom it has, or can be disclosed;'
+  annotations: []
+  sentences: []
+- segment_id: 84
+  segment_text: ii. Prevent data processing that is likely to cause distress or damage;
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: iii. Take reasonable action to stop the use of, rectify, erase, and/or
+    dispose of inaccurate personal data; and
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: iv. Withdraw consent given to Sony Mobile.
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: Any individual who intends to exercise the abovementioned rights or
+    has any inquiries regarding this Privacy Policy should make a written request
+    to Sony Mobile at privacy.malaysia@sonymobile.com or use the details set out in
+    section 17 "Contact us" below. Sony Mobile will generally be able to respond to
+    such queries and/or requests within 30 days.
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: 16. Notice for Singapore Residents close Sony Mobile collects, uses,
+    discloses, manages and handles Personal Data that is subject to the Personal Data
+    Protection Act 2012 (No. 26 of 2012) ("the Act"). Please read this Privacy Policy
+    carefully. By accessing our website, using any services provided by Sony, signing
+    up for any products and services provided by Sony, submitting any information
+    to us, or otherwise showing your agreement thereon, you will be deemed to have
+    agreed and consented to the terms of this Data Protection Policy.
+  annotations: []
+  sentences: []
+- segment_id: 89
+  segment_text: '"Personal Data" means any data, whether true or false, which can
+    be related to a specific identifiable individual, whether such individual is identifiable
+    from the data itself, or from other information that is available to Sony Mobile.
+    Personal Date includes the personal information collected, used, disclosed, managed
+    and handled in accordance with this Privacy Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 90
+  segment_text: 'If you (a) have any questions or feedback relating to your Personal
+    Data or our Privacy Policy, (b) would like to withdraw your consent to any use
+    of your Personal Data as set out in this Privacy Policy or otherwise, or (c) would
+    like to gain access or make corrections to your Personal Data records, please
+    contact Sony Mobile as follows: Email: privacy.singapore@sonymobile.com Write
+    in: Data Protection Officer Sony Mobile Communications International AB, Singapore
+    Branch 2 International Business Park, #01-10 Tower One, The Strategy Singapore
+    609930'
+  annotations: []
+  sentences: []
+- segment_id: 91
+  segment_text: Sony Mobile will generally be able to respond to such queries and/or
+    requests within 30 days.
+  annotations: []
+  sentences: []
+- segment_id: 92
+  segment_text: If you withdraw your consent to any or all use of your Personal Data,
+    depending on the nature of your request, Sony Mobile may not be able to continue
+    to provide its products and/or services to you.
+  annotations: []
+  sentences: []
+- segment_id: 93
+  segment_text: 17. Contact us close How can you contact Sony Mobile about your personal
+    information?
+  annotations: []
+  sentences: []
+- segment_id: 94
+  segment_text: If you need further assistance or would like to make a comment, please
+    Contact us Contact us Product Support About Sony News & blog Sony Mobile press
+    releases Executive biographies Sustainability Careers More sites About Xperia
+    Smartphone photography Xperia in Business Xperia & Android About Smart Products
+  annotations: []
+  sentences: []
+- segment_id: 95
+  segment_text: Global site - English - Change Facebook Twitter YouTube Google+ LinkedIn
+    Instagram Local channels Follow us Legal page Software security Cookies
+  annotations: []
+  sentences: []
+- segment_id: 96
+  segment_text: "Copyright \xA9 2011-2017 Sony Mobile Communications Inc. All rights\
+    \ reserved"
+  annotations: []
+  sentences: []
+- segment_id: 97
+  segment_text: This website uses cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This website uses cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 98
+  segment_text: Learn more
+  annotations: []
+  sentences: []

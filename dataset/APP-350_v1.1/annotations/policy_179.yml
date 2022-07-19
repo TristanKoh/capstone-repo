@@ -1,0 +1,139 @@
+policy_id: 179
+policy_name: com.naing.mp3converter
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Toggle navigation Naing Group Contact Us Privacy Policy Login
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Your Privacy is important to us. This Privacy statements
+    states how and why we use those personal data which we collects from you. This
+    Privacy policy is a part to our terms of service and applies to the information
+    that is collected during the connection with the installation and use of the application,
+    related service and our site. For any question or regards about this Privacy Policy
+    please contact us at group.naing@gmail.com.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Information which we collects: For your service only we collects
+    your personal information as per we need. Only for provide and the improvement
+    the App services we are committed to collecting the necessary information.'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Personal Information: We do not collect Personal Information. Personal
+    Information is information that identifies you or another person, such as your
+    first name and last name, physical addresses, email addresses, telephone, fax,
+    SSN, information stored within your device.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal Information is information that identifies you or another
+      person, such as your first name and last name, physical addresses, email addresses,
+      telephone, fax, SSN, information stored within your device.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do not collect Personal Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 4
+  segment_text: 'Private Information: We never collected the actual Personal Information.
+    A personal information is those information that identifies you or any another
+    person, such as the information which states about your First Name, Last Name,
+    Physical Addresses, Telephone, Fax, SSN, and other information stored within your
+    device.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: A personal information is those information that identifies you
+      or any another person, such as the information which states about your First
+      Name, Last Name, Physical Addresses, Telephone, Fax, SSN, and other information
+      stored within your device.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We never collected the actual Personal Information.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 5
+  segment_text: 'How to contact us: For any sort of your question or comments related
+    about this policy or our privacy practices, please contact us as by group.naing@gmail.com.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Changes to our Privacy Policy: Please review this policy periodically
+    as we will post any privacy policy changes on this page. For any modifications
+    or updates as appropriate under the circumstances we will surely provide you additional
+    forms of notice mentioning that.You can immediately stop all the services as you
+    do not agree to any modifications to this policy.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We never collected the actual Personal Information. A personal information
+    is those information that identifies you or any another person, such as the information
+    which states about your First Name, Last Name, Physical Addresses, Telephone,
+    Fax, SSN, and other information stored within your device.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We never collected the actual Personal Information. A personal
+      information is those information that identifies you or any another person,
+      such as the information which states about your First Name, Last Name, Physical
+      Addresses, Telephone, Fax, SSN, and other information stored within your device.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 8
+  segment_text: We do not collect Personal Information. Personal Information is information
+    that identifies you or another person, such as your first name and last name,
+    physical addresses, email addresses, telephone, fax, SSN, information stored within
+    your device.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect Personal Information. Personal Information is
+      information that identifies you or another person, such as your first name and
+      last name, physical addresses, email addresses, telephone, fax, SSN, information
+      stored within your device.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED

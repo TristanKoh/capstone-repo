@@ -1,0 +1,306 @@
+policy_id: 23
+policy_name: com.ezjoy.feelingtouch.zombiediary
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Feelingtouch Privacy Policy This privacy policy applies to the advertising
+    products and services offered by Feelingtouch Inc, And our services and products
+    as the "Services". We are committed to protecting your personal privacy. To better
+    protect your privacy, we provide this privacy policy to inform you of our practices
+    with respect to how we collect and use personal information about users of our
+    services and our customers. As used in this Privacy Policy, the term "You" shall
+    refer to any user of our Services.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: The Information We Collect and How We Use the Information
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Information you provide - When you choose to opt-in to a Feelingtouch
+    advertiser offer, Feelingtouch collects your information on behalf of our advertising
+    partners. This data may include personal information like your name, email address,
+    zip code, and phone number, which is sent to the advertiser so that they may fulfill
+    the offer or offers you have selected. When you send data through our Services,
+    we have adopted processes to keep your data secure and confidential and to deliver
+    your data only to the parties whose offers you have opted-in to. Our procedures
+    are designed to ensure that your data is always protected. Our systems have implemented
+    security protections, including encryption, firewalls and password protection,
+    better than industry standards.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This data may include personal information like your name, email
+      address, zip code, and phone number, which is sent to the advertiser so that
+      they may fulfill the offer or offers you have selected.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_3rdParty
+      modality: PERFORMED
+  - sentence_text: When you choose to opt-in to a Feelingtouch advertiser offer, Feelingtouch
+      collects your information on behalf of our advertising partners.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_3rdParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Log information - When you access Feelingtouch services, our servers
+    automatically record information that your browser sends whenever you visit a
+    website. These server logs may include information such as your web request, Internet
+    Protocol address, browser type, browser language, the date and time of your request
+    and one or more cookies that may uniquely identify your browser.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These server logs may include information such as your web request,
+      Internet Protocol address, browser type, browser language, the date and time
+      of your request and one or more cookies that may uniquely identify your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you access Feelingtouch services, our servers automatically
+      record information that your browser sends whenever you visit a website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Anonymized data - Feelingtouch anonymizes your personally identifiable
+    user data for the purpose of research, analysis and optimization. We use this
+    anonimized user data in aggregate to identify user trends and to optimize our
+    offer selection and ad serving to provide you with the most relevant offers.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We use the information that we collect to improve the design, operation
+    and content of our Site, Services and to administer our systems. We also use this
+    information to enable us to personalize your experience on our websites and our
+    Services in connection with the products and services you use. We also may use
+    this information in the aggregate to analyze usage of our Site and our Services,
+    as well as to develop new services.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Data about traffic and usage is not personally identifying or identifiable.
+    Feelingtouch may share the non-personal, traffic or click-stream information it
+    collects with certain selected third parties, but only in aggregated, anonymous
+    form. For example, We may tell an Advertiser that a certain number of people viewed
+    its offer.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We will hold all data gathered in strict confidence. Under no circumstances
+    will your e-mail address, mailing address, phone number, be sold to, supplied
+    to, shared with or otherwise made available to any third party, except as described
+    in this privacy policy, without your express written consent.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Under no circumstances will your e-mail address, mailing address,
+      phone number, be sold to, supplied to, shared with or otherwise made available
+      to any third party, except as described in this privacy policy, without your
+      express written consent.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Opt-In to Advertiser Offers At Feelingtouch it is our intent to obtain
+    the informed consent of the user at all points of time. The Feelingtouch Services
+    allow You, as a visitor or a registrant on the Web Publisher website, the ability
+    to view, request and receive special offers provided by Advertisers working with
+    Feelingtouch. When You visit a website of a Web Publisher that is working with
+    Feelingtouch, You may be presented with a Feelingtouch offer placement or web
+    page each listing one or more special offers from certain Advertisers working
+    with Feelingtouch. You may choose which offer(s) You would like to receive or
+    hear more about by simply clicking on the checkbox or radio button adjacent to
+    the offer(s) or selecting a positive response in the manner indicated. You can
+    choose some offers, all of them, or none of them - it's up to You.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Opt Out of Receiving Advertiser Offers We strongly recommend to and
+    work with all our advertisers, to ensure provision of an opt out clause for all
+    consumers, in case they no longer wish to receive advertiser offers. However we
+    have no control over this process and cannot provide a guarantee.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Advertisers and Publishers Use of Information Advertisers - The data
+    collected by us, once transferred to the advertiser for whom you specifically
+    submitted your personally identifiable information, will be subject to the privacy
+    policy of that particular advertiser. You should consult the privacy policy of
+    the advertiser for additional information.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Publishers - In some instances the publisher is collecting your data
+    so that they may provide you with a service or user account to their site. The
+    Web Publisher on whose website You visited or registered (or previously registered)
+    may transfer, subject to its own privacy policy, Your personal information and
+    certain other non-personal information to Feelingtouch. The publisher may have
+    access to your data if you are explicitly opting into a publisher service or offer
+    or as otherwise described in their privacy policy. In this case the publisher
+    uses your user data to provide services to you as contemplated by their privacy
+    policy and you should consult their policy to understand how they will use your
+    data.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We are not responsible for the security and privacy practices of any
+    other company, such as publishers who carry the advertisements or advertisers
+    who receive the personally identifiable information or data. You should consult
+    the privacy policy of the publisher and advertiser. Please visit our privacy and
+    security FAQ for tips about protecting your privacy online.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Information We Do Not Collect We take your online privacy very seriously
+    and do everything we can to protect your identity. We believe that there are certain
+    types of data that should not be collected from You. We do not collect highly
+    sensitive data like credit card number, social security number, bank account numbers,
+    and account passwords.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect highly sensitive data like credit card number,
+      social security number, bank account numbers, and account passwords.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 14
+  segment_text: Information Sharing or Disclosure In the event that we contract with
+    a third party to provide some part of the information or service that you have
+    requested, Feelingtouch may provide your information to such third party, or such
+    third party may collect information from you on our behalf. By written agreement,
+    these third parties are required to implement similar security measures and to
+    process your information only as authorized by Feelingtouch to fulfill the service(s)
+    that they have been contracted to provide. Other than these entities, which act
+    on our behalf, information you provide at this site will not be transferred to
+    unrelated third parties, unless we have your permission to do so. However, please
+    note that personal information provided to this site may be subject to disclosure
+    pursuant to judicial or other government subpoenas, warrants or orders.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Changes in Corporate Structure If all or part of the company is sold,
+    merged or otherwise transferred to another entity, the information that you have
+    provided at this site may be transferred as part of that transaction. However,
+    Feelingtouch will take reasonable steps to assure that such information is used
+    in a manner consistent with the Feelingtouch privacy policy under which it was
+    collected.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Links In connection with the Site and our Services, we may provide
+    links to websites of third parties whose information practices and privacy policies
+    may be different than ours. You should consult the other sites' privacy notices,
+    as we have no control over information that is submitted to, or collected by,
+    these third parties.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Security We employ procedural and technological measures, consistent
+    with legal requirements, standard industry practices and the demands of customer
+    service, reasonably designed to protect your personal information from loss, misuse
+    or unauthorized access, disclosure, alteration or destruction. These include internal
+    reviews of our data collection, storage and processing practices and security
+    measures, as well as physical security measures to guard against unauthorized
+    access to systems where we store personal data. We take all appropriate reasonable
+    security measures to prevent any unauthorized access, disclosure or alteration
+    of your data. However we cannot guarantee that these security measures will prevent
+    other third parties from unlawfully obtaining the data or misusing it. We restrict
+    access to personal information to Feelingtouch employees, contractors and agents
+    who need to know that information in order to operate, develop or improve our
+    services. These individuals are bound by confidentiality obligations and may be
+    subject to discipline, including termination and criminal prosecution, if they
+    fail to meet these obligations.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Policy Regarding Children We are committed to protecting the rights
+    of children. We do not collect any information from users who identify themselves
+    as being 13 or younger. If we do identify any user as being 13 or younger we delete
+    their personally identifiable information. Neither the Services offered by us,
+    through our website or the offers presented on an offer page or via an offer placement
+    are targeted at children.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: It is our intent at all times to comply with Children's Online Privacy
+    Protection Act of 1998 ("COPPA")
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: International Users Personal data that You have voluntarily entered
+    electronically is delivered to servers located in the United States. By using
+    this Web Site, any Web Publisher website or opting-in to any Advertiser's offer(s),
+    You consent to the transfer of this personal and non-personal data, and to our
+    use of such personal and non-personal data as outlined in this Privacy Policy
+    and that of the Web Publisher and Advertiser.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Enforcement Feelingtouch regularly reviews its compliance with this
+    Privacy Policy. Please feel free to direct any questions or concerns regarding
+    this Privacy Policy or Feelingtouch treatment of personal information by contacting
+    us through email(feelingtouch.hz@gmail.com)
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Policy Changes We reserve the right to change and or update this Privacy
+    Policy at any time, and will post any revisions on our Site. It is your responsibility
+    as the user to keep abreast of the updates and or changes to the privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'Questions about this policy If you have any questions or concerns
+    regarding our privacy policy, please contact us at the following email address:
+    feelingtouch.hz@gmail.com'
+  annotations: []
+  sentences: []

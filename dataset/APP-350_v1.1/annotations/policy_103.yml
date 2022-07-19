@@ -1,0 +1,69 @@
+policy_id: 103
+policy_name: AceViral
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: top quality games on all platforms home games about jobs contact Privacy
+    Policy For our terms of service please click here.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: We collect aggregate information on what pages consumers access or
+    visit, user-specific information on what pages and actions consumers access, visit
+    or do, information volunteered by the consumer, such as survey information and/or
+    site or service registrations.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: The information we collect is used for internal review and is then
+    discarded, used to improve the content of our Web pages and applications, used
+    to customize the content and/or layout of our pages and applications for each
+    individual visitor, shared with other reputable organizations to help them contact
+    consumers for marketing purposes.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'With respect to Ad Servers: To try and bring you offers that are
+    of interest to you, we have relationships with other companies that we allow to
+    place ads on our Web pages and in our applications. As a result of your visit
+    to our site, ad server companies may collect information such as your domain type,
+    your IP address and clickstream information.'
+  annotations:
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As a result of your visit to our site, ad server companies may
+      collect information such as your domain type, your IP address and clickstream
+      information.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: From time to time, we may use customer information for new, unanticipated
+    uses not previously disclosed in our privacy notice. If our information practices
+    change at some time in the future we will post the policy changes to our Web site
+    to notify you of these changes and provide you with the ability to opt out of
+    these new uses. If you are concerned about how your information is used, you should
+    check back at our Web site periodically, we will post the policy changes to our
+    Web site to notify you of these changes and we will use for these new purposes
+    only data collected from the time of the policy change forward.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: "\xA9 Copyright 2008 onwards. Aceviral.com all rights reserved Privacy\
+    \ Policy Terms of Service"
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Ad server companies will not collect information such as your domain
+    type, your IP address and clickstream information.
+  annotations:
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Ad server companies will not collect information such as your domain
+      type, your IP address and clickstream information.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED

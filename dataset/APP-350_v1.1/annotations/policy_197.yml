@@ -1,0 +1,78 @@
+policy_id: 197
+policy_name: com.tivola.animals.home
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home Blog Our Games Animal Simulations Casual Games VR Games Games
+    for Kids Company About Us Jobs Contact Privacy Policy English Deutsch Home Blog
+    Our Games Animal Simulations Casual Games VR Games Games for Kids Company About
+    Us Jobs Contact Privacy Policy English Deutsch
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: PRIVACY POLICY We do not collect personal information If you download
+    and use our mobile apps, we do not demand or collect any private information from
+    you. An exception to this is data not related to a specific individual, where
+    the used terminal can be identified anonymously. This is done in order to upgrade
+    the user's experience and to conform the application to user needs.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We do not extract personal data of children under the age of 13 years.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: If it occurs, that we demanded individual-related data of a child
+    younger than 13 years, we will take action and cancel this data information as
+    soon as possible.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We do not save location-dependent information. We do not ascertain
+    data about your geographic location.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not ascertain data about your geographic location.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do not save location-dependent information.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 5
+  segment_text: We do not sell your data to advertisers; We do not allow advertisers
+    to collect personal information from customers while they are using our website
+    or products.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We do not allow advertisers to gain audience-targeted data from our
+    website.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Do you have any questions about our data policy? If you have questions
+    or comments about our data protection policy, do not hesitate to write an E-mail
+    to apps@tivola.de In case our data protecion policy changes, we will place a distinctly
+    visible notification on our website www.tivola-mobile.de.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "More games from Tivola Our Top-Games PetWorld HorseWorld WildLife\
+    \ Africa WildLife America Visit us on: Facebook Twitter YouTube Instagram Company\
+    \ About Us Jobs Legal PRIVACY POLICY Contact More from Tivola Tivola Mobile Blog\
+    \ \xA9 2017 Tivola Mobile."
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: The requested content cannot be loaded.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Please try again later.
+  annotations: []
+  sentences: []

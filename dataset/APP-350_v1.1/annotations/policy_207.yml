@@ -1,0 +1,1640 @@
+policy_id: 207
+policy_name: CreativeMobile
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "Contact us Send to >> General info Marketing Support Publishing Finance\
+    \ 6+7 P\xE4rnu mnt. 139A, 11317 Tallinn, Estonia Reg. nr. 11617092, VAT ID: EE101406176\
+    \ info@creative-mobile.com Home Games Publishing Careers News Partnership About\
+    \ Home Games Publishing Careers News Partnership About"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Dear Visitor, Thank you for visiting and reviewing
+    our privacy policy, which we, Creative Mobile O.U, a company organized and existing
+    pursuant to the laws of the nation of Estonia, adopted as of August 17, 2015 ("Policy").
+    The following Policy sets forth the manner in which we collect, store, use, and
+    disclose certain information you and other users ("Users") provide to us in the
+    course of using our various Products and Services. Please take a moment to review
+    the information below. We hope you find this informative. Should you have any
+    questions, please do not hesitate to let us know.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: INTRODUCTION Creative Mobile designs, develops, and publishes fun
+    games for play on various computing devices including smartphones, tablet PCs,
+    and traditional desktop computers with internet access. To provide our players
+    with the best possible experience, we also offer certain related services such
+    as providing forums, fan pages, and various promotions. For the purpose of this
+    Policy, all of our products and related services, including the services recited
+    above in this paragraph are referred to as "Products and Services."
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We recognize that our Users value their privacy, and we thus view
+    the safeguarding of your private information as a serious matter. We encourage
+    all of our users to carefully read this Policy before playing any of our games
+    or using any other Products and Services. Please note that by downloading or installing
+    a game, or by registering with us using any of our available platforms (including
+    mobile, social media, or otherwise), or using any of our Products and Services,
+    you consent to our collection, storage, use, or disclosure of your information
+    according to this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Please also review our Terms of Use which governs your use of our
+    Products and Services. Any capitalized terms that are not defined in this Policy
+    shall have the meaning given herein or in the Terms of Use.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: This Policy will remain in full force and effect, even if your use
+    of our Products and Services, features, functions or promotional activities terminates,
+    expires, ceases, is suspended or deactivated for any reason. If you do not agree
+    with this Policy, please do not use any of our Products or Services.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: This Policy applies regardless of the computing device you use to
+    access our Products and Services and whether you are accessing such Products and
+    Services as a registered user or otherwise. This Policy governs only the information
+    collected by us and does not cover any other information collected in any other
+    manner or collected by any other entity, unless specifically stated herein. We
+    may combine your information with other information we collect from other sources,
+    such as information received from our affiliated companies, marketing companies
+    or advertisers, and if we do so, our use of the resulting combined Information
+    will be subject to this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'We reserve the right to change this Policy at any time. Such changes,
+    modifications, additions or deletions shall be effective immediately upon notice
+    thereof, which may be given by means including, but not limited to posting an
+    updated privacy policy in place of this one on this page. In addition, certain
+    modifications or other communications may be sent to you via email. You acknowledge
+    and agree that it is your responsibility to maintain a valid e-mail address as
+    a registered user, review this Policy periodically and to be aware of any modifications.
+    Your continued use of our Product and Services after such modifications will constitute
+    your: (a) acknowledgment of the modified Policy; and (b) agreement to abide and
+    be bound by the modified Policy.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, certain modifications or other communications may
+      be sent to you via email.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Such changes, modifications, additions or deletions shall be effective
+      immediately upon notice thereof, which may be given by means including, but
+      not limited to posting an updated privacy policy in place of this one on this
+      page.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We reserve the right to change this Policy at any time.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You acknowledge and agree that it is your responsibility to maintain
+      a valid e-mail address as a registered user, review this Policy periodically
+      and to be aware of any modifications.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Your continued use of our Product and Services after such modifications
+      will constitute your: (a) acknowledgment of the modified Policy; and (b) agreement
+      to abide and be bound by the modified Policy.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 'As used in Policy, Creative Mobile refers to Creative Mobile O.U,
+    and any of its subsidiaries. Creative Mobile may also be referred to herein as
+    "We" or "Us." This Privacy Policy our privacy practices, including the following
+    regarding your use of the Products and Services: 1. What type of information do
+    we collect? 2. What specific information do we collect and where do we collect
+    information?'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 3. How do we use collected information? 4. With whom do we share collected
+    information? 5. What are your choices regarding collection, use and distribution
+    of your information?
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 6. How can you update, correct, or delete your Personally Identifiable
+    Information?
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 7. What security precautions are in place to protect against the loss,
+    misuse, or alteration of your information?
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 8. Do we use "cookies"? 9. What should you know about privacy policies
+    and data collection at any third party websites accessible from our Products and
+    Services?
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 10. How are links treated? 11. Is information from children collected?
+    12. What else should you know regarding privacy online? 13. Miscellaneous items.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 1. WHAT TYPE OF INFORMATION DO WE COLLECT? To best provide you with
+    our Products and Services, we collect two types of information about our Users
+    known as (a) Personally Identifiable Information ("PII") and (b) Non-Personally
+    Identifiable Information ("NPII") PII and NPII is collectively referred to herein
+    as "Information". Our primary goal in collecting Information from you is to provide
+    you with a smooth, efficient, and customized experience.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: A. Personally Identifiable Information. This refers to information
+    that may be used to ascertain an individual's identity. When you engage in certain
+    activities related to our Products and Services, such as registering for a membership,
+    ordering a product or service, submitting content and/or posting content in discussion
+    forums or other public areas, entering a contest or sweepstakes, filling out a
+    survey, or sending us feedback, we may ask you to provide certain information
+    about yourself by filling out and submitting one or more online forms. It is completely
+    optional for you to engage in these activities. Depending upon the activity, some
+    of the information we ask you to provide is identified as mandatory and some as
+    voluntary. If you do not provide the mandatory data with respect to a particular
+    activity, you will not be able to engage in that activity.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: B. Non-Personally Identifiable Information. This refers to information
+    that does not by itself identify a specific individual. We gather certain information
+    about Users in several ways. This information is compiled and analyzed on both
+    a personal and an aggregated basis. This information may include the Web site's
+    Uniform Resource Locator ("URL") that you just came from, which URL you go to
+    next, what browser you are using, and your Internet Protocol ("IP") address. A
+    URL is the global address of documents and other resources on the World Wide Web.
+    An IP address is an identifier for a computer or device on a Transmission Control
+    Protocol/Internet Protocol ("TCP/IP") network, such as the World Wide Web. Networks
+    like the Web use the TCP/IP protocol to route information based on the IP address
+    of the destination. In other words, an IP address is a number that is automatically
+    assigned to your computer whenever you are surfing the web, allowing web servers
+    to locate and identify your computer. Computers require IP addresses in order
+    for users to communicate on the Internet. This information may further include
+    locational data transmitted via your mobile device's beacon, GPS, or Wi-Fi signals.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may further include locational data transmitted
+      via your mobile device's beacon, GPS, or Wi-Fi signals.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: This information may include the Web site's Uniform Resource Locator
+      ("URL") that you just came from, which URL you go to next, what browser you
+      are using, and your Internet Protocol ("IP") address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We gather certain information about Users in several ways.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: 'We share data we collect about you including unique identification
+    numbers associated with mobile devices (including, for example, a Unique ID for
+    Advertisers ("IDFA"), Unique ID for Vendors ("IDFV"), Google Ad ID, or Windows
+    Advertising ID), mobile carrier, device type, model and manufacturer, mobile device
+    operating system brand and model, and, depending on the user''s mobile device
+    settings, the geographical location data, including GPS coordinates (e.g. latitude
+    and/or longitude) or similar information regarding the location of the mobile
+    device ("User Data"), device-specific information, such as the hardware model,
+    operating system version, advertising identifier, unique application identifiers,
+    unique device identifiers browser type, language, wireless network, and mobiile
+    network information (including the mobile phone number) with our third party partners,
+    that enables us to use Bluetooth beacons to provide you with information or offers
+    specific to your location and interests. By accepting our terms of service, you
+    consent to the collection, storage and processing of your data by our third party
+    partners for the purposes of: (i) providing or improving their services; (ii)
+    enabling third parties to assist us and the retailer and venues (in which the
+    beacons are located) in better serving and understanding our users; and (iii)
+    sharing your data with third parties so they can provide or enable the provision
+    of content, offers or other marketing solutions that may be of interest to you.
+    You also consent to having your data transferred to and processed in your or any
+    other jurisdiction in which our third party partners or their parent, subsidiaries,
+    affiliates, service providers or partners maintain facilities. If you do not consent
+    to the collection and transfer of the aforementioned data through the identification
+    of your mobile device, we recommend that you: (a) delete our app or adjust the
+    in-app settings of the app; or (b) delete the applicable mobile advertiser ID
+    by limiting ad tracking on the device.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We share data we collect about you including unique identification
+      numbers associated with mobile devices (including, for example, a Unique ID
+      for Advertisers ("IDFA"), Unique ID for Vendors ("IDFV"), Google Ad ID, or Windows
+      Advertising ID), mobile carrier, device type, model and manufacturer, mobile
+      device operating system brand and model, and, depending on the user's mobile
+      device settings, the geographical location data, including GPS coordinates (e.g.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+  - sentence_text: latitude and/or longitude) or similar information regarding the
+      location of the mobile device ("User Data"), device-specific information, such
+      as the hardware model, operating system version, advertising identifier, unique
+      application identifiers, unique device identifiers browser type, language, wireless
+      network, and mobile network information (including the mobile phone number)
+      with our third party partners, that enables us to use Bluetooth beacons to provide
+      you with information or offers specific to your location and interests.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: 'Information from Use of our Services. We also collect/compile non-personally
+    identifiable information from Users of our Services. Non-personally identifiable
+    information is information that usually cannot by itself be used to identify a
+    particular person or entity, and may include: the Internet Protocol (IP) address,
+    unique device identifiers, anonymous IDs for advertising, operating system, mobile
+    network information, browser type, existing applications, browsing activity and
+    non-precise device location information (e.g., city or region).'
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Non-personally identifiable information is information that usually
+      cannot by itself be used to identify a particular person or entity, and may
+      include: the Internet Protocol (IP) address, unique device identifiers, anonymous
+      IDs for advertising, operating system, mobile network information, browser type,
+      existing applications, browsing activity and non-precise device location information
+      (e.g., city or region).'
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We also collect/compile non-personally identifiable information
+      from Users of our Services.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: We enable you to send messages to other Users in the community. We
+    ordinarily don't read the content of these messages unless we reasonably believe
+    the Service is being misused or as required by law; we keep track of the number
+    of messages sent and similar information to keep our Services running smoothly.
+    We also enable you to 'friend'; other members of the our community, and records
+    which members of the community you've friended, which our groups you've joined,
+    and what pieces of content you've uploaded via the Services.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: By visiting, accessing or otherwise using the Product and Services,
+    you affirmatively consent to our collection and use of Information in accordance
+    with the terms of this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 2. WHAT SPECIFIC INFORMATION DO WE COLLECT AND WHERE DO WE COLLECT
+    IT?
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: A. User Registration. If you elect to become a registered user by
+    creating one or more user accounts in connection with any of our Products and
+    Services, we may require you to provide certain information including your birth
+    date, your first and last name, email address, physical address, Facebook username
+    or Twitter handle, and your selected password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you elect to become a registered user by creating one or more
+      user accounts in connection with any of our Products and Services, we may require
+      you to provide certain information including your birth date, your first and
+      last name, email address, physical address, Facebook username or Twitter handle,
+      and your selected password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+  - sentence_text: User Registration.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: 'B. Profile Creation. We may also offer Users the option to complete,
+    or import from a third party social network, a user profile that is visible to
+    other users. Such User profiles may include: a profile photo; one or more game
+    username(s); gender; biographic details; links to third party social media profiles;
+    details about the games Users play or services Users use, and a User ID'
+  annotations:
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Such User profiles may include: a profile photo; one or more game
+      username(s); gender; biographic details; links to third party social media profiles;
+      details about the games Users play or services Users use, and a User ID'
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may also offer Users the option to complete, or import from
+      a third party social network, a user profile that is visible to other users.
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: The User ID used to identify your account and profile may be public
+    and will appear in the URL of your profile page, but will only permit access to
+    information that is considered public or that you have designate as public in
+    your settings. First and last names, and profile pictures are considered "public."
+    Third party search engines may index this publicly available information.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: C. Third Party Websites. When you use any our Products and Services
+    on or with an association with a third party social network such as Facebook or
+    Google + or any other compatible social networks, you allow Us to access certain
+    information from your profile for that social network. You may adjust the information
+    we can access by making corresponding changes in the social network's privacy
+    settings. You can control and find out more about these settings at the third
+    party social network where you play our games.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: By using any of our Products and Services in a manner that interacts
+    with any third party social network, you agree to authorize Us to collect, store,
+    and use in accordance with this Policy any and all information that you agreed
+    the social networks could provide to Us through an Application Programming Interface
+    ("API").
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: D. Contact Sharing and Importation. We may also offer you the ability
+    to import your address book contacts, third party social network contacts, or
+    manually enter e-mail addresses. We will store those contacts for purposes of
+    helping you and your contacts make connections using our Products and Services.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also offer you the ability to import your address book contacts,
+      third party social network contacts, or manually enter e-mail addresses.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: E. Gameplay. If you play Our games on your mobile phone, tablet PCs,
+    or PCs, We collect certain device identifiers, including MAC Address, and IP Address.
+    In certain games, We will create and assign to your device an identifier that
+    is similar to an account number. We may collect the name you have associated with
+    your device, device type, telephone number, country, and any other information
+    you choose to provide, such as user name, character name, geo-location or e-mail
+    address. We may also access your contacts to enable you to invite friends to join
+    you in the Service.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you play Our games on your mobile phone, tablet PCs, or PCs,
+      We collect certain device identifiers, including MAC Address, and IP Address.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+  - sentence_text: In certain games, We will create and assign to your device an identifier
+      that is similar to an account number.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also access your contacts to enable you to invite friends
+      to join you in the Service.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect the name you have associated with your device, device
+      type, telephone number, country, and any other information you choose to provide,
+      such as user name, character name, geo-location or e-mail address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 29
+  segment_text: F. Payment. If you purchase a license to use in-game virtual currency
+    or virtual items directly from Us, We may collect the billing and financial information
+    necessary to process your charges, which may include your postal and e-mail addresses.
+    We may also receive the billing and payment information that you provide when
+    your purchase is processed by a third party, such as Facebook, Google, Apple,
+    PayPal, MoPay, or your telephone or internet service or data provider. Our Terms
+    of Service explain our policies and terms relevant to our charges and billing
+    practices. Please note that purchases of third party credits or fictional currencies
+    may be subject to additional policies.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: F. Payment.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: If you purchase a license to use in-game virtual currency or virtual
+      items directly from Us, We may collect the billing and financial information
+      necessary to process your charges, which may include your postal and e-mail
+      addresses.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Terms of Service explain our policies and terms relevant to
+      our charges and billing practices.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that purchases of third party credits or fictional
+      currencies may be subject to additional policies.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also receive the billing and payment information that you
+      provide when your purchase is processed by a third party, such as Facebook,
+      Google, Apple, PayPal, MoPay, or your telephone or internet service or data
+      provider.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: G. Support. When Users ask for assistance from our Customer Support
+    team, We will collect and store the contact information Users provide (generally
+    User ID, name and contact information such as an e-mail address), information
+    about your game play or activity on the Service, and your user ID. We will also
+    store the correspondence and any information contained within.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When Users ask for assistance from our Customer Support team, We
+      will collect and store the contact information Users provide (generally User
+      ID, name and contact information such as an e-mail address), information about
+      your game play or activity on the Service, and your user ID.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: H. Contests, Sweepstakes and Surveys. In order to participate in certain
+    contests, sweepstakes or surveys, there may be a separate registration process
+    which may require the submission of both PII and NPII. We will use the Information
+    you provide for the purpose of conducting the promotion (for example, to contact
+    you if you have won). You may also have the opportunity to opt-in to receive special
+    Promotions or offers from our advertisers as a result of your use of our Products
+    and Services.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: I. Information Collected Through Automatic Data Collection. In addition,
+    we may also collect, or our third party ad server and/or content server may collect,
+    certain Non-Personally Identifiable Information. This may include information
+    about the physical location of your device, and time and date information used
+    to identify the length of time spent within a given physical location. This information
+    is ultimately stored in the form of store categories, and, in some cases, specific
+    URLs. We use your IP address to diagnose problems with our servers, software,
+    to administer our services and to gather demographic information. Our third party
+    ad servers will also provide us with summary, but not individual, reports that
+    will tell us how many ads were presented and clicked upon.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, we may also collect, or our third party ad server
+      and/or content server may collect, certain Non-Personally Identifiable Information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Information Collected Through Automatic Data Collection.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: This may include information about the physical location of your
+      device, and time and date information used to identify the length of time spent
+      within a given physical location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use your IP address to diagnose problems with our servers, software,
+      to administer our services and to gather demographic information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: When you access our websites, fan forums, or play our games, We collect
+    (i) certain technical information about your mobile device or computer system,
+    including MAC Address, IP Address, beacon data, GPS data, Wi-Fi signal data, and
+    mobile device ID; and (ii) usage statistics about your interactions with the Service.
+    This information is typically collected through the use of server log files or
+    web log files ("Log Files"), mobile device software development kits and tracking
+    technologies like browser cookies to collect and analyze certain types of technical
+    information. Some of the cookies the Service places on your computer are linked
+    to your user ID(s).
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some of the cookies the Service places on your computer are linked
+      to your user ID(s).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This information is typically collected through the use of server
+      log files or web log files ("Log Files"), mobile device software development
+      kits and tracking technologies like browser cookies to collect and analyze certain
+      types of technical information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: When you access our websites, fan forums, or play our games, We
+      collect (i) certain technical information about your mobile device or computer
+      system, including MAC Address, IP Address, beacon data, GPS data, Wi-Fi signal
+      data, and mobile device ID
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: In addition to the manner set forth above, We may also collect information
+    from you at other points wherein We that state that such information is being
+    collected.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 3. HOW DO WE USE COLLECTED INFORMATION? We primarily use the Information
+    to provide our Products and Services to you, as required by our agreements with
+    you. We also use Information to enhance the operation of our Products and Services,
+    fill User requests, improve our marketing and promotional efforts, statistically
+    analyze product use, improve our product and service offerings, and customize
+    our content, layout, and services. We may use Information to deliver information
+    to you and to contact you regarding administrative notices. We may also use Information
+    to resolve disputes, troubleshoot problems and enforce our agreements with you,
+    including our Terms of Use, this Private Policy, and any other applicable terms
+    and conditions.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: "Specific uses of PII include: \u2022 Contacting User regarding the\
+    \ administration of any features or functions of our Products and Services; \u2022\
+    \ Sending User promotional emails or SMS messages; \u2022 Allowing User to participate\
+    \ in fan community features; \u2022 Responding to User questions or other requests;\
+    \ \u2022 Tailoring User gaming experience; \u2022 Saving User ID or other Information\
+    \ (so you don't have to re-enter it each time you use our Products and Services);\
+    \ \u2022 To create your game accounts and allow play of our games; \u2022 Enable\
+    \ User communication; \u2022 Notifying Users of updates and in-game achievements;\
+    \ \u2022 To prevent or potentially illegal activities, and enforce our Terms of\
+    \ Service; \u2022 For other purposes disclosed at the time you provide us with\
+    \ Information."
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: "Specific uses of your NPII include: \u2022 Tracking User visits;\
+    \ \u2022 Tracking User locational information such as physical areas visited,\
+    \ the data of such visits, and length of time spent dwelling in such areas; \u2022\
+    \ For research purposes, for marketing/promotional purposes and/or to provide\
+    \ anonymous reporting for internal and external clients or licensors; \u2022 Accumulating\
+    \ and reporting aggregate, statistical information in connection with User activity;\
+    \ \u2022 Determining which features and services Users like best to help us operate\
+    \ our Products and Services, enhance and improve our services and display advertising\
+    \ and marketing information; \u2022 Tailoring your gaming experience; \u2022 Saving\
+    \ certain NPII for use on your return visits; \u2022 For the uses described for\
+    \ \"Personally Identifiable Information\" above; \u2022 For other purposes disclosed\
+    \ at the time you provide us with the Non-Personally Identifiable Information."
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Specific uses of your NPII include: \u2022 Tracking User visits;\
+      \ \u2022 Tracking User locational information such as physical areas visited,\
+      \ the data of such visits, and length of time spent dwelling in such areas;\
+      \ \u2022 For research purposes, for marketing/promotional purposes and/or to\
+      \ provide anonymous reporting for internal and external clients or licensors;\
+      \ \u2022 Accumulating and reporting aggregate, statistical information in connection\
+      \ with User activity; \u2022 Determining which features and services Users like\
+      \ best to help us operate our Products and Services, enhance and improve our\
+      \ services and display advertising and marketing information; \u2022 Tailoring\
+      \ your gaming experience; \u2022 Saving certain NPII for use on your return\
+      \ visits; \u2022 For the uses described for \"Personally Identifiable Information\"\
+      \ above; \u2022 For other purposes disclosed at the time you provide us with\
+      \ the Non-Personally Identifiable Information."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: 4. WITH WHOM DO WE SHARE COLLECTED INFORMATION? A. General Disclosure.
+    Generally, we do not sell, rent, lease or disclose your PII to third parties,
+    except if you consent to such disclosure or as otherwise described in this Privacy
+    Policy. We reserve the right to use and/or sell any aggregated data (NPII) we
+    collect in connection with your use of our Products and Services. We may disclose
+    PII to our affiliated companies for marketing and/or administrative purposes.
+    You can choose to opt-out of certain such uses as described herein. We may share
+    NPII with third parties, but we do not disclose PII to them except as described
+    in this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: B. Co-Branded Services and Features. We may offer co-branded services
+    and features, such as events or Promotions provided by us and/or our affiliated
+    companies or other third party partners. We may share your PII with such co-branded
+    partners and your voluntary use of or participation in a co-branded service or
+    feature means that you opt-in and give your affirmative consent to collect any
+    information provided in connection with the specific co-branded feature or service
+    and to use such information for the fulfillment of the feature or service and
+    for marketing or administrative purposes. The co-branded partner will be identified
+    on the co-branded feature or service. If you wish to opt-out of a co-branded partner's
+    future use of your Personally Identifiable Information for marketing purposes,
+    you will need to contact the co-branded partner directly as the use of such information
+    by a co-branded partner is subject to the co-branded partner's privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: C. Disclosure of Certain Information in User Postings Intended to
+    Be Disclosed. Certain Personally Identifiable Information associated with a User
+    forum posting or social media comment may be intended for disclosure, such as
+    your username. We will disclose any such PII in connection with the display of,
+    and other services relating to, such User posting, and by submitting a User posting
+    in connection with any of our Products and Services you affirmatively consent
+    to the distribution of your PII as described herein.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: D. Third Party Service Providers. We also reserve the right to disclose
+    PII and other information to third parties for the purpose of administering and
+    maintaining our Products and Services, and related features, functions and operations.
+    We will refer to these third parties as "Third Party Service Providers." We use
+    Third Party Service Providers to efficiently provide the full range of content,
+    activities, services, features and functions we bring you and we disclose your
+    Information to Third Party Service Providers for the purpose of providing services
+    to us. These Third Party service providers may temporarily store some information
+    on their servers, but they may only use your Personal Information to provide Us
+    with a specific service and not for any other purpose.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: E. Other Third Parties. Other than as set forth in this Policy, we
+    do not share your PII with third parties, apart from those acting as our agents
+    in providing our Products and Services to you, which agree to use it only for
+    that purpose and to keep it secure and confidential. Also, please be aware that
+    our affiliated companies, including all their respective business units, subsidiaries,
+    affiliates and sites, entities into which our companies may be merged, or entities
+    to which any of our assets, products, sites or operations may be transferred,
+    may obtain from us and be able to use your PII . We may share your NPII with third
+    parties that use this data for the purpose of reselling data to third parties.
+    Information provided to such data resellers is limited to NPII.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: F. Statistical Analysis. We may also provide NPII about our customers'
+    sales, traffic patterns, physical location using geo-locational data, dates and
+    times during a location was visited, time spent dwelling in such locations, and
+    related information to third party advertisers, advertising platforms, data resellers,
+    and advertising service providers. But these statistics do not include any PII.
+  annotations:
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also provide NPII about our customers' sales, traffic patterns,
+      physical location using geo-locational data, dates and times during a location
+      was visited, time spent dwelling in such locations, and related information
+      to third party advertisers, advertising platforms, data resellers, and advertising
+      service providers.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 44
+  segment_text: 'G. Additional Disclosures. There may be instances when we may access
+    or disclose Information without providing you a choice, including in the following
+    circumstances: (1) to protect or defend Our legal rights or property, our affiliated
+    companies or their employees, agents and contractors (including enforcement of
+    our agreements); (2) to protect the safety and security of Our Products and Services
+    and our Users; (3) protect against fraud or for risk management purposes; (4)
+    if we believe your actions violate the Terms of Use, this Privacy Policy, any
+    Rules and/or additional applicable terms or conditions; or (5) to comply with
+    law or legal process. In addition, if We sell all or part of its business or makes
+    a sale or transfer of all or a material part of its assets or is otherwise involved
+    in a merger or transfer of all or a material part of its business, We may transfer
+    your Information to the party or parties involved in the transaction as part of
+    such transaction.'
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 5. WHAT ARE YOUR CHOICES REGARDING COLLECTION, USE AND DISTRIBUTION
+    OF YOUR INFORMATION?
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: A. Opting out. At times, you may be presented with the option of whether
+    to receive certain marketing and promotional communications from Us and others
+    that we think will be of interest to you. Recipients of such communications can
+    unsubscribe by either following the specific instructions included in such communications
+    or you may 'opt-out' of receiving marketing and promotional emails from us at
+    any time by sending an email to us at privacy@Creative-mobile.com detailing your
+    privacy request. Please note, however, that in order to keep you informed about
+    the operation of our Products and Services, we may always send you emails and
+    announcements that are needed for the proper functioning and administration of
+    our Products and Services. We may also have features that allow you to submit
+    information, questions or feedback to us. In those instances, we may retain your
+    emails and other information you submit to us for our internal purposes, and to
+    help us to serve you better.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: B. Changing your privacy preferences. You may change your privacy
+    preferences by making corresponding changes in the third party social network
+    account which you use to play our game.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: 6. HOW CAN YOU UPDATE, CORRECT, OR DELETE YOUR PERSONALLY IDENTIFIABLE
+    INFORMATION?
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 'We believe you should have the ability to access and edit the PII
+    that you have provided to us. You may change any of your PII in your account online
+    at any. You may also access and correct your personal information and privacy
+    preferences by writing us at: Creative Mobile O.U.'
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 'Attn: Privacy Compliance Officer Parnu mnt 139a, 11317 Tallinn, Estonia
+    privacy@Creative-mobile.com Please include your name, address, and/or e-mail address
+    when you contact us.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Attn: Privacy Compliance Officer Parnu mnt 139a, 11317 Tallinn,
+      Estonia privacy@Creative-mobile.com Please include your name, address, and/or
+      e-mail address when you contact us.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 51
+  segment_text: We encourage you to promptly update your PII if it changes. You may
+    ask to have the information on your account deleted or removed; however, because
+    we keep track of past transactions, you cannot delete information associated with
+    past transactions. In addition, it may be impossible to completely delete your
+    information without some residual information because of backups.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 7. WHAT SECURITY PRECAUTIONS ARE IN PLACE TO PROTECT AGAINST THE LOSS,
+    MISUSE, OR ALTERATION OF YOUR INFORMATION?
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: The importance of security for all PII associated with our Users is
+    of utmost concern to us. Your PII is secured consistent with current industry
+    standard and is protected in several ways. Access by you to your PII is available
+    through a password and unique User ID selected by you. This password is encrypted.
+    WE RECOMMEND THAT YOU DO NOT DIVULGE YOUR PASSWORD TO ANYONE.
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: In addition, your PII resides on a secure server that only selected
+    company personnel and contractors have access to via password. We encrypt your
+    PII and thereby prevent unauthorized parties from viewing such information when
+    it is transmitted to us.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: In order to most efficiently serve you, any credit card transactions
+    and order fulfillment are handled by established third party banking, processing
+    agents and distribution institutions. They receive the information needed to verify
+    and authorize your credit card or other payment information and to process and
+    ship your order.
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: 'Unfortunately, no data transmission over the internet or any wireless
+    network can be guaranteed to be completely and 100% secure. As a result, while
+    we strive to protect your PII, you acknowledge that: (a) there are security and
+    privacy limitations of the internet which are beyond our control; (b) the security,
+    integrity and privacy of any and all information and data exchanged between you
+    and us cannot be guaranteed; and (c) any such information and data may be viewed
+    or tampered with in transit by a third party.'
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: 8. DO WE USE "COOKIES"? Our Products and Services, as well as those
+    of third parties may use cookies (which are small data files containing information
+    about you that are stored on your hard drive), embedded scripts, and other similar
+    tracking technologies (collectively, 'Tracking Technologies') to collect NPII
+    automatically as you interact with the various Products and Services. Some cookies
+    are used to make login to our Products and Services easier (such as by remembering
+    your User ID). Cookies also enable us to track your interaction with Us and target
+    your interests to enhance your gaming experience (e.g., for tracking your sessions,
+    etc.). We may also use Tracking Technologies to collect 'clickstream' data, such
+    as the domain name of the service providing you with Internet access, the Internet
+    protocol (IP) address used to connect your computer to the Internet, your browser
+    type and version, operating system and platform, the average time spent using
+    our Products and Services, pages viewed, content searched for, access times and
+    other relevant statistics, and assign unique identifiers to the Device you use
+    to access the Products and Services for the same purposes. Your PII is not collected
+    as part of this process. However, we may associate the information obtained through
+    these Tracking Technologies with your PII so we can better customize your gaming
+    experience and provide tailored advertisements and promotions related to your
+    specific interests. By using our Products and Services, whether as a registered
+    user or otherwise, you acknowledge, understand and hereby agree that you are giving
+    us your consent to track your activities and your use of our Products and Services
+    as described in this Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using our Products and Services, whether as a registered user
+      or otherwise, you acknowledge, understand and hereby agree that you are giving
+      us your consent to track your activities and your use of our Products and Services
+      as described in this Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies also enable us to track your interaction with Us and target
+      your interests to enhance your gaming experience (e.g., for tracking your sessions,
+      etc.).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: DO WE USE "COOKIES"?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: However, we may associate the information obtained through these
+      Tracking Technologies with your PII so we can better customize your gaming experience
+      and provide tailored advertisements and promotions related to your specific
+      interests.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Products and Services, as well as those of third parties may
+      use cookies (which are small data files containing information about you that
+      are stored on your hard drive), embedded scripts, and other similar tracking
+      technologies (collectively, 'Tracking Technologies') to collect NPII automatically
+      as you interact with the various Products and Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Some cookies are used to make login to our Products and Services
+      easier (such as by remembering your User ID).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also use Tracking Technologies to collect 'clickstream'
+      data, such as the domain name of the service providing you with Internet access,
+      the Internet protocol (IP) address used to connect your computer to the Internet,
+      your browser type and version, operating system and platform, the average time
+      spent using our Products and Services, pages viewed, content searched for, access
+      times and other relevant statistics, and assign unique identifiers to the Device
+      you use to access the Products and Services for the same purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Your PII is not collected as part of this process.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 58
+  segment_text: We may also use a variety of third party advertising networks, data
+    exchanges, traffic measurement service providers, marketing analytics service
+    providers and other third parties to, for example, serve advertisements, facilitate
+    targeting of advertisements and/or measure and analyze advertising effectiveness
+    and/or User traffic. Such services may enable us to display advertisements based
+    on your Product and Service use. Targeting services enable us to, among other
+    things, help deliver advertisements or other content to you for products and services
+    that you might be interested in, to prevent you from seeing the same advertisements
+    too many times and to conduct research regarding the usefulness of certain advertisements
+    to you.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: 9. WHAT SHOULD YOU KNOW ABOUT PRIVACY POLICIES AND DATA COLLECTION
+    AT ANY THIRD PARTY WEBSITES ACCESSIBLE FROM OUR PRODUCTS AND SERVICES?
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: Except as otherwise discussed in this Policy, this document only addresses
+    the use and disclosure of information We collect from you. Other sites accessible
+    through our Products and Services have their own privacy policies and data collection,
+    use and disclosure practices. Please consult each such site's privacy policy.
+    We are not responsible for the policies or practices of third parties. Additionally,
+    other companies which place advertising on our site may collect information about
+    you when you view or click on their advertising through the use of cookies. We
+    cannot control this collection of information. You should contact these advertisers
+    directly if you have any questions about their use of the information that they
+    collect.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: 10. HOW ARE LINKS TREATED? Our Products and Services may be linked
+    to Internet sites operated by other companies, and may also feature advertisements
+    from other third parties. We are not responsible for the privacy practices of
+    such websites or other services operated by third parties that are linked to or
+    integrated with our Products and Services or for the privacy practices of third
+    party internet advertising companies. Once you click such a link, access a third
+    party application (such as widgets) or click on an advertisement, you should check
+    the applicable privacy policy of the third party site to determine, among other
+    things, how they will handle any personally identifiable or other information
+    that they may collect from you.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: '11. IS INFORMATION FROM CHILDREN COLLECTED? WE DO NOT KNOWINGLY COLLECT
+    PERSONAL INFORMATION FROM CHILDREN UNDER THE AGE OF THIRTEEN (13) WITHOUT APPROPRIATE
+    PARENTAL NOTICE AND CONSENT. PLEASE VISIT THE FOLLOWING WEBSITE FOR INFORMATION
+    FROM THE FEDERAL TRADE COMMISSION ABOUT PROTECTING CHILDREN''S PRIVACY ONLINE:
+    12. WHAT ELSE SHOULD YOU KNOW REGARDING PRIVACY ONLINE? You should also be aware
+    that when PII is voluntarily disclosed (i.e. your name, e-mail address, etc.)
+    in the discussion forums or other public areas, that information, along with any
+    information disclosed in your communication, can be collected and used by third
+    parties and may result in unsolicited messages from third parties. Such activities
+    are beyond our control and this Policy does not apply to such information. Any
+    submissions to chat rooms or other public areas are accepted with the understanding
+    that they are accessible to all third parties. If you do not want your comments
+    to be viewed by third parties, you are advised not to make any submissions. Ultimately,
+    you are solely responsible for maintaining the secrecy of your password and/or
+    account information. Please be careful and responsible whenever you''re online.'
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: 13. MISCELLANEOUS ITEMS.
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: From time to time we may modify this Policy to reflect industry initiatives
+    or changes in the law, our Information collection and use practices, Our features,
+    or technology, and such modifications shall be effective upon posting. Your continued
+    use of Our Products and Services after we post a revised Policy signifies your
+    acceptance of the revised Policy. It is therefore important that you review this
+    Policy regularly to ensure you are updated as to any changes. If we materially
+    change our practices regarding collection or use of your PII, your PII will continue
+    to be governed by the Policy under which it was collected unless you have been
+    provided notice of, and have not objected to, the change.
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: It is your responsibility to give us current, complete, truthful and
+    accurate information, including PII, and to keep such information up to date.
+    We cannot and will not be responsible for any problems or liability that may arise
+    if you do not give us accurate, truthful or complete Information or you fail to
+    update such Information. We will reject and delete any entry that we believe in
+    good faith to be false, fraudulent or inconsistent with this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 66
+  segment_text: This document is the sole statement of Our Privacy Policy and no summary,
+    restatement or other version thereof, or other privacy statement or policy, in
+    any form, including, without limitation, machine-generated, is valid.
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: 'This Privacy Policy was last modified on the date indicated above
+    and is effective immediately. If you have any questions about this Privacy Policy,
+    Our practices, or your dealings with Us, please contact us by sending a letter
+    or email to: Creative Mobile O.U Attn: Privacy Compliance Officer Parnu mnt 139a,
+    11317 Tallinn, Estonia privacy@Creative-mobile.com Games Games News Support'
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: Business Press Partnership Careers
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: About Contact Terms of Use Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: "P\xE4rnu mnt. 139A, 11317 Tallinn, Estonia Reg. nr. 11617092, VAT\
+    \ ID: EE101406176 info@creative-mobile.com \xA9 2010 - 2017 CREATIVE-MOBILE"
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: We do not share data we collect about you with advertising networks
+    including unique identification numbers associated with mobile devices (including,
+    for example, a Unique ID for Advertisers ("IDFA"), Unique ID for Vendors ("IDFV"),
+    Google Ad ID, or Windows Advertising ID), mobile carrier, device type, model and
+    manufacturer, mobile device operating system brand and model, and, depending on
+    the user's mobile device settings, the geographical location data, including GPS
+    coordinates (e.g. latitude and/or longitude) or similar information regarding
+    the location of the mobile device ("User Data"), device-specific information,
+    such as the hardware model, operating system version, advertising identifier,
+    unique application identifiers, unique device identifiers browser type, language,
+    wireless network, mobile network information (including the mobile phone number),
+    ad Bluetooth beacons.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not share data we collect about you with advertising networks
+      including unique identification numbers associated with mobile devices (including,
+      for example, a Unique ID for Advertisers ("IDFA"), Unique ID for Vendors ("IDFV"),
+      Google Ad ID, or Windows Advertising ID), mobile carrier, device type, model
+      and manufacturer, mobile device operating system brand and model, and, depending
+      on the user's mobile device settings, the geographical location data, including
+      GPS coordinates (e.g. latitude and/or longitude) or similar information regarding
+      the location of the mobile device ("User Data"), device-specific information,
+      such as the hardware model, operating system version, advertising identifier,
+      unique application identifiers, unique device identifiers browser type, language,
+      wireless network, mobile network information (including the mobile phone number),
+      ad Bluetooth beacons.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 72
+  segment_text: Information Collected Through Automatic Data Collection. In addition,
+    we also do not collect, and our third party ad servers and/or content servers
+    do not collect, certain Non-Personally Identifiable Information. ... We do not
+    use your IP address to diagnose problems with our servers, software, to administer
+    our services and to gather demographic information.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Information Collected Through Automatic Data Collection. In addition,
+      we also do not collect, and our third party ad servers and/or content servers
+      do not collect, certain Non-Personally Identifiable Information. ... We do not
+      use your IP address to diagnose problems with our servers, software, to administer
+      our services and to gather demographic information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 73
+  segment_text: In certain games, we will not create and assign to you an identifier.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: In certain games, we will not create and assign to you an identifier.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 74
+  segment_text: We never access your contacts.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We never access your contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 75
+  segment_text: If you play Our games on your mobile phone, tablet PCs, or PCs, we
+    do not collect any device identifiers, including MAC Address, and IP Address.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: If you play Our games on your mobile phone, tablet PCs, or PCs,
+      we do not collect any device identifiers, including MAC Address, and IP Address.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 76
+  segment_text: Non-Personally Identifiable Information. We do not gather information
+    about Users. Information we do not collect includes the Web site's Uniform Resource
+    Locator ("URL") that you just came from, which URL you go to next, what browser
+    you are using, and your Internet Protocol ("IP") address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Non-Personally Identifiable Information. We do not gather information
+      about Users. Information we do not collect includes the Web site's Uniform Resource
+      Locator ("URL") that you just came from, which URL you go to next, what browser
+      you are using, and your Internet Protocol ("IP") address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 77
+  segment_text: Non-Personally Identifiable Information. We never gather information
+    about Users. No information about locational data is transmitted via your mobile
+    device's beacon, GPS, or Wi-Fi signals.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Non-Personally Identifiable Information. We never gather information
+      about Users. No information about locational data is transmitted via your mobile
+      device's beacon, GPS, or Wi-Fi signals.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 78
+  segment_text: We do not offer you the ability to import your address book contacts,
+    third party social network contacts, or manually enter e-mail addresses.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not offer you the ability to import your address book contacts,
+      third party social network contacts, or manually enter e-mail addresses.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 79
+  segment_text: No Automatic Data Collection. In addition, our apps and our third
+    party ad server and/or content servers do not collect, certain Non-Personally
+    Identifiable Information. This may include information about the Wi-Fi location
+    of your device, and time and date information used to identify the length of time
+    spent within a given physical location.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No Automatic Data Collection. In addition, our apps and our third
+      party ad server and/or content servers do not collect, certain Non-Personally
+      Identifiable Information. This may include information about the Wi-Fi location
+      of your device, and time and date information used to identify the length of
+      time spent within a given physical location.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 80
+  segment_text: We do not provide NPII about our customers' sales, traffic patterns,
+    physical location using geo-locational data, dates and times during a location
+    was visited, time spent dwelling in such locations, and related information to
+    third party advertisers, advertising platforms, data resellers, and advertising
+    service providers.
+  annotations:
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not provide NPII about our customers' sales, traffic patterns,
+      physical location using geo-locational data, dates and times during a location
+      was visited, time spent dwelling in such locations, and related information
+      to third party advertisers, advertising platforms, data resellers, and advertising
+      service providers.
+    annotations:
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 81
+  segment_text: 'We do not offer Users the option to complete, or import from a third
+    party social network, such as Facebook, a user profile that is visible to other
+    users. Such User profiles may include: a profile photo; one or more game username(s);
+    gender; biographic details; links to third party social media profiles; details
+    about the games Users play or services Users use, and a User ID'
+  annotations:
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'We do not offer Users the option to complete, or import from a
+      third party social network, such as Facebook, a user profile that is visible
+      to other users. Such User profiles may include: a profile photo; one or more
+      game username(s); gender; biographic details; links to third party social media
+      profiles; details about the games Users play or services Users use, and a User
+      ID'
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 82
+  segment_text: We are not collecting the name you have associated with your device,
+    device type, telephone number, country, and any other information you choose not
+    to provide, such as user name, character name, geo-location or e-mail address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We are not collecting the name you have associated with your device,
+      device type, telephone number, country, and any other information you choose
+      not to provide, such as user name, character name, geo-location or e-mail address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 83
+  segment_text: We do not obtain certain information including your birth date, your
+    first and last name, email address, physical address, Facebook username or Twitter
+    handle, and your selected password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not obtain certain information including your birth date,
+      your first and last name, email address, physical address, Facebook username
+      or Twitter handle, and your selected password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED

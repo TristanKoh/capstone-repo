@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.peel.com/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="/privacy" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/15" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Privacy Policy</title>
+  <link type="text/css" rel="stylesheet" href="https://www.peel.com/sites/default/files/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.peel.com/sites/default/files/advagg_css/css__n1ceK-gVybNJJHgipFwjea6y0gXQmVkE8RiTk3dvSdQ__Mt2sq9jBP2I2ULtuiIZGb5lFJp-iP3BHAmyweP0EDDs__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.peel.com/sites/default/files/advagg_css/css__x94EuVEyZh7cUrns7OGNLJ0OujOdupMP3bAbP2D6ViM__0iE2hxr3P_VnDKEpaerB-cIWZjY28Zg6jT0LTtu7f5Y__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.peel.com/sites/default/files/advagg_css/css__oufryL050ompEUT2CuWlJX6qsubdKYSdzRlkF_cvA7c__SFJJ1pBuvIa5eXO0LL6G_sGHhiExGfcmOlM30Wi5vTU__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.peel.com/sites/default/files/advagg_css/css__hvO3-FpuTlS1O8xh39nJ_CKBTizdiRqIJ4nI_6sTAE8__fR7G5_iiLIEMj5C71XaV04XwVp5NI7ZV0-ikFOutX54__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.css" media="print" />
+  <script type="text/javascript" src="https://www.peel.com/sites/default/files/advagg_js/js__dU859nniAHOO3ZZ49DZUXr5Frl9T3QSa81hYdDf9Uas__JILlNGib1Hz87izGwrCoeUVWHEurARtSrto0pJK-26Q__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.js"></script>
+<script type="text/javascript" src="https://www.peel.com/sites/default/files/advagg_js/js__mrQ737icc8ZGgnwYNHplScD9M_-qT3_T7jcgfsBuMAA__fggQMTfeo2xMcaqMRhoB5tT_YsrG3IpQBUrB_BzvQzM__pI8QR968TMsjqJkpGOy19wNaNOC1lbthLB1GczWrkXA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"peeltheme","theme_token":"zPoxcc8PnivPvNjGCMb2v1gcKLStoKpu3bXHaNc6mPk","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/peeltheme\/css\/bootstrap.min.css":1,"sites\/all\/themes\/peeltheme\/css\/styles.css":1,"sites\/all\/themes\/peeltheme\/css\/job.css":1,"sites\/all\/themes\/peeltheme\/css\/custom.css":1,"sites\/all\/themes\/peeltheme\/css\/print.css":1,"public:\/\/google_fonts.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/peeltheme\/js\/scripts.js":1}}});
+//--><!]]>
+</script>
+
+  </head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-15 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<div style="text-align:left;" role="navigation" class="navbar navbar-default navbar-static-top">
+  <center>
+       <div style="max-width: 1300px;padding-left:15px;padding-right:15px;">
+        <div style="padding:0px;margin:0px;width:100%;text-align:left;overflow: hidden;" class="container">
+
+        <div style="padding:0px;margin:0px;max-width:text-align:left;" class="navbar-header" id="menu">
+          <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span style="background:transparent;width:15px;" class="icon-bar"></span>
+            <span style="background:transparent;width:15px;" class="icon-bar"></span>
+          </button>
+          <a href="/"><img id="peellogo" src="/sites/all/themes/peeltheme/img/peelLogo.svg" alt=" " height="100%" title=" " id="logo" /></a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="expand">
+<h2 class="element-invisible">Main menu</h2><ul class="nav navbar-nav"><li class="menu-375 first"><a href="/" title="">Home</a></li>
+<li class="menu-1681"><a href="http://peel.com/products" title="Peel Smart Remote">Products</a></li>
+<li class="menu-1861"><a href="/partners">Partners</a></li>
+<li class="menu-1324"><a href="/news" title="">Press</a></li>
+<li class="menu-428"><a href="/advertisers" title="">Advertisers</a></li>
+<li class="menu-433"><a href="http://blog.peel.com/blog" title="">Blog</a></li>
+<li class="menu-1596"><a href="/jobs" title="">Careers</a></li>
+<li class="menu-1595 last"><a href="/about" title="">About Us</a></li>
+</ul>
+        </div><!--/.nav-collapse -->
+      </div></div></center>
+    </div>
+	<div style="height:61px;"></div>
+
+<div id="actionlink">
+	  	  	  <a id="main-content"></a>
+	  <div id="tabs-wrapper" class="clearfix">	  	  	  	  </div>	  	  	  	  </div>
+
+
+
+  <div id="maincenter">
+    <div class="page maincenter-page">
+		  <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+  <div class="block-page">
+    
+  <div class="content">
+    <div id="node-15" class="node node-article node-promoted" about="/privacy" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Privacy Policy" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h1 style="margin-top:0px;margin-bottom:25px;"></h1>
+         <p class="tag_copy" style="max-width:800px;" align="left" >We at Peel Technologies, Inc. ("Peel," "we," "us," "our") know that our users ("you," "your") care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about our Privacy Policy. By visiting or using the www.peel.com website and domain name, and any other linked pages, features, content, mobile applications, or any other services we offer from time to time by in connection therewith (collectively, the "Service"), you acknowledge that you accept the practices and policies outlined in this Privacy Policy, and you hereby consent that we will collect, use, and share your information in the following ways.</strong></p>
+    </div></center>
+</div>
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">I. WHAT DOES THIS PRIVACY POLICY COVER?</h4>
+     
+     
+         <p class="tag_copy" style="max-width:800px;" align="left">Peel provides a complete end-to-end solution for smartphone/tablet/TV OEM’s and wireless operators. This Privacy Policy covers our treatment of personally identifiable information ("Personal Information") that we gather when you are accessing or using our Service. This policy does not apply to the practices of companies that we do not own or control, or to individuals that we do not employ or manage. 
+<br><br>
+We do not knowingly collect or solicit personal information from anyone under the age of 13 or knowingly allow such persons to register for the Services (as that term is defined in our Terms of Use http://www.peel.com/policies/tou.php). If you are under 13, please do not attempt to register for the Services or send any information about yourself to us, including your name, address, telephone number, or email address. No one under age 13 may provide any personal information to us or on the Services. In the event that we learn that we have collected personal information from a child under age 13 without verification of parental consent, we will delete that information as quickly as possible. If you believe that we might have any information from or about a child under 13, please contact us at privacy@peel.com.</p>
+    </div></center>
+</div>
+
+
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">II. WHAT INFORMATION DOES PEEL COLLECT?</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+We gather various types of Information from our users, as explained more fully below. 
+<br><br>
+Registration Data: When you register, we ask you to provide certain information, which includes your age, gender, TV service provider, manufacturer of your TV box – and other devices that can be set up through the Service - and zip code (the "Registration Data").
+<br><br>
+Content Interests: When you use the Service, we keep track of what content you engage with (“Content Data”).<br>
+<br>
+Contact Information: If you choose to participate in certain features and/or rewards offered through the Service, you may provide us, and we may collect, your contact information, including your email address, ("Contact Information").<br>
+<br>
+Device Information: If you access the Service from a mobile phone, tablet, or other electronic device, we may collect and store information such as device type, operating system version and type, unique identifiers (such as Android Advertising ID, VIN, MAC address, and IDFA), location information, content consumed (validated by audio content recognition), carrier, and other related information for that device (the “Device Data”).
+</p>
+</div></center>
+</div>
+
+
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">III. WHAT DOES PEEL DO WITH THE  INFORMATION IT RECEIVES?</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+In general, Peel may use your Registration Data and/or other information or data we receive or collect, as well as data we derive or infer from combinations of the foregoing, for a variety of purposes, such as:
+<br><br>
+*To facilitate the creation of and secure your account on the Service.
+<br><br>
+*To customize and personalize the advertising and other content we deliver to you both on the Service and via partners. We use this information to provide you with relevant and interesting advertising and other content.
+<br><br>
+*To measure and analyze Service usage and enhance the user experience on our Service. This helps us continue to build a better Service for you.
+<br><br>
+*To send you information that you agreed to receive.
+<br><br>
+*To pay third party fees for the content you see in the app. 
+<br><br>
+Email Address: We may work with data partners and advertising platforms to help increase the relevancy of ads we provide to our listeners. In doing so, we may use information representing an encrypted or hashed value derived from information we have received, such as your email address, in connection with these partners and platforms.
+<br><br>
+The Service may share information we receive or collect in a variety of ways, such as:
+Sharing of Personally Identifiable Information: We do not share personally identifiable information with third parties other than as described in this policy. However, we may share your information, including personally identifiable information, in order to (i) protect or defend the legal rights or property of Peel, or the legal rights of our business partners, employees, agents, and contractors (including enforcement of our agreements); (ii) protect the safety and security of Peel users or members of the public including acting in urgent circumstances; (iii) protect against fraud or to conduct risk management; or (iv) comply with the law, legal process, or legal requests. Additionally, we may share your data, including any personally identifiable information, with our successor in interest in the event of a corporate reorganization, merger, or sale of all or substantially all of our assets. 
+
+<br><br>
+Sharing of Device Data: Peel may share information from devices you use to access the Service with its advertising and other partners. We share this information for a variety of purposes such as advertising frequency capping, tracking advertising conversion events, estimating the number of unique users, security and fraud detection, targeted advertising, debugging problems with the Service, and for providing you with more relevant advertisements.
+
+<br><br>
+Sharing of Anonymized, Non-Personally Identifiable or Aggregated Data: Peel may share with third parties, advertisers, and/or business partners anonymized, non-personally identifiable, or aggregated data we receive or collect, such as de-identified Registration Data, Content Data and Device Data. We share such information for a variety of reasons, such as to analyze Service usage, improve the Service, improve the serving of advertisements, or for other purposes. The use and disclosure of such anonymized, non-personally identifiable, or aggregated information is not subject to any restrictions under this policy. 
+
+<br><br>
+Information You Disclose in a Public Profile or in Public Forums: The Peel Service offers publicly accessible and available pages on social media platforms. You should be aware that any information you provide or post in these areas may be read, collected, and used by others who access them. If your profile is public, any information you place in your user profile, including biographical information, the people you are following, and the people whom you allow to follow you, may be read, collected, and used by others who access them. To request removal of such information from our public forums, contact us at privacy@peel.com. 
+<br><br>
+
+
+
+</p>
+</div></center>
+</div>
+
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">IV. IS PERSONAL INFORMATION ABOUT ME SECURE?</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+Your account is protected by a password for your privacy and security. If you access your account via a third party site or service, you may have additional or different sign-on protections via that third party site or service. You must prevent unauthorized access to your account and Personal Information by selecting and protecting your password and/or other sign-on mechanism appropriately and limiting access to your computer or device and browser by signing off after you have finished accessing your account.
+<br><br>
+We endeavor to protect the privacy of your account and other Personal Information we hold in our records, but we cannot guarantee complete security. Unauthorized entry or use, hardware or software failure, and other factors, may compromise the security of user information at any time.
+<br><br>
+The Service may contain links to other sites. We are not responsible for the privacy policies and/or practices on other sites. When following a link to another site you should read that site’s privacy policy.
+
+</p>
+</div></center>
+</div>
+
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">V. WHAT PERSONAL INFORMATION CAN I ACCESS?</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+Through your account settings, you may access, and, in some cases, edit or delete certain information you've provided to us. 
+
+The information you can view, update, and delete may change as the Service changes. If you have any questions about viewing or updating information we have on file about you, please contact us at privacy@peel.com.
+</p>
+</div></center>
+</div>
+
+
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">VI. WHAT CHOICES DO I HAVE?</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+You can always opt not to disclose information to use, but keep in mind some information may be needed to register with us or to take advantage of some of our special features. You may be able to add, update, or delete information as explained in Section V above. When you update information, however, we may maintain a copy of the unrevised information in our records. You may request deletion of your account by sending an email to privacy@peel.com. Please note that some information may remain in our private records after your deletion of such information from your account. We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner that would identify you personally. 
+<br><br>
+You can prevent Peel from showing you targeted ads by sending an email to privacy@peel.com and asking to opt-out of targeted advertising. Opting-out will only prevent targeted ads from being displayed so you may continue to see generic (non-targeted) ads from Peel after you opt-out. For more information on Interest-Based Ads or to stop use of tracking technologies for these purposes, go to www.aboutads.info or www.networkadvertising.org. 
+<br><br>
+If you do not wish to receive email or other mail from us, please send an email to privacy@peel.com. Please note that if you do not want to receive legal notices from us, such as this Privacy Policy, those legal notices will still govern your use of the Service, and you are responsible for reviewing such legal notices for changes.
+</p>
+</div></center>
+</div>
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">VII. CHANGES TO THIS PRIVACY POLICY</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+We may amend this Privacy Policy from time to time. Use of information we collect now is subject to the Privacy Policy in effect at the time such information is used. If we make changes in the way we use Personal Information, we will notify you by posting an announcement on our Website or sending you an email. You are bound by any changes to the Privacy Policy when you use the Website after such changes have been first posted.
+</p>
+</div></center>
+</div>
+
+
+<a name="Integrate" id="Integrate"></a>
+<div class="container marketing" id="integration" style="min-height:100%;background:white;width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
+     <center><div style="text-align:left;max-width: 1300px;padding:15px;width:100%;"><center><h4 style="margin-top:0px;margin-bottom:25px;">VIII. QUESTIONS OR CONCERNS</h4>
+     
+<p class="tag_copy" style="max-width:800px;" align="left">
+If you have any questions or concerns regarding our privacy policies, please send us a detailed message via email to privacy@peel.com. We will make every effort to resolve your concerns.
+<br><rb><br>
+
+Effective Date: September 7, 2016</p></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+</div>
+  </div>
+	</div>
+
+  </div>
+
+
+
+<div class="container marketing" id="footer" style="width:100%;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;">
+
+<center><div id="footer_wrap" style="max-width: 1300px;width:100%padding:15px;margin:0px;">
+  <div class="region region-footer">
+    <div id="block-menu-menu-peel-menu" class="block block-menu clearfix col-sm-6">
+<div style="min-width:150px;">
+    <span class="copy-bold">Peel</span>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/about" title="">About Us</a></li>
+<li class="leaf"><a href="/about#contact" title="">Contact Us</a></li>
+<li class="leaf"><a href="/jobs" title="">Careers</a></li>
+<li class="leaf"><a href="http://peel.com/products" title="Peel Products">Products</a></li>
+<li class="leaf"><a href="http://peel.freshdesk.com/" title="">Support</a></li>
+<li class="leaf active-trail"><a href="/privacy" title="" class="active-trail active">Privacy Policy</a></li>
+<li class="last leaf"><a href="/termsofuse.html" title="">Terms of Use</a></li>
+</ul>  </div>
+</div>
+</div>
+<div id="block-block-2" class="block block-block clearfix col-sm-6">
+<div style="min-width:150px;">
+    
+  <div class="content">
+    <a href="http://instagram.com/peeltv"><img src="/sites/all/themes/peeltheme/img/insta.png" style="float:right;" ;=""></a>
+<a href="https://www.facebook.com/peeltv"><img src="/sites/all/themes/peeltheme/img/fb.png" style="float:right;" ;=""></a>
+<a href="https://twitter.com/peeltv"><img src="/sites/all/themes/peeltheme/img/tw.png" style="float:right;" ;=""></a>  </div>
+</div>
+</div>
+  </div>
+<div class="clear"></div>
+</div></center>
+</div>
+
+<div id="footerbottom">  <div class="region region-footerbottom">
+    <div id="block-block-12" class="block block-block clearfix">
+  <div class="block-page">
+    
+  <div class="content">
+    <center>
+<p>Copyright 2016 Peel</p>
+<p>&nbsp;</p>
+<div class="col-xs-6" style="text-align:right;">
+<a href="https://play.google.com/store/apps/details?id=tv.peel.app" style="display:inline-block;overflow:hidden;background:url(/sites/all/themes/peeltheme/img/google-play-badge.png) no-repeat right center;width:165px;height:40px;"> 
+</a>
+</div>
+<div class="col-xs-6" style="text-align:left;">
+<a href="https://geo.itunes.apple.com/us/app/peel-smart-remote-tv-guide/id894930703?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat left center;width:165px;height:40px;"></a>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</center>  </div>
+</div>
+</div>
+  </div>
+</div>
+
+<script src="/sites/all/themes/peeltheme/js/bootstrap.min.js"></script>
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-49174819-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6d8961c01b","applicationID":"9643840","transactionName":"ZANWYkMCCEdUUBJYCl1JYURYTEldW1cDSUtDDkQ=","queueTime":0,"applicationTime":23,"atts":"SERVFAsYG0k=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

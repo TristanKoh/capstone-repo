@@ -1,0 +1,256 @@
+policy_id: 174
+policy_name: com.kauf.talking.sweetlittletalkingprincess
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Deutsch English Last Revised Date: 4th of June 2013 Kaufcom GmbH
+    Privacy Policy Kaufcom GmbH including its affiliates ("Kaufcom"), stores, collects
+    and uses your personal information as a data controller in connection with Kaufcom
+    products, apps, software, services and websites (together "Services") according
+    to this privacy policy.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: All Kaufcom Services are governed by this Privacy Policy and by using
+    or accessing a Service you give consent to the processing, use and disclosure
+    of your data. Please do not install or use the Services if you do not agree to
+    this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Changes to the Privacy Policy Kaufcom GmbH reserves the right, in
+    its sole discretion, to change or modify this Privacy Policy at any time by posting
+    the changed or modified version of the Privacy Policy on the Site. Any such changes
+    or modifications will be effective immediately upon posting. If we make any changes
+    to this Privacy Policy, we will change the Last Revised date above. Your continued
+    use of Services will signify your acceptance of the changes to this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Your Data Kaufcom may use different analytic tools in order to develop
+    and analyze the use of the Services.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Kaufcom may supplement your data with data received from third parties
+    in connection with demographic, advertisement, market and other analytics surveys
+    or services.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Kaufcom may supplement your data with data received from third
+      parties in connection with demographic, advertisement, market and other analytics
+      surveys or services.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Ad Serving Technology Kaufcom reserves the right to use and disclose
+    the collected data for purposes of advertisement by Kaufcom or Kaufcom's partners
+    and contractors.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Kaufcom may employ third party ad serving technologies that use certain
+    methods to collect information as a result of ad serving through Services.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Kaufcom or third parties operating the ad serving technology may use
+    demographic and location information as well as information logged from your hardware
+    or device to ensure that appropriate advertising is presented within the Service.
+    Kaufcom or third parties may collect and use data for this purpose including,
+    but not limited to IP address (including but not limited to for purposes of determining
+    your coarse location), Device ID, MAC, software, applications, hardware, browser
+    information, internet and on-line usage information and in-game information.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Kaufcom or third parties may collect and use data for this purpose
+      including, but not limited to IP address (including but not limited to for purposes
+      of determining your coarse location), Device ID, MAC
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Kaufcom or third parties operating the ad serving technology may
+      use demographic and location information as well as information logged from
+      your hardware or device to ensure that appropriate advertising is presented
+      within the Service.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: The foregoing data may be used and disclosed in accordance with this
+    Privacy Policy and the privacy policy of the company providing the ad serving
+    technology.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Security Kaufcom takes reasonable measures to protect your information
+    from unauthorized access or against loss, misuse or alteration by third parties.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Although we make good faith efforts to store the information collected
+    on the Service in a secure operating environment that is not available to the
+    public, we cannot guarantee the absolute security of that information during its
+    transmission or its storage on our systems. Further, while we attempt to ensure
+    the integrity and security of our network and systems, we cannot guarantee that
+    our security measures will prevent third-party "hackers" from illegally obtaining
+    access to this information. We do not warrant or represent that your Account or
+    any of Your Information will be protected against, loss, misuse, or alteration
+    by third parties.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Location Data To the extent Kaufcom makes location enabled Services
+    available and you use such Services, Kaufcom may collect and process your location
+    data to provide location related Services and advertisements. For example, some
+    add-ons or offers may be available at dedicated locations.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, some add-ons or offers may be available at dedicated
+      locations.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: To the extent Kaufcom makes location enabled Services available
+      and you use such Services, Kaufcom may collect and process your location data
+      to provide location related Services and advertisements.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Kaufcom may use various technologies to determine location, such as
+    GPS, Wi-Fi or other network-based data such as IP address, etc.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Kaufcom may use various technologies to determine location, such
+      as GPS, Wi-Fi or other network-based data such as IP address, etc.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Children Policy Kaufcom does not knowingly collect any personal information
+    from children under 13 years of age.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: If the company becomes aware that a child under 13 has provided us
+    with personal information, we will delete such information from our files.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Third Party Terms and Conditions Please note that your access to and
+    use of the Services may be subject to certain third party and Kaufcom is not liable
+    for any such third party terms and conditions and their use of your personal data.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Opt-Out You are always free to opt-out from the future collection
+    of your personal information by Kaufcom in accordance with this Privacy Policy
+    by uninstalling all the Applications from each of your computing devices and discontinuing
+    use our Services.
+  annotations: []
+  sentences: []

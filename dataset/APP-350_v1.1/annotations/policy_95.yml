@@ -1,0 +1,93 @@
+policy_id: 95
+policy_name: VideoPlayer
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy Your privacy is important to Video Player. Our Privacy
+    Policy covers how we collect, use, disclose, transfer, and store your information.
+    We hope our policy is straightforward and easy-to-understand. Please take a minute
+    to review the details of our privacy practices below.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Collection and Use of Non-Personal Information We may collect non-personal
+    information, such as data that does not allow direct association with any specific
+    individual. Non-personal data is collected, used, transferred, and disclosed for
+    a number of purposes. These purposes include the use of cookies and other technologies
+    that give us a better understanding of our users' needs. We use information collected
+    from cookies to improve users' experience and the overall quality of our services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These purposes include the use of cookies and other technologies
+      that give us a better understanding of our users' needs.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use information collected from cookies to improve users' experience
+      and the overall quality of our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: Collection and Use of Personal Information No personal information
+    will be collected when you are using Video Player.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'When you use our email support services, we collect your correspondence
+    in order to build up a public knowledge base, which will be available to all users
+    of the site. Your correspondence will most likely not be used verbatim, but paraphrased
+    in an FAQ format. We use the information collected through Video Player product:
+    (I) to communicate with you; (II) to process your requests and transactions; (III)
+    to improve the app; (IV) to customize the services and/or products we provide
+    to you; (V) to assist with our product and service development; (VI) to perform
+    marketing analysis; and (VII) for other purposes related to our business.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use our email support services, we collect your correspondence
+      in order to build up a public knowledge base, which will be available to all
+      users of the site.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Transparency and Choice You can also control which social websites
+    you wish to share or upload.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Third party accounts Video Player does not store any other third part
+    service passwords. Your account information is not disclosed to Video Player and
+    you are free to cancel any of your social networking website connections with
+    Video Player at any time.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Video Player does not store any other third part service passwords.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 6
+  segment_text: Enforcement We regularly review our own compliance with our Privacy
+    Policy. If you submit a formal written complaint, we will contact you and try
+    our best to resolve the issue.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Changes Our Privacy Policy may change occasionally. We will not reduce
+    your rights under this Privacy Policy without providing explicit, advance notice.
+    We will post any privacy policy changes on this page and, in the event of significant
+    changes, we will provide a more prominent notice (such as an email notification).
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: If you have any questions regarding this Privacy Policy, please feel
+    free to contact us.
+  annotations: []
+  sentences: []

@@ -1,0 +1,336 @@
+policy_id: 178
+policy_name: com.momento.cam
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: (Wix-Logo) Create a Wix site! 100s of templates No coding needed Start
+    now >> (Wix Logo) This site was created using WIX.com.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Create your own for FREE >> tularikatutyres Create best tularikatutyres\
+    \ and get the first place and lots of friends. \u0444\u0430\u0431\u0431\u0438"
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "tularikatutyres politics Privacy policy Cartoon Face Privacy policy\
+    \ Carikatutyres More Carikatutyres \xA9 2023 by Radiome. Proudly created with\
+    \ Wix.com Privacy Policies This privacy policy has been compiled to better serve\
+    \ those who are concerned with how their 'Personally Identifiable Information'\
+    \ (PII) is being used online. PII, as described in US privacy law and information\
+    \ security, is information that can be used on its own or with other information\
+    \ to identify, contact, or locate a single person, or to identify an individual\
+    \ in context. Please read our privacy policy carefully to get a clear understanding\
+    \ of how we collect, use, protect or otherwise handle your Personally Identifiable\
+    \ Information in accordance with our website."
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: What personal information do we collect from the people that visit
+    our blog, website or app?
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: When ordering or registering on our site, as appropriate, you may
+    be asked to enter your name or other details to help you with your experience.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: When do we collect information? We collect information from you when
+    you fill out a form or enter information on our site.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: "How do we use your information? We may use the information we collect\
+    \ from you when you register, make a purchase, sign up for our newsletter, respond\
+    \ to a survey or marketing communication, surf the website, or use certain other\
+    \ site features in the following ways: \u2022 To personalize your experience and\
+    \ to allow us to deliver the type of content and product offerings in which you\
+    \ are most interested."
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: How do we protect your information? We do not use vulnerability scanning
+    and/or scanning to PCI standards.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: We only provide articles and information. We never ask for credit
+    card numbers.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: We do not use Malware Scanning.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: "We do not use an SSL certificate \u2022 We only provide articles\
+    \ and information. We never ask for personal or private information like names,\
+    \ email addresses, or credit card numbers."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We never ask for personal or private information like names, email
+      addresses, or credit card numbers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 11
+  segment_text: Do we use 'cookies'? We do not use cookies for tracking purposes You
+    can choose to have your computer warn you each time a cookie is being sent, or
+    you can choose to turn off all cookies. You do this through your browser settings.
+    Since browser is a little different, look at your browser's Help Menu to learn
+    the correct way to modify your cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use cookies for tracking purposes
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 12
+  segment_text: If you turn cookies off, some features will be disabled. that make
+    your site experience more efficient and may not function properly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you turn cookies off, some features will be disabled.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: that make your site experience more efficient and may not function
+      properly.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: However, you will still be able to place orders .
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Third-party disclosure We do not sell, trade, or otherwise transfer
+    to outside parties your Personally Identifiable Information.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Third-party links We do not include or offer third-party products
+    or services on our website.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Google Google's advertising requirements can be summed up by Google's
+    Advertising Principles. They are put in place to provide a positive experience
+    for users.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: https://support.google.com/adwordspolicy/answer/1316548?hl=en We use
+    Google AdSense Advertising on our website.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Google, as a third-party vendor, uses cookies to serve ads on our
+    site. Google's use of the DART cookie enables it to serve ads to our users based
+    on previous visits to our site and other sites on the Internet. Users may opt-out
+    of the use of the DART cookie by visiting the Google Ad and Content Network privacy
+    policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Google's use of the DART cookie enables it to serve ads to our
+      users based on previous visits to our site and other sites on the Internet.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Google, as a third-party vendor, uses cookies to serve ads on our
+      site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Users may opt-out of the use of the DART cookie by visiting the
+      Google Ad and Content Network privacy policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: "We have implemented the following: \u2022 Google Display Network\
+    \ Impression Reporting"
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: We, along with third-party vendors such as Google use first-party
+    cookies (such as the Google Analytics cookies) and third-party cookies (such as
+    the DoubleClick cookie) or other third-party identifiers together to compile data
+    regarding user interactions with ad impressions and other ad service functions
+    as they relate to our website.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We, along with third-party vendors such as Google use first-party
+      cookies (such as the Google Analytics cookies) and third-party cookies (such
+      as the DoubleClick cookie) or other third-party identifiers together to compile
+      data regarding user interactions with ad impressions and other ad service functions
+      as they relate to our website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: 'Opting out: Users can set preferences for how Google advertises to
+    you using the Google Ad Settings page. Alternatively, you can opt out by visiting
+    the Network Advertising Initiative Opt Out page or by using the Google Analytics
+    Opt Out Browser add on.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: no matter COPPA (Children Online Privacy Protection Act) When it comes
+    to the collection of personal information from children under the age of 13 years
+    old, the Children's Online Privacy Protection Act (COPPA) puts parents in control.
+    The Federal Trade Commission, United States' consumer protection agency, enforces
+    the COPPA Rule, which spells out what operators of websites and online services
+    must do to protect children's privacy and safety online.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: We do not specifically market to children under the age of 13 years
+    old.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Fair Information Practices The Fair Information Practices Principles
+    form the backbone of privacy law in the United States and the concepts they include
+    have played a significant role in the development of data protection laws around
+    the globe. Understanding the Fair Information Practice Principles and how they
+    should be implemented is critical to comply with the various privacy laws that
+    protect personal information.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "In order to be in line with Fair Information Practices we will take\
+    \ the following responsive action, should a data breach occur: \u2022 Other"
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: We also agree to the Individual Redress Principle which requires that
+    individuals have the right to legally pursue enforceable rights against data collectors
+    and processors who fail to adhere to the law. This principle requires not only
+    that individuals have enforceable rights against data users, but also that individuals
+    have recourse to courts or government agencies to investigate and/or prosecute
+    non-compliance by data processors.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: CAN SPAM Act The CAN-SPAM Act is a law that sets the rules for commercial
+    email, establishes requirements for commercial messages, gives recipients the
+    right to have emails stopped from being sent to them, and spells out tough penalties
+    for violations.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'We collect your email address in order to: To be in accordance with
+    CANSPAM, we agree to the following: If at any time you would like to unsubscribe
+    from receiving future emails, you can email us at'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We collect your email address in order to:'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 29
+  segment_text: and we will promptly remove you from ALL correspondence.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Contacting Us If there are any questions regarding this privacy policy,
+    you may contact us using the information below.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Caricatures Masquerade Cartoon, Minsk 220000 Belarus volha.frajlisa@gmail.com
+    Last Edited on 2016-12-08
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: "We do not collect your email address: \u2026"
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "We do not collect your email address: \u2026"
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 33
+  segment_text: We do not use first-party cookies (such as the Google Analytics cookies)
+    or third-party cookies (such as the DoubleClick cookie) or other third-party identifiers.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use first-party cookies (such as the Google Analytics
+      cookies) or third-party cookies (such as the DoubleClick cookie) or other third-party
+      identifiers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 34
+  segment_text: We do not use cookies for tracking purposes
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use cookies for tracking purposes
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 35
+  segment_text: We will not use cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will not use cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 36
+  segment_text: We never ask for personal or private information like names, email
+    addresses, or credit card numbers.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We never ask for personal or private information like names, email
+      addresses, or credit card numbers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 37
+  segment_text: Third-party vendors do not use cookies to serve ads on our site. We
+    are not using Google's DART cookie, which enbables serving ads to our users based
+    on previous visits to other sites on the Internet.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Third-party vendors do not use cookies to serve ads on our site.
+      We are not using Google's DART cookie, which enbables serving ads to our users
+      based on previous visits to other sites on the Internet.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED

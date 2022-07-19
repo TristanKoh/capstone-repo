@@ -1,0 +1,572 @@
+policy_id: 108
+policy_name: APUS
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy Updated: Mar 9, 2017 APUS gives high priority to your
+    private information, and this privacy policy will explain why and what we collect,
+    and how we use the information we collected. Please read carefully and understand
+    the terms of this privacy policy (hereinafter, the "Policy"). To know this Policy
+    is important for you, your use of our products or services shall be regarded as
+    your acknowledgment and acceptance of this Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'We collect information to provide you with better service and a more
+    satisfying user experience. Below we explained how and what we collect, it includes:
+    (1) the information you provide for us, such as the information you filled with
+    when you registered the account; (2) the information we obtained from your use
+    of our products or services, for example, we collect through the advertising or
+    videos you watched. Further, according to the different characteristic of each
+    product, we may collect different information from your use of services, for example,
+    your device information, browser type, location information, and other data that
+    can be obtained through your use of browser, cookie, etc. We collect this information
+    to continuously improve our services, and may provide you with content recommendation
+    services, such as, recommendation of news, advertisings and other content that
+    you are interested in.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Further, according to the different characteristic of each product,
+      we may collect different information from your use of services, for example,
+      your device information, browser type, location information, and other data
+      that can be obtained through your use of browser, cookie, etc.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: The following part - how we collect and use information, provide you
+    with detailed information in connection with specific APUS product. If you wish
+    to know more details about how we collect information and how we use it of each
+    product, please refer to and read the Privacy Policy for each product.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: "\u2160. How we collect and use information - APUS Launcher"
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How we collect and use information - APUS Launcher
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 1. Read phone status and identity We may read the unique device ID
+    and encrypt irreversibly while will not collect user personal identity information.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Read phone status and identity We may read the unique device ID
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 2. Read your text messages (SMS or MMS) Used to search messages in
+    phone. No relative information will be collected.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 3. Take pictures and videos Used in APUS Settings and tool bar to
+    turn on/off flashlight.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 4. We may get your approximate location (network-based) Used in APUS
+    Discovery to recommend popular apps for users around you. Used in APUS Know to
+    provide taxi service for users. Used in Weather function to provide weather information
+    service.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may get your approximate location (network-based)
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 5. We may read your contacts Only used in contact search as you required.
+    No relative contact information will be collected.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may read your contacts
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 6. Read calendar events and relative information Only used in APUS
+    Know to display recent calendar events. No relative calendar information will
+    be collected.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 7. Modify or delete the contents of your USB storage This permission
+    allows users to delete APUS wallpapers stored in SD card.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 8. Read the contents of your USB storage This permission allows users
+    to view APUS wallpapers stored in SD card.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 9. Set an alarm By tapping the clock widget, allow user to enter Alarm
+    settings.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 10. Find accounts on the device This permission allows APUS to check
+    if users have logged in Google Play and provide relative app installation service.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 11. Read Google service configuration This permission allows APUS
+    to read ad ID and provide ad recommendation service.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Read Google service configuration This permission allows APUS to
+      read ad ID and provide ad recommendation service.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: 12. Change cellular data status Used in APUS Settings and tool bar
+    to turn on/off cellular data.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 13. Change Wi-Fi connection status Used in APUS Settings and tool
+    bar to turn on/off Wi-Fi connection.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 14. Full network access This permission accesses APUS to network for
+    achieving relative services, e.g. providing version update notification, sorting
+    configuration of smart folder, news, etc. Data consumption may be needed.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 15. Check network connections Used in APUS Settings and tool bar to
+    check network connection status.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 16. Check Wi-Fi connections Used in APUS Settings and tool bar to
+    turn on/off Wi-Fi connection.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 17. Access Bluetooth settings Used in APUS Settings to turn on/off
+    Bluetooth.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 18. Pair with Bluetooth devices Used in APUS Settings to view Bluetooth
+    connection status.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 19. Close other apps This permission allows APUS to close apps running
+    in background with 1-Tap Acceleration, System Master and APUS Booster.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 20. Retrieve running apps This permission allows APUS to check running
+    apps with 1-Tap Acceleration, System Master and APUS Booster.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 21. run at startup This permission allows APUS services to run at
+    startup.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 22. Draw over other apps This permission allows Free Swipe to display
+    windows over other apps.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 23. Control vibration Used in APUS Settings so device can vibrate
+    for once as notification when startup.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 24. Adjust your wallpaper size This permission allows users to adjust
+    wallpaper size.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 25. Set wallpaper This permission allows users to choose and set wallpapers
+    and Linked wallpapers.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 26. Read sync settings Used in APUS battery saver mode, check status
+    of sync settings to save power.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 27. Toggle sync on and off Used in APUS Battery Saver Mode to toggle
+    on/off sync.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 28. Expand/collapse status notification bar Used to expand/collapse
+    status notification bar, for launcher gesture operations.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 29. Install shortcuts This permission allows APUS to create shortcuts
+    on other launchers and users can continue to use APUS relative functions.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 30. Measure app storage space Used in app management to view memory
+    usage by apps.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 31. Modify system settings Used in APUS settings to toggle or adjust
+    ringtone, vibration and brightness.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 32. Read Home settings and shortcuts Used to read settings and shortcuts
+    of precious home launcher for better adaptability.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 33. Uninstall shortcuts This permission allows user to delete APUS
+    shortcuts created on other launchers.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 34. Read call log This permission allows APUS read call log to notify
+    missed calls and recommend contacts. No relative information will be collected.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 35. Receive data from the internet This permission allows APUS to
+    use internet data to update information for users.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 36. Precise location (GPS and network-based) This permission allows
+    APUS to use location service to provide weather information for users. This may
+    consume more battery.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Precise location (GPS and network-based)
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: 37. Manage Bluetooth Used to access Bluetooth settings and pair with
+    other devices via Bluetooth.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 38. Read, modify and delete contents in the SD card This permission
+    allows APUS to read, modify and delete contents in SD card according to user's
+    order.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 39. Reroute outgoing calls This permission allows user to read and
+    call back missed calls.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 40. Install shortcuts This permission allows user to create APUS shortcuts
+    on launcher home.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 41. View or change system settings This permission allows APUS Settings
+    to view and change settings of ringtone, vibration, screen rotate, and brightness.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 42. System alert window Used to send instant notifications to users
+    by drawing over other messages.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 43. Access to widgets This permission allows users to add and display
+    widgets of Android system and other apps on APUS Launcher.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 44. View recently used apps Used for app arrangements on APUS Launcher
+    home. No relative information will be collected.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Used for recently used apps in All Apps, Free Swipe, APUS Search.
+    No relative information will be collected.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 45. Read weather widget data This permission allows APUS launcher
+    to display weather widget appropriately with mobile devices.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 46. Apply for GCM service Used in Linked Wallpaper to send initiation
+    via GCM service. Used in Daily News release.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: 47. Apply for notification access Used in 1-Tap Acceleration to clear
+    useless notifications chosen by users.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 48. Accessibility This permission allows APUS Booster to close apps
+    chosen by users with accessibility. This permission is only used to speed up device
+    and no other personal information will be collected.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 49. Awake in background Used in Lock screen to activate 1-Tap Acceleration,
+    close unnecessary apps running in background and save battery power.
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: "\u2161. How we protect your information We will use commercially\
+    \ and technically reasonable means and efforts to properly arrange and protect\
+    \ your information, for example, to protect through use of newer asymmetric encryption\
+    \ techniques, to hold your personal information harmless from accidental loss,\
+    \ misuse, alteration, destruction, unauthorized access and disclosure, and so\
+    \ on. Except as required by law or expressly allowed herein, we will not disclose\
+    \ your personal information: For legal reasons"
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: To disclose your information as required by law or administrative
+    regulations, or the disclosure is necessary to comply with legal procedure served
+    on APUS websites; With your consent
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: To disclose your information with authorization or consent given by
+    yourself; For user or public safety
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: To protect APUS right, APUS users or public safety, to guarantee the
+    safety of APUS customers and products in case of emergency; To comply with APUS
+    related terms of services and software license agreement.
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: "\u2162. How we share your information We will not share your information\
+    \ with any other companies, organizations or individuals, except as expressly\
+    \ allowed as below: With your consent"
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: Any sensitive personal information (including personally identifiable
+    information, financial and payment information, authentication information, phone
+    book or contact data, collectively known as "personally identifiable information")
+    shall not be shared with any other companies, organizations or individuals without
+    your consent or authorization. Share with third parties adhere to this Policy
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: With commercially reasonable effort to protect your information, APUS
+    will work with third-party business partners for specific field of products or
+    services cooperation, in order to provide you with better and more comprehensive
+    services. This cooperation may need us to share some user information with our
+    business partners (personally identifiable information not included). Our partners
+    may be provided with access to the information necessary to perform their functions
+    only if they agree to strictly comply with this Privacy Policy and other confidentiality
+    terms. We will urge our partners to protect the user information in accordance
+    with this Privacy Policy and the confidentiality terms.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: Please be noted that some links connected with third-party web pages
+    are included in APUS products. APUS does not make any warranties and shall not
+    take any legal responsibilities of any products, content, privacy statements,
+    operational policies, and other business activities of any other websites of third
+    parties. If you wish to use the services of any other websites of third parties,
+    please read carefully and understand their privacy policies and other related
+    statements.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: Probably we may share non-personally identifiable information with
+    our business partners (such as publishers, advertisers, or affiliated websites)
+    and may be publicly available. For example, we may disclose information to the
+    public to let them know the overall user data and the overall trend for the use
+    of APUS products. Meanwhile, APUS reminds you to pay attention to protect your
+    personal information in your use of our services. Please be careful to disclose
+    your personal information when using APUS services (for example, you are likely
+    to make comments in the news comment section or posting your own email ID, and
+    so on), APUS does not take any responsibility for personal information disclosure
+    or collection by any third party arising out of your personal disclosing actions.
+    Please attach importance to protect your personal information with considering
+    carefully whether the disclosure is necessary.
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: "\u2163. Privacy Protection of Minors If you are a minor, you shall\
+    \ use our services with obtaining prior consent of your parent or legal guardian\
+    \ (collectively, \"guardian\"). We recommend that the guardians of minors shall\
+    \ read this Policy carefully, and we also recommend minors to obtain guardians'\
+    \ prior consent and guidance before submitting personal information in your use\
+    \ of our services. We are committed to the protection of children's privacy that\
+    \ we will not intentionally collect personal information of children under the\
+    \ age of 13."
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: "\u2164. Update of Privacy Policy APUS is committed to make continuous\
+    \ progress for our services to improve user satisfaction, therefore we may update\
+    \ or change this Policy continuously with including any update or change on this\
+    \ page and you may find the date updated at the top of this Policy. We encourage\
+    \ you to review our Privacy Policy every time when you use our services."
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: "\u2165. Contact us If you have any suggestion, feedback or request\
+    \ for this Policy, you may contact us on our Facebook page at https://www.facebook.com/APUSGROUP\
+    \ or send us an email at privacy@apusapps.com.Thanks."
+  annotations: []
+  sentences: []
+- segment_id: 66
+  segment_text: "\xA9 2014-2017 APUS Group. ALL Rights Reserved"
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: "How we collect and use information - APUS Launcher Read does not\
+    \ obtain phone status and identity We may not read the unique device ID \u2026"
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "How we collect and use information - APUS Launcher Read does not\
+      \ obtain phone status and identity We may not read the unique device ID \u2026"
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 68
+  segment_text: Further, we may not collect different information from your use of
+    services, for example, your device information, browser type, location information,
+    and other data that could be obtained through your use of browser, cookie, etc.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Further, we may not collect different information from your use
+      of services, for example, your device information, browser type, location information,
+      and other data that could be obtained through your use of browser, cookie, etc.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 69
+  segment_text: How we collect and use information - APUS Launcher Precise location
+    (GPS and network-based) is not collected
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: How we collect and use information - APUS Launcher Precise location
+      (GPS and network-based) is not collected
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 70
+  segment_text: How we collect and use information - APUS Launcher We may not get
+    your approximate location (network-based).
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: How we collect and use information - APUS Launcher We may not get
+      your approximate location (network-based).
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: NOT_PERFORMED

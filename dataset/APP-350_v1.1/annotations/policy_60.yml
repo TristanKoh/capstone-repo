@@ -1,0 +1,125 @@
+policy_id: 60
+policy_name: Leomaster
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy Welcome to Private Zone (hereinafter referred to as
+    "this application"). This Privacy Policy is an agreement between you and LEOMASTER
+    Company (hereinafter referred to as "LEOMASTER" or "We") regarding how your information
+    is collected, used and shared when you use this application and related services.
+    We, regard our users' information as top priority and we suggest that you read
+    through this policy and decide whether to accept this policy or not. (Minors shall
+    read this policy accompanied by the legal guardian). By downloading, installing
+    and using this application, you read, understand and consent to be bound by the
+    terms of this agreement.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: The Information Private Zone Collects No personal information is required
+    when downloading or using this application. When you download/use the Application
+    or the Services, we receive and collect only non-personal information such as
+    your device information, your operation system, language preference, etc.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Your personal information will only be collected when: You participate
+    in our events and voluntarily provide your name, email address, phone number,
+    etc. It will be your choice whether to provide your information.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Your personal information will only be collected when: You participate
+      in our events and voluntarily provide your name, email address, phone number,
+      etc.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: For better recommendations, we will use some data you shared on Facebook,
+    other websites or apps. For more information, please check at https://m.facebook.com/ads/ad_choices
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'How Private Zone Use the Information Collected We use your information
+    to: a. provide you with technical support b. improve the services'' management
+    c. deliver the services per you request d. analyze statistical data e. investigate
+    alleged fraud, infringement or other misconduct We will NOT share your personal
+    information with any third parties unless: If required to do so by any applicable
+    law, regulation, legal process or enforceable governmental request.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Intellectual Property The company names, trademarks, service marks,
+    trade names, logos, slogans and product names displayed in this software are protected
+    worldwide and may not be used in any way without the prior written consent of
+    LEOMASTER.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Charge and Fee Any use of this application and related services is
+    completely free; LEOMASTER will not charge any fee. If you agree to use the SMS
+    service by selecting the SMS option, it will generate related SMS service fee.
+    The SMS service fee will be charged by your Mobile service operator according
+    to the agreement between you and your Mobile service operator.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Liability and Exemption You should understand the process of you sending
+    information and LEOMASTER receiving information is conducted through a third party,
+    such as telecommunications, network, etc. The safety of sending information or
+    storing electronic document could not be guaranteed. LEOMASTER has taken commercially
+    appropriate action to protect your personal private information. But LEOMASTER
+    will not make any guarantee for the information security.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Under any circumstances, you agree to indemnify LEOMASTER against
+    any indirect, consequential, punitive, accidental damages incurred by, in connection
+    with, or arising out of the use of this software and services.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'Changes to this Policy This Privacy Policy may be revised from time
+    to time with or without notice. If we make a change in this policy, we will post
+    the latest version on our site: www.leomaster.com. By continuing to access or
+    use the services you agree to be bound by the revised Privacy Policy. If you do
+    not agree to any modifications to this Policy, you should stop using any of all
+    the services.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Others LEOMASTER reminds you of existence of exemption clauses in
+    this policy. Please read it carefully and evaluate the risk. If you do not consent
+    to the terms and conditions of this policy, please immediately stop using LEOMASTER's
+    services.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: This policy shall in all respects be governed by the laws of the People's
+    Republic of China. LEOMASTER preserves all right to make amendments to and interpretation
+    of the policy. Any dispute or difference arising out of this policy between you
+    and LEOMASTER which cannot be solved amicably shall be decided by Shenzhen Courts.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: This policy is written in both Chinese and English. In case of inconsistency,
+    the Chinese version shall prevail.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Contact Us If you have any questions about this Policy or to report
+    any violations of the Policy, please send an email to: support@leomaster.com LEOMASTER
+    also provides users with the opportunity to opt-out of receiving communications
+    from us at any time.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: "Copyright \xA9 2016 LEOMASTER"
+  annotations: []
+  sentences: []

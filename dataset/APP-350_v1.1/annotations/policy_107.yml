@@ -1,0 +1,234 @@
+policy_id: 107
+policy_name: app.qrcode
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: What kinds of information do we collect? Depending on which Services
+    you use, we collect different kinds of information from or about you.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Things you do and information you provide.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We collect the content and other information you provide when you
+    use our Services, including when you create or share a post, and message or communicate
+    with others. This can include information in or about the content you provide,
+    such as the location of a photo or the date a file was created. We also collect
+    information about how you use our Services, such as the types of content you view
+    or engage with or the frequency and duration of your activities.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This can include information in or about the content you provide,
+      such as the location of a photo or the date a file was created.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect the content and other information you provide when you
+      use our Services, including when you create or share a post, and message or
+      communicate with others.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Device information.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'We collect information from or about the smart phones, tablets or
+    other devices where you install or access our Services, depending on the permissions
+    you''ve granted. We may associate the information we collect from your different
+    devices, which helps us provide consistent Services across your devices. Here
+    are some examples of the device information we collect: - Attributes such as the
+    operating system, hardware version, device settings, file and software names and
+    types, battery and signal strength, and device identifiers.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Here are some examples of the device information we collect: Attributes
+      such as the operating system, hardware version, device settings, file and software
+      names and types, battery and signal strength, and device identifiers.'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: '- Device locations, including specific geographic locations, such
+    as through GPS, Bluetooth, or WiFi signals.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Device locations, including specific geographic locations, such
+      as through GPS, Bluetooth, or WiFi signals.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: '- Connection information such as the name of your mobile operator
+    or ISP, browser type, language and time zone, mobile phone number and IP address.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Connection information such as the name of your mobile operator
+      or ISP, browser type, language and time zone, mobile phone number and IP address.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: '- List of installed apps on your device.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'How do we use this information? We are passionate about creating
+    engaging and customized experiences for people. We use all of the information
+    we have to help us provide and support our Services. Here''s how: Provide, improve
+    and develop Services.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: We are able to deliver our Services, personalize content, and make
+    suggestions for you by using this information to understand how you use and interact
+    with our Services and the people or things you're connected to and interested
+    in on and off our Services.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We conduct surveys and research, test features in development, and
+    analyze the information we have to evaluate and improve products and services,
+    develop new products or features, and conduct audits and troubleshooting activities.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Provide personalized apps recommendation.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We are able to deliver personalized app content and make app recommendations
+    for you based on the information you provide, such as content you like, posts
+    you create and list of apps installed on your device. For example, we can make
+    personalized recommendations for new apps that you are more likely to find useful,
+    and also avoid recommending apps that you already own.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Communicate with you.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: We use your information to send you marketing communications, communicate
+    with you about our Services and let you know about our policies and terms. We
+    also use your information to respond to you when you contact us.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Show and measure ads and services.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: We use the information we have to improve our advertising and measurement
+    systems so we can show you relevant ads on and off our Services and measure the
+    effectiveness and reach of ads and services.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Promote safety and security.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: We use the information we have to help verify accounts and activity,
+    and to promote safety and security on and off of our Services, such as by investigating
+    suspicious activity or violations of our terms or policies. We work hard to protect
+    your account using teams of engineers, automated systems, and advanced technology
+    such as encryption and machine learning.
+  annotations: []
+  sentences: []

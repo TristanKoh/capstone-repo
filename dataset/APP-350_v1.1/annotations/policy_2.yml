@@ -1,0 +1,242 @@
+policy_id: 2
+policy_name: AIFactory
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'AI Factory Privacy & Cookie Policy AI Factory builds in analytics
+    in our games to enable us to improve them, to give the user the best possible
+    game experience. This samples anonymous non-personal data that simply allows us
+    to find out what users do and do not like. AI Factory fully respects the user''s
+    privacy and never collects information that could be directly linked to the user.
+    AI Factory also displays advertisements to fund the creation of these games. This
+    is all governed by the following privacy & cookie policy: Unless explicitly given
+    the opportunity to accept this policy inside an app, please note that by using
+    or otherwise accessing any AI Factory mobile application, you are agreeing to
+    this privacy & cookie policy. If you do not agree to this privacy & cookie policy,
+    please do not use or otherwise access our applications.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: AI Factory Privacy & Cookie Policy AI Factory builds in analytics
+      in our games to enable us to improve them, to give the user the best possible
+      game experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: AI Factory also displays advertisements to fund the creation of
+      these games.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: AI Factory fully respects the user's privacy and never collects
+      information that could be directly linked to the user.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: If you do not agree to this privacy & cookie policy, please do
+      not use or otherwise access our applications.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This is all governed by the following privacy & cookie policy:
+      Unless explicitly given the opportunity to accept this policy inside an app,
+      please note that by using or otherwise accessing any AI Factory mobile application,
+      you are agreeing to this privacy & cookie policy.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This samples anonymous non-personal data that simply allows us
+      to find out what users do and do not like.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 1
+  segment_text: Anonymous Data AI Factory may collect and use anonymous data, via
+    Google Analytics. We cannot identify you from this data. Such data is pooled to
+    give us general statistics on our audience and usage of our apps.
+  annotations:
+  - practice: Contact_City_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: AI Factory may collect and use anonymous data, via Google Analytics.
+    annotations:
+    - practice: Contact_City_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+  - sentence_text: Such data is pooled to give us general statistics on our audience
+      and usage of our apps.
+    annotations:
+    - practice: Contact_City_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+  - sentence_text: We cannot identify you from this data.
+    annotations:
+    - practice: Contact_City_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: For example, Google Analytics automatically samples a user's country
+    and city, chosen device language, device model and make, screen resolution, app
+    version being used, operating system version, mobile phone network. This pooled
+    data provides statistics that can help us determine, for example, where our apps
+    are being most commonly used, and on which devices. This can help us determine
+    how to update our apps going forward.
+  annotations:
+  - practice: Contact_City_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, Google Analytics automatically samples a user's country
+      and city, chosen device language, device model and make, screen resolution,
+      app version being used, operating system version, mobile phone network.
+    annotations:
+    - practice: Contact_City_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: "Google Analytics also automatically collects data including app sessions\
+    \ numbers, session lengths, screen visits, flow from screen to screen, and app\
+    \ acquisition data (where a user came from to install an app). Alongside data\
+    \ that is automatically collected by Google Analytics, we also collect our own\
+    \ anonymous data on our app usage through Google Analytics. This includes game\
+    \ settings chosen, game results and other general UI events. Taken together, this\
+    \ data allows us to improve our apps in many ways. For example, if a high proportion\
+    \ of users can\x92t beat level 1 in our game, we need to make it easier. Such\
+    \ data can also help us improve artwork in the game (by knowing what styles are\
+    \ most popular), or help us determine default option settings. We also collect\
+    \ data on which of our apps are installed, so that we have a better idea of which\
+    \ apps might be popular with users of another of our apps. We also track the effectiveness\
+    \ of our in-app cross promotions (promoting our own other apps)."
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: None of this collected data can be linked to any individual, and it
+    is pooled to provide us with general usage and audience statistics. AI Factory
+    reserves the right to use the collected anonymous data ourselves or disclose it
+    to our partners.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Ad networks who provide adverts to our mobile applications may access
+    your unique device identifier and use this to tailor ads to you. Some apps may
+    request a location permission. In this case, your location is also anonymous and
+    is only used by Ad networks to help tailor ads relevant to your location. Privacy
+    Policy links for the networks we use are below.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Ad networks who provide adverts to our mobile applications may
+      access your unique device identifier and use this to tailor ads to you.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: In this case, your location is also anonymous and is only used
+      by Ad networks to help tailor ads relevant to your location.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some apps may request a location permission.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Third Party Terms and Conditions Please note that certain third parties,
+    including but not limited to application stores, may be needed in order for you
+    to access our mobile applications. These third parties have their own privacy
+    policies which AI Factory cannot control. You agree that AI Factory is not liable
+    for their use of your personal information.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Links to Third Party Sites or Games Our mobile applications are supported
+    by advertisements, which provide access to third party sites or apps.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Our mobile applications may provide access to third party social networking,
+    communication and search features.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Please be aware that, if you use any of these links you will leave
+    our app and the page you go to will not be governed by our privacy & cookie policy.
+    We cannot be responsible for the privacy of any information you provide whilst
+    outside of our app.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: These third party sites or apps are not affiliated with or controlled
+    by AI Factory. AI Factory are not responsible for their content or for the use
+    of any information you may provide them. Our links to these sites or apps does
+    not constitute our sponsorship of, or affiliation with, those sites or apps or
+    the people or companies responsible for them.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Updates to this Policy We may revise our privacy & cookie policy from
+    time to time. When we do, those changes will be reflected here (as accessed via
+    our app pages on the relevant application store). Any significant change we make
+    to data usage will be drawn to your attention via our apps. We encourage you to
+    review this privacy & cookie policy from time to time. Your continued use of our
+    applications will signify your acceptance of the changes to this privacy & cookie
+    policy.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Ad Networks & Analytics Policies Advertising in our apps is provided
+    by a number of third party ad networks. Analytics is provided by Google Analytics.
+    AI Factory choose to only provide ad networks with a minimal set of application
+    permissions required for these ads to function. These analytics and ad networks
+    may use data and cookies to help determine which ads to show you. Each of their
+    own privacy policies are listed below.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: AI Factory choose to only provide ad networks with a minimal set
+      of application permissions required for these ads to function.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Ad Networks & Analytics Policies Advertising in our apps is provided
+      by a number of third party ad networks.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Analytics is provided by Google Analytics.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Each of their own privacy policies are listed below.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These analytics and ad networks may use data and cookies to help
+      determine which ads to show you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: http://www.google.com/intl/en/policies/privacy/partners/ https://www.google.co.uk/intl/en-GB/policies/privacy/
+    http://www.millennialmedia.com/privacy-policy http://www.mopub.com/legal/privacy/
+    https://answers.chartboost.com/hc/en-us/articles/200780269-Privacy-Policy https://www.applovin.com/privacy
+    http://www.inmobi.com/privacy-policy/ https://www.smaato.com/privacy/ Please be
+    aware that, any information provided as a result of your interaction with these
+    ads will not be governed by our privacy & cookie policy. Ads may redirect you
+    away from our app, and our privacy & cookie policy will no longer apply outside
+    of our app. We cannot be responsible for the privacy of any information you provide
+    whilst outside of our app, or any information provided to any of these third parties.
+  annotations: []
+  sentences: []

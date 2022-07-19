@@ -1,0 +1,218 @@
+policy_id: 52
+policy_name: HipsterWhale
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Hipster Whale Privacy Policy At Hipster Whale Pty Ltd (Australian
+    Business Number: 74 601 793 275) (defined here as ''We'' or ''Our''), We value
+    your comments, suggestions and feedback. Our Privacy Policy sets out how we collect,
+    use and disclose "personal information" and other "non-personal information" we
+    have gathered about you.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'This policy will let you know: * What information is collected from
+    you; * How your information is used; * With whom your information may be shared;
+    * How you can access, update, or delete your information.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We are bound by the Australian Privacy Act 1988 (Cth) ("Act") regarding
+    the manner in which We handle your personal information and how We respond to
+    your requests to access and correct it. We also adhere to the principles enshrined
+    in the US Privacy Act (1974) ("US Act") and the principles contained in the Children's
+    Online Privacy Protection Act ("COPPA").
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We will comply with all relevant legislative requirements, and, in
+    the event of any inconsistency, the legislative requirements will override the
+    provisions of this document.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Children's Privacy We strictly adhere to Australian privacy law. Our
+    games and our website are not aimed at children under 13 years of age. If you
+    believe that We have inadvertently collected information from a person under the
+    age of 13, please contact us at the email address below and the information will
+    be permanently deleted.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: What is Personal Information and why do we collect it from you?
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: '''Personal Information'' is information or an opinion that identifies
+    you as an individual. We collect and store your email when you sign up for our
+    newsletter, or where you nominate to specifically allow our games to collect your
+    email.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Personal Information' is information or an opinion that identifies
+      you as an individual.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect and store your email when you sign up for our newsletter,
+      or where you nominate to specifically allow our games to collect your email.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: If you contact us directly for any reason, we may also keep a copy
+    of that correspondence. Your email is collected only to keep you informed of new
+    Hipster Whale products and changes to our existing products.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Your email is collected only to keep you informed of new Hipster
+      Whale products and changes to our existing products.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Newsletter When you elect to join our mailing list for the purpose
+    of receiving our newsletter we may use that "personal information" to provide
+    you with direct marketing communications about upcoming games, features of our
+    websites and other events and promotions related to our products. You may unsubscribe
+    from our newsletter at any time. All you need to do is unsubscribe from the link
+    in the letter, or let us know in writing that you want to be removed.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Sensitive Information Sensitive information is defined in the US Act
+    to include information or opinion about such things as an individual's racial
+    or ethnic origin, political opinions, membership of a political association, religious
+    or philosophical beliefs, membership of a professional body, criminal records
+    or health information.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We will not attempt to obtain nor record any sensitive information.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Disclosure of Personal Information We will not sell, trade, rent or
+    disclose any of the personal information you provide to us for any reason, without
+    your prior consent. Otherwise, your Personal Information will only be disclosed
+    where required or allowable by law.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Security of Personal Information Your Personal Information is stored
+    offsite in a manner that reasonably protects it from misuse, loss, unauthorized
+    access, modification or disclosure.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We don't guarantee website links or policy of authorised third parties
+    and you access those sites at your own risk.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Access to your Personal Information Under the Act, and under the US
+    Act you have the right to access the Personal Information We hold about you and
+    to update and/or correct it, subject to certain exceptions. If you wish to access
+    your Personal Information, please make out your request to us in writing at the
+    address listed below. Hipster Whale will not charge any fee for your access request,
+    but may charge an administrative fee. Please be aware that in order to protect
+    the Personal Information in our database, we will require identification from
+    you before releasing any information.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Third Party Advertising Advertisements from third party ad networks
+    may be displayed in our Games from time to time. All reasonable endeavours are
+    used to ensure that these ad networks comply with the Act, the US Act, and COPPA
+    in the provision of their services towards us.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: If you click on any advertisements through Our game, the advertisers
+    may use cookies and other web-tracking technologies to collect data. Some of this
+    may be personal information, and some of it non-personal information. We recommend
+    that you review the terms of use and privacy policy for any advertiser with whom
+    you are interacting before doing so.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you click on any advertisements through Our game, the advertisers
+      may use cookies and other web-tracking technologies to collect data.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: 'The list of our ad networks privacy policies may be found here: Unity
+    Ads: https://unity3d.com/legal/privacy-policy Ad Colony: http://privacy.adcolony.com/
+    AppLovin: https://www.applovin.com/privacy/ Chartboost: https://answers.chartboost.com/hc/en-us/articles/200780269-Privacy-Policy/
+    InMobi: http://www.inmobi.com/privacy-policy/ Supersonic: https://www.supersonic.com/privacy-policy/
+    HeyZap: http://www.heyzap.com/legal/privacy/ MDOTM: http://www.mdotm.com/app/page/privacy/
+    Fyber: https://www.fyber.com/privacypolicy-en.html/ Vungle: http://vungle.com/privacy/
+    Collection of other ''Non-Personal'' Information Some non-personal information
+    may be gathered while you use Our games. Non personal information is general,
+    non-identifiable and anonymous information that is gathered for statistical, analytical
+    and research purposes such as the improvement of our games (for example, bug fixes).'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Though We do not use cookies in order to track your movement around
+    the web, Our websites (http://www.hipsterwhale.com and http://www.crossyroad.com)
+    use Google Analytics to help analyse how users use these sites. The tool uses
+    cookies to collect internet log information and general visitor behaviour information
+    in an anonymous form. The information generated by the cookie about your use of
+    the website, including your IP address, is transmitted to Google. This information
+    is then used to evaluate use of our website and to compile statistical reports
+    on website activity.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The information generated by the cookie about your use of the website,
+      including your IP address, is transmitted to Google.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: 'The Google Analytics privacy policy can be found here: Google Analytics:
+    http://www.google.com.au/analytics/learn/privacy.html Our websites and apps may
+    also contain APIs from other third parties. As with Google, We do not control
+    how they interact with you and you should ensure that you consent to the terms
+    of use and privacy policies offered by the third party services before providing
+    them with your information.'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'Our third party partners, and their privacy policies are as follows:
+    Game Analytics: http://www.gameanalytics.com/privacy.html Everyplay: https://everyplay.com/privacy-policy
+    Yodo1: http://yodo1games.com/privacy/ Flurry: https://policies.yahoo.com/us/en/yahoo/privacy/index.htm
+    Policy Updates This Policy may change from time to time. The most current version
+    of our Privacy Policy can be found at http://crossyroad.com/privacy. We will always
+    keep this up to date so that you know what information we will collect from you,
+    how we may use it, and when we may disclose it.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Complaints You can lodge a complaint with us about any breach of our
+    Privacy Policy at the address below.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 'Privacy Policy Contact Information If you have any questions about
+    our Privacy Policy, please contact us at: E: privacynothing@hipsnothingterwhale.com
+    Privacy policy last updated August 2016 Back to CrossyRoad.com.'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "Hipster Whale \xC2\xA9 2014- Privacy Policy"
+  annotations: []
+  sentences: []

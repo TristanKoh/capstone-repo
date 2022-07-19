@@ -1,0 +1,747 @@
+policy_id: 222
+policy_name: Etermax
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Toggle navigation Games Trivia Crack Melody Monsters Trivia Crack
+    Kingdoms Skydoms Aworded Crack Word Crack Bingo Crack About Careers Support Press
+    Press kit Clipping Contact us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Privacy Policy Introduction This document explains
+    how Etermax collects, processes, stores and/or shares any personal data and/or
+    information from users (jointly referred to as "Information"). By accessing and/or
+    using the Services you consent the collection, transfer, manipulation, storage,
+    disclosure and other uses of your information as described in this Privacy Policy.
+    If you have any concerns about providing data, or having it used in any manner
+    permitted in this Privacy Policy, you should not use the Services. As set out
+    in the terms and conditions relating the Services (the "Terms"), you must be at
+    least at legal age to access and/or use the Services, or if legally possible,
+    to access with your legal guardian consent, due authorization and agreement with
+    these Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'The Information collected Etermax and/or third parties, including
+    but not limited to business partners, advertising networks, analytics or search
+    information providers, may collect and process the following data about you: information
+    that you provide when you fill in forms when accessing and/or using the Services,
+    or when you create an account within the Services; details of your use of the
+    Services and the resources that you access; the correspondence between you and
+    Etermax and any interactions, or with other users on the Service, the channels
+    and/or any social media related; from third parties who hold data about you and
+    who agree to share this data with us; and information collected via cookies and
+    other similar technologies and/or other mechanisms, as explained further below.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Etermax and/or third parties, including but not limited to business
+      partners, advertising networks, analytics or search information providers, may
+      collect and process the following data about you:'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: information collected via cookies and other similar technologies
+      and/or other mechanisms, as explained further below.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 'I. Cookies: Etermax uses cookies and other similar technologies in
+    the Services. These technologies operate either by placing a small file which
+    stores some information on your computer or mobile device; and/or by accessing
+    information on your device. Etermax uses cookies and similar technologies to recognize
+    you and your device, for example by identifying your IP address; to allow the
+    Services to interact with a third party social network or platform where you have
+    chosen to allow such interaction; to allow payment processes when you submit payment
+    instructions; to enable Etermax and third parties to provide you with more customized
+    services; and to collect data such as your device''s model, operating system and
+    screen size, other applications installed on your device, and information about
+    how you use the Services. By accessing and/or using the Services you consent the
+    use of cookies and similar technologies in accordance with this Privacy Policy.
+    You can disable cookies through your web or mobile device browser settings but
+    some features of the Services may not function properly. Alternatively, if you
+    do not wish such data collection as described in this section, you should stop
+    using the Services.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Etermax uses cookies and other similar technologies in the Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Etermax uses cookies and similar technologies to recognize you
+      and your device, for example by identifying your IP address;
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: These technologies operate either by placing a small file which
+      stores some information on your computer or mobile device; and/or by accessing
+      information on your device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'II. Ads: Advertisers on mobile devices sometimes use advertising
+    identifiers to enable and optimize their advertising, to deliver tailor ads related
+    to your interests (Interest-Based Advertising or IBA). These identifiers are non-permanent,
+    non-personal, device identifiers. Etermax and/or third parties may use your device''s
+    advertising identifier and other information associated with it, to deliver ads
+    that relate to your interests and to improve and measure the effectiveness of
+    ad campaigns.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertisers on mobile devices sometimes use advertising identifiers
+      to enable and optimize their advertising, to deliver tailor ads related to your
+      interests (Interest-Based Advertising or IBA).
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: Etermax and/or third parties may use your device's advertising
+      identifier and other information associated with it,
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: These identifiers are non-permanent, non-personal, device identifiers.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'III. Location Information: You may choose to publish your location
+    in your Etermax profile. You may also tell your location when you enable your
+    device to send such location information. Etermax and/or third parties may use
+    and store information about your location to provide special features, to deliver
+    ads that relate your interests and/or to improve and customize the Services.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Etermax and/or third parties may use and store information about
+      your location
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Location Information: You may choose to publish your location
+      in your Etermax profile.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: You may also tell your location when you enable your device to
+      send such location information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 'IV. Links: Etermax may keep track of how you interact with links
+    across the Services, including email notifications, third-party services, and
+    client applications, by redirecting clicks or through other means.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'V. Log Data: Servers automatically record information created by
+    your use of the Services. This data may include information such as your IP address,
+    browser type, operating system, the referring web page, pages visited, location,
+    your mobile carrier, device and application IDs, search terms, and cookie information.
+    Log data is received when you interact with the Services. This data is used to
+    provide the Services and to measure, customize, and improve them.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Log Data: Servers automatically record information created by
+      your use of the Services.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This data may include information such as your IP address, browser
+      type, operating system, the referring web page, pages visited, location, your
+      mobile carrier, device and application IDs, search terms, and cookie information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 'VI. Payment information: If you make a purchase in the Services,
+    Etermax may collect the billing and financial information necessary to process
+    the charges; and/or do so on behalf of the relevant payment service providers.
+    Purchases of third party services are subject to the policies applicable to such
+    provider.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'VII. Third-party services: Etermax uses a variety of third-party
+    services to help its provision of the Services, such as hosting and other services.
+    These third-party service providers may collect information sent by your browser
+    as part of a web page request, such as cookies or your IP address, location and
+    devices'' unique identifiers. Also, third-party ad partners may share information
+    to measure ad quality and tailor ads, for example to display ads about things
+    you may have already shown interest in.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Etermax uses a variety of third-party services to help its provision
+      of the Services, such as hosting and other services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third-party service providers may collect information sent
+      by your browser as part of a web page request, such as cookies or your IP address,
+      location and devices' unique identifiers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 'VIII. Customer Support Correspondence: When you ask for assistance
+    from Etermax customer support, the contact information you provide will be collected,
+    as well as information about your game play or activity on the Service, your user
+    ID number, and the correspondence and any information contained within. If available
+    through the Services, you may provide Etermax with profile information to make
+    public, such as a short biography, location, website, cell phone, a picture, information
+    to customize your account, etc. Such contact information may be used to send you
+    information about the Services or related information. You may use your account
+    settings to unsubscribe from notifications from Etermax and/or from other users
+    and find users you know. You may also unsubscribe by following the instructions
+    contained within the notification or the instructions on the Service. Also Etermax
+    may use your contact information to help others find your account, including through
+    third-party services and client applications. Providing any additional information
+    described in this section is entirely optional.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Also Etermax may use your contact information to help others find
+      your account, including through third-party services and client applications.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: If available through the Services, you may provide Etermax with
+      profile information to make public, such as a short biography, location, website,
+      cell phone, a picture, information to customize your account, etc.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: 'In compliance with the Digital Advertising Alliance`s suite of Self-Regulatory
+    Principles (DAA Principles) you can opt-out from receiving targeted ads/Interest-Based
+    Advertising from by Etermax or served on its behalf: In Android operating systems,
+    by opening the "Google Settings app" from your app drawer, tapping "Ads", and
+    selecting "Opt-out of Interest-based ads" (http://developer.android.com/google/play-services/id.html).
+    Please note that this will block your phone from receiving tailored ad recommendations
+    across your device.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: In iOS operating systems, by clicking on Settings -> General -> About
+    -> Advertising and toggling Limit Ad Tracking to 'ON' (https://support.apple.com/en-us/HT202074).
+    Please note that this will block your phone from receiving tailored ad recommendations
+    across your device
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Use of Information When you create or configure an account in the
+    Services, you provide some personal information, such as your name, username,
+    password, and email address. Some of this information, for example, your name
+    and/or username, may be listed publicly on the Services, including on your profile
+    page and in search results. You agree that Etermax and/or third parties on its
+    behalf and/or its partners may use the Information for the purposes of contacting
+    you as part of customer support; to send you updates or information about the
+    Services; managing your account and relationship with the Service and improving
+    your experience when you use it, improving the Services, research, surveying,
+    and engaging with you, for example by sending you communications for these purposes;
+    marketing and promotion of the Services or products; to personalize and optimize
+    the Services, promotional content and/or advertising; to create reports, analysis
+    or similar services for the purposes of research or business intelligence.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you create or configure an account in the Services, you provide
+      some personal information, such as your name, username, password, and email
+      address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: "Information sharing and disclosure Etermax will only share your data\
+    \ with third parties with your consent (including as set out in this Privacy Policy),\
+    \ as reasonably necessary in order to provide the Services, for example, by providing\
+    \ Information to suppliers that Etermax may use to fulfill the Services; where\
+    \ it is necessary to carry out your instructions, for example, to process a payment\
+    \ instruction your Information has to be provided to the payment processors; where\
+    \ your data is on an anonymous and aggregated basis, meaning you could not be\
+    \ personally identified from it; for the delivery of Interest-Based Advertising\
+    \ in the manner set out on this Privacy Policy; when you submit information as\
+    \ part of a competition or otherwise interact with any channel or social media,\
+    \ the information you submitted may be published; as its reasonably believed is\
+    \ permitted by law or regulation; in order to comply with any legal obligation,\
+    \ or in order to enforce or apply the Terms, this Privacy Policy and/or any other\
+    \ agreement with you; or to protect the rights and/or property of Etermax or third-party\xB4\
+    s rights and/or property. Etermax may share or disclose your non-private information,\
+    \ such as public user profile information, public messages, e-mail, etc., or share\
+    \ or disclose your information in an anonymous or aggregated basis in a manner\
+    \ that does not allow your personal identification."
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Etermax may share or disclose your non-private information, such
+      as public user profile information, public messages, e-mail, etc., or share
+      or disclose your information in an anonymous or aggregated basis in a manner
+      that does not allow your personal identification.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Etermax will only share your data with third parties with your
+      consent (including as set out in this Privacy Policy), as reasonably necessary
+      in order to provide the Services,
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: for the delivery of Interest-Based Advertising in the manner set
+      out on this Privacy Policy;
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: Interaction with social networks and/or platforms You may allow the
+    Services to interact with any third party social network and/or platforms, such
+    as Facebook, which will provide data about you to Etermax. Since any others applications
+    or websites different than the Services are owned by a third party, you must ensure
+    that you read their terms of service and the applicable privacy policies. You
+    understand that when you allow the Services to interact with any third party social
+    network and/or platform, Etermax may share data about you with your contacts and
+    other users of the Services and vice versa. This Data may include your name, profile
+    picture, activity status, and information related to your use of the Services.
+    You can change this by adjusting your settings with that third party provider.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This Data may include your name, profile picture, activity status,
+      and information related to your use of the Services.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You may allow the Services to interact with any third party social
+      network and/or platforms, such as Facebook, which will provide data about you
+      to Etermax.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Term Etermax may retain the Information for as long as is necessary
+    to fulfill the purposes for which it was collected or as needed to provide the
+    Services, even after you have discontinued or deleted any account, or after the
+    end of the provision of the Services, if retention of such Information is reasonably
+    necessary to comply with legal obligations, meet regulatory requirements, resolve
+    disputes between users, prevent fraud, or any other use.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Protection of Information Etermax maintains appropriate technical
+    and physical safeguards to protect Information against accidental or unlawful
+    destruction or loss, alteration, unauthorized disclosures or access, and any other
+    unlawful forms of processing of the data in its possession. However, Etermax does
+    not guarantee that Information will not be accessed, disclosed, altered or destroyed
+    by breach of any of the abovementioned safeguards. Information may be transferred
+    to and/or stored at worldwide destinations. Etermax takes all steps reasonably
+    necessary to ensure that Information is treated securely and in accordance with
+    this Privacy Policy. In the event that Etermax is involved in a bankruptcy, merger,
+    acquisition, reorganization or sale of assets, your information may be sold or
+    transferred as part of that transaction. The undertakings in this Privacy Policy
+    shall apply to the Information as transferred to the new entity.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'In the Services you may find links to third party websites. You understand
+    that when you click on these links any data which you provide afterwards is subject
+    to that third party''s privacy policy and not to Etermax''s. Consequently, Etermax
+    takes no responsibility for the content, safety or security of any third party
+    website. The Services are not directed to persons under legal age. Etermax does
+    not knowingly collect any Information from children under legal age. If you become
+    aware that a child under legal age has provided with personal information, steps
+    will be taken to remove such information and terminate such account. If you become
+    aware that any child has provided personal information without the essential legal
+    guardian consent, please contact: support@etermax.com. Irrespective of which country
+    you reside in or supply information from, you authorize Etermax to store and/or
+    use the Information according to this Privacy Policy in any country where Etermax
+    may operate.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Notwithstanding anything to the contrary in this Policy, Etermax may
+    preserve or disclose your information to the extent reasonably necessary to comply
+    with a law, regulation or legal request; to protect the safety of any person;
+    to address fraud, security or technical issues; or to protect Etermax's rights
+    or property. However, nothing in this Privacy Policy is intended to limit any
+    legal defenses or objections that you may have to a third party's, including a
+    government's request to disclose your information. Etermax wants to make sure
+    that your Information is accurate and up to date. You may ask to modify, correct
+    or remove information with the tools and account settings of the Service, or otherwise
+    by contacting Etermax at support@etermax.com.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'Information that you have shared via the Services on any social network
+    or third party platform may not be amended or deleted where it is in the control
+    of a third party network and/or platform. If you would not like your Information
+    to be used for marketing purposes, you can change your marketing preferences,
+    to unsubscribe, or if you have any questions or comments about this Privacy Policy,
+    please contact Etermax: support@etermax.com.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: If any court or other competent authority finds any of this Privacy
+    Policy to be invalid or unenforceable, the other terms of this Privacy Policy
+    will not be affected. This Privacy Policy is governed by and interpreted in accordance
+    with the laws of Uruguay. Any dispute arising in connection with this Privacy
+    Policy will be subject to the exclusive jurisdiction of the courts located in
+    the city of Montevideo - Uruguay. You consent the jurisdiction and venue in such
+    courts and waive any objection as to inconvenient forum Etermax may revise or
+    amend this Privacy Policy from time to time.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: The most current version of the policy will govern the use of the
+    Information and will be at http://www.etermax.com/en/privacy. Etermax may notify
+    changes to Privacy Policy via email to the email address associated with your
+    account. If you object to any of the changes you should immediately stop using
+    the Services and close any account related. By continuing to access or use the
+    Services after those changes become effective, you agree to be bound by the revised
+    Privacy Policy.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By continuing to access or use the Services after those changes
+      become effective, you agree to be bound by the revised Privacy Policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Etermax may notify changes to Privacy Policy via email to the email
+      address associated with your account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If you object to any of the changes you should immediately stop
+      using the Services and close any account related.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: The most current version of the policy will govern the use of the
+      Information and will be at http://www.etermax.com/en/privacy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: This Privacy Policy was last updated on April 27, 2016.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: "\xA9 Etermax 2016 Terms of Service Privacy Policy"
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "\xA92015 Etermax. All rights reserved."
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: You may not provide Etermax with profile information to make public,
+    such as a short biography, location, website, cell phone, a picture, information
+    to customize your account, etc.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: You may not provide Etermax with profile information to make public,
+      such as a short biography, location, website, cell phone, a picture, information
+      to customize your account, etc.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 27
+  segment_text: Also Etermax is not using your contact information.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Also Etermax is not using your contact information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 28
+  segment_text: Etermax does not use cookies or other similar technologies in the
+    Services. These technologies operate either by placing a small file which stores
+    some information on your computer or mobile device; and/or by accessing information
+    on your device. Etermax does not use cookies and similar technologies to recognize
+    you and your device.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Etermax does not use cookies or other similar technologies in the
+      Services. These technologies operate either by placing a small file which stores
+      some information on your computer or mobile device; and/or by accessing information
+      on your device. Etermax does not use cookies and similar technologies to recognize
+      you and your device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 29
+  segment_text: Advertisers on mobile devices do not use advertising identifiers.
+    These identifiers are non-permanent, non-personal, device identifiers. Neither
+    Etermax nor third parties make use of your device's advertising identifier or
+    other information associated with it.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Advertisers on mobile devices do not use advertising identifiers.
+      These identifiers are non-permanent, non-personal, device identifiers. Neither
+      Etermax nor third parties make use of your device's advertising identifier or
+      other information associated with it.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 30
+  segment_text: 'Third-party services: Etermax does not use third-party services in
+    its provision of the Services, such as hosting and other services. No third-party
+    service provider collects information sent by your browser as part of a web page
+    request, such as precise locations and devices'' unique identifiers.'
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Third-party services: Etermax does not use third-party services
+      in its provision of the Services, such as hosting and other services. No third-party
+      service provider collects information sent by your browser as part of a web
+      page request, such as precise locations and devices'' unique identifiers.'
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 31
+  segment_text: The Services does not interact with any third party social network
+    and/or platforms, such as Facebook, which will not provide data, such as your
+    name, profile picture, activity status, and information related to your use of
+    the Services.
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The Services does not interact with any third party social network
+      and/or platforms, such as Facebook, which will not provide data, such as your
+      name, profile picture, activity status, and information related to your use
+      of the Services.
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 32
+  segment_text: When you create or configure an account in the Services, you do not
+    provide personal information, such as your name, username, password, and email
+    address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you create or configure an account in the Services, you do
+      not provide personal information, such as your name, username, password, and
+      email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 33
+  segment_text: 'Etermax and/or third parties, including but not limited to business
+    partners, advertising networks, analytics or search information providers, do
+    not collect or process the following data about you: ... information collected
+    via cookies and other similar technologies and/or other mechanisms, as explained
+    further below.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Etermax and/or third parties, including but not limited to business
+      partners, advertising networks, analytics or search information providers, do
+      not collect or process the following data about you: ... information collected
+      via cookies and other similar technologies and/or other mechanisms, as explained
+      further below.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 34
+  segment_text: Etermax will not share your data with third party ad providers. Etermax
+    will not share or disclose your non-private information, such as public user profile
+    information, public messages, e-mail, etc., or share or disclose your information
+    in an anonymous or aggregated basis.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Etermax will not share your data with third party ad providers.
+      Etermax will not share or disclose your non-private information, such as public
+      user profile information, public messages, e-mail, etc., or share or disclose
+      your information in an anonymous or aggregated basis.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 35
+  segment_text: 'Log Data: Our servers do not record information created by your use
+    of the Services, such as your IP address, IMSI, browser type, operating system,
+    the referring web page, pages visited, location, your mobile carrier, device and
+    application IDs, search terms, and cookie information.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMSI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Log Data: Our servers do not record information created by your
+      use of the Services, such as your IP address, IMSI, browser type, operating
+      system, the referring web page, pages visited, location, your mobile carrier,
+      device and application IDs, search terms, and cookie information.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED

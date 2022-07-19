@@ -1,0 +1,1790 @@
+policy_id: 285
+policy_name: NQMobile
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: EULA | Refund Policy NQ MOBILE PRIVACY POLICY NQ Mobile US Inc. ("we",
+    "us", "our") is committed to maintaining customer privacy through an ethical performance
+    culture that is based on trust, simplicity and confidence. It is one of NQ Mobile's
+    core principles to secure customer information while using our Web sites family.nq.com,
+    i.nq.com, www.nq.com and our Mobile applications ("products"), and provide privacy
+    protection that is critical in maintaining trust and providing better services.
+    NQ Mobile's individual privacy protection policy ensures the confidentiality of
+    customer information under the defined terms and conditions below.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: NQ Mobile complies with the U.S. - E.U. Safe Harbor framework and
+    the U.S. - Swiss Safe Harbor framework as set forth by the U.S. Department of
+    Commerce with respect to the collection, use, retention and transfer to the United
+    States of personal data from customers in European Union member countries and
+    Switzerland ("European Customer Information"). NQ Mobile has certified that it
+    adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer,
+    security, data integrity, access, and enforcement. To learn more about the Safe
+    Harbor program, and to view NQ Mobile's certification, please visit http://www.export.gov/safeharbor/.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: '1 Effective date and update Effective date of this privacy policy:
+    2013/05/01 2 Information we will collect and trace 2.1 NQ Mobile''s official websites
+    may be accessed anonymously. However, the use of our products and services as
+    well as certain activities such as payment transactions, surveys, and forum communications
+    will require customer information input and customer consent. This information
+    may include: name, address, telephone number, as well as the brand name and model
+    of the user''s mobile phone. When using our NQ Family Guardian mobile application
+    we will collect a parent''s email address, password and a child''s name or display
+    name as well as their age range and a parents mobile number. Some examples may
+    include: 2.1.1 If you submit an order online or use our products and services,
+    the required information will be collected, including but not limited to yours
+    or your child''s NQ Mobile UID, the number, brand and model of yours or your child''s
+    mobile phone as well as your credit card number.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, the use of our products and services as well as certain
+      activities such as payment transactions, surveys, and forum communications will
+      require customer information input and customer consent.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If you submit an order online or use our products and services,
+      the required information will be collected, including but not limited to yours
+      or your child's NQ Mobile UID, the number, brand and model of yours or your
+      child's mobile phone as well as your credit card number.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This information may include: name, address, telephone number,
+      as well as the brand name and model of the user''s mobile phone.'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When using our NQ Family Guardian mobile application we will collect
+      a parent's email address, password and a child's name or display name as well
+      as their age range and a parents mobile number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 2.1.2 If you ask for online technical support, certain required information
+    will be collected, including but not limited to your name and address, the information
+    relating to the hardware and software of your mobile phone as well as the specific
+    problems you have encountered.
+  annotations:
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you ask for online technical support, certain required information
+      will be collected, including but not limited to your name and address, the information
+      relating to the hardware and software of your mobile phone as well as the specific
+      problems you have encountered.
+    annotations:
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 2.1.3 NQ Mobile's products and services may at times need to access
+    the internet (fees incurred thereby are charged by the local carrier) in a variety
+    of circumstances, including without limitation to a) connect to the server to
+    register for services; b) connect to cloud security platform to get basic data
+    needed for anti-virus, anti-annoyance and other services to improve the quality
+    of security service, ensure the NQ Mobile product in your phone can protect you
+    against the latest threats and reject the latest annoyance calls, etc; c) detect
+    user type to ensure smooth provisioning of Pro Member services and non-Pro Member
+    services; d) inquire about version update of product or service to ensure timeliness
+    of the product or service; e) connect to the server to synchronize events information
+    to ensure better services from Smart Calendar; or f) provide other services.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: '2.1.4 To provide comprehensive security services for you to monitor
+    and protect you or your child''s phone usage or read yours or your child''s location
+    information, the products and services we provide may read private information
+    concerning your phone and your using of the phone, including without limitation:
+    SMS, MMS, Email, Contacts, call log, call conversation, location information,
+    the phone number, the IMSI, the IMEI, the ICCID, the ESN and the model of the
+    phone, the software that is installed and apps that are running in the phone,
+    and information about analytics on your operation, your favorites, network connection
+    and downloading, which is unique and may contain yours or your child''s personal
+    information. If you no longer wish to allow us to read or collect yours or your
+    child''s location information you may turn this off at the device level or turn
+    it off through the settings within the application or on the web portal at https://family.nq.com.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMSI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'To provide comprehensive security services for you to monitor
+      and protect you or your child''s phone usage or read yours or your child''s
+      location information, the products and services we provide may read private
+      information concerning your phone and your using of the phone, including without
+      limitation: SMS, MMS, Email, Contacts, call log, call conversation, location
+      information, the phone number, the IMSI, the IMEI, the ICCID, the ESN and the
+      model of the phone, the software that is installed and apps that are running
+      in the phone, and information about analytics on your operation, your favorites,
+      network connection and downloading, which is unique and may contain yours or
+      your child''s personal information.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: '2.1.5 NQ Mobile may also read the device identifier of yours or your
+    child''s phone in a variety of circumstances, including without limitation: a)
+    when you activate the products or services or register; b) when you subscribe
+    to NQ products or services; c) when you or your child connect to the server with
+    the products or services to update virus protection or anti-spam policy; d) providing
+    targeted and customized security service according to your country or region;
+    e) when you use the locate service of anti-lost to track the location of your
+    phone; or f) according to other needs to provide services to the user or the needs
+    to customize services for the user.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: NQ Mobile may also read the device identifier of yours or your
+      child's phone in a variety of circumstances
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: '2.1.6 NQ Mobile may read your or your child''s SMS/MMS in a variety
+    of circumstances, including without limitation: a) scan websites and attachments
+    in the messages to ensure no malicious website or virus is contained; b) block
+    spam messages; c) filter private messages; d) block fee-deduction SMS sent by
+    apps to prevent malicious fee deduction; e) when you use SMS to recommend the
+    product; f) SMS report for SIM change in anti-lost service, remote control report
+    and alert, etc; or g) when you report suspicious spam messages to NQ Mobile; h)
+    when you wish to view who your child talks to and allow or deny that user; i)
+    when you want to view the photos your child has uploaded to their device.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: '2.1.7 NQ Mobile may access your or your child''s contacts in a variety
+    of circumstances, including without limitation: a) when you use the contacts backup
+    service; b) when you use our products and services to group and manage contacts;
+    or c) when you recommend the product or when you select import contacts as product/service
+    requires you to input the phone number; d)when you want to view the contacts your
+    child has on their device and choose to either allow them to continue to communicate
+    with them or block that contact.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: NQ Mobile may access your or your child's contacts in a variety
+      of circumstances,
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 2.2 Prior to requesting information from you on our websites, we will
+    define the purposes for which such information is to be used. You, the customer,
+    may then choose whether or not to proceed with the transaction and use our products
+    and services and provide the appropriate information. If you prefer not to provide
+    the required information, then the transaction shall be canceled.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 2.3 For the information we may collect from you or your child while
+    using our products or services in the circumstances listed above or beyond, your
+    and your child's personal information collected in such circumstances will be
+    kept confidential and shall not be used for illegal purposes, or copied, used
+    or provided to any third party illegally, or accessed by our staff.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 2.4 A child's participation or access to an activity cannot be conditioned
+    on him or her providing more Personal Information than is reasonably necessary
+    for that activity.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '3 The purpose of collecting information functions: 3.1 We expect
+    to use your personal information for the following purposes.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 3.1.1 To provide you with information related to virus warnings, product
+    upgrades, customer service, newsletters, and email updates, and to further increase
+    our customer feedback for our future products and to better receive your suggestions
+    for the improvement of our products and services.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 3.1.2 To help us create content relevant to you; 3.1.3 To provide
+    you with additional information that is tailored to your specific needs or interests;
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 3.1.4 To help us provide better products and services to exceed customer
+    expectations;
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 3.1.5 To enable you to purchase and download our products, access
+    our services or participate in the activities you select;
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 3.1.6 To help you to quickly find the appropriate software, service
+    or product information; and
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 3.1.7 To provide updated, comprehensive security services for you.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 3.2 To allow copartners of NQ Mobile to use the information you provide.
+    We will request these copartners to guarantee the security of customers' personal
+    information and keep this information confidential. Copartners may only use information
+    provided by our customers when they are working on behalf of NQ Mobile.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 3.3 To allow parents to keep track of their child's location, messages,
+    call history, applications and photos.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To allow parents to keep track of their child's location, messages,
+      call history, applications and photos.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: 3.4 To limit when your child can unlock their phone, make phone calls,
+    use the web and text.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 3.5 To protect your child against bad influences by blocking calls,
+    and messages to and from contacts that you add to the block list.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 3.6 To allow you to have your child check in, which helps your child
+    let you know where they are at the tap of a button.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 3.7 To allow us to access your call logs, contacts, photos and videos
+    in order to prevent eavesdropping, encrypt photos, videos, SMS, calls, keep contacts
+    private, send private Facebook messages, view your account through your online
+    account, block numbers from calling you or sending you text messages, and back
+    up your contacts, as you may request.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 3.7 To allow us to access your call logs, contacts, photos and
+      videos in order to prevent eavesdropping, encrypt photos, videos, SMS, calls,
+      keep contacts private, send private Facebook messages, view your account through
+      your online account, block numbers from calling you or sending you text messages,
+      and back up your contacts, as you may request.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: 4 The principle for limiting utilization and sharing We do not sell
+    your personal information to third parties. We will not share your or your child's
+    information with third parties other than the necessary service providers as indicated
+    below.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 4.1 Limiting utilization may occur in the following circumstances;
+    4.1.1 With customers' written consent; 4.1.2 When we believe in good faith that
+    disclosure is necessary to protect our rights, protect your safety or the safety
+    of others, investigate fraud, or respond to a government request; 4.1.3 To prevent
+    the rights and interests of others from material detriments;
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 4.1.4 To promote public interests without damaging your vital interests;
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 4.1.5 To comply with laws or regulations, such as to comply with a
+    subpoena, or similar legal process;
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 4.1.6 We may provide your or your child's personal information to
+    companies that provide services to help us with our business activities such as
+    processing your payments, providing mapping services or offering customer service.
+    These companies are authorized to use your and your child's personal information
+    only as necessary to provide these services to us;
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 4.1.7 If we are involved in a merger, acquisition, or sale of all
+    or a portion of our assets, you will be notified via email and/or prominent notice
+    on our website of any change in ownership or uses of your personal information,
+    as well as any choices you may have regarding your personal information.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 5 Recommend this website to your friends 5.1 If you select to use
+    our products and services, we recommended that you refer our website and products
+    and services to a friend for the better protection of his or her mobile devices.
+    This may be done simply by giving us your friend's name or email. We will automatically
+    send a one-time email to your friend to invite him/her to access our website,
+    and store his/her emails for the sole purpose of sending this one-time email and
+    tracking the success of our referral program. Your friend may contact us at privacy@nq.com
+    to request we remove this information from our database.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 5.2 NQ Mobile complies with international information criterion to
+    protect your personal information. These measures include some technical and programmed
+    steps that can protect your data against misuse, illegal access, disclosure, losing,
+    modification or destruction. We use security socket layer (SSL) to transmit credit
+    card and yours or your child's geo location information. We follow generally accepted
+    industry standards to protect the personal information submitted to us, both during
+    transmission and once we receive it. No method of transmission over the Internet,
+    or method of electronic storage, is 100% secure, however. Therefore, we cannot
+    guarantee its absolute security.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 5.2 NQ Mobile complies with international information criterion
+      to protect your personal information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: No method of transmission over the Internet, or method of electronic
+      storage, is 100% secure, however.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Therefore, we cannot guarantee its absolute security.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: These measures include some technical and programmed steps that
+      can protect your data against misuse, illegal access, disclosure, losing, modification
+      or destruction.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We follow generally accepted industry standards to protect the
+      personal information submitted to us, both during transmission and once we receive
+      it.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We use security socket layer (SSL) to transmit credit card and
+      yours or your child's geo location information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: 5.3 As an international company, NQ Mobile provides company information
+    to our local branch offices all over the world to further aid in providing products
+    and services. It is possible that the personal information you submit to us may
+    be transmitted to these other NQ Mobile branch offices. For example, the personal
+    information provided by a European customer at the time of product registration
+    may be transmitted to a server in the USA and then transmitted to one or more
+    servers of our branch offices in Europe. Meanwhile, in some countries or regions,
+    our subcontractors may handle your information in the process of helping NQ Mobile
+    provide products and services to you and/or in handling information collection,
+    transmission, storage and processing for us.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 6 Content of Email 6.1 NQ Mobile will not read or disclose to any
+    third party any private email communication information that is transmitted using
+    our products and services, unless given appropriate explicit consent to do so.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 7 Log 7.1 We have provided logging functions for emails and other
+    communications transmitted in the process of using NQ Mobile products and services.
+    Any user can select to turn his own log record function on or off. NQ Mobile will
+    not read or disclose to any third party any users' private information it records
+    as part of the logging functions without further consent.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 8 UID information 8.1 When you use NQ Mobile products and services
+    and activate/register them, our system will generate a user ID (UID) for you at
+    random, by which we identify the user and provide the services. We may collect
+    your phone number and associate it with UID and/or any of our other internal tracking
+    tools or service account, such as NQ Account to complete the billing process and
+    provide certain service such as anti-lost remote control.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect your phone number and associate it with UID
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: 8.2 NQ Mobile respects the request of any user or third party to verify
+    his own UID information, and will correct or allow the correction of any possibly
+    incorrect information. Any user and third party can ascertain whether his information
+    has been appropriately corrected by either email or phone at any time.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 9 Cookies and other Tracking Technologies 9.1 Cookie 9.1.1 Cookies
+    are frequently used on NQ Mobile's websites. A cookie is a unique text file our
+    websites send to your explorer software. This helps customers customize the information
+    based on browsing preferences. We do not link the information we store in cookies
+    to any personal information you submit while on our sites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 9 Cookies and other Tracking Technologies 9.1 Cookie 9.1.1 Cookies
+      are frequently used on NQ Mobile's websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: A cookie is a unique text file our websites send to your explorer
+      software.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This helps customers customize the information based on browsing
+      preferences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not link the information we store in cookies to any personal
+      information you submit while on our sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: 9.1.2 Cookies are used to personalize webpages and / or recognize
+    you when you are accessing our websites, in order to conveniently browse and access
+    our websites after having registered for our products, services and/or other support
+    services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 9.1.2 Cookies are used to personalize webpages and / or recognize
+      you when you are accessing our websites, in order to conveniently browse and
+      access our websites after having registered for our products, services and/or
+      other support services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: 9.1.3 Cookies are also used to trace your access to our websites.
+    We will acquire information in personal, identifiable modes including your IP
+    address. However, such information will merely be used for analysis and will be
+    limited to the use according to the minimum requirement for the execution of such
+    analysis.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We will acquire information in personal, identifiable modes including
+      your IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: 9.1.4 If you do not want NQ Mobile to transfer Cookies into your web
+    browser, you may change your web browser setting to refuse Cookies or notify you
+    when any website is attempting to this transaction. This refusal shall affect
+    your option to use certain products and/or services provided on our websites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 9.1.4 If you do not want NQ Mobile to transfer Cookies into your
+      web browser, you may change your web browser setting to refuse Cookies or notify
+      you when any website is attempting to this transaction.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This refusal shall affect your option to use certain products and/or
+      services provided on our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: 9.2 Network beacons 9.2.1 Network beacons on our websites and in our
+    products and services analyzes traffic mode, such as the frequency of use on a
+    specific part of the websites. The acquired data will help us learn about the
+    kind of information our customers are most interested in, and what preferential
+    terms our customers are most interested in obtaining. With respect to our websites,
+    if you are unwilling to allow such data collection which help NQ Mobile improve
+    our websites, you may refuse such website analysis by disabling JavaScript on
+    your computer. If you disable JavaScript, some functions on our websites may not
+    be able to operate normally.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 9.2.2 We can also use network beacons in promotional emails to further
+    determine whether emails have been opened and/or acted upon. We develop more your
+    favorite sales promotional activities according to the information thus provided
+    by email responses. Except for the email address you previously provided, the
+    information collected would not identify you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Except for the email address you previously provided, the information
+      collected would not identify you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 44
+  segment_text: 9.3 By means of various tracing technologies as mentioned above, we
+    can trace the domain names, IP addresses and the type of explorer used by the
+    users who access our websites and use our products or services. We use such information
+    to trace the traffic modes congregating on the whole NQ Mobile website. Such information
+    is independent of any personal information the user may otherwise provide in using
+    NQ Mobile's products and services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By means of various tracing technologies as mentioned above, we
+      can trace the domain names, IP addresses and the type of explorer used by the
+      users who access our websites and use our products or services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 45
+  segment_text: 9.4 We use mobile analytics software to allow us to better understand
+    the functionality of our Mobile Software on your phone. This software may record
+    information such as how often you use the application, the events that occur within
+    the application, aggregated usage, performance data, and where the application
+    was downloaded from. We do not link the information we store within the analytics
+    software to any personally identifiable information you submit within the mobile
+    applications.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 10 Discussion group/forum/blog/social media 10.1 The information you
+    submit on any discussion group, forum, or blog will be regarded as public information
+    instead of confidential information. The information released in these areas are
+    at risk of being collected and used by others. Please be cautious and responsible
+    when submitting information when you are online. To request removal of your personal
+    information from our blog or community forum, contact us at privacy@nq.com. In
+    some cases, we may not be able to remove your personal information, in which case
+    we will let you know if we are unable to do so and why.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 10.2 Our Web site includes Social Media Features, such as the Facebook
+    Like button and Widgets, such as the Share this button or interactive mini-programs
+    that run on our site. These Features may collect your IP address, which page you
+    are visiting on our site, and may set a cookie to enable the Feature to function
+    properly. Social Media Features and Widgets are either hosted by a third party
+    or hosted directly on our Site. Your interactions with these Features are governed
+    by the privacy policy of the company providing it.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These Features may collect your IP address, which page you are
+      visiting on our site,
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Web site includes Social Media Features, such as the Facebook Like
+      button and Widgets, such as the Share this button or interactive mini-programs
+      that run on our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: 11 Third party website 11.1 On the websites and within the mobile
+    applications of NQ Mobile, there are many links to other companies or mobile applications,
+    which have established cooperative relationships with us. NQ Mobile assumes no
+    responsibility for the privacy criteria adopted by our commercial copartners.
+    We recommend that you read their privacy policies, which may involve different
+    contents.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 11.2 We are also linked to joint websites that are maintained by NQ
+    Mobile in coordination with one or more of our commercial copartners. When you
+    are submitting information to one of our joint websites, it is possible that you
+    are submitting such information to both NQ Mobile and our commercial copartners,
+    but the privacy policy adopted by the joint websites may be different from this
+    privacy policy of NQ Mobile. Therefore, we recommend that you read the privacy
+    policy on any linked joint websites, so as to obtain the most complete information
+    regarding the privacy criteria of such websites.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 12 Disclaimers 12.1 In case any competent government authority requests
+    us to disclose any personal user identification information in accordance with
+    relevant legal procedures, laws or regulations, we will provide such personal
+    user information according to the requirements of the government authority or
+    for the purpose of public safety. NQ Mobile will assume no liability for any disclosure
+    in such case.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: 12.2 NQ Mobile will not assume any responsibility for any of your
+    personal information that is disclosed for your own reasons (for example, when
+    you voluntarily disclose to other people your password or when you share your
+    account with other people).
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 12.3 NQ Mobile assumes no responsibility for any personal information
+    that is lost, disclosed, or falsified due to forces beyond NQ Mobile's control,
+    including but not limited to events that may affect normal network operations,
+    such as hacker attack, intrusion or attack of computer virus and temporary closure
+    of websites due to government regulations or actions.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 12.4 NQ Mobile assumes no responsibility for the disclosure of personal
+    particulars or other customer information caused by (i) the other websites linked
+    with our website or referred to in our website, products or services; (ii) third
+    party software or coding incorporated in our website, products or services; or
+    (iii) the incorporation of any part of our products into the websites, products
+    or services provided by third parties, as well as any legal dispute and consequence
+    resulting from any of (i)-(iii).
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: 12.5 NQ Mobile assumes no responsibility when it or a third party
+    uses your personal information in accordance with provisions of relevant laws
+    or regulations or this privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: '12.6 NQ Mobile assumes no responsibility when your personal information
+    is disclosed due to unpredictable and inevitable risks of the internet, including
+    without limitation: virus attack, hijacking, temporary site closure or server
+    closure resulted from government control and inevitable technical defects of the
+    software due to technical level at the time of development.'
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: 13 Policy modifications 13.1 We may update this privacy statement
+    to reflect changes to our information practices. If we make any material changes
+    we will notify you by email (sent to the e-mail address specified in your account)
+    or by means of a notice on this Site prior to the change becoming effective. We
+    encourage you to periodically review this page for the latest information on our
+    privacy practices.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 13 Policy modifications 13.1 We may update this privacy statement
+      to reflect changes to our information practices.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If we make any material changes we will notify you by email (sent
+      to the e-mail address specified in your account) or by means of a notice on
+      this Site prior to the change becoming effective.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We encourage you to periodically review this page for the latest
+      information on our privacy practices.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: If we make material changes to how we use Personal Information collected
+    from children under age 13, we will notify parents by email in order to obtain
+    verifiable parental consent for the new uses of the child's Personal Information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If we make material changes to how we use Personal Information
+      collected from children under age 13, we will notify parents by email in order
+      to obtain verifiable parental consent for the new uses of the child's Personal
+      Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 58
+  segment_text: 14 Access to Personal Information 14.1 If yours or your child's personally
+    identifiable information changes, or if you no longer desire our service, you
+    may correct, update, delete inaccuracies or remove it by making the change on
+    our member information page or by emailing us at privacy@nq.com. We will respond
+    to your request to access within 30 days.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: 14.2 Parents have the right to access their child's information, refuse
+    further collection and use, request to have it deleted or request that we no longer
+    have further contact with their child by accessing their child's account through
+    the Web site or by emailing us at privacy@nq.com.
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: '14.3 Data Retention: We will retain yours or your child''s information
+    (including geo-location data) for as long as your account is active or as needed
+    to provide services. If you wish to cancel your account or request that we no
+    longer use your information to provide you services contact us at privacy@nq.com.
+    We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '14.3 Data Retention: We will retain yours or your child''s information
+      (including geo-location data) for as long as your account is active or as needed
+      to provide services.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: If you wish to cancel your account or request that we no longer
+      use your information to provide you services contact us at privacy@nq.com.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We will retain and use your information as necessary to comply
+      with our legal obligations, resolve disputes, and enforce our agreements.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 61
+  segment_text: 15 Contact us 15.1 We have appointed an executive agent for our privacy
+    protection policy, who will be responsible for NQ Mobile's compliance with the
+    privacy criteria as described in this statement.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: '15.2 If you have any questions or concerns regarding this policy,
+    would like to modify the communications option, update or refer to your personal
+    information we possess, or withdraw your decision to allow us to collect, use
+    or publish your personal information, please feel free to contact us at any time:
+    Email: privacy@nq.com NQ Mobile 4515 Travis Street Suite 200 Dallas, TX 75205
+    If you have an unresolved privacy or data use concern that we have not addressed
+    satisfactorily, we agree to dispute resolution using JAMS as an independent third
+    party dispute resolution provider.'
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: We prohibit the download of our products and services by residents
+    of countries sanctioned by the U.S. Office of Foreign Assets Control.
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: Top | Refund Policy NQ MOBILE END USER LICENSE AGREEMENT PLEASE READ
+    AND MAKE SURE YOU UNDERSTAND ALL THE FOLLOWING TERMS AND CONDITIONS CAREFULLY
+    BEFORE ACCEPTING OR AGREEING TO THIS AGREEMENT OR ACCESSING OR USING THE SOFTWARE
+    OR ANY ASSOCIATED SERVICES.
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: This End User License Agreement (hereinafter referred to as this "Agreement")
+    is made by and between NQ Mobile Inc. (hereinafter referred to as "NQ Mobile")
+    and the person purchasing or obtaining the license to the Software (hereinafter
+    referred to as "you" and "your") on a voluntary basis for the downloading, installation,
+    access, and use of the NQ Mobile software for which this Agreement is provided
+    for acceptance by you (together with all associated information, documentation
+    and software, the "Software") and the receipt and use of any services that NQ
+    Mobile agrees to make available or provide in connection with the access or use
+    of the Software (the "Associated Services," and together with the Software, the
+    "NQ Services") by you, or by a child or minor of whom you are the legal guardian
+    and who downloads and installs and/or accesses and uses the Software with your
+    permission, approval, or consent ("Your Child"), if any, on a single mobile device
+    that you own or control or that Your Child owns or controls (such mobile device,
+    the "Device"). ACCESS RIGHT; ACCEPTANCE
+  annotations: []
+  sentences: []
+- segment_id: 66
+  segment_text: YOUR AGREEMENT TO AND ACCEPTANCE OF THIS AGREEMENT IS A CONDITION
+    PRECEDENT FOR EXERCISING ANY OF THE RIGHT TO TAKE A LICENSE TO THE SOFTWARE TO
+    ACCESS AND USE THE SOFTWARE BY YOU OR YOUR CHILD ON THE DEVICE AND THE RIGHT TO
+    RECEIVE THE ASSOCIATED SERVICES (COLLECTIVELY, SUCH RIGHTS THE "ACCESS RIGHT")
+    THAT YOU RECEIVED FROM NQ MOBILE OR FROM A DISTRIBUTOR OR SELLER (SUCH AS A STORE
+    OFFERING SUCH RIGHTS UNDER AGREEMENT WITH NQ MOBILE) AUTHORIZED BY NQ MOBILE TO
+    SELL YOU THE RIGHT ("AUTHORIZED RESELLER"), YOU WILL BE IRREVOCABLY, IRREFUTABLY,
+    AND CONCLUSIVELY DEEMED TO HAVE READ, UNDERSTOOD, AND HAVE ACCEPTED AND AGREED
+    TO THIS AGREEMENT IF YOU CLICK OR ACTIVATE THE "I ACCEPT" OR "I AGREE" OR OTHER
+    BUTTON OR SPACE SIGNIFYING OR CONFIRMING YOUR AGREEMENT TO THIS AGREEMENT AND
+    ALL OF THE TERMS OF THIS AGREEMENT, OR IF YOU FIRST DOWNLOAD, INSTALL, ACCESS,
+    OR USE THE SOFTWARE, WHICHEVER OCCURS EARLIER ("YOUR ACCEPTANCE"). YOUR ACCEPTANCE
+    IS A CONDITION PRECEDENT FOR THE EFFECTIVENESS OF THE LICENSE. IF YOU DO NOT OR
+    CANNOT AGREE TO THIS AGREEMENT, YOU MAY NOT ACCESS, LOAD, OR USE THE SOFTWARE
+    OR ANY ASSOCIATED SERVICES AND MUST EXIT IMMEDIATELY, DO NOT LOAD, ACCESS, OR
+    USE, AND CEASE LOADING, ACCESSING, OR USING, THE SOFTWARE IN ANY MANNER AND COMPLETELY
+    REMOVE THE SOFTWARE FROM YOUR DEVICE. EACH ACCESS TO OR USE OF THE SOFTWARE OR
+    ANY ASSOCIATED SERVICES BY YOU OR YOUR CHILD IS AND SHALL BE DEEMED TO BE YOUR
+    RATIFICATION OF AND AGREEMENT TO THIS AGREEMENT. MODIFICATION OF THIS AGREEMENT
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: NQ MOBILE MAY MODIFY, AMEND, CHANGE, AND ALTER THIS AGREEMENT OR ANY
+    OF THE TERMS OF THIS AGREEMENT AT ANY TIME AND NOTIFY YOU OF SUCH MODIFICATION,
+    AMENDMENT, CHANGE, AND ALTERATION AND REQUIRE YOUR CONSENT OR CONFIRMATION AS
+    A CONDITION PRECEDENT TO THE CONTINUED ACCESS TO AND USE OF THE SOFTWARE. YOUR
+    CONFIRMATION AND CONSENT, AND ANY ACCESS TO AND USE OF THE SOFTWARE OR ANY ASSOCIATED
+    SERVICES THEREAFTER, SHALL BE DEEMED TO BE YOUR AGREEMENT TO SUCH MODIFICATION,
+    AMENDMENT, CHANGE, OR ALTERATION AND YOUR RATIFICATION OF THIS AGREEMENT SO MODIFIED,
+    AMENDED, CHANGED, OR ALTERED. EACH ACCESS TO OR USE OF THE SOFTWARE OR ANY ASSOCIATED
+    SERVICES THEREAFTER BY YOU OR YOUR CHILD IS AND SHALL BE DEEMED TO BE YOUR RATIFICATION
+    OF AND AGREEMENT TO THIS AGREEMENT AS SO MODIFIED, AMENDED, CHANGED, OR ALTERED..
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: If you have any questions about this Agreement, please contact NQ
+    Mobile at legal@nq.com. LICENSE; USE OF THE SOFTWARE.
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: NQ Mobile hereby grants to you a limited, non-exclusive, terminable,
+    revocable, non- sublicensable, non-assignable, and non-transferable license to
+    download and install, or permit Your Child to download and install, the Software
+    solely on the Device and to access and use, and to permit Your Child to access
+    and use, the Software solely on and from the Device as downloaded and installed
+    thereon, and to use the Associated Services related to such access and use, only
+    for your or Your Child's personal non-commercial use (except solely if and to
+    the extent otherwise expressly approved in advance in writing by NQ Mobile or
+    required under applicable law) in accordance with the terms and conditions of
+    this Agreement, including, without limitation, the provisions of this Section
+    III (the "License"). You and Your Child must, download, install, access, and use
+    the Software in compliance with all applicable law and the provisions, policies,
+    and terms in this Agreement.
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: 'The Software and Associated Services include such elements, features,
+    and/or services as NQ Mobile makes available to you as part of the Software and
+    the Associated Services under this Agreement, subject to any Modification. The
+    License, the Software, the Associated Services, and terms under this Agreement
+    will or may also depend on whether the License is an Activation Code License,
+    a Paid Open Market License, a Trial Period License, or a No- Charge Open Market
+    License: The License is an "Activation Code License" if you received the Access
+    Right by purchasing a sequence of letters, numbers, and/or other characters for
+    activating the Software on the Device (the "Activation Code") from NQ Mobile or
+    an Authorized Reseller, The License is a "Paid Open Market License" if you received
+    the Access Right by purchasing it directly from NQ Mobile or a mobile or online
+    Authorized Reseller without use of an Activation Code. The License is a "Trial
+    Period License" if you received the Access Right expressly from NQ Mobile or an
+    Authorized Reseller for a limited time period on a trial basis without requirement
+    to pay any License Fee for such time period (such time period being the "Trial
+    Period").'
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: The License is a "No-Charge Open Market License" if you received the
+    Access Right without charge of any License Fee on the internet from NQ Mobile
+    or from an third party provider authorized by NQ Mobile to provide such Access
+    Right without charge of a License Fee. In the event that the License is a No-Charge
+    Open Market License, the Software will or may include fewer elements or features
+    or less access or use abilities than under the Activation Code License, the Paid
+    Open Market License, or the Trial Period License.
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: NQ Mobile may (if, as, and when it decides to do so in its sole discretion
+    - without any obligation - without need for any approval, agreement, or consent
+    by, or notice to, you, Your Child, or any third party) install or make available
+    to you or Your Child any update to the Software and/or the Associated Services,
+    including, without limitation, modification, error correction, update, upgrade,
+    alteration, enhancement, or change of or to the software application defined in
+    this Agreement as the "Software" ("Modification"). Upon installation or making
+    available any Modification, the Software shall be deemed licensed solely with
+    such Modification and shall become unlicensed if used without such Modification,
+    and the term "Software" shall be deemed to include such Modification.
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: ANY ACCESS, EXECUTION, OR USE OF THE SOFTWARE, THE ASSOCIATED SERVICES,
+    OR ANY PART THEREOF OTHER THAN AS EXPRESSLY PERMITTED UNDER THIS AGREEMENT, OR
+    FOR ANY PURPOSE OR REASON NOT IN ACCORDANCE WITH A PURPOSE OR REASON PERMITTED
+    UNDER THIS AGREEMENT OR BY NQ MOBILE, SHALL BE DEEMED TO BE AN INFRINGEMENT OF
+    NQ MOBILE'S INTELLECTUAL PROPERTY RIGHTS IN THE SOFTWARE OR THE ASSOCIATED SERVICES
+    AND SUBJECT TO ALL RIGHTS AND REMEDIES OF NQ MOBILE ARISING FROM OR IN CONNECTION
+    WITH SUCH AN INFRINGEMENT.
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: 'You shall not, and shall not permit any third parties to, in any
+    manner: modify, alter, amend, fix, translate, enhance or otherwise create derivative
+    works of the Software and/or the Associated Services; reverse engineer, disassemble,
+    decompile, decode or adapt the Software and/or the Associated Services, or otherwise
+    attempt to derive or gain access to the source code of the Software and/or the
+    Associated Services, in whole or in part, except as and only to the extent this
+    restriction is prohibited by law; remove, disable, or otherwise create or implement
+    any workaround to any security features contained in the Software and/or the Associated
+    Services; remove, delete or alter any trademark or copyright notices or other
+    Intellectual Property Rights (as defined in Section VI of this Agreement) notices
+    of NQ Mobile or its licensors, if any, from the Software and/or the Associated
+    Services; copy the Software and/or the Associated Services, in whole or in part
+    (other than solely as necessary to install or use the Software as expressly permitted
+    in this Agreement); rent, lease, lend, sell, sublicense, assign, distribute, publish,
+    transfer or otherwise make the Software and/or the Associated Services or its
+    related documents available to, or permit access thereto or use thereof by, any
+    third party for any reason, commercial or otherwise; use the Software and/or the
+    Associated Services for purposes of competitive analysis, the development of a
+    competing software product or any other purpose that is to NQ Mobile''s commercial
+    disadvantage; use the Software and/or the Associated Services in any manner that
+    could impair any NQ Mobile site or products or services in any way or interfere
+    with any party''s use or enjoyment of any NQ Mobile site or products or services;
+    charge any fees in any way if you recommend the Software to other people; use
+    the Software and/or the Associated Services in violation of any applicable local
+    or national law (including, without limitation, in connection with or for any
+    defamation, harassment, crime or other unlawful act or omission, spamming, data
+    phishing, obscene or pornographic uses, or other use that may cause NQ Mobile
+    to be liable to any third party or under any law for or as a result of your use
+    of the Software and/or the Associated Services or that would cause NQ Mobile to
+    be brought into disrepute); use the Software and/or the Associated Services to
+    monitor a mobile device you do not own or control, monitor your spouse, significant
+    other or adult children; or use the Software to circumvent any professional or
+    other confidentiality privilege.'
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: If you violate any of the foregoing, NQ Mobile shall have the right
+    to terminate your license to the Software and use of the Associated Services and
+    to investigate legal liabilities of all individuals and entities involved and
+    hold such individuals and entities liable.
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: You agree to, and you agree to ensure that Your Child does, download,
+    install, access, and use the Software and use the Associated Services in accordance
+    with any and all applicable law, statutes, regulations, rules, ordinances, directives,
+    and court and governmental orders, including, without limitation, all law, statutes,
+    regulations, rules, ordinances, directives, and court and governmental orders
+    related to data privacy, data security, and confidentiality of data and information
+    regarding any data collected, received, shared, or accessed by you or Your Child
+    in connection with the use of the Software and/or the Associated Services ("Legal
+    Requirements"). You shall ensure at all times that you and Your Child have all
+    rights and/or licenses to any technology, software, hardware, work, material,
+    data, and/or information that you and Your Child use in connection with the Software
+    and/or the Associated Services and lawfully procuring any and all such rights
+    and/or licenses at your sole cost.
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: You should NEVER attempt to monitor a mobile device you do not own
+    or control, monitor your spouse, significant other or adult children with any
+    mobile device monitoring product without the consent and knowledge of such persons.
+    Doing so may be illegal, and violate local, state, and federal laws in your country
+    and you could be subject to civil or criminal penalties. We will cooperate with
+    authorities in investigations of any allegations of misuse.
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: You are solely responsible, throughout the duration of this Agreement
+    and you or Your Child's access to and use of the Software and/or access to or
+    use of the Associated Services, for obtaining, providing, establishing and maintaining,
+    at your sole cost, all services, software, hardware, and other prerequisites that
+    are or may be necessary for downloading, installing, accessing, and/or use of
+    the Software and/or access to or use of the Associated Services, including, without
+    limitation, any wireless services and wireless data services (collectively, "Prerequisites"),
+    and NQ Mobile is not, and shall not be, liable for any Prerequisite, or the provision
+    thereof, or any costs, charges, fees, taxes, rates, or other payments incurred
+    or made in connection therewith. You agree to comply with all terms and agreement
+    of any provider of any Prerequisites used by you or Your Child (e.g., a wireless
+    data service agreement).
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: NQ Mobile has and shall have no obligation whatsoever to furnish any
+    maintenance and support services of any kind with respect to the Software and/or
+    the Associated Services. If NQ Mobile, in its sole discretion, directly or indirectly
+    makes available any maintenance or support, NQ Mobile is not obligated at any
+    time to continue or provide again any maintenance or support and NQ Mobile may
+    at any time discontinue, reduce and limit access to, or charge any fee for any
+    maintenance or support if and as it decides in its sole discretion, with or without
+    notice to you or Your Child. NQ Mobile does not offer, and does not agree to,
+    any service level agreement, service levels, credit, uptime, minimum uptime, or
+    other similar features to you or Your Child. TERM.
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: 'This Agreement is effective upon Your Acceptance and continues, including,
+    without limitation, the License, until the end of the expiration of the License
+    Term (as defined below in this Section IV) or the termination or cancellation
+    of this Agreement, whichever occurs earlier (the "Term"). The "License Term" means
+    the applicable one of the periods of time identified in the following paragraphs
+    a - c of this Section IV, depending on how you received the Access Right: Activation
+    Code License: If the License is an Activation Code License, the "License Term"
+    means the period of time that begins with the Activation (as defined below in
+    this Section IV.a) and continues for such period of time that corresponds to the
+    duration for which you purchased the Access Right. For example, if you purchased
+    the Access Right for thirty days, the License Term is thirty days from such Activation,
+    and to access and use the Software and/or the Associated Services after the end
+    of such thirty days, you have to purchase another Access Right. Solely in the
+    event that this Section IV.a applies, the term "Activation" means the earliest
+    date and time when you received the Activation Code from NQ Mobile or an Authorized
+    Reseller, regardless of the time of Your Acceptance or activation of the License.
+    Thus, in the event that you purchased the Access Right and the Activation Code
+    in an Authorized Reseller''s store, the Activation will have occurred at the time
+    that you received the Activation Code in such store regardless of when Your Acceptance
+    occurs or whether or not, or when, you actually insert the Activation Code or
+    take any steps to activating the License. An Activation Code License or receipt
+    of the Access Right for an Activation Code License does not entitle You or Your
+    Child automatically (without additional purchase) to any additional Activation
+    Code License or an extension thereof. Upon the end of the License Term, if you
+    or Your Child wish to further access or use the Software and/or the Associated
+    Services, you must purchase a new Activation Code License or a Paid Open Market
+    License. Otherwise, this Agreement, the Access Right, and the license and all
+    rights of you or Your Child, including, without limitation, the right to access
+    and use the Services and receive Associated Services, terminates and ends. The
+    Activation Code License does not convert into or continue as a No-Charge Open
+    Market License or any other License.'
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: 'Paid Open Market License: If the License is a Paid Open Market License,
+    the "License Term" means the period of time that begins with the Activation (as
+    defined below in this Section IV.b) and continues for such period of time that
+    corresponds to the duration for which you purchased the Access Right. For example,
+    if you purchased the Access Right for thirty days, the License Term is thirty
+    days from such Activation, and to access and use the Software and/or the Associated
+    Services after the end of such thirty days, you have to purchase another Access
+    Right. Solely in the event that this Section IV.b applies, the term "Activation"
+    means the date and time of Your Acceptance or of your payment of all or part of
+    the License Fee for the Access Right, whichever occurs earlier. Thus, in the event
+    that you purchased the Access Right online from NQ Mobile or an Authorized Reseller,
+    the Activation will have occurred at the time that you paid all or part of the
+    License Fee or Your Acceptance regardless of whether or not, or when, you actually
+    download, install or activate the License. A Paid Open Market License or receipt
+    of the Access Right for a Paid Open Market License does not entitle You or Your
+    Child automatically (without additional purchase) to any additional Paid Open
+    Market License or an extension thereof. Upon the end of the License Term of the
+    Paid Open Market License, if the Paid Open Market License ends solely as a result
+    of the expiration of the License Term (and not as a result of any other termination,
+    expiration, or cancellation, in which case the License and this Agreement terminates
+    and ends without any conversion), the Paid Open Market License may automatically,
+    without need for any notice or action of any kind, terminate and end and convert
+    to a No-Charge Open Market License. No such conversion is or shall be required.
+    In the event of such conversion, as of such conversion, the License will be a
+    No-Charge Open Market License under this Agreement and be governed by the terms
+    of this Agreement applying to a No-Charge Open Market License in effect at that
+    time subject to any modification of this Agreement in accordance with this Agreement.'
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: 'Trial Period License: If the License is a Trial Period License, the
+    "License Term" means the Trial Period. The Trial Period begins with the Activation
+    (as defined below in this Section IV.c). Solely in the event that this Section
+    IV.c applies, the term "Activation" means the date and time of Your Acceptance.
+    Depending on the Software, upon the end of the License Term of the Trial Period
+    License, if the Trial Period License ends solely as a result of the expiration
+    of the License Term (and not as a result of any other termination, expiration,
+    or cancellation, in which case the License and this Agreement terminates and ends
+    without any conversion), the Trial Period License may automatically, without need
+    for any notice or action of any kind, terminate and end and convert to a No-Charge
+    Open Market License. No such conversion is or shall be required. In the event
+    of any such conversion, as of such conversion, the License will be a No-Charge
+    Open Market License under this Agreement and be governed by the terms of this
+    Agreement applying to a No-Charge Open Market License in effect at that time subject
+    to any modification of this Agreement in accordance with this Agreement. A Trial
+    Period License or receipt of the Access Right for a Trial Period License does
+    not entitle You or Your Child to any additional Trial Period License or an extension
+    thereof. To be able and have the right to access and use the Software and/or the
+    Associated Services other than under a No-Charge Market License after the Trial
+    Period, you must purchase a new Access Right from NQ Mobile or an Authorized Reseller.
+    Except as otherwise authorized by NQ Mobile in advance in writing to you, you
+    and Your Child are limited to receiving one Access Right for a Trial Period for
+    the same type of Software. No-Charge Open Market License: If the License is a
+    No-Charge Open Market License, the "License Term" begins with Your Acceptance
+    and continues for such period of time that corresponds to the duration for which
+    you received such Access Right, or if there is no such period of time, indefinitely
+    until NQ Mobile terminate this Agreement, which NQ Mobile may do so at any time
+    with or without cause. LICENSE FEES.'
+  annotations: []
+  sentences: []
+- segment_id: 83
+  segment_text: Unless you received from NQ Mobile the Access Right without the obligation
+    to pay any License Fee, i.e., the License under this Agreement is granted for,
+    and the License Term is, a Trial Period, the License is granted to you in consideration
+    for your payment of the fee, price, or charge that you agreed to pay NQ Mobile
+    or an Authorized Reseller for the Access Right (such fee, price, or charge, the
+    "License Fee"). You agree to pay any License Fee or part thereof not yet paid,
+    and any other amount due to NQ Mobile, and you represent and warrant that any
+    License Fee by you before Your Acceptance has been paid, in immediately available
+    indefeasible unconditional funds without any set-off or deduction. Any amount
+    of any License Fee or amount due to NQ Mobile that is unpaid when it is due shall
+    accrue interest from the date it is due until NQ Mobile's receipt of the payment
+    of such amount at the rate of the lower of (i) one and one-half percent (1.5%)
+    per full or partial calendar month or (ii) the highest enforceable rate of interest
+    under applicable law. All such interest shall be paid simultaneously with the
+    payment of the unpaid amount on which such interest accrued.
+  annotations: []
+  sentences: []
+- segment_id: 84
+  segment_text: NQ Mobile is not responsible, and you are solely responsible, for
+    any access, data, transmission, and other fees and any expenses you may incur
+    or may be charged by any third party, including, without limitation, your wireless
+    service provider, may charge in connection with your access or use of the Software
+    and/or the Associated Services, including, without limitation, data traffic costs.
+    INTELLECTUAL PROPERTY RIGHTS, OWNERSHIP, AND RESERVATION OF RIGHTS.
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: The Software and the Access Services are proprietary to NQ Mobile.
+    You acknowledge and agree that the Software is being licensed, not sold, to you
+    by NQ Mobile. No rights are granted or extended, implicitly, expressly, or otherwise,
+    to any third party, and your access and use of the Software and/or the Associated
+    Services does not, and shall not be deemed, to exhaust any Intellectual Property
+    Right in or to or related to the Software and/ or the Associated Services with
+    regard to you outside the express license in this Agreement or to any third party.
+    All Intellectual Property Rights to the Software, the Access Services, all Modifications,
+    and all content and code are owned by NQ Mobile and are protected by law. You
+    further acknowledge and agree that you do, and shall not be deemed to, acquire
+    any ownership, co-ownership, right, title, interest, license (except solely the
+    express license to access and use the Software and the right to access and use
+    the Associated Services expressly granted to you as set forth in this Agreement
+    during the term of this Agreement), or encumbrance in or to, and that NQ Mobile
+    shall retain its entire sole ownership, right, title, interest in and to, the
+    Software, the Associated Services, all Modifications, all derivations and derivative
+    works therefrom and all improvements, modifications, upgrades, updates, error
+    corrections, patches, enhancements, versions, and alterations thereto, all content,
+    works, inventions, technology, data, information, and code therein or thereof,
+    and all other proprietary products and services of NQ Mobile (including without
+    limitation products and services released solely or jointly with its partners),
+    and all Intellectual Property Rights (as defined herein) in or to or arising out
+    of or relating to any of the foregoing (collectively, "NQ Mobile Property").
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: 'The term "Intellectual Property Rights" means, individually and collectively,
+    any and all of the following, anywhere in the world and under any law: (a) patents,
+    patent applications, patent disclosures, invention disclosures, and inventions
+    (whether patentable or not), (b) trademarks, service marks, trade dress, trade
+    names, logos, corporate names and domain names, and all goodwill in or arising
+    from any of the foregoing, (c) copyrights and rights in and to or arising from
+    or related to copyrightable works (including computer programs), mask works and
+    rights in data and databases, (d) rights in and to or arising from or related
+    to trade secrets, know-how, show-how, and other confidential or proprietary information,
+    and (e) all other intellectual and industrial property rights, in each case whether
+    registered or unregistered and including all applications for, and renewals or
+    extensions of, such rights, and all similar or equivalent rights or forms of protection
+    provided by applicable law, regulations or rules in any jurisdiction throughout
+    the world. You shall promptly notify NQ Mobile if you become aware of any possible
+    third-party infringement of NQ Mobile''s Intellectual Property Rights arising
+    out of or relating to the Software and/or the Associated Services and fully cooperate
+    with NQ Mobile in any legal action taken by NQ Mobile against third parties to
+    enforce its Intellectual Property Rights. You shall safeguard the Software (including
+    all copies thereof) from infringement, misappropriation, theft, misuse or unauthorized
+    access.'
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: 'Without NQ Mobile''s written permission, no entity or individual
+    shall use, duplicate, change, copy, distribute or use or sell with other products
+    any part of the Software and/or the Associated Services, any other product, information
+    or materials owned by NQ Mobile, or any other NQ Mobile Property in any manner
+    for any reason whatsoever. Without NQ Mobile''s written permission, no entity
+    or individual shall use, duplicate, change, distribute, copy or infringe in other
+    ways NQ Mobile''s trademarks in part or as a whole in any manner for any reason
+    whatsoever, including without limitation the following trademarks: A-Yong Image,
+    NetQin Mobile Security, NetQin Mobile Anti-virus, NetQin Mobile Manager, NQ Contacts,
+    NQ Private Space, NQ Secret Space, NQ Secret Box, NQ Calendar, NQ Space, NetQin
+    Mobile Guard, NetQin Mobile Assistant, Private Calls, Easy Message and any marks
+    used in connection with NQ Mobile''s special virus removal tools.'
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: NQ Mobile's core technology is protected by the patent and other Intellectual
+    Property Rights laws of various countries. Without NQ Mobile's written permission,
+    no entity or individual shall carry out, duplicate, modify, distribute, copy or
+    infringe in other ways NQ Mobile's patented products and patented technology in
+    any manner for any reason whatsoever.
+  annotations: []
+  sentences: []
+- segment_id: 89
+  segment_text: If and to the extent you acquire or obtain any ownership, co-ownership,
+    right, title, interest, license (except solely the express license to access and
+    use the Software and the right to access and use the Associated Services expressly
+    granted to you as set forth in this Agreement during the term of this Agreement),
+    or encumbrance, you agree to assign, transfer, and convey, and you hereby assign,
+    transfer, and convey, to NQ Mobile - free of any royalty, fee, or other payment
+    obligation of NQ Mobile or any of its affiliates - all such ownership, co-ownership,
+    right, title, interest, license, and encumbrance. You agree to execute any document
+    and take any other action or forego to take any other action as requested by NQ
+    Mobile to you to give effect to the provisions of this Article V. RIGHT OF REPUTATION.
+  annotations: []
+  sentences: []
+- segment_id: 90
+  segment_text: As a legal person, NQ Mobile's rights of reputation are protected
+    by the law. Where the company's goodwill is slandered or the rights of reputation
+    are infringed by illegal means of forging and disseminating false information
+    and materials, or similar actions, NQ Mobile has the right to pursue legal responsibilities
+    according to law. Where the above Intellectual Property Rights of NQ Mobile are
+    infringed or the exercise of the Intellectual Property Rights are hindered, legal
+    responsibilities will be investigated according to law and you may be held liable
+    for such infringement and/or hindering. TERMINATION.
+  annotations: []
+  sentences: []
+- segment_id: 91
+  segment_text: 'This Agreement expires, terminates, and ends immediately and automatically,
+    without need for any notice or other act: (i) upon the end of the License Term,
+    or (ii) any fee or price due for the License, or any other payment due under this
+    Agreement, is not paid to or received by NQ Mobile, whether or not resulting from
+    any fault by you.'
+  annotations: []
+  sentences: []
+- segment_id: 92
+  segment_text: This Agreement also terminates immediately and automatically, without
+    need for any notice or other act, if and when you (i) breach or violate or default
+    under any provision of this Agreement or obligation of you or Your Child, or (ii)
+    you or Your Child engages in any act or omission that constitutes or results in
+    any breach or violation of, or default under, any provision of this Agreement,
+    or (iii) engage, or encourage others to engage, in any misleading, fraudulent,
+    improper, unlawful, illegal, or dishonest act or omission in connection with the
+    Software and/or the Associated Services or relating to this Agreement or the Software
+    and/or the Associated Services; or (iv) you fail to agree to any change, modification,
+    amendment, or alteration of this Agreement or any provision of this Agreement;
+    or (v) you or Your Child fails to permit any installation or inclusion of any
+    Modification provided by NQ Mobile to you or Your Child, or to the Software installed
+    on the Device.
+  annotations: []
+  sentences: []
+- segment_id: 93
+  segment_text: 'NQ Mobile may also terminate this Agreement with immediate effect:
+    (i) as set forth in Section XVI.(d) of this Agreement, or (ii) if or to the extent
+    NQ Mobile ceases to make the Software, or removes the Software from being, available
+    for licensing, and/or ceases to make the Associated Services available for access
+    or use, by members of the public in anywhere or in your country, region, or area,
+    or (iii) if NQ Mobile fails to conduct business operations or takes steps to dissolve
+    or cease to exist; or (iv) if NQ Mobile or you files or is or becomes subject
+    to a petition in bankruptcy; or (v) if NQ Mobile admits the inability to pay the
+    debts as they become due, makes a general assignment for the benefit of its creditors,
+    or becomes subject to the appointment of a receiver; or (vi) upon your death or
+    legal incapacity.'
+  annotations: []
+  sentences: []
+- segment_id: 94
+  segment_text: NQ Mobile may terminate this Agreement by disconnecting your or Your
+    Child's access to and use of the Software and/or the Associated Services, without
+    need or requirement for any notice. NQ Mobile may give you notice of any termination,
+    expiration, or cancellation if NQ Mobile decides to do so in its sole discretion,
+    provided, however, that, giving any notice of termination shall not obligate or
+    require NQ Mobile to give such notice in any other instance of a termination.
+  annotations: []
+  sentences: []
+- segment_id: 95
+  segment_text: You may terminate this Agreement at any time by giving NQ Mobile written
+    notice of termination addressed to NQ Mobile at the address of its headquarters
+    and to the attention of the "Legal Department" at such address.
+  annotations: []
+  sentences: []
+- segment_id: 96
+  segment_text: Any access to or use of the Software and/or the Associated Services
+    following any event of termination of this Agreement (e.g., if NQ and/or you are
+    unaware of such termination) shall not negate such termination or the fact that
+    such termination occurred. EFFECT OF TERMINATION.
+  annotations: []
+  sentences: []
+- segment_id: 97
+  segment_text: 'Upon the termination, expiration, or cancellation of this Agreement
+    for any reason: (i) the License and your and Your Child''s right to access and
+    use the Software or the Associated Services, and to have possession of the downloaded
+    and installed copy of the Software, terminates and ends, (ii) NQ Mobile may immediately
+    disconnect you and Your Child''s access to and use of the Software or the Associated
+    Services, with or without any notice to you, (iii) you agree to immediately cease,
+    and to cause Your Child to immediately cease, all access to and use of the Software
+    and the Associated Services and irretrievably erase and destroy all copies, full
+    or partial, of the Software or the Associated Services and any information pertaining
+    to the Software or any Associated Services, without retaining any copy or manifestation
+    of the Software and/or the Associated Services, any of its content, or any part
+    thereof. The provisions of Section V (regarding any License Fee and other amount
+    due to NQ Mobile and unpaid), VI, VII, and X through XXIV of this Agreement, and
+    this Section IX shall survive any termination, expiration, or cancellation of
+    this Agreement.'
+  annotations: []
+  sentences: []
+- segment_id: 98
+  segment_text: Any termination, expiration, or cancellation of this Agreement does
+    not waive, terminate, cancel, or avoid any duty or obligation to pay any License
+    Fee or other fee, price, or other charge due by you to NQ Mobile or its Authorized
+    Resellers for the License Term during which such termination occurs, if and to
+    the extent not yet paid, which shall be due immediately upon termination if not
+    yet due, and does not entitle or give you any right or expectation to a refund,
+    reimbursement, repayment, compensation for, or other receipt of the amount of
+    any License Fee or any other fee, price, or other charge paid in connection with
+    the Software and/or the Associated Services or this Agreement. Any and all payments
+    made to NQ Mobile in connection with the License or under this Agreement are non-refundable.
+    PRODUCT CLAIMS.
+  annotations: []
+  sentences: []
+- segment_id: 99
+  segment_text: 'NQ Mobile is not responsible for addressing and you hereby waive
+    any claims by you or any third party relating to the Software and/or the Associated
+    Services or your possession and/or use of the Software and/or the Associated Services,
+    including but not limited to: (a) product liability claims; (b) any claim the
+    Software and/or any of the Associated Services fails to conform to any applicable
+    legal or regulatory requirement; and (c) claims arising under consumer protection
+    or similar legislation. You accept full responsibility and agree to be fully liable
+    for all results, consequences, injuries, death, damages, emotional distress, and
+    harm of any kind caused by your or Your Child''s use, application, or implementation
+    of the Software, the Associated Services, or the Device, or any violation of the
+    provisions of this Agreement by you. DISCLAIMER OF WARRANTIES.'
+  annotations: []
+  sentences: []
+- segment_id: 100
+  segment_text: NQ MOBILE MAKES NO WARRANTIES OR REPRESENTATIONS HEREUNDER OR REGARDING
+    THE SOFTWARE AND/OR THE ASSOCIATED SERVICES. NQ MOBILE DISCLAIMS RESPONSIBILITY
+    FOR ANY HARM RESULTING FROM YOUR USE OF THE SOFTWARE AND/OR THE ASSOCIATED SERVICES.
+    THE SOFTWARE AND THE ASSOCIATED SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE".
+    NQ MOBILE EXPRESSLY DISCLAIMS TO THE FULLEST EXTENT PERMITTED BY LAW ALL EXPRESS,
+    IMPLIED AND STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY AND ALL WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, WORKMANSHIP, AND
+    NON-INFRINGEMENT OF PROPRIETARY RIGHTS, AND ANY WARRANTIES REGARDING THE SECURITY,
+    RELIABILITY, TIMELINESS AND PERFORMANCE OF THE SOFTWARE AND/OR THE ASSOCIATED
+    SERVICES. YOU DOWNLOAD AND USE THE SOFTWARE AND/OR THE ASSOCIATED SERVICES AT
+    YOUR OWN DISCRETION AND RISK, AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGES TO
+    YOUR HARDWARE DEVICE(S) OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OR USE
+    OF THE SOFTWARE AND/OR THE ASSOCIATED SERVICES.
+  annotations: []
+  sentences: []
+- segment_id: 101
+  segment_text: 'IN THE EVENT OF ANY BREACH OF ANY WARRANTY, OR ANY FAILURE OF THE
+    SOFTWARE AND/OR THE ASSOCIATED SERVICES TO CONFORM TO ANY WARRANTY, THAT APPLIES
+    AND IS NOT OR CANNOT BE EFFECTIVELY DISCLAIMED HEREUNDER UNDER APPLICABLE LAW:
+    (I) YOU MAY NOTIFY NQ MOBILE DURING THE LICENSE TERM THEREOF AND NQ MOBILE MAY
+    CORRECT SUCH FAILURE OR BREACH, AND (II) IF YOU PAID TO NQ MOBILE A LICENSE FEE
+    FOR THE LICENSE DURING SUCH LICENSE TERM AND SUCH CORRECTION DOES NOT OCCUR OR
+    NQ MOBILE DECIDES TO REPAY SUCH LICENSE FEE, NQ MOBILE WILL REFUND SUCH LICENSE
+    FEE FOR SUCH LICENSE TERM, AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW,
+    NQ MOBILE WILL HAVE NO OTHER WARRANTY OBLIGATION OR OTHER LIABILITY WHATSOEVER
+    WITH RESPECT TO THE SOFTWARE, THE ASSOCIATED SERVICES, OR THIS AGREEMENT, AND
+    ANY OTHER CLAIMS, LOSSES, LIABILITIES, DAMAGES, COSTS OR EXPENSES ATTRIBUTABLE
+    TO ANY FAILURE TO CONFORM TO ANY WARRANTY WILL BE YOUR SOLE RESPONSIBILITY. THE
+    FOREGOING REFUND OF THE LICENSE FEE, IF ANY, CONSTITUTES THE MAXIMUM LIABILITY
+    THAT NQ MOBILE SHALL HAVE UNDER AND RELATING TO THIS AGREEMENT OR THE SOFTWARE
+    OR THE ASSOCIATED SERVICES. IF NO LICENSE FEE HAS BEEN PAID TO NQ MOBILE, SUCH
+    AS IF THE LICENSE IS FOR A TRIAL PERIOD, YOU ARE NOT ENTITLED TO ANY PAYMENT BY
+    NQ MOBILE. LIMITATION OF LIABILITY.'
+  annotations: []
+  sentences: []
+- segment_id: 102
+  segment_text: 'NEITHER NQ MOBILE NOR ITS SERVICE PROVIDERS OR AFFILIATES WILL BE
+    LIABLE TO YOU OR ANY USER FOR ANY USE OR MISUSE OF THE SOFTWARE AND/OR THE ASSOCIATED
+    SERVICES. SUCH EXCLUSION INCLUDES, BUT IS NOT LIMITED TO: (A) DIRECT, INDIRECT,
+    INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY AND PUNITIVE DAMAGES, WHETHER SUCH
+    CLAIM IS BASED ON WARRANTY, CONTRACT, TORT OR OTHERWISE (EVEN IF NQ MOBILE HAS
+    BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES); (B) APPLIES WHETHER DAMAGES
+    ARISE FROM USE OR MISUSE OF AND RELIANCE ON THE SOFTWARE AND/OR THE ASSOCIATED
+    SERVICES, FROM INABILITY TO USE THE SOFTWARE AND/OR THE ASSOCIATED SERVICES, OR
+    FROM THE INTERRUPTION, SUSPENSION, OR TERMINATION OF THE SOFTWARE AND/OR THE ASSOCIATED
+    SERVICES (INCLUDING ANY DAMAGES INCURRED BY THIRD PARTIES); AND (C) APPLIES NOTWITHSTANDING
+    A FAILURE OF THE ESSENTIAL PURPOSE OF ANY LIMITED REMEDY AND TO THE FULLEST EXTENT
+    PERMITTED BY LAW. IF AND TO THE EXTENT THAT NQ MOBILE OR ANY OF ITS SERVICE PROVIDERS
+    OR AFFILIATES IS LIABLE TO YOU FOR ANY DAMAGES NOTWITHSTANDING THE FOREGOING PROVISIONS,
+    YOU AGREE THAT THEIR AGGREGATE AND COMPLETE LIABILITY SHALL BE LIMITED TO THE
+    PURCHASE PRICE, IF APPLICABLE, FOR THE LICENSE TO ACCESS, INSTALL, AND USE THE
+    SOFTWARE, AND THE RIGHT TO ACCESS AND USE ANY ASSOCIATED SERVICES, UNDER THIS
+    AGREEMENT. INDEMNIFICATION.'
+  annotations: []
+  sentences: []
+- segment_id: 103
+  segment_text: You will indemnify and hold harmless NQ Mobile and its parents, subsidiaries,
+    officers, directors, shareholders, agents and employees, from any and all losses
+    to the extent resulting from any action, suit, proceeding, claim, demand, investigation
+    or assessment due to or arising directly or indirectly out of (i) your or Your
+    Child's access and/or use of the Software and/or the Associated Services, (ii)
+    any violation of any applicable law arising from you or Your Child's conduct or
+    in connection with your or Your Child's use or misuse of the Software and/or the
+    Associated Services, (iii) any alleged violation of this Agreement or other applicable
+    agreements between you and NQ Mobile, (iv) any negligence (whether sole, contributory,
+    or comparative) and willful misconduct of you or Your Child, and (v) any alleged
+    violation of any applicable law or regulation (EXPRESSLY INCLUDING, IN EACH CASE,
+    ANY SUCH LOSSES ATTRIBUTABLE TO THE ORDINARY, SOLE OR CONTRIBUTORY NEGLIGENCE
+    OR STRICT LIABILITY OF NQ MOBILE). NQ Mobile reserves the right, at its own expense,
+    to assume the exclusive defense and control of any matter subject to indemnification
+    by you, but doing so will not excuse your indemnity obligations. LEGAL RESTRICTIONS.
+  annotations: []
+  sentences: []
+- segment_id: 104
+  segment_text: 'Some countries and jurisdictions do not allow the conditions, limitations,
+    disclaimer, or exclusion of implied warranties, representations, or conditions,
+    so some of the disclaimers, exclusions, limitations, and/or obligations in Sections
+    X, XI, XII, and/or XIII of this Agreement may not apply to you. In such case:
+    (i) the conditions, limitations, disclaimer, or exclusion of implied warranties,
+    representations, or conditions shall not be invalidated or nullified but be revised
+    and remain valid and enforceable such that they are effective to the greatest
+    extent as permitted under applicable law, and (ii) if any implied warranties or
+    conditions would then otherwise arise, such implied warranties and conditions
+    will be limited in duration to ninety (90) days, or if applicable law requires
+    a longer time period, the shortest legally required time period, from the date
+    of the delivery of the Software and/or the Associated Services. BASIS OF BARGAIN.'
+  annotations: []
+  sentences: []
+- segment_id: 105
+  segment_text: You agrees and acknowledges that NQ Mobile has set its fees and the
+    parties have entered into this Agreement in reliance on the limited warranties,
+    warranty disclaimers, limitations and exclusions of liability, and indemnity set
+    forth herein, that the same reflect an agreed-to allocation of risk between the
+    parties (including the risk that a remedy may fail of its essential purpose and
+    cause consequential loss), and that the same forms an essential basis of the bargain
+    between the parties. You agree and acknowledge that NQ Mobile would not have been
+    able to license the Software and/or make available any Associated Service at the
+    amount charged on an economic basis without such limitations. INFRINGEMENT.
+  annotations: []
+  sentences: []
+- segment_id: 106
+  segment_text: 'If use of the Software and/or any of the Associated Services may
+    be enjoined due to a claim of infringement by a third party then, at its sole
+    discretion and expense, NQ Mobile may do one of the following: (a) negotiate a
+    license or other agreement so that the Software and/ or the any of the Associated
+    Services is no longer subject to such a potential claim, (b) modify the Software
+    and/or any of the Associated Services so that it becomes non-infringing, provided
+    such modification can be accomplished without materially affecting the performance
+    and functionality of the Software and/or the Associated Services, (c) replace
+    the Software and/or the Associated Services with non-infringing software, or (d)
+    terminate this Agreement by written notice of termination to you, in which case
+    you shall stop using the Software and/or the Associated Services. The foregoing
+    sets out the entire liability of NQ Mobile and the sole obligations of NQ Mobile
+    to you and Your Child in respect of any claim that the Software and/ or any of
+    the Associated Services or its use infringes any third party rights. PRIVACY POLICY.'
+  annotations: []
+  sentences: []
+- segment_id: 107
+  segment_text: As a mobile security, privacy and parental control service provider,
+    NQ Mobile may collect certain personal information about you ("Parental Information")
+    and Your Child or children ("Children's Information") (collectively, Parental
+    Information and Children's Information are "Personal Information") in connection
+    with the Software and/or the Associated Services. You consent to the collection,
+    use, disclosure, and other handling of such Personal Information as specified
+    in the Privacy Policy, which is hereby incorporated by reference. EXPORT RESTRICTIONS.
+  annotations: []
+  sentences: []
+- segment_id: 108
+  segment_text: 'You acknowledge that the Software, or any part thereof, may be subject
+    to the jurisdiction of the U.S. Export Administration Regulations (Title 15 of
+    the U.S. Code of Federal Regulations Part 730 et seq.), U.S. trade embargo regulations
+    (Title 31 of the U.S. Code of Federal Regulations Part 500 et seq.), other regulations
+    of the U.S. Departments of Commerce, State, and Treasury (collectively, "Export
+    Control Law"). Accordingly, you agree that you will comply with all Export Control
+    Law and that the Software, or any part or information thereof, or any access or
+    use thereof, will not be: (i) reexported, sold, or otherwise transferred outside
+    the United States of America or to other countries or to any person in violation
+    of Export Control Law or any other U.S. law; or (ii) made available to any person
+    that you know or have reason to suspect will cause the Software, or any part or
+    information thereof, or any access or use thereof, to be made available outside
+    the United States of America or to other countries or to any person in violation
+    of Export Control Law or any other U.S. law. You are solely responsible for determining
+    its obligations under Export Control Law. INJUNCTIVE RELIEF.'
+  annotations: []
+  sentences: []
+- segment_id: 109
+  segment_text: You agree that damages alone may be an insufficient remedy for violations
+    of the terms of Sections III, VI, VII, IX, and XVIII of this Agreement, and that
+    NQ Mobile may suffer irreparable damage as a result of such a violation. Accordingly,
+    NQ Mobile shall be entitled, in the event of a breach or threatened breach of
+    Sections III, VI, VII, IX, and XVIII of this Agreement, to seek injunctive relief
+    (or equivalent relief available under the law of the jurisdiction where NQ Mobile
+    seeks such relief) to enforce the provisions of Sections III, VI, VII, IX, and
+    XVIII of this Agreement without posting a bond. Injunctive (or such equivalent)
+    relief shall be in addition to any and all other rights or remedies available
+    to NQ Mobile, including, but not limited to, damages or other relief or remedies
+    for such violation. Assertion or the failure to assert injunctive (or such equivalent)
+    relief shall not constitute a waiver of any such other rights or remedies. In
+    the event it is necessary for NQ Mobile to institute legal proceedings to enforce
+    Sections III, VI, VII, IX, and XVIII of this Agreement, NQ Mobile will be entitled
+    to recover attorneys' fees and costs incurred by NQ Mobile in such proceedings
+    if it prevails in such proceedings. ASSIGNMENT/CHANGE OF CONTROL.
+  annotations: []
+  sentences: []
+- segment_id: 110
+  segment_text: This Agreement may not be assigned, nor may any of your obligations
+    under this Agreement be delegated, in whole or in part, by you by operation of
+    law, merger, or any other means without NQ Mobile's express prior written consent
+    and any attempted assignment without such consent will be null and void. NQ Mobile
+    may, without notice to you, assign this Agreement. Further, NQ Mobile may perform
+    all obligations, if any, to be performed by NQ Mobile under this Agreement directly
+    or may have some or all obligations performed by its affiliates, agents and/or
+    independent contractors. SEVERABILITY.
+  annotations: []
+  sentences: []
+- segment_id: 111
+  segment_text: If a court of competent jurisdiction finds any clause of this Agreement
+    to be unenforceable for any reason, that clause of this Agreement shall be enforced
+    to the maximum extent permissible so as to effect the intent of the parties, and
+    the remainder of this Agreement shall continue in full force and effect. GOVERNING
+    LAW AND JURISDICTION.
+  annotations: []
+  sentences: []
+- segment_id: 112
+  segment_text: The internal laws of the State of New York, U.S.A. (without giving
+    effect to any choice or conflict of law provision or rule (whether of the State
+    of New York, U.S.A. or any other jurisdiction) that would cause the application
+    of laws of any other jurisdiction) shall govern all matters arising out of or
+    relating to this Agreement and all of the matters or transactions it contemplates,
+    including its validity, interpretation, construction, performance and enforcement
+    and any disputes or controversies arising therefrom. The United Nations Convention
+    on Contracts for the International Sale of Goods will not apply to this Agreement
+    or any transaction hereunder. You consent and submit to the exclusive jurisdiction
+    of competent state and federal courts in the State of New York, U.S.A., for any
+    litigation or proceeding and to the venue of such litigation or proceeding in
+    New York, New York, U.S.A. NO THIRD PARTY BENEFICIARIES.
+  annotations: []
+  sentences: []
+- segment_id: 113
+  segment_text: The parties do not intend any third party to be a third party beneficiary
+    under this Agreement, and nothing in this Agreement shall be construed for any
+    third party to be a third party beneficiary or to confer any third party beneficiary
+    rights or status on any third party. ENTIRE AGREEMENT.
+  annotations: []
+  sentences: []
+- segment_id: 114
+  segment_text: All terms, conditions and provisions of this Agreement and any privacy
+    statement or other policies and terms and conditions of use accepted by you, constitute
+    the entire agreement between you and NQ Mobile and shall supersede all other communications,
+    representations, agreements or understandings, either oral or written, with you
+    with respect to the subject matter hereof.
+  annotations: []
+  sentences: []
+- segment_id: 115
+  segment_text: Thank you for choosing NQ Mobile services and your comments and suggestions
+    are always appreciated.
+  annotations: []
+  sentences: []
+- segment_id: 116
+  segment_text: Should you have any questions, please contact us by e-mail at help@nq.com.
+  annotations: []
+  sentences: []
+- segment_id: 117
+  segment_text: Top | EULA NQ MOBILE REFUND POLICY If you have any questions or concerns
+    regarding product activation, upgrade or refund policy, please visit our helpdesk
+    at help.nq.com to chat with us or view FAQs, or email us at helpmeshop@nq.com.
+  annotations: []
+  sentences: []
+- segment_id: 118
+  segment_text: Products NQ Mobile Security NQ Mobile Vault NQ Android Booster NQ
+    Call Blocker Our Products
+  annotations: []
+  sentences: []
+- segment_id: 119
+  segment_text: About Company Information FL Mobile Blog Privacy Contact Us
+  annotations: []
+  sentences: []
+- segment_id: 120
+  segment_text: Investor Relations Corporate Information For Investors News & Events
+  annotations: []
+  sentences: []
+- segment_id: 121
+  segment_text: "Help NQ Help Made in Dallas, Texas Copyright \xA9 2005 - 2016 NQ\
+    \ Mobile"
+  annotations: []
+  sentences: []
+- segment_id: 122
+  segment_text: Your email address is not provided to us.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Your email address is not provided to us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 123
+  segment_text: When using our NQ Family Guardian mobile application we will not collect
+    a user's email address, passwords, display names, age ranges or mobile numbers.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When using our NQ Family Guardian mobile application we will not
+      collect a user's email address, passwords, display names, age ranges or mobile
+      numbers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 124
+  segment_text: We will not acquire information in personal, identifiable modes and
+    don't receive your IP address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will not acquire information in personal, identifiable modes
+      and don't receive your IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 125
+  segment_text: We do not gather name, address, telephone number, as well as the brand
+    name and model of the user's mobile phone.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not gather name, address, telephone number, as well as the
+      brand name and model of the user's mobile phone.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 126
+  segment_text: The products and services we provide do not read private information
+    concerning your phone and your using of the phone, such as SMS, MMS, Email, Contacts,
+    call log, call conversation, location information, the phone number, the IMSI,
+    the IMEI, the ICCID, or the ESN.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMSI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The products and services we provide do not read private information
+      concerning your phone and your using of the phone, such as SMS, MMS, Email,
+      Contacts, call log, call conversation, location information, the phone number,
+      the IMSI, the IMEI, the ICCID, or the ESN.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 127
+  segment_text: NQ Mobile is not accessing your or your child's contacts.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: NQ Mobile is not accessing your or your child's contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 128
+  segment_text: We do not collect your phone number or your UID.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your phone number or your UID.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 129
+  segment_text: We do not use tracing technologies. Thus, we cannot trace the domain
+    names, IP addresses and the type of explorer used by the users who access our
+    websites and use our products or services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use tracing technologies. Thus, we cannot trace the domain
+      names, IP addresses and the type of explorer used by the users who access our
+      websites and use our products or services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 130
+  segment_text: NQ Mobile does not read the device identifier of yours or your child's
+    phone.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: NQ Mobile does not read the device identifier of yours or your
+      child's phone.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 131
+  segment_text: Other third parties do not collect your IP address, which page you
+    are visiting on our site.
+  annotations:
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Other third parties do not collect your IP address, which page
+      you are visiting on our site.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED

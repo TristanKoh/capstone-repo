@@ -1,0 +1,853 @@
+policy_id: 333
+policy_name: Uber
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Skip to main content Uber Rides on demand Install Showing you content
+    for CHANGE LOCATION Ride Drive Cities Help Sign In
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Become a driver Sign In Sign up to ride Become a driver Ride Drive
+    Cities Enter your location Help Business Travel Deliver Food Helping Cities Safety
+    Newsroom Careers
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "Select document Dansk Deutsch English Espa\xF1ol Espa\xF1ol (Espa\xF1\
+    a) Espa\xF1ol (M\xE9xico) Fran\xE7ais Italiano Magyar Nederlands Norsk Polszczyzna\
+    \ Portugu\xEAs (Brasil) Portugu\xEAs (Portugal) Rom\xE2n\u0103 Suomi Svenska Ti\u1EBF\
+    ng Vi\u1EC7t T\xFCrk\xE7e \u010Ce\u0161tina \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\
+    \u03BA\u03AC \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0431\u044A\u043B\u0433\
+    \u0430\u0440\u0441\u043A\u0438 \u05E2\u05D1\u05E8\u05D9\u05EA \u0627\u0644\u0639\
+    \u0631\u0628\u064A\u0629 \u65E5\u672C\u8A9E \u7B80\u4F53\u6C49\u8BED \u7E41\u4F53\
+    \u4E2D\u6587 (\u53F0\u7063) \u7E41\u4F53\u4E2D\u6587 (\u9999\u6E2F) \uD55C\uAD6D\
+    \uC5B4 Legal USER PRIVACY STATEMENT Effective Date: July 15th 2015 Uber collects\
+    \ information about you when you use our mobile applications, websites, and other\
+    \ online products and services (collectively, the \"Services\") and through other\
+    \ interactions and communications you have with us. If you reside in the United\
+    \ States, the Services are provided by Uber USA, LLC and its U.S. affiliates (collectively\
+    \ \"Uber U.S.\"), and this Privacy Statement applies to information collected\
+    \ and used by Uber U.S. If you reside outside of the United States, the Services\
+    \ are provided by Uber B.V., and this Privacy Statement applies to information\
+    \ collected and used by Uber B.V. (Uber U.S. and Uber B.V. are referred to herein\
+    \ collectively as \"Uber\" or \"we\")."
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Scope and Application This Privacy Statement ("Statement") applies
+    to persons anywhere in the world who use our apps or Services to request transportation,
+    delivery, or other on-demand services ("Users"). This Statement does not apply
+    to information we collect from or about drivers, couriers, partner transportation
+    companies, or any other persons who use the Uber platform under license (collectively
+    "Drivers"). If you interact with the Services as both a User and a Driver, the
+    respective privacy statements apply to your different interactions.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Collection of Information Information You Provide to Us We collect
+    information you provide directly to us, such as when you create or modify your
+    account, request on-demand services, contact customer support, or otherwise communicate
+    with us. This information may include: name, email, phone number, postal address,
+    profile picture, payment method, items requested (for delivery services), delivery
+    notes, and other information you choose to provide.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'This information may include: name, email, phone number, postal
+      address, profile picture, payment method, items requested (for delivery services),
+      delivery notes, and other information you choose to provide.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect information you provide directly to us, such as when
+      you create or modify your account, request on-demand services, contact customer
+      support, or otherwise communicate with us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'Information We Collect Through Your Use of Our Services When you
+    use our Services, we collect information about you in the following general categories:
+    Location Information: When you use the Services for transportation or delivery,
+    we collect precise location data about the trip from the Uber app used by the
+    Driver. If you permit the Uber app to access location services through the permission
+    system used by your mobile operating system ("platform"), we may also collect
+    the precise location of your device when the app is running in the foreground
+    or background. We may also derive your approximate location from your IP address.'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you permit the Uber app to access location services through
+      the permission system used by your mobile operating system ("platform"), we
+      may also collect the precise location of your device when the app is running
+      in the foreground or background.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also derive your approximate location from your IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use the Services for transportation or delivery, we collect
+      precise location data about the trip from the Uber app used by the Driver.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 'Contacts Information: If you permit the Uber app to access the address
+    book on your device through the permission system used by your mobile platform,
+    we may access and store names and contact information from your address book to
+    facilitate social interactions through our Services and for other purposes described
+    in this Statement or at the time of consent or collection.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you permit the Uber app to access the address book on your device
+      through the permission system used by your mobile platform, we may access and
+      store names and contact information from your address book to facilitate social
+      interactions through our Services and for other purposes described in this Statement
+      or at the time of consent or collection.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 'Transaction Information: We collect transaction details related to
+    your use of our Services, including the type of service requested, date and time
+    the service was provided, amount charged, distance traveled, and other related
+    transaction details. Additionally, if someone uses your promo code, we may associate
+    your name with that person.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Usage and Preference Information: We collect information about how
+    you and site visitors interact with our Services, preferences expressed, and settings
+    chosen. In some cases we do this through the use of cookies, pixel tags, and similar
+    technologies that create and maintain unique identifiers. To learn more about
+    these technologies, please see our Cookie Statement.'
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In some cases we do this through the use of cookies, pixel tags,
+      and similar technologies that create and maintain unique identifiers.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: To learn more about these technologies, please see our Cookie Statement.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Usage and Preference Information: We collect information about
+      how you and site visitors interact with our Services, preferences expressed,
+      and settings chosen.'
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Device Information: We may collect information about your mobile
+    device, including, for example, the hardware model, operating system and version,
+    software and file names and verions, preferred language, unique device identifier,
+    advertising identifiers, serial number, device motion information, and mobile
+    network information.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect information about your mobile device, including,
+      for example, the hardware model, operating system and version, software and
+      file names and versions, preferred language, unique device identifier, advertising
+      identifiers, serial number, device motion information, and mobile network information.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 'Call and SMS Data : Our Services facilitate communications between
+    Users and Drivers. In connection with facilitating this service, we receive call
+    data, including the date and time of the call or SMS message, the parties'' phone
+    numbers, and the content of the SMS message.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In connection with facilitating this service, we receive call data,
+      including the date and time of the call or SMS message, the parties' phone numbers,
+      and the content of the SMS message.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Services facilitate communications between Users and Drivers.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: 'Log Information: When you interact with the Services, we collect
+    server logs, which may include information like device IP address, access dates
+    and times, app features or pages viewed, app crashes and other system activity,
+    type of browser, and the third-party site or service you were using before interacting
+    with our Services.'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you interact with the Services, we collect server logs, which
+      may include information like device IP address,
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Important Information About Platform Permissions Most mobile platforms
+    (iOS, Android, etc.) have defined certain types of device data that apps cannot
+    access without your consent. And these platforms have different permission systems
+    for obtaining your consent. The iOS platform will alert you the first time the
+    Uber app wants permission to access certain types of data and will let you consent
+    (or not consent) to that request. Android devices will notify you of the permissions
+    that the Uber app seeks before you first use the app, and your use of the app
+    constitutes your consent. To learn about the platform-level permissions that the
+    app seeks, please visit our new iOS Permissions page and Android Permissions page.
+    Sometimes these permissions require more explanation than the platforms themselves
+    provide, and the permissions we request will change over time, so we've created
+    these pages to serve as authoritative and up-to-date resources for our users.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Information We Collect From Other Sources We may also receive information
+    from other sources and combine that with information we collect through our Services.
+    For example: If you choose to link, create, or log in to your Uber account with
+    a payment provider (e.g., Google Wallet) or social media service (e.g., Facebook),
+    or if you engage with a separate app or website that uses our API (or whose API
+    we use), we may receive information about you or your connections from that site
+    or app.'
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to link, create, or log in to your Uber account with
+      a payment provider (e.g., Google Wallet) or social media service (e.g., Facebook),
+      or if you engage with a separate app or website that uses our API (or whose
+      API we use), we may receive information about you or your connections from that
+      site or app.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: If your employer uses one of our enterprise solutions, such as Uber
+    for Business, we may receive information about you from your employer.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: When you request on demand services, our Drivers may provide us with
+    a User rating after providing services to you.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: If you also interact with our Services in another capacity, for instance
+    as a Driver or user of other apps we provide, we may combine or associate that
+    information with information we have collected from you in your capacity as a
+    User or rider.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 'Use of Information We may use the information we collect about you
+    to: Provide, maintain, and improve our Services, including, for example, to facilitate
+    payments, send receipts, provide products and services you request (and send related
+    information), develop new features, provide customer support to Users and Drivers,
+    develop safety features, authenticate users, and send product updates and administrative
+    messages;'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Perform internal operations, including, for example, to prevent fraud
+    and abuse of our Services; to troubleshoot software bugs and operational problems;
+    to conduct data analysis, testing, and research; and to monitor and analyze usage
+    and activity trends;
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Send or facilitate communications (i) between you and a Driver, such
+    as estimated times of arrival (ETAs), or (ii) between you and a contact of yours
+    at your direction in connection with your use of certain features, such as referrals,
+    invites, split fare requests, or ETA sharing;
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Send you communications we think will be of interest to you, including
+    information about products, services, promotions, news, and events of Uber and
+    other companies, where permissible and according to local applicable laws; and
+    to process contest, sweepstake, or other promotion entries and fulfill any related
+    awards;
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Personalize and improve the Services, including to provide or recommend
+    features, content, social connections, referrals, and advertisements.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We may transfer the information described in this Statement to, and
+    process and store it in, the United States and other countries, some of which
+    may have less protective data protection laws than the region in which you reside.
+    Where this is the case, we will take appropriate measures to protect your personal
+    information in accordance with this Statement.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'Sharing of Information We may share the information we collect about
+    you as described in this Statement or as described at the time of collection or
+    sharing, including as follows: Through Our Services We may share your information:
+    With Drivers to enable them to provide the Services you request. For example,
+    we share your name, photo (if you provide one), average User rating given by Drivers,
+    and pickup and/or drop-off locations with Drivers;'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: With other riders if you use a ride-sharing service like UberPOOL;
+    and with other people, as directed by you, such as when you want to share your
+    estimated time of arrival or split a fare with a friend;
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: With third parties to provide you a service you requested through
+    a partnership or promotional offering made by a third party or us;
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: With the general public if you submit content in a public forum, such
+    as blog comments, social media posts, or other features of our Services that are
+    viewable by the general public;
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: With third parties with whom you choose to let us share information,
+    for example other apps or websites that integrate with our API or Services, or
+    those with an API or Service with which we integrate; and
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: With your employer (or similar entity) and any necessary third parties
+    engaged by us or your employer (e.g., an expense management service provider),
+    if you participate in any of our enterprise solutions such as Uber for Business.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 'Other Important Sharing We may share your information: With Uber
+    subsidiaries and affiliated entities that provide services or conduct data processing
+    on our behalf, or for data centralization and / or logistics purposes;'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: With vendors, consultants, marketing partners, and other service providers
+    who need access to such information to carry out work on our behalf;
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: In response to a request for information by a competent authority
+    if we believe disclosure is in accordance with, or is otherwise required by, any
+    applicable law, regulation, or legal process;
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: With law enforcement officials, government authorities, or other third
+    parties if we believe your actions are inconsistent with our User agreements,
+    Terms of Service, or policies, or to protect the rights, property, or safety of
+    Uber or others;
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: In connection with, or during negotiations of, any merger, sale of
+    company assets, consolidation or restructuring, financing, or acquisition of all
+    or a portion of our business by or into another company;
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: If we otherwise notify you and you consent to the sharing; and
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: In an aggregated and/or anonymized form which cannot reasonably be
+    used to identify you.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Social Sharing Features The Services may integrate with social sharing
+    features and other related tools which let you share actions you take on our Services
+    with other apps, sites, or media, and vice versa. Your use of such features enables
+    the sharing of information with your friends or the public, depending on the settings
+    you establish with the social sharing service. Please refer to the privacy policies
+    of those social sharing services for more information about how they handle the
+    data you provide to or share through them.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: Analytics and Advertising Services Provided by Others We may allow
+    others to provide audience measurement and analytics services for us, to serve
+    advertisements on our behalf across the Internet, and to track and report on the
+    performance of those advertisements. These entities may use cookies, web beacons,
+    SDKs, and other technologies to identify your device when you visit our site and
+    use our Services, as well as when you visit other online sites and services. For
+    more information about these technologies and service providers, please refer
+    to our Cookie Statement.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These entities may use cookies, web beacons, SDKs, and other technologies
+      to identify your device when you visit our site and use our Services, as well
+      as when you visit other online sites and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may allow others to provide audience measurement and analytics
+      services for us, to serve advertisements on our behalf across the Internet,
+      and to track and report on the performance of those advertisements.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: Your Choices Account Information You may correct your account information
+    at any time by logging into your online or in-app account. If you wish to cancel
+    your account, please email us at support@uber.com. Please note that in some cases
+    we may retain certain information about you as required by law, or for legitimate
+    business purposes to the extent permitted by law. For instance, if you have a
+    standing credit or debt on your account, or if we believe you have committed fraud
+    or violated our Terms, we may seek to resolve the issue before deleting your information.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Access Rights Uber will comply with individual's requests regarding
+    access, correction, and/or deletion of the personal data it stores in accordance
+    with applicable law.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Location Information We request permission for our app's collection
+    of precise location from your device per the permission system used by your mobile
+    operating system. If you initially permit the collection of this information,
+    you can later disable it by changing the location settings on your mobile device.
+    However, this will limit your ability to use certain features of our Services.
+    Additionally, disabling our app's collection of precise location from your device
+    will not limit our ability to collect your trip location information from a Driver's
+    device nor our ability to derive approximate location from your IP address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, disabling our app's collection of precise location
+      from your device will not limit our ability to collect your trip location information
+      from a Driver's device nor our ability to derive approximate location from your
+      IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: However, this will limit your ability to use certain features of
+      our Services.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: If you initially permit the collection of this information, you
+      can later disable it by changing the location settings on your mobile device.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: We request permission for our app's collection of precise location
+      from your device per the permission system used by your mobile operating system.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: Contact Information We may also seek permission for our app's collection
+    and syncing of contact information from your device per the permission system
+    used by your mobile operating system. If you initially permit the collection of
+    this information, iOS users can later disable it by changing the contacts settings
+    on your mobile device. The Android platform does not provide such a setting.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also seek permission for our app's collection and syncing
+      of contact information from your device per the permission system used by your
+      mobile operating system.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: Promotional Communications You may opt out of receiving promotional
+    messages from us by following the instructions in those messages. If you opt out,
+    we may still send you non-promotional communications, such as those about your
+    account, about Services you have requested, or our ongoing business relations.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Your California Privacy Rights California law permits residents of
+    California to request certain details about how their information is shared with
+    third parties for direct marketing purposes. Uber does not share your personally
+    identifiable information with third parties for the third parties' direct marketing
+    purposes unless you provide us with consent to do so.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: Cookies and Advertising Please refer to our Cookie Statement for more
+    information about your choices around cookies and related technologies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies and Advertising Please refer to our Cookie Statement for
+      more information about your choices around cookies and related technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 45
+  segment_text: Changes to the Statement We may change this Statement from time to
+    time. If we make significant changes in the way we treat your personal information,
+    or to the Statement, we will provide you notice through the Services or by some
+    other means, such as email. Your continued use of the Services after such notice
+    constitutes your consent to the changes. We encourage you to periodically review
+    the Statement for the latest information on our privacy practices.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 'Contact Us If you have any questions about this Privacy Statement,
+    please contact us at privacy@uber.com, or write us at Uber Technologies, Inc.,
+    Attn: Legal,1455 Market Street, Suite 400, San Francisco, CA 94103 (if you reside
+    in the U.S.), or at Uber B.V., Attn: Legal, Vijzelstraat 68-78, 1017 HL Amsterdam,
+    Netherlands (if you do not reside in the U.S.). Terms Privacy Users Drivers (Non-US)
+    Drivers (US) Cookies Candidate Privacy Uber for Business Commercial Community
+    Guidelines Data Requests Deactivation Policy Gift Cards Intellectual Property
+    Policies Other'
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Uber is in 0 cities worldwide City Search Go to Uber.com Sign up to
+    ride Become a driver Enter your location English Help Help Facebook Twitter LinkedIn
+    Instagram Ride Drive Cities Fare Estimate Deliver Food Business Travel How it
+    Works Airports Countries Safety Careers Helping Cities Our Story Newsroom Media
+    Uber API Gift Cards Uber vs Driving Jobs
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: "Top Cities San FranciscoLondonLos AngelesWashington D.C.Mexico CityS\xE3\
+    o Paulo Top Countries USAFranceIndiaSpainMexicoRussia \xA9 2017 Uber Technologies\
+    \ Inc. Privacy Accessibility Terms"
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: Our app won't be engaging in the collection of precise location from
+    your device.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our app won't be engaging in the collection of precise location
+      from your device.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 50
+  segment_text: Our Services facilitate communications between Users and Drivers.
+    In connection with facilitating this service, we do not receive call data, such
+    as the date and time of the call or SMS message, the parties' phone numbers, and
+    the content of the SMS message.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our Services facilitate communications between Users and Drivers.
+      In connection with facilitating this service, we do not receive call data, such
+      as the date and time of the call or SMS message, the parties' phone numbers,
+      and the content of the SMS message.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 51
+  segment_text: We do not collect your name, email, phone number, postal address,
+    profile picture, payment method, items requested (for delivery services), delivery
+    notes, and any other information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your name, email, phone number, postal address,
+      profile picture, payment method, items requested (for delivery services), delivery
+      notes, and any other information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 52
+  segment_text: We may allow others to provide audience measurement and analytics
+    services for us, to serve advertisements on our behalf across the Internet, and
+    to track and report on the performance of those advertisements. However, these
+    entities do not use cookies, web beacons, SDKs, or other technologies to identify
+    your device when you visit our site and use our services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We may allow others to provide audience measurement and analytics
+      services for us, to serve advertisements on our behalf across the Internet,
+      and to track and report on the performance of those advertisements. However,
+      these entities do not use cookies, web beacons, SDKs, or other technologies
+      to identify your device when you visit our site and use our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 53
+  segment_text: We do not derive your approximate location from your IP address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not derive your approximate location from your IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 54
+  segment_text: We are not collecting information about your mobile device, including,
+    for example, the hardware model, operating system and version, software and file
+    names and versions, preferred language, unique device identifier, advertising
+    identifiers, serial number, device motion information, and mobile network information.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We are not collecting information about your mobile device, including,
+      for example, the hardware model, operating system and version, software and
+      file names and versions, preferred language, unique device identifier, advertising
+      identifiers, serial number, device motion information, and mobile network information.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 55
+  segment_text: When you use the Services for transportation or delivery, we do not
+    collect precise location data. We also do not collect the precise location of
+    your device when the app is running in the foreground or background.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you use the Services for transportation or delivery, we do
+      not collect precise location data. We also do not collect the precise location
+      of your device when the app is running in the foreground or background.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 56
+  segment_text: It is not possible to link, create, or log in to your Uber account
+    with a payment provider (e.g., Google Wallet) or social media service (e.g., Facebook).
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: It is not possible to link, create, or log in to your Uber account
+      with a payment provider (e.g., Google Wallet) or social media service (e.g.,
+      Facebook).
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 57
+  segment_text: When you interact with the Services, we do not collect device IP addresses.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you interact with the Services, we do not collect device IP
+      addresses.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 58
+  segment_text: We do not seek permission for our app's collection and syncing of
+    contact information from your device.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not seek permission for our app's collection and syncing
+      of contact information from your device.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED

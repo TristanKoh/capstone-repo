@@ -1,0 +1,175 @@
+policy_id: 127
+policy_name: cc.pacer.androidapp
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: PRIVACY NOTICE Pacer Health's goal is to help users live more active
+    and healthier lives using advanced mobile internet technology. To that end our
+    applications and services collect, store and analyze a variety of personal health
+    related data, both on your mobile device and via cloud-based services. This statement
+    is intended to clearly explain in human readable language what data we collect
+    and how it is used. If after reading this statement you have further questions,
+    please contact us at the email address listed at the end of this document.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If after reading this statement you have further questions, please
+      contact us at the email address listed at the end of this document.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: This statement is intended to clearly explain in human readable
+      language what data we collect and how it is used.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 1
+  segment_text: 'INFORMATION WE COLLECT Our apps and services may collect the following
+    types of information in order to provide services: Profile: year of birth, biological
+    sex, height, step length Activity related data: exercise logs (including location
+    coordinates for GPS-enabled sessions) and background activity data such as steps
+    taken, calories burned, active time and distance traveled Other health-related
+    data: weight logs, blood pressure and BPM readings Social profile: display name,
+    avatar or profile image, group membership and activity'
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Our apps and services may collect the following types of information
+      in order to provide services:'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Our apps and services may collect the following types of information
+      in order to provide services: Profile: year of birth, biological sex, height,
+      step length'
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: exercise logs (including location coordinates for GPS-enabled sessions)
+      and background activity data such as steps taken, calories burned, active time
+      and distance traveled
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: 'Data collected from other sources: If you choose to connect our services
+    with 3rd party services such as social networks or other health apps, we may collect
+    information from these services in order to provide the expected functionality
+    to you. Any information we collect will always be used in compliance with the
+    policies of the relevant 3rd party. This data may include but is not limited to
+    health data collected via other services, as well as basic social network profile
+    information.'
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Data collected from other sources: If you choose to connect our
+      services with 3rd party services such as social networks or other health apps,
+      we may collect information from these services in order to provide the expected
+      functionality to you'
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 'USE OF YOUR DATA Aggregated User Data Research: We may conduct research
+    about our users'' behavior and demographics based on the information provided
+    through the use of our services, for the purposes of improving our services. Such
+    research will only compile user data in an aggregated, de-identified statistics.
+    We may share these statistics with affiliates and business partners. This information
+    will never identify you personally.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Such research will only compile user data in an aggregated, de-identified
+      statistics.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: We may conduct research about our users' behavior and demographics
+      based on the information provided through the use of our services, for the purposes
+      of improving our services.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'App-Usage Data: We use Flurry marketing analytics tools to track
+    in-app behavior anonymously for the purpose of informing future product improvements
+    and creating a better Pacer experience. Examples of in-app behavior include frequency
+    of use, user retention, and in-app page views. App usage data is collected only
+    in aggregate statistics and is never personally identifiable. However, if you
+    would still like to opt-out of allowing us to use Flurry to collect usage behavior,
+    please visit http://www.flurry.com/user-opt-out.html'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'THIRD PARTY AND DISCLOSURE There may be some circumstances in which
+    your data may be shared with certain third parties. These are outlined below:
+    Business transfer: in the event of a sale, merger, dissolution or similar event,
+    data held by us may be part of the transferred business assets.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Service providers: we may hire third parties to help us perform business
+    functions in support of our services. In this event, any third parties will only
+    be provided with the data necessary to perform their specific function, and the
+    use of this data will only be to perform the specific requested function.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: COMMUNICATION If you choose to share contact information with us (such
+    as an email address), we may use this information to send you updates about our
+    services from time to time. If this information is promotional in nature, we will
+    provide an opt-out option.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to share contact information with us (such as an
+      email address), we may use this information to send you updates about our services
+      from time to time.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: SOCIAL SHARING If you choose to use the social features of Pacer,
+    your daily activity data and some profile information such as your display name
+    and avatar may be visible to other users in your groups. By using this feature
+    of our services you consent to sharing this information. You can choose to stop
+    sharing data with other users at any time by (i) leaving the group(s) to which
+    you no longer wish to share or (ii) enabling the "Stop Sharing" function. However,
+    any data which you have already shared may still be visible to other users.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: CHANGES TO THIS POLICY We reserve the right to change our Privacy
+    Policy in the future without prior notice. The services we offer are likely to
+    change, and in the future it is therefore likely that our Privacy Policy will
+    also need to be revised accordingly. Any changes to our privacy policy will be
+    posted here.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: MORE INFORMATION Contact us at support@pacer.cc if you have further
+    questions or concerns about your data.
+  annotations: []
+  sentences: []

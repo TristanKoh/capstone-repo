@@ -1,0 +1,128 @@
+policy_id: 12
+policy_name: CityGames
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy City Games LLC's Privacy Policy is designed to provide
+    clarity about the information we collect and how we use it to provide a better
+    mobile gaming experience. By visiting, accessing or using the http://www.citygamesllc.com
+    website and domain name, and any other linked pages, features, content, or application
+    services offered from time to time by Company in connection therewith, or using
+    any of our services or mobile applications (collectively, the "Services"), you
+    acknowledge that you accept the practices and policies outlined in this Privacy
+    Policy. If you do not agree to the terms and conditions of this Privacy Policy,
+    please do not provide us with any information and do not use the Service.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: '[1] Information We Collect and Use: The Personal Information you
+    provide is used for such purposes as answering questions, improving the content
+    of the Services, customizing the advertising and content you see, and communicating
+    with you about Company''s products and services, including specials and new features.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Personal Information You Provide to Us: We receive and store any
+    information you enter on our Services or provide to us in any other way, including
+    via any third party site or service through which you authorize us to access your
+    information (e.g., Facebook). The types of Personal Information collected in this
+    fashion may include but not limited to, an individual''s name, phone number, credit
+    card or other billing information, email address and home address. This Privacy
+    Policy in no way limits or restricts our collection of aggregate or anonymous
+    information. In this Privacy Policy, we refer to all information collected from
+    or about you, including personal information and non-personal information, as
+    "Your Information." Use of Applications: When you launch any of our applications,
+    we collect information regarding your device type, operating system and version,
+    carrier provider, IP address, Media Access Control (MAC) address, International
+    Equipment Mobile ID (IMEI), whether you are using a point package, the game version,
+    the device''s geo-location, language settings, and unique device ID. In addition,
+    we create a unique user ID to track your use of our Service. This unique user
+    ID is stored in connection with your Account profile information to enable us
+    to move Your Information to a new device at your request. In addition, it may
+    be used to link a character with which you play our games to your username on
+    the Forums. When you play our games, we also collect information about your play
+    and interaction with other users and the Service.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The types of Personal Information collected in this fashion may
+      include but not limited to, an individual's name, phone number, credit card
+      or other billing information, email address and home address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We receive and store any information you enter on our Services
+      or provide to us in any other way, including via any third party site or service
+      through which you authorize us to access your information (e.g., Facebook ).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: When you launch any of our applications, we collect information
+      regarding your device type, operating system and version, carrier provider,
+      IP address, Media Access Control (MAC) address, International Equipment Mobile
+      ID (IMEI), whether you are using a point package, the game version, the device's
+      geo-location, language settings, and unique device ID.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: '[2] Changes to Our Privacy Policy: If we decide to make material
+    changes to our Privacy Policy, we will notify you and other users by placing a
+    notice on citygamesllc.com. We may supplement this process by placing notices
+    in our games. You should periodically check this privacy page for updates.'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: '[3] Contacting Us: If you have any questions or concerns regarding
+    privacy on our Services, please send us a detailed message at support@citygamellc.com.
+    We will make every effort to resolve your concerns.'
+  annotations: []
+  sentences: []

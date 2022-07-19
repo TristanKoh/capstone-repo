@@ -1,0 +1,345 @@
+policy_id: 122
+policy_name: BitMango
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy BitMango Corporation Privacy Policy # Data The following
+    Privacy Policy applies to all games of BitMango as well as all related services.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: We use technologies like cookies (small files stored by your browser),
+    web beacons, or unique device identifiers to anonymously identify your computer
+    or device so we can deliver a better experience. Our systems also log information
+    like your browser, operating system and IP address.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our systems also log information like your browser, operating system
+      and IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use technologies like cookies (small files stored by your browser),
+      web beacons, or unique device identifiers to anonymously identify your computer
+      or device so we can deliver a better experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: We also may collect personally identifiable information that you provide
+    to us, such as your name, address, phone number or email address. With your permission,
+    we may also access other personal information on your device, such as your phone
+    book, calendar or messages, in order to provide services to you. If authorized
+    by you, we may also access profile and other information from social network services
+    like Facebook.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If authorized by you, we may also access profile and other information
+      from social network services like Facebook.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We also may collect personally identifiable information that you
+      provide to us, such as your name, address, phone number or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: With your permission, we may also access other personal information
+      on your device, such as your phone book, calendar or messages, in order to provide
+      services to you.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Our systems are not designed to associate personal information with
+    your activities (such as the pages you view or things you click on or search for).
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We do not knowingly contact or collect personal information from children
+    under 13. If you believe we have inadvertently collected such information, please
+    contact us so we can promptly obtain parental consent or remove the information.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: '# Location To customize our services for you, we and our partners
+    may collect, use, and share precise location data, including the real-time geographic
+    location of your computer or device. This location data is collected anonymously
+    in a form that does not personally identify you and is used only to provide and
+    improve our service. We may obtain your consent on your first use of the service.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To customize our services for you, we and our partners may collect,
+      use, and share precise location data, including the real-time geographic location
+      of your computer or device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: '# Sharing We generally do not share personally identifiable information
+    (such as name, address, email or phone) with other companies unless approved by
+    you.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: '# Ad Tracking Ad companies may use and collect anonymous data about
+    your interests to customize content and advertising here and in other sites and
+    applications. Interest and location data may be linked to your device, but is
+    not linked to your identity. Click to see company privacy policies and opt-out
+    choices: - Apple: http://www.apple.com/privacy/ - Google: https://www.google.com/intl/en/policies/privacy/
+    - Tapjoy: http://info.tapjoy.com/about-tapjoy/privacy-policy/?lang=ko - Chartboost:
+    https://help.chartboost.com/legal/privacy # Vendors Analytics companies may access
+    anonymous data (such as your IP address or device ID) to help us understand how
+    our services are used. They use this data solely on our behalf. They do not share
+    it except in aggregate form; no data is shared as to any individual user. Click
+    to see company privacy policies that govern their use of data.'
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytics companies may access anonymous data (such as your IP
+      address or device ID) to help us understand how our services are used.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Interest and location data may be linked to your device, but is
+      not linked to your identity.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: '# Security We take reasonable steps to secure your personally identifiable
+    information against unauthorized access or disclosure. We encrypt transmission
+    of data on pages where you provide payment information. However, no security or
+    encryption method can be guaranteed to protect information from hackers or human
+    error.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Information we collect may be stored or processed on computers located
+    in any country where we do business.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: '# Special To operate the service, we also may make identifiable and
+    anonymous information available to third parties in these limited circumstances:
+    (1) with your express consent, (2) when we have a good faith belief it is required
+    by law, (3) when we have a good faith belief it is necessary to protect our rights
+    or property, or (4) to any successor or purchaser in a merger, acquisition, liquidation,
+    dissolution or sale of assets. Your consent will not be required for disclosure
+    in these cases, but we will attempt to notify you, to the extent permitted by
+    law to do so.'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: '# More Our privacy policy may change from time to time. When we do,
+    we will revise the "last updated" date at the bottom of the privacy statement.
+    We will obtain your opt-in consent for any updates to this Privacy Policy that
+    materially expand the sharing or use of your personal information in ways not
+    disclosed in this Privacy Policy at the time of collection.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '# Contact If you have any questions or concerns about our privacy
+    policies, please contact us: - Email: contact@bitmango.com - Address: 5th Floor,
+    Uniquest Building, 314, Hwangsaeul-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Korea,
+    13591'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Our systems also does not log information like your browser, operating
+    system and IP address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our systems also does not log information like your browser, operating
+      system and IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 14
+  segment_text: We may also not access profile and other information from social network
+    services like Facebook.
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We may also not access profile and other information from social
+      network services like Facebook.
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 15
+  segment_text: We do not use technologies like cookies (small files stored by your
+    browser), SDKs, web beacons, or unique device identifiers.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use technologies like cookies (small files stored by
+      your browser), SDKs, web beacons, or unique device identifiers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 16
+  segment_text: Interest and location data aren't linked to your device nor to your
+    identity.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Interest and location data aren't linked to your device nor to
+      your identity.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 17
+  segment_text: You will never provide personally identifiable information, such as
+    your name, address, phone number or email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: You will never provide personally identifiable information, such
+      as your name, address, phone number or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 18
+  segment_text: To customize our services for you it is not necessary that we and
+    our partners collect, use, and share precise location data, including the real-time
+    geographic location of your computer or device.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: To customize our services for you it is not necessary that we and
+      our partners collect, use, and share precise location data, including the real-time
+      geographic location of your computer or device.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 19
+  segment_text: Analytics companies don't access anonymous data (such as your IP address
+    or device ID).
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Analytics companies don't access anonymous data (such as your IP
+      address or device ID).
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED

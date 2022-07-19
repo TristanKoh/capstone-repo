@@ -1,0 +1,427 @@
+policy_id: 288
+policy_name: One97Communications
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Home Electricity Electronics Men's Fashion Women's Fashion Movies
+    Car & Bikes Baby, Kids & Toys Home & Kitchen Sports Automotive Education Gifts
+    Books Stationery
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Menu Skip to content Privacy Policy Privacy Policy About Us Awards
+    Partner with us Terms & Conditions Privacy Policy Blog Recharge Partners Help
+    & Support Grievance Policy Wallet Charges/Validity
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We One97 Communications Ltd., are registered at 1st Floor Devika Tower,
+    Nehru Place New Delhi - 110019 and headquartered at B-121, Sector-5, Noida - 201301,
+    hereinafter referred to as Paytm. At Paytm, we value your trust & respect your
+    privacy. This Privacy Policy provides you with details about the manner in which
+    your data is collected, stored & used by us. You are advised to read this Privacy
+    Policy carefully. By visiting Paytm's website/WAP site/applications you expressly
+    give us consent to use & disclose your personal information in accordance with
+    this Privacy Policy. If you do not agree to the terms of the policy, please do
+    not use or access Paytm website, WAP site or mobile applications.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Note: Our privacy policy may change at any time without prior notification.
+    To make sure that you are aware of any changes, kindly review the policy periodically.
+    This Privacy Policy shall apply uniformly to Paytm desktop website, Paytm mobile
+    WAP site & Paytm mobile applications'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: General We will not sell, share or rent your personal information
+    to any 3rd party or use your email address/mobile number for unsolicited emails
+    and/or SMS. Any emails and/or SMS sent by Paytm will only be in connection with
+    the provision of agreed services & products and this Privacy Policy.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Any emails and/or SMS sent by Paytm will only be in connection
+      with the provision of agreed services & products and this Privacy Policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Periodically, we may reveal general statistical information about
+    Paytm & its users, such as number of visitors, number and type of goods and services
+    purchased, etc.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We reserve the right to communicate your personal information to any
+    third party that makes a legally-compliant request for its disclosure.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Personal Information Personal Information means and includes all information
+    that can be linked to a specific individual or to identify any individual, such
+    as name, address, mailing address, telephone number, email ID, credit card number,
+    cardholder name, card expiration date, information about your mobile phone, DTH
+    service, data card, electricity connection, Smart Tags and any details that may
+    have been voluntarily provide by the user in connection with availing any of the
+    services on Paytm
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Personal Information Personal Information means and includes all
+      information that can be linked to a specific individual or to identify any individual,
+      such as name, address, mailing address, telephone number, email ID, credit card
+      number, cardholder name, card expiration date, information about your mobile
+      phone, DTH service, data card, electricity connection, Smart Tags and any details
+      that may have been voluntarily provide by the user in connection with availing
+      any of the services on Paytm
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: When you browse through Paytm, we may collect information regarding
+    the domain and host from which you access the internet, the Internet Protocol
+    [IP] address of the computer or Internet service provider [ISP] you are using,
+    and anonymous site statistical data.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you browse through Paytm, we may collect information regarding
+      the domain and host from which you access the internet, the Internet Protocol
+      [IP] address of the computer or Internet service provider [ISP] you are using,
+      and anonymous site statistical data.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Use of Personal Information We use personal information to provide
+    you with services & products you explicitly requested for, to resolve disputes,
+    troubleshoot concerns, help promote safe services, collect money, measure consumer
+    interest in our services, inform you about offers, products, services, updates,
+    customize your experience, detect & protect us against error, fraud and other
+    criminal activity, enforce our terms and conditions, etc.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We also use your contact information to send you offers based on your
+    previous orders and interests.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also use your contact information to send you offers based on
+      your previous orders and interests.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: We may occasionally ask you to complete optional online surveys. These
+    surveys may ask you for contact information and demographic information (like
+    zip code, age, gender, etc.). We use this data to customize your experience at
+    Paytm, providing you with content that we think you might be interested in and
+    to display content according to your preferences.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These surveys may ask you for contact information and demographic
+      information (like zip code, age, gender, etc.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: We may occasionally ask you to complete optional online surveys.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Cookies A "cookie" is a small piece of information stored by a web
+    server on a web browser so it can be later read back from that browser. Paytm
+    uses cookie and tracking technology depending on the features offered. No personal
+    information will be collected via cookies and other tracking technology; however,
+    if you previously provided personally identifiable information, cookies may be
+    tied to such information. Aggregate cookie and tracking information may be shared
+    with third parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Aggregate cookie and tracking information may be shared with third
+      parties.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies A "cookie" is a small piece of information stored by a
+      web server on a web browser so it can be later read back from that browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: No personal information will be collected via cookies and other
+      tracking technology; however, if you previously provided personally identifiable
+      information, cookies may be tied to such information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Paytm uses cookie and tracking technology depending on the features
+      offered.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Links to Other Sites Our site links to other websites that may collect
+    personally identifiable information about you. Paytm is not responsible for the
+    privacy practices or the content of those linked websites.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Security Paytm has stringent security measures in place to protect
+    the loss, misuse, and alteration of the information under our control. Whenever
+    you change or access your account information, we offer the use of a secure server.
+    Once your information is in our possession we adhere to strict security guidelines,
+    protecting it against unauthorized access.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Consent By using Paytm and/or by providing your information, you consent
+    to the collection and use of the information you disclose on Paytm in accordance
+    with this Privacy Policy, including but not limited to your consent for sharing
+    your information as per this privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'The name and contact details of the Grievance Officer are provided
+    below: Mr. Mahesh Sharma One97 Communications Ltd B-121, Sector-5, Noida - 201301
+    Email:Grievanceofficer@paytm.com Time: Mon - Sat (9:00 am - 6:00 pm) About Us
+    Partner with us Terms and Conditions Blog Press Customer service Grievence policy
+    Bug bounty Paytm Wallet is issued by One97 Communications Ltd. SellerBecome a
+    Seller WalletPayment Services DISCLAIMER'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Please do not share your Paytm Wallet password, Credit/Debit card
+    pin, other confidential information with anyone even if he/she claims to be from
+    Paytm. We advise our customers to completely ignore such communications & report
+    to us at cybercell@paytm.com. read more
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Mobile Recharge Vodafone Recharge Online|Airtel Recharge Online|Aircel
+    Recharge Online|Idea Recharge Online|BSNL Recharge Online|Reliance GSM Recharge
+    Online|MTS Recharge Online|MTNL Recharge Online|Tata Docomo GSM Recharge Online|Uninor/Telenor
+    Recharge Online
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: DTH Recharge Airtel DTH Recharge|Videocon DTH Recharge|Dish TV Recharge|Tata
+    Sky Recharge|Reliance DTH Recharge|Sundirect Recharge
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Datacard Recharge BSNL Datacard Recharge|Reliance Netconnect Datacard
+    Recharge|Tata Photon+ Datacard Recharge|Tata Photon Whiz Datacard Recharge|MTS
+    Mbrowse Datacard Recharge|MTS Mblaze Datacard Recharge|MTNL Datacard Recharge|Airtel
+    Datacard Recharge|Vodafone Datacard Recharge|Aircel Datacard Recharge
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Landline Bill Payment Airtel Landline Bill Payment|Connect Broadband
+    Landline Bill Payment|MTS Landline Bill Payment|Reliance Landline Bill Payment
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Datacard Bill Payment Reliance Netconnect Datacard Bill Payment|Tata
+    Photon+ Datacard Bill Payment|Tata Photon Whiz Datacard Bill Payment|Airtel Datacard
+    Bill Payment|BSNL Datacard Bill Payment|MTNL Datacard Bill Payment|MTS MBlaze
+    Datacard Bill Payment|MTS MBrowse Datacard Bill Payment|Vodafone Datacard Bill
+    Payment
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Electricity Bill Payment UHBVN Bill Pay|BESCOM Electricity Bill Payment|BSES
+    Rajdhani Bill Payment|CESC Electricity Bill Payment|NPCL Bill Payment|North Bihar
+    Power Distribution Bill Payment|SNDL Nagpur Bill Payment|TATA Power DDL Bill Payment|Torrent
+    Power Limited Bill Payment|Uttar Pradesh Power Corporation Ltd. Bill Payment|South
+    Bihar Power Distribution Bill Payment
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Mobile Bill Payment Airtel Bill Payment|BSNL Bill Payment|Idea Bill
+    Payment|Vodafone Bill Payment|Tata Docomo GSM Bill Payment|Tata Docomo CDMA Bill
+    Payment|Reliance CDMA Bill Payment|Reliance GSM Bill Payment|MTS Bill Payment
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Gas Bill Payment Mahanagar Gas Bill Payment|Adani Gas Limited Bill
+    Payment|Siti Energy Ltd Gas Bill Payment
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Metro Card Recharge Delhi Metro Card Recharge|Mumbai Metro Card Recharge
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Water Bill Payment Delhi Jal Board (DJB) Water Bill Payment|Aurangabad
+    Water Bill Payment
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Insurance Premium Payment ICICI Prudential Life Insurance Premium
+    Payment|SBI General Insurance Limited Premium Payment|Reliance Life Insurance
+    Premium Payment|TATA AIA Life Insurance Premium Payment|Reliance General Insurance
+    Premium Payment|Religare Health Insurance Premium Payment|IndiaFirst Life Insurance
+    Premium Payment
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Amusement Park Tickets Water Parks in Delhi|Water Parks in Pune|Theme
+    Parks in Mumbai|Theme Parks in Chennai|Water Parks in Lucknow
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Book Hotels Nainital Hotels|Shimla Hotels|Kodaikanal Hotels|Coorg
+    Hotels|Mumbai Hotels|Pune Hotels|Goa Hotels|Hyderabad Hotels|Delhi Hotels|Jaipur
+    Hotels|Mussoorie Hotels|Srinagar Hotels
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Book Movie Tickets Movies in Hyderabad|Movies in Chandigarh|Movies
+    in Chennai|Movies in Pune|Movies in Ahmedabad|Movies in Kolkata|Movies in Vijayawada|Movies
+    in Delhi|Movies in Vizag|Movies in Madurai|Movies in Thrissur
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: Book Bus Tickets Chennai to Bangalore Bus|Hyderabad to Bangalore Bus|Bangalore
+    to Hyderabad Bus|Bangalore to Chennai Bus|Mumbai to Pune Bus|Pune to Shirdi Bus|Hyderabad
+    to Goa Bus|Mumbai to Hyderabad Bus|Pune to Indore Bus|Indore to Bhopal Bus|Chennai
+    to Coimbatore Bus|Chennai to Hyderabad Bus
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Special Offers Shopping Offers|Travel Offers|Hotel Booking Offers|Bus
+    Ticket Offers|Flight Offers|Recharge Offers|Movie Ticket Offers
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: When you browse through Paytm, we never collect information regarding
+    the domain and host from which you access the internet, or the Internet Protocol
+    [IP] address of the computer or Internet service provider [ISP] you are using.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you browse through Paytm, we never collect information regarding
+      the domain and host from which you access the internet, or the Internet Protocol
+      [IP] address of the computer or Internet service provider [ISP] you are using.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 35
+  segment_text: We may occasionally ask you to complete optional online surveys. These
+    surveys will not gather your contact information and demographic information (like
+    zip code, age, gender, etc.).
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We may occasionally ask you to complete optional online surveys.
+      These surveys will not gather your contact information and demographic information
+      (like zip code, age, gender, etc.).
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 36
+  segment_text: We do not communicate your personal information to any third party
+    sponsor. Personal Information means and includes all information that can be linked
+    to a specific individual or to identify any individual, such as name, address,
+    mailing address, telephone number, email ID, credit card number, cardholder name,
+    card expiration date, information about your mobile phone, DTH service, data card,
+    electricity connection, Smart Tags and any details that may have been voluntarily
+    provide by the user in connection with availing any of the services on Paytm
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not communicate your personal information to any third party
+      sponsor. Personal Information means and includes all information that can be
+      linked to a specific individual or to identify any individual, such as name,
+      address, mailing address, telephone number, email ID, credit card number, cardholder
+      name, card expiration date, information about your mobile phone, DTH service,
+      data card, electricity connection, Smart Tags and any details that may have
+      been voluntarily provide by the user in connection with availing any of the
+      services on Paytm
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED

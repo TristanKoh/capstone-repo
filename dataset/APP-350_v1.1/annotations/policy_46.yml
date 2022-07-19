@@ -1,0 +1,1252 @@
+policy_id: 46
+policy_name: Flipagram
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home Explore Music Login Home Explore Music Log In Get the App
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Cancel Terms of Use Agreement and Privacy Policy Terms of Use Agreement
+    Welcome to Flipagram, Inc., the provider of the Flipagram website and application
+    ("Flipagram," "we," or "us"). This page explains the terms by which you may use
+    our website, application software and service through your browser or mobile device
+    (collectively our "App"). By downloading, accessing or using the App, you signify
+    that you have read, understood, and agree to be bound by this Terms of Use Agreement
+    ("Agreement") and to the collection and use of your information as set forth in
+    the Flipagram Privacy Policy. Flipagram reserves the right to make unilateral
+    modifications to these terms. This Agreement applies to all visitors, users, and
+    others who download, access or use the App ("Users").
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: PLEASE READ THIS AGREEMENT CAREFULLY TO ENSURE THAT YOU UNDERSTAND
+    EACH PROVISION. THIS AGREEMENT CONTAINS A MANDATORY ARBITRATION OF DISPUTES PROVISION.
+    YOU AGREE THAT DISPUTES BETWEEN YOU AND FLIPAGRAM WILL BE RESOLVED BY BINDING,
+    INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION
+    LAWSUIT OR CLASS-WIDE ARBITRATION. Use of Our App User Content User Content License
+    Grant Flipagram Mobile Software Our Proprietary Rights Privacy Security Reporting
+    Copyright and Other IP Violations Third-Party Links Indemnity No Warranty Limitation
+    of Liability Governing Law, Arbitration, and Class Action/Jury Trial Waiver General
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1. Use of Our App Flipagram provides an App for you to create personal
+    video stories by sequencing your photos or other images, and if you choose, to
+    add music, narration, or other sound to accompany your story ("Flipagram Video").
+    Eligibility
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: You may use the App only if you can form a binding contract with Flipagram,
+    and only in compliance with this Agreement and all applicable local, state, national,
+    and international laws, rules and regulations. Any use or access to the App by
+    anyone under 13 is strictly prohibited and in violation of this Agreement. The
+    App is not available to any Users previously removed from the App by Flipagram.
+    Flipagram App
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Subject to the terms and conditions of this Agreement, you are hereby
+    granted a non-exclusive, limited, non-transferable, freely revocable license to
+    use the App for your personal, private, noncommercial use, and only in accordance
+    with the features of the App as it is marketed by Flipagram. Flipagram reserves
+    all rights not expressly granted herein in the App and the Flipagram IP (as defined
+    below). Flipagram may terminate this license at any time for any reason or no
+    reason. Commercial Use
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: You may not use the Flipagram App for commercial purposes unless you
+    are the copyright holder or you have obtained all necessary rights and licenses
+    to use for commercial purposes all images, musical works, sound recording, narration,
+    and other material that make up your User Content. Flipagram Accounts
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Your Flipagram account gives you access to the App and functionality
+    that we may establish and maintain from time to time and in our sole discretion.
+    By connecting to Flipagram with a third-party service, you give us permission
+    to access and use your information from that service as permitted by that service,
+    and to store your log-in credentials for that service.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: You may never use another User's account without permission. When
+    creating your account, you must provide accurate and complete information. You
+    are solely responsible for the activity that occurs on your account, and you must
+    keep your account password secure. We encourage you to use "strong" passwords
+    (passwords that use a combination of upper and lower case letters, numbers and
+    symbols) with your account. You must notify Flipagram immediately of any breach
+    of security or unauthorized use of your account. Flipagram will not be liable
+    for any losses caused by any unauthorized use of your account.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: You may control your User profile and how you interact with the App
+    by changing the settings in the mobile app. By providing Flipagram your email
+    address you consent to our using the email address to send you App-related notices,
+    including any notices required by law, in lieu of communication by postal mail.
+    We may also use your email address to send you other messages, such as changes
+    to features of the App and special offers. Usage Rules
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By providing Flipagram your email address you consent to our using
+      the email address to send you App-related notices, including any notices required
+      by law, in lieu of communication by postal mail.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Usage Rules
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also use your email address to send you other messages,
+      such as changes to features of the App and special offers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You may control your User profile and how you interact with the
+      App by changing the settings in the mobile app.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 'You agree not to engage in any of the following prohibited activities:
+    (i) copying, distributing, or disclosing any part of the App in any medium, including
+    without limitation by any automated or non-automated "scraping"; (ii) using any
+    automated system, including without limitation "robots," "spiders," "offline readers,"
+    etc., to access the App in a manner that sends more request messages to the Flipagram
+    servers than a human can reasonably produce in the same period of time by using
+    a conventional on-line web browser; (iii) transmitting spam, chain letters, or
+    other unsolicited email; (iv) attempting to interfere with, compromise the system
+    integrity or security or decipher any transmissions to or from the servers running
+    the App; (v) taking any action that imposes, or may impose at our sole discretion
+    an unreasonable or disproportionately large load on our infrastructure; (vi) uploading
+    invalid data, viruses, worms, or other software agents through the App; (vii)
+    collecting or harvesting any personally identifiable information, including account
+    names, from the App; (viii) using the App for any commercial purposes without
+    having all necessary rights and licenses to the User Content; (ix) impersonating
+    another person or otherwise misrepresenting your affiliation with a person or
+    entity, conducting fraud, hiding or attempting to hide your identity; (x) interfering
+    with the proper working of the App; (xi) accessing any content on the App through
+    any technology or means other than those capabilities provided by the App; or
+    (xii) bypassing the measures we may use to prevent or restrict access to the App,
+    including without limitation features that prevent or restrict use or copying
+    of any content or enforce limitations on use of the App or the content therein.'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: We may, without prior notice, change the App, stop providing the App
+    or features of the App, to you or to Users generally, or create usage limits for
+    the App. We may permanently or temporarily terminate or suspend your access to
+    the App, or delete any User Content (as defined below), without notice and liability
+    for any reason, including if in our sole determination you violate any provision
+    of this Agreement, or for no reason. Upon termination for any reason or no reason,
+    you continue to be bound by this Agreement.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: You are solely responsible for your conduct and any data, text, files,
+    information, images, photos, audio and video clips, sound recordings, musical
+    works, narration, works of authorship, links and other content or materials that
+    you submit, post or display on or via our App. Flipagram shall have no liability
+    for conduct in relation to your use of our App.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 2. User Content Some areas of the App provide Users the capability
+    to create, share and post content such as profile information, photographs, videos,
+    images, musical works, sound recording, narration, text and other material used
+    to create a Flipagram Video, comments, questions, and other material or information
+    (any such materials a User provides, shares, submits, displays, or otherwise creates
+    using the App, including the Flipagram Video created by the User, are "User Content").
+    We claim no ownership rights over User Content created by you. Flipagram has the
+    right (but not the obligation) in its sole discretion to remove any User Content
+    that is stored via the App.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'You agree not to post, store, transmit, create or share any User
+    Content that: (i) may create a risk of harm, loss, physical or mental injury,
+    emotional distress, death, disability, disfigurement, or physical or mental illness
+    to you, to any other person, or to any animal; (ii) may create a risk of any other
+    loss or damage to any person or property; (iii) seeks to harm or exploit children
+    by exposing them to inappropriate content, asking for personally identifiable
+    details or otherwise; (iv) may constitute or contribute to a crime or tort; (v)
+    contains any information or content that we deem to be unlawful, harmful, abusive,
+    racially or ethnically offensive, defamatory, infringing, invasive of personal
+    privacy or publicity rights, harassing, humiliating to other people (publicly
+    or otherwise), libelous, threatening, profane, or otherwise objectionable; (vi)
+    contains any information or content that is illegal (including, without limitation,
+    the disclosure of insider information under securities law or of another party''s
+    trade secrets); or (vii) contains any information or content that you do not have
+    a right to make available under any law or under contractual or fiduciary relationships.
+    You agree that any User Content that you create, store, or share does not and
+    will not violate third-party rights of any kind, including without limitation
+    any Intellectual Property Rights (as defined below) or rights of privacy. Flipagram
+    reserves the right, but is not obligated, to reject and/or remove any User Content
+    that Flipagram believes, in its sole discretion, violates these provisions.'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: For the purposes of this Agreement, "Intellectual Property Rights"
+    means all patent rights, copyright rights, mask work rights, moral rights, rights
+    of publicity, trademark, trade dress and service mark rights, goodwill, trade
+    secret rights and other intellectual property rights as may now exist or hereafter
+    come into existence, and all applications therefore and registrations, renewals
+    and extensions thereof, under the laws of any state, country, territory or other
+    jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'In connection with your User Content, you affirm, represent and warrant
+    the following: Your User Content and your use thereof as contemplated by this
+    Agreement and the App will not violate any law or infringe any rights of any third
+    party, including but not limited to any Intellectual Property Rights or privacy
+    rights. To the extent that you use our App for any commercial purpose and your
+    User Content contains any copyrighted material that is not your original work
+    or in which you do not otherwise own the copyright, you have obtained all rights,
+    licenses, consents, and permissions necessary in order to use that copyrighted
+    material in connection with the creation and/or dissemination of that User Content
+    using the App. Flipagram may exercise the rights to your User Content granted
+    under this Agreement without liability for payment of any guild fees, residuals,
+    payments, fees, or royalties payable under any collective bargaining agreement
+    or otherwise.'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Flipagram takes no responsibility and assumes no liability for any
+    User Content that you or any other User or third party creates, stores, shares,
+    posts or sends through the App. You shall be solely responsible for your User
+    Content and the consequences of posting, publishing it, or sharing it and you
+    agree that we are only acting as a passive conduit for your online distribution
+    and publication of your User Content. If your Content violates these Terms of
+    Use, you may bear legal responsibility for that content.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: '3. User Content License Grant If you share your User Content with
+    Flipagram or link your User Content to Flipagram on a third party service (including,
+    for example, by using the tag #Flipagram on Instagram or tagging Flipagram on
+    Facebook), you expressly grant, and you represent and warrant that you have all
+    rights necessary to grant, to Flipagram a royalty-free, sublicensable, transferable,
+    perpetual, irrevocable, non-exclusive, worldwide license to use, reproduce, modify,
+    publish, list information regarding, edit, translate, distribute, syndicate, publicly
+    perform, publicly display, and make derivative works of all such User Content
+    and your name, voice, and/or likeness as contained in your User Content, in whole
+    or in part, and in any form, media or technology, whether now known or hereafter
+    developed, for use in connection with the App and Flipagram''s (and its successors''
+    and affiliates'') business, including without limitation for promoting and redistributing
+    part or all of our App (and derivative works thereof) in any media formats and
+    through any media channels.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 4. Flipagram About. The App provides you the ability to create personal
+    video stories by sequencing your photos or other images, and if you choose, to
+    accompany them with your music, narration, or other sounds. The App may also provide
+    the capability for third parties to offer you music or audio clips to use in your
+    creation of User Content. You continue to own all of your original User Content
+    in any Flipagram video created by you. However, you do not own any music, audio
+    clips, video, or other content provided by third parties via the App, including
+    any such content that you include in a Flipagram video, and you may only use such
+    content for private noncommercial purposes and to the extent of the functionality
+    of the App.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Sharing Flipagram Videos and User Content. You can share your Flipagram
+    Videos and other User Content with others via email, SMS text messages, or third-party
+    services such as Instagram, Facebook, YouTube, and Twitter. Flipagram has no control
+    over third-party sites and services. If you choose to share your Flipagram video
+    on a third-party site or service, you do so at your own risk, and you understand
+    that this Agreement and Flipagram's Privacy Policy do not apply to your use of
+    such sites. You are solely responsible for your Flipagram videos and any sharing
+    of the videos by you or through your account. You are responsible for ensuring
+    that you have all Intellectual Property Rights for any User Content that you create
+    via the Flipagram App for commercial use. You agree that Flipagram shall not be
+    liable for any violation of any laws or rights of third parties, including without
+    limitation Intellectual Property Rights, rights of privacy, and rights of publicity,
+    arising from or related to your creation or use of any User Content, and you agree
+    to defend, indemnify, and hold harmless Flipagram from any and all liability arising
+    from your access to or creation, use, or sharing of any User Content.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: '5. Mobile Software Mobile Software. We may make available software
+    to access the App via a mobile device ("Mobile Software"). To use the Mobile Software
+    you must have a mobile device that is compatible with the Mobile Software. Flipagram
+    does not warrant that the Mobile Software will be compatible with your mobile
+    device. Flipagram hereby grants you a non-exclusive, non-transferable, revocable
+    license to use a compiled code copy of the Mobile Software for one Flipagram account
+    on one mobile device owned or leased solely by you, for your personal use. You
+    may not: (i) modify, disassemble, decompile or reverse engineer the Mobile Software,
+    except to the extent that such restriction is expressly prohibited by law; (ii)
+    rent, lease, loan, resell, sublicense, distribute or otherwise transfer the Mobile
+    Software to any third party or use the Mobile Software to provide time sharing
+    or similar services for any third party; (iii) make any copies of the Mobile Software;
+    (iv) remove, circumvent, disable, damage or otherwise interfere with security-related
+    features of the Mobile Software, features that prevent or restrict use or copying
+    of any content accessible through the Mobile Software, or features that enforce
+    limitations on use of the Mobile Software; or (v) delete the copyright and other
+    proprietary rights notices on the Mobile Software. You acknowledge that Flipagram
+    may from time to time issue upgraded versions of the Mobile Software, and may
+    automatically electronically upgrade the version of the Mobile Software that you
+    are using on your mobile device. You consent to such automatic upgrading on your
+    mobile device, and agree that the terms and conditions of this Agreement will
+    apply to all such upgrades. Any third-party code that may be incorporated in the
+    Mobile Software is covered by the applicable open source or third-party license
+    EULA, if any, authorizing use of such code. The foregoing license grant is not
+    a sale of the Mobile Software or any copy thereof, and Flipagram or its third
+    party partners or suppliers retain all right, title, and interest in the Mobile
+    Software (and any copy thereof). Any attempt by you to transfer any of the rights,
+    duties or obligations hereunder, except as expressly provided for in this Agreement,
+    is void. Flipagram reserves all rights not expressly granted under this Agreement.
+    If the Mobile Software is being acquired on behalf of the United States Government,
+    then the following provision applies. Use, duplication, or disclosure of the Mobile
+    Software by the U.S. Government is subject to restrictions set forth in this Agreement
+    and as provided in DFARS 227.7202-1(a) and 227.7202-3(a) (1995), DFARS 252.227-7013(c)(1)(ii)
+    (OCT 1988), FAR 12.212(a) (1995), FAR 52.227-19, or FAR 52.227-14 (ALT III), as
+    applicable. The Mobile Software originates in the United States, and is subject
+    to United States export laws and regulations. The Mobile Software may not be exported
+    or re-exported to certain countries or those persons or entities prohibited from
+    receiving exports from the United States. In addition, the Mobile Software may
+    be subject to the import and export laws of other countries. You agree to comply
+    with all United States and foreign laws related to use of the Mobile Software
+    and the Flipagram App.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 'Mobile Software from iTunes. The following applies to any Mobile
+    Software you acquire from the iTunes Store ("iTunes-Sourced Software"): You acknowledge
+    and agree that this Agreement is solely between you and Flipagram, not Apple,
+    and that Apple has no responsibility for the iTunes-Sourced Software or content
+    thereof. Your use of the iTunes-Sourced Software must comply with the App Store
+    Terms of Service. You acknowledge that Apple has no obligation whatsoever to furnish
+    any maintenance and support services with respect to the iTunes-Sourced Software.
+    In the event of any failure of the iTunes-Sourced Software to conform to any applicable
+    warranty, you may notify Apple, and Apple will refund the purchase price for the
+    iTunes-Sourced Software to you; to the maximum extent permitted by applicable
+    law, Apple will have no other warranty obligation whatsoever with respect to the
+    iTunes-Sourced Software, and any other claims, losses, liabilities, damages, costs
+    or expenses attributable to any failure to conform to any warranty will be solely
+    governed by this Agreement and any law applicable to Flipagram as provider of
+    the software. You acknowledge that Apple is not responsible for addressing any
+    claims of you or any third party relating to the iTunes-Sourced Software or your
+    possession and/or use of the iTunes-Sourced Software, including, but not limited
+    to: (i) product liability claims; (ii) any claim that the iTunes-Sourced Software
+    fails to conform to any applicable legal or regulatory requirement; and (iii)
+    claims arising under consumer protection or similar legislation; and all such
+    claims are governed solely by this Agreement and any law applicable to Flipagram
+    as provider of the software. You acknowledge that, in the event of any third party
+    claim that the iTunes-Sourced Software or your possession and use of that iTunes-Sourced
+    Software infringes that third party''s intellectual property rights, Flipagram,
+    not Apple, will be solely responsible for the investigation, defense, settlement
+    and discharge of any such intellectual property infringement claim to the extent
+    required by this Agreement. You and Flipagram acknowledge and agree that Apple,
+    and Apple''s subsidiaries, are third party beneficiaries of this Agreement as
+    relates to your license of the iTunes-Sourced Software, and that, upon your acceptance
+    of the terms and conditions of this Agreement, Apple will have the right (and
+    will be deemed to have accepted the right) to enforce this Agreement as relates
+    to your license of the iTunes-Sourced Software against you as a third party beneficiary
+    thereof.'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 6. Our Proprietary Rights The App contains material owned or licensed
+    by Flipagram ("Flipagram IP"). Flipagram IP may be protected by copyright, trademark,
+    patent, trade secret and other laws, and as between you and Flipagram, Flipagram
+    owns and retains all rights in the Flipagram IP. You will not remove, alter, or
+    conceal any copyright, trademark, service mark, or other proprietary rights notices
+    incorporated in or accompanying the App and you will not reproduce, modify, adapt,
+    prepare derivative works based on, perform, display, publish, distribute, transmit,
+    broadcast, sell, license or otherwise exploit the App. The Flipagram name and
+    logo are trademarks of Flipagram, and may not be copied, imitated or used, in
+    whole or in part, without the prior written permission of Flipagram. In addition,
+    all page headers, custom graphics, button icons and scripts are service marks,
+    trademarks and/or trade dress of Flipagram, and may not be copied, imitated or
+    used, in whole or in part, without prior written permission from Flipagram. You
+    may choose to or we may invite you to submit comments or ideas about the App,
+    including without limitation about how to improve the App or our products ("Ideas").
+    By submitting any Idea, you agree that your disclosure is gratuitous, unsolicited
+    and without restriction and will not place Flipagram under any fiduciary or other
+    obligation, and that we are free to use the Idea without any additional compensation
+    to you, and/or to disclose the Idea on a non-confidential basis or otherwise to
+    anyone. You further acknowledge that, by acceptance of your submission, Flipagram
+    does not waive any rights to use similar or related ideas previously known to
+    Flipagram, or developed by its employees, or obtained from sources other than
+    you.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 7. Privacy We care about the privacy of our Users. You understand
+    that by using the App you consent to the collection, use and disclosure of your
+    personally identifiable information and aggregate data as set forth in our Privacy
+    Policy, and to have your personally identifiable information collected, used,
+    transferred to and processed in the United States.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 8. Security Flipagram cares about the integrity and security of your
+    personal information. However, we cannot guarantee that unauthorized third parties
+    will never be able to defeat our security measures or use your personal information
+    for improper purposes. You acknowledge that you provide your personal information
+    at your own risk.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 9. Reporting Copyright and Other IP Violations Flipagram respects
+    other people's rights and we expect you to do the same.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Since we respect artist and content owner rights, it is Flipagram's
+    policy to respond to alleged infringement notices that comply with the Digital
+    Millennium Copyright Act of 1998 ("DMCA").
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'If you believe that your copyrighted work has been copied in a way
+    that constitutes copyright infringement and is located on the App, please notify
+    Flipagram''s copyright agent as set forth in the DMCA. For your complaint to be
+    valid under the DMCA, you must provide the following information in writing: An
+    electronic or physical signature of a person authorized to act on behalf of the
+    copyright owner; Identification of the copyrighted work that you claim has been
+    infringed; Identification of the material that is claimed to be infringing, and
+    where it is located in the App; Information reasonably sufficient to permit Flipagram
+    to contact you, such as your address, telephone number, and, e-mail address; A
+    statement that you have a good faith belief that use of the material in the manner
+    complained of is not authorized by the copyright owner, its agent, or law; and
+    A statement, made under penalty of perjury, that the above information is accurate,
+    and that you are the copyright owner or are authorized to act on behalf of the
+    owner.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 'The above information must be submitted to the following DMCA Agent:
+    DMCA Notice Flipagram, Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 'Address: 916 Silver Spur Road, #310, Rolling Hills Estates, CA 90274
+    USA'
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 'Email: Contact Help UNDER FEDERAL LAW, IF YOU KNOWINGLY MISREPRESENT
+    THAT ONLINE MATERIAL IS INFRINGING, YOU MAY BE SUBJECT TO CRIMINAL PROSECUTION
+    FOR PERJURY AND CIVIL PENALTIES, INCLUDING MONETARY DAMAGES, COURT COSTS, AND
+    ATTORNEYS'' FEES.'
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: "Please note that this procedure is exclusively for notifying Flipagram\
+    \ and its affiliates that your copyrighted material has been infringed. The preceding\
+    \ requirements are intended to comply with Flipagram's rights and obligations\
+    \ under the DMCA, including 17 U.S.C. \xA7512(c), but do not constitute legal\
+    \ advice. It may be advisable to contact an attorney regarding your rights and\
+    \ obligations under the DMCA and other applicable laws."
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: In accordance with the DMCA and other applicable law, Flipagram has
+    adopted a policy of terminating, in appropriate circumstances, Users who are deemed
+    to be repeat infringers. Flipagram may also at its sole discretion limit access
+    to the App and/or terminate the accounts of any Users who infringe any intellectual
+    property rights of others, whether or not there is any repeat infringement.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 10. Third-Party Links and Materials The App may contain links to third-party
+    websites, advertisers, services, special offers, or other events or activities
+    that are not owned or controlled by Flipagram. Flipagram does not endorse or assume
+    any responsibility for any such third-party sites, information, materials, products,
+    or services. If you access a third party website from the App, you do so at your
+    own risk, and you understand that this Agreement and Flipagram's Privacy Policy
+    do not apply to your use of such sites. You expressly relieve Flipagram from any
+    and all liability arising from your use of any third-party website, service, or
+    content. Additionally, your dealings with or participation in promotions of advertisers
+    found on the App, including payment and delivery of goods, and any other terms
+    (such as warranties) are solely between you and such advertisers. You agree that
+    Flipagram shall not be responsible for any loss or damage of any sort relating
+    to your dealings with such advertisers.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: "In addition, the App may incorporate certain third-party materials,\
+    \ including but not limited to software, which may be subject to separate terms\
+    \ and conditions, which we will make available to you if applicable. Without limiting\
+    \ the generality of the foregoing, the following applies to the use of Gracenote\
+    \ software incorporated in the App: Gracenote\xAE End User License Agreement This\
+    \ application or device contains software from Gracenote, Inc. of Emeryville,\
+    \ California (\"Gracenote\"). The software from Gracenote (the \"Gracenote Software\"\
+    ) enables this application to perform disc and/or file identification and obtain\
+    \ music-related information, including name, artist, track, and title information\
+    \ (\"Gracenote Data\") from online servers or embedded databases (collectively,\
+    \ \"Gracenote Servers\") and to perform other functions. You may use Gracenote\
+    \ Data only by means of the intended End User functions of this application or\
+    \ device. This application or device may contain content belonging to Gracenote's\
+    \ providers. If so, all of the restrictions set forth herein with respect to Gracenote\
+    \ Data shall also apply to such content and such content providers shall be entitled\
+    \ to all of the benefits and protections set forth herein that are available to\
+    \ Gracenote. You agree that you will use Gracenote Data, the Gracenote Software,\
+    \ and Gracenote Servers for your own personal, non-commercial use only. You agree\
+    \ not to assign, copy, transfer or transmit the Gracenote Software or any Gracenote\
+    \ Data to any third party. YOU AGREE NOT TO USE OR EXPLOIT GRACENOTE DATA, THE\
+    \ GRACENOTE SOFTWARE, OR GRACENOTE SERVERS, EXCEPT AS EXPRESSLY PERMITTED HEREIN.\
+    \ You agree that your non-exclusive license to use the Gracenote Data, the Gracenote\
+    \ Software, and Gracenote Servers will terminate if you violate these restrictions.\
+    \ If your license terminates, you agree to cease any and all use of the Gracenote\
+    \ Data, the Gracenote Software, and Gracenote Servers. Gracenote reserves all\
+    \ rights in Gracenote Data, the Gracenote Software, and the Gracenote Servers,\
+    \ including all ownership rights. Under no circumstances will Gracenote become\
+    \ liable for any payment to you for any information that you provide. You agree\
+    \ that Gracenote may enforce its rights under this Agreement against you directly\
+    \ in its own name. The Gracenote service uses a unique identifier to track queries\
+    \ for statistical purposes. The purpose of a randomly assigned numeric identifier\
+    \ is to allow the Gracenote service to count queries without knowing anything\
+    \ about who you are. For more information, see the web page for the Gracenote\
+    \ Privacy Policy for the Gracenote service. The Gracenote Software and each item\
+    \ of Gracenote Data are licensed to you AS IS. Gracenote makes no representations\
+    \ or warranties, express or implied, regarding the accuracy of any Gracenote Data\
+    \ from the Gracenote Servers. Gracenote reserves the right to delete data from\
+    \ the Gracenote Servers or to change data categories for any cause that Gracenote\
+    \ deems sufficient. No warranty is made that the Gracenote Software or Gracenote\
+    \ Servers are error-free or that functioning of Gracenote Software or Gracenote\
+    \ Servers will be uninterrupted. Gracenote is not obligated to provide you with\
+    \ new, enhanced or additional data types or categories that Gracenote may provide\
+    \ in the future, and is free to discontinue its services at any time. GRACENOTE\
+    \ DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\
+    \ IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,\
+    \ AND NON-INFRINGEMENT. GRACENOTE DOES NOT WARRANT THE RESULTS THAT WILL BE OBTAINED\
+    \ BY YOUR USE OF THE GRACENOTE SOFTWARE OR ANY GRACENOTE SERVER. IN NO CASE WILL\
+    \ GRACENOTE BE LIABLE FOR ANY CONSEQUENTIAL OR INCIDENTAL DAMAGES OR FOR ANY LOST\
+    \ PROFITS OR LOST REVENUES."
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: '11. Indemnity You agree to defend, indemnify and hold harmless Flipagram
+    and its subsidiaries, agents, licensors, managers, and other affiliated companies,
+    and their employees, contractors, agents, officers and directors, from and against
+    any and all claims, damages, obligations, losses, liabilities, costs or debt,
+    and expenses (including but not limited to attorney''s fees) arising from: (i)
+    your use of and access to the App, including any data or content transmitted or
+    received by you; (ii) your violation of any term of this Agreement, including
+    without limitation your breach of any of the representations and warranties above;
+    (iii) your violation of any third-party right, including without limitation any
+    right of privacy or Intellectual Property Rights; (iv) your violation of any applicable
+    law, rule or regulation; (v) any claim or damages that arise as a result of any
+    of your User Content, including without limitation any User Content, or any that
+    is created, stored, shared or submitted via your account; or (vi) any other party''s
+    access and use of the App with your unique username, password or other appropriate
+    security code.'
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 12. No Warranty THE APP IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE"
+    BASIS. USE OF THE APP IS AT YOUR OWN RISK. TO THE MAXIMUM EXTENT PERMITTED BY
+    APPLICABLE LAW, THE APP IS PROVIDED WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS
+    OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. NO ADVICE OR INFORMATION,
+    WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM FLIPAGRAM OR THROUGH THE APP WILL
+    CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN. WITHOUT LIMITING THE FOREGOING,
+    FLIPAGRAM, ITS SUBSIDIARIES, ITS AFFILIATES, AND ITS LICENSORS DO NOT WARRANT
+    THAT THE CONTENT IS ACCURATE, RELIABLE OR CORRECT; THAT THE APP WILL MEET YOUR
+    REQUIREMENTS; THAT THE APP WILL BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION,
+    UNINTERRUPTED OR SECURE; THAT ANY DEFECTS OR ERRORS WILL BE CORRECTED; OR THAT
+    THE APP IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. ANY CONTENT DOWNLOADED
+    OR OTHERWISE OBTAINED THROUGH THE USE OF THE APP IS DOWNLOADED AT YOUR OWN RISK
+    AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR MOBILE
+    DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH DOWNLOAD OR YOUR USE OF THE APP.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: FLIPAGRAM DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY
+    FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE
+    FLIPAGRAM APP OR ANY HYPERLINKED WEBSITE OR SERVICE, AND FLIPAGRAM WILL NOT BE
+    A PARTY TO OR IN ANY WAY MONITOR ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS
+    OF PRODUCTS OR SERVICES.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: FEDERAL LAW, SOME STATES, PROVINCES AND OTHER JURISDICTIONS DO NOT
+    ALLOW EXCLUSIONS AND LIMITATIONS OF CERTAIN IMPLIED WARRANTIES, SO SOME OF THE
+    ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 13. Limitation of Liability LICENSORS BE LIABLE FOR ANY INDIRECT,
+    PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING WITHOUT
+    LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE
+    LOSSES, THAT RESULT FROM THE USE OF, OR INABILITY TO USE, THIS APP. UNDER NO CIRCUMSTANCES
+    WILL FLIPAGRAM BE RESPONSIBLE FOR ANY DAMAGE, LOSS OR INJURY RESULTING FROM HACKING,
+    TAMPERING OR OTHER UNAUTHORIZED ACCESS OR USE OF THE APP OR YOUR ACCOUNT OR THE
+    INFORMATION CONTAINED THEREIN.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, FLIPAGRAM ASSUMES
+    NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF
+    CONTENT; (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING
+    FROM YOUR ACCESS TO OR USE OF OUR APP; (III) ANY UNAUTHORIZED ACCESS TO OR USE
+    OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION STORED THEREIN;
+    (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE APP; (V) ANY
+    BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE THAT MAY BE TRANSMITTED TO OR THROUGH
+    OUR APP BY ANY THIRD PARTY; (VI) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR
+    ANY LOSS OR DAMAGE INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED,
+    TRANSMITTED, OR OTHERWISE MADE AVAILABLE THROUGH THE APP; AND/OR (VII) USER CONTENT
+    OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY. IN NO EVENT
+    SHALL FLIPAGRAM, ITS AFFILIATES, AGENTS, DIRECTORS, EMPLOYEES, SUPPLIERS, OR LICENSORS
+    BE LIABLE TO YOU FOR ANY CLAIMS, PROCEEDINGS, LIABILITIES, OBLIGATIONS, DAMAGES,
+    LOSSES OR COSTS IN AN AMOUNT EXCEEDING THE AMOUNT YOU PAID TO FLIPAGRAM HEREUNDER
+    OR $100.00, WHICHEVER IS GREATER.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: THIS LIMITATION OF LIABILITY SECTION APPLIES WHETHER THE ALLEGED LIABILITY
+    IS BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR ANY OTHER BASIS,
+    EVEN IF FLIPAGRAM HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE FOREGOING
+    LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN
+    THE APPLICABLE JURISDICTION.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL
+    OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY
+    TO YOU. THIS AGREEMENT GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE
+    OTHER RIGHTS WHICH VARY FROM STATE TO STATE. THE DISCLAIMERS, EXCLUSIONS, AND
+    LIMITATIONS OF LIABILITY UNDER THIS AGREEMENT WILL NOT APPLY TO THE EXTENT PROHIBITED
+    BY APPLICABLE LAW.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: The App is controlled and operated from facilities in the United States.
+    Flipagram makes no representations that the App is appropriate or available for
+    use in other locations. Those who access or use the App from other jurisdictions
+    do so at their own volition and are entirely responsible for compliance with all
+    applicable United States and local laws and regulations, including but not limited
+    to export and import regulations. You may not use the App if you are a resident
+    of a country embargoed by the United States, or are a foreign person or entity
+    blocked or denied by the United States government. Unless otherwise explicitly
+    stated, all materials found on the App are solely directed to individuals, companies,
+    or other entities located in the United States.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 14. Governing Law, Arbitration, and Class Action/Jury Trial Waiver.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: "Governing Law. You agree that: (i) the App shall be deemed solely\
+    \ based in California; and (ii) the App shall be deemed a passive one that does\
+    \ not give rise to personal jurisdiction over Flipagram, either specific or general,\
+    \ in jurisdictions other than California. This Agreement shall be governed by\
+    \ the internal substantive laws of the State of California, without respect to\
+    \ its conflict of laws principles. The parties acknowledge that this Agreement\
+    \ evidences a transaction involving interstate commerce. Notwithstanding the preceding\
+    \ sentences with respect to the substantive law, any arbitration conducted pursuant\
+    \ to the terms of this Agreement shall be governed by the Federal Arbitration\
+    \ Act (9 U.S.C. \xA7\xA7 1-16). The application of the United Nations Convention\
+    \ on Contracts for the International Sale of Goods is expressly excluded. You\
+    \ agree to submit to the personal jurisdiction of the federal and state courts\
+    \ located in Santa Clara County, California for any actions for which we retain\
+    \ the right to seek injunctive or other equitable relief in court of competent\
+    \ jurisdiction to prevent the actual or threatened infringement, misappropriation\
+    \ or violation of a our copyrights, trademarks, trade secrets, patents, or other\
+    \ intellectual property or proprietary rights, as set forth in the Arbitration\
+    \ provision below, including any provisional relief required to prevent irreparable\
+    \ harm. You agree that Santa Clara County, California is the proper forum for\
+    \ any appeals of an arbitration award or for trial court proceedings in the event\
+    \ that the arbitration provision below is found to be unenforceable."
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 'Arbitration. READ THIS SECTION CAREFULLY BECAUSE IT REQUIRES THE
+    PARTIES TO ARBITRATE THEIR DISPUTES AND LIMITS THE MANNER IN WHICH YOU CAN SEEK
+    RELIEF FROM FLIPAGRAM. For any dispute with Flipagram, you agree to first contact
+    us at Contact Help and attempt to resolve the dispute with us informally. In the
+    unlikely event that Flipagram has not been able to resolve a dispute it has with
+    you after sixty (60) days, we each agree to resolve any claim, dispute, or controversy
+    (excluding any claims for injunctive or other equitable relief as provided below)
+    arising out of or in connection with or relating to this Agreement, or the breach
+    or alleged breach thereof (collectively, "Claims"), by binding arbitration by
+    Judicial Arbitration and Mediation Services ("JAMS"), under the Optional Expedited
+    Arbitration Procedures then in effect for JAMS, except as provided herein. JAMS
+    may be contacted at www.jamsadr.com. The arbitration will be conducted in Santa
+    Clara County, California, unless you and Flipagram agree otherwise. If you are
+    using the App for commercial purposes, each party will be responsible for paying
+    any JAMS filing, administrative and arbitrator fees in accordance with JAMS rules,
+    and the award rendered by the arbitrator shall include costs of arbitration, reasonable
+    attorneys'' fees and reasonable costs for expert and other witnesses. If you are
+    an individual using the App for non-commercial purposes: (i) JAMS may require
+    you to pay a fee for the initiation of your case, unless you apply for and successfully
+    obtain a fee waiver from JAMS; (ii) the award rendered by the arbitrator may include
+    your costs of arbitration, your reasonable attorney''s fees, and your reasonable
+    costs for expert and other witnesses; and (iii) you may sue in a small claims
+    court of competent jurisdiction without first engaging in arbitration, but this
+    does not absolve you of your commitment to engage in the informal dispute resolution
+    process. Any judgment on the award rendered by the arbitrator may be entered in
+    any court of competent jurisdiction. Nothing in this Section shall be deemed as
+    preventing Flipagram from seeking injunctive or other equitable relief from the
+    courts as necessary to prevent the actual or threatened infringement, misappropriation,
+    or violation of our data security, Intellectual Property Rights or other proprietary
+    rights.'
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Class Action/Jury Trial Waiver. REGARDLESS OF WHETHER YOU HAVE OBTAINED
+    OR USED THE APP FOR PERSONAL, COMMERCIAL OR OTHER PURPOSES, YOU AGREE THAT ALL
+    DISPUTES BETWEEN YOU AND FLIPAGRAM WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION
+    AND THAT YOU AND FLIPAGRAM WAIVE HEREBY EXPRESSLY WAIVE TRIAL BY JURY. YOU MAY
+    BRING CLAIMS ONLY ON YOUR OWN BEHALF. NEITHER YOU NOR FLIPAGRAM WILL PARTICIPATE
+    IN A CLASS ACTION OR CLASS-WIDE ARBITRATION FOR ANY CLAIMS COVERED BY THIS AGREEMENT.
+    YOU ALSO AGREE NOT TO PARTICIPATE IN CLAIMS BROUGHT BY A PRIVATE ATTORNEY GENERAL
+    OR IN A REPRESENTATIVE CAPACITY, OR CONSOLIDATED CLAIMS INVOLVING ANOTHER PERSON'S
+    ACCOUNT.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 15. General Assignment. This Agreement, and any rights and licenses
+    granted hereunder, may not be transferred or assigned by you, but may be assigned
+    by Flipagram without restriction. Any attempted transfer or assignment in violation
+    hereof shall be null and void.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: Notification Procedures and Changes to the Agreement. Flipagram may
+    provide notifications, whether such notifications are required by law or are for
+    marketing or other business related purposes, to you via email notice, written
+    or hard copy notice, or through posting of such notice on our website, as determined
+    by Flipagram in our sole discretion. Flipagram reserves the right to determine
+    the form and means of providing notifications to our Users, provided that you
+    may opt out of certain means of notification as described in this Agreement. Flipagram
+    is not responsible for any automatic filtering you or your network provider may
+    apply to email notifications we send to the email address you provide us. Flipagram
+    may, in its sole discretion, modify or update this Agreement from time to time,
+    and so you should review this page periodically. When we change the Agreement
+    in a material manner, we will update the 'last modified' date at the bottom of
+    this page. Your continued use of the App after any such change constitutes your
+    acceptance of the new Terms of Use. If you do not agree to any of these terms
+    or any future Terms of Use, do not use or access (or continue to access) the App.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: Entire Agreement/Severability. This Agreement, together with any amendments
+    and any additional agreements you may enter into with Flipagram in connection
+    with the App, shall constitute the entire agreement between you and Flipagram
+    concerning the App. If any provision of this Agreement is deemed invalid by a
+    court of competent jurisdiction, the invalidity of such provision shall not affect
+    the validity of the remaining provisions of this Agreement, which shall remain
+    in full force and effect, except that in the event of unenforceability of the
+    universal Class Action/Jury Trial Waiver, the entire arbitration agreement shall
+    be unenforceable.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: No Waiver. No waiver of any term of this Agreement shall be deemed
+    a further or continuing waiver of such term or any other term, and Flipagram's
+    failure to assert any right or provision under this Agreement shall not constitute
+    a waiver of such right or provision.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: Contact. Please contact us Contact Help with any questions regarding
+    this Agreement.
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: This Agreement was last modified on 02/27/14.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: Privacy Policy Welcome to Flipagram, Inc., the provider of the Flipagram
+    website and mobile application ("Flipagram," "we" or "us"). Flipagram is committed
+    to protecting the privacy of all visitors, users and others who access our application
+    ("you," or "Users"). This Privacy Policy applies to our website www.flipagram.com
+    and the Flipagram mobile app for iPhone, Android or Windows mobile devices (collectively,
+    the "Flipagram App" or our "App"). This Privacy Policy applies only to the practices
+    of companies we own, control, or are united with under common control. By accessing
+    or using our Service, you signify that you have read, understood and agree to
+    our collection, storage, use and disclosure of your personal information as described
+    in this Privacy Policy. INFORMATION WE COLLECT SHARING PERSONAL INFORMATION WITH
+    THIRD PARTIES YOUR CHOICES REGARDING YOUR INFORMATION SECURITY AND STORAGE OF
+    INFORMATION PERSONS UNDER THE AGE OF 13 LINKS TO THIRD PARTY WEBSITES UPDATES
+    TO THIS POLICY CONTACTING US LAST REVISION DATE
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: '1. INFORMATION WE COLLECT Generally. We collect personal information
+    from our users in order to provide you with a personalized, useful and efficient
+    experience. The categories of information we collect can include: Information
+    you provide. We may collect and store personal information you enter in our Service
+    or provide to us in some other manner, including your name, email address, mobile
+    phone number, user name and password. In order to create your Flipagram, the App
+    accesses your photographs, videos and music library stored on your mobile device,
+    on third party websites where they are stored, or other places they may be stored.
+    We may also collect any communications between use and Flipagram, as well as any
+    information you provide if you take part in any interactive features of the App
+    (e.g., games, contests, promotions, surveys, etc.).'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect and store personal information you enter in our
+      Service or provide to us in some other manner, including your name, email address,
+      mobile phone number, user name and password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: User Content. We collect your personal information contained in any
+    User Content you create, share, store or submit to the App, which may include
+    photo, video or other image files, music works, sound recording, narration, written
+    forum comments, information, data, text, scripts, graphics and interactive features
+    generated, provided or otherwise made accessible by Flipagram.
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: Information we receive from social networking sites. When you interact
+    with our site through various social media, such as when you login and share through
+    Facebook, Instagram and others, we may receive information from the social network
+    including your profile information, profile picture, gender, user name, user ID
+    associated with your social media account, age range, language, country, friends
+    list, and any other information you permit the social network to share with third
+    parties. The data we receive is dependent upon your privacy settings with the
+    social network. You should always review, and if necessary, adjust your privacy
+    settings on third-party websites and services before linking or connecting them
+    to our website or Service.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you interact with our site through various social media, such
+      as when you login and share through Facebook, Instagram and others, we may receive
+      information from the social network including your profile information, profile
+      picture, gender, user name, user ID associated with your social media account,
+      age range, language, country, friends list, and any other information you permit
+      the social network to share with third parties.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 59
+  segment_text: Information about others. With your permission, Flipagram may access
+    your contact list available on your mobile device in order to share your Flipagram
+    creations, or to invite your friends and contacts to connect with our Service.
+    We may also collect information about others if you use our Service to upload,
+    share and/or distribute User Content that contains information about others, including
+    their name, image and online contact information.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: With your permission, Flipagram may access your contact list available
+      on your mobile device in order to share your Flipagram creations, or to invite
+      your friends and contacts to connect with our Service.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 60
+  segment_text: Metadata. Flipagram collects metadata associated with User Content.
+    Metadata typically consists of how, when, where and by whom a piece of User Content
+    was collected and how that content has been formatted. Users can add or may have
+    added metadata added to their User Content including keywords posted with a photo
+    or video, including names, geographical information, comments or other data. This
+    makes your data more searchable and more interactive. However, the metadata may
+    be accessible to others if you share the User Content with others or on third
+    party social media sites.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Users can add or may have added metadata added to their User Content
+      including keywords posted with a photo or video, including names, geographical
+      information, comments or other data.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 61
+  segment_text: We use this information to operate, maintain, and provide to you the
+    features and functionality of the App, as well as to communicate directly with
+    you, such as to send you email messages and push notifications, and permit you
+    to share your creations on the App with your contacts or social media sites. We
+    may also send you Service-related emails or messages (e.g., account verification,
+    order confirmations, change or updates to features of the App, technical and security
+    notices). For more information about your communication preferences, see "Your
+    Choices Regarding Your Information" below.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also send you Service-related emails or messages (e.g.,
+      account verification, order confirmations, change or updates to features of
+      the App, technical and security notices).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use this information to operate, maintain, and provide to you
+      the features and functionality of the App, as well as to communicate directly
+      with you, such as to send you email messages and push notifications, and permit
+      you to share your creations on the App with your contacts or social media sites.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 62
+  segment_text: Use of cookies and other technology to collect information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Use of cookies and other technology to collect information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 63
+  segment_text: We automatically collect certain types of usage information when you
+    visit our website or use our Service. When you visit the App, we may send one
+    or more cookies - a small text file containing a string of alphanumeric characters
+    - to your computer that uniquely identifies your browser and lets us help you
+    log in faster and enhance your navigation through the site. A cookie may also
+    convey information to us about how you use the App (e.g., the pages you view,
+    the links you click, how frequently you access the App, and other actions you
+    take on the App), and allow us to track your usage of the App over time. We may
+    collect log file information from your browser or mobile device each time you
+    access the App. Log file information may include anonymous information such as
+    your web request, Internet Protocol ("IP") address, browser type, information
+    about your mobile device, referring / exit pages and URLs, number of clicks and
+    how you interact with links on the App, domain names, landing pages, pages viewed,
+    and other such information. We may employ clear gifs (also known as web beacons)
+    which are used to anonymously track the online usage patterns of our Users. In
+    addition, we may also use clear gifs in HTML-based emails sent to our users to
+    track which emails are opened and which links are clicked by recipients. The information
+    allows for more accurate reporting and improvement of the App. We may also collect
+    analytics data, or use third-party analytics tools, to help us measure traffic
+    and usage trends for the App. These tools collect information sent by your browser
+    or mobile device, including the pages you visit, your use of third party applications,
+    and other information that assists us in analyzing and improving the App. We may
+    receive reports from third party analytics providers, which we may combine with
+    the personal data we collect from you directly.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Log file information may include anonymous information such as
+      your web request, Internet Protocol ("IP") address,
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect log file information from your browser or mobile
+      device each time you access the App.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 64
+  segment_text: When you access our App by or through a mobile device, we may receive
+    or collect and store a unique identification numbers associated with your device
+    ("Device ID"), mobile carrier, device type and manufacturer, phone number, and,
+    depending on your mobile device settings, your geographical location data, including
+    GPS coordinates (e.g. latitude and/or longitude) or similar information regarding
+    the location of your mobile device.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you access our App by or through a mobile device, we may receive
+      or collect and store a unique identification numbers associated with your device
+      ("Device ID"), mobile carrier, device type and manufacturer, phone number, and,
+      depending on your mobile device settings, your geographical location data, including
+      GPS coordinates (e.g.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: latitude and/or longitude) or similar information regarding the
+      location of your mobile device.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 65
+  segment_text: 'We use or may use the data collected through cookies, log file, device
+    identifiers, location data and clear gifs information to: (a) remember information
+    so that you will not have to re-enter it during your visit or the next time you
+    visit the site; (b) provide custom, personalized content and information, including
+    advertising; (c) provide and monitor the effectiveness of our Service; (d) monitor
+    aggregate metrics such as total number of visitors, traffic, usage, and demographic
+    patterns on our website and our Service; (e) diagnose or fix technology problems;
+    and (f) otherwise to plan for and enhance our service.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We use or may use the data collected through cookies, log file,
+      device identifiers, location data and clear gifs information to: (a) remember
+      information so that you will not have to re-enter it during your visit or the
+      next time you visit the site; (b) provide custom, personalized content and information,
+      including advertising; (c) provide and monitor the effectiveness of our Service;
+      (d) monitor aggregate metrics such as total number of visitors, traffic, usage,
+      and demographic patterns on our website and our Service; (e) diagnose or fix
+      technology problems; and (f) otherwise to plan for and enhance our service.'
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: 2. SHARING PERSONAL INFORMATION WITH THIRD PARTIES We may share your
+    personal information in the instances described below. For further information
+    on your choices regarding your information, see the "Your Choices Regarding Your
+    Information" section below.
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: 'We may also share your personal information with: Other companies
+    owned by or under common ownership as Flipagram, which also includes our subsidiaries
+    (i.e., any organization we own or control) or our ultimate holding company (i.e.,
+    any organization that owns or controls us) and any subsidiaries it owns. These
+    companies will use your personal information in the same way as we can under this
+    Policy; Third party vendors, consultants and other service providers that perform
+    services on our behalf, in order to carry out their work for us, which may include
+    identifying and serving targeted advertisements, content or service fulfillment,
+    or providing analytics services; Our business partners who offer a service to
+    you jointly with us, for example, when running a co-sponsored contest or promotion;
+    Third parties who we think may offer you products or services you may enjoy;'
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: Third parties at your request. For example, you may have the option
+    to share your Flipagram videos with your friends through email, SMS text, or various
+    social media sites;
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: 'The public at your request. If you interact with our site or app
+    on social media, for example by tagging your videos #Flipagram on Instagram, that
+    piece of User Content will be linked to Flipagram on our website or social media
+    profiles and Flipagram may display your User Content publicly; Other parties in
+    connection with any company transaction, such as a merger, sale of company assets
+    or shares, reorganization, financing, change of control or acquisition of all
+    or a portion of our business by another company or third party or in the event
+    of bankruptcy or related or similar proceedings; and Third parties as required
+    to (i) satisfy any applicable law, regulation, subpoena/court order, legal process
+    or other government request, (ii) enforce our Terms of Use Agreement, including
+    the investigation of potential violations thereof, (iii) investigate and defend
+    ourselves against any third party claims or allegations, (iv) protect against
+    harm to the rights, property or safety of Flipagram, its users or the public as
+    required or permitted by law and (v) detect, prevent or otherwise address criminal
+    (including fraud or stalking), security or technical issues.'
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: We may also share information with others in an aggregated and anonymous
+    form that does not reasonably identify you directly as an individual.
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: 3. YOUR CHOICES REGARDING YOUR INFORMATION Marketing Communications.
+    If you do not wish to receive promotional emails, you can click the "unsubscribe"
+    button on promotional email communications. Note that you are not permitted to
+    unsubscribe or opt-out of non-promotional messages regarding your account, such
+    as account verification, password or local area number requests, order confirmations,
+    change or updates to features of the App, or technical and security notices.
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: Online Advertising and Tracking. We permit third parties, such as
+    ad networks and analytics providers, to collect information about your use of
+    our website over time, in order that they may display ads that may be relevant
+    to your interests or provide us with enhanced demographic and analytic information
+    about our users. For example, we have implemented Google Analytics Demographic
+    and Interest Reporting to provide site demographic reporting. Typically, the information
+    we share with these types of third party providers is provided through cookies
+    or similar tracking technologies. The only way to completely "opt out" of the
+    collection of any information through cookies or other tracking technology is
+    to actively manage the settings on your browser or mobile device. Please refer
+    to your browser's or mobile device's technical information for instructions on
+    how to delete and disable cookies, and other tracking/recording tools. (To learn
+    more about cookies, clear gifs/web beacons and related technologies, you may wish
+    to visit http://www.allaboutcookies.org and/or the Network Advertising Initiative's
+    online resources, at http://www.networkadvertising.org You can also visit https://tools.google.com/dlpage/gaoptout/
+    to learn how to opt-out of Google Analytics). Depending on your mobile device,
+    you may not be able to control tracking technologies through settings.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we have implemented Google Analytics Demographic and
+      Interest Reporting to provide site demographic reporting.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Typically, the information we share with these types of third party
+      providers is provided through cookies or similar tracking technologies.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We permit third parties, such as ad networks and analytics providers,
+      to collect information about your use of our website over time, in order that
+      they may display ads that may be relevant to your interests or provide us with
+      enhanced demographic and analytic information about our users.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 73
+  segment_text: 'Data Retention: We will retain your information for as long as your
+    account is active or as needed to provide you services. Following termination
+    or deactivation of your account, Flipagram may retain information (including User
+    Content) for a commercially reasonable time for backup, archival, and/or audit
+    purposes. Please contact us at Contact Help if you wish to deactivate your account.
+    Please be aware that we will not be able to delete any content you have shared
+    with others or with social media sites, nor can we remove cached content from
+    search engines.'
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: 'Deleting or Anonymizing Your Content: If you are under 18 years of
+    age, you may request that the User Content that you posted to the App be deleted
+    or anonymized such that your personal information will not be identifiable publicly
+    on our App by completing the form found at: https://flipagram.com/_/account/deactivate
+    or by sending an email to Contact Help including your full name, email address,
+    Flipagram username, and the text "I am under 18 years of age and request that
+    you delete or anonymize my content." While we will use all commercially reasonable
+    efforts to delete or anonymize your User Content upon request, please be aware
+    that due to the social nature of our App, you may not be able to completely remove
+    all of your personally identifiable User Content if, for example, that content
+    has been stored, republished, or reposted by another user or a third party. We
+    may also maintain your information in identifiable form for our internal use,
+    even if your personal data is no longer visible to the public on our App.'
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: 4. SECURITY AND STORAGE OF INFORMATION Flipagram cares about the security
+    of your information and uses commercially reasonable physical, administrative,
+    and technological safeguards to preserve the integrity and security of all information
+    we collect and that we share with our service providers. However, no security
+    system is impenetrable and we cannot guarantee the security of our systems 100%.
+    In the event that any information under our control is compromised as a result
+    of a breach of security, we will take reasonable steps to investigate the situation
+    and where appropriate, notify those individuals whose information may have been
+    compromised and take other steps, in accordance with any applicable laws and regulations.
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: Your information collected through the App may be stored and processed
+    in the United States or any other country in which Flipagram or its subsidiaries,
+    affiliates or service providers maintain facilities. If you are located in the
+    European Union or other regions with laws governing data collection and use that
+    may differ from U.S. law, please note that we may transfer information, including
+    personal information, to a country and jurisdiction that does not have the same
+    data protection laws as your jurisdiction, and you consent to the transfer of
+    information to the U.S. or any other country in which Company or its parent, subsidiaries,
+    affiliates or service providers maintain facilities and the use and disclosure
+    of information about you as described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: 5. PERSONS UNDER THE AGE OF 13 Flipagram does not knowingly collect
+    or solicit any information from anyone under the age of 13 or knowingly allow
+    such persons to register for the App. The App and its content are not directed
+    at children under the age of 13. In the event that we learn that we have collected
+    personal information from a child under age 13 without parental consent, we will
+    delete that information as quickly as possible. If you believe that we might have
+    any information collected from a child under 13, please contact us at Contact
+    Help.
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: 6. LINKS TO THIRD PARTY WEBSITES The Apps may contain links to and
+    from third party websites of our business partners, advertisers, and social media
+    sites. If you follow a link to any of these websites, please note that these websites
+    have their own privacy policies and that we do not accept any responsibility or
+    liability for their policies. Please check the individual policies before you
+    submit any information to those websites.
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: 7. UPDATES TO THIS POLICY We reserve the right to modify this Policy
+    from time to time. If we make any changes to this Policy, we will change the "Last
+    Revision" date below and will post the updated Policy on this page.
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: '8. CONTACTING US If you have questions about this Policy, please
+    contact us at Contact Help or by writing to us at: 916 Silver Spur Road, #310,
+    Rolling Hills Estates, CA 90274 USA'
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: 'If you are a law enforcement agency, federal investigator, or other
+    authorized party attempting to serve Flipagram with legal process, such as a subpoena,
+    you may send all pertinent information to: Contact Help. We will respond promptly
+    to valid requests sent to this address.'
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: 9. LAST REVISION DATE This Policy was last revised on, and effective
+    as of, 12/29/16 About Careers Press Blog FAQ Contact Us Terms & Privacy Copyright
+    Policy
+  annotations: []
+  sentences: []

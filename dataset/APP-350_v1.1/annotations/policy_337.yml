@@ -1,0 +1,111 @@
+policy_id: 337
+policy_name: VideoLAN
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Toggle navigation VideoLAN Team & Organization Consulting Services
+    & Partners Events Legal Press center Contact us VLC Download Features Customize
+    Get Goodies Projects DVBlast x264 x262 x265 multicat VLMa VLC Skin Editor VLC
+    media player libdvdcss libdvdnav libdvdread libbluray libdvbpsi libaacs libdvbcsa
+    biTStream All Projects Contribute Getting started Donate Report a bug Support
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: donate donate Donate
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: donate donate VideoLAN, a project and a non-profit organization.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Privacy VLC Mobile This privacy policy covers the use of the 'VLC
+    for Android', 'VLC for WinRT' and 'VLC for iOS' / 'VLC for tvOS' applications.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: It may not be applicable to other software produced or released by
+    VideoLAN.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: VideoLAN does not collect any statistics, personal information, or
+    analytics from our users, other than built in mechanisms that are present for
+    all the mobile or embedded applications in their respective main distribution
+    channels.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: The mobile or embedded versions of 'VLC' do allow for videos to be
+    played via various network transports. Cookies are not stored at any point. Authentication
+    credentials can be stored optionally on the user's local device upon the user's
+    explicit request. On iOS and tvOS, authentication credentials can be shared across
+    devices using proprietary encryption mechanisms provided by the host operating
+    system, dubbed iCloud Keychain. VideoLAN does not have access to any information
+    stored within.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Authentication credentials can be stored optionally on the user's
+      local device upon the user's explicit request.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: Cookies are not stored at any point.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: On iOS and tvOS, authentication credentials can be shared across
+      devices using proprietary encryption mechanisms provided by the host operating
+      system, dubbed iCloud Keychain.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: VideoLAN does not have access to any information stored within.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 7
+  segment_text: VLC media player VLC VLC for Windows VLC for Mac OS X VLC for Ubuntu
+    VLC for Android VLC for iOS Skins Extensions Features Screenshots VLC Skin Editor
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: All Projects VideoLan Movie Creator DVBlast x264 x262 x265 multicat
+    VLMa libdvdcss libdvdnav libdvdread libbluray libdvbpsi libaacs libdvbcsa biTStream
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Community Wiki Forums Mailing-Lists FAQ Donate money Donate time Get
+    Goodies
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: VideoLAN Project and Organization Team Legal Contact us Partners Mirrors
+    Press center Events Security center Get Involved News
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Legal | Report Trademark Abuse VideoLAN, VLC, VLC media player and
+    x264 are trademarks internationally registered by the VideoLAN non-profit organization.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'VideoLAN software is licensed under various open-source licenses:
+    use and distribution are defined by each software license.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Design by Made By Argon. Some icons are licensed under the CC BY-SA
+    3.0+.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: "The VLC cone icon was designed by Richard \xD8iestad. Icons for VLMC,\
+    \ DVBlast and x264 designed by Roman Khramov."
+  annotations: []
+  sentences: []

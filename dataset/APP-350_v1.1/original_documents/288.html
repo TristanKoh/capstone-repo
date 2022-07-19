@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html style="margin-top:0 !important">
+<head>
+<link rel="stylesheet" href="https://paytmofferlive.wpengine.com/wp-content/themes/twentytwelve/style.css" type="text/css"  />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Privacy Policy</title>
+<script src="https://code.jquery.com/jquery-1.7.js"></script>
+<script type="text/javascript">
+function runScript(e) {
+    if (e.keyCode == 13) {
+        var elem = document.getElementById("for-search");
+	var tab = elem.getElementsByTagName("input")[0];
+	var val = tab.value;
+
+	    if(val  != '') {window.location.href = "http://paytm.com/shop/search?q=" + val;}
+        return false;
+    }
+}
+
+function callAppFn(event, anchorRef){
+	var isiOS = navigator.userAgent.toLowerCase().match('ipad') || navigator.userAgent.toLowerCase().match('iphone') || navigator.userAgent.toLowerCase().match('ipod'), isAndroid = navigator.userAgent.toLowerCase().match('android');
+
+	if((isiOS || isAndroid) && anchorRef.getAttribute('data-app-href')){
+		event.preventDefault();
+	}
+	else{
+		return;
+	}
+
+	var fallbackLink = anchorRef.getAttribute('href');
+	
+	if (anchorRef.getAttribute('data-app-href')) {
+		if (isiOS) {
+			var paytmAppLink = anchorRef.getAttribute('data-app-href');
+			paytmAppLink = "paytmmp://" + paytmAppLink;
+			document.getElementById('loader').src = paytmAppLink;
+			fallbackLink = 'https://itunes.apple.com/in/app/mobile-recharge-bill-payments/id473941634?mt=8';
+			}
+		if (isAndroid) {
+			var paytmAppLink = anchorRef.getAttribute('data-app-href');
+			if (navigator.userAgent.toLowerCase().match('chrome')) {
+				paytmAppLink = "intent://" + paytmAppLink + "#Intent;scheme=paytmmp;package=net.one97.paytm;end";
+				fallbackLink = paytmAppLink;
+			} else if (navigator.userAgent.toLowerCase().match('opera')) {
+			} else {
+				document.getElementById('loader').src = "paytmmp://" + paytmAppLink;
+				fallbackLink = 'https://play.google.com/store/apps/details?id=net.one97.paytm';
+			}
+		}
+	}
+
+		window.setTimeout(function() {
+			window.location.replace(fallbackLink);
+		}, 1000);	
+}
+
+</script>
+
+<!-- All in One SEO Pack 2.3.11.4 by Michael Torbert of Semper Fi Web Design[490,519] -->
+<meta name="description"  content="Privacy Policy About Us Awards Partner with us Terms &amp; Conditions Privacy Policy Blog Recharge Partners Help &amp; Support Grievance" />
+
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Paytm &raquo; Feed" href="https://paytmofferlive.wpengine.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Paytm &raquo; Comments Feed" href="https://paytmofferlive.wpengine.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/paytmofferlive.wpengine.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='press_css-css'  href='https://paytmofferlive.wpengine.com/wp-content/plugins/paytm-press-release/stylesheet.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='https://paytmofferlive.wpengine.com/wp-content/themes/twentytwelve/style.css?ver=4.7.3' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://paytmofferlive.wpengine.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-social-sharing-css'  href='https://paytmofferlive.wpengine.com/wp-content/plugins/wp-social-sharing/static/socialshare.css?ver=1.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<link rel='https://api.w.org/' href='https://paytmofferlive.wpengine.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://paytmofferlive.wpengine.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://paytmofferlive.wpengine.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://paytmofferlive.wpengine.com/?p=661' />
+<link rel="alternate" type="application/json+oembed" href="https://paytmofferlive.wpengine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpaytmofferlive.wpengine.com%2Fprivacy-policy%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://paytmofferlive.wpengine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpaytmofferlive.wpengine.com%2Fprivacy-policy%2F&#038;format=xml" />
+<!-- HeadSpace SEO 3.6.41 by John Godley - urbangiraffe.com -->
+<!-- HeadSpace -->
+<link rel='https://github.com/WP-API/WP-API' href='https://paytmofferlive.wpengine.com/wp-json' />
+	<style type="text/css">@media (max-width:620px) {#main-header{display:none;}}</style>
+	
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create','UA-36768858-4', 'paytm.com');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->	<style type="text/css" id="twentytwelve-header-css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PTT2P2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName('body')[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.appendChild(j);
+})(window,document,'script','dataLayer','GTM-PTT2P2');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+ window.dataLayer = window.dataLayer || [];
+ dataLayer.push({
+      'event': 'pageViewLoad',
+      'pageTitle': 'Exclusive Paytm Offers',
+      'pageName': 'Offer Page',
+      'pageViewPath' : window.location.href
+    });
+</script>
+<iframe style="display:none" height="0" width="0" id="loader"></iframe>
+<script>window.fbAsyncInit = function() {
+        FB.init({
+          appId      : 156620457796681,
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));</script>
+  <div id="fb-root"></div>
+  <div id="main-header">
+		<!--div class="blue-bar">
+			<div class="container-menu">
+				<div class="topTitleInfo">
+					<a href="https://paytm.com/blog/paytm-is-title-sponsor-for-all-india-cricket-till-2019/" target="_blank">Paytm :Title Sponsor for BCCI cricket for 4 years! Know More.</a>
+				</div>
+				<div class="topOfferInfo">
+					<a href="https://paytm.com/offer" target="_blank" class="offer up" tabindex="0">Offers</a>
+					
+					<a href="/care">| Customer Care</a>
+					<a href="https://sellon.paytm.com">| <span class="sell">Sell On Paytm</span></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div-->
+		<div id="user-detail">
+			<div class="container-menu">
+				<div class="headerInfo">
+					<div class="logoInfo">
+						<a href="http://www.paytm.com" class="logoPaytm"> </a>
+					</div>
+					<div class="searchInfo">
+						<div id="for-search" class="fl"> 
+                          <input type="text" maxlength="255" onkeypress="return runScript(event);" class="input-field border-radius search-across-app">
+                          <a class="searchIconInfo">
+                            <i class="pt-icon-search"></i>
+                          </a>
+                        </div>
+                      
+					</div>
+					<!--<div class="cartInfo">
+						<a ng-click="performOperation('/paytmwallet')" tabindex="0" class="">
+                          	<span class="topWalletInfo"></span>
+							<div class="cart-text">
+								<div class="text">Paytm Wallet</div>
+								<div class="priInfo">Rs 0.00</div>
+							</div>
+						</a>
+					</div>
+					<div class="cartInfo">
+						<i class="pt-icon-headerCart"></i>
+						<div class="cart-text">
+							<span>No Items in Your Bag</span>
+						</div>
+					</div>
+
+					<div class="userInfo">
+						<i class="pt-icon-headerProfile disabled"></i>
+						<div class="signInfo">
+							<a >Log In / Sign Up</a>
+						</div>
+					</div>-->
+					<div class="clear"></div>
+				</div>
+             <!-- <ul id="topmenu">
+              <li><a href="https://paytm.com" onClick="trackHeaderClick('Home');" target="_blank">Home</a></li>
+<li><a href="https://paytm.com/electricity-bill-payment" onClick="trackHeaderClick('Electricity');" target="_blank">Electricity</a></li>
+ <li><a href="https://paytm.com/shop/h/electronics" onClick="trackHeaderClick('Electronics');" target="_blank">Electronics</a></li>
+ <li><a href="https://paytm.com/shop/h/men" onClick="trackHeaderClick('Men Fashion');" target="_blank">Men's Fashion</a></li>
+ <li><a href="https://paytm.com/shop/h/women" onClick="trackHeaderClick('Women Fashion');" target="_blank">Women's Fashion</a></li>
+<li><a href="https://paytm.com/movies" onClick="trackHeaderClick('Movies');" target="_blank">Movies</a></li>
+<li><a href="https://paytm.com/shop/h/cars-bikes" onClick="trackHeaderClick('Car & Bikes');" target="_blank">Car & Bikes</a></li>
+<li><a href="https://paytm.com/shop/h/baby-kids-toys" onClick="trackHeaderClick('Baby Kids & Toys');" target="_blank">Baby, Kids & Toys</a></li>
+<li><a href="https://paytm.com/shop/h/home-and-kitchen" onClick="trackHeaderClick('Home & Kitchen');" target="_blank">Home & Kitchen</a></li>
+<li><a href="https://paytm.com/shop/h/sports-and-health" onClick="trackHeaderClick('Sports');" target="_blank">Sports</a></li>
+<li><a href="https://paytm.com/shop/h/automotive" onClick="trackHeaderClick('Automotive');" target="_blank">Automotive</a></li>
+<li><a href="https://paytm.com/education" onClick="trackHeaderClick('Education');" target="_blank">Education</a></li>
+              </ul> //-->
+			</div>
+		<div class="recharge-tabs">
+                <div class="inner-container">
+                        <ul>                           
+			<li><a href="https://paytm.com" onClick="trackHeaderClick('Home');" target="_blank">Home</a></li>
+<li><a href="https://paytm.com/electricity-bill-payment" onClick="trackHeaderClick('Electricity');" target="_blank">Electricity</a></li>
+ <li><a href="https://paytm.com/shop/h/electronics" onClick="trackHeaderClick('Electronics');" target="_blank">Electronics</a></li>
+ <li><a href="https://paytm.com/shop/h/men" onClick="trackHeaderClick('Men Fashion');" target="_blank">Men's Fashion</a></li>
+ <li><a href="https://paytm.com/shop/h/women" onClick="trackHeaderClick('Women Fashion');" target="_blank">Women's Fashion</a></li>
+<li><a href="https://paytm.com/movies" onClick="trackHeaderClick('Movies');" target="_blank">Movies</a></li>
+<li><a href="https://paytm.com/shop/h/cars-bikes" onClick="trackHeaderClick('Car & Bikes');" target="_blank">Car & Bikes</a></li>
+<li><a href="https://paytm.com/shop/h/baby-kids-toys" onClick="trackHeaderClick('Baby Kids & Toys');" target="_blank">Baby, Kids & Toys</a></li>
+<li><a href="https://paytm.com/shop/h/home-and-kitchen" onClick="trackHeaderClick('Home & Kitchen');" target="_blank">Home & Kitchen</a></li>
+<li><a href="https://paytm.com/shop/h/sports-and-health" onClick="trackHeaderClick('Sports');" target="_blank">Sports</a></li>
+<li><a href="https://paytm.com/shop/h/automotive" onClick="trackHeaderClick('Automotive');" target="_blank">Automotive</a></li>
+<li><a href="https://paytm.com/education" onClick="trackHeaderClick('Education');" target="_blank">Education</a></li>
+<li><a href="https://paytm.com/shop/h/gifts-flowers" onClick="trackHeaderClick('Gifts & Sweets');" target="_blank">Gifts</a></li>
+<li><a href="https://paytm.com/shop/h/books" onClick="trackHeaderClick('Books');" target="_blank">Books</a></li>
+<li><a href="https://paytm.com/shop/h/books-media-stationery/stationery" onClick="trackHeaderClick('Stationery');" target="_blank">Stationery</a></li>
+</ul>
+               </div>
+              </div>
+
+		</div>
+	</div>
+  
+  
+  
+  
+  
+  
+<!--div id="logo-bar">
+	<div class="logo-nav">
+            <div class="logo fl"><a href="http://www.paytm.com" class="sprite-hm paytm-logo"> </a></div>
+            <div id="for-search" class="fl"> 
+              <input type="text" maxlength="255" onkeypress="return runScript(event);" class="input-field border-radius search-across-app"><a class="search sprite-hm search-icon"></a>
+            </div>
+	</div>
+<ul id="topmenu">
+<li><a href="http://paytm.com" target="_blank">Home</a></li>
+<li><a href="http://paytm.com/shop/h/electronics" target="_blank">Electronics</a></li>
+<li><a href="http://paytm.com/shop/h/men" target="_blank">Men</a></li>
+<li><a href="http://paytm.com/shop/h/home-and-kitchen" target="_blank">Home & Kitchen</a></li>
+<li><a href="http://paytm.com/shop/h/women" target="_blank">Women</a></li>
+<li><a href="http://paytm.com/shop/h/sports-fitness-outdoors" target="_blank">Sports & Health</a></li>
+<li><a href="http://paytm.com/shop/h/books-media-stationery/stationery" target="_blank">Stationery</a></li>
+<li><a href="http://paytm.com/shop/h/books" target="_blank">Books</a></li>
+<li><a href="http://paytm.com/shop/h/baby-kids-toys" target="_blank">Kids & Toys</a></li>
+<li><a href="https://paytm.com/shop/h/automotive" target="_blank">Automotive</a></li>
+</ul>
+</div-->
+<header id="masthead" class="site-header" role="banner">
+		<div class="bluehead">
+			<div class="wrapper">
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<h3 class="menu-toggle">Menu</h3>
+					<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+									</nav><!-- #site-navigation -->
+			</div>
+		</div>
+		<!--<div class="wrapper">
+			<hgroup>
+<h1 class="site-title">//-->
+<!--<a href="" title="" rel="home">-->
+<!--<a href="http://www.paytm.com" rel="home">
+Paytm<img src="https://shop.paytm.com/images/paytm-logo.png"></a>
+	</h1>
+<h2 class="site-description"></h2>
+	</hgroup>
+</div>//-->
+	</header><!-- #masthead -->
+<div id="page" class="hfeed site">
+<div id="main" class="wrapper">
+<script type="text/javascript">
+window.dataLayer = window.dataLayer || [];
+ function trackHeaderClick(category){
+var trackObj = {
+'event' : 'nav_top_navigation_clicked',
+'nav_offer_category_name' : category,
+'nav_offer_current_page': window.location.href
+};
+dataLayer.push(trackObj);
+	};
+</script>
+
+<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+	<article id="post-661" class="post-661 page type-page status-publish hentry">
+		<header class="entry-header">
+												<h1 class="entry-title">Privacy Policy</h1>
+		</header>
+
+		<div class="entry-content">
+			<p><script>
+$(function () {
+var windowWidth = $(window).width();
+if(window.location.href.indexOf("?option=") > -1) {
+if(windowWidth < 600) {
+$('#logo-bar').hide();
+$('#page').css('marginTop',0);
+}}
+});
+</script></p>
+<style>
+body, #main {background:#f8f8f8 !important;}
+.really_simple_share {display:none !important;}
+</style>
+<div class="staticpages">
+<h1>Privacy Policy</h1>
+<ul id="comenu">
+<li><a href="https://paytm.com/about" target="_blank" rel="nofollow">About Us</a></li>
+<li><a href="https://paytm.com/awards" target="_blank" rel="nofollow">Awards</a></li>
+<li><a href="https://paytm.com/alliances" target="_blank" rel="nofollow">Partner with us</a></li>
+<li><a href="https://paytm.com/terms" target="_blank" rel="nofollow">Terms &amp; Conditions</a></li>
+<li class="active"><a href="https://paytm.com/privacy-policy" target="_blank" rel="nofollow">Privacy Policy</a></li>
+<li><a href="http://www.paytm.com/blog/" target="_blank" rel="nofollow">Blog</a></li>
+<li><a href="https://paytm.com/offer/recharge-partners">Recharge Partners</a></li>
+<li><a href="https://paytm.com/help" target="_blank" rel="nofollow">Help &amp; Support</a></li>
+<li><a href="https://paytm.com/grievance-policy" target="_blank" rel="nofollow">Grievance Policy</a></li>
+<li><a href="https://paytm.com/terms#charges" target="_blank" rel="nofollow">Wallet Charges/Validity</a></li>
+</ul>
+<div class="box">
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">We One97 Communications Ltd., are registered at 1st Floor Devika Tower, Nehru Place New Delhi - 110019 and headquartered at B-121, Sector-5, Noida - 201301, hereinafter referred to as Paytm. At Paytm, we value your trust &amp; respect your privacy. This Privacy Policy provides you with details about the manner in which your data is collected, stored &amp; used by us. You are advised to read this Privacy Policy carefully. By visiting Paytm's website/WAP site/applications you expressly give us consent to use &amp; disclose your personal information in accordance with this Privacy Policy. If you do not agree to the terms of the policy, please do not use or access Paytm website, WAP site or mobile applications.</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Note: Our privacy policy may change at any time without prior notification. To make sure that you are aware of any changes, kindly review the policy periodically. This Privacy Policy shall apply uniformly to Paytm desktop website, Paytm mobile WAP site &amp; Paytm mobile applications</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">General</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">We will not sell, share or rent your personal information to any 3rd party or use your email address/mobile number for unsolicited emails and/or SMS. Any emails and/or SMS sent by Paytm will only be in connection with the provision of agreed services &amp; products and this Privacy Policy.</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Periodically, we may reveal general statistical information about Paytm &amp; its users, such as number of visitors, number and type of goods and services purchased, etc.</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">We reserve the right to communicate your personal information to any third party that makes a legally-compliant request for its disclosure.</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Personal Information</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Personal Information means and includes all information that can be linked to a specific individual or to identify any individual, such as name, address, mailing address, telephone number, email ID, credit card number, cardholder name, card expiration date, information about your mobile phone, DTH service, data card, electricity connection, Smart Tags and any details that may have been voluntarily provide by the user in connection with availing any of the services on Paytm</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">When you browse through Paytm, we may collect information regarding the domain and host from which you access the internet, the Internet Protocol [IP] address of the computer or Internet service provider [ISP] you are using, and anonymous site statistical data.</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Use of Personal Information</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">We use personal information to provide you with services &amp; products you explicitly requested for, to resolve disputes, troubleshoot concerns, help promote safe services, collect money, measure consumer interest in our services, inform you about offers, products, services, updates, customize your experience, detect &amp; protect us against error, fraud and other criminal activity, enforce our terms and conditions, etc.</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">We also use your contact information to send you offers based on your previous orders and interests.</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">We may occasionally ask you to complete optional online surveys. These surveys may ask you for contact information and demographic information (like zip code, age, gender, etc.). We use this data to customize your experience at Paytm, providing you with content that we think you might be interested in and to display content according to your preferences.</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Cookies</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">A "cookie" is a small piece of information stored by a web server on a web browser so it can be later read back from that browser. Paytm uses cookie and tracking technology depending on the features offered. No personal information will be collected via cookies and other tracking technology; however, if you previously provided personally identifiable information, cookies may be tied to such information. Aggregate cookie and tracking information may be shared with third parties.</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Links to Other Sites</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Our site links to other websites that may collect personally identifiable information about you. Paytm is not responsible for the privacy practices or the content of those linked websites.</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Security</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Paytm has stringent security measures in place to protect the loss, misuse, and alteration of the information under our control. Whenever you change or access your account information, we offer the use of a secure server. Once your information is in our possession we adhere to strict security guidelines, protecting it against unauthorized access.</p>
+<h5 style="margin: 0px; padding: 0px; font-size: 16px; color: #333333; font-family: 'Open Sans', sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Consent</h5>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">By using Paytm and/or by providing your information, you consent to the collection and use of the information you disclose on Paytm in accordance with this Privacy Policy, including but not limited to your consent for sharing your information as per this privacy policy.</p>
+<p style="margin: 0px; padding: 10px 0px; color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">The name and contact details of the Grievance Officer are provided below:<br style="margin: 0px; padding: 0px;" />Mr. Mahesh Sharma<br style="margin: 0px; padding: 0px;" />One97 Communications Ltd<br style="margin: 0px; padding: 0px;" />B-121, Sector-5, Noida - 201301<br style="margin: 0px; padding: 0px;" />Email:<span style="margin: 0px; padding: 0px; font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-style: italic;"><a style="margin: 0px; padding: 0px; color: #00d7ff; text-decoration: none; transition: color 0.25s ease-out 0s; -webkit-transition: color 0.25s ease-out 0s; cursor: pointer;" title="Grievanceofficer@paytm.com " href="mailto:Grievanceofficer@paytm.com%20" target="_self" target="_blank" rel="nofollow">Grievanceofficer@paytm.com</a></span><br style="margin: 0px; padding: 0px;" />Time: Mon - Sat (9:00 am - 6:00 pm)</p>
+</div>
+</div>
+          			</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+					</div><!-- #secondary -->
+	</div><!-- #main .wrapper -->
+</div><!-- #page -->
+
+
+<div id ="footerlink">
+		<div class="footerStaticLink">
+			<div class="container-menu">
+				<ul class="staticLink">
+					<li> <a href="https://paytm.com/about-us" target="_self">About Us</a></li>
+		            <li> <a href="https://paytm.com/partners" target="_self">Partner with us </a></li>
+		            <li> <a href="https://paytm.com/terms" target="_self">Terms and Conditions </a></li>
+		            <li> <a href="https://paytm.com/blog" target="_blank">Blog</a></li>
+		            <li> <a href="https://paytm.com/press" target="_blank">Press</a></li>
+		            <li> <a href="https://paytm.com/help" target="_self">Customer service</a></li>
+		            <li> <a href="https://paytm.com/grievance-policy" target="_self">Grievence policy</a></li>
+		            <li> <a href="https://paytm.com/offer/bug-bounty/" target="_self">Bug bounty</a></li>
+		        </ul>
+		        <ul class="staticIcon">
+		            <li> 
+		            	<a href="https://itunes.apple.com/in/app/mobile-recharge-bill-payments/id473941634?mt=8"><i class="pt-icon-apple"></i></a>
+		            </li>
+		            <li class="blackberry"> 
+		            	<a href="https://appworld.blackberry.com/webstore/content/52308/?lang=en"><i class="pt-icon-blackberry"></i></a>
+		            </li>
+		            <li> 
+		            	<a href="http://www.windowsphone.com/en-us/store/app/paytm/43783c68-2cae-47e0-b326-e8eda1285885"><i class="pt-icon-windows"></i></a>
+		            </li>
+		            <li> 
+		            	<a href="https://play.google.com/store/apps/details?id=net.one97.paytm"><i class="pt-icon-android"></i></a>
+		            </li>
+		            <li> 
+		            	<a href="http://store.ovi.com/content/365021"><i class="pt-icon-java"></i></a>
+		            </li>
+		            <li class="lineInfo"></li>
+		            <li> 
+		            	<a href="https://twitter.com/paytm"> <i class="pt-icon-twitter"></i></a>
+		            </li>
+		            <li>
+		            	<a href="https://facebook.com/paytm"><i class="pt-icon-facebook"></i></a>
+		            </li>
+		            <li> 
+		            	<a href="https://in.pinterest.com/paytm_official/"><i class="pt-icon-pinterest-p"></i></a>
+		            </li>
+		            <li>
+		            	<a href="https://instagram.com/paytm/"><i class="pt-icon-instagram"></i></a>
+		            </li>
+				</ul>
+			</div>
+		</div>
+		<div class="footerContentInfo">
+			<div class="container-menu">
+				<div class="sellerInfo">
+					<div class="visacontInfo">
+						<ul class="visaPaytmInfo">
+							<li>
+                              <span class="verifiedVisaInfo"></span>
+							</li>
+							<li>
+                              <img src="https://paytm.com/care/wp-content/uploads/sites/9/2015/10/mastercard-securecode.png" width="45" height="17">
+                          </li>
+							<li>
+                              <span class="pciInfo"></span>
+                            </li>
+							<li class="visaPayTextInfo">Paytm Wallet is issued by One97 Communications Ltd.</li>
+						</ul>
+						<ul class="serviceInfo">
+							<li>
+								<a href="https://seller.paytm.com" target="_blank" ng-click="sendBecomeSellerTracking()">
+                                  	<span class="sellerlogoInfo"></span>
+                                  	<span class="walletTextInfo">Seller</span> 
+									<span class="serviceText">Become a Seller</span>
+						        </a>
+						    </li>
+						    <li>
+						    	<a href="http://paywithpaytm.com/" target="_blank">
+                                  	<span class="walletlogoInfo"></span>
+                                  	<span class="walletTextInfo">Wallet</span>
+						       		<span class="serviceText">Payment Services</span>
+						        </a>
+						    </li>
+						</ul>
+					</div>
+					<div class="disclaimaInfo">
+						<ul class="discContInfo">
+							<li>DISCLAIMER</li>
+      						<li>Please do not share your Paytm Wallet password, Credit/Debit card pin, other confidential information with anyone even if he/she claims to be from Paytm. We advise our customers to completely ignore such communications & report to us at cybercell@paytm.com. <a href="https://paytm.com/security" target="_blank" class="blue">read more</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="MobileReListInfo">
+					<ul class="dataDescInfo">
+						<li>
+                          <h5><a href= "/recharge" target="_self"><b>Mobile Recharge</b></a></h5><a href="/vodafone-prepaid-mobile-online-recharge.htm" target="_self" title="Vodafone Recharge">Vodafone Recharge Online</a>|<a href="/airtel-prepaid-mobile-online-recharge.htm" target="_self" title="Airtel Recharge">Airtel Recharge Online</a>|<a href="/aircel-prepaid-mobile-online-recharge.htm" target="_self" title="Aircel Recharge">Aircel Recharge Online</a>|<a href="/idea-prepaid-mobile-online-recharge.htm" target="_self" title="Idea Recharge">Idea Recharge Online</a>|<a href="/bsnl-prepaid-mobile-online-recharge.htm" target="_self" title="BSNL Recharge">BSNL Recharge Online</a>|<a href="/reliance-prepaid-mobile-online-recharge.htm" target="_self" title="Reliance GSM">Reliance GSM Recharge Online</a>|<a href="/mts-prepaid-mobile-online-recharge.htm" target="_self" title="MTS Recharge">MTS Recharge Online</a>|<a href="/mtnl-prepaid-mobile-online-recharge.htm" target="_self" title="MTNL Recharge">MTNL Recharge Online</a>|<a href="/docomo-prepaid-mobile-online-recharge.htm" target="_self" title="Tata Docomo GSM">Tata Docomo GSM Recharge Online</a>|<a href="/uninor-prepaid-mobile-online-recharge.htm" target="_self" title="Uninor Recharge">Uninor/Telenor Recharge Online</a>
+					    </li>
+					    <li>
+                          <h5><a href= "/dth-recharge" target="_self"><b>DTH Recharge</b></a></h5><a href="/online-prepaid-airtel-digital-dth-recharge.htm" target="_self" title="Airtel Digital TV Recharge">Airtel DTH Recharge</a>|<a href="/online-prepaid-videocon-d2h-recharge.htm" target="_self" title="Videocon D2H Recharge">Videocon DTH Recharge</a>|<a href="/online-prepaid-dishtv-dth-recharge.htm" target="_self" title="Dish TV DTH Recharge">Dish TV Recharge</a>|<a href="/online-prepaid-tata-sky-dth-recharge.htm" target="_self" title="Tata Sky DTH Recharge">Tata Sky Recharge</a>|<a href="/online-prepaid-reliance-digialtv-dth-recharge.htm" target="_self" title="Reliance Digital TV Recharge">Reliance DTH Recharge</a>|<a href="/online-prepaid-sundirect-dth-recharge.htm" target="_self" title="Sun Direct DTH Recharge">Sundirect Recharge</a>
+					    </li>
+					    <li>
+                          <h5><a href= "/datacard-recharge" target="_self"><b>Datacard Recharge</b></a></h5><a href="/online-bsnl-datacard-recharge.htm" target="_self" title="BSNL Data Card Recharge">BSNL Datacard Recharge</a>|<a href="/online-reliance-netconnect-plus-recharge.htm" target="_self" title="Reliance Netconnect Data Card Recharge">Reliance Netconnect Datacard Recharge</a>|<a href="/online-tata-photon-plus-recharge.htm" target="_self" title="Tata Photon+ Data Card Recharge">Tata Photon+ Datacard Recharge</a>|<a href="/online-tata-docomo-photon-whiz-recharge.htm" target="_self" title="Tata Photon Whiz Data Card Recharge">Tata Photon Whiz Datacard Recharge</a>|<a href="/online-mts-mbrowse-recharge.htm" target="_self" title="MTS Mbrowse Data Card Recharge">MTS Mbrowse Datacard Recharge</a>|<a href="/online-mts-mblaze-recharge.htm" target="_self" title="MTS Mblaze Data Card Recharge">MTS Mblaze Datacard Recharge</a>|<a href="/online-mtnl-datacard-recharge.htm" target="_self" title="MTNL Data Card Recharge">MTNL Datacard Recharge</a>|<a href="/online-airtel-datacard-recharge.htm" target="_self" title="Airtel Data Card Recharge">Airtel Datacard Recharge</a>|<a href="/online-vodafone-datacard-recharge.htm" target="_self" title="Vodafone Data Card Recharge">Vodafone Datacard Recharge</a>|<a href="/online-aircel-datacard-recharge.htm" target="_self" title="Aircel Data Card Recharge">Aircel Datacard Recharge</a>
+					    </li>
+					    <li class="last">
+                          <h5><a href= "/landline-bill-payment" target="_self"><b>Landline Bill Payment</b></a></h5><a href="/airtel-landline-bill-payment.htm" target="_self" title="Pay Airtel Landline Bill">Airtel Landline Bill Payment</a>|<a href="/connect-broadband-bill-payment.htm" target="_self" title="Pay Connect Broadband Landline Bill">Connect Broadband Landline Bill Payment</a>|<a href="/mts-landline-bill-payment.htm" target="_self" title="Pay MTS Landline Bill">MTS Landline Bill Payment</a>|<a href="/reliance-landline-bill-payment.htm" target="_self" title="Pay Reliance Landline Bill">Reliance Landline Bill Payment</a>
+					    </li>
+                        <li>
+                          <h5><a href= "/datacard-bill-payment" target="_self"><b>Datacard Bill Payment</b></a></h5><a href="/online-reliance-netconnect-bill-payment.htm" target="_self" title="Pay Reliance Netconnect Data Card Bill">Reliance Netconnect Datacard Bill Payment</a>|<a href="/online-tata-docomo-photon-plus-bill-payment.htm" target="_self" title="Pay Tata Photon+ Data Card Bill">Tata Photon+ Datacard Bill Payment</a>|<a href="/online-tata-docomo-photon-whiz-bill-payment.htm" target="_self" title="Pay Tata Photon Whiz Data Card Bill">Tata Photon Whiz Datacard Bill Payment</a>|<a href="/online-airtel-postpaid-datacard-bill-payment.htm" target="_self" title="Pay Airtel Data Card Bill">Airtel Datacard Bill Payment</a>|<a href="/online-bsnl-postpaid-datacard-bill-payment.htm" target="_self" title="Pay BSNL Data Card Bill">BSNL Datacard Bill Payment</a>|<a href="/online-mtnl-postpaid-datacard-bill-payment.htm" target="_self" title="Pay MTNL Data Card Bill">MTNL Datacard Bill Payment</a>|<a href="/online-mts-mblaze-postpaid-datacard-bill-payment.htm" target="_self" title="Pay MTS MBlaze Data Card Bill">MTS MBlaze Datacard Bill Payment</a>|<a href="/online-mts-mbrowse-postpaid-datacard-bill-payment.htm" target="_self" title="Pay MTS MBrowse Data Card Bill">MTS MBrowse Datacard Bill Payment</a>|<a href="/online-vodafone-postpaid-datacard-bill-payment.htm" target="_self" title="Pay Vodafone Data Card Bill">Vodafone Datacard Bill Payment</a>
+					    </li>
+					    <li>
+                          <h5><a href= "/electricity-bill-payment" target="_self"><b>Electricity Bill Payment</b></a></h5><a href="/uttar-haryana-bijli-vitran-nigam-uhbvn-electricity-bill-payment.htm" target="_self" title="Pay Uttar Haryana Electricity Bill">UHBVN Bill Pay</a>|<a href="/bescom-bill-payment.htm" target="_self" title="Pay BESCOM Electricity Bill">BESCOM Electricity Bill Payment</a>|<a href="/bses-rajdhani-electricity-bill-payment.htm" target="_self" title="Pay BSES Rajdhani Bill">BSES Rajdhani Bill Payment</a>|<a href="/cesc-limited-electricity-bill-payment.htm" target="_self" title="Pay CESC Electricity Bill">CESC Electricity Bill Payment</a>|<a href="/noida-power-company-npcl-electricity-bill-payment.htm" target="_self" title="Pay Noida Power Electricity Bill">NPCL Bill Payment</a>|<a href="/north-bihar-power-distribution-electricity-bill-payment.htm" target="_self" title="Pay North Bihar Power Distribution Bill">North Bihar Power Distribution Bill Payment</a>|<a href="/sndl-nagpur-electricity-bill-payment.htm" target="_self" title="Pay SNDL Nagpur Electricity Bill">SNDL Nagpur Bill Payment</a>|<a href="/tata-power-ddl-electricity-bill-payment.htm" target="_self" title="Pay TATA Power DDL Bill">TATA Power DDL Bill Payment</a>|<a href="/torrent-power-limited-bill-payment.htm" target="_self" title="Pay Torrent Power Electricity Bill">Torrent Power Limited Bill Payment</a>|<a href="/uttar-pradesh-power-uppcl-electricity-bill-payment.htm" target="_self" title="Pay Uttar Pradesh Power Bill">Uttar Pradesh Power Corporation Ltd. Bill Payment</a>|<a href="/south-bihar-power-distribution-electricity-bill-payment.htm" target="_self" title="Pay South Bihar Power Distribution Bill">South Bihar Power Distribution Bill Payment</a>
+					    </li>
+					    <li>
+                          <h5><a href= "/billpay" target="_self"><b>Mobile Bill Payment</b></a></h5><a href="/airtel-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Airtel Bill">Airtel Bill Payment</a>|<a href="/bsnl-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay BSNL Bill">BSNL Bill Payment</a>|<a href="/idea-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Idea Bill">Idea Bill Payment</a>|<a href="/vodafone-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Vodafone Bill">Vodafone Bill Payment</a>|<a href="/tata-docomo-gsm-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Tata Docomo GSM Bill">Tata Docomo GSM Bill Payment</a>|<a href="/tata-docomo-cdma-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Tata Docomo CDMA Bill">Tata Docomo CDMA Bill Payment</a>|<a href="/reliance-cdma-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Reliance CDMA Bill">Reliance CDMA Bill Payment</a>|<a href="/reliance-gsm-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay Reliance GSM Bill">Reliance GSM Bill Payment</a>|<a href="/mts-postpaid-mobile-online-bill-payment.htm" target="_self" title="Pay MTS Bill">MTS Bill Payment</a>
+					    </li>
+					    <li class="last">
+                          <h5><a href= "/gas-bill-payment" target="_self"><b>Gas Bill Payment</b></a></h5><a href="/mahanagar-mgl-gas-bill-payment" target="_self" title="Pay Mahanagar Mumbai Gas Bill">Mahanagar Gas Bill Payment</a>|<a href="/adani-gas-limited-bill-payment.htm" target="_self" title="Pay Adani Gas Bill">Adani Gas Limited Bill Payment</a>|<a href="/siti-energy-ltd-gas-bill-payment.htm" target="_self" title="Pay Siti Energy Gas Bill">Siti Energy Ltd Gas Bill Payment</a>
+					    </li>
+						<li>
+                          <h5><a href= "/metro-card-recharge" target="_self"><b>Metro Card Recharge</b></a></h5><a href="/online-delhi-metro-card-dmrc-recharge.htm" target="_self" title="DMRC Metro Card Recharge">Delhi  Metro Card Recharge</a>|<a href="/online-mumbai-metro-card-recharge.htm" target="_self" title="Mumbai Metro Card Recharge Online">Mumbai Metro Card Recharge</a>
+					    </li>
+						<li>
+                          <h5><a href= "/water-bill-payment" target="_self"><b>Water Bill Payment</b></a></h5><a href="/delhi-jal-board-djb-water-bill-payment.htm" target="_self" title="DJB Water Bill Payment">Delhi Jal Board (DJB) Water Bill Payment</a>|<a href="/aurangabad-city-water-utility-company-ltd-bill-payment.htm" target="_self" title="Pay Aurangabad Water Bill">Aurangabad Water Bill Payment</a>
+					    </li>
+						<li>
+                          <h5><a href= "/pay-insurance-premium" target="_self"><b>Insurance Premium Payment</b></a></h5><a href="/pay-premium-icici-prudential-life-insurance.htm" target="_self" title="Pay ICICI Prudential Life Insurance Premium">ICICI Prudential Life Insurance Premium Payment</a>|<a href="/pay-premium-sbi-general-insurance-limited.htm" target="_self" title="Pay SBI General Insurance Limited Premium">SBI General Insurance Limited Premium Payment</a>|<a href="/pay-premium-reliance-life-insurance.htm" target="_self" title="Pay Reliance Life Insurance Premium">Reliance Life Insurance Premium Payment</a>|<a href="/pay-premium-tata-aia-life-insurance.htm" target="_self" title="Pay TATA AIA Life Insurance Premium">TATA AIA Life Insurance Premium Payment</a>|<a href="/pay-premium-reliance-general-insurance.htm" target="_self" title="Pay Reliance General Insurance Premium">Reliance General Insurance Premium Payment</a>|<a href="/pay-premium-religare-health-life-insurance.htm" target="_self" title="Pay Religare Health Insurance Premium">Religare Health Insurance Premium Payment</a>|<a href="/pay-premium-indiafirst-life-insurance.htm" target="_self" title="Pay IndiaFirst Life Insurance Premium">IndiaFirst Life Insurance Premium Payment</a>
+						</li>
+						<li class="last">
+                          <h5><a href= "/entertainment/amusement-parks" target="_self"><b>Amusement Park Tickets</b></a></h5><a href="/entertainment/amusement-parks/delhi-ncr/water-park/" target="_self" title="Amusement Parks in Delhi">Water Parks in Delhi</a>|<a href="/entertainment/amusement-parks/pune/water-park" target="_self" title="Amusement Parks in Pune">Water Parks in Pune</a>|<a href="/entertainment/amusement-parks/mumbai/theme-park/" target="_self" title="Amusement Parks in Mumbai">Theme Parks in Mumbai</a>|<a href="/entertainment/amusement-parks/chennai/theme-park/" target="_self" title="Amusement Parks in Chennai">Theme Parks in Chennai</a>|<a href="/entertainment/amusement-parks/lucknow/water-park/" target="_self" title="Amusement Parks in Lucknow">Water Parks in Lucknow</a>
+					    </li>
+						<li>
+                          <h5><a href= "/hotels" target="_self"><b>Book Hotels</b></a></h5><a href="/hotels/nainital-hotels" target="_self" title="Book Hotels in Nainital">Nainital Hotels</a>|<a href="/hotels/shimla-hotels" target="_self" title="Book Hotels in Shimla">Shimla Hotels</a>|<a href="/hotels/kodiakanal-hotels" target="_self" title="Book Hotels in Kodaikanal">Kodaikanal Hotels</a>|<a href="/hotels/coorg-hotels" target="_self" title="Book Hotels in Coorg">Coorg Hotels</a>|<a href="/hotels/mumbai-hotels" target="_self" title="Book Hotels in Mumbai">Mumbai Hotels</a>|<a href="/hotels/pune-hotels" target="_self" title="Book Hotels in Pune">Pune Hotels</a>|<a href="/hotels/goa-hotels" target="_self" title="Book Hotels in Goa">Goa Hotels</a>|<a href="/hotels/hyderabad-hotels" target="_self" title="Book Hotels in Hyderabad">Hyderabad Hotels</a>|<a href="/hotels/delhi-hotels" target="_self" title="Book Hotels in Delhi">Delhi Hotels</a>|<a href="/hotels/jaipur-hotels" target="_self" title="Book Hotels in Jaipur">Jaipur Hotels</a>|<a href="/hotels/mussoorie-hotels" target="_self" title="Book Hotels in Mussoorie">Mussoorie Hotels</a>|<a href="/hotels/srinagar-hotels" target="_self" title="Book Hotels in Srinagar">Srinagar Hotels</a>
+						</li>
+						<li>
+                          <h5><a href= "/movies" target="_self"><b>Book Movie Tickets</b></a></h5><a href="/movies/hyderabad" target="_self" title="Hyderabad Movie Tickets">Movies in Hyderabad</a>|<a href="/movies/chandigarh" target="_self" title="Chandigarh Movie Tickets">Movies in Chandigarh</a>|<a href="/movies/chennai" target="_self" title="Chennai Movie Tickets">Movies in Chennai</a>|<a href="/movies/pune" target="_self" title="Pune Movie Tickets">Movies in Pune</a>|<a href="/movies/ahmedabad" target="_self" title="Ahmedabad Movie Tickets">Movies in Ahmedabad</a>|<a href="/movies/kolkata" target="_self" title="Kolkata Movie Tickets">Movies in Kolkata</a>|<a href="/movies/vijayawada" target="_self" title="Vijayawada Movie Tickets">Movies in Vijayawada</a>|<a href="/movies/delhi-ncr" target="_self" title="Delhi Movie Tickets">Movies in Delhi</a>|<a href="/movies/vizag" target="_self" title="Vizag Movie Tickets">Movies in Vizag</a>|<a href="/movies/madurai" target="_self" title="Madurai Movie Tickets">Movies in Madurai</a>|<a href="/movies/thrissur" target="_self" title="Thrissur Movie Tickets">Movies in Thrissur</a>
+						</li>
+						<li>
+                          <h5><a href= "/bus-tickets" target="_self"><b>Book Bus Tickets</b></a></h5><a href="/bus-tickets/chennai-to-bangalore-booking" target="_self" title="Book Buses from Chennai to Bangalore">Chennai to Bangalore Bus</a>|<a href="/bus-tickets/hyderabad-to-bangalore-booking" target="_self" title="Book Buses from Hyderabad to Bangalore">Hyderabad to Bangalore Bus</a>|<a href="/bus-tickets/bangalore-to-hyderabad-booking" target="_self" title="Book Buses from Bangalore to Hyderabad">Bangalore to Hyderabad Bus</a>|<a href="/bus-tickets/bangalore-to-chennai-booking" target="_self" title="Book Buses from Bangalore to Chennai">Bangalore to Chennai Bus</a>|<a href="/bus-tickets/mumbai-to-pune-booking" target="_self" title="Book Buses from Mumbai to Pune">Mumbai to Pune Bus</a>|<a href="/bus-tickets/pune-to-shirdi-booking" target="_self" title="Book Buses from Pune to Shirdi">Pune to Shirdi Bus</a>|<a href="/bus-tickets/hyderabad-to-goa-booking" target="_self" title="Book Buses from Hyderabad to Goa">Hyderabad to Goa Bus</a>|<a href="/bus-tickets/mumbai-to-hyderabad-booking" target="_self" title="Book Buses from Mumbai to Hyderabad">Mumbai to Hyderabad Bus</a>|<a href="/bus-tickets/pune-to-indore-booking" target="_self" title="Book Buses from Pune to Indore">Pune to Indore Bus</a>|<a href="/bus-tickets/Indore-to-bhopal-booking" target="_self" title="Book Buses from Indore to Bhopal">Indore to Bhopal Bus</a>|<a href="/bus-tickets/chennai-to-coimbatore-booking" target="_self" title="Book Buses from Chennai to Coimbatore">Chennai to Coimbatore Bus</a>|<a href="/bus-tickets/chennai-to-hyderabad-booking" target="_self" title="Book Buses from Chennai to Hyderabad">Chennai to Hyderabad Bus</a>
+						</li>
+						<li class="last">
+                          <h5><a href= "/offer/special-for-you/" target="_self"><b>Special Offers</b></a></h5><a href="/offer/" target="_self" title="Shopping Offers">Shopping Offers</a>|<a href="/offer/travel" target="_self" title="Offers on Bus Tickets, Hotels & Flight Booking">Travel Offers</a>|<a href="/offer/hotel-booking" target="_self" title="Last Minute Hotel Booking Offers">Hotel Booking Offers</a>|<a href="/offer/bus-tickets" target="_self" title="Bus Ticket Booking Offers">Bus Ticket Offers</a>|<a href="/offer/flight-tickets" target="_self" title="Flight Ticket Booking Offers">Flight Offers</a>|<a href="/offer/recharge/" target="_self" title="Mobile Recharge Offers">Recharge Offers</a>|<a href="/offer/movie-tickets" target="_self" title="Movie Offers">Movie Ticket Offers</a>
+					    </li>
+						
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</div><!-- #colophon -->
+
+
+<script>
+var standalone = window.navigator.standalone;
+    var userAgent = window.navigator.userAgent.toLowerCase();
+    var safari = /safari/.test(userAgent);
+    var ios = /iphone|ipod|ipad/.test(userAgent);
+    
+    // if ios-app
+    if (ios && !standalone && !safari ){
+    //call function to change 'href' val
+    modifyAnchorLink('data-ios-href')
+    } // if android-app
+    else if(userAgent.indexOf('paytm-android-app') > -1){
+    //call function to change 'href' val
+    modifyAnchorLink('data-android-href')
+    }
+    
+    
+    /** function to change href value of 'anchor' tag
+    modType: This will determine the ios or android data-href.
+    **/
+    
+    function modifyAnchorLink(modType){
+    // find all 'anchor' tags
+   	var allLinkRef = document.getElementsByTagName('a');
+   	// Converting HTML DOM Collection to array.
+allLinkArr = Array.prototype.slice.call(allLinkRef);
+// check for required 'data-<platform>-href' attribute on each link, and replace the 'href' accordingly.
+    allLinkArr.forEach(function(link,index){
+var dataAttr = link.getAttribute(modType);
+if(dataAttr){
+link.setAttribute('href',dataAttr);
+}
+});
+    }
+</script>
+<script>
+API_Key = "k4q8t4y352flnjgadjfhg8b8dafod1ts88n0makhns";Project_Id = "paytmapi";AmplifyConnect_Widget = false;var shareTracking = false;var urlTracking = false;function _amplify(u) {var d = document, f = d.getElementsByTagName('script')[0],_sc = d.createElement('script');_sc.type = 'text/javascript';_sc.async = true;_sc.src = u;f.parentNode.insertBefore(_sc, f);__d = false;_sc.onload = _sc.onreadystatechange = function () {if (!__d && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {__d = true;Amplify = new AmplifyEngine();}};}
+if(typeof(Amplify)=="undefined" && typeof(window.amplify_flag)=="undefined"){
+  _amplify('//d1pv4vyzxg8lx0.cloudfront.net/tejas.min.js');
+window.amplify_flag = true;
+  }
+  window.amplifyInit = function () {
+  Amplify.identify({email:"",name: ""});
+  }
+</script>
+</body>
+</html>

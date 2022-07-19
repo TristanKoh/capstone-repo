@@ -1,0 +1,180 @@
+policy_id: 121
+policy_name: BigDuckGames
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Home Games News About Contact Welcome Home Games News About Contact
+    Welcome Privacy Policy Big Duck Games LLC Privacy Policy The following Privacy
+    Policy applies to all games of Big Duck Games (the "Game") as well as any and
+    all related web sites.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: When you sign up to post in one of our forums or participate in any
+    other manner, you may grant access to certain information such as your email address,
+    your name, a unique user name, or other information you share, either directly
+    or by granting access to your user account on social network such as Facebook
+    or Google+. This and any other Personally Identifiable Information you provide,
+    directly or indirectly, is collectively referred to as your "PII," and is used
+    to facilitate and enhance your player experience.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This and any other Personally Identifiable Information you provide,
+      directly or indirectly, is collectively referred to as your "PII," and is used
+      to facilitate and enhance your player experience.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: When you sign up to post in one of our forums or participate in
+      any other manner, you may grant access to certain information such as your email
+      address, your name, a unique user name, or other information you share, either
+      directly or by granting access to your user account on social network such as
+      Facebook or Google+.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: Only qualified staff and our trusted operational partners, who help
+    Big Duck to deliver and service the Game, have access to your PII. Big Duck WILL
+    NOT share your PII with anyone else or any other organization. Your PII WILL NEVER
+    be sold or distributed in any form or for any other purpose unless approved by
+    you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Only qualified staff and our trusted operational partners, who
+      help Big Duck to deliver and service the Game, have access to your PII.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Big Duck may use your PII for communications that we deem appropriate
+    for you, as a Player, to play effectively and to enhance and enrich your experience
+    in the Game or related web sites. For example, you may receive messages to inform
+    you about your actions in the game or those of your friends, as well as important
+    "Service Announcements" concerning any temporary site or system outages, plus
+    any maintenance issues that may affect the level of service.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: In addition, Big Duck may also offer you the opportunity to "opt in"
+    to receive additional email communications, including Big Duck News Releases related
+    to all the latest-breaking news, the launch of new Big Duck games, and announcements
+    of all new Big Duck Games options and features.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: If at any time a you indicate that you no longer want to receive communications
+    from Big Duck, or if you wish to cancel your account, or to change or correct
+    any of your PII, you are free to do so and your PII will be deleted, changed,
+    or corrected as requested.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: The Big Duck web sites may uses cookies to track how and when customers
+    who visit the site. Cookies are pieces of information that a web site transfers
+    to an individual's hard drive for record keeping purposes. Cookies make web surfing
+    easier by saving your passwords and other preferences for you. The use of cookies
+    is an industry standard, and you will find most major web sites use them. Cookies
+    also help us to see which areas of the site are popular and which are not. We
+    can then improve the site based on this information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies also help us to see which areas of the site are popular
+      and which are not.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies are pieces of information that a web site transfers to
+      an individual's hard drive for record keeping purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies make web surfing easier by saving your passwords and other
+      preferences for you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The Big Duck web sites may uses cookies to track how and when customers
+      who visit the site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The use of cookies is an industry standard, and you will find most
+      major web sites use them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We can then improve the site based on this information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: The Game and Big Duck web sites may contain links to other sites;
+    Big Duck Games is not responsible for the privacy practices or the content of
+    such Web sites.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Big Duck will occasionally update this Privacy Policy. When we do,
+    we will also revise the "Last Update" date at the bottom of this Privacy Policy.
+    Big Duck will obtain your opt-in consent for any updates to this Privacy Policy
+    that materially expand any sharing or use of your PII in ways not disclosed in
+    this Privacy Policy at the time you registered.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: If you have any questions or comments regarding this Privacy Policy,
+    feel free to contact us at support@bigduckgames.com
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 'Last Update: December 5, 2012 Back to Top Privacy Policy'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: When you sign up to post in one of our forums or participate in any
+    other manner, we never access or let third parties access certain information
+    such as your email address, your name, your unique user name, or other information
+    you share.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you sign up to post in one of our forums or participate in
+      any other manner, we never access or let third parties access certain information
+      such as your email address, your name, your unique user name, or other information
+      you share.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED

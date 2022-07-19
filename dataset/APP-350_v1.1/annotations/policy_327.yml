@@ -1,0 +1,423 @@
+policy_id: 327
+policy_name: TopFreeGames
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Top Free Games Home
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Bike Race - Privacy Policy Last updated: November 28, 2012 Protecting
+    your privacy is really important to Top Free Games, limited. ("Top Free Games",
+    "our", "us" or "we"). We provide this Privacy Policy to inform you of our policies
+    and procedures regarding the collection, use and disclosure of information we
+    receive from users of our game applications for mobile devices and tablet computers
+    (the "Apps"). This Privacy Policy applies only to information that you provide
+    to us through the Apps.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: How do we collect and use information? Our primary goals in collecting
+    information are to provide and improve our Apps and related services (collectively,
+    the "Services"), to administer your use of the Services (including your account,
+    if you choose to create an account for your use of the Services), and to enable
+    you to enjoy our Services.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Account Information In connection with your use of the Services, we
+    do not collect any information that can be used to contact or identify you directly,
+    such as your full name, email address, postal address or phone number ("Personally
+    Identifiable Information" or "PII"). However, we may collect certain other information
+    that you provide us, such as your nickname, if you use our Services as a guest.
+    If you choose to create an account for your use of the Services through one of
+    your third party social networking accounts (such as Facebook) ("SNS Accounts"),
+    you may have to provide us with your username (or userID) so that your identity
+    can be authenticated by the SNS Account. When the authentication is complete,
+    we'll be able to link your account with the SNS Account and access certain information,
+    such as your first name, SNS Account profile picture and SNS Account identification
+    number. We don't receive or store passwords for any of your SNS Accounts.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to create an account for your use of the Services
+      through one of your third party social networking accounts (such as Facebook)
+      ("SNS Accounts"), you may have to provide us with your username (or userID)
+      so that your identity can be authenticated by the SNS Account.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: In connection with your use of the Services, we do not collect
+      any information that can be used to contact or identify you directly, such as
+      your full name, email address, postal address or phone number ("Personally Identifiable
+      Information" or "PII").
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We don't receive or store passwords for any of your SNS Accounts.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: When the authentication is complete, we'll be able to link your
+      account with the SNS Account and access certain information, such as your first
+      name, SNS Account profile picture and SNS Account identification number.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Information Related to Use of the Services Our servers automatically
+    record certain information about how a person uses our Services (we refer to this
+    information as "Log Data"), including both account holders and non-account holders
+    (either, a "User"). Log Data may include information such as a User's Internet
+    Protocol (IP) address, device type, operating system, the links and advertisements
+    on our Services that a User clicked on, the amount of time you interact with the
+    Services and other statistics. We use this information to administer the Services
+    and we analyze (and may engage third parties to analyze) this information to improve
+    and enhance the Services by expanding their features and functionality and tailoring
+    them to our Users' needs and preferences. We also use the IP Address to generate
+    aggregate, non-identifying information about how our Services are used.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Log Data may include information such as a User's Internet Protocol
+      (IP) address, device type, operating system, the links and advertisements on
+      our Services that a User clicked on, the amount of time you interact with the
+      Services and other statistics.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Our servers automatically record certain information about how
+      a person uses our Services (we refer to this information as "Log Data"), including
+      both account holders and non-account holders (either, a "User").
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We also use the IP Address to generate aggregate, non-identifying
+      information about how our Services are used.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use this information to administer the Services and we analyze
+      (and may engage third parties to analyze) this information to improve and enhance
+      the Services by expanding their features and functionality and tailoring them
+      to our Users' needs and preferences.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: We use Flurry analytics to collect, monitor and analyze Log Data in
+    order to increase our Services' functionality and user-friendliness, and to better
+    tailor our Services to our visitors' needs. We also use this information to verify
+    that visitors to the Services meet the criteria required to process their requests.
+    Accordingly, Log Data is shared with Flurry, which has its own privacy policy
+    (accessible at http://www.flurry.com/about-us/legal/privacy.html) addressing how
+    Flurry uses such information. You may opt out of Flurry Analytics tracking and
+    personalized ads/recommendations from Flurry by clicking here. Please note that
+    the opt-out is specific to Flurry activities and does not affect the activities
+    of other ad networks or analytics providers.
+  annotations:
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Accordingly, Log Data is shared with Flurry,
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We also use this information to verify that visitors to the Services
+      meet the criteria required to process their requests.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use Flurry analytics to collect, monitor and analyze Log Data
+      in order to increase our Services' functionality and user-friendliness, and
+      to better tailor our Services to our visitors' needs.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Location Information In some cases we collect and store information
+    about where you are located, such as by converting your IP address into a rough
+    geolocation. We may use location information to improve and personalize our Services
+    for you.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In some cases we collect and store information about where you
+      are located, such as by converting your IP address into a rough geolocation.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use location information to improve and personalize our
+      Services for you.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Mobile Device Information When you access the Services via a mobile
+    device, we will collect information related to the mobile device such as the serial
+    number or MAC address and the open UDID of the device. We may use this information
+    to improve and personalize our Services for you.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Mobile Device Information When you access the Services via a mobile
+      device, we will collect information related to the mobile device such as the
+      serial number or MAC address and the open UDID of the device.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Advertising & Third Party Products and Services The Services are supported
+    via advertising, and we collect certain data to help the Services serve ads. We
+    may work with analytics companies to help us understand how the Services are being
+    used, such as the frequency and duration of usage. We work with advertisers and
+    third party advertising networks, who need to know how you interact with advertising
+    provided in the Services which helps us keep the cost of the Services low. Advertisers
+    and advertising networks use some of the information collected by the Services,
+    including the unique identification ID of your mobile device. To protect the anonymity
+    of this information, we use an encryption technology to help ensure that these
+    third parties can't identify you personally. These third parties may also obtain
+    information about other services you've downloaded to your mobile device, the
+    mobile websites you visit, your non-precise location information (e.g., your zip
+    code), and other non-precise location information in order to help analyze and
+    serve anonymous targeted advertising on the Services and elsewhere. We may also
+    share encrypted versions of information you have provided in order to enable our
+    partners to append other available information about you for analysis or advertising
+    related use.
+  annotations:
+  - practice: Contact_ZIP_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertisers and advertising networks use some of the information
+      collected by the Services, including the unique identification ID of your mobile
+      device.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties may also obtain information about other services
+      you've downloaded to your mobile device, the mobile websites you visit, your
+      non-precise location information (e.g., your zip code), and other non-precise
+      location information in order to help analyze and serve anonymous targeted advertising
+      on the Services and elsewhere.
+    annotations:
+    - practice: Contact_ZIP_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'What Information Do We Share With Third Parties? We will not share
+    any information that we have collected from you except as described below: Account
+    holders If you choose to connect your SNS Account to the Services, other Users
+    of the Services will be able to see your SNS Account first name and profile picture
+    and information related to your use of the Services, such as the number of times
+    you have accessed or used the Services.'
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to connect your SNS Account to the Services, other
+      Users of the Services will be able to see your SNS Account first name and profile
+      picture and information related to your use of the Services, such as the number
+      of times you have accessed or used the Services.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: 'We will not share any information that we have collected from
+      you except as described below:'
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Guest Users If you choose to use the Services without connecting to
+    an SNS Account, your nickname and information related to your use of the Services,
+    such as the number of times you have accessed or used the Services, will be viewable
+    by other Users.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Information Shared with Our Services Providers We may engage third
+    party service providers to work with us to administer and provide the Services.
+    These third-party services providers have access to your information only for
+    the purpose of performing services on our behalf and are expressly obligated not
+    to disclose or use your information for any other purpose.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Information Shared with Third Parties We may share aggregated information
+    and non-identifying information with third parties for industry analysis, demographic
+    profiling and other similar purposes.
+  annotations:
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may share aggregated information and non-identifying information
+      with third parties for industry analysis, demographic profiling and other similar
+      purposes.
+    annotations:
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Information Disclosed in Connection with Business Transactions Information
+    that we collect from our users, including PII, is considered to be a business
+    asset. As a result, if we go out of business or enter bankruptcy or if we are
+    acquired as a result of a transaction such as a merger, acquisition or asset sale,
+    your information may be disclosed or transferred to the third-party acquirer in
+    connection with the transaction.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Information Disclosed for Our Protection and the Protection of Others
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'It is our policy to protect you from having your privacy violated
+    through abuse of the legal systems, whether by individuals, entities or government,
+    and to contest claims that we believe to be invalid under applicable law. However,
+    it is also our policy to cooperate with government and law enforcement officials
+    and private parties. Accordingly, we reserve the right to disclose any information
+    about you to government or law enforcement officials or private parties as we,
+    in our sole discretion, believe necessary: (i) to satisfy or comply with any applicable
+    law, regulation or legal process or to respond to lawful requests, including subpoenas,
+    warrants or court orders; (ii) to protect our property, rights and safety and
+    the rights, property and safety of third parties or the public in general; and
+    (iv) to prevent or stop activity we consider to be illegal or unethical.'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Information We Disclose With Your Consent or at Your Request
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We will share your information with third-party sites or platforms,
+    such as social networking sites, if you have expressly requested that we do so
+    via the Services.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: The Security of Your Information We take reasonable measures to protect
+    the information that we collect from or about you (including your information)
+    from unauthorized access, use or disclosure. Please be aware, however, that no
+    method of transmitting information over the Internet or storing information is
+    completely secure. Accordingly, we cannot guarantee the absolute security of any
+    information.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Links to Other Sites Our Services may contain links to other websites
+    and services. Any information that you provide on or to a third-party website
+    or service is provided directly to the owner of the website or service and is
+    subject to that party's privacy policy. Our Privacy Policy does not apply to such
+    websites or services and we're not responsible for the content, privacy or security
+    practices and policies of those websites or services. To protect your information
+    we recommend that you carefully review the privacy policies of other websites
+    and services that you access.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Modifying Your Information You can access and modify the information
+    associated with your account in the "Settings" section of the Services. If you
+    want us to delete your information and your account, please contact us at support@topfreegames.com
+    with your request. We'll take steps to delete your information as soon as is practicable,
+    but some information may remain in archived/backup copies for our records or as
+    otherwise required by law.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: International Transfer Your information may be transferred to, and
+    maintained on, computers located outside of your state, province, country or other
+    governmental jurisdiction where the privacy laws may not be as protective as those
+    in your jurisdiction. If you're located outside the United States and choose to
+    provide information to us, we may transfer your information to the United States
+    and Brazil and process it there.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Our Policy Toward Children Our Services are not directed to children
+    under 13 and we do not knowingly collect PII from children under 13. If we learn
+    that we have collected PII of a child under 13 we will take steps to delete such
+    information from our files as soon as possible.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Changes to Privacy Policy This Privacy Policy may be updated from
+    time to time for any reason. We will notify you of any changes to our Privacy
+    Policy by posting the new Privacy Policy here. You are advised to consult this
+    Privacy Policy regularly for any changes.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Questions? Please contact us at support@topfreegames.com if you have
+    any questions about our Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "\xA9 Top Free Games 2012"
+  annotations: []
+  sentences: []

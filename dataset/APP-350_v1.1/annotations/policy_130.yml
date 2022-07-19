@@ -1,0 +1,223 @@
+policy_id: 130
+policy_name: CheetahMobileCMLauncher
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Cheetah Mobile Clean Master CM Security PIANO TILES 2 LIVE.ME More
+    Products Clean Master CM Security Live.me WhatsCall Piano Tiles 2 PhotoGrid News
+    Republic Battery Doctor CM Launcher CM Browser CM Locker CM Backup CM Behavior
+    Cloud Clean Master for PC Business Cheetah Ad Platform Pegasi Libra Media Blog
+    Security Topics CEO Talks Press Release About Company Information Investor Relations
+    Promotion Policy Global Talent Contact Us Follow Us Facebook Twitter LinkedIn
+    CM Launcher User Experience Improvement Program Updated: February 10th, 2015 As
+    you use a launcher to organize your device, view your phone calls, search information,
+    visit websites, manage the installed apps, etc., when you use these function,
+    for example, typing a keyword and see related information from your devices or
+    Internet via CM Launcher, we collect information from you in order to provide
+    corresponding service and better user experience to you. When participating in
+    CM Launcher user experience improvement program (UX Improvement Program), as appropriate,
+    your usage, statistics, input while using CM Launcher, and crash reports would
+    be collected.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "And here we explain what information we collect, why, and how we\
+    \ use the information: What do we use your information for? Any of the information\
+    \ we collect from you may be used in one of the following ways: \u2022 To personalize\
+    \ your experience"
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "(Your information helps us to better respond to your individual needs)\
+    \ \u2022 To improve our application"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: "(We continually strive to improve our application based on the information\
+    \ and feedback we receive from you) \u2022 To improve customer service"
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: "(Your information helps us to more effectively respond to your customer\
+    \ service requests and support needs) \u2022 To administer a contest, promotion,\
+    \ survey or other site feature \u2022 To perform the examination for the potential\
+    \ security threat of your device"
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: "(The potential SMS phishing threat via SMS Messages) \u2022 To send\
+    \ periodic emails"
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: (The email address you provide in user experience improvement program
+    or feedback your opinions to us, will only be used to respond your feedback, send
+    you information and updates of our products and services.)
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: (The email address you provide in user experience improvement program
+      or feedback your opinions to us, will only be used to respond your feedback,
+      send you information and updates of our products and services.)
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: "What information do we collect? We collect information to improve\
+    \ our application and provide better services to all of our users - including:\
+    \ \u2022 the information you give us, for example, when you give us your opinions\
+    \ to our application and services via our feedback channel; \u2022 the information\
+    \ we get from your use of our application and services, like the keywords you\
+    \ type in our application to search, the websites link you input, click, interact,\
+    \ and trigger from any application in your device, and the application list installed\
+    \ in your device; \u2022 log information, the application events such as version,\
+    \ installed date and time, usages statistics, crashes event, and dump reports\
+    \ of our application; \u2022 location information, locale, and the MCC (mobile\
+    \ country code);"
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: What information do we collect?
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: "\u2022 device information, such as your hardware model, build fingerprint,\
+    \ ROM size, CPU model, device display DPI, android ID, Google advertising ID,\
+    \ phone type & model, network type, and operation system version, etc.;"
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: location information, locale, and the MCC (mobile country code);
+      device information, such as your hardware model, build fingerprint, ROM size,
+      CPU model, device display DPI, android ID, Google advertising ID, phone type
+      & model, network type, and operation system version, etc.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: We do not collect your personal identifiable information when you
+    using our product, such as name, phone number, physical address, SMS messages,
+    emails.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your personal identifiable information when you
+      using our product, such as name, phone number, physical address, SMS messages,
+      emails.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 10
+  segment_text: "Do we disclose any information to outside parties? \u2022 We do not\
+    \ sell, trade, or otherwise transfer to outside parties your personal identifiable\
+    \ information. This does not include: \u2022 Trusted third parties who assist\
+    \ us in operating our website, conducting our business, or servicing you, as long\
+    \ as those parties agree to keep this information confidential; \u2022 We will\
+    \ access, use or disclose your information with other organizations or entities\
+    \ for reasons that required by any applicable law, regulation, legal process or\
+    \ enforceable governmental request; \u2022 Detect, prevent, or otherwise fraud,\
+    \ security or technical issues; \u2022 Protect against harm to the rights, property\
+    \ or safety of Cheetah Mobile, our users or the public as required or permitted\
+    \ by law"
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Security We are very concerned about safeguarding the confidentiality
+    of your information. We do not collect Personal Information, and we employ administrative,
+    physical and electronic measures designed to protect your Non-Personal Information
+    from unauthorized access and use. Please be aware that no security measures that
+    we take to protect your information is absolutely guaranteed to avoid unauthorized
+    access or use of your Non-Personal Information which is impenetrable.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Sensitive Information We ask that you not send us, and you not disclose,
+    any sensitive Personal Information (e.g., information related to racial or ethnic
+    origin, political opinions, religion or other beliefs, health, sexual orientation,
+    criminal background or membership in past organizations, including trade union
+    memberships) on or through an Application, the Services or the Site or otherwise
+    to us.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Children We do not provide service focus on Children. If you are under
+    13, you may use our application or services when you are with a parent or guardian.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: CONTACTING US / REPORTING VIOLATIONS If you have any questions or
+    comments about this Policy or our privacy practices, or to report any violations
+    of the Policy or abuse of an Application, the Services or the Site, please contact
+    us at launcher@cmcm.com.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Changes to our Privacy Policy Our Privacy Policy may change from time
+    to time, we will post any privacy policy changes on our website http://www.cmcm.com/
+    under our application page, so please review it periodically. We may provide you
+    additional forms of notice of modifications or updates as appropriate under the
+    circumstances.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: "Privacy Policy | Cheetah Mobile \xA9 2017 \xB7 EnglishEnglishEspa\xF1\
+    olFran\xE7aisP\u0443\u0441\u0441\u043A\u0438\u0439Portugu\xEAs\u65E5\u672C\u8A9E\
+    \uD55C\uAD6D\uC5B4\u7E41\u9AD4\u4E2D\u6587\u7B80\u4F53\u4E2D\u6587"
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "What information do we not collect?\_\u2026 location information,\
+    \ locale, and the MCC (mobile country code); device information, such as your\
+    \ hardware model, build fingerprint, ROM size, CPU model, device display DPI,\
+    \ android ID, Google advertising ID, phone type & model, network type, and operation\
+    \ system version, etc.;"
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "What information do we not collect?\_\u2026 location information,\
+      \ locale, and the MCC (mobile country code); device information, such as your\
+      \ hardware model, build fingerprint, ROM size, CPU model, device display DPI,\
+      \ android ID, Google advertising ID, phone type & model, network type, and operation\
+      \ system version, etc.;"
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED

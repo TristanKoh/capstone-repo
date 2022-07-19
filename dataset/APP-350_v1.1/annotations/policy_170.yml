@@ -1,0 +1,123 @@
+policy_id: 170
+policy_name: com.intellijoy.android.shapes
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Contact Us Games Blog Our Team Why Intellijoy Contact Us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy Last updated: January 25, 2017 Intellijoy''s privacy
+    policy is very simple.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We DO NOT collect your name, location or phone number.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We DO NOT collect your name, location or phone number.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: On iOS-based devices, we DO NOT collect your device id. Period.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: On iOS-based devices, we DO NOT collect your device id.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 4
+  segment_text: On Android-based devices, we DO collect your device id via Flurry,
+    a third party analytics tool. User's device id is required in order to know how
+    many users use any given feature. This helps us remove confusing features and
+    make our apps more user-friendly.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: On Android-based devices, we DO collect your device id via Flurry,
+      a third party analytics tool.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: This helps us remove confusing features and make our apps more
+      user-friendly.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: User's device id is required in order to know how many users use
+      any given feature.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: To make sure Flurry DOES NOT use your device id for any behavioral
+    advertising of its own, we use Flurry's Restricted Feature Set functionality,
+    which prevents Flurry from using your device id for any behavioral targeting.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To make sure Flurry DOES NOT use your device id for any behavioral
+      advertising of its own, we use Flurry's Restricted Feature Set functionality,
+      which prevents Flurry from using your device id for any behavioral targeting.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: We DO NOT use your device id (or anything, for that matter) for advertising.
+    In fact, our games contain NO ADS. That's right - unlike most publishers, we do
+    not serve any ads for any third-party products or services. Home / All Games /
+    Blog / Our Team / Why Intellijoy / Testimonials / Privacy Policy /
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In fact, our games contain NO ADS.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: "That's right \u2013 unlike most publishers, we do not serve any\
+      \ ads for any third-party products or services."
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: We DO NOT use your device id (or anything, for that matter) for
+      advertising.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: "Copyright \xA9 Intellijoy, 2016"
+  annotations: []
+  sentences: []

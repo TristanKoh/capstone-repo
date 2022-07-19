@@ -1,0 +1,248 @@
+policy_id: 275
+policy_name: Mozilla
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Mozilla Menu Internet Health Web Innovations Donate
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Mozilla Privacy Mozilla Privacy Policy April 15, 2014 Your privacy
+    is an important factor that Mozilla (that's us) considers in the development of
+    each of our products and services. We are committed to being transparent and open.
+    This Mozilla Privacy Policy explains generally how we receive information about
+    you, and what we do with that information once we have it. You can also read our
+    product privacy notices and FAQs to get more detail with respect to each of our
+    products and services.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: What do we mean by "personal information?" For us, "personal information"
+    means information which identifies you, like your name or email address.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Any information that falls outside of this is "non-personal information."
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: If we store your personal information with information that is non-personal,
+    we will consider the combination as personal information. If we remove all personal
+    information from a set of data then the remaining is non-personal information.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'How do we learn information about you? We learn information about
+    you when: you give it to us directly (e.g., when you choose to send us crash reports);
+    we collect it automatically through our products and services (e.g., when your
+    Firefox browser checks with us to see if is up to date); someone else tells us
+    information about you (e.g., when Thunderbird works with your email providers
+    to set up your account); or when we try and understand more about you based on
+    information you''ve given to us (e.g., when we use your IP address to customize
+    language for some of our services).'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We learn information about you when:'
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: someone else tells us information about you (e.g., when Thunderbird
+      works with your email providers to set up your account)
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: when we try and understand more about you based on information
+      you've given to us (e.g., when we use your IP address to customize language
+      for some of our services).
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: What do we do with your information once we have it?
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: When you give us information, we will use it in the ways for which
+    you've given us permission. Generally, we use your information to help us provide
+    and improve our products and services for you.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: When do we share your information with others? When we have asked
+    and received your permission to share it. For processing or providing products
+    and services to you, but only if those entities receiving your information are
+    contractually obligated to handle the data in ways that are approved by Mozilla.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: When we are fulfilling our mission of being open. We sometimes release
+    information to make our products better and foster an open web, but when we do
+    so, we will remove your personal information and try to disclose it in a way that
+    minimizes the risk of you being re-identified.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: When the law requires it. We follow the law whenever we receive requests
+    about you from a government or related to a lawsuit. We'll notify you when we're
+    asked to hand over your personal information in this way unless we're legally
+    prohibited from doing so. When we receive requests like this, we'll only release
+    your personal information if we have a good faith belief that the law requires
+    us to do so. Nothing in this policy is intended to limit any legal defenses or
+    objections that you may have to a third party's request to disclose your information.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: When we believe it is necessary to prevent harm to you or someone
+    else. We will only share your information in this way if we have a good faith
+    belief that it is reasonably necessary to protect the rights, property or safety
+    of you, our other users, Mozilla or the public. If our organizational structure
+    or status changes (if we undergo a restructuring, are acquired, or go bankrupt)
+    we may pass your information to a successor or affiliate.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: How do we store and protect your personal information? We are committed
+    to protecting your personal information once we have it. We implement physical,
+    business and technical security measures. Despite our efforts, if we learn of
+    a security breach, we'll notify you so that you can take appropriate protective
+    steps.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We also don't want your personal information for any longer than we
+    need it, so we only keep it long enough to do what we collected it for. Once we
+    don't need it, we take steps to destroy it unless we are required by law to keep
+    it longer.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: What else should you know? We're a global organization and our computers
+    are in several different places around the world. We also use service providers
+    whose computers may also be in various countries. This means that your information
+    might end up on one of those computers in another country, and that country may
+    have a different level of data protection regulation than yours. By giving us
+    information, you consent to this kind of transfer of your information. No matter
+    what country your information is in, we comply with applicable law and will also
+    abide by the commitments we make in this privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: If you are under 13, we don't want your personal information, and
+    you must not provide it to us. If you are a parent and believe that your child
+    who is under 13 has provided us with personal information, please contact us to
+    have your child's information removed.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: What if we change this privacy policy or any of our privacy notices?
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We may need to change this policy and our notices. The updates will
+    be posted online. If the changes are substantive, we will announce the update
+    through Mozilla's usual channels for such announcements such as blog posts and
+    forums. Your continued use of the product or service after the effective date
+    of such changes constitutes your acceptance of such changes. To make your review
+    more convenient, we will post an effective date at the top of the page.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'Contact Mozilla If you want to make a correction to your information,
+    or you have any questions about our privacy policies, please get in touch with:
+    Mozilla Corporation Attn: Legal Notices - Privacy 2 Harrison St, San Francisco,
+    94105 Data Privacy Principles Mozilla is an open source project with a mission
+    to improve your Internet experience. This is a driving force behind our data privacy
+    practices. Read More'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 'Our Privacy Notices We created short and clear Privacy Notices to
+    describe how each of our products and services receives, shares, and uses data
+    and what your choices are. Learn more: Mozilla Websites, Communications & Cookies
+    Firefox Browser Firefox OS Firefox Cloud Services Firefox Marketplace Firefox
+    Focus Persona Thunderbird'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Learn more: Mozilla Websites, Communications & Cookies Firefox
+      Browser Firefox OS Firefox Cloud Services Firefox Marketplace Firefox Focus
+      Persona Thunderbird'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Privacy Notices We created short and clear Privacy Notices
+      to describe how each of our products and services receives, shares, and uses
+      data and what your choices are.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: Get Involved To review and comment on proposed changes to our privacy
+    policies subscribe to Mozilla's Governance Group.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Our ongoing work on privacy is covered by the Privacy & Data Safety
+    Blog and information about our ongoing work is available on Mozilla's privacy
+    team wiki.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: "Outdated Policies Mozilla Portions of this content are \xA91998-2017\
+    \ by individual mozilla.org contributors. Content available under a Creative Commons\
+    \ license. About Contact Us Donate Contribute to this site Privacy Cookies Legal\
+    \ Report Trademark Abuse Mozilla: Twitter (@mozilla) Facebook (Mozilla) Instagram\
+    \ (@mozillagram) Firefox: Twitter (@firefox) Facebook (Firefox) YouTube (firefoxchannel)"
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "Page language: Afrikaans \u0639\u0631\u0628\u064A \u0411\u044A\u043B\
+    \u0433\u0430\u0440\u0441\u043A\u0438 \u09AC\u09BE\u0982\u09B2\u09BE (\u09AC\u09BE\
+    \u0982\u09B2\u09BE\u09A6\u09C7\u09B6) \u09AC\u09BE\u0982\u09B2\u09BE (\u09AD\u09BE\
+    \u09B0\u09A4) \u010Ce\u0161tina Dansk Deutsch \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\
+    \u03BA\u03AC English Espa\xF1ol (de Espa\xF1a) Eesti keel \u0641\u0627\u0631\u0633\
+    \u06CC suomi Fran\xE7ais \u05E2\u05D1\u05E8\u05D9\u05EA \u0939\u093F\u0928\u094D\
+    \u0926\u0940 Hrvatski magyar Bahasa Indonesia Italiano \u65E5\u672C\u8A9E \u041C\
+    \u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438 \u1019\u103C\u1014\u103A\
+    \u1019\u102C\u1018\u102C\u101E\u102C Norsk bokm\xE5l Nederlands Polski Portugu\xEA\
+    s (do Brasil) Rom\xE2n\u0103 \u0420\u0443\u0441\u0441\u043A\u0438\u0439 sloven\u010D\
+    ina Sloven\u0161\u010Dina \u0421\u0440\u043F\u0441\u043A\u0438 Kiswahili \u0BA4\
+    \u0BAE\u0BBF\u0BB4\u0BCD \u0E44\u0E17\u0E22 T\xFCrk\xE7e Ti\u1EBFng Vi\u1EC7t\
+    \ isiXhosa \u4E2D\u6587 (\u7B80\u4F53) \u6B63\u9AD4\u4E2D\u6587 (\u7E41\u9AD4\
+    ) isiZulu Hello! Would you be willing to take a minute to answer a few questions?\
+    \ Sure. I'll help."
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Close
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: We do not get your IP address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not get your IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 26
+  segment_text: We do not learn information about you. Thunderbird does not work with
+    your email providers to set up your account, and does not store your email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not learn information about you. Thunderbird does not work
+      with your email providers to set up your account, and does not store your email
+      address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED

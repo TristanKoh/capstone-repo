@@ -1,0 +1,424 @@
+policy_id: 140
+policy_name: com.apps.go.clean.boost.master
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Super Cleaner End User Licenses Agreement This end user licenses agreement
+    ("agreement") constitutes licensee ("you") and Super Cleaner ("product") the legal
+    agreement between the developers. By downloading, installing, or keeping it for
+    more than seven days, you agree to be bound by this agreement. If you do not agree
+    these items and conditions, you are not allowed to download, use this product,
+    or you should immediately remove this product.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 1.Software Permission 1.1 Product developers authorize the user non-exclusive
+    license during the term of your agreement and limited rights for noncommercial
+    downloading, installing and using this product. You can archive or backup purposes
+    to make one copy of the product in the form of the object code. All the tags must
+    be included in all copies of your product. You may not reverse-engineer, decompile,
+    or disassemble the product, or attempt to gain access to the source code for the
+    products, but other than is expressly permitted by applicable law, and only within
+    the scope expressly permitted by applicable law, and if the applicable law allows
+    contractual waiver of such rights, you hereby waive your right to do.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 1.2 Without the prior written consent of product developers, you may
+    not in any way transfer or abalienate product or this agreement, and/or any rights
+    or obligations under this agreement.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1.3 If you violate you any material obligation under this agreement,
+    your rights under this agreement will automatically terminate. After the termination
+    of this agreement for any reason, after the termination, you will immediately
+    destroy all copies of the product.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 1.4 All rights not expressly granted are reserved rights.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: '2. Tort Claim For any claims based on or occur due to the following,
+    regardless of Super Cleaner, its affiliates, subsidiaries or licensed person without
+    any responsibility: (1) Any intentional or negligent behavior of economic agents
+    other than product developer;'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: (2) Operating and Using with the products which is not specified by
+    the Super Cleaner of any equipment, device or combination are irresponsible ;
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: (3) Alteration or modification of any product.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: To the maximum extent permitted by the law, this section introduces
+    Super Cleaner, its affiliates, subsidiaries and licensors ' entire liability,
+    as well as in respect of any tort claims, the only remedy you can get.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: '3. Limited Warranty Super Cleaner does not represent or warrant that
+    the products will be operated uninterruptedly or error-free. Especially in the
+    case are as follows: (1) Taking the alteration or modification to the product
+    without the prior written approval of Super Cleaner.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: (2) Super Cleaner is interfered by hardware and software environment
+    or artificial operation.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Disclaimer and Limitation of Liability.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 4.1 Except as expressly provided in this agreement, regardless of
+    Super Cleaner, its affiliates, subsidiaries or licensing per capita does not make
+    any warranties (express or implied), including warranties of merchantability and
+    any implied warranty which is suitable for a particular purpose. Super Cleaner,
+    its affiliates, subsidiaries and licensors expressly waives all warranties not
+    stated in this agreement. Any implied warranty may be subject to the law, limited
+    to the maximum extent permitted by law the provisions contained in this agreement.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 4.2 The maximum extent permitted by law, for any damage or loss caused,
+    and regardless of the claim or action is based on how, Super Cleaner, its affiliates,
+    subsidiaries and license does not assume responsibility for per capita.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Users Judgments.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: The function of Super Cleaner will cause your devices in a running
+    program, function or file is stopped, remove or uninstall.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Before you can use Super Cleaner, you should read the related feature
+    descriptions and tips, and judge for themselves whether the product meets your
+    purposes and needs, and security of related functions. Once you have installed
+    this product and/or operate the related actions, and you promise to take the relevant
+    responsibility.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: You can choose junk files and phone boost to clean the stubborn waste
+    and accelerate cell phone in Super Cleaner, you can also select software management
+    software to manage the phone. When you agree to take the initiative to open the
+    above function, in order to provide a better user experience, you agree to grant
+    Super Cleaner exposed methods currently in force to get Android system administrator
+    permission for trash and software management, and so on. If your mobile devices
+    get Android system administrator rights, you agree to Super Cleaner temporarily
+    calling the permissions granted on the implementation functions. Once the implementation
+    of the relevant action, you take the relevant responsibility. In order to better
+    protect user safety, Super Cleaner temporarily only apply or transfer temporarily
+    by calling the Android user administrator privileges when user agrees and opens
+    the function, and other third party software not authorized such permissions.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 6. General Terms and Conditions 6.1 This agreement constitutes the
+    entire agreement between your and Super Cleaner on matters of this agreement is,
+    and supersedes all previous and contemporaneous written and oral statements, proposals,
+    negotiations and communications, which is included but not limited to any terms
+    and conditions of the order.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 6.2 Super Cleaner may assign this agreement or any rights or obligations
+    under it, as well as the occurrence of any cause of action under this agreement
+    to any third party without the necessity or obligation to inform you. Either in
+    terms of any waiver or failure to exercise any right under this agreement shall
+    not operate as a waiver of any other right under this agreement. Any provision
+    of this agreement that is invalid or unenforceable shall not affect the validity
+    or enforceability of any other provisions, and the remaining provisions shall
+    be deemed to continue in full force.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 6.3 Super Cleaner conditions beyond its reasonable control, includes
+    but not limited to, acts of God, war, riot, terrorism, embargoes, acts of civil
+    or military authorities, fire, flood or accident, and Super Cleaner will not take
+    any responsibility if Super Cleaner fails to perform its obligations under this
+    agreement. You agree that Super Cleaner has the right to obtain by other means
+    available to them of all legal and equitable remedies to protect itself and its
+    licensor's intellectual property rights, proprietary and confidential information,
+    including, but not limited to seek and obtain injunctive relief as well as for
+    you to implement the right to injunctive relief, without the necessity to provide
+    security or other such guarantee.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 6.4 This agreement will be governed by People's Republic of China
+    law in all respects, and carried out according to their interpretation and implementation.
+    The United Nations Convention on contracts for the international sale of goods
+    shall not apply to this agreement or the product. For the resolution of any dispute
+    related to the agreement or the product, you agree that the Court of the domicile
+    of the Super Cleaner developer is the court for trial.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 7. Updates and Links.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'This agreement may be updated from time to time, you can check out
+    this user agreement at any time. If you have any comments and suggestions about
+    this product, please contact: hawkcleaner@gmail.com'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Privacy Policy of Super Cleaner HAWK (HAWK) to respect and protect
+    all use Super Cleaner and official website associated with Super Cleaner of HAWK,
+    user communities and other online network services provided by the Hawker Internet
+    Corporation (hereinafter "HAWK") about the privacy of individuals. The Super Cleaner
+    privacy policy (hereinafter the "privacy policy") provides that: without having
+    first obtained your consent, we will not intentionally disclose content relating
+    to your privacy to any third party, except as noted in this policy.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "A. WHAT INFORMATIN WE COLLECT\uFF1F a. We do not collect personal\
+    \ information. Personal information includes your location information, name,\
+    \ address, email, phone, fax, information stored on your device, and the information\
+    \ used in the applications, services or Web site would identify you or others."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal information includes your location information, name,
+      address, email, phone, fax, information stored on your device, and the information
+      used in the applications, services or Web site would identify you or others.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do not collect personal information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 26
+  segment_text: b. Non-personal information. When a user is interacting with our application,
+    we may collect non-personally identifiable information associated with the user.
+    Non-personal identity information, include your phone model, the Android version,
+    and other similar information.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 1. Sessions and available data. "Session and available data" you provide
+    data related to the connection and service information to us when you use an application,
+    service, or Web site, including but not limited to through the use of our applications,
+    services, and Web sites. Sessions and available data include data information
+    relating to connection request, server communication, data sharing, contains networks,
+    quality of service, date, time, location, location. Collection of information
+    as described below, we can also gather session and available data. Please note
+    that session and the available data does not include any personal information,
+    nor does it include the content that you can use an application (such as photos,
+    contacts, schedules, etc), services, or Web site to send or share.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Collection of information as described below, we can also gather
+      session and available data.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Sessions and available data include data information relating to
+      connection request, server communication, data sharing, contains networks, quality
+      of service, date, time, location, location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: 2. Login data. When you interact with us, or use the application,
+    services or our Web site, our systems may automatically collect your unique device
+    number of users, IP addresses, type of browser or operating system you use, the
+    date and time ("log data").
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you interact with us, or use the application, services or
+      our Web site, our systems may automatically collect your unique device number
+      of users, IP addresses, type of browser or operating system you use, the date
+      and time ("log data").
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 29
+  segment_text: 3. Summary information. "Aggregate information" is our collection
+    of a group or class of service or user data, including user's personally identifiable
+    information has been removed. In other words, how do you use the applications,
+    services, and Web site information may be collected with and combined with the
+    information about how to use the applications, services, and Web site, but personally
+    identifiable information will not be included in the final totals. Trends in aggregate
+    information helps us to understand user needs so that we can better consider new
+    features or tailored applications, services, and Web sites.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: B. HOW WE USE THE INFORMATION WE COLLECT? a. Personal information--
+    because we do not collect personal information, we will not use your personal
+    information in any way.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal information-- because we do not collect personal information,
+      we will not use your personal information in any way.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 31
+  segment_text: 'b. Non-personal information. We may use non-personal information
+    for the following purposes: 1. . Used to personalize the user experience---we
+    may use your non-personal information to know about user profiles, and other trends
+    associated with user habits;'
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 2. . Used to help improve our service--- we may use non-personal information
+    to provide, maintain, improve, ameliorate the applications, services, and website,
+    and develop the new services.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 3. Used to develop the business of HAWK further---we may use personal
+    information for the purpose of promoting and developing the market.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Used to develop the business of HAWK further---we may use personal
+      information for the purpose of promoting and developing the market.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: THE POSIBILITY OF PERSONAL IINFORMATION BE DISCLOSED a. Personal information.
+    We do not store personal information, we will not disclose your personal information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not store personal information, we will not disclose your
+      personal information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 35
+  segment_text: b. Non-personal information. We do not link non-personal information
+    and personal information (such as your name and your user's device number).
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: SHARING INFORMATION WITH YOUR CUSTOMERS We cannot control the behavior
+    of other users who share your information with you. We cannot and do not control
+    the behavior of other users to share information when you are using the application,
+    services or the Web site (including forums) or these users who know how to use
+    or share this information. We are not responsible for the behavior of third-party
+    evading our security measures.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: E. SECURITY To maintain the confidentiality of your information, Hawk
+    Internet Company are very concerned. We do not collect personal information, and
+    we have adopted effective measures to protect the non-personal information, this
+    information will not be accessed and used in the case of unauthorized. Please
+    note that the security measures we take to protect your information is perfect,
+    but not an absolute guarantee that your non-personal information can be avoided
+    to be accessed and used.in the case of unauthorized
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 'F. CONTACTING US/REPORTING VIOLATIONS If you have anything to do
+    with this policy or our privacy policy-related questions or comments, or need
+    to report any policy violations or abuse of the behavior of the application, service,
+    or website, please contact us: hawkcleaner@gmail.com'
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: G. CHANGES TO THE PRIVACY POLICY We reserve the right at any time
+    by our sole discretion, change, modify or otherwise change this policy right,
+    you can view the latest version of our privacy policy at www.hawkmobo.com at any
+    time. You must periodically review this policy so that you understand any changes.
+    If you do not agree to any modification of this policy, you can immediately stop
+    using all the applications, services, and Web sites. After the policy changes
+    if you continue to use any application, service, or Web site, it means you accept
+    the modified policy. Please note that our employees or agents do not have the
+    right to change any of our policies.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: "Copyright \xA9 2016 HAWK Mobile Limited"
+  annotations: []
+  sentences: []

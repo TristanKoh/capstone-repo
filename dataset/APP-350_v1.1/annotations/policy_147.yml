@@ -1,0 +1,54 @@
+policy_id: 147
+policy_name: com.bxapps.CleanHouseForKids
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'bxapps Studio - Privacy Policy Policy Privacy Informations: We do
+    not collect or store any information on your use of our apps.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: '- We do not track your usage - We do not track your location - Games
+    do not contain any analytical or other data'
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not track your location
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 2
+  segment_text: 'Why do we require certain Permissions in our apps? (1) android.permission.INTERNET:
+    This permission are required to display ads from Admob, google advertising platform
+    (2) android.permission.ACCESS_NETWORK_STATE: See (1) (3) android.permission.ACCESS_WIFI_STATE:
+    See (1) (4) android.permission.WRITE_EXTERNAL_STORAGE: This permission is used
+    in the following cases: Some applications have possibility to save a scene of
+    the play. ( with "Save" button ).'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Some applications are loading images ONLY from install directory of
+    app.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: '(5) android.permission.READ_EXTERNAL_STORAGE: See (4) Advertising
+    in our Android Games Our free Android applications use Google''s Admob advertising
+    platform to supply in app adverts.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: For more information about Google Advertising privacy policy please
+    visit http://www.google.com/policies/technologies/ads/?hl=en Changes to this Privacy
+    Policy We may amend this Privacy Policy from time to time. Use of information
+    we collect is subject to the Privacy Policy in effect at that time such information
+    is collected unless you consent to additional use.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: If you have questions our concerns regarding this Privacy Policy please
+    send us a message to bxapps7@gmail.com
+  annotations: []
+  sentences: []

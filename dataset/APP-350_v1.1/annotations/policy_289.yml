@@ -1,0 +1,302 @@
+policy_id: 289
+policy_name: Opera
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Computer browsers Mobile browsers Apps & tools Blogs
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Statement Updated May 6, 2016 Summary We at Opera Software
+    AS ("Opera") take your privacy seriously. This privacy statement explains what
+    data we collect, how we store and transfer it and how we use it. The exact set
+    of the data we collect, its purpose and your opt-out choices depend on the product
+    or service you use. Please refer to the relevant product or service sections of
+    this privacy statement to learn more specific details.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Some of the data we collect, either individually or aggregated, may
+    be considered personal. We treat this data in a special way, as required by law.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We'll always honor your decisions for how your data is used. We have
+    safeguards in place to protect your data from loss, misuse, and unauthorized access,
+    disclosure, alteration, or destruction.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: When we post changes to this privacy statement, we will include the
+    date when the statement was last updated. If we significantly change this statement
+    or how we use your personal information, we will notify you either by prominently
+    posting a notice prior to implementing the change or by sending you a notification
+    directly. We encourage you to respect review this statement periodically.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Why do we collect data? We only process your data for purposes that
+    are objectively justified by our products and services. We process this data with
+    respect to your fundamental right to privacy, including the need to protect personal
+    integrity and private life and to ensure that your personal data is of adequate
+    quality. Unless otherwise stated, we determine the purposes for and manners in
+    which your data is collected (in legalese, we act as a "data controller" regarding
+    personal data).
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'We collect data to: Improve, debug, and maintain Opera products and
+    services Study and personalize user experiences Fulfill legal requirements Conduct
+    business analysis and research, and marketing campaigns Ensure better security
+    and fraud protection'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We may also use your data to send personalized information regarding
+    updates, upgrades, enhancements, surveys, recommendations and/or advertisements,
+    if we believe these are relevant for you.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'What data do we collect? The information we collect may include:
+    personal data, for example your name, email, IP-address, location; and non-personal
+    technical data, for example who manufactured your device, your screen''s resolution,
+    your mobile operator''s region and code. A complete list of the data we collect
+    and purpose of collection may vary between our products and services. You can
+    find detailed descriptions in the product/service-related sections below.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The information we collect may include: personal data, for example
+      your name, email, IP-address, location'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'How do we collect data? Generally, we collect data: When you provide
+    it explicitly to us; for example, when you submit a form on our websites When
+    you use our products and services, or visit our websites When third parties share
+    information with us'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Some products may require your personal data to function properly.
+    Wherever technically possible, we'll ask for your consent to collect your personal
+    data and offer you the choice to opt-out. Please read product-specific information
+    to learn how to opt-out.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: When we collect your data, we associate it with a unique ID and a
+    unique device ID that are generated when you install an Opera product or begin
+    using one of our services. These identifiers are anonymized and cannot be linked
+    to you as an individual person. We also take measures to remove any possible connections
+    between these IDs and other types of personal data.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When we collect your data, we associate it with a unique ID and
+      a unique device ID that are generated when you install an Opera product or begin
+      using one of our services.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: To collect information automatically, we may use cookies, web beacons,
+    our own data-collection tools or various third-party services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To collect information automatically, we may use cookies, web beacons,
+      our own data-collection tools or various third-party services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Some third-party sites may monitor data traffic from our products
+    and services, such as numbers of hits and the search terms used. We do not make
+    available any personally identifiable information to these services.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: This privacy statement does not cover third-party apps you access
+    and use through our products and services, nor does it cover links to other websites.
+    We do not control the privacy and security practices and policies of these third
+    parties and their sites. We encourage you to read the privacy statements of the
+    third-party apps and websites you use.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: How do we protect your data? We treat your personal data as required
+    by law. We are a Norwegian company and we follow Norwegian data-security laws
+    as well as other national legislation, as needed. We require that our suppliers
+    successfully pass security assessments and prove their compliance with applicable
+    laws and industry standards.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Only a limited number of Opera employees have access to the data we
+    collect. We review and update our working procedures regularly to improve your
+    privacy and ensure that our internal policies are followed. We immediately correct
+    any non-conformance regarding these policies.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Our commitment to your privacy does not extend to third-party products
+    and services you may access from Opera products and services. We encourage you
+    to read the privacy statements of the third-party products and services you use.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'How do we share your data? We may share your data: To government
+    bodies and law enforcement agencies to comply with the law, for example in judicial
+    proceedings, by court order or other legal process To third parties (including
+    professional advisors) to enforce or defend our legal rights, including our terms
+    and conditions To a third-party purchaser or seller (including professional advisors)
+    in connection with a corporate event such as a merger, business acquisition or
+    insolvency situation As described elsewhere in this statement'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Some of our products and services include third-party technology or
+    code that may use the collected data. We may share anonymized and/or aggregated
+    sets of data with our partners and other trusted third parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some of our products and services include third-party technology
+      or code that may use the collected data.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may share anonymized and/or aggregated sets of data with our
+      partners and other trusted third parties.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: Because we are an international company with data-centers around the
+    world, your data may be transferred to countries which do not have the same level
+    of data protection laws as those in the country where you are located. We will
+    ensure that your data is protected to a strict standard.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: What else should I know? We aim to be transparent as to what data
+    we collect and how we use it. Your rights are not limited to consent and opt-out
+    choices only. If you've provided personal information to us, you may change or
+    modify this information at any time.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We retain personal data only as long as necessary for processing it
+    in accordance with the purposes described in this statement, or as otherwise necessary
+    to comply with applicable laws. When your data is no longer necessary or relevant
+    for our purposes, or required by applicable laws, we take steps to have it deleted,
+    aggregated or made anonymous.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: You can find out if we hold any personal data about you by contacting
+    us. You may be asked to prove your identification so that we can verify who is
+    making the request. If we hold information about you, you can ask us to correct
+    any mistakes and delete any excessive information.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Contact information If you have any questions about this statement
+    or any privacy issues regarding Opera and our products or services, we can be
+    reached by email privacy@opera.com or by post at: Opera Software AS P.O. Box 4214
+    Nydalen NO-0401 OSLO Norway Privacy policies For privacy policies and questions
+    specifically related to the Opera products and services, please see the appropriate
+    section below: Opera for computers Opera for Android Opera Coast Opera Mini Opera
+    Mini for Android Opera Mini for iOS Opera Max Opera websites Opera services'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "Select your language: Bahasa Indonesia Bahasa Melayu \u010Ce\u0161\
+    tina Dansk Deutsch English Espa\xF1ol Espa\xF1ol (Latinoam\xE9rica) Filipino Fran\xE7\
+    ais Italiano Magyar Nederlands Norsk (bokm\xE5l) Polski Portugu\xEAs Portugu\xEA\
+    s (Brasil) Rom\xE2n\u0103 Sloven\u010Dina Suomi Svenska Ti\u1EBFng Vi\u1EC7t T\xFC\
+    rk\xE7e \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC \u0411\u044A\u043B\u0433\
+    \u0430\u0440\u0441\u043A\u0438 \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0423\
+    \u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u05E2\u05D1\u05E8\u05D9\
+    \u05EA \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0939\u093F\u0902\u0926\u0940\
+    \ \u0E44\u0E17\u0E22 \uD55C\uAD6D\uC5B4 \u4E2D\u6587\uFF08\u4E2D\u56FD\uFF09 \u4E2D\
+    \u6587\uFF08\u53F0\u7063\uFF09 \u65E5\u672C\u8A9E Top Follow Opera Facebook Twitter\
+    \ Youtube LinkedIn Instagram Download Opera Computer browsers Mobile browsers\
+    \ Apps & tools Help & support Opera blogs Dev.Opera Beta version Services Opera\
+    \ Mobile Store Add-ons Opera account Opera B2B Opera Mediaworks Operator solutions\
+    \ Opera TV OEM solutions Partner with Opera Business blog About Opera Jobs Investors\
+    \ Press info Contact us"
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: "Follow Opera Facebook Twitter Youtube LinkedIn Instagram \xA9 Opera\
+    \ Software Privacy Terms of Use"
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: "Select your language: Bahasa Indonesia Bahasa Melayu \u010Ce\u0161\
+    tina Dansk Deutsch English Espa\xF1ol Espa\xF1ol (Latinoam\xE9rica) Filipino Fran\xE7\
+    ais Italiano Magyar Nederlands Norsk (bokm\xE5l) Polski Portugu\xEAs Portugu\xEA\
+    s (Brasil) Rom\xE2n\u0103 Sloven\u010Dina Suomi Svenska Ti\u1EBFng Vi\u1EC7t T\xFC\
+    rk\xE7e \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC \u0411\u044A\u043B\u0433\
+    \u0430\u0440\u0441\u043A\u0438 \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0423\
+    \u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u05E2\u05D1\u05E8\u05D9\
+    \u05EA \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0939\u093F\u0902\u0926\u0940\
+    \ \u0E44\u0E17\u0E22 \uD55C\uAD6D\uC5B4 \u4E2D\u6587\uFF08\u4E2D\u56FD\uFF09 \u4E2D\
+    \u6587\uFF08\u53F0\u7063\uFF09 \u65E5\u672C\u8A9E Top"
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'The information we do not collect: personal data, for example your
+    name, email, IP-address, location.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'The information we do not collect: personal data, for example
+      your name, email, IP-address, location.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 29
+  segment_text: We do not gather unique device IDs.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not gather unique device IDs.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"><![endif]-->
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="standard"><!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui" />
+<meta name="format-detection" content="email=no" />
+<meta name="format-detection" content="address=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright (c) cmcm.com" />
+<title>CM Launcher User Experience Improvement Program</title>
+<meta name="description" content="Cheetah Mobile, the world’s leading mobile tools provider, is dedicated to providing a faster, safer and easier mobile experience for its global users. Clean Master,the best app to boost your android mobile for free" />
+<meta name="keywords" content="CM, Clean Master,CM Security,Battery Doctor,CM Browser,Photo Grid,Clean Master for PC,Duba Anti-virus,Phone Boost" />
+<meta property="fb:admins" content="828823577" />
+
+<link rel="stylesheet" href="/css/v5/global.css?v=201703071749" type="text/css" />
+<link rel="stylesheet" href="/css/v5/blog.css" type="text/css" />
+<script>
+var __FROM='';
+var startTime = new Date().getTime();
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-40488675-8', 'auto');
+      ga('send', 'pageview');
+</script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="/js/belatedPNG.js"></script>
+<script type="text/javascript">
+  var __IE6=true;
+  DD_belatedPNG.fix('#logo a,#header-wrap,#menus a span,#slider .layout img,#more,#more span,#banner .title,#banner .download a,#play,#banner .app,#banner .social a,#banner .social a span,.side-follow p a,.lang-current');
+</script>
+<![endif]-->
+<script>
+function loadJs(a,b,c){setTimeout(function(){var e=c||{},f=document.getElementsByTagName("head")[0]||document.documentElement,g=document.createElement("script"),h=!1;e.charset&&(g.charset=c.charset),"async"in e&&(g.async=e["async"]||""),g.onerror=g.onload=g.onreadystatechange=function(){h||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState||(h=!0,b&&b(),g.onerror=g.onload=g.onreadystatechange=null)},g.src=a,f.insertBefore(g,f.firstChild)},0)}
+function getQuery(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return null;
+}
+var isCM = (getQuery('p') == 'cm') || getQuery('p') == 'cmlauncher' || getQuery('p') == 'cmkeyboard' || /CM/i.test(navigator.userAgent) || typeof android == 'object';
+if (isCM) {
+	document.documentElement.className = 'isCM'
+}
+if (getQuery('country').toLowerCase() == 'ru') {
+window.location.href='http://www.cmcm.com/protocol/launcher/eula_ru.html'
+}</script>
+<style>
+.isCM #header-fixed,.isCM .breadcrump,.isCM #footer-wrap { display:none!important;}
+.detail { padding:10px;}
+.detail h1.title { line-height:1.5; padding:10px 0; }
+.detail h2 { font-size:20px; font-weight:normal; color:#666; }
+.detail-text { margin-top:10px;}
+.detail-text em{ font-style: italic; }
+</style>
+</head>
+<body class="body-en-us">
+<div id="wrap">
+<div id="header-fixed">
+
+  <div id="header-wrap">
+    <div id="header" class="content clear">
+      <h1 id="logo">
+        <a href="/en-us/" title="Cheetah Mobile" rel="home">Cheetah Mobile</a>
+      </h1>
+      <div id="menus">
+        <a href="/en-us/clean-master/" title="Clean Master" onClick="ga('send', 'event', 'V3.menu.cm', 'click', 'cm',1);"><span class="cm">Clean Master</span></a>
+        <a href="/en-us/cm-security/" title="CM Security" onClick="ga('send', 'event', 'V3.menu.cms', 'click', 'cms',1);"><span class="cms">CM Security</span></a>
+        <a href="/en-us/piano-tiles/" title="Piano Tiles 2" onClick="ga('send', 'event', 'V3.menu.pt2', 'click', 'pt2',1);"><span class="pt2">PIANO TILES 2</span></a>
+        <a href="http://www.liveme.com/" title="Live.me" onClick="ga('send', 'event', 'V3.menu.lvm', 'click', 'lvm',1);" target="_blank"><span class="lvm">LIVE.ME</span></a>
+        <a href="#" id="more" onClick="ga('send', 'event', 'V3.menu.more'+__FROM, 'click', 'more',1);"><span class="more">More</span></a>
+      </div>
+    </div>
+  </div><!-- header-wrap -->
+
+  <div id="menuMore" class="CM_MenuMore">
+    <div class="content">
+      <ul class="clear">
+        <li class="menu-item clearfix">
+          <h2 class="menu-name">Products</h2>
+          <div class="menu-box clearfix">
+            <a href="/en-us/clean-master/" onClick="ga('send', 'event', 'V3.menu.cm', 'click', 'cm',1);"><span></span>Clean Master</a>
+            <a href="/en-us/cm-security/" onClick="ga('send', 'event', 'V3.menu.cms', 'click', 'cms',1);"><span></span>CM Security</a>
+            <a href="http://www.liveme.com/?f=cmcm" onClick="ga('send', 'event', 'V3.menu.liveme', 'click', 'liveme',1);" target="_blank"><span></span>Live.me</a>
+            <a href="/en-us/whatscall/" onClick="ga('send', 'event', 'V3.menu.whatscall', 'click', 'whatscall',1);"><span></span>WhatsCall</a>
+            <a href="/en-us/piano-tiles/" onClick="ga('send', 'event', 'V3.menu.pt2', 'click', 'pt2',1);"><span></span>Piano Tiles 2</a>
+            <a href="/en-us/photo-grid/" title="PhotoGrid" onClick="ga('send', 'event', 'V3.menu.pg', 'click', 'pg',1);"><span></span>PhotoGrid</a>
+            <a href="http://www.news-republic.com/" title="News Republic" onClick="ga('send', 'event', 'V3.menu.nrp', 'click', 'nrp',1);" target="_blank"><span></span>News Republic</a>
+            <a href="/en-us/battery-doctor/" title="Battery Doctor" onClick="ga('send', 'event', 'V3.menu.bd', 'click', 'bd',1);"><span></span>Battery Doctor</a>
+            <a href="/en-us/cm-launcher/" title="CM Launcher" onClick="ga('send', 'event', 'V3.menu.cml', 'click', 'cml',1);"><span></span>CM Launcher</a>
+            <a href="/en-us/cm-browser/" title="CM Browser" onClick="ga('send', 'event', 'V3.menu.cmbs', 'click', 'cmbs',1);"><span></span>CM Browser</a>
+            <a href="/en-us/cm-locker/" title="CM Locker" onClick="ga('send', 'event', 'V3.menu.cmlk', 'click', 'cmlk',1);"><span></span>CM Locker</a>
+            <a href="/en-us/cm-backup/" title="CM Backup" onClick="ga('send', 'event', 'V3.menu.cmbu', 'click', 'cmbu',1);"><span></span>CM Backup</a>
+            <a href="/en-us/cm-behavior-cloud/" title="CM Behavior Cloud" onClick="ga('send', 'event', 'V3.menu.cmbc', 'click', 'cmbc',1);"><span></span>CM Behavior Cloud</a>
+            <a href="/en-us/clean-master-for-pc/" onClick="ga('send', 'event', 'V3.menu.cmpc', 'click', 'cmpc',1);"><span></span>Clean Master for PC</a>
+          </div><!-- menu-box -->
+        </li>
+        <li class="menu-item clearfix">
+          <h2 class="menu-name">Business</h2>
+          <div class="menu-box clearfix">
+            <a href="http://ad.cmcm.com/?lang=en" title="Cheetah Ad Platform" onClick="ga('send', 'event', 'V3.menu.ad', 'click', 'ad',1);"><span></span>Cheetah Ad Platform</a>
+            <a href="http://peg.cmcm.com/?lang=en" title="Cheetah Pegasi SSP" onClick="ga('send', 'event', 'V3.menu.peg', 'click', 'peg',1);"><span></span>Pegasi</a>
+            <a href="http://libra.cmcm.com/?lang=en" title="Libra CheetahMobile" onClick="ga('send', 'event', 'V3.menu.libra', 'click', 'libra',1);"><span></span>Libra</a>
+          </div><!-- menu-box -->
+        </li>
+        <li class="menu-item clearfix">
+          <h2 class="menu-name">Media</h2>
+          <div class="menu-box clearfix">
+            <a href="http://blog.cmcm.com/" title="Blog" onClick="ga('send', 'event', 'V3.menu.blog', 'click', 'blog',1);"><span></span>Blog</a>
+            <a href="http://www.cmcm.com/blog/en/" title="Security Topics" onClick="ga('send', 'event', 'V3.menu.st', 'click', 'st',1);"><span></span>Security Topics</a>
+            <a href="http://blog.cmcm.com/category/ceotalks" title="CEO Talks" onClick="ga('send', 'event', 'V3.menu.ceotalks', 'click', 'ceotalks',1);"><span></span>CEO Talks</a>
+            <a href="http://blog.cmcm.com/en/category/press/" title="Press Release" onClick="ga('send', 'event', 'V3.menu.press', 'click', 'press',1);"><span></span>Press Release</a>
+          </div><!-- menu-box -->
+        </li>
+        <li class="menu-item clearfix">
+          <h2 class="menu-name">About</h2>
+          <div class="menu-box clearfix">
+            <a href="/en-us/about/"><span></span>Company Information</a>
+            <a href="http://ir.cmcm.com"><span></span>Investor Relations</a>
+            <a href="/about/promotion-policy.html"><span></span>Promotion Policy</a>
+            <a href="/en-us/job/"><span></span>Global Talent</a>
+            <a href="/en-us/contact/"><span></span>Contact Us</a>
+          </div><!-- menu-box -->
+        </li>
+        <li class="menu-item clearfix">
+          <h2 class="menu-name">Follow Us</h2>
+          <div class="menu-box clearfix">
+            <a href="https://www.facebook.com/cmcmglobal/" target="_blank" class="menu-share-btn menu-share-fb" onClick="ga('send', 'event', 'V3.menu.share', 'click', 'facebook',1);">Facebook</a>
+            <a href="https://twitter.com/CheetahMobile" target="_blank" class="menu-share-btn menu-share-tt" onClick="ga('send', 'event', 'V3.menu.share', 'click', 'twitter',1);">Twitter</a>
+            <a href="https://www.linkedin.com/company/cheetah-mobile" target="_blank" class="menu-share-btn menu-share-li" onClick="ga('send', 'event', 'V3.menu.share', 'click', 'LinkedIn',1);">LinkedIn</a>
+          </div><!-- menu-box -->
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div id="container-wrap">
+    <div class="content clear">
+        <div class="detail">
+            <h1 class="title">CM Launcher User Experience Improvement Program</h1>
+            <h2></h2>
+            <div class="detail-text">
+                <p>Updated: February 10th, 2015</p><p>As you use a launcher to organize your device, view your phone calls, search information, visit websites, manage the installed apps, etc., when you use these function, for example, typing a keyword and see related information from your devices or Internet via CM Launcher, we collect information from you in order to provide corresponding service and better user experience to you. When participating in CM Launcher user experience improvement program (UX Improvement Program), as appropriate, your usage, statistics, input while using CM Launcher, and crash reports would be collected.</p><p>And here we explain what information we collect, why, and how we use the information:</p><p><strong>What do we use your information for? </strong><br/>Any of the information we collect from you may be used in one of the following ways:<br/>• To personalize your experience<br/>(Your information helps us to better respond to your individual needs)<br/>• To improve our application<br/>(We continually strive to improve our application based on the information and feedback we receive from you)<br/>• To improve customer service<br/>(Your information helps us to more effectively respond to your customer service requests and support needs)<br/>• To administer a contest, promotion, survey or other site feature<br/>• To perform the examination for the potential security threat of your device<br/>(The potential SMS phishing threat via SMS Messages)<br/>• To send periodic emails<br/>(The email address you provide in user experience improvement program or feedback your opinions to us, will only be used to respond your feedback, send you information and updates of our products and services.)</p><p><strong>What information do we collect? </strong><br/>We collect information to improve our application and provide better services to all of our users - including:<br/>• the information you give us, for example, when you give us your opinions to our application and services via our feedback channel;<br/>• the information we get from your use of our application and services, like the keywords you type in our application to search, the websites link you input, click, interact, and trigger from any application in your device, and the application list installed in your device;<br/>• log information, the application events such as version, installed date and time, usages statistics, crashes event, and dump reports of our application;<br/>• location information, locale, and the MCC (mobile country code); <br/>• device information, such as your hardware model, build fingerprint, ROM size, CPU model, device display DPI, android ID, Google advertising ID, phone type &amp; model, network type, and operation system version, etc.;<br/>We do not collect your personal identifiable information when you using our product, such as name, phone number, physical address, SMS messages, emails.</p><p><strong>Do we disclose any information to outside parties? </strong><br/>• We do not sell, trade, or otherwise transfer to outside parties your personal identifiable information. This does not include:<br/>• Trusted third parties who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential;<br/>• We will access, use or disclose your information with other organizations or entities for reasons that required by any applicable law, regulation, legal process or enforceable governmental request; <br/>• Detect, prevent, or otherwise fraud, security or technical issues;<br/>• Protect against harm to the rights, property or safety of Cheetah Mobile, our users or the public as required or permitted by law</p><p><strong>Security</strong><br/>We are very concerned about safeguarding the confidentiality of your information. We do not collect Personal Information, and we employ administrative, physical and electronic measures designed to protect your Non-Personal Information from unauthorized access and use. Please be aware that no security measures that we take to protect your information is absolutely guaranteed to avoid unauthorized access or use of your Non-Personal Information which is impenetrable.</p><p><strong>Sensitive Information</strong><br/>We ask that you not send us, and you not disclose, any sensitive Personal Information (e.g., information related to racial or ethnic origin, political opinions, religion or other beliefs, health, sexual orientation, criminal background or membership in past organizations, including trade union memberships) on or through an Application, the Services or the Site or otherwise to us.</p><p><strong>Children</strong><br/>We do not provide service focus on Children. If you are under 13, you may use our application or services when you are with a parent or guardian.</p><p><strong>CONTACTING US / REPORTING VIOLATIONS</strong></p><p>If you have any questions or comments about this Policy or our privacy practices, or to report any violations of the Policy or abuse of an Application, the Services or the Site, please contact us at <a href="mailto:launcher@cmcm.com">launcher@cmcm.com</a>.</p><p><strong>Changes to our Privacy Policy </strong><br/>Our Privacy Policy may change from time to time, we will post any privacy policy changes on our website <a href="http://www.cmcm.com/">http://www.cmcm.com/</a> under our application page, so please review it periodically. We may provide you additional forms of notice of modifications or updates as appropriate under the circumstances.</p>            </div>      
+        </div>
+    </div>
+</div>
+
+
+<div id="footer-wrap">
+        <div id="footer" class="content">
+            <span class="foot-copy"><a href="/protocol/site/privacy.html">Privacy Policy</a>&nbsp;<em>|</em>&nbsp;Cheetah Mobile &copy; 2017</span><span class="foot-lang"> · <em class="lang-current">English</em><em class="lang-list"><a href="/en-us/">English</a><a href="/es-es/">Español</a><a href="/fr-fr/">Français</a><a href="/ru-ru/">Pусский</a><a href="/pt-pt/">Português</a><a href="/ja-jp/">日本語</a><a href="/ko-kr/">한국어</a><a href="/zh-tw/">繁體中文</a><a href="/zh-cn/">简体中文</a></em></span>
+        </div>
+</div>
+</div>
+<script>
+if (!isCM) {
+	loadJs('/js/jquery-1.10.2.min.js', function() {
+		loadJs('/js/common.min.js?v=5');
+		loadJs('/js/lang/lang-change.js?v=6');
+	})
+}
+</script>
+</body>
+</html>

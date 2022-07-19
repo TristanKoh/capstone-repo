@@ -1,0 +1,716 @@
+policy_id: 309
+policy_name: SKCommunications
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "Privacy Policy DOWNLOAD App Store Android English English \uD55C\uAD6D\
+    \uC5B4"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: SK Communications (hereinafter, referred to as "the Company") regards
+    the privacy of users as highly important and complies with all regulations concerning
+    the protection of personal information as required by any applicable laws and
+    regulations concerning privacy, including the Personal Information Protection
+    Act, the Act on Promotion of Utilization of Information and Communications Network,
+    as well as the Act on the Protection and Use of Location Information.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: By stating its privacy policy as shown below, the Company hereby informs
+    the user of how and why the personal information provided by the user to the Company
+    is used and what measures are taken by the Company for the protection of their
+    personal information. The Company's privacy policy is subject to change in accordance
+    with any subsequent changes in the laws, regulations, and notifications, or the
+    Company's Terms of Service and internal policies. When the privacy policy is amended,
+    the Company shall publish the changes on a service page or notify the user.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: The user may choose not to accept the following details concerning
+    the collection, use, provision, consignment, or any other use, of their personal
+    information. However, it should be noted that, if the user does not accept the
+    privacy policy, they may not be given access to the service in whole or in part.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: The user should check the privacy policy from time to time as they
+    continue to use the service. Purposes of the Collection and Use of Personal Information
+    Types of Personal Information Collected and Methods of Collection Periods of Storage
+    and Use of Personal Information Collected Procedure and Method for Destruction
+    of Personal Information Provision and Sharing of Personal Information Consignment
+    Process for Personal Information Refusal to Install/Operate Mechanisms That Automatically
+    Collect Personal Information Technical/Administrative Measures for the Protection
+    of Personal Information Rights of Users and Methods of Exercising Rights Privacy
+    Officers, Inquiries, and Reporting Supplementary Provisions
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 1. Purposes of the Collection and Use of Personal Information
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Personal information is any information about a living person that
+    allows the identification of that person (including any information that may not
+    provide identification of a specific person, by itself, but may provide easy identification
+    when combined with other information). Personal information collected by the Company
+    is used for the following purposes: 1) Provision of service Providing content,
+    purchase and payment rates. delivering goods, use of address book and contacts
+    information on the user''s device for app recommendation, to answer questions
+    about the service.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Personal information collected by the Company is used for the
+      following purposes: 1) Provision of service Providing content, purchase and
+      payment rates.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Personal information is any information about a living person that
+      allows the identification of that person (including any information that may
+      not provide identification of a specific person, by itself, but may provide
+      easy identification when combined with other information).
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: delivering goods, use of address book and contacts information
+      on the user's device for app recommendation, to answer questions about the service.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 2) User management Providing membership services, personal identification
+    verification, record keeping for preventing abuse by bad users and dispute resolution,
+    processing complaints, delivering notices, etc.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 3) Development of new services, improvements to service, marketing,
+    and advertising
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Developing and specializing new services (products), providing customized
+    services, improvements to service, providing services and advertising exposure
+    based on demographic characteristics, measuring access frequency and statistics
+    concerning the user's use of the service, providing advertising information, including
+    promotional events and offering opportunities to participate in events, etc. (The
+    user's personal information is not provided to the individual or organization
+    requesting the placement of such advertisements.)
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: (The user's personal information is not provided to the individual
+      or organization requesting the placement of such advertisements.)
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: Developing and specializing new services (products), providing
+      customized services, improvements to service, providing services and advertising
+      exposure based on demographic characteristics, measuring access frequency and
+      statistics concerning the user's use of the service, providing advertising information,
+      including promotional events and offering opportunities to participate in events,
+      etc.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 2. Types of Personal Information Collected and Methods of Collection
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "\u203B Signups are permanently closed. We store personal information\
+    \ of existing members who have purchased items to allow them to use those items."
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '[Types of personal information collected] 1)At initial member sign-up
+    and when using the Service, the Company collects the following information for
+    member identification and the provision of optimized service.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: At initial member sign-up and when using the Service, the Company
+      collects the following information for member identification and the provision
+      of optimized service.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: '[Types of personal information collected]'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: 'Members who sign up with an email address Required: Name, email address,
+    password'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Members who sign up with an email address
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Required: Name, email address, password'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: 'Members who sign up with their Facebook account Required: Facebook
+    user id number, name, email address'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Members who sign up with their Facebook account
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Required: Facebook user id number, name, email address'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: '<Members who sign up with their Google account> - Required: google
+    user id number, name, email address'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '<Members who sign up with their Google account> - Required: google
+      user id number, name, email address'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: '<Members who sign up with Sina Weibo> - Required: name, email address
+    2) While using the service, the following information may be collected with the
+    user''s consent. - Email address, password(If sign up with an external account,
+    can input an optional password). - To register partnership/suggestions: Company
+    name(organization name), contact name, phone number, email address, webpage address,
+    and FAX number 3) While using the service, or during the operation of the business,
+    the following information may be generated and collected. - Service usage records,
+    cookies, access logs, IP addresses, abuse records, country code, device information
+    (manufacturer(company name), model name, screen resolution, app speed, OS version)'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '- Service usage records, cookies, access logs, IP addresses, abuse
+      records, country code, device information (manufacturer (company name), model
+      name, screen resolution, app speed, OS version)'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'To register partnership/suggestions: Company name(organization
+      name), contact name, phone number, email address, webpage address, and FAX number'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: While using the service, or during the operation of the business,
+      the following information may be generated and collected.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: '[Methods of collection] The Company collects personal information
+    using the following means: 1) Collected at member sign-up, through event participation,
+    by fax, by phone, by email, through on/offline websites and applications, through
+    the customer center, and when requesting deliveries 2) Collected from partner
+    companies 3) Collection through tools that compile generated information'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '[Methods of collection] The Company collects personal information
+      using the following means: 1) Collected at member sign-up, through event participation,
+      by fax, by phone, by email, through on/offline websites and applications, through
+      the customer center, and when requesting deliveries 2) Collected from partner
+      companies 3) Collection through tools that compile generated information'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: 3. Periods of Storage and Use of Personal Information Collected
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 'By principle, the Company destroys, without delay, any personal information
+    whose purpose and use has been accomplished. However, the Company preserves the
+    following information for specified periods of time with the member''s consent
+    or when the stipulations of relevant laws and regulations require such preservation.
+    1) Personal information preserved concerning commercial transactions (1) Information
+    preserved: commercial transaction records (2) Basis for preservation: Law concerning
+    consumer protection in Commercial Law, E-commerce, etc.'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: '(3) Period of preservation: - records concerning contracts, subscription
+    withdrawals, etc.: 5 years'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: '- records concerning provision on payments, services, etc.: 5 years
+    - records concerning consumer complaints and dispute settlements: 3 years 2) Personal
+    information preserved concerning log records (1) Information preserved: Access
+    records (2) Basis for preservation: Protection of Communications Secrets Act (3)
+    Period of preservation: 3 months'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 4. Procedure and Method for Destruction of Personal Information On
+    principle, the Company destroys, without delay, any personal information when
+    its purpose and use has been accomplished or when its period of preservation or
+    use has expired. However, according to the Act on Promotion of Information and
+    Communications Network Utilzation and Data Protection, etc., the personal information
+    of members who have no record of usage for a year are safely retained and separated
+    from currently using members' information.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Procedures and methods for the destruction of personal information
+    are as follows. 1) Procedure for the destruction of personal information
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Any personal information entered by the user for membership sign-up,
+    or any other purpose, after such purpose and use has been accomplished, it will
+    be destroyed. But, in accordance with relevant laws and regulations (see Periods
+    of Storage and Use of Personal Information Collection), it can be stored for a
+    specified period of time and them destroyed. This personal information is not
+    used for any purpose other than preservation, unless otherwise required by applicable
+    laws and regulations.. 2) Method of destroying personal information
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Any personal information printed out on paper (printed, letters, etc.)
+    is destroyed with a shredder or by incineration. Any personal information stored
+    in electronic files is permanently deleted using methods with no possible means
+    of restoration.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: '5. Provision and Sharing of Personal Information On principle, the
+    Company only uses the user''s personal information for the purpose of collection
+    and use, and does not disclose it to other persons, enterprises, or organizations.
+    However, the following exceptions may apply: 1) When prior consent is given by
+    the user The Company obtains user consent by informing the user who the business
+    partners are, which information is required, why it is required, as well as how
+    long, and through what means, it is protected/managed before the information is
+    collected or provided. If the user does not give consent, no additional information
+    shall be collected or shared with any business partners.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 2) When required by stipulations in laws and regulations, or when
+    requested by law enforcement agencies for investigation purposes through the procedures
+    and methods stipulated by laws and regulations
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 6. Consignment Process for Personal Information For providing professional
+    customer support and service, the Company consigns the following personal information
+    processing tasks to third parties.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: To ensure the complete protection of personal information when establishing
+    consignment contracts, the Company clearly states the details in the consignment
+    contracts concerning strict compliance with instructions for the protection of
+    personal information, the non-disclosure of personal information, and liability
+    for any accidents.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: '[Service contractors] - Contractor : BSH Co., Ltd., Transcosmoskorea
+    Co., Ltd. - Consigned Task : BSH Co., Ltd.(Service operations, Public relations
+    , CS operations), Transcosmoskorea Co., Ltd.(Service operations, Public relations
+    , CS operations, Customer Center operation) - Period of storage and use of personal
+    information: Until membership cancellation, possession and in the end of the period
+    of use, until expiration of consignment contract'
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 7. Refusal to Install/Operate Mechanisms That Automatically Collect
+    Personal Information
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: '[Use of cookies] The Company may use any mechanisms that automatically
+    collect personal information (cookies, etc.).'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '[Use of cookies] The Company may use any mechanisms that automatically
+      collect personal information (cookies, etc.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: When you visit the Service, we may use cookies to automatically store
+    and import your information for the provision of your personalized and customized
+    service. These are small data files that your browser places on your computer.
+    1) We may use both session cookies and persistent cookies to better understand
+    how you interact with our services, to monitor aggregate usage by our users and
+    web traffic routing on our services, and to improve our services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 1) We may use both session cookies and persistent cookies to better
+      understand how you interact with our services, to monitor aggregate usage by
+      our users and web traffic routing on our services, and to improve our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These are small data files that your browser places on your computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: When you visit the Service, we may use cookies to automatically
+      store and import your information for the provision of your personalized and
+      customized service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: 2) Most Internet browsers automatically accept cookies. You can instruct
+    your browser, by editing its options, to stop accepting cookies or to prompt you
+    before accepting a cookie from the websites you visit.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 2) Most Internet browsers automatically accept cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can instruct your browser, by editing its options, to stop
+      accepting cookies or to prompt you before accepting a cookie from the websites
+      you visit.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: '* How to unset a cookie (with Internet Explorer) : click tools on
+    your web browser > go to internet options > go to personal information'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '* How to unset a cookie (with Internet Explorer) : click tools
+      on your web browser > go to internet options > go to personal information'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: (You may unset cookies, provided that you agree there may be certain
+    difficulties in using log-in services of websites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: (You may unset cookies, provided that you agree there may be certain
+      difficulties in using log-in services of websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: '[An App-log analysis by Google Analytics] The Service use by users
+    is analyzed by Google Analytics'
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: '[App error analysis using Crashlytics] The company uses Crashlytics
+    app error analysis tool offered by Crashlytics Company, and it doesn''t use information
+    of personal identification other than app error information. Users can refuse
+    the use of Crashlytics by enabling it inside of our service.'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Users can refuse the use of Crashlytics by enabling it inside of
+      our service.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: '[An App-log analysis by Google Analytics] The Service use by users
+      is analyzed by Google Analytics [App error analysis using Crashlytics] The company
+      uses Crashlytics app error analysis tool offered by Crashlytics Company, and
+      it doesn''t use information of personal identification other than app error
+      information.'
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: '[Customized ads] If a user access to an external service provider''s
+    services with an external account, that external service provider can link user''s
+    device information (ads ID, ads parameter), which has no individual identification,
+    with external service account information to offer customized ads.'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '[Customized ads] If a user access to an external service provider''s
+      services with an external account, that external service provider can link user''s
+      device information (ads ID, ads parameter), which has no individual identification,
+      with external service account information to offer customized ads.'
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: '* Example of setup method : Access Facebook settings [link]; or choose
+    advertisements rejection options through device''s ID advertisements reset settings.'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Example of setup method Access Facebook settings [link]; or choose
+      advertisements rejection options through device's ID advertisements reset settings.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: 8. Technical/Administrative Measures for the Protection of Personal
+    Information 1) Technical measures (1) The Company safely protects the user's personal
+    information using security features in accordance with relevant laws and regulations,
+    and internal policies.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: (2) The Company makes every effort to prevent damage/loss by computer
+    viruses by using secure antivirus programs. In order to ensure the protection
+    of personal information, antivirus programs are updated regularly, and if there
+    is a sudden virus outbreak, the antivirus programs are updated as soon as effective
+    countermeasures have been made available. (3) The Company stores and manages the
+    user's password in an encrypted form and employs security measures for safely
+    transmitting personal information over the network. (4) The Company also uses
+    security measures for blocking outside intrusions and monitors the system for
+    intrusion on a 24/7 basis in order to prevent any leakage of the user's personal
+    information by hacking, etc. 2) Administrative measures
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: (2) The Company makes every effort to prevent damage/loss by computer
+      viruses by using secure antivirus programs.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: (3) The Company stores and manages the user's password in an encrypted
+      form and employs security measures for safely transmitting personal information
+      over the network.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: (4) The Company also uses security measures for blocking outside
+      intrusions and monitors the system for intrusion on a 24/7 basis in order to
+      prevent any leakage of the user's personal information by hacking, etc.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: 2) Administrative measures
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: In order to ensure the protection of personal information, antivirus
+      programs are updated regularly, and if there is a sudden virus outbreak, the
+      antivirus programs are updated as soon as effective countermeasures have been
+      made available.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 43
+  segment_text: (1) The user must take precautions not to lose their device or disclose
+    their password to third parties. Particularly, if the device is lost without any
+    self-protection (locking mechanism) in place, third parties may use the user's
+    personal information with malicious intent. Also, the user's ID and password should
+    not be shared with others and the password should be changed regularly.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: (2) The Company strictly limits the handling of personal information
+    to be done only by those performing administrative tasks related to personal information
+    and those who absolutely need to access personal information due to the nature
+    of their work. The Company also provides regular training to such employees to
+    emphasize the importance of complying with the privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 9. Rights of Users and Methods of Exercising Rights - Children under
+    the age of 14 cannot sign up for the service. If any child under the age of 14
+    is found to have signed up, the Company can immediately terminate the underage
+    user from the service.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: '- Children under the age of 14 who signed up for the service may
+    request the Company to terminate their membership or to cancel their membership
+    using the Service Settings menu.'
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: '- Any user may view or edit their registered personal information
+    and request the termination of their membership at any time.'
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Any user may view or edit their personal information by clicking 'Settings'
+    within the application and may cancel their membership by clicking 'Settings '.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: '- If a user requests a correction of an error on the personal information,
+    that personal information cannot be provided or used until the correction is done.
+    Also, if the wrong personal information was provided to 3rd party, the corrected
+    results will be notified immediately to the 3rd party. When the personal information
+    is terminated or eliminated by the user, the company will not view or use the
+    personal information, other than what is according with the terms "Periods of
+    Storage and Use of Personal Information Collected".'
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: "10. Privacy Officers, Inquiries, and Reporting The Company employs\
+    \ privacy officers who are responsible for the protection of the users' personal\
+    \ information and the handling of complaints concerning their personal information.\
+    \ For any questions concerning a users' personal information, please contact the\
+    \ Principal Privacy Officer, or the Deputy Privacy Officer, below: Principal Privacy\
+    \ Officer Kim Yun-Su General Manager (Infra Division) \u3163 +82 1599-7983 \u3163\
+    \ nate_privacy@nate.com Deputy Privacy Officer Lee Gyeong-A (Security Team) \u3163\
+    \ +82 1599-7983 \u3163 nate_privacy@nate.com Inquiries concerning the infringement\
+    \ of personal information may be directed to the Personal Information Infringement\
+    \ Report Center, the Cybercrime Investigation Center of the Supreme Prosecutors'\
+    \ Office, the Cyber Terror Response Center of the Korean National Police Agency,\
+    \ etc."
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: "[Personal Information Infringement Report Center] +82 118 \u3163\
+    \ URL : http://privacy.kisa.or.kr/ [Cybercrime Investigation Department of the\
+    \ Supreme Prosecutors' Office] +82 (0)2-3480-3571 \u3163 cybercid@spo.go.kr [Cyber\
+    \ Terror Response Center of the Korean National Police Agency]"
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: "+82 1566-0112 \u3163 URL : http://www.ctrc.go.kr/ 11. Supplementary\
+    \ Provisions 1) In the case of an amendment to this privacy policy, the Company\
+    \ shall announce the reason for the amendment, and the effective date of the amendment,\
+    \ along with the current, effective privacy policy on a service page starting\
+    \ from 10 days in advance of the effective date and up to one day in advance of\
+    \ the effective date. However, when there are changes to significant details concerning\
+    \ the rights and obligations of the user, the announcement shall be made at least\
+    \ 30 days in advance. 2) If the user does not explicitly express their refusal,\
+    \ despite the Company's announcement that the user's acceptance would be deemed\
+    \ as expressed unless the user clearly expresses their refusal before the effective\
+    \ date of the amendment, as the Company announces the amendment in accordance\
+    \ with Paragraph 1, the user will be deemed as having accepted the amendment.\
+    \ 3) Despite Paragraph 2, if the Company needs to collect additional personal\
+    \ information from the user, or provide additional personal information to third\
+    \ parties, the Company shall obtain additional consent to do so directly from\
+    \ the user."
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: This privacy policy shall enter into effect on October 17, 2016.
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: 'Change Announcement date of this privacy policy: October 7, 2016'
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: "Enforcement date of this privacy policy: October 17, 2016 Previous\
+    \ Privacy Policy Developer FAQ Partnerships Terms of Service Privacy Policy COPYRIGHT\
+    \ \xA9 SK COMMUNICATIONS ALL RIGHTS RESERVED."
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: 'The Company does not collect the following information: Name, email
+    address, password'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'The Company does not collect the following information: Name,
+      email address, password'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 57
+  segment_text: Members cannot sign up with their Facebook account, and we never collect
+    a member's email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Members cannot sign up with their Facebook account, and we never
+      collect a member's email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+- segment_id: 58
+  segment_text: Not collected is contact name, phone number, email address, webpage
+    address, and FAX number.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Not collected is contact name, phone number, email address, webpage
+      address, and FAX number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 59
+  segment_text: External service providers can't link user's device information (ads
+    ID, ads parameter).
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: External service providers can't link user's device information
+      (ads ID, ads parameter).
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: NOT_PERFORMED

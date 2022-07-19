@@ -1,0 +1,599 @@
+policy_id: 245
+policy_name: JiubangDigitalTechnology
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: HOME APPS GO Launcher EX Most popular Launcher on Android GO Locker
+    Top downloaded lock screen app Next Browser The fastest web browser GO Weather
+    EX The most friendly weather app GO TaskManager EX Powerful, Simple and Safe phone
+    manager Next Launcher 3D NO.1 3D Android Launcher GO SMS Pro The best experience
+    of messaging BLOG HOME APPS GO Launcher EX Most popular Launcher on Android GO
+    Locker Top downloaded lock screen app Next Browser The fastest web browser GO
+    Weather EX The most friendly weather app GO TaskManager EX Powerful, Simple and
+    Safe phone manager Next Launcher 3D NO.1 3D Android Launcher GO SMS Pro The best
+    experience of messaging BLOG
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy Last updated: 13/07/2016 Your privacy is important
+    to Guangzhou Jiubang Digital Technology Co., Ltd (hereinafter as "Company") and
+    we are committed to protecting your privacy. So we''ve developed a Privacy Policy.
+    IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS SET FORTH HEREIN, DO NOT USE THE
+    SOFTWARE & SERVICES.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: This Privacy Policy explains how the Company treats your information
+    and protects your privacy when you Use the Software & Services and the rights
+    and options available to you regarding your information. Company believes that
+    you have a right to know our practices regarding the information We may collect
+    and use when you Use the Software & Services. The Software & Services may include
+    various features and content that are offered and delivered to you by us and/or
+    by third parties, such as news, messages, advertisements and games, as well as
+    features and content that you may choose to add ("Content").
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Information the Company Collects and Receives.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'When you Use the Software & Services, we automatically collect and
+    store the following types of information: 1. Technical Information. Certain technical
+    information regarding your device, and your Use of the Software & Services and
+    other third party software and applications installed on your device (the "Other
+    Software"), including the type, name and version of operating system and Other
+    Software including, without limitation, their interactions with the Software &
+    Services, ISP (Internet Service Provider), location, Internet protocol (IP) address,
+    anonymous user identifiers, device configuration and identifiers (IDFA (Identifier
+    for Advertisers used in IOS), Advertising ID (Identifier for Advertisers used
+    in Android) and the like), version of the Software & Services, and your configuration
+    and settings of the Software & Services;'
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain technical information regarding your device, and your Use
+      of the Software & Services and other third party software and applications installed
+      on your device (the "Other Software"), including the type, name and version
+      of operating system and Other Software including, without limitation, their
+      interactions with the Software & Services, ISP (Internet Service Provider),
+      location, Internet protocol (IP) address, anonymous user identifiers, device
+      configuration and identifiers (IDFA (Identifier for Advertisers used in IOS),
+      Advertising ID (Identifier for Advertisers used in Android) and the like),
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Technical Information.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'When you Use the Software & Services, we automatically collect
+      and store the following types of information:'
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 2. Usage Information. Certain usage related information regarding
+    your use and interaction with your device, including the Software & Services and
+    Other Software, such as when and how you Use the Software & Services and Other
+    Software, how you use your internet browser and internet search related applications,
+    the web pages you visit and the content you see, access and utilize on such web
+    pages; for example, offerings and advertisements that you view, use and access,
+    how you use them and your response to them, how frequently you use them, your
+    search queries and the time and date of your searches;
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 3. Social Networks. Your interactions on social networks through the
+    Software & Services;
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 4. Registration Related Information. Information you provide when
+    you register for the Software & Services (if applicable), such as name, home or
+    work addresses, e-mail address, telephone and fax numbers, birth date and gender;
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information you provide when you register for the Software & Services
+      (if applicable), such as name, home or work addresses, e-mail address, telephone
+      and fax numbers, birth date and gender;
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: Registration Related Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 5. Support Related Information. If you communicate with Us via our
+    support section or via email, we may also collect your email address, name and
+    any information voluntarily submitted by you in connection with such support (for
+    example, your name, company name, and particular support query or request). Such
+    information will only be used to provide you with support services and will not
+    be connected with any other information collected from you on or through the Software
+    & Services, including, any individual User ID (as defined below) generated or
+    collected by us. When you Use the Software & Services, We automatically generate
+    an anonymous internal user ID (which does not personally identify you), which
+    is assigned to your use of the Software & Services (the "User ID") and may be
+    combined with any of the above information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you communicate with Us via our support section or via email,
+      we may also collect your email address, name and any information voluntarily
+      submitted by you in connection with such support (for example, your name, company
+      name, and particular support query or request).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Such information will only be used to provide you with support
+      services and will not be connected with any other information collected from
+      you on or through the Software & Services, including, any individual User ID
+      (as defined below) generated or collected by us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: While it is not our intention to collect any personally identifiable
+    information ("PII") (except for registration and user support purposes as set
+    forth in this Privacy Policy), the data collected may include PII. As part of
+    our privacy measures, we implement certain rules designed to avoid the unintentional
+    collection of PII such as email addresses, social security numbers, credit card
+    numbers, login information etc. Such rules are based on known field types, parameters,
+    values and algorithms but they are not foolproof and hence the Software & Services
+    may sometimes, unintentionally, collect unwanted information. We regularly examine
+    and update these rules.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As part of our privacy measures, we implement certain rules designed
+      to avoid the unintentional collection of PII such as email addresses, social
+      security numbers, credit card numbers, login information etc.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: How the Company Uses Your Information.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'The Company uses the information it collects for analytical, business
+    and operational purposes in the following ways: 1. to operate and update the Software
+    & Services and provide you with existing and new functionality and features;'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 2. to improve and customize the Software & Services; 3. to provide
+    you personalized content, including through the delivery of targeted interest-based
+    advertisements from us or our partners;
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 4. to maintain and improve the quality and operation of the Software
+    & Services;
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 5. to notify you of Software & Services updates; 6. to provide you
+    with support and handle your complaints and/or feedback;
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 7. to take any action in case of a dispute involving you in connection
+    with the Software & Services;
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 8. to enforce the terms and conditions applicable to the Software
+    & Services and to prevent unlawful activities and misuse thereof;
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 9. to comply and satisfy any applicable law regulation, legal process
+    or enforceable governmental request.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Sharing Information with Third Parties.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 'We may share with third parties the information collected in any
+    of the following events: 1. If we are required by law to disclose your information,
+    we may share your information with law enforcement or other competent authorities
+    and any third party, as may be required (e.g., to detect, prevent or otherwise
+    address fraud, security, or technical issues; to respond to claims or satisfy
+    any legal process, subpoena, or governmental request; or to protect the rights,
+    property, or personal safety of the Company''s users, its partners, or the general
+    public);'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 2. In the event the Company goes through a business transition such
+    as a merger or acquisition by another company, consolidation, change of control,
+    reorganization, or sale of all or a portion of its assets, your information will
+    be among the assets transferred;
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 3. We may share your information with certain third parties (including,
+    without limitation, search engines, content providers, and advertising networks
+    and platforms) that provide various services (such as advertising, marketing,
+    analysis, content, and search) in connection with the Software & Services. We
+    take appropriate measures to ensure that no user can be individually identified
+    from the disclosure of such information, and we require these third parties (i)
+    to keep the data secured, (ii) not to use the data for any other purpose other
+    than to provide us with services, and (iii) to use the data solely in compliance
+    with this Privacy Policy;
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 4. We may also share PII and non-personally identifiable information
+    with our subsidiaries, affiliated and parent companies but their use of such information
+    must comply with this Privacy Policy. In any case other than the above, we will
+    not share your PII with third parties without your prior consent.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Third-Party Content.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Certain Software & Services may include and/or enable you to add Content
+    to them. The Content may be in the form of apps, buttons, gadgets, links to third
+    party advertisements, websites, products and services (including search services)
+    as well as additional means that are provided to you by third parties (collectively,
+    "Third Party Content and Services"). The use of such Third Party Content and Services
+    is subject to their privacy policies. In addition, the Company provides such third
+    parties with a large number of tools to enable them to create interesting and
+    unique apps, buttons, and gadgets using the Company's platform. Some of these
+    tools may give these third parties the ability to access, collect, store, and/or
+    share your information - both your PII and non-personally identifiable information.
+    In order to clarify, we do not review, approve, monitor, endorse, warrant, or
+    make any representations with respect to such Third Party Content and Services
+    and your access to any Third Party Content and Services is at your own risk. We
+    are not responsible for the information contained and/or made available through,
+    the practices of, or your use or inability to use such Third Party Content and
+    Services. You expressly relieve us from any and all liability arising from your
+    use of such Third Party Content and Services. We recommended that you read the
+    terms, conditions and privacy policies of such Third Party Content and Services
+    before using or accessing any of them.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Social Networks.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: You may also choose to activate additional features that provide you
+    with the ability to update and use your favorite social networks directly from
+    the Software & Services. During such activation, you will be asked to grant the
+    Company permission to compile certain information from such social networks. This
+    information may include friends or contact lists, notes, updates, and photos and
+    may be used by the Company to customize the Content available to you through the
+    Software & Services, suggest new features and Content that may be relevant to
+    you or provide the Company with data for statistical purposes. The information
+    you allow the Company to access is that which is presented to you when you choose
+    to activate these features. Please see your social network provider policies for
+    any questions or concerns. You may opt not to grant the Company access to your
+    social network account(s) at any time by changing your social network settings
+    or by not authorizing the Company's access thereto.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: During such activation, you will be asked to grant the Company
+      permission to compile certain information from such social networks.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: This information may include friends or contact lists, notes, updates,
+      and photos and may be used by the Company to customize the Content available
+      to you through the Software & Services, suggest new features and Content that
+      may be relevant to you or provide the Company with data for statistical purposes.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You may also choose to activate additional features that provide
+      you with the ability to update and use your favorite social networks directly
+      from the Software & Services.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 27
+  segment_text: Cookies and Other Technologies.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: We may collect or allow third parties to collect, through blocks of
+    code called "pixels" or "web beacons", certain information about you and send
+    it to our servers and to our partners. We or our partners, package all or part
+    of this information into small text files called Cookies and send the Cookie to
+    your computer. As an example, Cookies may store search queries made through the
+    Software & Services, the web pages you accessed, your interaction with advertisements
+    presented to you via the Software & Services, features you used, your session
+    duration and your configurations and preferences of the Software & Services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As an example, Cookies may store search queries made through the
+      Software & Services, the web pages you accessed, your interaction with advertisements
+      presented to you via the Software & Services, features you used, your session
+      duration and your configurations and preferences of the Software & Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may collect or allow third parties to collect, through blocks
+      of code called "pixels" or "web beacons", certain information about you and
+      send it to our servers and to our partners.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We or our partners, package all or part of this information into
+      small text files called Cookies and send the Cookie to your computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 29
+  segment_text: 'Such Cookies and other technologies allow us and our partners to
+    recognize you on your next use of, access or visit to the Software & Services,
+    or on your visits or access to our partner''s network (i.e. sites and services
+    other than those of the Company). The Company and/or its partners use Cookies
+    and other tracking technologies to: 1. facilitate and enhance your interaction
+    and activities with the Software & Services;'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Such Cookies and other technologies allow us and our partners to
+      recognize you on your next use of, access or visit to the Software & Services,
+      or on your visits or access to our partner's network (i.e.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'The Company and/or its partners use Cookies and other tracking
+      technologies to: 1. facilitate and enhance your interaction and activities with
+      the Software & Services;'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: sites and services other than those of the Company).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: 2. help the Company learn how you Use the Software & Services, what
+    parts are most attractive and interesting to you, and what kind of offers you
+    like to see;
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 3. provide you with personalized content which may include interest-based
+    information, online ads or other marketing materials on or through the Software
+    & Services and on third party websites and properties;
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 4. analyze the information collected from you and help manage and
+    optimize the Software & Services;
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 5. track and measure various performance and demographic parameters
+    of advertising campaigns including without limitation, analyzing which ads your
+    browser has loaded, which site pages you may have been viewing when the ads were
+    delivered or accessed and your interaction with the ad.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 5. track and measure various performance and demographic parameters
+      of advertising campaigns including without limitation, analyzing which ads your
+      browser has loaded, which site pages you may have been viewing when the ads
+      were delivered or accessed and your interaction with the ad.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: Most browsers are initially set up to accept Cookies but you can reset
+    your browser to refuse all Cookies or to indicate when a Cookie is sent. However,
+    some functions of the Software & Services may not function properly if your cookies
+    are disabled. By using the Software & Services, you affirmatively consent to the
+    collection of information and Cookies as described above.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using the Software & Services, you affirmatively consent to
+      the collection of information and Cookies as described above.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: However, some functions of the Software & Services may not function
+      properly if your cookies are disabled.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Most browsers are initially set up to accept Cookies but you can
+      reset your browser to refuse all Cookies or to indicate when a Cookie is sent.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: Data Retention.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: We retain the information we collect as described in this Privacy
+    Policy for as long as necessary to fulfill our business and/or operational purposes
+    or comply with a legal request. We may also choose to anonymize parts of the information
+    we collect so that it can no longer be identifiable or attributable to any person
+    if we want to keep it for longer periods of time.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: Transfer of Data Outside Your Territory.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: The Software & Services work over the Internet. We may store and process
+    information in various locations throughout the globe. you hereby provide us with
+    your express consent to transfer of your data.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: How to Contact the Company.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 'If you have any questions or concerns with respect to any matter
+    covered by this Privacy Policy, you may contact Us by email at: golauncher@goforandroid.com'
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Registration Related Information. Information we do not obtain, such
+    as name, home or work addresses, e-mail address, telephone and fax numbers, birth
+    date and gender.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Registration Related Information. Information we do not obtain,
+      such as name, home or work addresses, e-mail address, telephone and fax numbers,
+      birth date and gender.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 42
+  segment_text: When you Use the Software & Services, we do not collect technical
+    information regarding your device, or your Use of the Software & Services and
+    other third party software and applications installed on your device (the "Other
+    Software"), including the type, name and version of operating system and Other
+    Software including, without limitation, their interactions with the Software &
+    Services, ISP (Internet Service Provider), location, Internet protocol (IP) address,
+    anonymous user identifiers, device configuration and identifiers (IDFA (Identifier
+    for Advertisers used in IOS), Advertising ID (Identifier for Advertisers used
+    in Android) and the like),
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you Use the Software & Services, we do not collect technical
+      information regarding your device, or your Use of the Software & Services and
+      other third party software and applications installed on your device (the "Other
+      Software"), including the type, name and version of operating system and Other
+      Software including, without limitation, their interactions with the Software
+      & Services, ISP (Internet Service Provider), location, Internet protocol (IP)
+      address, anonymous user identifiers, device configuration and identifiers (IDFA
+      (Identifier for Advertisers used in IOS), Advertising ID (Identifier for Advertisers
+      used in Android) and the like),
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED

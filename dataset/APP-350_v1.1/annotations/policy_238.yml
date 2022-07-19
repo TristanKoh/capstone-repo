@@ -1,0 +1,228 @@
+policy_id: 238
+policy_name: HP
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Skip to ContentSkip to Footer Laptops & tablets Business Premium Gaming
+    Standard laptops Workstations Convertibles & detachables Tablets 3-in-1 Desktops
+    Business Immersive Gaming Towers Workstations All-in-ones 3-in-1 Printers Home
+    & home office Business Print only Multifunction Scanners Large format & digital
+    presses 3D Print 3D Scan Ink & Toner Displays & accessories Business solutions
+    Printing Computing Mobility Software Services Small & medium business store Enterprise
+    store Public sector purchasing Support Support & troubleshooting Products Software
+    & drivers Forums Premium helpdesk services for home Extended warranties Business
+    Premium Gaming Standard laptops Workstations Convertibles & detachables Tablets
+    3-in-1 Business Immersive Gaming Towers Workstations All-in-ones 3-in-1 Home &
+    home office Business Print only Multifunction Scanners Large format & digital
+    presses 3D Print 3D Scan Printing Computing Mobility Software Services Small &
+    medium business store Enterprise store Public sector purchasing Support & troubleshooting
+    Products Software & drivers Forums Premium helpdesk services for home Extended
+    warranties
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Clear search box Search HP.com1676317 Close Shopping Cart popup Laptops
+    & tablets Business Premium Gaming Standard laptops Workstations Convertibles &
+    detachables Tablets 3-in-1 Desktops Business Immersive Gaming Towers Workstations
+    All-in-ones 3-in-1 Printers Home & home office Business Print only Multifunction
+    Scanners Large format & digital presses 3D Print 3D Scan Ink & Toner Displays
+    & accessories Business solutions Printing Computing Mobility Software Services
+    Small & medium business store Enterprise store Public sector purchasing Support
+    Support & troubleshooting Products Software & drivers Forums Premium helpdesk
+    services for home Extended warranties Business Premium Gaming Standard laptops
+    Workstations Convertibles & detachables Tablets 3-in-1 Business Immersive Gaming
+    Towers Workstations All-in-ones 3-in-1 Home & home office Business Print only
+    Multifunction Scanners Large format & digital presses 3D Print 3D Scan Printing
+    Computing Mobility Software Services Small & medium business store Enterprise
+    store Public sector purchasing Support & troubleshooting Products Software & drivers
+    Forums Premium helpdesk services for home Extended warranties
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Start of content HP Global Master Privacy Policy The HP Global Master
+    Privacy Policy articulates the privacy and data protection principles followed
+    by HP around the world with regards to the personal information of its customers,
+    including product, outsourcing and other services clients, partners, employees,
+    former employees, applicants and current or former members of the Board of Directors
+    ("covered individuals"). These principles support the highest privacy standards
+    in international trade and commerce and human resource management.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Introduction HP respects and is committed to protecting the personal
+    information of our covered individuals. We follow privacy policies and data protection
+    practices to comply with the law and to earn trust and confidence in HP and its
+    business practices. HP privacy policies and data protection practices extend by
+    contract to our supplier and partner relationships. HP board members, employees,
+    and those working on behalf of HP are informed about these policies and practices
+    and are expected to follow them. HP privacy policies and practices reflect and
+    reinforce the HP company values of trust, integrity, and quality.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Scope This HP Global Master Privacy Policy applies to the collection,
+    storage, processing, transfer, and use of personal information concerning covered
+    individuals except where the contract with a covered individual defines different
+    requirements. Personal information includes any data by which a person can be
+    identified or located, as well as any data to which HP has access in customer
+    systems.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Personal information includes any data by which a person can be
+      identified or located, as well as any data to which HP has access in customer
+      systems.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Scope This HP Global Master Privacy Policy applies to the collection,
+      storage, processing, transfer, and use of personal information concerning covered
+      individuals except where the contract with a covered individual defines different
+      requirements.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Personal information may be collected from covered individuals through
+    a variety of means, including, as examples, websites, other ordering channels,
+    and service or employment processes. HP may also obtain personal information about
+    covered individuals from other publicly or commercially available sources we deem
+    credible.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: This global master policy governs customer and employee data protection
+    policies; implementation standards; rulebooks; business processes; applications;
+    web, product, and service developments; and technology roadmaps.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: All HP employees, board members, and contracted parties working on
+    behalf of HP must comply with these policies, even if local law is less restrictive.
+    Specific practices are tailored to meet the legal, regulatory, and cultural requirements
+    of the countries and regions where HP operates.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Global Policy Fundamentals Our privacy policies reflect current global
+    principles and standards on handling personal information. These principles include
+    notice of data use, choice of data use, data access, data integrity, security,
+    onward transfer, and enforcement/oversight. We abide by the privacy laws in the
+    countries where we do business.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'We use the definitions of personal data and sensitive personal data
+    as defined in the Madrid Resolution. Briefly this is: Personal data means any
+    information relating to an identified natural person or a person who may be identified
+    by means reasonably likely to be used.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Sensitive personal information is that which, in cases of misuse,
+    may cause unlawful or arbitrary discrimination or other serious risk to the data
+    subject. In particular, personal data that reveals aspects such as racial or ethnic
+    origin, political opinions, or religious or philosophical beliefs will be considered
+    sensitive data.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Master Policy Principles HP recognizes that the personal information
+    it receives is held in a position of trust. We seek to fulfill that trust by adhering
+    to the following general principles regarding personal data.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Notice and Choice of Data Use HP does not sell, rent or lease personal
+    information of covered individuals. HP provides notice and choice to individuals
+    regarding the type of personal information collected and its intended uses. HP
+    reviews the purposes for which data is to be collected from covered individuals
+    to ensure that our data collection supports reasonable business requirements.
+    HP does not use personal information obtained from covered individuals for purposes
+    that are incompatible with the purposes stated in our notices.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Data Access HP provides individuals with reasonable access to the
+    personal information they provided to HP and the ability to review and correct
+    it, as applicable.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Data Integrity HP takes reasonable steps to ensure that all applicable
+    personal information is accurate, complete and current.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Data Security HP is committed to protecting personal information against
+    unauthorized use or disclosure. HP provides additional levels of protection for
+    data considered to be sensitive personal data.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Onward Transfer HP does not transfer personal information provided
+    by covered individuals to third parties unless those third parties promise to
+    give the data the equivalent level of protection that HP provides. As a global
+    company operating in many locations around the world, HP may use Global Delivery
+    Centers located outside of the country where the data is collected.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Enforcement/Oversight HP uses best commercial practices to obtain
+    personal information by lawful and fair means. HP complies with relevant privacy
+    and data protection laws in the locations in which HP operates.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: HP addresses complaints or disputes regarding personal information
+    promptly and courteously.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 'Contacts Online: Feedback form Offline: HP Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'Office of General Counsel- ATTENTION PRIVACY 1501 Page Mill Road
+    Palo Alto, California 94304 USA References Online Privacy Statement Policy #HP002-01
+    Version date: November 2015 Related Privacy links: Privacy statements for other
+    countries/regions Related Privacy links: Privacy statements for other countries/regions'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: End of content United States HP Worldwide About us About usAbout us
+    Contact HP Careers Investor relations Sustainability Newsroom Accessibility
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Ways to buy Ways to buy Shop online Store locator Call an HP rep Find
+    a reseller Enterprise store Public sector purchasing
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Support SupportSupport Download drivers Support & troubleshooting
+    Forums Register your product Manage commercial support cases Authorized service
+    providers Check repair status Training & certification
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: HP Partners HP Partners HP Partner First program HP Partner First
+    Portal Developers
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Stay connected Stay connected
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Sign up for news & offers Sign up for news & offers Submit Recalls|
+    Product recycling| CA Supply Chains Act| Site map| Privacy| Cookies & ad choices|
+    Terms of Use| Limited warranty statement| Terms & conditions of sales & service
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: "\xA9 Copyright 2017 HP Development Company, L.P."
+  annotations: []
+  sentences: []

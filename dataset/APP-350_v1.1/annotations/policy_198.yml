@@ -1,0 +1,243 @@
+policy_id: 198
+policy_name: com.tuneme.tuneme
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Tune Me - Privacy Policy We only collect anonymous usage data, with
+    one exception: if you provide us your email address using the "Contact Us" form,
+    we store it so we can contact you, but won''t share it. This document describes
+    our privacy practices in detail.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: if you provide us your email address using the "Contact Us" form,
+      we store it so we can contact you, but won't share it.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 1
+  segment_text: 'Information We Collect Your account: we store a hash (digital fingerprint)
+    of your Google account email address(es) to identify you and tie your account
+    to your purchases. We do not store the actual email address(es), and cannot obtain
+    them using the hash.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We do not store the actual email address(es), and cannot obtain
+      them using the hash.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Your account: we store a hash (digital fingerprint) of your Google
+      account email address(es) to identify you and tie your account to your purchases.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: We collect anonymous usage data from every app user to monitor usage
+    and fix bugs, such as device specifications (model, screen size, Android version,
+    etc), the country in which you are located, timestamped usage data, and your hashed
+    email address(es).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We collect anonymous usage data from every app user to monitor
+      usage and fix bugs, such as device specifications (model, screen size, Android
+      version, etc), the country in which you are located, timestamped usage data,
+      and your hashed email address(es).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: If you use the "Contact Us" form, you may voluntarily provide us with
+    your actual email address and other personally identifiable information such as
+    your name. We may use this information solely to contact you to respond to your
+    questions and provide support.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you use the "Contact Us" form, you may voluntarily provide us
+      with your actual email address and other personally identifiable information
+      such as your name.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Information Collected by Third Parties The app may send information
+    to the third party services listed below. All of this information is anonymous
+    with the exception of your email address should you choose to provide it using
+    the "Contact Us" form.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: All of this information is anonymous with the exception of your
+      email address should you choose to provide it using the "Contact Us" form.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: The app may send information to the third party services listed
+      below.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Google Analytics - for usage monitoring, including your anonymized
+    IP address and timestamped usage data. View Google's Privacy Policy
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Google Analytics \u2013 for usage monitoring, including your anonymized\
+      \ IP address and timestamped usage data."
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Admob by Google - for in-app advertising, including an advertising
+    ID and interest & demographic categories. View Google's Privacy Policy
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "View Google's Privacy Policy Admob by Google \u2013 for in-app\
+      \ advertising, including an advertising ID and interest & demographic categories."
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: HockeyApp - for crash reporting and bug fixes, including your device
+    specifications and crash logs. View HockeyApp's Privacy Policy
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "View Google's Privacy Policy HockeyApp \u2013 for crash reporting\
+      \ and bug fixes, including your device specifications and crash logs."
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: UserVoice - for the "Contact Us" form, including your device specifications
+    and email address. View UserVoice's Privacy Policy
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "View HockeyApp's Privacy Policy UserVoice \u2013 for the \"Contact\
+      \ Us\" form, including your device specifications and email address."
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: View UserVoice's Privacy Policy
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Sharing of Information With the exception of anonymous data sent to
+    the third parties mentioned above, we do not share your personal information without
+    your consent (including your email address, if provided), unless we are legally
+    obligated to do so or believe it's needed to enforce our Terms of Service.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Opting Out Our usage monitoring and crash reporting services help
+    us to fix bugs and improve the quality of the app. However, you may opt of of
+    these services using the "Do Not Track" option on the Settings screen of the app.
+    If you do so, your anonymous usage data will not be sent to Google Analytics,
+    HockeyApp, or our servers.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Notes & Changes Tune Me is developed by Atonality Mobile, LLC, which
+    operates in the United States. If you are using the app from outside the U.S.,
+    you still agree to the collection of your information as described in this document.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We may amend this Privacy Policy from time to time. If we do so, we
+    will notify you by posting an announcement inside the app.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: For questions and concerns, please email support@atonality.io. Thanks
+    for using Tune Me!
+  annotations: []
+  sentences: []

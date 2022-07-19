@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=1110">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel='shortcut icon' href='/favicon.png' type='image/x-icon'/>
+<link rel='stylesheet' href='/css/common.css' media='all' type='text/css'>
+
+
+
+<link rel='stylesheet' href='/css/inside.css' media='screen' type='text/css'>
+<!--[if lt IE 7]>
+  <link rel="stylesheet" href="/css/ie_6.css" type="text/css">
+  <script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+  <script type="text/javascript">
+	DD_belatedPNG.fix(".logo, .line, em");
+  </script>
+<![endif]-->
+<!--[if lte IE 7]>
+  <link rel="stylesheet" href="/css/ie_7.css" type="text/css">
+<![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/slides.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/cls/ajax/JsHttpRequest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+
+
+	var collapsed = false;
+
+
+
+	$('.news-more').click(function(){
+		var clObj = $(this).parent();
+		$(clObj).fadeOut('slow', function(){
+			$(clObj).next('.fullNews').fadeIn('slow');
+		});
+	});
+
+	var startSlide = 0;
+
+	if (window.location.hash) {
+		startSlide = window.location.hash.replace('#','');
+		$('.top-item').hide();
+		$('.s' + startSlide).fadeIn('slow');
+		startSlide++;
+	}
+
+
+
+
+
+
+
+});
+
+</script>
+
+<title>Nekki</title>
+</head>
+<body id="top">
+
+
+<div id="head_holder">
+	<div id="head">
+		<div id="topBox" class="b clearfix">
+			<div class="b">
+				<a href="/index.php" title="Nekki"><img class="logo" src="http://in.nekkimobile.ru/images/logo.png" alt="Nekki" /></a>
+			</div>
+			<div id="top_menu" class="b">
+				<ul>
+																	<li><a class="b" href="/index.php" >Главная</a></li>
+																	<li><a class="b" href="/about/" >О нас</a></li>
+																	<li><a class="b" href="/jobs/" >Вакансии</a></li>
+																	<li><a class="b" href="/projects/" >Проекты</a></li>
+																	<li><a class="b" href="/press/" >Пресса</a></li>
+																	<li><a class="b" href="http://support.nekki.ru"  target=_blank>Поддержка</a></li>
+										</ul>
+			</div>
+							<div id="flags">
+											<a class="en" href="http://nekki.com" target="com"><img src="http://in.nekkimobile.ru/images/flag_us.png" alt="En"></a>
+						<a class="ru" href="http://nekki.ru" target="ru"><img src="http://in.nekkimobile.ru/images/flag_ru.png" alt="Ру"></a>
+									</div>
+					</div>
+
+		<!-- Slider -->	
+		<div class="clear"></div>
+		<div class="b top-slider">
+			<div class="line b"></div>
+			<div class="clear"></div>
+			<div class="b" id="top_content">
+							<div class="top-item s0" style="display:block">
+					<h1>Добро пожаловать!</h1>
+					<h2>Компания Nekki - издатель и разработчик онлайн-игр и интернет-проектов, таких как Vector, 11x11, Гладиаторы, Бой с тенью, Soccer.Ru.</h2>
+
+										<p><a href='/about/'>Подробнее о компании ...</a> »<br><a href='/about/'>Наши ценности и миссия ...</a> »</p>
+					
+				</div>
+							<div class="top-item s1">
+					<h1>Стажировка в Nekki</h1>
+					<h2>Шанс присоединиться к нашей команде и найти своё призвание для талантливых студентов и молодых специалистов!</h2>
+
+										<p><a href=/talents/ target=_blank>Узнать подробности ...</a> »<br /><a href=/talents/?act=insert target=_blank>Отправить заявку ...</a> »</p>
+					
+				</div>
+							<div class="top-item s2">
+					<h1>Работа в Nekki</h1>
+					<h2>Работа у нас - это энтузиазм, стабильность, творчество, отличный дружелюбный коллектив и замечательная перспектива роста!</h2>
+
+										<p><a href=/jobs/>Условия работы и фото офиса ...</a> »<br /><a href=/jobs/>Наши вакансии ...</a> »</p>
+					
+				</div>
+							<div class="top-item s3">
+					<h1>Поддержка</h1>
+					<h2>Общение с пользователями очень важно для нас, поэтому мы открыли специальный сайт службы поддержки и стремимся повышать его качество.</h2>
+
+										<p><a href=http://support.nekki.ru/ target=_blank>Сайт службы поддержки ...</a> »</p>
+					
+				</div>
+							<div class="top-item s4">
+					<h1>Партнерская программа</h1>
+					<h2>Партнерство с Nekki - отличная возможность для веб-мастеров и разработчиков приложений получать постоянный и растущий доход. <br /><br /></h2>
+
+										<p><a href=http://partner.nekki.ru target=_blank>Подробнее о партнерской программе ...</a> »<br /><a href=http://partner.nekki.ru/register.php target=_blank>Начните зарабатывать ...</a> »</p>
+					
+				</div>
+						</div>
+			<div class="b" id="carousel_wrapper">
+				<div class="slides_container">
+										<img src="http://in.nekkimobile.ru/images/ut_slides/image/1.jpg" alt="" width="367" height="252">
+										<img src="http://in.nekkimobile.ru/images/ut_slides/image/7.jpg" alt="" width="367" height="252">
+										<img src="http://in.nekkimobile.ru/images/ut_slides/image/2.jpg" alt="" width="367" height="252">
+										<img src="http://in.nekkimobile.ru/images/ut_slides/image/4.jpg" alt="" width="367" height="252">
+										<img src="http://in.nekkimobile.ru/images/ut_slides/image/6.jpg" alt="" width="367" height="252">
+									</div>
+			</div>
+			<!-- Slider controls -->
+			<div class="clear"></div>
+			<div id="carousel_dots">
+				<ul class="pagination b"></ul>
+			</div>
+			<!-- /Slider controls -->
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- Slider -->
+	</div>
+<div id="container">
+
+	<div class="b content_container">
+	
+	NEKKI&nbsp; &ldquo;PRIVACY POLICY&rdquo;<br />
+v07072015<br />
+&nbsp;<br />
+&nbsp;<br />
+Thank you for playing the games and game services developed and published by Nekki&nbsp; (Caliburnus Limited)&nbsp; (the &ldquo;Game&rdquo; or &ldquo;Games&rdquo;)! In this Privacy Policy &quot;You&quot; and &quot;Your&quot; refer to you, the person visiting or playing our Games. &quot;We&quot;, &quot;Us&quot; and &quot;Our&quot; refer to the staff, sites, and other resources of Nekki.<br />
+&nbsp;<br />
+We believe in protecting Your privacy. Please read the following Privacy Policy to understand how We use and protect the information that You provide to Us.<br />
+&nbsp;<br />
+1. Contacting Nekki <br />
+&nbsp;<br />
+Nekki (Caliburnus Limited) is a company incorporated in Cyprus. If You want to know what information We hold about You or if You have any other queries in relation to this Privacy Policy, please contact Us in writing.&nbsp; Our contact information is below:<br />
+&nbsp;<br />
+Postal Address: <br />
+116, Gladstonos str, <br />
+M. Kyprianou house; 3rd&amp;4th floors, <br />
+3032, Limassol, Cyprus <br />
+<br />
+Email: <br />
+info@nekki.com<br />
+&nbsp;<br />
+2. Information That We Collect From You<br />
+&nbsp;<br />
+2.1 When you play a Game, We will collect some of your personal information that might include, but is not be limited to, your Facebook ID number. <br />
+&nbsp;<br />
+2.2 By playing the Game, You consent to the collection, use and transfer of Your information in accordance with the terms of this Privacy Policy.<br />
+&nbsp;<br />
+2.3 We may also collect information about You, from any e-mails or letters that You send to Us. We will only use any such information in accordance with the terms of this Privacy Policy. <br />
+&nbsp;<br />
+2.4 Any materials or information that You post or upload to the Games or to Us may be visible to other users of the Games and will be stored on Our servers for the purposes of making the Games available. We advise You to be selective about what information You post. Please do not include the following information in any post: telephone numbers, addresses, surname, date of birth, or other information you might want to hold private. <br />
+&nbsp;<br />
+2.5 We may receive information that You submit to any third party website You access from links contained within the Games, including without limitation any third party payment processor or e-commerce portal provided by an e-commerce operator that may from time to time be made available to You via the Games. We and the owner/ operator of that third party website will be the data controller in respect to any such information.&nbsp; You should check the privacy policy of such third party website to find out how they will use Your data. We will only use the information we receive in accordance with this Privacy Policy. <br />
+&nbsp;<br />
+2.6 We may collect information about the location of your computer or the device upon which you access the Games. We may also collect information about in-game activity and how the Games are used. Such information may include but shall not be limited to:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+&nbsp;<br />
+(a) login information (time of login and the number of logins) <br />
+(b) locations visited within the Games; <br />
+(c) character interactions within the Games; <br />
+(d) items purchased; <br />
+(e) items sold; <br />
+(f) missions accepted; <br />
+(g) missions completed; <br />
+(h) the number of times You share Game activity with friends; <br />
+(i) the number of Game invitations You send to friends; <br />
+(j) the amount of virtual currency You have; and <br />
+(k)and the amount of virtual currency You have either earned or purchased. <br />
+&nbsp;<br />
+We may use this information for a number of purposes such as optimizing gameplay, security, and to help us provide more efficient customer support.<br />
+<br />
+2.7 When you download Nekki mobile application by or through a Third Party Platform&mdash;including Facebook&mdash;you allow us to access and/or collect certain information from your Third Party Platform profile/account. You additionally allow us to access information contained in cookies placed on your device by the Third Party Platform as permitted by the terms of your agreement and privacy settings with the Third Party Platform. We may share this information with the Third Party Platform for their use as permitted by the terms of your agreement and privacy settings with the Third Party Platform.<br />
+<br />
+We will share some of the information we collect from you with vendors and other service providers who work with us to support the internal operations of our website and/or mobile application. For example, we use a third-party service for ad tracking and to help us prepare website and mobile application analytics. <br />
+<br />
+Our third-party ad tracking and analytics company never sends emails, notifications, or other communications to our end users. If you would like to opt out of third-party ad tracking and analytics, please visit here. Your choice to opt out of ad tracking and analytics services does not limit our ability to email you or collect other information from you for other vendors, subject to the terms of this privacy policy.<br />
+&nbsp;<br />
+3. Use Of Your Information<br />
+&nbsp;<br />
+3.1 We may use Your information for the following purposes: <br />
+&nbsp;<br />
+(a)To administer Your membership account;<br />
+(b)to and enable Us to provide You with access to the Games;<br />
+(c)to enable You to download information and materials from the Games;<br />
+(d)to provide You with services You subscribed to; <br />
+(e)to display Your username and contact details to other players;<br />
+(f)to enable other members of the Games to contact You; <br />
+(g)to provide customer service in relation to Your use of the the Games; and <br />
+(h)to administer, support, improve and develop the Games. <br />
+&nbsp;<br />
+3.2 We may also use Your information to contact you about the Games or to send you other content We think may be of interest to You. We will only do this if You have so consented or requested to receive such information when you downloaded the Games. If at any time You no longer wish to be contacted, please let Us know in writing and We will arrange this.<br />
+&nbsp;<br />
+4. Disclosure Of Your Information<br />
+&nbsp;<br />
+4.1 Other than as expressly set out in this Privacy Policy or as otherwise required or permitted by law, We will not share, sell or distribute any of the information You provide to Us without Your consent.<br />
+&nbsp;<br />
+4.2 We may disclose Your personal information to:<br />
+&nbsp;<br />
+(a)Any third party to whom disclosure is necessary to enable Us to provide You with the services to which You have subscribed; <br />
+(b)any person to whom disclosure is necessary to enable Us to enforce Our rights under this Privacy Policy or under the Terms of Use (including, without limitation, our proprietary rights in or to the Games); or <br />
+(c)any entity that legally acquires Nekki or any of Our Games <br />
+&nbsp;<br />
+4.3 We may pass to third party payment processors certain information that identifies you as the Game&rsquo;s player along with information on whatever you have selected to purchase. <br />
+&nbsp;<br />
+4.4 We may disclose generic non-personal information in the aggregate (that is not specific to and does not identify You) to third parties including, but not limited to, third party advertisers and/or any third party game developer that develops or modifies the Games for Us on Our behalf. <br />
+&nbsp;<br />
+4.5 You should always be careful when submitting information about Yourself within the Games and You should only submit information that You consent to make public.<br />
+&nbsp;<br />
+5. Children<br />
+&nbsp;<br />
+5.1 We do not knowingly collect or solicit personal information from anyone under 14 years old or knowingly allow such persons to register. If You are under the age of 13 years, please do not attempt to access the Games or send any information about Yourself to Us including, without limitation, Your name, address, telephone number, or email address. No person under the age of 14 may provide any personal information to Us or the Games. In the event that We learn that We have collected personal information from anyone under the age of 13, We will delete that information as soon as practicable. If You believe that We might have any information from or about a child under the age of 14, please contact Us in writing.<br />
+&nbsp;<br />
+5.2 If You are a minor aged between 14 and 18 years old, it is important that you ask your parent or legal guardian for permission before sending any information about Yourself to anyone.<br />
+&nbsp;<br />
+6. Cookies<br />
+&nbsp;<br />
+The Game use cookies to ensure proper function and so You get the highest level of satisfaction. Cookies are small amounts of information which We store on Your computer. They make it easier for You to log into and use the Games. They also allow Us to monitor website traffic and to personalize the content of the Games for You. If You do not wish Us to install cookies on Your computer for these purposes, You may change the settings on Your internet browser to reject cookies. For more information please consult the &quot;Help&quot; section of Your internet browser. Please note that if You do set Your internet browser to reject cookies, You may not be able to use all of the features of the Games.<br />
+&nbsp;<br />
+7. Third Party Sites and Contributors<br />
+&nbsp;<br />
+7.1 The Games may contain links to websites and microsites that are operated by third parties. We do not control those websites and microsites and as such this Privacy Policy does not apply to those websites and microsites. Please consult the terms and conditions and privacy policies of those third party websites and microsites to find out how they collect and use Your personal data and to establish whether and for what purpose they use cookies.<br />
+&nbsp;<br />
+7.2 Advertisements contained on Our Games operate as links to that advertiser&rsquo;s websites and as such any information they collect by virtue of Your clicking on that link will be collected and used in accordance with the privacy policy of that advertiser.<br />
+&nbsp;<br />
+8. Security And Data Retention<br />
+&nbsp;<br />
+We employ reasonable security measures to protect Your information from access by unauthorized persons and against unlawful processing, accidental loss, destruction and damage. We will retain Your information for the duration of Your membership of the Games and/or whilst you continue to have access to the Games and for a reasonable period thereafter or as long as the law requires or permits.<br />
+&nbsp;<br />
+9. Data Access and Corrections<br />
+&nbsp;<br />
+9.1 You are entitled to see the information We hold about You and You may ask Us to make any necessary changes to ensure that it is accurate and kept up to date. If You wish to do this, please contact Us in writing using the information provided above. We may charge a small fee to meet Our costs in providing You with details of the information We hold about You. <br />
+&nbsp;<br />
+9.2 You may also withdraw Your consent for Us to process Your data at any time by notifying Us in writing, but if You withdraw Your consent to certain types of processing described above We may be unable to maintain Your membership of the Games and you may no longer be able to access the Games.<br />
+&nbsp;<br />
+9.3 If you are accessing Our Games on Facebook, you may update, amend or delete Your information on Facebook, that we may receive from Facebook, by amending Your Facebook account information in accordance with Facebook&rsquo;s terms and conditions of use.<br />
+&nbsp;<br />
+10. Changes To Our Privacy Policy<br />
+&nbsp;<br />
+We reserve the right to make changes to Our Privacy Policy from time to time. Any such changes to Our privacy policy will be posted here.	</div> <!-- /#content_container -->
+
+		<div class="clear"></div>
+
+</div> <!-- /#container -->
+<div id="footer_holder">
+	<div id="footer">
+		<div id="footer_info">
+		<!-- LiveInternet counter --
+			<script type="text/javascript">
+			document.write("<a href='http://www.liveinternet.ru/click' "+
+			"target=_blank><img src='http://counter.yadro.ru/hit?t45.6;r"+
+			escape(document.referrer)+((typeof(screen)=="undefined")?"":
+			";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+			screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+			";"+Math.random()+
+			"' alt='' title='LiveInternet' "+
+			"border=0 style=filter:alpha(Opacity=20) width=31 height=31><\/a>")
+			</script>
+		<!-- /LiveInternet -->
+		</div>
+		<div id="copyright">
+			<div id="footerInfoBox">
+				По вопросам сотрудничества обращайтесь на <strong><a href="mailto:info@nekki.com" title="info@nekki.com">info@nekki.com</a></strong>			</div>
+			<table>
+				<tr>
+					<td><img alt="Nekki" src="http://in.nekkimobile.ru/images/nekki_small.gif"></td>
+					<td>&copy;&nbsp;2002&mdash;2017					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+policy_id: 166
+policy_name: com.errorsevendev.games.laserBreak
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Main menu Skip to primary content Skip to secondary content Home Laserbreak
+    Lite Laserbreak 2 Escape Renegades Contact Blog
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Navigation Home Laserbreak Lite Laserbreak 2 Escape Renegades Contact
+    Blog Navigation Privacy Laserbreak Application Privacy Policy Information Collection
+    We will not (and will not allow any third party to) use the Service to track,
+    collect or upload any data that personally identifies an individual (such as a
+    name, email address or billing information). We will have and abide by all applicable
+    laws and regulations relating to the collection of information from Visitors.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will not (and will not allow any third party to) use the Service
+      to track, collect or upload any data that personally identifies an individual
+      (such as a name, email address or billing information).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 2
+  segment_text: 'When you play Laserbreak, we may record certain information in relation
+    to your activity such as: IP or proxy server IP; Location (Country only); Date
+    and time of access to the app; Length of session; The sections or levels of the
+    app which have been accessed; Buttons or links within the app that have been activated;
+    The number of times the app has been accessed during any period; The device and
+    operating system used to access the app.'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'When you play Laserbreak, we may record certain information in
+      relation to your activity such as: IP or proxy server IP; Location (Country
+      only) Date and time of access to the app; Length of session; The sections or
+      levels of the app which have been accessed; Buttons or links within the app
+      that have been activated; The number of times the app has been accessed during
+      any period; The device and operating system used to access the app.'
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: This information is only used for statistical and development purposes.
+    Our data is collected and accessed only by www.gameanalytics.com. No other third
+    party will collect or access the data..
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Cookies Cookies may be used solely to collect traffic data and statistics.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies may be used solely to collect traffic data and statistics.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: AMENDMENTS TO THE PRIVACY POLICY We may change this Policy at our
+    own discretion and without prior notice. Such changes will be effective when published
+    on the site and your usage of the site will be considered as acceptance of the
+    new Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Summary We do not have access to any Laserbreak player's personal
+    data that would identify them as an individual. Enjoy the game.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Copyright 2015 Apex Creative Privacy Contact
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 0Shares
+  annotations: []
+  sentences: []

@@ -1,0 +1,258 @@
+policy_id: 15
+policy_name: com.algoriddim.djay_free
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Toggle navigation Home DJ Apps DJ Gear DJ School Support Company
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: icon-social-instagram Algoriddim on Instagram icon-social-youtube
+    Algoriddim on Youtube Algoriddim on Facebook Algoriddim on Twitter Company Company
+    Jobs News Press Technical Support General Inquiries
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Privacy Policy We only collect personally identifiable information
+    that you provide us with voluntarily and deliberately.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We only collect personally identifiable information about you that
+    you provide us with voluntarily and deliberately, e.g. by registering for our
+    newsletter. In any event, the only personally identifiable information we collect
+    about you are your name and your email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In any event, the only personally identifiable information we collect
+      about you are your name and your email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We only collect personally identifiable information about you that
+      you provide us with voluntarily and deliberately, e.g.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: by registering for our newsletter.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Apart from that, we only collect anonymous information. We use technologies
+    like cookies (small files stored by your browser), web beacons, or unique device
+    identifiers to anonymously identify your computer or device so we can deliver
+    a better experience. Our systems also log information like your browser, operating
+    system and IP address.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our systems also log information like your browser, operating system
+      and IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use technologies like cookies (small files stored by your browser),
+      web beacons, or unique device identifiers to anonymously identify your computer
+      or device so we can deliver a better experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: We do not knowingly contact or collect personal information from children
+    under 13. If you believe we have inadvertently collected such information, please
+    contact us so we can promptly obtain parental consent or remove the information.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We do not store or share your precise location.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not store or share your precise location.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 7
+  segment_text: We do not use or collect your precise geographic location.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use or collect your precise geographic location.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 8
+  segment_text: You can request to see your personal data.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: You can contact us by email to request any personally identifiable
+    information we have stored, such as your name or email.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We keep personal data until you delete it.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: We remove personally identifiable information (such as your name or
+    email) and other preferences associated with your account promptly upon your request.
+    We may retain other data indefinitely.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We don't share your personal data with other companies.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We generally do not share personally identifiable information (such
+    as name, address, email or phone) with other companies.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: No ad companies collect data through our service.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: We do not allow advertising companies to collect data through our
+    service for ad targeting.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: You can ask privacy questions or opt-out of marketing.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "If you have any questions or concerns about our privacy policies,\
+    \ please contact us: info@algoriddim.com algoriddim GmbH, Verterin\xE4rstr. 2,\
+    \ 80539 Munich, Germany If you have given us contact information but do not want\
+    \ us to contact you with promotional or marketing information, you can opt-out\
+    \ here: www.algoriddim.com/unsubscribe Please allow sufficient time for us to\
+    \ process your request."
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Analytics providers access data on our behalf.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Analytics companies may access anonymous data (such as your IP address
+    or device ID) to help us understand how our services are used. They use this data
+    solely on our behalf. They do not share it except in aggregate form; no data is
+    shared as to any individual user. Click to see company privacy policies that govern
+    their use of data.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytics companies may access anonymous data (such as your IP
+      address or device ID) to help us understand how our services are used.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: Google Analytics Google Analytics is a web analytics tool that helps
+    website owners understand how visitors engage with their website. Google Analytics
+    customers can view a variety of reports about how visitors interact with their
+    website so they can improve it. Google Analytics collects information anonymously.
+    It reports website trends without identifying individual visitors.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'Privacy Policy and Choices Flurry Analytics We may use Flurry analytics
+    tool in order to develop and analyze use of our services. If you wish to opt-out
+    from Flurry analytics, please follow this link: End-User Opt-Out We take steps
+    to protect personal information We take reasonable steps to secure your personally
+    identifiable information against unauthorized access or disclosure. We encrypt
+    transmission of data on pages where you provide payment information. However,
+    no security or encryption method can be guaranteed to protect information from
+    hackers or human error.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Information we collect may be stored or processed on computers located
+    in any country where we do business.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Special situations may require disclosure of your data.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'To operate the service, we also may make identifiable and anonymous
+    information available to third parties in these limited circumstances: (1) with
+    your express consent, (2) when we have a good faith belief it is required by law,
+    (3) when we have a good faith belief it is necessary to protect our rights or
+    property, or (4) to any successor or purchaser in a merger, acquisition, liquidation,
+    dissolution or sale of assets. Your consent will not be required for disclosure
+    in these cases, but we will attempt to notify you, to the extent permitted by
+    law to do so.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: You can review more privacy-related information.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: This privacy policy was last updated on November 28, 2012. Our privacy
+    policy may change from time to time. If we make any material changes to our policies,
+    we will place a prominent notice on our website or application.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: "Subscribe to our newsletter DJ Apps djay Pro for Mac djay Pro for\
+    \ iPad djay Pro for iPhone djay 2 for iPad djay 2 for iPhone djay 2 for Android\
+    \ djay for Apple Watch DJ Gear DJ Controllers Pre-Cueing Accessories Sound Systems\
+    \ Company About Jobs News Press Support Contact Us FAQs Forums logo-algoriddim-dark\
+    \ DJ Software and DJ Apps | Algoriddim icon-social-instagram Algoriddim on Instagram\
+    \ icon-social-youtube Algoriddim on Youtube Algoriddim on Facebook Algoriddim\
+    \ on Twitter \xA9 2017 algoriddim GmbH All rights reserved \u2022 Imprint \u2022\
+    \ Privacy Policy Mac OS, Mac, iPad, iPhone, iPod touch, iTunes, iTunes Store,\
+    \ and AirPlay are trademarks of Apple Inc, registered in the U.S and other countries."
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Multi-Touch is a trademark of Apple Inc.
+  annotations: []
+  sentences: []

@@ -1,0 +1,357 @@
+policy_id: 66
+policy_name: OviLexSoft
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: OviLex Software is a development team for mobile android and ios apps
+    and games, desktop applications and web sites development. email facebook twitter
+    google youtube instagram android Home Portfolio Contact
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Select Page ...
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Privacy Policy This Privacy Policy governs the manner in which Ovilex
+    Soft collects, uses, maintains and discloses information collected from users
+    (each, a "User") of the http://www.ovilex.com website ("Site"). This privacy policy
+    applies to the Site and all products and services offered by Ovilex Soft
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Information We may Collect and Sources of Information We collect
+    several categories of information: Information You give to us Technically gathered
+    information when You use our Services Information from third parties (such as
+    Facebook and Twitter) in relation to our service.'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We may collect information that You give to us, for example when You
+    sign up to use our Services (in the Service or via third party login/connect).
+    This information may include your name, unique username, pictures of yourself,
+    e-mail address, date of birth, phone number.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may include your name, unique username, pictures
+      of yourself, e-mail address, date of birth, phone number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may collect information that You give to us, for example when
+      You sign up to use our Services (in the Service or via third party login/connect).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: We may use technical means to collect information about You when You
+    use our Services. This information may include your Internet Protocol address,
+    time of your requests or actions in the service, mobile device ID, hardware type
+    and operating system version, operating system, access times, browser type and
+    language, location based on Internet Protocol ("IP") address or Global Positioning
+    System (GPS), advertising ID, media access control ("MAC") address, international
+    mobile equipment identity ("IMEI"), your device name, your email address (if You
+    have connected e.g. to Facebook or Google+), and referring website addresses.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may include your Internet Protocol address, time
+      of your requests or actions in the service, mobile device ID, hardware type
+      and operating system version, operating system, access times, browser type and
+      language, location based on Internet Protocol ("IP") address or Global Positioning
+      System (GPS), advertising ID, media access control ("MAC") address, international
+      mobile equipment identity ("IMEI"), your device name, your email address (if
+      You have connected e.g.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use technical means to collect information about You when
+      You use our Services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: to Facebook or Google+), and referring website addresses.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: We may allow You to connect the Service to your social media account(s)
+    such as through Facebook Connect, Apple's Game Center or any other third party
+    service to obtain information about You when You consent to allow your social
+    networking site to make that information available to Ovilex Soft and, consequently
+    Ovilex Soft may be able to collect certain information from your social networking
+    profile when your social networking site permits to make that information available.
+    In such case we may collect Personal Information, such as your user ID, name,
+    e-mail address, and profile picture that are available in your public profile
+    with such third party, and content such as posts, comments, media, and applications.
+    You may be able to control the types of personal data available in the profile
+    of such third party services by adjusting the privacy settings available therein.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In such case we may collect Personal Information, such as your
+      user ID, name, e-mail address, and profile picture that are available in your
+      public profile with such third party, and content such as posts, comments, media,
+      and applications.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may allow You to connect the Service to your social media account(s)
+      such as through Facebook Connect, Apple's Game Center or any other third party
+      service to obtain information about You when You consent to allow your social
+      networking site to make that information available to Ovilex Soft and, consequently
+      Ovilex Soft may be able to collect certain information from your social networking
+      profile when your social networking site permits to make that information available.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Ovilex Soft may collect non-personal information on Users' activities
+    in the Services, such as the amount of levels completed and the length of time
+    played, interactions with other players and other interactions with a game or
+    website.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: In order to improve the Services Ovilex Soft may collect and use non-personal
+    information. Ovilex Soft may also use third party service providers to collect
+    and use non-personal information. Information such as time of visit, pages visited,
+    time spent on each page of the Site, your Internet Protocol (IP) address, and
+    the type of operating system used in the devices used to access. You may decline
+    the collection and storage of your data in the future and opt out at https://tools.google.com/dlpage/gaoptout?hl=en.
+  annotations:
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information such as time of visit, pages visited, time spent on
+      each page of the Site, your Internet Protocol (IP) address, and the type of
+      operating system used in the devices used to access.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Ovilex Soft may also use third party service providers to collect
+      and use non-personal information.
+    annotations:
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: In addition to, as an element of the Services, we also use other third
+    party data analytics service providers, such as Google Analytics, Flurry, Game
+    Analytics, Facebook Audience Network, which help us analyze and improve our games.
+    The data collected by data analytics service providers enables us to understand
+    usage of the Services. Usage information and Personal Information are stored by
+    such service providers and are subject to their privacy policies. The current
+    list of data analytics service providers We use in connection with the Services
+    can be requested from Us at any time by contacting Us at contact(at)ovilex.com
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We may feature advertising within the Services, and may employ third
+    party technologies to collect information in the Services. If You wish to "opt
+    out" of certain targeted advertising, You can visit http://www.youradchoices.com
+    and/or www.networkadvertising.org. Please note that the links above may not reach
+    all of our advertising partners and certain targeted advertising may still be
+    displayed to You.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Information collected related advertising networks shall be used in
+    accordance with this Privacy Policy and the privacy policy of the third-party
+    providing applicable technology. If You want to be sure that no targeted advertisements
+    will be displayed to You please do not use or access the Services. In addition,
+    please note that if You "opt out" of targeted advertising, You will still receive
+    advertising that is not personalized to You.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Non-personal identification information We may collect non-personal
+    identification information about Users whenever they interact with our Site. Non-personal
+    identification information may include the browser name, the type of computer
+    and technical information about Users means of connection to our Site, such as
+    the operating system and the Internet service providers utilized and other similar
+    information.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Web browser cookies Our Site may use "cookies" to enhance User experience.
+    User's web browser places cookies on their hard drive for record-keeping purposes
+    and sometimes to track information about them. User may choose to set their web
+    browser to refuse cookies, or to alert you when cookies are being sent. If they
+    do so, note that some parts of the Site may not function properly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our Site may use "cookies" to enhance User experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: 'How we use collected information Ovilex Soft may collect and use
+    Users personal information for the following purposes: - To improve customer service
+    Information you provide helps us respond to your customer service requests and
+    support needs more efficiently.'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: How we protect your information We adopt appropriate data collection,
+    storage and processing practices and security measures to protect against unauthorized
+    access, alteration, disclosure or destruction of your personal information, username,
+    password, transaction information and data stored on our Site.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Sharing your personal information We do not sell, trade, or rent Users
+    personal identification information to others. We may share generic aggregated
+    demographic information not linked to any personal identification information
+    regarding visitors and users with our business partners, trusted affiliates and
+    advertisers for the purposes outlined above.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may share generic aggregated demographic information not linked
+      to any personal identification information regarding visitors and users with
+      our business partners, trusted affiliates and advertisers for the purposes outlined
+      above.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Changes to this privacy policy Ovilex Soft has the discretion to update
+    this privacy policy at any time. When we do, we will post a notification on the
+    main page of our Site. We encourage Users to frequently check this page for any
+    changes to stay informed about how we are helping to protect the personal information
+    we collect. You acknowledge and agree that it is your responsibility to review
+    this privacy policy periodically and become aware of modifications.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Your acceptance of these terms By using this Site, you signify your
+    acceptance of this policy. If you do not agree to this policy, please do not use
+    our Site. Your continued use of the Site following the posting of changes to this
+    policy will be deemed your acceptance of those changes.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 'Contacting us If you have any questions about this Privacy Policy,
+    the practices of this site, or your dealings with this site, please contact us
+    at: Ovilex Soft http://www.ovilex.com Strada Padurii, 5F +40740856539 contact@ovilex.com
+    Home Portfolio Contact'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: "Copyright \xA9 OviLex Soft 2017 This website uses cookies to improve\
+    \ your experience. We'll assume you're ok with this, but you can opt-out if you\
+    \ wish.OK"
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This website uses cookies to improve your experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We'll assume you're ok with this, but you can opt-out if you wish.OK
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED

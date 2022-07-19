@@ -1,0 +1,1556 @@
+policy_id: 302
+policy_name: Samsung
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: go top menu go menu go search go content
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Please Turn Javascript on IMPORTANT INFORMATION CONCERNING YOUR TOP
+    LOAD WASHER. SEE DETAILS Mobile TV & Audio Computing Appliances Support Business
+    Log In / Sign Up Search Shopping Cart
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Mobile Phones Tablets Wearables Virtual Reality Accessories
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Apps Samsung Pay Samsung + Smart Switch Shop Samsung App Samsung Kids
+    Apps for Every Screen
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Featured Committed to quality A Galaxy of Possibility Galaxy Note7
+    Galaxy S7 Switching to Galaxy Move Collection
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Shop Special Offers Certified Pre Owned
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: TVs & Home Theater TVs Home Theater Accessories
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Audio Headphones Wireless Speakers Stereo Shelf Systems
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "Featured QLED TVs with Quantum Dots Serif TV 4K Ultra HD Blu-ray\
+    \ Player Soundbar with Dolby Atmos \xAE Move Collection Level On Headphones"
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Shop Special Offers Certified Refurbished
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Computing Windows Laptops Windows Desktops Chromebooks Tablets Printers
+    Monitors Memory & Storage Accessories
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Featured Galaxy TabPro S Galaxy Tab S2
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Home Appliances Refrigerators Ranges Wall Ovens Cooktops & Hoods Microwaves
+    Dishwashers Washers Dryers Vacuums Accessories
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Smart Home Samsung SmartThings Security
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Featured Family Hub TM Refrigerator AddWash TM Washer activewash TM
+    Washer Built-in Appliances
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: "Shop Rebates Special Offers Certified Refurbished Mobile TV & Audio\
+    \ Computing Appliances Shop Support Business Log In / Sign Up Mobile Phones Tablets\
+    \ Wearables Virtual Reality Accessories Apps Samsung Pay Samsung + Smart Switch\
+    \ Shop Samsung App Samsung Kids Apps for Every Screen Featured Committed to quality\
+    \ A Galaxy of Possibility Galaxy Note7 Galaxy S7 Switching to Galaxy Move Collection\
+    \ TV & Home Theater TVs Home Theater Accessories Audio Headphones Wireless Speakers\
+    \ Stereo Shelf Systems FEATURED QLED TVs with Quantum Dots Serif TV 4K Ultra HD\
+    \ Blu-ray Player Soundbar with Dolby Atmos \xAE Move Collection Level On Headphones\
+    \ Computing Windows Laptops Windows Desktops Chromebooks Tablets Printers Monitors\
+    \ Memory & Storage Accessories FEATURED Galaxy TabPro S Galaxy Tab S2 Home Appliances\
+    \ Refrigerators Ranges Wall Ovens Cooktops & Hoods Microwaves Dishwashers Washers\
+    \ Dryers Vacuums Accessories Smart Home Samsung SmartThings Security FEATURED\
+    \ Family Hub TM Refrigerator AddWash TM Washer activewash TM Washer Built-in Appliances\
+    \ Shop Shop Samsung App Special Offers Certified Refurbished Orders My Account\
+    \ Wishlist Log Out Orders My Account Log Out"
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Subtotal You Save Go to Shop Orders My Account Wishlist Log Out
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Search close menu Help With My Order Live Chat
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'Share Samsung Privacy Policy PRIVACY POLICY & CHOICES - UPDATE: We
+    have updated our privacy policy as of February 10, 2015 to make it more clear
+    and readable.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Please take a few minutes to review it.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: SAMSUNG PRIVACY POLICY HIGHLIGHTS Scope This Privacy Policy applies
+    to any Samsung device, website or online application that refers to or links to
+    the Privacy Policy (collectively, our "Services"). The Privacy Policy applies
+    regardless of whether you use a computer, mobile phone, tablet, TV, or other device
+    to access our Services. Learn More
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'Information We Collect We collect various types of information in
+    connection with the Services, including: Information you provide directly to us;
+    Information we collect about your use of our Services; and Information we obtain
+    from third-party sources.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We may also seek your consent to collect information not described
+    in the Privacy Policy. Learn More
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'Use and Sharing of Information We use the information we collect
+    (and may combine it with other information about you) to, among other things:
+    Provide the Services you request; Understand the way you use the Services so that
+    we can improve your experience; and Provide customized content and advertising.'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: We also use the information we collect in ways described to you at
+    the point of collection, or otherwise with your consent.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'We may share your information with: Affiliates-the Samsung family
+    of companies. Business partners-trusted companies that may provide information
+    about products and services you might like. Service providers-companies that provide
+    services for or on behalf of Samsung. Law enforcement-when we are required to
+    do so or to protect Samsung and its users.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Learn More Additional Information About Specific Services AdHub SmartTV
+    When appropriate, we may also provide just-in-time notices prior to collection
+    of certain data.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 'How to Contact Us Email: through the "Contact Us" section of Samsung.com
+    Samsung Electronics America, Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 85 Challenger Road Ridgefield Park, NJ 07660 Samsung Electronics Co.
+    Ltd. and our affiliates [ ("Samsung," "we," "us," "our") know how important privacy
+    is to our customers, and we strive to be clear about how we collect, use, disclose,
+    transfer and store your information. This Privacy Policy provides an overview
+    of our information practices. The Privacy Policy applies to Samsung devices, websites
+    or online applications that refer to or link to the Privacy Policy (collectively,
+    our "Services").
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: While this Privacy Policy applies to all our Services, we also have
+    provided certain specific privacy supplements that contain additional information
+    about our practices in connection with particular Services. These supplements
+    apply to your use of the Services they cover. Additional consent will be obtained
+    for certain data processing activities.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Please note that the Privacy Policy applies to your usage of Samsung
+    devices (which are among the Services covered by this Privacy Policy, along with
+    our websites and online applications). It also applies regardless of whether you
+    use a computer, mobile phone, tablet, TV, or other device to access our Services.
+    It is important that you read the Privacy Policy carefully because anytime you
+    use our Services, you consent to the practices we describe in the Privacy Policy
+    and the supplements. If you do not agree to the practices described in the Privacy
+    Policy, you should not use our Services.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: It also is important that you check back often for updates to the
+    Privacy Policy. If we update the Privacy Policy we will let you know about changes
+    we consider to be material by placing a note on relevant Services. By accessing
+    or using our Services after we have placed such a notice, you consent to the new
+    practice(s) identified in the update. The most current version of the Privacy
+    Policy will always be available on Samsung.com [www.samsung.com/us/common/privacy.html].
+    You can check the "effective date" posted at the top to see when the Privacy Policy
+    was last updated.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 'Samsung Privacy Policy 1. WHAT INFORMATION DO WE COLLECT ABOUT YOU?
+    Information you provide directly Some Services enable you to give us information
+    directly. For example: A number of our Services enable users to create accounts
+    or profiles. In connection with these Services, we may ask you to provide certain
+    information about yourself to set up the account or profile. For example, you
+    can submit certain information about yourself, such as your name and email address,
+    when you create a Samsung Account. If you order a product or paid service from
+    us, we may ask for your name, contact information, shipping and billing address(es),
+    and credit card information in order to process your order.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, you can submit certain information about yourself,
+      such as your name and email address, when you create a Samsung Account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If you order a product or paid service from us, we may ask for
+      your name, contact information, shipping and billing address(es), and credit
+      card information in order to process your order.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: Some of our Services enable you to communicate with other people.
+    Those communications will be transmitted through and stored on our systems.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 'Information about your use of the Services In addition to the information
+    you provide, we may collect information about your use of our Services through
+    software on your device and other means. For example, we may collect: Device information-such
+    as your hardware model, IMEI number and other unique device identifiers, MAC address,
+    IP address, operating system version, and settings of the device you use to access
+    the Services. Log information-such as the time and duration of your use of the
+    Service, search query terms you enter through the Services, and any information
+    stored in cookies that we have set on your device. Location information-such as
+    your device''s GPS signal or information about nearby WiFi access points and cell
+    towers that may be transmitted to us when you use certain Services.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For example, we may collect:'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: 'For example, we may collect: Device information-such as your hardware
+      model, IMEI number and other unique device identifiers, MAC address, IP address,
+      operating system version, and settings of the device you use to access the Services.'
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+  - sentence_text: Location information-such as your device's GPS signal or information
+      about nearby WiFi access points and cell towers that may be transmitted to us
+      when you use certain Services.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Log information-such as the time and duration of your use of the
+      Service, search query terms you enter through the Services, and any information
+      stored in cookies that we have set on your device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: Voice information-such as recordings of your voice that we make (and
+    may store on our servers) when you use voice commands to control a Service. (Note
+    that we work with a third-party service provider that provides speech-to-text
+    conversion services on our behalf. This provider may receive and store certain
+    voice commands.) Other information-about your use of the Services, such as the
+    apps you use, the websites you visit, and how you interact with content offered
+    through a Service.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Information from third-party sources We may receive information about
+    you from publicly and commercially available sources (as permitted by law), which
+    we may combine with other information we receive from or about you. We also may
+    receive information about you from third-party social networking services when
+    you choose to connect with those services.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also may receive information about you from third-party social
+      networking services when you choose to connect with those services.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: Other Information We Collect We also may collect other information
+    about you, your device, or your use of the services in ways that we describe to
+    you at the point of collection or otherwise with your consent.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: You can choose not to provide us with certain types of information
+    (e.g., information we request during Samsung Account registration), but doing
+    so may affect your ability to use some Services.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 'How do we use your information? We may use information we collect
+    for the following purposes: to register you or your device for a Service; to provide
+    a Service or feature you request; to provide customized content and make recommendations
+    based on your past activities on our Services; for advertising, such as providing
+    customized advertisements and sponsored content (including through our advertising
+    service, AdHub, whose practices you can learn more about here) and sending you
+    promotional communications; for assessment and analysis of our market, customers,
+    products, and services (including asking you for your opinions on our products
+    and services and carrying out customer surveys); to understand the way people
+    use our Services so that we can improve them and develop new products and services;
+    to provide maintenance services for your device; to conduct free prize drawings,
+    prize competitions or promotions, as permitted by law; and otherwise with your
+    consent.'
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: We may combine information we collect from you and use it for purposes
+    consistent with this Privacy Policy. We may request your additional consent with
+    respect to such combination. After you have consented to such information combination,
+    you will be given the opportunity to disable such combination either through the
+    settings menus of certain applicable devices or by visiting here[https://account.samsung.com/membership/service/dataCombination.do].
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 'To whom do we disclose your information? We will not disclose your
+    information to third parties for their own independent marketing or business purposes
+    without your consent. However, we may disclose your information to the following
+    entities: Affiliates. Your information may be shared among Samsung affiliates.'
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Business Partners. We also may share your information with trusted
+    business partners, including wireless carriers. These entities may use your information
+    to provide you with services you request (e.g., video content provided by Netflix
+    through SmartTV), make predictions about your interests and may provide you with
+    promotional materials, advertisements and other materials.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Service providers. We also may disclose your information to companies
+    that provide services for or on behalf of us, such as companies that help us with
+    billing or that send emails on our behalf. These entities are limited in their
+    ability to use your information for purposes other than providing services for
+    us.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 'Other Parties When Required by Law or as Necessary to Protect Our
+    Services. There may be instances when we disclose your information to other parties:
+    to comply with the law or respond to compulsory legal process (such as a search
+    warrant or other court order); to verify or enforce compliance with the policies
+    governing our Services; and to protect the rights, property, or safety of Samsung,
+    or any of our respective affiliates, business partners, or customers.'
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: Other Parties in Connection With Corporate Transactions. We may disclose
+    your information to a third party as part of a merger or transfer, or in the event
+    of a bankruptcy.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: Other Parties With Your Consent or At Your Direction. In addition
+    to the disclosures described in this Privacy Policy, we may share information
+    about you with third parties when you consent to or request such sharing.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Your Choices We offer a variety of choices about how we use your information.
+    You can make choices about whether to receive promotional communications from
+    us by following the unsubscribe instructions included in the communication. In
+    addition, you can also generally make choices in your settings , or by visiting
+    relevant webpages as listed below; with respect to targeted advertising that may
+    interest you, for example by AdHub; and with respect to choice for the combination
+    of your information across services and devices for the purposes set out in the
+    Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: And you may be able to make choices in specific Services or when we
+    give you a just-in-time notice.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: What do we do to keep your information secure? We have put in place
+    reasonable physical and technical measures to safeguard the information we collect
+    in connection with the Services. However, please note that although we take reasonable
+    steps to protect your information, no website, Internet transmission, computer
+    system or wireless connection is completely secure.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: Your California Privacy Rights California residents are entitled once
+    a year, free of charge, to request and obtain certain information regarding our
+    disclosure, if any, of personally identifiable information to third parties for
+    their direct marketing purposes in the preceding calendar year (e.g., requests
+    made in 2013 will receive information about 2012 sharing activities). We comply
+    with this law by giving users the ability to tell us not to share personally identifiable
+    information with third parties for their direct marketing purposes. To make such
+    a request, send an email to NAPrivacy@sea.samsung.com. We may need additional
+    information to process your request.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: Third-Party Links and Products on Our Services Our Services may link
+    to third-party websites and services that are outside our control. We are not
+    responsible for the security or privacy of any information collected by websites
+    or other services. You should exercise caution, and review the privacy statements
+    applicable to the third-party websites and services you use.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: We also may make available to you certain products or services (e.g.,
+    apps available through Samsung Apps) developed by third parties. Samsung is not
+    responsible for these third-party products or services.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: Third Parties that Provide Content, Advertising or Functionality on
+    Our Services
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: 'Some of the content, advertising, and functionality on our Services
+    may be provided by third parties that are not affiliated with us. For example:
+    We enable you to watch video content provided by companies such as Netflix through
+    SmartTV; Third parties develop apps that we make available through the Samsung
+    App Store; Certain third parties may serve advertising or keep track of which
+    advertisements users see, how often they see those advertisements, and what users
+    do in response to them; and We enable you to share certain materials on the Services
+    with others through social networking services such as Facebook, Twitter, Google
+    +, and LinkedIn.'
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: These third-parties may collect or receive certain information about
+    your use of the Services, including through the use of cookies, beacons, and similar
+    technologies, and this information may be collected over time and combined with
+    information collected across different websites and online services. Some of these
+    companies participate in industry-developed programs designed to provide consumers
+    choices about whether to receive targeted advertising. Please visit the websites
+    operated by the Network Advertising Initiative [http://networkadvertising.org]
+    and Digital Advertising Alliance [http://www.daa.sg/] to learn more.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These third-parties may collect or receive certain information
+      about your use of the Services, including through the use of cookies, beacons,
+      and similar technologies, and this information may be collected over time and
+      combined with information collected across different websites and online services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 56
+  segment_text: If you connect with a social networking service, we may receive and
+    store authentication information from that service to enable you to log in, as
+    well as other information that you allow us to receive when you connect with these
+    services.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you connect with a social networking service, we may receive
+      and store authentication information from that service to enable you to log
+      in, as well as other information that you allow us to receive when you connect
+      with these services.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: Also, please note that if you choose to connect with a social networking
+    service on a device used by people in addition to you, those other users may be
+    able to see information stored or displayed in connection with your account on
+    the social networking service(s) with which you connect.
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: Children We do not knowingly collect any personal information from
+    children under the age of thirteen (13) without parental consent, unless permitted
+    by law. If we learn that a child under the age of thirteen (13) has provided us
+    with personal information, we will delete it in accordance with applicable law.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: Cookies, Beacons and Similar Technologies We, as well as certain third
+    parties that provide content, advertising, or other functionality on our Services,
+    may use cookies, beacons, and other technologies in certain areas of our Services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies, Beacons and Similar Technologies We, as well as certain
+      third parties that provide content, advertising, or other functionality on our
+      Services, may use cookies, beacons, and other technologies in certain areas
+      of our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 60
+  segment_text: 'Cookies Cookies are small files that store information on your computer,
+    TV, mobile phone or other device. They enable the entity that put the cookie on
+    your device to recognize you across different websites, services, devices, and/or
+    browsing sessions. Cookies serve many useful purposes. For example: Cookies can
+    remember your sign-in credentials so you don''t have to enter those credentials
+    each time you log on to a service.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies Cookies are small files that store information on your
+      computer, TV, mobile phone or other device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies serve many useful purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'For example: Cookies can remember your sign-in credentials so
+      you don''t have to enter those credentials each time you log on to a service.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They enable the entity that put the cookie on your device to recognize
+      you across different websites, services, devices, and/or browsing sessions.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 61
+  segment_text: Cookies help us and third parties understand which parts of our Services
+    are the most popular because they help us to see which pages and features visitors
+    are accessing and how much time they are spending on the pages. By studying this
+    kind of information, we are better able to adapt the Services and provide you
+    with a better experience. Cookies help us and third parties understand which ads
+    you have seen so that you don't receive the same ad each time you access a Service.
+    Cookies help us and third parties provide you with relevant content and advertising
+    by collecting information about your use of our Services and other websites and
+    apps.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By studying this kind of information, we are better able to adapt
+      the Services and provide you with a better experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies help us and third parties provide you with relevant content
+      and advertising by collecting information about your use of our Services and
+      other websites and apps.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies help us and third parties understand which ads you have
+      seen so that you don't receive the same ad each time you access a Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies help us and third parties understand which parts of our
+      Services are the most popular because they help us to see which pages and features
+      visitors are accessing and how much time they are spending on the pages.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 62
+  segment_text: When you use a web browser to access the Services, you can configure
+    your browser to accept all cookies, reject all cookies, or notify you when a cookie
+    is sent. Each browser is different, so check the "Help" menu of your browser to
+    learn how to change your cookie preferences. The operating system of your device
+    may contain additional controls for cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Each browser is different, so check the "Help" menu of your browser
+      to learn how to change your cookie preferences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The operating system of your device may contain additional controls
+      for cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use a web browser to access the Services, you can configure
+      your browser to accept all cookies, reject all cookies, or notify you when a
+      cookie is sent.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 63
+  segment_text: Please note, however, that some Services may be designed to work using
+    cookies and that disabling cookies may affect your ability to use those Services,
+    or certain parts of them.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note, however, that some Services may be designed to work
+      using cookies and that disabling cookies may affect your ability to use those
+      Services, or certain parts of them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 64
+  segment_text: Other Local Storage We, along with certain third parties, may use
+    other kinds of local storage technologies, such as Local Shared Objects (also
+    referred to as "Flash cookies") and HTML5 local storage, in connection with our
+    Services. These technologies are similar to the cookies discussed above in that
+    they are stored on your device and can be used to store certain information about
+    your activities and preferences. However, these technologies may make use of different
+    parts of your device from standard cookies, and so you might not be able to control
+    them using standard browser tools and settings. For information about disabling
+    or deleting information contained in Flash cookies, please click here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For information about disabling or deleting information contained
+      in Flash cookies, please click here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: However, these technologies may make use of different parts of
+      your device from standard cookies, and so you might not be able to control them
+      using standard browser tools and settings.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Other Local Storage We, along with certain third parties, may use
+      other kinds of local storage technologies, such as Local Shared Objects (also
+      referred to as "Flash cookies") and HTML5 local storage, in connection with
+      our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These technologies are similar to the cookies discussed above in
+      that they are stored on your device and can be used to store certain information
+      about your activities and preferences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 65
+  segment_text: Beacons We, along with certain third parties, also may use technologies
+    called beacons (or "pixels") that communicate information from your device to
+    a server. Beacons can be embedded in online content, videos, and emails, and can
+    allow a server to read certain types of information from your device, know when
+    you have viewed particular content or a particular email message, determine the
+    time and date on which you viewed the beacon, and the IP address of your device.
+    We and certain third parties use beacons for a variety of purposes, including
+    to analyze the use of our Services and (in conjunction with cookies) to provide
+    content and ads that are more relevant to you.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We and certain third parties use beacons for a variety of purposes,
+      including to analyze the use of our Services and (in conjunction with cookies)
+      to provide content and ads that are more relevant to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: By accessing and using our Services, you consent to the storage of
+    cookies, other local storage technologies, beacons and other information on your
+    devices. You also consent to the access of such cookies, local storage technologies,
+    beacons and information by us and by the third parties mentioned above.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By accessing and using our Services, you consent to the storage
+      of cookies, other local storage technologies, beacons and other information
+      on your devices.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You also consent to the access of such cookies, local storage technologies,
+      beacons and information by us and by the third parties mentioned above.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 67
+  segment_text: Do Not Track Signals and Similar Mechanisms Some web browsers may
+    transmit "do-not-track" signals to the websites with which the user communicates,
+    although web browsers incorporate and activate this functionality in different
+    ways, and it is not always clear whether users intend for these signals to be
+    transmitted. There currently is disagreement, including among participants in
+    the leading Internet standards-setting organization, concerning what, if anything,
+    websites should do when they receive such signals. Samsung currently does not
+    take action in response to these signals, but, if and when a standard is established
+    and accepted, we may reassess how to respond to these signals.
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: 'Further information If you have any specific questions, please contact
+    us at: Samsung Electronics America 85 Challenger Rd Ridgefield Park, NJ 07660
+    Email: through the "Contact Us" section of Samsung.com.'
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: 'Key Terms [Provide customized content and make recommendations]:
+    We may use information we collect to provide you with customized content and make
+    recommendations that are based in part on your past activities on our Services.
+    For example, Samsung Hub provides you with recommendations about video, music,
+    applications and third-party content that we think will interest you. Your SmartTV
+    provides recommendations about video content you might like. Please visit the
+    settings menu on your device or service for information about privacy choices
+    you may have available to you in connection with these services.'
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: '[Improve them and develop new products and services]: We may use
+    information we collect to understand the way you use the products and services
+    we offer so that we can improve them and develop new products and services. For
+    example, we may use this information to make better-informed decisions about the
+    design of our devices and the selection of Samsung and third-party content that
+    is accessible through our devices and services.'
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: '[Affiliates]: The term ''affiliates'' refers to companies related
+    to Samsung Electronics Co. Ltd. by common ownership or control. Our affiliates
+    include companies with the Samsung Electronics name, such as Samsung Electronics
+    (UK) Limited. Affiliates may also include other companies related by common ownership
+    or control, such as Samsung Information Systems America.'
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: Samsung Global Privacy Policy--AdHub Supplement Samsung's AdHub service
+    enables advertisers to reach Samsung users across various Samsung and third-party
+    platforms, including the web, mobile devices, tablets, and TVs. Among other things,
+    AdHub enables advertisers to send you advertisements that are customized based
+    on information Samsung receives about you, your device, and your online activities.
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: We collect, use, share and store the information we receive through
+    AdHub in the ways we describe in the Samsung Privacy Policy. The Privacy Policy
+    applies to AdHub, but this Supplement provides additional details about AdHub's
+    privacy practices [and explains your choices with respect to those practices].
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: Information AdHub Collects Device Information When you use a Samsung
+    service that includes ads provided by AdHub, AdHub receives certain information
+    about your device. This information may include the device's hardware model, IMEI
+    number and other unique device identifiers, MAC address, IP address, operating
+    system version, and settings.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may include the device's hardware model, IMEI
+      number and other unique device identifiers, MAC address, IP address, operating
+      system version, and settings.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use a Samsung service that includes ads provided by AdHub,
+      AdHub receives certain information about your device.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+- segment_id: 75
+  segment_text: In addition, the first time you visit a service that displays ads
+    by AdHub, Ad Hub will assign your device a random ID number, which will be sent
+    back to AdHub each time your device gets a new ad from AdHub. This allows AdHub
+    to recognize your device across different websites or applications and serve you
+    ads that are relevant to your needs and interests.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, the first time you visit a service that displays ads
+      by AdHub, Ad Hub will assign your device a random ID number, which will be sent
+      back to AdHub each time your device gets a new ad from AdHub.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: This allows AdHub to recognize your device across different websites
+      or applications and serve you ads that are relevant to your needs and interests.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 76
+  segment_text: AdHub may collect some of this information using cookies, beacons
+    and similar technologies. Please see the Samsung Privacy Policy for more information
+    about how these work and how you can control their use.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: AdHub may collect some of this information using cookies, beacons
+      and similar technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Please see the Samsung Privacy Policy for more information about
+      how these work and how you can control their use.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 77
+  segment_text: Ad Information.
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: When AdHub displays an ad to you, AdHub logs the fact that your device
+    received that ad, as well as the webpage or other place where you viewed it.
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: Information Shared with Third-Party Partners AdHub may share information
+    about the number of users who see particular ads (or ad campaigns) with our third-party
+    partners. This information is shared in aggregate form only, meaning that no device
+    information is shared with the advertiser.
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: Information Collected By Other Companies Third-party advertisers may
+    use web beacons in their ads in order to collect information about users who view
+    their ads, including through cookies, beacons and similar technologies. Samsung
+    does not control the data collection and use practices of these companies. Some
+    of these companies participate in industry-developed programs designed to provide
+    consumers choices about whether to receive targeted advertising. Please visit
+    the websites operated by the Network Advertising Initiative [http://networkadvertising.org]
+    and Digital Advertising Alliance [http://www.daa.sg/] to learn more.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information Collected By Other Companies Third-party advertisers
+      may use web beacons in their ads in order to collect information about users
+      who view their ads, including through cookies, beacons and similar technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Samsung does not control the data collection and use practices
+      of these companies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 81
+  segment_text: Your Choices You can opt out of receiving targeted advertising from
+    AdHub here [https://account.samsung.com/membership/etc/setPersonalOption.do?openPage=adsCombination].
+    Please note that if you opt out, you will continue to see ads, but they may be
+    less relevant to you because they will not be based on your interests.
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: Samsung Privacy Policy--SmartTV Supplement Samsung makes available
+    Internet-connected televisions and Blu-Ray players and other similar technologies
+    that connect to your television set (collectively, the "SmartTV services" or "SmartTV").
+    Samsung's SmartTV services offer features that may enhance video content, customized
+    TV, movie, and other content recommendations, connections to social networking
+    services, and the ability to control and interact with your SmartTV with gestures
+    and voice commands. We collect, use, share, and store information through your
+    SmartTV in the ways described in the Samsung Privacy Policy. This Supplement provides
+    additional details about the privacy practices of some SmartTV features.
+  annotations: []
+  sentences: []
+- segment_id: 83
+  segment_text: Recommendations and Customized Content The SmartTV is designed to
+    enable you to easily find and access video programming and other content. For
+    example, you may access information about live television programs distributed
+    to you by your cable or satellite operator and on-demand video content offerings
+    distributed by third-party content providers through searchable guides displayed
+    on your SmartTV.
+  annotations: []
+  sentences: []
+- segment_id: 84
+  segment_text: 'In the case of live television programs, we determine what content
+    is available to you based in part on your zip code. In addition, the SmartTV helps
+    make the searchable guides and other SmartTV content more relevant to you by highlighting
+    programming and content that is likely to interest you, such as episodes of programs
+    that you may have missed and new programs, applications and other content that
+    we believe you will find of interest. We base these recommendations on: Information
+    about content that you have watched, purchased, downloaded, or streamed through
+    Samsung applications on your SmartTV or other devices; Information about applications
+    you have accessed through the SmartTV panels; Information about your clicks on
+    the "Like," "Dislike," "Watch Now," and other buttons on your SmartTV; The query
+    terms you enter into SmartTV search features, including when you search for particular
+    video content; and Other SmartTV usage and device information, including, but
+    not limited to, IP address, information stored in cookies and similar technologies,
+    information that identifies your hardware or software configuration, browser information,
+    and the page(s) you request.'
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, the SmartTV helps make the searchable guides and other
+      SmartTV content more relevant to you by highlighting programming and content
+      that is likely to interest you, such as episodes of programs that you may have
+      missed and new programs, applications and other content that we believe you
+      will find of interest.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+  - sentence_text: In the case of live television programs, we determine what content
+      is available to you based in part on your zip code.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We base these recommendations on: Information about content that
+      you have watched, purchased, downloaded, or streamed through Samsung applications
+      on your SmartTV or other devices; Information about applications you have accessed
+      through the SmartTV panels; Information about your clicks on the "Like," "Dislike,"
+      "Watch Now," and other buttons on your SmartTV; The query terms you enter into
+      SmartTV search features, including when you search for particular video content;
+      and Other SmartTV usage and device information, including, but not limited to,
+      IP address, information stored in cookies and similar technologies, information
+      that identifies your hardware or software configuration, browser information,
+      and the page(s) you request.'
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+- segment_id: 85
+  segment_text: In addition, if you enable the collection of information about video
+    streams viewed on your SmartTV, we may collect that information and additional
+    information about the network, channels, and programs that you view through the
+    SmartTV. We will use such information to improve the recommendations that we deliver
+    to you on the SmartTV.
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: Please visit the "settings" menu of your SmartTV for choices that
+    may be available to you if you do not wish to continue to receive personalized
+    recommendations on your SmartTV. If you disable personalized recommendations,
+    then the information and content displayed on your SmartTV may not be as relevant
+    to you. Samsung may still collect information about your usage of the SmartTV
+    for the purposes described in this Samsung Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: SyncPlus and Interactive Marketing By enabling SyncPlus or other marketing
+    features, you may make the content and advertising that you receive on your SmartTV
+    and other devices when you are watching SmartTV more interactive. TV programming
+    providers or advertisers can enhance video programs by providing interactive content,
+    such as in-program trivia, show insights, games, and promotions, on your SmartTV
+    or other devices. Similarly, advertisers can enhance their ads by enabling users
+    to take immediate action (e.g., downloading a coupon or app) in response to an
+    ad.
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: To make these kinds of enhancements available, we provide video or
+    audio snippets of the program you're watching to third-party providers that use
+    this information in order to return content or advertising "synched" to what you're
+    watching. These providers may receive information about your device (e.g., its
+    IP address and device identifiers) and your interactions with the content and
+    advertising they provide. You may disable these interactive marketing features
+    at any time by visiting the "settings" menu. The choices you make with respect
+    to interactive marketing features will not affect whether you receive other types
+    of ads and marketing on your SmartTV.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These providers may receive information about your device (e.g.,
+      its IP address and device identifiers) and your interactions with the content
+      and advertising they provide.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 89
+  segment_text: Voice Recognition You can control your Smart TV, and use many of its
+    features, with voice commands.
+  annotations: []
+  sentences: []
+- segment_id: 90
+  segment_text: If you enable Voice Recognition, you can interact with your Smart
+    TV using your voice. To provide you the Voice Recognition feature, some interactive
+    voice commands may be transmitted (along with information about your device, including
+    device identifiers) to a third-party service provider (currently, Nuance Communications,
+    Inc.) that converts your interactive voice commands to text and to the extent
+    necessary to provide the Voice Recognition features to you. In addition, Samsung
+    may collect and your device may capture voice commands and associated texts so
+    that we can provide you with Voice Recognition features and evaluate and improve
+    the features. Samsung will collect your interactive voice commands only when you
+    make a specific search request to the Smart TV by clicking the activation button
+    either on the remote control or on your screen and speaking into the microphone
+    on the remote control.
+  annotations: []
+  sentences: []
+- segment_id: 91
+  segment_text: If you do not enable Voice Recognition, you will not be able to use
+    interactive voice recognition features, although you may be able to control your
+    TV using certain predefined voice commands.
+  annotations: []
+  sentences: []
+- segment_id: 92
+  segment_text: You may disable Voice Recognition data collection at any time by visiting
+    the "settings" menu. However, this may prevent you from using some of the Voice
+    Recognition features.
+  annotations: []
+  sentences: []
+- segment_id: 93
+  segment_text: Gesture Controls and Facial Recognition Your SmartTV is equipped with
+    a camera that enables certain advanced features, including the ability to control
+    and interact with your TV with gestures and to use facial recognition technology
+    to authenticate your Samsung Account on your TV. The camera can be covered and
+    disabled at any time, but be aware that these advanced services will not be available
+    if the camera is disabled.
+  annotations: []
+  sentences: []
+- segment_id: 94
+  segment_text: Gesture Control.To provide you with the ability to control your SmartTV
+    through gestures, the camera mounted on the top of your SmartTV can recognize
+    your movements. This enables you, for example, to move between panels and zoom
+    in or zoom out. We record information about when and how users use gesture controls
+    so that we can evaluate the performance of these controls and improve them.
+  annotations: []
+  sentences: []
+- segment_id: 95
+  segment_text: Facial Recognition.The camera situated on the SmartTV also enables
+    you to authenticate your Samsung Account or to log into certain services using
+    facial recognition technology. You can use facial recognition instead of, or as
+    a supplementary security measure in addition to, manually inputting your password.
+    Once you complete the steps required to set up facial recognition, an image of
+    your face is stored locally on your TV; it is not transmitted to Samsung. If you
+    cancel your Samsung Account or no longer desire to use facial recognition, please
+    visit the applicable settings menu to delete the stored image. While your image
+    will be stored locally, Samsung may take note of the fact that you have set up
+    the feature and collect information about when and how the feature is used so
+    that we can evaluate the performance of this feature and improve it.
+  annotations: []
+  sentences: []
+- segment_id: 96
+  segment_text: Fitness Services To provide you with personalized fitness recommendations,
+    SmartTV services enable you to create a profile that contains certain basic information
+    about yourself, including your height, weight and date of birth. You can delete
+    such a profile at any time by following the directions in the service's preferences
+    [or settings] screen.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Fitness Services To provide you with personalized fitness recommendations,
+      SmartTV services enable you to create a profile that contains certain basic
+      information about yourself, including your height, weight and date of birth.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+  - sentence_text: You can delete such a profile at any time by following the directions
+      in the service's preferences [or settings] screen.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 97
+  segment_text: Kids Services SmartTV services may make available educational videos
+    and other content appropriate for children, but we do not knowingly collect any
+    personal information from children under the age of thirteen (13) without parental
+    consent, unless permitted by law. If we learn that a child under the age of thirteen
+    (13) has provided us with personal information, we will delete it in accordance
+    with applicable law.
+  annotations: []
+  sentences: []
+- segment_id: 98
+  segment_text: Third Parties Please note that when you watch a video or access applications
+    or content provided by a third-party, that provider may collect or receive information
+    about your SmartTV (e.g., its IP address and device identifiers), the requested
+    transaction (e.g., your request to buy or rent the video), and your use of the
+    application or service. Samsung is not responsible for these providers' privacy
+    or security practices. You should exercise caution and review the privacy statements
+    applicable to the third-party websites and services you use.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that when you watch a video or access applications
+      or content provided by a third-party, that provider may collect or receive information
+      about your SmartTV (e.g., its IP address and device identifiers), the requested
+      transaction (e.g., your request to buy or rent the video), and your use of the
+      application or service.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 99
+  segment_text: Country-Specific Features Please note that one or more of the features
+    described in this SmartTV Supplement may not be available to you depending on
+    where you live.
+  annotations: []
+  sentences: []
+- segment_id: 100
+  segment_text: Last Updated February 10, 2015 Back to Top Samsung.com Shop Products
+    Shop Products Shop Accessories Shopping Cart Shop Refurbished Shop Samsung Shop
+    All Products Shop All Accessories Special Offers Online Certified Refurbished
+    Products
+  annotations: []
+  sentences: []
+- segment_id: 101
+  segment_text: Cell Phones Galaxy S Phones Galaxy Note Phones Cell Phones Prepaid/No
+    Contract AT&T Cell Phones Verizon Wireless Cell Phones Sprint Cell Phones T-Mobile
+    Cell Phones U.S. Cellular Cell Phones More Carriers Certified Pre-Owned Phones
+    See All Cell Phones
+  annotations: []
+  sentences: []
+- segment_id: 102
+  segment_text: TVs QLED TVs 4K SUHD TVs 4K UHD TVs LED TVs See All TVs
+  annotations: []
+  sentences: []
+- segment_id: 103
+  segment_text: Tablets Galaxy Tabs Galaxy Notes Wi-Fi Tablets 4G / LTE Tablets Refurbished
+    Tablets See All Galaxy Tablets
+  annotations: []
+  sentences: []
+- segment_id: 104
+  segment_text: Wearable Tech Smartwatches Virtual Reality Headsets See All Gear
+  annotations: []
+  sentences: []
+- segment_id: 105
+  segment_text: Home Theater & Audio Wireless Multiroom Audio Soundbars Giga Sound
+    Systems Home Theater Systems Blu-ray Players DVD Players See All Home Audio Products
+  annotations: []
+  sentences: []
+- segment_id: 106
+  segment_text: Computing Windows Laptops Windows Desktops Chrome Devices All-In-One
+    PCs Monitors Printers See All PCs
+  annotations: []
+  sentences: []
+- segment_id: 107
+  segment_text: Memory & Storage Solid State Drives Portable SSD USB Flash Drives
+    Memory Cards See All Memory & Storage
+  annotations: []
+  sentences: []
+- segment_id: 108
+  segment_text: Home Appliances Washers Dryers Refrigerators Microwaves Dishwashers
+    Ranges Wall Ovens Cooktops & Hoods Vacuums
+  annotations: []
+  sentences: []
+- segment_id: 109
+  segment_text: Smart Home Kits Hubs Sensors Outlets See All Smart Home Products
+  annotations: []
+  sentences: []
+- segment_id: 110
+  segment_text: Security & Monitoring IP Cameras Security Systems Baby Monitors
+  annotations: []
+  sentences: []
+- segment_id: 111
+  segment_text: Help With Your Order Track Your Order Store FAQs Return Your Order
+    Cancel Your Order Product Support
+  annotations: []
+  sentences: []
+- segment_id: 112
+  segment_text: Accessories TV Accessories Cell Phone Accessories Tablet Accessories
+    Printer Accessories PC Accessories Digital Camera Accessories Refrigerator Accessories
+    Washer & Dryer Accessories Security System Accessories Vacuum Accessories
+  annotations: []
+  sentences: []
+- segment_id: 113
+  segment_text: 'Discover Home Entertainment Has Never Been Better A New Era of Computing
+    Share Life as it Happens Indulge Your Inner Gourmet Tech Life: Ideas & Inspiration
+    Building a Smarter Future'
+  annotations: []
+  sentences: []
+- segment_id: 114
+  segment_text: Apps & Entertainment Shop Samsung App Apps For Every Screen Samsung
+    Pay Samsung+ Smart Switch
+  annotations: []
+  sentences: []
+- segment_id: 115
+  segment_text: Owners & Support Get Support Samsung Community Samsung Account Set
+    Up Your New Device Samsung Skills Workshop Register Your Device Manuals & Downloads
+    Help With Your Order Contact Support
+  annotations: []
+  sentences: []
+- segment_id: 116
+  segment_text: About Us About Samsung Careers Sustainability News Hope for Children
+    Investor Relations Product Recycling Accessibility Help
+  annotations: []
+  sentences: []
+- segment_id: 117
+  segment_text: Follow Us Facebook Twitter Google+ Instagram You Tube Email For Business
+    Privacy Legal Sitemap RSS USA/English
+  annotations: []
+  sentences: []
+- segment_id: 118
+  segment_text: "Copyright \xA9 1995-2017 SAMSUNG All Rights reserved."
+  annotations: []
+  sentences: []
+- segment_id: 119
+  segment_text: Welcome to Samsung Sign up & get 10% off Sign up and get 10% off your
+    first order of $100 or more! Shop Samsung.com to find the best tech at the best
+    prices and recieve news on our latest technology and exclusive offers.*
+  annotations: []
+  sentences: []
+- segment_id: 120
+  segment_text: SUBMIT *Exclusion apply. Order must be a minimumm of $100 or more.
+    Offer valid only for new Samsung.com customers. Must sign up for emails by 11/12/16.
+    Promo code must be used by 11/19.
+  annotations: []
+  sentences: []
+- segment_id: 121
+  segment_text: Thanks for signing up! Check your inbox for a discount code for 10%
+    off your first purchase.
+  annotations: []
+  sentences: []
+- segment_id: 122
+  segment_text: Welcome back.
+  annotations: []
+  sentences: []
+- segment_id: 123
+  segment_text: Looks like you are already a Samsung.com subscriber and aren't eligible
+    for this one time offer.
+  annotations: []
+  sentences: []
+- segment_id: 124
+  segment_text: Something went wrong. Please try again.
+  annotations: []
+  sentences: []
+- segment_id: 125
+  segment_text: Make shopping even easier.
+  annotations: []
+  sentences: []
+- segment_id: 126
+  segment_text: The easiest way to shop Samsung. Fast checkout, quick support, free
+    standard shipping, and more.
+  annotations: []
+  sentences: []
+- segment_id: 127
+  segment_text: Get the app Learn More The Shop Samsung app Fast checkout. Easy support.
+    Free standard shipping.
+  annotations: []
+  sentences: []
+- segment_id: 128
+  segment_text: GET The Shop Samsung app Fast checkout. Easy support. Free standard
+    shipping.
+  annotations: []
+  sentences: []
+- segment_id: 129
+  segment_text: GET Item Added Shopping Cart SUBTOTAL VIEW SHOPPING CART CHECKOUT
+    Item Added to Cart VIEW CART CHECKOUT Item Added Shopping Cart SUBTOTAL VIEW SHOPPING
+    CART CHECKOUT Item Added to Cart VIEW CART CHECKOUT
+  annotations: []
+  sentences: []
+- segment_id: 130
+  segment_text: These providers do not receive information about your device (e.g.,
+    its IP address and advertising identifiers) and your interactions with the content
+    and advertising they provide.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: These providers do not receive information about your device (e.g.,
+      its IP address and advertising identifiers) and your interactions with the content
+      and advertising they provide.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 131
+  segment_text: You cannot connect with a social networking service.
+  annotations:
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: You cannot connect with a social networking service.
+    annotations:
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 132
+  segment_text: Location information-such as your device's GPS signal or information
+    about nearby WiFi access points and cell towers are not transmitted.
+  annotations:
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Location information-such as your device's GPS signal or information
+      about nearby WiFi access points and cell towers are not transmitted.
+    annotations:
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 133
+  segment_text: 'We never collect: Device information-such as your hardware model,
+    IMEI number and other unique device identifiers, MAC address, IP address, operating
+    system version, and settings of the device you use to access the Services.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'We never collect: Device information-such as your hardware model,
+      IMEI number and other unique device identifiers, MAC address, IP address, operating
+      system version, and settings of the device you use to access the Services.'
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 134
+  segment_text: We do not receive information about you from third-party social networking
+    services.
+  annotations:
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not receive information about you from third-party social
+      networking services.
+    annotations:
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 135
+  segment_text: For example, you cannot submit certain information about yourself,
+    such as your name and email address, when you create a Samsung Account.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: For example, you cannot submit certain information about yourself,
+      such as your name and email address, when you create a Samsung Account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 136
+  segment_text: We and certain third parties never use web beacons.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We and certain third parties never use web beacons.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 137
+  segment_text: Please note that when you watch a video or access applications or
+    content provided by a third-party, that provider does not collect or receive information
+    about your SmartTV (e.g., its IP address and device identifiers), the requested
+    transaction (e.g., your request to buy or rent the video), or your use of the
+    application or service.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Please note that when you watch a video or access applications
+      or content provided by a third-party, that provider does not collect or receive
+      information about your SmartTV (e.g., its IP address and device identifiers),
+      the requested transaction (e.g., your request to buy or rent the video), or
+      your use of the application or service.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 138
+  segment_text: We never ask for your name, contact information, address(es), and
+    credit card information.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We never ask for your name, contact information, address(es), and
+      credit card information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 139
+  segment_text: These third-parties do not collect or receive information about your
+    use of the Services, including through the use of cookies, beacons, and similar
+    technologies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: These third-parties do not collect or receive information about
+      your use of the Services, including through the use of cookies, beacons, and
+      similar technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 140
+  segment_text: When you use a Samsung service we never receive your device's hardware
+    model, IMEI number and other unique device identifiers, MAC address, IP address,
+    operating system version, and settings.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you use a Samsung service we never receive your device's hardware
+      model, IMEI number and other unique device identifiers, MAC address, IP address,
+      operating system version, and settings.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: NOT_PERFORMED

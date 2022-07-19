@@ -1,0 +1,892 @@
+policy_id: 306
+policy_name: Sega
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Skip to main content Toggle navigation Games Mobile Blog Forums
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Apply Select Language: Mobile Application Privacy Policy SEGA Mobile
+    Application Privacy Policy - Last Updated on April 26, 2016'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Interest Based Ad Disclosure Precise Location Data Disclosure Sega
+    of America, Inc. and Sega Networks Inc. and certain of their affiliate companies
+    (collectively, "Sega" or "we") respect the privacy rights of our consumers and
+    we are committed to protecting the personal information collected about you. To
+    further this commitment, we have adopted this Mobile Application Privacy Policy
+    ("Mobile Privacy Policy" or "MPP") to help you make an informed decision about
+    whether to use or continue using any of Sega's mobile products or services ("App(s)").
+    This Mobile Privacy Policy will inform you about Sega's policies and procedures
+    regarding the collection, use and disclosure of your user information.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: By using Sega Apps, you signify your assent to this Mobile Privacy
+    Policy.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: This Mobile Privacy Policy and the certification seal shown in this
+    MPP confirm that Sega is a valid licensee, and participating member, of the Entertainment
+    Software Rating Board's Privacy Certified Program ("ESRB Privacy Certified").
+    To protect your privacy, we have voluntarily undertaken this privacy initiative
+    and have had all of Sega's Apps where this MPP is posted, reviewed and certified
+    by ESRB Privacy Certified to meet established online data collection, use and
+    disclosure practices. As a licensee of this privacy program, we are subject to
+    frequent audits of our Apps and other enforcement and accountability mechanisms
+    administered independently by ESRB Privacy Certified. In addition, for U.S. users
+    of our Apps, we adhere to the Digital Advertising Alliance's Self-Regulatory Principles
+    for the Mobile Environment.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: This MPP may be revised periodically and this will be reflected by
+    the "Last Updated" date above. Please revisit this page to stay aware of any changes.
+    If we make material changes to this MPP, we will provide you with additional notice
+    of such changes by updating the description of the App in the applicable App store
+    or by providing in-App alerts. Your continued use of the Apps shall constitute
+    your agreement to this MPP and any future revisions.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Table of Contents 1. The Information Sega Collects 2. The Way Sega
+    Uses Information 3. IBA Disclosure -Third Party Advertisers 4. When Sega Discloses
+    Information 5. Precise Location Data 6. Your Choices 7. Sega's Commitment to Data
+    Security 8. Questions or Comments about this Privacy Policy 1. The Information
+    Sega Collects This MPP applies only to information submitted and collected by
+    Sega via its Apps. The third party online/mobile store from which you purchase
+    and/or install the Apps may also collect and use personal and non-personal information
+    about you. This MPP does not apply to information that may be collected by such
+    third party application store, and Sega is therefore not responsible for the information
+    collected by such third party.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: User-Provided Personal Information Although you may provide certain
+    personally identifiable information (such as your phone number, e-mail address,
+    credit card or other payment information, etc.) when purchasing an App, this information
+    is provided to the online/mobile application store in connection with your purchase
+    and/or registration of the App. The online/mobile application store providers
+    do not share your information with Sega. Sega will not receive or retain any of
+    the personally identifiable information you share with such store providers in
+    connection with your use of the App. The information that we collect through your
+    download and use of the Apps is limited to the public profile information within
+    your social media profile on Google+, Facebook, and/or Twitter, if you choose
+    to register your App account via such social media providers. This information
+    may include your first and/or last name, profile picture, and e-mail address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Although you may provide certain personally identifiable information
+      (such as your phone number, e-mail address, credit card or other payment information,
+      etc.)
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: The information that we collect through your download and use of
+      the Apps is limited to the public profile information within your social media
+      profile on Google+, Facebook, and/or Twitter, if you choose to register your
+      App account via such social media providers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: This information may include your first and/or last name, profile
+      picture, and e-mail address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: when purchasing an App, this information is provided to the online/mobile
+      application store in connection with your purchase and/or registration of the
+      App.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: For the support of internal operations, Sega collects your device
+    identifier ("device ID") and IP address. We do not access or store information
+    that you have saved on your mobile device such as contacts and appointments. In
+    addition, if permitted by your mobile device settings, the App may provide, to
+    Third Party Advertisers, (i) your device ID (as further described in Section 3
+    and (ii) your precise location data (as further described in Section 5 ).
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For the support of internal operations, Sega collects your device
+      identifier ("device ID") and IP address.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition, if permitted by your mobile device settings, the App
+      may provide, to Third Party Advertisers,
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+  - sentence_text: We do not access or store information that you have saved on your
+      mobile device such as contacts and appointments.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: your device ID (as further described in Section 3 and
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+  - sentence_text: your precise location data (as further described in Section 5 ).
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Children''s Information Protecting the privacy of young children
+    is especially important to Sega. For that reason, Sega does not knowingly collect
+    or maintain personally identifiable information or non-personally identifiable
+    information from users under 13 years of age, other than as permitted by law in
+    support of the internal operations. If Sega learns that personally identifiable
+    information of users under the age of 13 has been collected, other than for support
+    of the internal operations, Sega will take reasonable steps to remove such information.
+    If you believe that we may have unintentionally collected personal information
+    about your child under 13 years of age, you may contact us at: Sega Networks Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 'Customer Service Department 612 Howard Street Suite 200 San Francisco,
+    CA 94105 privacy@sega.net Anonymous Information This is information that does
+    not directly or indirectly identify you as an individual user. Sega and other
+    third parties may passively collect non-personal information from you when you
+    access or use Apps. We may collect: Imprecise location information, either provided
+    by you or your mobile device interacting with one of our App(s). In addition,
+    certain Location data may consist of personally identifiable information: See
+    Section 5 "Precise Location Data" for additional information); Usage, viewing
+    and technical data; and Any other information (such as device type) that may be
+    passively collected by third parties (such as ad networks on free-to-play Apps).'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In addition, certain Location data may consist of personally identifiable
+      information: See Section 5 "Precise Location Data" for additional information)'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Sega and other third parties may passively collect non-personal
+      information from you when you access or use Apps.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'We may collect: Imprecise location information, either provided
+      by you or your mobile device interacting with one of our App(s).'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Back to top 2. The Way Sega Uses Information We may use certain information
+    (such as user usage data, IP addresses, device ID, browser type, clickstream data,
+    cookies, etc.) to improve the quality and design of the Apps and to create new
+    features, promotions, functionality, and services by storing, tracking, and analyzing
+    user preferences and trends.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The Way Sega Uses Information We may use certain information (such
+      as user usage data, IP addresses, device ID, browser type, clickstream data,
+      cookies, etc.)
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: to improve the quality and design of the Apps and to create new
+      features, promotions, functionality, and services by storing, tracking, and
+      analyzing user preferences and trends.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Back to top 3. IBA Disclosure - Third Party Advertisers Certain Sega
+    Apps are currently supported by third party ad servers or ad networks that serve
+    advertisements ("Third Party Advertisers"), including behavioral or interest based
+    advertising ("Interest Based Advertising"), within the Sega Apps. These Third
+    Party Advertisers use technology to send, directly to your mobile device, the
+    advertisements and links that appear in the Sega Apps. They may automatically
+    receive your device ID, IP address or geo-location data when this happens. They
+    may also use other technologies (such as cookies, JavaScript, or Web Beacons)
+    to measure the effectiveness of their advertisements and to personalize the advertising
+    content you see. Please see this list of our Third Party Advertisers for certain
+    Sega Apps, and their respective policy policies for information regarding their
+    privacy practices.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain Sega Apps are currently supported by third party ad servers
+      or ad networks that serve advertisements ("Third Party Advertisers"), including
+      behavioral or interest based advertising ("Interest Based Advertising"), within
+      the Sega Apps.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: These Third Party Advertisers use technology to send, directly
+      to your mobile device, the advertisements and links that appear in the Sega
+      Apps.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: They may automatically receive your device ID, IP address or geo-location
+      data when this happens.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Opt-Out for Interest Based Advertising Your mobile device may allow
+    you to opt out of certain Interest Based Advertising.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'iOS - On your iOS device (iPhone or iPad), open "Settings > Privacy
+    > Advertising" and turn on "Limit Ad Tracking" to opt-out of interest based ads.
+    Please see additional information from Apple here: https://support.apple.com/en-us/HT202074'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Android - Open the Settings app on your Android phone, tap Ads and
+    enable "Opt out of interest based ads".
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Please note that if you opt of certain Interest Based Advertising,
+    you may continue to receive contextual ads based on other non-personal information,
+    such as ads related to the content of the App you are using.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Back to top 4. When Sega Discloses Information We may share non-personally-identifiable
+    information (such as anonymous user usage data, mobile device type, etc.) with
+    interested third parties to assist them in understanding the usage patterns for
+    certain content, advertisements, promotions and/or functionality on Sega Apps.
+    In addition, certain Third Party Advertisers may collect limited personally identifiable
+    information, such as device ID, IP address or geo-location data, as further described
+    in Sections 3 and 5.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, certain Third Party Advertisers may collect limited
+      personally identifiable information, such as device ID, IP address or geo-location
+      data, as further described in Sections 3 and 5.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: We may receive and release personally identifiable information and/or
+    non-personally-identifiable information if required to do so by law, or in the
+    good-faith belief that such action is necessary to comply with state and federal
+    laws, or respond to a court order, subpoena, or search warrant.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: In instances when Sega is provided with personally identifiable information
+    and/or non-personally-identifiable information, we reserve the right to disclose
+    such information that we believe, in good faith, is appropriate or necessary to
+    enforce our Terms of Service (if applicable), take precautions against liability,
+    to investigate and defend ourselves against any third party claims or allegations,
+    to assist government enforcement agencies, to protect the security or integrity
+    of our Apps, and to protect the rights, property, or personal safety of Sega,
+    our users or others.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Back to top 5. Precise Location Data Certain Third Party Advertisers
+    in Sega Apps may collect precise location data, or street-level location information,
+    about you. Your mobile device may allow you to opt out of the collection of Precise
+    Location Data by the Third Party Advertiser in the Sega App, as further described
+    below.
+  annotations:
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain Third Party Advertisers in Sega Apps may collect precise
+      location data, or street-level location information, about you.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: 'iOS - In order to disable the collection of Precise Location Data
+    on iOS, you may turn Location Services off for the applicable Sega App via the
+    menu "Settings > Privacy > Location Services". Then select the applicable Sega
+    App and set the "Share My Location" status to "Never". Please see additional information
+    from Apple here: https://support.apple.com/en-us/HT203033'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Please see additional information from Apple here: https://support.apple.com/en-us/HT203033'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Then select the applicable Sega App and set the "Share My Location"
+      status to "Never".
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: iOS - In order to disable the collection of Precise Location Data
+      on iOS, you may turn Location Services off for the applicable Sega App via the
+      menu "Settings > Privacy > Location Services".
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Android (6.0 / Marshmallow and higher) - In order to disable the collection
+    of Precise Location Data on Android, you may turn Location off for the applicable
+    Sega App via the menu "Settings > Apps > [applicable Sega App] > Permissions >
+    Location". Then turn off the "Location" button.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Android (6.0 / Marshmallow and higher) - In order to disable the
+      collection of Precise Location Data on Android, you may turn Location off for
+      the applicable Sega App via the menu "Settings > Apps > [applicable Sega App]
+      > Permissions > Location".
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Then turn off the "Location" button.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: Back to top 6. Your Choices Some Sega Apps are free-to-play and supported
+    by advertisements. In these instances, you may not opt out of receiving such advertisements.
+    For those Sega Apps that you pay a fee, there may be specific targeted advertising.
+    If you do not wish to be served advertisements, please do not use our Apps. Please
+    contact Sega via email at privacy@sega.net with any questions or comments about
+    your personal information, your consent, your opt-in or opt-out choices, or this
+    MPP, in general.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Your California Privacy Rights Since 2005, California Civil Code
+    Section 1798.83 permits our customers who are California residents to request
+    certain information regarding our disclosure of personal information to third
+    parties for their direct marketing purposes. We do not share user''s personal
+    information with unaffiliated third parties for their own direct marketing purposes.
+    For inquiries regarding our disclosure policy, please write us: SEGA Networks
+    Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Customer Service Department 612 Howard Street Suite 200 San Francisco,
+    CA 94105 privacy@sega.net Back to top 7. Sega's Commitment to Data Security Sega
+    uses commercially reasonable physical, managerial, and technical safeguards to
+    preserve the integrity and security of our systems. These safeguards include,
+    among other things, limiting access to such data to those employees performing
+    a legitimate business function, use of encryption and passwords, and the storage
+    of data on secure servers or computers. These measures are also designed to protect
+    any user information Sega may obtain, collect and/or retain as described in this
+    MPP from unauthorized access, disclosure, use and modification. However, please
+    be aware that, despite our best efforts, no security measures are perfect or impenetrable.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 'Back to top 8. Questions or Comments about this Mobile Privacy Policy
+    If you have questions or wish to send us comments about this Mobile Privacy Policy,
+    please contact us at: Sega Networks Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 'Customer Service Department 612 Howard Street Suite 200 San Francisco,
+    CA 94105 privacy@sega.net As aforementioned, Sega is a licensee of the ESRB''s
+    Privacy Certified Program. If you believe that we have not responded to your privacy-related
+    inquiry or your inquiry has not been satisfactorily addressed, please contact
+    ESRB at https://www.esrb.org/privacy/contact.jsp, or: ESRB Attn: Privacy Certified
+    Program 420 Lexington Avenue, Suite 2024 New York, NY 10170 privacy@esrb.org Back
+    to top Appendix 1 - Third Party Advertising for certain SEGA Apps'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Last updated - April 25, 2016 Crazy Taxi City Rush (Android) - AdMob
+    (Google), Applifier (Unity), Applovin, Chartboost, MoPub (Twitter), NativeX, Playhaven,
+    Tapjoy, Vungle Crazy Taxi City Rush (iOS) - AdMob (Google), Applifier (Unity),
+    Applovin, Chartboost, MoPub (Twitter), NativeX, Playhaven, Tapjoy, Vungle Sonic
+    All Stars Racing Transformed (Android) - Applifier (Unity), Chartboost, MoPub
+    (Twitter), NativeX, Playhaven, Tapjoy, Vungle Sonic All Stars Racing Transformed
+    (iOS) - Applifier (Unity), Chartboost, MoPub (Twitter), NativeX, Playhaven, Tapjoy,
+    Vungle Sonic Dash (Android) - AdColony, AdMob (Google), Applifier (Unity), Applovin,
+    Chartboost, Fyber, HyprMX, InMobi, IronSource, MediaBrix, MoPub (Twitter), NativeX,
+    Tapjoy, Vungle Sonic Dash (iOS) - AdColony, AdMob (Google), Applifier (Unity),
+    Applovin, Chartboost, Fyber, HyprMX, InMobi, MediaBrix, MoPub (Twitter), Playhaven,
+    Tapjoy, Vungle Sonic Dash 2 (Android) - AdColony, AdMob (Google), Applifier (Unity),
+    Applovin, Chartboost, Fyber, HyprMX, InMobi, IronSource, MediaBrix, MoPub (Twitter),
+    Vungle Sonic Dash 2 (iOS) - AdColony, AdMob (Google), Applifier (Unity), Applovin,
+    Chartboost, Fyber, HyprMX, InMobi, MediaBrix, MoPub (Twitter), Vungle Sonic Jump
+    (Android) - Playhaven, Vungle Sonic Jump (iOS) - Playhaven, Vungle Sonic Jump
+    Fever (Android) - AdColony, AdMob (Google), Applifier (Unity), Chartboost, MoPub
+    (Twitter), NativeX, Playhaven, Tapjoy, Vungle Sonic Jump Fever (iOS) - AdColony,
+    AdMob (Google), Applifier (Unity), Applovin, Chartboost, MoPub (Twitter), NativeX,
+    Playhaven, Tapjoy, Vungle
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Back to top Games All Games Upcoming Games
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: "Brands Sonic the Hedgehog\u2122 Total War\u2122 Football Manager\u2122\
+    \ Aliens Company of Heroes\u2122 Motorsport Manager\u2122"
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: SEGA STORES Total War Merchandise Sonic Merchandise
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: Company Careers Corporate Support PC EULA Privacy Mobile Privacy Cookie
+    Policy Site terms
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "\xA9 SEGA. SEGA and the SEGA logo are either registered trademarks\
+    \ or trademarks of the SEGA Holdings Co., Ltd or its affiliates. All rights reserved.\
+    \ SEGA is registered in the U.S. Patent and Trademark Office. All other trademarks,\
+    \ logos and copyrights are property of their respective owners. SEGA video games\
+    \ for PlayStation\xAE3 computer entertainment system, PS\xAE Vita System, PlayStation\xAE\
+    Network, PSP\xAE (PlayStation\xAEPortable) system, PC, PC Download, Xbox 360\xAE\
+    , Xbox LIVE\xAE, Kinect\u2122 for Xbox 360\xAE, iPhone\xAE & iPod touch\xAE, iPad\xAE\
+    , Andorid\u2122, Apple Mac\xAE, Apple Mac\xAE Download, Nintendo DS\u2122, Nintendo\
+    \ 3DS\u2122, Wii U\u2122, Wii\u2122 and WiiWare\u2122. Nintendo properties are\
+    \ trademarks of Nintendo. \xA9 2015 Nintendo. KINECT, Xbox, Xbox 360, Xbox LIVE,\
+    \ and the Xbox logos are trademarks of the Microsoft group of companies and are\
+    \ used under license from Microsoft. 2\", \"PlayStation\", \"\xC0\" and \"PS3\"\
+    \ are trademarks or registered trademarks of Sony Computer Entertainment Inc.\
+    \ \"\xC3\" is a trademark of the same company. All rights reserved."
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: This site uses cookies. By continuing to browse the site you are agreeing
+    to our use of cookies. Find out more here
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By continuing to browse the site you are agreeing to our use of
+      cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Find out more here
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This site uses cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: "Trending Dawn of War III All games Upcoming games Brands Company\
+    \ of Heroes Dawn of War Alien Isolation Total War Football Manager Hatsune Miku\
+    \ Yakuza Sonic The Hedgehog Motorsport Manager Platforms Android\u2122 iPad\xAE\
+    \ iPhone\xAE Nintendo 3DS\u2122 Nintendo Switch\u2122 PC Download PlayStation\xAE\
+    3 system PlayStation\xAE4 system Wii U\u2122 Xbox 360\xAE Xbox One\xAE View all\
+    \ platforms Popular tags Action Adventure Aliens Fighting Free to play Puzzle\
+    \ Racing Sonic the Hedgehog Strategy Total War Games Blog"
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Check out the latest mobile games.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: A blog about the latest mobile games.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: Follow @SEGA
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Sega Apps are not currently supported by third party ad servers or
+    ad networks that serve advertisements ("Third Party Advertisers"). No Third Party
+    Advertisers receive your device ID, IP address or geo-location data.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Sega Apps are not currently supported by third party ad servers
+      or ad networks that serve advertisements ("Third Party Advertisers"). No Third
+      Party Advertisers receive your device ID, IP address or geo-location data.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 40
+  segment_text: We do not connect to your social media profile on Google+, Facebook,
+    and/or Twitter. We do not receive your e-mail address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not connect to your social media profile on Google+, Facebook,
+      and/or Twitter. We do not receive your e-mail address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 41
+  segment_text: In addition, Third Party Advertisers do not collect personally identifiable
+    information, such as device ID, IP address or geo-location data, as further described
+    in Sections 3 and 5.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: In addition, Third Party Advertisers do not collect personally
+      identifiable information, such as device ID, IP address or geo-location data,
+      as further described in Sections 3 and 5.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 42
+  segment_text: Sega does not collect your device identifier ("device ID") and IP
+    address.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Sega does not collect your device identifier ("device ID") and
+      IP address.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 43
+  segment_text: The App does not provide, to Third Party Advertisers, your device
+    ID (as further described in Section 3) and your precise location data (as further
+    described in Section 5 ).
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The App does not provide, to Third Party Advertisers, your device
+      ID (as further described in Section 3) and your precise location data (as further
+      described in Section 5 ).
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 44
+  segment_text: Our app does not obtain certain personally identifiable information
+    (such as your phone number, e-mail address, credit card or other payment information,
+    etc.), this information is not provided to the online/mobile application store
+    in connection with your purchase and/or registration of the App.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our app does not obtain certain personally identifiable information
+      (such as your phone number, e-mail address, credit card or other payment information,
+      etc.), this information is not provided to the online/mobile application store
+      in connection with your purchase and/or registration of the App.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 45
+  segment_text: Third Party Advertisers in Sega Apps are not collecting precise location
+    data, or street-level location information, about you.
+  annotations:
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Third Party Advertisers in Sega Apps are not collecting precise
+      location data, or street-level location information, about you.
+    annotations:
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 46
+  segment_text: 'Sega and other third parties do not passively collect non-personal
+    information from you when you access or use Apps. We and those third parties do
+    not collect: Imprecise location information.'
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Sega and other third parties do not passively collect non-personal
+      information from you when you access or use Apps. We and those third parties
+      do not collect: Imprecise location information.'
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: NOT_PERFORMED

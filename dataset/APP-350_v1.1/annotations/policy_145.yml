@@ -1,0 +1,1567 @@
+policy_id: 145
+policy_name: com.boolit.powerlevelwarrior
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home Our games Concept art gallery Comics About us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Select Page Home Our games Concept art gallery Comics About us
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: BOOLit entertainment Privacy Policy BOOLIT ENTERTAINMENT PRIVACY POLICY
+    (Last update December 2016) Interest-Based Ads The option for our partners to
+    display interest-based, or retargeted, ads ("IBA") is enabled solely for the device
+    IDs that have passed the age gate and have not opted out of IBA. By using our
+    apps and not choosing one of the opt-out options, you give us consent to transfer
+    your data as stated below.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The option for our partners to display interest-based, or retargeted,
+      ads ("IBA") is enabled solely for the device IDs that have passed the age gate
+      and have not opted out of IBA.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: We will pass only the device-level data to our advertising partners
+    (for example if a device has clicked on a sports ad within our apps) and they
+    can reuse such data for targeted advertising. We allow our partners to serve targeted
+    third party advertisements or other content. They may attach the information gathered
+    from your device to info gathered from other apps, websites, or via other services,
+    and then build profiles and transfer the info to another provider. For example
+    we pass advertising IDs to FB and they match it with your FB ID, aggregate it
+    and delete the initial identifier. By doing so the other provider may receive
+    or gather information about you and use the information for displaying targeted
+    ads. Advertisers may choose their audience by location, demographics, likes, keywords,
+    age & gender, interests, behaviors, connections and any other information FB receives
+    or infers about users. We cooperate with several providers of IBA, Facebook, MoPub,
+    InMobi, Google (Adx), Google (AdMob), AppLovin and My.Com ("Third Parties"). When
+    allowing Third Parties to conduct IBA we adhere to the DAA Principles available
+    here http://digitaladvertisingalliance.org/principles.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertisers may choose their audience by location, demographics,
+      likes, keywords, age & gender, interests, behaviors, connections and any other
+      information FB receives or infers about users.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: By doing so the other provider may receive or gather information
+      about you and use the information for displaying targeted ads.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: For example we pass advertising IDs to FB and they match it with
+      your FB ID, aggregate it and delete the initial identifier.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We cooperate with several providers of IBA, Facebook, MoPub, InMobi,
+      Google (Adx), Google (AdMob), AppLovin and My.Com ("Third Parties").
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'You can opt out by choosing one of the following options (for more
+    information please read the "Opt Out" Section of our Privacy Policy): MoPub http://www.mopub.com/optout/;
+    FB https://www.facebook.com/settings?tab=ads; InMobi http://www.inmobi.com/page/opt-out/;
+    AppLovin https://www.applovin.com/optout; Google (Adx) https://www.google.com/ads/preferences/html/mobile-about.html;
+    Google (AdMob) https://www.google.com/ads/preferences/html/mobile-about.html;
+    My.Com https://target.my.com/privacy/. Mailchimp https://mailchimp.com/legal/privacy/.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: b) Turn on "Limit Ad Tracking" on your iOS device or "Opt Out of Interest-Based
+    Ads" on your Android device
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: c) Choose "Opt Out of IBA" within the settings of our apps (where
+    available).
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: "As used in this Privacy Policy, \"BOOLit entertainment\", \"we\"\
+    , \"us\" or \"our\", \"ours\" refers to BOOLit, \u017Diga Krmelj s.p., registered\
+    \ at AJPES Celje branch, Gub\u010Deva 2, 3000 Celje, Slovenia, with business address\
+    \ at Zgornje Gru\u0161ovlje 16a, 3311 \u0160empeter, Slovenia."
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Any general questions? Please visit: http://www.boolit-entertainment.com/about-us/.
+    Any privacy questions? Send us an e-mail to boolit.entertainment@gmail.com.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: This Privacy Policy is part of and incorporated by reference into
+    the End User License Agreement (the "EULA") governing the use of all "BOOLit entertainment"
+    branded software applications (the "Application/s"), which may operate on any
+    type of computing device (including without limitation, a mobile device), and
+    applies to your use of the Applications and/or http://www.boolit-entertainment.com
+    and any other websites and/or URL which may replace it or which may be added to
+    the list of websites published by us and linking to this Privacy Policy (the "Website/s").
+    This Privacy Policy covers how we collect, use, disclose, transfer and store information
+    received about you and/or information received about your computing device through
+    your use of the Applications or the Websites.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: By agreeing to the EULA and/or using the Applications or the Websites,
+    you specifically consent to the collection, use and disclosure of your information
+    (including personal information) in accordance with this Privacy Policy. We may
+    receive and/or you may be asked to provide your information (including personal
+    information) any time you are in contact with us or use the Applications or the
+    Websites. As described in greater detail below, we may share this information
+    (including personal information) with our affiliates and with third party partners
+    (as defined below) and use it in ways consistent with this Privacy Policy. We
+    may also use your information (including personal information) together with other
+    information to provide and improve products, services, content, and advertising.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'In addition to the general content of this Privacy Policy which is
+    applicable to all Applications, some of the Applications have special clauses
+    that apply just to them. Such Applications are: Power Level Warrior Power Level
+    Warrior 2 Legends Within - Mini Edition Tilt planes vs. aliens Pit Runner Dragon
+    Fly High OrBrix: brick smash Fortune Cards Fun (TAROT)'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Collection of Device and Technical Information We collect the data
+    necessary for you to use our app and for us to maintain and analyze the functioning
+    of the app, to personalize the content of the app, and to display contextual advertisements.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'We automatically obtain certain information about your computing
+    device, including: IP address; Country code; IDFAs, IDFVs, Advertising IDs; Language;
+    Locale (specific location where a given language is spoken); Time zone, session
+    start/stop time,'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We automatically obtain certain information about your computing
+      device, including: IP address; Country code; IDFAs, IDFVs, Advertising IDs;
+      Language; Locale (specific location where a given language is spoken); Time
+      zone, session start/stop time, Network status (WiFi, etc.'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: Network status (WiFi, etc.), browser plug-in types and versions; User
+    agent string (UA), platform, SDK version, timestamp;
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ), browser plug-in types and versions; User agent string (UA),
+      platform, SDK version, timestamp; Technical device information (e.g.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: Technical device information (e.g. device model and name, operating
+    system name and version, CPU information, storage size, screen size, firmware,
+    software, mobile phone carrier, Internet service provider, API key identifier
+    for application, International Mobile Equipment Identity (IMEI) on Android, Android
+    ID, Android Serial No); Push notifications token; Player identifier string (we
+    collect player identifier string only upon your sign in to Google Play Games Services
+    or Apple's Game Center).
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "device model and name, operating system name and version, CPU\
+      \ information, storage size, screen size, firmware, software, mobile phone carrier,\
+      \ Internet service provider, API key identifier for application, International\
+      \ Mobile Equipment Identity (IMEI) on Android, Android ID, Android Serial No);\
+      \ Push notifications token; Player identifier string (we collect player identifier\
+      \ string only upon your sign in to Google Play Games Services or Apple\u2019\
+      s Game Center)."
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Although some of this information (such as IDFA, IDFV, Advertising
+    ID, Android ID, IP address) may uniquely identify your device, this information
+    does not identify you personally. Some legislation (such as US) may treat information
+    that uniquely identifies your device as personal information.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Although some of this information (such as IDFA, IDFV, Advertising
+      ID, Android ID, IP address) may uniquely identify your device, this information
+      does not identify you personally.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Some legislation (such as US) may treat information that uniquely
+      identifies your device as personal information.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Older versions of our Applications may still obtain information such
+    as UDID number and IMEI number on iOS. If you wish to prevent this, please update
+    the Application with the latest version available on App Store.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Older versions of our Applications may still obtain information
+      such as UDID number and IMEI number on iOS.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: 'Collection of Advertising and Application Usage Information When
+    you use the Applications or the Websites, we may collect additional information
+    by using device identifiers in a form that does permit identification of your
+    device. The information collected includes: Which advertisements are shown; Length
+    of time an advertisement is visible and the size of the advertisement; Advertisement
+    response (if any), including clicks on ads; Angle of view; Application usage information,
+    including in-game location; Website usage information; and Characteristics obtained
+    by your use, such as data about pages of our Websites or Applications that were
+    viewed during your visit, any actions or movements within the Websites or Applications
+    and movements to/from the website from/to another website, date and time, page
+    response times, download errors, length of visits to certain pages, page interaction
+    information (such as scrolling, clicks, and mouse-overs).'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use the Applications or the Websites, we may collect additional
+      information by using device identifiers in a form that does permit identification
+      of your device.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Collection of Classical Personal Information We may also collect personally
+    identifiable information about you (such as your name and surname, email address),
+    as well as non-personally identifiable information (such as age range and gender)
+    that you provide us, by using our Applications, when you voluntarily register
+    with BOOLit entertainment, request information using the Websites or contact us
+    directly.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also collect personally identifiable information about you
+      (such as your name and surname, email address), as well as non-personally identifiable
+      information (such as age range and gender) that you provide us, by using our
+      Applications, when you voluntarily register with BOOLit entertainment, request
+      information using the Websites or contact us directly.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: We will only use the contact information you provide to us (for example,
+    your name and email address) for the purpose for which you provided it to us.
+    We will not share this data with third parties.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We will only use the contact information you provide to us (for
+      example, your name and email address) for the purpose for which you provided
+      it to us.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: If you wish to delete your contact information that we received upon
+    your specific email inquiry, please send an e-mail to boolit.entertainment@gmail.com
+    and your e-mail will be deleted from our database.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you wish to delete your contact information that we received
+      upon your specific email inquiry, please send an e-mail to boolit.entertainment@gmail.com
+      and your e-mail will be deleted from our database.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Sharing of Information Upon Your Request We access your social network
+    profile if you allow us to for the purposes of using in-game features.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We access your social network profile if you allow us to for the
+      purposes of using in-game features.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: Some of the Applications use third parties' services such as Google
+    Play Games Services Sign-In, Apple's Game Center Sign In, Facebook, YouTube or
+    Twitter Log In. You may also share the content you created within the Application
+    on Google Play Games Services, Game Center or Facebook. By logging in to the Application
+    using Third Party Social Network or by using the Application to share content
+    on such Third Party Social Network, you are authorizing us to collect, store,
+    and use any and all information, in accordance with this Privacy Policy, that
+    you agreed that such third parties could provide to us through the Application
+    Programming Interfaces ("API"). Your agreement takes place when you "accept" or
+    "allow" (or similar terms) one of our applications on such Third Party Social
+    Networks. The information you allow us to access varies by Application, and it
+    is affected by the privacy settings you and your friends establish on those Third
+    Party Social Networks. You can control and find out more about these settings
+    at Facebook, Google Play Games Services and Game Center. These third party sites
+    are governed by their own privacy policies and end user agreements and we are
+    not responsible for, and have no control over, the sharing practices or policies
+    of the third parties that operate those sites. For additional questions you can
+    contact us at boolit.entertainment@gmail.com.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By logging in to the Application using Third Party Social Network
+      or by using the Application to share content on such Third Party Social Network,
+      you are authorizing us to collect, store, and use any and all information, in
+      accordance with this Privacy Policy, that you agreed that such third parties
+      could provide to us through the Application Programming Interfaces ("API").
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Some of the Applications use third parties' services such as Google
+      Play Games Services Sign-In, Apple's Game Center Sign In, Facebook, YouTube
+      or Twitter Log In.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: The information you allow us to access varies by Application, and
+      it is affected by the privacy settings you and your friends establish on those
+      Third Party Social Networks.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You may also share the content you created within the Application
+      on Google Play Games Services, Game Center or Facebook.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Your agreement takes place when you "accept" or "allow" (or similar
+      terms) one of our applications on such Third Party Social Networks.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: 'We may access and store some or all of the following information,
+    as allowed by you, Third Party Social Networks and your preferences: (i) your
+    basic information from your profile, such as your name, surname, email address,
+    login ID, player identifier string; (ii) your photos and videos. The Application
+    may further ask you to allow us to (i) post on such Third Party Social Networks
+    on your behalf (e.g. photos, e-cards, videos and status updates) and to (ii) manage
+    your notifications (access your notifications and mark them as read). Please keep
+    in mind that we will only do that if specifically directed by you and we will
+    store ID and your full name for the purposes of user identification. Other information
+    will be merely stored within the Application on your device so that the Application
+    will be able to communicate with Third Party Social Network directly; Voice recordings
+    from Applications are also only being collected and stored within the Applications
+    upon your request.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Other information will be merely stored within the Application
+      on your device so that the Application will be able to communicate with Third
+      Party Social Network directly; Voice recordings from Applications are also only
+      being collected and stored within the Applications upon your request.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Please keep in mind that we will only do that if specifically directed
+      by you and we will store ID and your full name for the purposes of user identification.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: The Application may further ask you to allow us to (i) post on
+      such Third Party Social Networks on your behalf (e.g.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: 'We may access and store some or all of the following information,
+      as allowed by you, Third Party Social Networks and your preferences: (i) your
+      basic information from your profile, such as your name, surname, email address,
+      login ID, player identifier string; (ii) your photos and videos.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: photos, e-cards, videos and status updates) and to (ii) manage
+      your notifications (access your notifications and mark them as read).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: Consent to Public Display of Data upon your acceptance We may publicly
+    display your data when you participate in game related activities for the purposes
+    of user identification.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: If you use Third Party Social Networks to participate in game related
+    activities, including but not limited to participation in leader boards, multi-player
+    games or the downloading and uploading of content, BOOLit entertainment and its
+    affiliates may also collect, use, store, transmit and publicly display statistical
+    data regarding game play (including scores, rankings and achievements), or identify
+    content that is created and shared by you with other players. Data that personally
+    identifies you is collected, used, stored and transmitted in accordance with this
+    Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 'Privacy specifics of certain Applications For the Power Level Warrior,
+    Power Level Warrior 2, Legends Within - Mini Edition, Tilt planes vs. aliens,
+    Pit Runner, Dragon Fly High, OrBrix: brick smash and Fortune Cards Fun (TAROT),
+    we collect statistical data about the gameplay. Such data includes, for example:
+    how often and for how long users play with the App, how many points they score
+    during a run, their score multiplier, how many levels and action points they achieve
+    or gather, with which character they play, clicks on different menus, etc.'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Collection of Data Log Files We do not collect data log files.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Our Use of Cookies and Related Technologies We use cookies on our
+    websites for conducting internal analysis about the usage of websites in order
+    to make them more appealing. Apps may contain cookie-like technology, but only
+    for the purposes of displaying advertisements and conducting analysis to improve
+    our services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Apps may contain cookie-like technology
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Apps may contain cookie-like technology, but only for the purposes
+      of displaying advertisements and conducting analysis to improve our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use cookies on our websites for conducting internal analysis
+      about the usage of websites in order to make them more appealing.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: 'For information about cookies and related technologies, please visit
+    our "Cookie & Advertising Policy" available at: Websites: http://www.boolit-entertainment.com/cookies/
+    Our Use of Information We use the information we collect from you for delivering
+    and promoting our services, internal analysis and research to improve the services
+    and to display advertisements.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For information about cookies and related technologies, please
+      visit our "Cookie & Advertising Policy" available at: Websites: http://www.boolit-entertainment.com/cookies/
+      Our Use of Information We use the information we collect from you for delivering
+      and promoting our services, internal analysis and research to improve the services
+      and to display advertisements.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: You hereby allow BOOLit entertainment to collect, process and store
+    the data as stated in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 'We use the information we collect about you/your computing device
+    to deliver services to you and to operate our business. Such use by us and by
+    our Partners may include: Delivering our services: developing, delivering and
+    improving our products, services, and content, tailoring our products and services,
+    providing software updates and product support, understanding and analyzing trends
+    in connection with usage of the Applications and the Websites, administering the
+    Applications and the Websites, and customer communications. For information that
+    can be treated as personal information in some legislation, we use only device
+    identifiers.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For information that can be treated as personal information in
+      some legislation, we use only device identifiers.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Such use by us and by our Partners may include:'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: 'Displaying advertisements: when you use our Applications or Websites
+    we may display contextual advertisements and in order to do that we must use some
+    of your device data, namely your advertising ID. For some territories, we may
+    use the information for behavioral advertisements, but we will always follow accepted
+    market practices and request your consent. For opting out from behavioral advertisements
+    please visit Opt-Out Section of this Privacy Policy. Tracking for advertising
+    purposes: For some Applications we may track installs through our tracking providers
+    for the purposes of measuring our advertising campaign performance.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Displaying advertisements: when you use our Applications or Websites
+      we may display contextual advertisements and in order to do that we must use
+      some of your device data, namely your advertising ID.'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: 'Analytics and research: Understanding and analyzing trends in connection
+    with the usage of the Applications and the Website, auditing, learning about user
+    behavior within the Applications and the Websites (how often you use the Application/Website,
+    the events that occur within the Application/Website, aggregated usage, performance
+    data etc.), gathering demographic information about our user base, data about
+    where the Application was downloaded from. For information that can be treated
+    as personal information in some legislation, we use only device identifiers. We
+    use the data we receive from Third Party Social Network for internal analytics.
+    For opting out from Google Analytics please visit Opt-Out Section of this Privacy
+    Policy.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ), gathering demographic information about our user base, data
+      about where the Application was downloaded from.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: For information that can be treated as personal information in
+      some legislation, we use only device identifiers.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Understanding and analyzing trends in connection with the usage
+      of the Applications and the Website, auditing, learning about user behavior
+      within the Applications and the Websites (how often you use the Application/Website,
+      the events that occur within the Application/Website, aggregated usage, performance
+      data etc.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: We use the data we receive from Third Party Social Network for
+      internal analytics.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: For a detailed explanation about what information is being used for
+    what purposes and by which Partners please see the "Cookie" section of this Privacy
+    Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For a detailed explanation about what information is being used
+      for what purposes and by which Partners please see the "Cookie" section of this
+      Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: Push notifications We do not send push notifications.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: Survey We are conducting surveys in order to improve our services
+    and you may freely decide whether you would like to help us or not.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 'From time to time we may conduct an e-mail and/or an in-app survey
+    and collect demographic and usage information for the purposes of internal analysis,
+    marketing and brand development. Participating in a survey is completely voluntary.
+    We will use the information to make our services more appealing to users. Collected
+    information shall be anonymized and aggregated. We might collect the following
+    information: age and gender of the user of an app, whether another person uses
+    the app, the age and gender of the people regularly using the app, assessment
+    of popularity of the main character, which of the characters are known to the
+    user, which app is most commonly used, whether children under the age of 13 use
+    the app on their own or with an adult, the gender of users playing the app, different
+    ways of using the app, an assessment of the features of an app, the time period
+    of using the app, which apps the user has, what would make the app more appealing,
+    and other information needed for the purposes of internal analysis, marketing
+    and brand development.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Collected information shall be anonymized and aggregated.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: From time to time we may conduct an e-mail and/or an in-app survey
+      and collect demographic and usage information for the purposes of internal analysis,
+      marketing and brand development.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We might collect the following information: age and gender of
+      the user of an app, whether another person uses the app, the age and gender
+      of the people regularly using the app, assessment of popularity of the main
+      character, which of the characters are known to the user, which app is most
+      commonly used, whether children under the age of 13 use the app on their own
+      or with an adult, the gender of users playing the app, different ways of using
+      the app, an assessment of the features of an app, the time period of using the
+      app, which apps the user has, what would make the app more appealing, and other
+      information needed for the purposes of internal analysis, marketing and brand
+      development.'
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: We will use the information to make our services more appealing
+      to users.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: We may use third party providers for the in-app surveys and they may
+    place their tags within an Application to collect non-personally identifiable
+    data from the device ("Tag Data") solely for the purposes of conducting the survey,
+    such as to collect cross device information in order to enable the deduplication
+    of audiences across devices. These providers may use the data collected from the
+    survey and Tag Data on anonymized and aggregated basis together with the data
+    from other partners ("Unified Data") to publish syndicated reports on internet
+    behavior and trends. If you do not wish to receive promotional, marketing or research
+    materials please send an e-mail to boolit.entertainment@gmail.com and your e-mail
+    will be excluded from our user database. If you do so you will no longer receive
+    special and discount offers from us. If you wish to opt out from conducting an
+    in-app survey, do not click on the survey button or deny answering the survey
+    questions.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Storing of Information We store your information for as long as needed
+    to provide you with our services. We may store information longer, but only in
+    a way that it cannot be tracked back to you. We delete the information as soon
+    as we do not need them for providing our services. For EU Countries
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: We store personal information as long as it is needed for the provision
+    of our services. Traffic information is erased or made anonymous when it is no
+    longer needed for the purpose of the transmission or, in the case of payable services,
+    up to the end of the period during which the bill may lawfully be challenged or
+    payment pursued. Location information is stored to the extent and for the duration
+    necessary for the provision of a value-added service. Cookies, direct marketing
+    and provision of value-added services information (including traffic information
+    used for these purposes) is stored as long as the same is necessary for the provision
+    of these activities, or up to the time when a user opts out from such use in accordance
+    with this Privacy Policy and the "Access to Personal Information" section herein.
+    Other information is stored for as long as we consider it to be necessary for
+    the provision of our services. This section shall not prevent any technical storage
+    or access to information for the sole purpose of carrying out the transmission
+    of a communication or as strictly necessary in order for us to provide the service
+    you requested. For US
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies, direct marketing and provision of value-added services
+      information (including traffic information used for these purposes) is stored
+      as long as the same is necessary for the provision of these activities, or up
+      to the time when a user opts out from such use in accordance with this Privacy
+      Policy and the "Access to Personal Information" section herein.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Location information is stored to the extent and for the duration
+      necessary for the provision of a value-added service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: We will retain collected information for the period necessary to fulfill
+    the purposes outlined in this Privacy Policy unless a longer retention period
+    is required or permitted by applicable legislation.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Storing might be different depending on the territory of collecting
+    the information and the applicable legislation, but we always strive to store
+    the information only as long as it is needed for the purposes of providing, improving
+    or personalizing our services.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: Deletion of Information When information is no longer needed, we shall
+    delete it using reasonable measures to protect the information from unauthorized
+    access or use.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: Disclosure to Third Parties We disclose the information to our advertising
+    and analytics partners so that we can display advertisements and analyze the usage.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 'We cannot provide all services necessary for the successful operation
+    of the Applications or the Website by ourselves. We must therefore share collected
+    information with third parties, including analytics providers, tracking providers,
+    third party advertising providers and other third party service providers that
+    support the Applications and the Website (collectively referred to as "Partners").
+    We may share information that can be used to personally identify your device (e.g.
+    persistent identifiers such as IDFA, IDFV, advertising ID and IP address) for
+    the purposes of delivering our services, displaying advertisements, conducting
+    analysis and research and for measuring our advertising campaign performance:
+    Third party analytics providers: For some Applications we use third party analytics
+    such as Google Analytics (for Applications, Websites) and for the purposes of
+    delivering our services, conducting analysis and research. To get more information
+    about how your data is being collected and processed you can visit the site "How
+    Google uses data when you use our partners'' sites or apps" located at www.google.com/policies/privacy/partners/.
+    Additionally we have also integrated Google Play Developer Console data like Impressions,
+    Downloads, and Traffic Sources into a Google Analytics account to see how many
+    times people viewed or downloaded our apps from Google Play. The device data we
+    share with such providers are encoded. The providers may assign a random ID to
+    these data and they are not able to match it back to You. Third party analytics
+    providers have the right to process the data in accordance with their privacy
+    policies (https://dev.flurry.com/termsOfService.do;jsessionid=uqkgc0o2r5m2 and
+    http://www.google.com/intl/en/policies/privacy/#nosharing) and such collection
+    and processing is limited to the disclosure in aggregated manner, for the purposes
+    of showing trends about the use of their services, for advertising services and
+    marketing purposes. We can aggregate the data for benchmarking feature.'
+  annotations:
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may share information that can be used to personally identify
+      your device (e.g.
+    annotations:
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'persistent identifiers such as IDFA, IDFV, advertising ID and
+      IP address) for the purposes of delivering our services, displaying advertisements,
+      conducting analysis and research and for measuring our advertising campaign
+      performance:'
+    annotations:
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 47
+  segment_text: 'Third party tracking providers: For some Applications we may track
+    installs through our tracking providers such as Adjust for the purposes of measuring
+    our advertising campaign performance. The tracking providers may use and share
+    the information so gathered, but only in aggregated and anonymized manner.'
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: 'Third party advertising providers: The Applications may incorporate
+    third-party dynamic in-game advertisement serving technology which enables advertising
+    to be temporarily uploaded into the Application. When you use the Application,
+    we or third parties operating the advertisement serving technology may use information
+    logged from your device using cookies, web beacons and other technologies to ensure
+    that appropriate advertising is presented within the Application and to calculate
+    the number of unique and repeat views of advertising. We have contracted with
+    certain third party advertising networks that assist us in delivering advertising
+    to you that allows us to continue offering the Applications for free or at low
+    cost. Such third party advertising networks include but are not limited to Apple
+    (iAds), Google (AdMob), InMobi, MobClix, Millennial Media (for privacy terms please
+    visit http://www.millennialmedia.com/privacy-policy/), Tapjoy, Mobclix, Chartboost,
+    Nexage, JumpTap, MoPub Marketplace, Hunt Mobile, Vpon TW, Vpon CN, Madhouse, DoMob,
+    Cauly, Youmi, Yume, Brightroll, Tremor, Smartclip, Xaxsis, SponsorPay, Aarki,
+    SupersonicAds, AdColony, Leadbolt, Taptica, Vdopia, DMG, LoopMe Media, Daum Communications
+    (aka ADAM), SK Planet (aka TAD), NativeX, Vungle, Fiksu, AdAction Interactive,
+    AdWords, Motive Interactive, Twitter, Applift, Fyber, Glispa, Appia, HyprMX Mobile,
+    Inneractive, IGAWorks, Faad, VideoPlaza., MobFox, Ads Yolo, Token Ads, Offers
+    Total, Ad Sense, WAPSTART, PML, Plenus, Vserve, LifeStreet, Smaato, 4th Screen,
+    mBrands3, Greystripe, Facebook, mNectar, Mezzo Media, NAS Media, Mocoplex, TNK
+    Factory, i-Mobile, Marimedia, Todacell, IQzone, Adways, Applifier, Google (Adx),
+    Opera Media, AppLovin, Tapsense, Unity 3D (Applifier), mPoint Media, Ad Japon,
+    Play Haven, Yahoo, Manage.com, Smadex, Thirdpresence, Seventynine, Flurry Inc,
+    Ironsource Neon, Appgrade, SuperAwesome Trading Ltd, Smartstream.TV GmbH, Startmeapp,
+    Spotx, Liverail, mdotm (CrossChannel Inc), Geniee, Definiti Media Pokkt, Goboq
+    Media, Ad Attraction, Adspree media, Digital Turbine Media, Happy Elements, King.com,
+    LoopMe, Mars Technologies, Mobivista International Technology, PubNative, Raftika,
+    targetcircle AS, Volo Media, Affle India, Diandian Interactive Holding, Eshare
+    Media and Feelingtouch.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use the Application, we or third parties operating the
+      advertisement serving technology may use information logged from your device
+      using cookies, web beacons and other technologies
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 49
+  segment_text: We may contract with additional Partners or change existing Partners
+    in the future to perform any services in connection with the Applications or the
+    Website. These changes shall be updated twice a year or promptly in case of material
+    changes in our data processing practices.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: We reserve the right to disclose your information (including personally
+    identifiable information) in response to law, legal process, litigation, and/or
+    requests from public and governmental authorities within or outside your country
+    of residence. We may also disclose information about you if we determine that
+    for purposes of national security, law enforcement, or other issues of public
+    importance, disclosure is necessary or appropriate. We may also disclose information
+    about you if we determine that disclosure is reasonably necessary to enforce our
+    terms and conditions or to protect our operations, users or user experience. Additionally,
+    in the event of a reorganization, merger or sale we may transfer any and all information
+    (including personally identifiable information) we collect to the relevant third
+    party.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: For detailed information about information collection and the usage
+    practices of our partners please see the "Cookie" section of this Privacy Policy.
+    For any additional questions about third party information collection please refer
+    to boolit.entertainment@gmail.com.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For any additional questions about third party information collection
+      please refer to boolit.entertainment@gmail.com.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: For detailed information about information collection and the usage
+      practices of our partners please see the "Cookie" section of this Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 52
+  segment_text: Use of Information by our Partners We strive to adhere to the generally
+    accepted industry practices regarding the collection and the usage of information
+    by our Partners and to limit their usage to the services they provide for us.
+    They adhere to this Privacy Policy, but in some cases we must use their privacy
+    policies.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: We strive to commit our Partners to using the information solely for
+    the purposes as stated above. If they use information that might be considered
+    as personal information, they should use it solely for the purposes of contextual
+    advertising, but for any other purposes they should use the information solely
+    on anonymized and aggregated basis. Notwithstanding the above, we cannot guarantee
+    that our Partners will adhere to the contractual obligations or acceptable business
+    practices. While we strive to protect the information provided to our Partners,
+    we have no direct control over their use of the collected information and therefore
+    you acknowledge that we are not liable for any third party privacy breach and
+    that our liability for our Partner breaches is limited to the amount we are able
+    to receive as indemnification from our Partners (legal costs exempted).
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: 'In addition, Partners may use their own tracking technologies (including
+    and without limitation: cookies, Web beacons, HTTP cache, and local shared objects)
+    to compile anonymous information about users of the Applications and visitors
+    to the Websites. Partners may share anonymous information that they collect with
+    their clients, including the date and time a banner ad was shown and the specific
+    ad shown. We strive to ensure that this information is only disclosed to such
+    third parties in an anonymized and aggregated manner.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In addition, Partners may use their own tracking technologies
+      (including and without limitation: cookies, Web beacons, HTTP cache, and local
+      shared objects) to compile anonymous information about users of the Applications
+      and visitors to the Websites.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 55
+  segment_text: Unlike the tracking technologies used by us in the content we control
+    on the Website and in the Applications, we do not control or have access to the
+    information collected by our Partners using their own tracking technologies. Their
+    information gathering practices, including their policies regarding the use of
+    cookies, Web beacons, and other tracking technologies, are governed by their own
+    privacy policies, not this one. We strive to adhere to the generally accepted
+    industry practices regarding the collection and the usage of information by our
+    Partners and to limit their usage to the services they provide for us.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Their information gathering practices, including their policies
+      regarding the use of cookies, Web beacons, and other tracking technologies,
+      are governed by their own privacy policies, not this one.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Unlike the tracking technologies used by us in the content we control
+      on the Website and in the Applications, we do not control or have access to
+      the information collected by our Partners using their own tracking technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 56
+  segment_text: Some of the Applications allow you to submit content generated in
+    or by the Applications to third party sites like Facebook, Vkontakte, Google Play
+    Games, Game Center and YouTube. These submissions follow the information transfer
+    protocols for such third parties, which are designed to enable content sharing
+    with such third parties.
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: In order to release the Application on apps stores and distribution
+    platforms ("Platforms") in the territory of China, we need to give the Platforms
+    access to your data. We strive to allow access only to the data necessary for
+    the services, but cannot provide any guarantees as the data collecting and processing
+    is done in accordance with the platform's terms of service and privacy policy.
+    For example, if you download the Application from Xiaomi, your data collection
+    and processing will be governed by Xiaomi Privacy Policy and User Agreement, available
+    at http://www.mi.com/sg/about/policy/ , http://www.mi.com/sg/about/agreement/.
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: Third Party Terms and Conditions Please note that your access to and
+    ability to use and interact with the Applications and the Websites may be subject
+    to certain third party terms and conditions and privacy policies, including but
+    not limited to application stores, mobile software platforms, online gaming platforms,
+    social networking services, statistics services providers and payment providers.
+    You recognize and agree that BOOLit entertainment is not liable for any such third
+    party terms and conditions and their use of your personal information.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: 'Protection of Personal Information We have implemented: reasonable
+    security measures to protect the confidentiality, security and integrity of the
+    collected information, and to prevent unauthorized access and the use of information
+    contrary to this Privacy Policy. Although we use commercially reasonable efforts
+    to assure that your information remains secure when maintained by us, please be
+    aware that no security measures are perfect or impenetrable.'
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: Integrity of Personal Information We strive to enable you to keep
+    your information accurate, complete and up to date. You can access, check and
+    ensure the integrity of your information as described below.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: Access to Personal Information Access, correction or deletion requests
+    regarding your personal information may be submitted to boolit.entertainment@gmail.com.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: We make good faith efforts to provide you with access to the personal
+    information you provide to us (information associated with your account). You
+    can also request that we correct or delete information, provided that we are not
+    required to retain such information by law or for legitimate business purposes.
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: We may decline to process requests that are unreasonably repetitive,
+    require disproportionate technical effort, jeopardize the privacy of others, are
+    extremely impractical, or for which access is not otherwise required by local
+    law. Access, correction or deletion requests can be made through the BOOLit entertainment
+    website at http://www.boolit-entertainment.com/about-us/. For some of our Applications
+    we may develop in-app deletion request functionality which can be used in addition
+    to the address above.
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: INFORMATION COLLECTION RELATING TO CHILDREN We consider ourselves
+    to be family oriented, however we have decided to voluntarily implement higher
+    child protection standards even though our products and services are not directed
+    to, and we do not knowingly collect personal information from, children under
+    13. If we learn that we have collected personal information of a child under 13,
+    we will take all reasonable steps to delete the information as soon as possible.
+    If you become aware that your child has provided us with personal information
+    without your consent, please contact us at boolit.entertainment@gmail.com.
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: In order to preserve the family-friendly reputation of our Applications,
+    we age-gated some of the features in our applications, so that they are not available
+    for use by children under 13. The age gate is being conducted after the download
+    of some of our apps for specific territories in order to assure the privacy and
+    protection of younger users of our apps. If you do not pass the gate the features
+    enabling potential collection and sharing of personally identifiable information
+    are disabled for your device ID. For your safety, it is not possible to change
+    your age later on. We do not store your year of birth but only the information
+    whether your device ID passed the age gate or not.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For your safety, it is not possible to change your age later on.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: If you do not pass the gate the features enabling potential collection
+      and sharing of personally identifiable information are disabled for your device
+      ID.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not store your year of birth but only the information whether
+      your device ID passed the age gate or not.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: The only personal information we collect from you for the purposes
+    of offering our services are persistent identifiers (such as device ID, IDFA,
+    IDFV, advertising ID, IP address). Such persistent identifiers are used and shared
+    with third parties solely for providing support for the internal operations meaning
+    to place contextual advertisement (including frequency capping), to authenticate
+    users of or personalize the content on Applications, to maintain or analyze the
+    functioning of the Applications, personalize the content of the Application (such
+    as sending push notifications), to perform network communications to protect the
+    security or integrity of the user or the Application, to ensure legal or regulatory
+    compliance.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Such persistent identifiers are used and shared with third parties
+      solely for providing support for the internal operations meaning to place contextual
+      advertisement (including frequency capping)
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: The only personal information we collect from you for the purposes
+      of offering our services are persistent identifiers (such as device ID, IDFA,
+      IDFV, advertising ID, IP address).
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 67
+  segment_text: When using the persistent identifiers we will not contact you, display
+    behavioral advertising to you, nor do any user tracking or profiling. In addition,
+    we strive that all of our advertising partners adhere to the same standards for
+    the collection, usage and disclosure of your personal information as we do, but
+    we can however not be responsible if they breach the commitments they gave to
+    us regarding the collection of information. In case of such breaches you agree
+    that our liability is limited to the amounts we are able to receive as indemnification
+    for the breaches from our advertising partner. For the detailed information about
+    disclosure to third parties please see section Disclosure To Third Parties of
+    this Privacy Policy. For any additional questions about third party information
+    disclosure please refer to boolit.entertainment@gmail.com.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When using the persistent identifiers we will not contact you,
+      display behavioral advertising to you, nor do any user tracking or profiling.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+- segment_id: 68
+  segment_text: We will send push notifications to users who allow us to do so in
+    order to reengage them in terms of using the Application. You may unsubscribe
+    at any time by following the instructions in section Push Notifications of this
+    Privacy Policy. We strive to ensure that the content of the push notifications
+    will always be family-friendly. Push notifications are local, contextual and sent
+    in app only and not from a server or in conjunction with other user information.
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: Third Party Sites Our Applications, Websites, products and services
+    may contain links to third party websites, products, or services. For example,
+    the Applications may feature offers from third party advertisers or the ability
+    to engage in transactions with such entities. Please note that while using such
+    third party offerings, you are using sites, products, and services developed and
+    administered by people or companies not affiliated with or controlled by us. We
+    are not responsible for the actions of those people or companies, the content
+    of their sites, products or services, the use of information you provide to them,
+    or any products or services they may offer. Our link to such third parties does
+    not constitute our sponsorship of, or affiliation with, those people or companies.
+    Nor is such linking an endorsement of such third party's privacy or information
+    security policies or practices or their compliance with laws. Information collected
+    by third parties, which may include such things as location information or contact
+    details, is governed by their privacy practices. These other websites or services
+    may place their own cookies or other files on your computing device, collect information
+    or solicit personal information from you. We encourage you to learn about the
+    privacy practices of third parties with which you interact.
+  annotations:
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information collected by third parties, which may include such
+      things as location information or contact details, is governed by their privacy
+      practices.
+    annotations:
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: These other websites or services may place their own cookies or
+      other files on your computing device, collect information or solicit personal
+      information from you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 70
+  segment_text: We are not responsible or liable for your interaction with such third
+    parties, the information requests initiated by such third parties, or the subsequent
+    use, treatment or dissemination of information you voluntarily choose to provide
+    to them.
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: In-App Purchases Some of our Applications may enable in-app purchases.
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: Although most of our Applications are free, they include in-app purchases.
+    In-app purchases may be made only upon entering the app store password and you
+    are responsible for maintaining the security of such password. You should be aware
+    of the 20-minute window after the downloading of an Application, during which
+    in-app purchases may be made without inserting an in-app store password. You should
+    also take into account that OS 2.1 or older versions of Android mobile phones
+    do not require entering of the app store account password to carry out in-app
+    purchases.
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: Opt-Out You are always free to opt out from the future collection
+    of your personal information by BOOLit entertainment in accordance with this Privacy
+    Policy by uninstalling all the Applications from each of your computing devices
+    and discontinuing use of the Websites.
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: 'Opting out of IBA: Via third party IBA providers'
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: For MoPub Ads please visit http://www.mopub.com/optout/; For FB Ads
+    please visit https://www.facebook.com/settings?tab=ads; For InMobi Ads please
+    visit http://www.inmobi.com/page/opt-out/; For Google (Adx) please visit https://www.google.com/ads/preferences/html/mobile-about.html;
+    For Google (AdMob) please visit https://www.google.com/ads/preferences/html/mobile-about.html;
+    For AppLovin please visit https://www.applovin.com/optout; For My.Com please visit
+    https://target.my.com/privacy/. Via "Do Not Track Settings" in mobile phone
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: The providers of advertising services are bound to comply with "Do
+    Not Track" settings in mobile phones, but we cannot provide any guarantees on
+    their behalf. If you choose the opt-out option available via our apps, we will
+    not share your device ID with advertisers for the purposes of IBA; or, if already
+    shared, we will remove it from their services. We provide no guarantees regarding
+    the information provided prior to opting out. Some providers may have additional
+    opt-out mechanisms implemented.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose the opt-out option available via our apps, we will
+      not share your device ID with advertisers for the purposes of IBA; or, if already
+      shared, we will remove it from their services.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 77
+  segment_text: If you turn on "Limit Ad Tracking" on your iOS device or "Opt Out
+    of Interest-Based Ads" on your Android device, you can restore interest-based
+    ads by turning the settings off. When you opt out, you may still see the same
+    number of ads on your mobile device; however, these ads may be less relevant because
+    they won't be based on your interests. Our advertising partners may continue to
+    serve you ads based on other non-personal information, such as ads related to
+    the content of the application you are using.
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: Your iOS or Android mobile device may provide a "Limit Ad Tracking"
+    or "Opt Out of Interest-Based Advertising" setting. When you have opted out using
+    this setting on a device, our partners will not use information collected from
+    that device to infer your interests, or to serve ads to that device that are targeted
+    based on your inferred interests.
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: You can find the setting for your mobile device by following the directions
+    below, or contact your device provider.
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: The reason for switching from device IDs to Advertising Identifier
+    is that advertisers are able to use this identifier only for advertising and for
+    no other purpose, while users can choose to opt out of tracking via the settings
+    of mobile phone. Advertising Identifier is an anonymous identifier for advertising
+    purposes which enables users to reset their identifier or opt out of interest-based
+    ads. The parties participating in advertising are obligated to follow users' choice
+    for opting out of tracking according to the app store guidelines.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertising Identifier is an anonymous identifier for advertising
+      purposes which enables users to reset their identifier or opt out of interest-based
+      ads.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: The parties participating in advertising are obligated to follow
+      users' choice for opting out of tracking according to the app store guidelines.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: The reason for switching from device IDs to Advertising Identifier
+      is that advertisers are able to use this identifier only for advertising and
+      for no other purpose, while users can choose to opt out of tracking via the
+      settings of mobile phone.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 81
+  segment_text: iOS Device iOS 7 or Higher
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: Go to your Settings > Select Privacy > Select Advertising > Enable
+    the "Limit Ad Tracking" setting iOS 6
+  annotations: []
+  sentences: []
+- segment_id: 83
+  segment_text: Go to your Settings > Select General > Select About > Select Advertising
+    > Enable the "Limit Ads Tracking" setting
+  annotations: []
+  sentences: []
+- segment_id: 84
+  segment_text: 'More information about the iOS setting can be found here: https://support.apple.com/en-us/HT202074'
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: 'Android Device For Android devices with OS 2.2 and up and Google
+    Play Services version 4.0 and up: Open your Google Settings app > Ads > Enable
+    "Opt Out of Interest-Based Advertising"'
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: Changes to Our Privacy Policy Please check http://www.boolit-entertainment.com/privacy/
+    regularly for changes to our Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: We will occasionally update this Privacy Policy as necessary to protect
+    our users, furnish current information, and respond to legal and technical changes.
+    The most current version of the Privacy Policy will govern our use of your information
+    and will be available at http://www.boolit-entertainment.com/privacy/.
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: Should you request so by informing us on boolit.entertainment@gmail.com,
+    we will send you all the updates of this privacy policy to your e-mail. We will
+    also inform you about any material updates of our privacy policy with an in-app
+    banner and a link.
+  annotations: []
+  sentences: []
+- segment_id: 89
+  segment_text: Privacy Questions Any questions? Send us an e-mail to boolit.entertainment@gmail.com.
+  annotations: []
+  sentences: []
+- segment_id: 90
+  segment_text: If you have questions or concerns about BOOLit entertainment's Privacy
+    Policy or information processing, please contact us through boolit.entertainment@gmail.com.
+  annotations: []
+  sentences: []
+- segment_id: 91
+  segment_text: BOOLit entertainment Privacy Policy, v 1.0, updated December 2016
+    Contact boolit.entertainment@gmail.com ziga.krmelj@gmail.com Partner Ditea d.o.o.
+    | Media and software developer | Slovenia Ad space Facebook Twitter Google
+  annotations: []
+  sentences: []
+- segment_id: 92
+  segment_text: BOOLit entertainment | Ziga Krmelj S.P. | Slovenia We use cookies
+    to ensure that we give you the best experience on our website. If you continue
+    to use this site we will assume that you are happy with it.OkRead more
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use cookies to ensure that we give you the best experience on
+      our website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED

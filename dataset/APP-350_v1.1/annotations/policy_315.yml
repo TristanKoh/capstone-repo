@@ -1,0 +1,161 @@
+policy_id: 315
+policy_name: SonyNetworkCommunications
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "Sony So-net top \u3053\u306E\u30DA\u30FC\u30B8\u306FJavaScript\u3092\
+    \u4F7F\u7528\u3057\u3066\u3044\u307E\u3059\u3002JavaScript\u3092\u6709\u52B9\u306B\
+    \u3057\u3066\u3054\u89A7\u304F\u3060\u3055\u3044\u3002 \u8A2D\u5B9A\u65B9\u6CD5\
+    \u306F\u300CJavaScript\u3092\u6709\u52B9\u306B\u3059\u308B\u65B9\u6CD5\u3092\u77E5\
+    \u308A\u305F\u3044\u300D\u3067\u3054\u6848\u5185\u3057\u3066\u304A\u308A\u307E\
+    \u3059\u3002 COMPANY INFORMATION HOME About Us Japanese"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Sony \u3053\u306E\u30DA\u30FC\u30B8\u306FJavaScript\u3092\u4F7F\u7528\
+    \u3057\u3066\u3044\u307E\u3059\u3002JavaScript\u3092\u6709\u52B9\u306B\u3057\u3066\
+    \u3054\u89A7\u304F\u3060\u3055\u3044\u3002 \u8A2D\u5B9A\u65B9\u6CD5\u306F\u300C\
+    JavaScript\u3092\u6709\u52B9\u306B\u3059\u308B\u65B9\u6CD5\u3092\u77E5\u308A\u305F\
+    \u3044\u300D\u3067\u3054\u6848\u5185\u3057\u3066\u304A\u308A\u307E\u3059\u3002\
+    \ COMPANY INFORMATION HOME About Us Japanese"
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "\u9589\u3058\u308B Company Information Top Privacy Policy"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Privacy Policy (Translation) This policy was established and took
+    effect on December 7, 1999, and was revised on July1, 2016.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Sony Network Communications Inc. (hereinafter called "Sony Network")
+    understands that customers entrust Sony Network with their Personal Information
+    based on the trust that it will be used only for specific purposes. Sony Network
+    respects the customers' trust and places a high management priority on properly
+    protecting such Personal Information and limiting its use to such purposes.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Sony Network will, as a member of Sony Group companies, comply with
+    the Sony Group Privacy Policy, and will, as an Internet service provider, continuously
+    endeavor to handle Personal Information appropriately based on the following policies.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Policies regarding Handling of Personal Information 1.Compliance Sony
+    Network will comply with the applicable laws and regulations including "Act on
+    the Protection of Personal Information," the article of "Telecommunications Business
+    Law" regarding the secrecy of communications, obligations under the applicable
+    ministerial guidelines and this Privacy Policy in handling Personal Information
+    (information which can identify a specific individual).
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 2.Use within Specific Purpose(s) Sony Network will use Personal Information
+    only within the scope necessary for the achievement of the purpose(s) of use which
+    has been specified in advance, and take measures to ensure the appropriate handling
+    of Personal Information, except for cases in which Sony Network has obtained in
+    advance consent from the individual who provides his/her Personal Information
+    (hereafter "the individual") and for cases permitted under the related laws or
+    regulations.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 3.Obtaining Personal Information Sony Network will endeavor to clearly
+    notify necessary information such as purpose(s) of use, names of user(s) as well
+    as contact details and to obtain consent when asking for Personal Information.
+    Sony Network may record in writing or in voice the contents of transactions and
+    inquiries.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 3.Obtaining Personal Information Sony Network will endeavor to
+      clearly notify necessary information such as purpose(s) of use, names of user(s)
+      as well as contact details and to obtain consent when asking for Personal Information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: Sony Network may record in writing or in voice the contents of
+      transactions and inquiries.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 4.Personal Information of Customers Under Fifteen (15) Years Old Sony
+    Network will make special consideration for the handling of Personal Information
+    of customers under fifteen (15) years old, e.g., to notify clearly in advance
+    to ask such customer to provide Personal Information only upon guardian's consent.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 5.Security Control Measures Sony Network will endeavor to maintain
+    entrusted Personal Information to be accurate and updated to the extent necessary
+    for the purpose(s) of its use. Sony Network will take necessary and appropriate
+    security control measures in line with existing technical standards and will implement
+    corrective actions as needed to protect entrusted Personal Information from unauthorized
+    access, leakage, modification, loss, destruction, etc.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 6.Supervision of Subcontractor(s) Sony Network may subcontract the
+    processing of entrusted Personal Information to a third party within the scope
+    necessary for the achievement of the purpose(s) of use. Such third party will
+    be selected after confirming sufficient level of information security, and Sony
+    Network will exercise necessary and adequate supervision to the party by such
+    means as making contracts.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 7.Providing to Third Parties Without the consent of the individual,
+    Sony Network will not provide Personal Information to any third party, except
+    for cases permitted under the related laws or regulations. Sony Network will not
+    provide Personal Information to any third party, based on the "Opt-Out System"
+    (Article 23.2 of the Act on the Protection Personal Information).
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 8.Request(s) for Review etc.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Sony Network will, based on the provisions of the related laws or
+    regulations, properly respond to comment(s) and request(s) from the individual
+    regarding handling of Personal Information such as to review, correct, stop receiving
+    further product or service information from Sony Network, or to delete Personal
+    Information of their own after confirming their identity. Please contact the appropriate
+    customer center under the guidance of each company to which you have provided
+    your Personal Information.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 9.Continuous Improvement of Internal System Sony Network will continuously
+    endeavor to improve internal compliance systems including appointing responsible
+    officers for administration of Personal Information, updating this Privacy Policy
+    through establishment of internal rules, education to directors, officers and
+    employees, and appropriate internal audit to handle entrusted Personal Information
+    properly.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Hiroki Totoki President and Representative Director Sony Network Communications
+    Inc.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "To use this website \xA9 Sony Network Communications Inc."
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Sony Network will not gather contact details.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Sony Network will not gather contact details.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED

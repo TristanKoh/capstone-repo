@@ -1,0 +1,82 @@
+policy_id: 175
+policy_name: com.lionmobi.netmaster
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Information we collect As a free tool app, we guarantee that we do
+    not collect personal information (such as e-mail address, phone number, credit
+    card number, fax, SSN and so on). Also, we do never collect your wifi name or
+    password. We may collect non-personal identification. All of these are for serving
+    you better.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_SSID_BSSID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Also, we do never collect your wifi name or password.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_SSID_BSSID_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: As a free tool app, we guarantee that we do not collect personal
+      information (such as e-mail address, phone number, credit card number, fax,
+      SSN and so on).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 1
+  segment_text: How we use information we collect We use the information we collect
+    from you to improve our product.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We use location information for Network Master and Lion Locker to
+    retrieve local weather information only and will not store your location information
+    on our server.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use location information for Network Master and Lion Locker
+      to retrieve local weather information only and will not store your location
+      information on our server.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Information security We are concerned about safeguarding the confidentiality
+    of your information. We provide physical,electronic, and procedural safeguards
+    to protect information we process and maintain. For example, we limit access to
+    this information to authorized employees and contractors who need to know that
+    information in order to operate, develop or improve our Application. Please be
+    aware that, although we endeavor provide reasonable security for information we
+    process and maintain, no security system can prevent all potential security breaches.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Changes Our Privacy Policy may change from time to time. We will not
+    reduce your rights under this Privacy Policy without your explicit consent. We
+    will post any privacy policy changes on this page and, if the changes are significant,
+    we will provide a more prominent notice. We will also keep prior versions of this
+    Privacy Policy in an archive for your review.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Contact us If you have any questions regarding privacy while using
+    the Application, or have questions about our practices, please contact us via
+    email at contact@lionmobi.com .
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Other To learn about ads in our apps, visit https://m.facebook.com/ads/ad_choices
+  annotations: []
+  sentences: []

@@ -1,0 +1,890 @@
+policy_id: 330
+policy_name: TuneIn
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy Last Updated Date: November 15, 2016 This Privacy
+    Policy is incorporated by this reference into the TuneIn, Inc. End User License
+    Agreement and Terms of Service located at http://tunein.com/policies/ ("EULA").
+    The terms "TuneIn," "we," and "us" include TuneIn, Inc. and its affiliates and/or
+    subsidiaries. All other terms not defined in this Privacy Policy will have the
+    meanings set forth in the EULA.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: This Privacy Policy explains how TuneIn may collect, use, and disclose
+    information we obtain through the Service, including our website at www.tunein.com
+    and our mobile app.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: HOW TUNEIN COLLECTS YOUR INFORMATION Account Registration and Profile
+    Creation. If you register to use the Service, then you must provide us with certain
+    information, such as your name and email address, in order to create an account
+    and user profile. You may also optionally add to your profile certain demographic
+    information, such as your country, zip code, time zone, birth year, and gender,
+    as well as your photo. If you are a broadcaster, we ask you for information about
+    your station and broadcast(s) when you register on our Services, including your
+    name, email address, phone number, website, content streaming URL, as well as
+    background information on the station and broadcast(s).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you register to use the Service, then you must provide us with
+      certain information, such as your name and email address, in order to create
+      an account and user profile.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You may also optionally add to your profile certain demographic
+      information, such as your country, zip code, time zone, birth year, and gender,
+      as well as your photo.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Social Sign-On. We collect information from social media services
+    when you use your credentials for these services to log into the Service. For
+    example, when you log in with your Facebook credentials, we collect the information
+    you have authorized Facebook to share with us, such as your name, email address,
+    gender, date of birth, and profile picture. We may also obtain other non-public
+    information with your permission.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, when you log in with your Facebook credentials, we
+      collect the information you have authorized Facebook to share with us, such
+      as your name, email address, gender, date of birth, and profile picture.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We collect information from social media services when you use
+      your credentials for these services to log into the Service.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Subscriptions. If you obtain a Subscription to the Service, then we
+    will ask you to provide your payment information, such as your credit card number,
+    so our service providers can process your payments for the Service.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Communications. We will collect any information which you provide
+    to us through your communications with our customer-support team. If you subscribe
+    to our newsletter, then we will collect certain information from you, such as
+    your email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you subscribe to our newsletter, then we will collect certain
+      information from you, such as your email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We will collect any information which you provide to us through
+      your communications with our customer-support team.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Information from Third Parties. We may collect information about you
+    from third parties, such as other users or our marketing partners. For example,
+    we may receive information about you when another user allows us to upload your
+    contact information to the Service. We may combine this information with the other
+    information we collect about you.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may receive information about you when another
+      user allows us to upload your contact information to the Service.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect information about you from third parties, such as
+      other users or our marketing partners.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: We may combine this information with the other information we collect
+      about you.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Using the Service. When you use the Service, we collect information
+    about your activities, such as the stations, artists or channels that you listen
+    to, the User profiles that you view, your searches for friends or stations and
+    your other actions and interactions with other Users or content on the Service,
+    the stations, content and people that you follow ( "Follow Lists"), your echoes,
+    any Content that you Post on the Service, and any other information resulting
+    from your use of the Service that is publicly accessible by other Users ( "Public
+    Information").
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Your Contacts. If you give us permission to import to the Service
+    the contacts from any email account associated with your account, then we will
+    collect information about your contacts. We also collect your contacts if you
+    share information or Content with them from the Service or invite them to use
+    the Service.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you give us permission to import to the Service the contacts
+      from any email account associated with your account, then we will collect information
+      about your contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We also collect your contacts if you share information or Content
+      with them from the Service or invite them to use the Service.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Location Information. We may obtain information about your physical
+    location at regular intervals when you use the Service, such as by use of geolocation
+    features in the device(s) through which you access the Service, or by inference
+    from other information we collect (for example, your IP address indicates the
+    general geographic region from which you are connecting to the Internet). We use
+    location information to comply with radio stations' content licenses (which are
+    location-specific), and to provide you with features, notifications, advertising,
+    or other content that is influenced by your location (such as showing you your
+    local radio station).
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may obtain information about your physical location at regular
+      intervals when you use the Service, such as by use of geolocation features in
+      the device(s) through which you access the Service, or by inference from other
+      information we collect (for example, your IP address indicates the general geographic
+      region from which you are connecting to the Internet).
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Device Information. We receive information from Users' devices, through
+    which a User accesses the Service, such as IP address, web browser type, mobile
+    operating system version, and unique device identifiers.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We receive information from Users' devices, through which a User
+      accesses the Service, such as IP address, web browser type, mobile operating
+      system version, and unique device identifiers.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Widget Information. Other websites may integrate TuneIn widgets (such
+    as the TuneIn Player or TuneIn Follow Button). When you visit a site with a TuneIn
+    widget embedded, we may receive certain information, including information about
+    the web page you visited, your IP address, and other information about your device.
+    TuneIn and the widget can recognize you across websites containing TuneIn widgets,
+    and the widget may be used to show personalized content or advertising. We know
+    when you interact with a widget, and websites containing the widgets may receive
+    this information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Other websites may integrate TuneIn widgets (such as the TuneIn
+      Player or TuneIn Follow Button).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: TuneIn and the widget can recognize you across websites containing
+      TuneIn widgets, and the widget may be used to show personalized content or advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We know when you interact with a widget, and websites containing
+      the widgets may receive this information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you visit a site with a TuneIn widget embedded, we may receive
+      certain information, including information about the web page you visited, your
+      IP address, and other information about your device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Cookies and Related Technologies. When you visit the Service, we and
+    our third party service providers receive and record information from your browser
+    and from cookies and similar technologies. Cookies are small text files containing
+    a string of alphanumeric characters. We may use both session cookies and persistent
+    cookies. A session cookie disappears after you close your browser. A persistent
+    cookie remains after you close your browser and may be used by your browser on
+    subsequent visits to the Service. Please review your web browser's "Help" file
+    to learn the proper way to modify your cookie settings. Please note that if you
+    delete, or choose not to accept, cookies from the Service, you may not be able
+    to utilize the features of the Service to their fullest potential.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A persistent cookie remains after you close your browser and may
+      be used by your browser on subsequent visits to the Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: A session cookie disappears after you close your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies are small text files containing a string of alphanumeric
+      characters.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Please note that if you delete, or choose not to accept, cookies
+      from the Service, you may not be able to utilize the features of the Service
+      to their fullest potential.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Please review your web browser's "Help" file to learn the proper
+      way to modify your cookie settings.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may use both session cookies and persistent cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: When you visit the Service, we and our third party service providers
+      receive and record information from your browser and from cookies and similar
+      technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Third parties that advertise goods or services on the Service (collectively,
+    "Advertisers") may also use cookies or other technologies to track your use of
+    the Service. Advertisers also may use cookies to track your online activities
+    across websites over time to provide interest-based advertising. Some of our Advertisers
+    are members of the Network Advertising Initiative or the Digital Advertising Alliance.
+    Please visit these organizations' opt-out pages to learn about how you may opt
+    out of receiving web-based personalized ads from member companies. Please visit
+    your device's settings or install the AppChoices app to learn more about how you
+    may opt out of receiving personalized ads in mobile apps.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertisers also may use cookies to track your online activities
+      across websites over time to provide interest-based advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Please visit these organizations' opt-out pages to learn about
+      how you may opt out of receiving web-based personalized ads from member companies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Please visit your device's settings or install the AppChoices app
+      to learn more about how you may opt out of receiving personalized ads in mobile
+      apps.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some of our Advertisers are members of the Network Advertising
+      Initiative or the Digital Advertising Alliance.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third parties that advertise goods or services on the Service (collectively,
+      "Advertisers") may also use cookies or other technologies to track your use
+      of the Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: One of the third party services that we use to track your activity
+    on the Service is Google Analytics. If you do not want Google Analytics to collect
+    and use information about your use of the website, then you can install an opt-out
+    in your web browser (https://tools.google.com/dlpage/gaoptout/). You also may
+    opt-out from Google Analytics for Display Advertising or the Google Display Network
+    by using Google's Ads Settings located at www.google.com/settings/ads.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you do not want Google Analytics to collect and use information
+      about your use of the website, then you can install an opt-out in your web browser
+      (https://tools.google.com/dlpage/gaoptout/).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: One of the third party services that we use to track your activity
+      on the Service is Google Analytics.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You also may opt-out from Google Analytics for Display Advertising
+      or the Google Display Network by using Google's Ads Settings located at www.google.com/settings/ads.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: HOW TUNEIN USES YOUR INFORMATION Internal and Service-Related Usage.
+    We use information for internal and Service-related purposes, including to operate,
+    provide, and maintain the Service.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Analytics and Improving the Service. We and our service providers
+    use information that we collect on the Service your location, and your activities
+    on the Service, to monitor and analyze usage of the Service and to improve and
+    enhance the Service.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We and our service providers use information that we collect on
+      the Service your location, and your activities on the Service, to monitor and
+      analyze usage of the Service and to improve and enhance the Service.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Communications. We may send email to an email address you provide
+    to us (i) for customer-service or technical-support purposes, or (ii) to send
+    you (a) information about topics or content that we think may interest you, or
+    (b) updates about the latest developments or features on the Service. We also
+    may send push notifications to your device and a newsletter to the email address
+    you provide to us in the event that you subscribe to receive the newsletter.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also may send push notifications to your device and a newsletter
+      to the email address you provide to us in the event that you subscribe to receive
+      the newsletter.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may send email to an email address you provide to us (i) for
+      customer-service or technical-support purposes, or (ii) to send you (a) information
+      about topics or content that we think may interest you, or (b) updates about
+      the latest developments or features on the Service.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: Advertising. We and our advertising partners may use your information,
+    your location, and your activities on the Service to facilitate the delivery of
+    advertisements.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We and our advertising partners may use your information, your
+      location, and your activities on the Service to facilitate the delivery of advertisements.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Aggregate Data. We may de-identify and aggregate information collected
+    through the Service and use it for any lawful purpose, including marketing purposes.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: TUNEIN MAY DISCLOSE YOUR INFORMATION Vendors and Service Providers.
+    We may share any information we receive with vendors and service providers retained
+    in connection with the provision of the Service.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Advertising Partners. We may share your information with our third
+    party advertising partners to provide ads that we think may interest you. For
+    more information about our advertising and marketing practices and those of the
+    third party advertising partners, please see the Cookies and Related Technologies
+    section above.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For more information about our advertising and marketing practices
+      and those of the third party advertising partners, please see the Cookies and
+      Related Technologies section above.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may share your information with our third party advertising
+      partners to provide ads that we think may interest you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Legal Obligations. We may access, preserve, and disclose your information
+    or other account information if we believe doing so is required or appropriate
+    to (i) comply with laws, law enforcement requests, and legal process, such as
+    a court order or subpoena; (ii) respond to your requests; or (iii) protect your,
+    our or others' rights, property, or safety.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Merger, Sale, or Other Asset Transfers. If we are involved in a merger,
+    acquisition, financing due diligence, reorganization, bankruptcy or liquidation
+    where the business will not continue as a going concern, receivership, sale of
+    TuneIn assets, or transition of the Service to another provider, then your information
+    may be sold or transferred as part of such a transaction as permitted by law and/or
+    contract. The use of your information following any of these events should be
+    governed by the provisions of this Privacy Policy in effect at the time the applicable
+    information was collected.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Consent. We may also disclose your information with your permission.
+    We may seek your permission in various ways. For example, we may present you with
+    an "opt-in" prompt when you register to use the Service or access certain content.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "Marketing. We do not rent, sell, or share personal information (as\
+    \ defined by California Civil Code \xA71798.83) about you with other people or\
+    \ nonaffiliated companies for their direct marketing purposes, unless we have\
+    \ your permission. If we receive your permission, nonaffiliated companies may\
+    \ use your personal information to send you offers or other information that you\
+    \ may find of interest."
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Social Networking and Other Websites. The Service may allow you to
+    share information with social networking services, such as Facebook. We do not
+    share your information with them unless you direct the Service to share it. Their
+    use of the information is governed by their privacy policies, and you may be able
+    to modify your privacy settings on their services.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Other Users. Your Public Information, which includes your Follow Lists,
+    is viewable by other Users. However, if you registered for the Service prior to
+    May 7, 2014, then your Follow Lists will be private unless you change your profile
+    settings to make them publicly accessible. Your profile information, such as any
+    photographs, your username, and any Content that you post in your account, is
+    also be viewable by other Users. We are not responsible for the privacy practices
+    of other Users. Accordingly, we recommend that you carefully consider what you
+    Post to the Service before doing so.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Search Engines. Your Public Information may also be accessible through
+    search engines, such as Google or Yahoo, just like with many common social media
+    services.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: SECURITY OF YOUR INFORMATION We take steps to ensure that your information
+    is treated securely and in accordance with this Privacy Policy. Unfortunately,
+    the Internet cannot be guaranteed to be 100% secure, and we cannot ensure or warrant
+    the security of any information you provide to us.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: THIRD PARTY PRIVACY PRACTICES This Privacy Policy applies only to
+    the Service. The Service may contain links to Third Party Sites. The policies
+    and procedures described in this Privacy Policy do not apply to Third Party Sites.
+    The links from the Service to any Third Party Sites do not imply that we endorse
+    or have reviewed Third Party Sites.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: CHILDREN'S PRIVACY We do not knowingly collect, maintain, or use personal
+    information, as defined by the Federal Trade Commission's Children's Online Privacy
+    Protection Act Rule, from children under 13 years of age, and no part of the Service
+    is directed to children under the age of 13. If you learn that your child has
+    provided us with personal information without your consent, then you may alert
+    us at support@tunein.com. If we learn that we have collected any personal information
+    from children under 13, then we will promptly take steps to delete such information
+    and terminate the child's account.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: INTERNATIONAL USERS If you are visiting the Service from the European
+    Union or other regions with laws governing data collection and use, then please
+    note that you are agreeing to the transfer of your information to the United States
+    and processing globally. By providing your information to the Service, you consent
+    to any transfer and processing in accordance with this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: PRIVACY OPTIONS AND SETTINGS Account Information. Once you have registered
+    for the Service, you may change your profile settings in your account on the Service.
+    For example, you can change the email address and password associated with your
+    account and you may choose to keep your Follow Lists private. If you are a broadcaster,
+    you can change the information you provided to us by contacting us per the information
+    below.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, you can change the email address and password associated
+      with your account and you may choose to keep your Follow Lists private.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: If you are a broadcaster, you can change the information you provided
+      to us by contacting us per the information below.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: Once you have registered for the Service, you may change your profile
+      settings in your account on the Service.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: Follow Lists. Once you have registered for the Service, you may change
+    your profile information at any time to make your Follow Lists private. If you
+    registered for the Service prior to May 7, 2014, then your Follow Lists will be
+    private until you sign in to your account, at which time they will be made public.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Devices. You can access the Service from multiple devices if you sign
+    into your account on the devices or register them on the Service. If you would
+    like to disconnect your account from any of these devices, you can unregister
+    the device through your account settings on the Service.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Location Information. You can prevent us from collecting location
+    information from your device by changing the settings on your device, if your
+    device allows you to do so; however, if you do not provide us with location information
+    you may not be able to fully use the Service. Please note that we will continue
+    to receive your IP address and use it as described above to determine, for example,
+    your location to comply with our licensing agreements.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that we will continue to receive your IP address and
+      use it as described above to determine, for example, your location to comply
+      with our licensing agreements.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You can prevent us from collecting location information from your
+      device by changing the settings on your device, if your device allows you to
+      do so; however, if you do not provide us with location information you may not
+      be able to fully use the Service.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: Opt-out. Each marketing email communication we send you will contain
+    instructions permitting you to "opt-out" of receiving future marketing communications.
+    You may also contact us as indicated below to have your name deleted from our
+    email mailing lists, or you may update your communication preferences in your
+    account settings on our website. Please note, however, that certain communications,
+    such as push notifications, require you to change the settings on your device
+    if you wish not to receive any future communications. In addition, on occasion
+    we may send service-related announcements, such as disruption notifications, via
+    email and you may not be able to opt-out of these communications.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: Audience Information. When you use our app, Nielsen Measurement collects
+    information about your use of the Service. If you wish to opt out of Nielsen's
+    digital measurement research, please visit the link to Nielsen Measurement in
+    the app settings.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Do Not Track. Some web browsers incorporate a "Do Not Track" feature.
+    Because there is not yet an accepted standard for how to respond to Do Not Track
+    signals, our website does not currently respond to such signals.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: CHANGES TO OUR PRIVACY POLICY AND PRACTICES Posting of Revised Privacy
+    Policy. We will post any adjustments to the Privacy Policy on this web page, and
+    the revised version will be effective when it is posted. If you are concerned
+    about how your information is used, then bookmark this page and read this Privacy
+    Policy periodically.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: New Uses of Information. From time to time, we may desire to use or
+    disclose information for uses not previously disclosed in our Privacy Policy.
+    If our practices change regarding previously collected information in a way that
+    would be materially less restrictive than stated in the version of this Privacy
+    Policy in effect at the time we collected the information, then we will make reasonable
+    efforts to provide notice and obtain consent to any such uses as may be required
+    by law.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Contact Information. If you have any questions, would like to share
+    suggestions for improving the Privacy Policy or the Service, or otherwise would
+    like to contact us, then please feel free to contact us per the information below.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: TuneIn, Inc.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 210 King Street, 3rd Floor San Francisco, CA 94107 support@tunein.com
+    About Us Careers Press Blog Get TuneIn Help Center Privacy Sitemap Advertisers
+    Broadcasters Developers Terms
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: "Follow TuneIn English Espa\xF1ol Deutsch Fran\xE7ais Italiano Nederlands\
+    \ Svenska \u7B80\u4F53\u4E2D\u6587 \u7E41\u9AD4\u4E2D\u6587 Portugu\xEAs \u65E5\
+    \u672C\u8A9E \u0420\u0443\u0441\u0441\u043A\u0438\u0439 Dansk Suomi \u010Ce\u0161\
+    tina Polska \uD55C\uAD6D\uC5B4 \u0639\u0631\u0628\u064A\u0629 \u0395\u03BB\u03BB\
+    \u03B7\u03BD\u03B9\u03BA\u03AC T\xFCrk\xE7e Magyar \u0939\u093F\u0928\u094D\u0926\
+    \u0940"
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: "Language: English Go Premium \xA9 2017 TuneIn, Inc. All rights reserved\
+    \ Loading Close"
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: We are not obtaining your name and email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We are not obtaining your name and email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 48
+  segment_text: We do not collect information from social media services. For example,
+    we do not collect your name, email address, gender, date of birth, and profile
+    picture.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect information from social media services. For example,
+      we do not collect your name, email address, gender, date of birth, and profile
+      picture.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 49
+  segment_text: We do not receive information from Users' devices, through which a
+    User accesses the Service, such as IP address, web browser type, mobile operating
+    system version, or unique device identifiers.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not receive information from Users' devices, through which
+      a User accesses the Service, such as IP address, web browser type, mobile operating
+      system version, or unique device identifiers.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 50
+  segment_text: We do not obtain information about your physical location when you
+    use the Service.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not obtain information about your physical location when
+      you use the Service.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 51
+  segment_text: You cannot add to your profile demographic information, such as your
+    country, zip code, time zone, birth year, and gender, or your photo.
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: You cannot add to your profile demographic information, such as
+      your country, zip code, time zone, birth year, and gender, or your photo.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 52
+  segment_text: We and our service providers do not collect or use your location and
+    your activities on the Service. We and our advertising partners do not use your
+    location and activities on the Service.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We and our service providers do not collect or use your location
+      and your activities on the Service. We and our advertising partners do not use
+      your location and activities on the Service.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 53
+  segment_text: We will not collect information about your contacts.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will not collect information about your contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED

@@ -1,0 +1,439 @@
+Successful: True
+Original URL: https://www.wevideo.com/privacy-policy
+Final URL: b'https://www.wevideo.com/privacy-policy'
+HTML:
+<html lang="en"><head>
+		<title>WeVideo | Privacy Policy</title>
+		<meta name="description" content="Read WeVideo's Privacy Policy.">
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="apple-itunes-app" content="app-id=615796920">
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" defer="" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/goal.min.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script id="hs-analytics" src="//js.hs-analytics.net/analytics/1492129800000/165225.js"></script><script src="//cdn.indicative.com/js/Indicative.min.js" type="text/javascript" async=""></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MRL78F"></script><script src="//cdn.optimizely.com/js/5270600386.js"></script>
+
+<link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" media="only screen and (min-width: 767px)" href="//d3tvj3lw2y3r4c.cloudfront.net/webpage/prod3/css/animate.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="//d3tvj3lw2y3r4c.cloudfront.net/webpage/prod3/css/main.css?cb=1491459881075">
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+	/* Plan selection logic */
+	var loggedIn = "false" == "true";
+	var selectPlan = function(p, tier, product){
+		if(loggedIn && p == "free"){
+			/* Skip plan selection */
+			$.ajax({
+	            type: 'POST',
+	            url: "/api/2/wevideouser/attribute?key=triggerPlans&value=false",
+	            headers: {
+	                'Accept': 'application/json',
+	                'Content-Type': 'application/json'
+	            }, 
+	            success: function(){
+	            	window.location.href = "/hub?cantupgrade=true"
+	            }
+	        });
+		}else{
+			if(loggedIn){
+				if(p == "try"){
+					/* Meh. Not doing anything for now */
+					window.location.href = "/hub";
+				}else{
+					window.location.href = "/hub?p=" + p + "&product=" + product + "" + (tier == "education" ? "&tier=education" : "") + "#payment";
+				}
+			}else{
+				window.location.href = "/signup?p=" + p + "&tier=" + tier + "&instanceName=WeVideo" + (product ? "&product=" + product : "");
+			}
+		}
+	};
+	
+	var startTrial = function(tier){
+		if(loggedIn){
+			$.ajax({
+	            type: 'POST',
+	            url: "https://www.wevideo.com/api/3/payment/activatefreetrial",
+	            data: JSON.stringify({
+					vertical: tier
+				}),
+	            headers: {
+	                'Accept': 'application/json',
+	                'Content-Type': 'application/json'
+	            }, 
+	            success: function(){
+	            	window.location.href = "/hub"
+	            },
+	            error: function(){
+	            	window.location.href = "/hub?cantupgrade=true"
+	            }
+	        });
+		}else{
+			window.location.href = "/signup?p=trial&tier=" + tier + "&instanceName=WeVideo";
+		}
+				
+		console.log(tier);
+	};
+</script>	</head>
+	<body id="privacy" class="pt100">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MRL78F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MRL78F');</script>
+<!-- End Google Tag Manager -->
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div>
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					 <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+				 </button>
+				 <a class="navbar-brand" href="/" data-trackingid="Logo-Top"><img src="//d3tvj3lw2y3r4c.cloudfront.net/webpage/prod3/img/logosAndGraphics/WeVideoBlueLogo.svg" alt="WeVideo Logo" width="120" height="26"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+			  	<ul class="nav navbar-nav">
+					<li data-whentohighlight="business,realestate,media"><a href="/business" data-trackingid="Business-Top">for Work</a></li>
+					<li data-whentohighlight="schools,highered,education"><a href="/education" data-trackingid="Education-Top">for Schools</a></li>
+					<li data-whentohighlight="personal"><a href="/personal" target="_self" data-trackingid="Personal-Top">for Life</a></li>
+					<li data-whentohighlight="sign-up" class="pricingNavButton"><a href="/sign-up" target="_self" data-trackingid="Pricing-Top">Plans</a></li>
+					<li data-whentohighlight="support"><a href="/support" data-trackingid="Support-Top">Support</a></li>
+			  	</ul>
+
+			  	<ul class="nav navbar-nav navbar-right">
+				  		<li class="rtca signup" id="signUpButton">
+							<a href="/sign-up" target="_self" data-trackingid="Sign-Up-Top">Sign up</a>
+						</li>
+				  		<li class="rtca">
+				    		<a href="/sign-in" target="_self" data-trackingid="Log-In-Top">Log in</a>
+				    	</li>
+			  	</ul>
+			</div>
+		</div>
+	</div>
+</div><div id="project_naptha_container"></div>		<div class="container">
+			<div class="row-fluid"><div class="col-md-7 left-column"><div class="container"><h1 class="embedded-header">WeVideo Privacy Policy</h1></div><div class="content"><div class="contentSection">
+			<div class="font12">For WeVideo for Education Privacy Policy, please <a href="/edu-privacy" target="_self">click here</a></div>
+		
+		<p><i>Last Modified: August 9, 2016</i></p>
+		<p>Your privacy is very important to us.&nbsp; This Privacy Policy explains how WeVideo, Inc., (“<i><b>we</b></i>” or “<i><b>WeVideo</b></i>”) use protect, and disclose the information we collect when you use the WeVideo services (the “<b><i>Services</i></b>”) through our website <a class="contentLink" href="http://www.wevideo.com" target="_blank">www.wevideo.com</a> (“<i><b>Site</b></i>”), applications on Devices (“<i><b>Apps</b></i>”), through APIs, and through third parties. &nbsp;A “<b><i>Device</i></b>” is any computer used to access the Services, including without limitation a desktop, laptop, smartphone, tablet, or other consumer electronic device.</p>
+		<p>We reserve the right to modify this Privacy Policy effective immediately following posting of the modified version on the Site.&nbsp; Your use of our Services following posting will constitute your acceptance of the modified version. &nbsp;<b>IF YOU DO NOT ACCEPT THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT USE THE SERVICES.</b></p>
+		<h2><b>THE INFORMATION WE COLLECT AND STORE</b></h2>
+		<p>WeVideo may collect and store the following information when running our Services.</p>
+		<h2>Information You Provide</h2>
+		<p>Depending on how you use the Services, you may be required to provide certain personally identifiable information (“<i><b>Personal Information</b></i>”), which may include, but is not limited to, your:</p>
+		<div style="padding-bottom:10px;"><ul><li>Name</li><li>Email address</li><li>Mailing address</li><li>Username for social media accounts you wish to connect to your account</li><li>Your image and likeness if you include it in any media content that you upload or include in videos that you create with our Services (these type of files are referred to as your “<i><b>User Content</b></i>”)</li></ul></div>
+		<p>In some of our applications, we provide the ability to use the application as a guest (“Guest User”). This option allows usage of the application without providing any personal information.</p>
+		<p>You may choose not to provide your Personal Information; however, if you do not provide your Personal Information you may not be able to use all the functions offered by the Services.</p>
+		<p>Our Services offer publicly accessible community services such as blogs, forums, and public video pages. You should be aware that any information you provide in these areas might be read, collected, and used by others who access them. Your posts may remain even after you cancel your account. For questions about your Personal Information on our Services, please contact info@wevideo.com.</p>
+		<h2>Refer a Friend</h2>
+		<p>When you invite others to join WeVideo or share your User Content via email, you will need to provide us with email addresses for each person that you wish to send your User Content or &nbsp;an invite to.</p>
+		<h2>Usage Data</h2>
+		<p>In addition, when you use our Services, the following types of information may all be logged automatically (“<i><b>Usage Information</b></i>”):</p>
+		<div style="padding-bottom:10px;"><ul><li>Your Device’s Internet Protocol (“<i><b>IP</b></i>”) address,</li><li>Type of mobile device you use,</li><li>Operating system of your mobile device,</li><li>Browser type,</li><li>Non-precise geographic location (e.g. zip code and city)</li><li>Technical information about your device, system and App software, and peripherals</li><li>date and time stamps associated with transactions,</li><li>system configuration information, &nbsp;and</li><li>metadata concerning your User Content, and other interactions with our Services.</li></ul></div>
+		<h2>Cookies and Web beacons</h2>
+		<p>WeVideo also uses “cookies” to collect information and improve our Services. A cookie is a small data file that we transfer to your Device. We may use “persistent cookies” to save your registration ID and login password for future logins to our Services. We may use “session ID cookies” to enable certain features of our Services, to better understand how you interact with our Services and to monitor aggregate usage and web traffic routing on our Services. You can instruct your browser, by changing its options, to stop accepting cookies or to prompt you before accepting a cookie from the websites you visit. If you do not accept cookies, however, you may not be able to use all aspects of our Services.</p>
+		<p>We also use Web beacons, also called web bugs to collect information and improve our Services. A Web beacon is typically a transparent graphic image (usually 1 pixel x 1 pixel) that is placed on a site or in an email.</p>
+		<p>We do not use cookies or Web beacons to collect Personal Information nor do we collect precise geographic location.&nbsp; However, some Devices automatically log location information in photos and videos recorded by that Device. If you upload any User Content from a Device that does so, .you agree that we may use this information to optimize your experience. If you do not wish to share User Content embedded with your geo-location information with us, please do not upload them. If you don’t want to store location data in your User Content, please consult the documentation for your Device to turn off that feature.</p>
+		<h2>Analytics</h2>
+		<p>WeVideo also collects some information (ourselves or using third party services) using logging and cookies, such as IP address, which can sometimes be correlated with Personal Information. We use this information for the above purposes and to monitor and analyze use of our Services, for the Service’s technical administration, to increase our Service’s functionality and user-friendliness, and to verify users have the authorization needed for our Services to process their requests. As of the date this policy went into effect, we use Google Analytics. <a class="contentLink" href="http://www.google.com/intl/en/policies/" target="_blank">The Privacy Policy of Google Analytics</a> are available online, <a class="contentLink" href="https://tools.google.com/dlpage/gaoptout?hl=en" target="_blank">and information on how to opt out of that service</a>.</p>
+		<p>&nbsp;</p>
+		<h2><b>HOW WE USE YOUR INFORMATION</b></h2>
+		<p>We use your information:</p>
+		<div style="padding-bottom:10px;"><ul><li>to provide and improve our Services,</li><li>to administer your use of our Services,</li><li>to better understand your needs and interests,</li><li>to personalize and improve your experience, and</li><li>to provide or offer software updates and product announcements.</li><li>to enhance current and develop new products and services</li></ul></div>
+		<p>If you submit Personal Information to us, we will only use it for the purpose you requested or for which it is collected or for any purpose you subsequently authorize.&nbsp;</p>
+		<p>You grant WeVideo an irrevocable, perpetual, royalty-free right and license to use the anonymous information we collect in any way.</p>
+		<p>WeVideo does not access your contact information or address book within your mobile device.&nbsp; Nor does WeVideo have any access to any of the personal information or credit card information that you have provided to Apple or Google to register for their services.</p>
+		<h2><b>SPECIAL CONSIDERATION FOR PAYMENT INFORMATION</b></h2>
+		<p>If you provide credit card or debit card information to complete a purchase, it is our policy to use third-party payment processing systems that comply with the Payment Card Industry Data Security Standard (PCI-DSS), which is an industry wide security standard designed to protect the confidentiality and security of your credit card information, by encryption using secure socket layer technology (SSL) and storage with AES-256 encryption.&nbsp; Currently, we use Zuora, Inc., but we reserve the right to change this service provider at any time for any reason. Although no method of transmission over the Internet or electronic storage is 100% secure, we follow all PCI-DSS requirements and implement additional generally accepted industry standards.&nbsp; Your credit card information will also be subject to our payment processor’s privacy policy in addition to ours. <b>PLEASE READ THE PRIVACY POLICY ON THE WEBSITE OF ANY PAYMENT PROCESSOR THAT YOU ARE DIRECTED TO REGARDING THE USE, STORAGE AND PROTECTION OF YOUR CREDIT CARD INFORMATION BEFORE SUBMITTING ANY CREDIT CARD INFORMATION.</b></p>
+		<p>All information that you provide to us or our third party payment processor must be accurate, current and complete.&nbsp; In the event of a dispute, we may issue you with a provisional credit to your card until the dispute is resolved.&nbsp; If we issue a provisional credit and the dispute is resolved and the charges were correct, we shall recharge your debit or credit card to reverse this provisional credit. You expressly consent to this reversal if you falsely or incorrectly dispute a charge.&nbsp; If you wish to dispute a charge by mail or telephone please contact us at info@wevideo.com.&nbsp; If we elect at any time to charge any convenience fee for making a payment via a debit card, credit card, or electronic check, these fees will be stated at the time of payment before you finalize your charge.&nbsp; In the event of an unauthorized charge using a debit card or electronic check, please consult your bank’s rules regarding refunds and reversals.&nbsp; WeVideo complies with all legal requirements of your State’s applicable laws regarding providing refunds for unauthorized charges.&nbsp; When you make a charge, we shall display a completed charge screen.&nbsp; This is your electronic receipt.&nbsp; You should print or save this electronic receipt for your records.&nbsp; YOU REPRESENT AND WARRANT THAT YOU HAVE THE LEGAL RIGHT TO USE ANY CREDIT CARDS, DEBIT CARDS OR OTHER PAYMENT MEANS USED TO INITIATE ANY TRANSACTION.</p>
+		<h2><b>INFORMATION SHARING AND DISCLOSURE</b></h2>
+		<p>Further, you agree that WeVideo may transfer the anonymous information we collect in the event of any corporate restructuring or any sale, assignment or transfer of substantially all of its rights in the Apps.</p>
+		<p>We may disclose information about you if we become subject to a subpoena or court order, or if we are otherwise legally required to disclose information.&nbsp; We may also use and disclose information about you to establish or exercise our legal rights, to enforce the Terms of Use, to assert and defend against legal claims, or if we believe such disclosure is necessary to investigate, prevent, or take other action regarding actual or suspected illegal or fraudulent activities or potential threats to the physical safety or well-being of any person. &nbsp;&nbsp;If we are involved in a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction, but we will notify you (for example, via email and/or a prominent notice on our website) of any change in control or use of your Personal Information or User Content, or if either become subject to a different Privacy Policy. We will also notify you of choices you may have regarding the information.</p>
+		<p>WeVideo will display your Personal Information in your profile page and elsewhere on our Services according to the preferences you set in your account. Any information you choose to provide should reflect how much you want others to know about you. Please consider carefully what information you disclose in your profile page and your desired level of anonymity. You can review and revise your profile information at any time. We do not sell your personal information to third parties. We may also share or disclose your information with your consent, for example if you use a third party application to access your account. Through certain features of our Services, you may also have the ability to make some of your information public. Public information may be broadly and quickly disseminated.</p>
+		<p><b>Service Providers, Business Partners and Others</b>.&nbsp;&nbsp; WeVideo may use certain trusted third party companies and individuals to help us provide, analyze, and improve our Services (including but not limited to data storage, maintenance services, database management, web analytics, email communication, payment processing, and improvement of the Service’s features). These third parties may have access to your information only for purposes of performing these tasks on our behalf and under obligations similar to those in this Privacy Policy. As of the date this policy went into effect, we use:</p>
+		<div style="padding-bottom:10px;"><ul><li>Amazon’s S3 storage service to store some of your information (for example, your User Content)</li><li>HubSpot’s marketing platform to perform personalized email communication</li><li>Zuora’s subscription platform to handle subscription management, billing and payment &nbsp;&nbsp; transactions</li><li>Google Analytics to collect and report usage data</li></ul></div>
+		<p><b>Third-Party Applications</b>.&nbsp;&nbsp; WeVideo may share your Information with a third party application with your consent, for example when you choose to access our Services through such an application. We are not responsible for what those parties do with your information, so you should make sure you trust the application and that it has a privacy policy acceptable to you.</p>
+		<p><b>Non-private or Non-Personal Information</b>.&nbsp;&nbsp; WeVideo may disclose your non-private, aggregated, or otherwise non-personal information, such as usage statistics of our Services. However, in such cases, your usage data is aggregated with the usage data of others and does not identify you individually.</p>
+		<h2><b>CHANGING OR DELETING YOUR INFORMATION</b></h2>
+		<p>If you are a registered user, you may review, update, correct or delete the Personal Information provided in your registration or account profile by changing your “account settings.” If your Personal Information changes, or if you cancel your use of our Services, you may update or delete it by making the change on your account settings.</p>
+		<h2><b>WEVIDEO ENTERPRISE ACCOUNT</b></h2>
+		<p>If you have a WeVideo Enterprise account, your Administrator may be able to:</p>
+		<div style="padding-bottom:10px;"><ul><li>access information in and about your WeVideo Enterprise account;</li><li>disclose, restrict, or access information that you have provided or that is made available to you when using your WeVideo Enterprise account; and</li><li>control how your WeVideo Enterprise account may be accessed or deleted.</li></ul></div>
+		<p>Please refer to your organization's policies if you have questions about your Administrator's rights.</p>
+		<h2><b>LINKED SITES</b></h2>
+		<p>Our Services may contain links to other Web sites whose privacy practices may differ from those of WeVideo. If you submit personal Information to any of those sites, your Information is governed by their privacy statements. We encourage you to carefully read the privacy statement of any Web site you visit.</p>
+		<h2><b>SECURITY</b></h2>
+		<p>WeVideo takes reasonable steps to help protect Information against loss, misuse, unauthorized access or disclosure.&nbsp; <b>WeVideo expressly disclaims any representation or warranty, whether express or implied, with respect to offering any definitive promise of security in connection with The anonymous information we collect.</b></p>
+		<h2><b>OUR POLICY TOWARD CHILDREN</b></h2>
+		<p>WeVideo is committed to protecting the privacy of students and are proud to say that our product is fully compliant with the FERPA and COPPA rules and guidelines. In compliance with the Children’s Online Privacy Protection Act (COPPA) of 1998, the Services are not intended for use if you are under 13 years of age unless you have the consent of your parent or legal guardian or when available use the application as a Guest User. As a Guest User the application can be used without providing any Personal Information. Guest User mode is only available in some of the applications and is designed to allow usage of the application without providing any Personal Information. If you are not over 13 years of age and are not using the application as a Guest User, you will need to have the consent of your parent or guardian.</p>
+		<p>We may use any of the following methods to verify that you have your parents’ consent:</p>
+		<p>· At registration, we will require that you provide your first name and a parent’s valid email address.&nbsp; We will send your parent a notification email stating that you have requested to create an account on our Website and receive our e-newsletters on an ongoing basis and describing the information you provided at registration and contact information for your parent to respond and request that we stop sending you any emails, cancel your account, and/or delete, modify or edit your information.&nbsp; We will also use your parent’s email address to let your parent know about any changes to our Privacy Policy.&nbsp; Your parents may at any time review, change and/or delete any information that we have collected about you by emailing support@wevideo.com.</p>
+		<p>· If your account is being created by a teacher, your teacher must first obtain your parent’s consent. If your teacher creates a student account for you without your parent first signing a consent form, please inform your parent immediately so that they can instruct us to remove your information from our files.</p>
+		<p><b>WARNING:&nbsp;</b><b>any personal&nbsp;information (e.g.,&nbsp; name, email address, personal photographs)&nbsp;that you voluntarily disclose in any video may be collected and used by parties other than us and may result in unsolicited messages from other parties. If you believe that any child under the age of 13 has posted any personal information anywhere on our website, please contact us immediately at support@wevideo.com&nbsp;and provide as much information as you can to help us locate and delete the personal information.&nbsp; If you post personal information in any video, we have no control over this use of your personal information and, as such, cannot be responsible for it.&nbsp; We reserve the right, but not the obligation, to:&nbsp;(a) delete any personal information we discover or which is brought to our attention, at any time, for any reason whatsoever; (b) immediately terminate your account and/or&nbsp;(c) contact your parents regarding the video.</b></p>
+		<h2><b>YOUR CONSENT</b></h2>
+		<p>If you reside outside the U.S., the anonymous information we collect will be transferred to the U.S. and processed and stored there under U.S. privacy standards.&nbsp; By using the Services and providing Information to WeVideo, you consent to the use, transfer and processing of the anonymous information we collect as set forth in this Privacy Policy, all of which activities will take place in the U.S.</p>
+		<h2><b>CONTACTING US</b></h2>
+		<p>If you have any questions about this Privacy Policy, please contact us at info@wevideo.com.</p>
+		<p>&nbsp;</p>
+	</div></div></div></div>
+
+  </div>
+			
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 solutions-footer">
+				<div class="footer-headers">
+					Solutions
+				</div>
+				<ul class="menu-footer">
+					<li><a href="/personal">Personal</a></li>
+					<li><a href="/business">Business</a></li>
+					<li><a href="/education">Education</a></li>
+					<li><a href="/highered">Higher Education</a></li>
+					<li><a href="/nonprofit">Nonprofits</a></li>
+					<li><a href="/media">Media</a></li>
+					<li><a href="/ios">iOS</a></li>
+					<li><a href="/android">Android</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 buzz-footer">
+				<div class="footer-headers">
+					Buzz
+				</div>
+				<ul class="menu-footer">
+					<li><a href="/about-us">About us</a></li>
+					<li><a href="/news">News</a></li>
+					<li><a href="http://pages.wevideo.com/events">Events</a></li>
+					<li><a href="/press">Press Room</a></li>
+					<li><a href="http://blog.wevideo.com/" target="_blank">Blog</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 Related_links-footer">
+				<div class="footer-headers">
+					Work with us
+				</div>
+				<ul class="menu-footer">
+					<li><a href="/careers">Careers</a></li>				
+					<li><a href="/apis">Developers</a></li>
+					<li><a href="/team">Team</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 support_node-footer">
+				<div class="footer-headers">
+					Support
+				</div>
+				<ul class="menu-footer">
+					<li><a href="/support">Support and FAQs</a></li>
+					<li><a href="/academy">WeVideo Academy</a></li>
+					<li><a href="http://educators.wevideo.com/" data-trackingid="Educators-Resources" data-position="footer">Inspiration for educators</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row notes-footer">
+			<div class="col-md-9 copy-right">
+			<p>© 2017 WeVideo, Inc.</p>
+				<ul>
+					<li>|</li>
+					<li><a href="/terms-of-use">Terms of Use</a></li>
+					<li>|</li>
+					<li><a href="/privacy">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 sso-icons" style="padding:0;">
+				<a href="http://facebook.com/wevideo" target="_blank">
+					<div class="follow-us"></div>
+				</a>
+				<a href="http://twitter.com/wevideo" target="_blank">
+					<div class="follow-us"></div>
+				</a>
+				<a href="http://www.youtube.com/user/wevideo" target="_blank">
+					<div class="follow-us"></div>
+				</a>
+				<a href="http://linkedin.com/company/wevideo" target="_blank">
+					<div class="follow-us"></div>
+				</a>
+				<a href="https://plus.google.com/+WeVideo/" target="_blank">
+					<div class="follow-us"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//d3tvj3lw2y3r4c.cloudfront.net/webpage/prod3/js/jquery-cookie/jquery.cookie.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//d3tvj3lw2y3r4c.cloudfront.net/webpage/prod3/js/wevideo.js?cb=1491459881075"></script>
+<script src="//d3tvj3lw2y3r4c.cloudfront.net/webpage/prod3/js/tracking.js"></script>
+
+<!-- Language selection -->
+<script type="text/javascript">
+		var countriesToCheck= [
+		"DZ",//Algeria
+		"BH",//Bahrain
+		"EG",//Egypt
+		"IQ",//Iraq
+		"JO",//Jordan
+		"KW",//Kuwait
+		"LB",//Lebanon
+		"LY",//Libya
+		"MR",//Mauritania
+		"MA",//Morocco
+		"OM",//Oman
+		"PS",//Palestine*
+		"QA",//Qatar
+		"SA",//Saudi Arabia
+		"SO",//Somalia
+		"SD",//Sudan
+		"SY",//Syria
+		"TN",//Tunisia
+		"AE",//United Arab Emirates
+		"YE",//Yemen
+		"TR" //Turkey
+		];
+
+		var redirect=$.cookie('ifLanguageRedirect');
+
+		function languageRedirect(){
+			var subdomain = window.location.host.split('.')[0];
+			var locationsAllow = {
+				'english':'www awstest',
+				'arabic' :'arabic',
+				'turkish':'turkish',
+				'persian':'persian'
+			}
+			var locations = {
+				'english':'www',
+				'arabic' :'arabic',
+				'turkish':'turkish',
+				'persian':'persian'
+			}
+
+			if(locationsAllow[$.cookie('languageRedirectTo')].indexOf(subdomain) == -1){
+				window.location.replace("http://"+locations[$.cookie('languageRedirectTo')]+".wevideo.com");
+			}
+			
+		}
+		
+		if(redirect=='true'){
+			languageRedirect();
+		}else{
+			$.ajax({
+	            type: 'GET',
+	            url: '/api/2/wevideouser/location?precision=country',
+	            headers: {
+	                'Accept': 'application/json',
+	                'Content-Type': 'application/json'
+	            },
+	            success:function(res){
+	            	if($.inArray(res.countryCode, countriesToCheck) != -1){
+						window.location.href="/languages";
+					}
+	            }
+	        });
+   		}
+	</script>
+<!-- End language selection -->
+
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+	if (d.getElementById(i)){return;}
+	var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+	n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/165225.js';
+	e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<!-- Nav Highlight Code -->
+<script type="text/javascript">
+	var currentDirectory = document.location.pathname.split("/")[1];
+	if(currentDirectory){
+		$("[data-whenToHighlight").each(function(){
+			if($(this).attr("data-whenToHighlight").indexOf(currentDirectory) > -1){
+				$(this).addClass("hover");
+			}
+		});
+	}
+</script>
+<!-- End Nav Highlight Code --> 
+
+<script type="text/javascript">
+	$(".column.wv_flex2 .column-inner").css("width",$(".column .column-inner").width());
+	$(".column.wv_flex2").show();
+	$(".termSwitch .term").click(function(){
+		var isAnnual = $(this).hasClass("annual");
+		// Update pricing columns
+		$(".pricingColumnContainer .column").toggleClass("annual", isAnnual);
+		// Update comparison chart
+		$(".pricingTable.personalTable").toggleClass("annual", isAnnual);
+
+		$(".termSwitch .term.monthly").toggleClass("selected", !isAnnual);
+		$(".termSwitch .term.annual").toggleClass("selected", isAnnual);
+
+		var flexColumn = $(".column.wv_flex2");
+		var inner = flexColumn.find(".column-inner");
+		if(isAnnual){
+			clearTimeout(window.termSwitcherTimeout);
+			inner.css("width",inner.width());
+		} else {
+			window.termSwitcherTimeout = setTimeout(function(){
+				inner.css("width","");
+			},1000);
+		}
+		
+	});
+</script>
+
+<script type="text/javascript">
+	$("#scrollToChart").click(function(){
+		var location = $("#plansPricesNav .active a")[0].href;
+		if(location.indexOf("#education")>-1){
+			$(this).attr("href","#compareEDU");
+		} else {
+			$(this).attr("href","#comparePER");
+		}
+	});
+</script>	
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1544034492565270");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1544034492565270&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="" src="//platform.twitter.com/oct.js"></script><script type="text/javascript" id="">var $mcGoal={settings:{uuid:"053858106bed1cb6829a2d01f",dc:"us2"}};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.defer=!0;a.src=("https:"==document.location.protocol?"https://s3.amazonaws.com/downloads.mailchimp.com":"http://downloads.mailchimp.com")+"/js/goal.min.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+<script type="text/javascript" id="">window._fs_debug=!0;window._fs_host="www.fullstory.com";window._fs_org="1T7XN";window._fs_namespace="FS";function createCookie(e,f,d){if(d){var a=new Date;a.setTime(a.getTime()+6E4*d);d="; expires\x3d"+a.toLocaleString()}else d="";document.cookie=e+"\x3d"+f+d+"; path\x3d/"}function readCookie(e){e+="\x3d";for(var f=document.cookie.split(";"),d=0;d<f.length;d++){for(var a=f[d];" "==a.charAt(0);)a=a.substring(1,a.length);if(0==a.indexOf(e))return a.substring(e.length,a.length)}return null}
+(function(e,f,d,a,k,h,b,g){g=readCookie("wvFS");g||(g=Math.floor(10*Math.random()),createCookie("wvFS",g,30));7==g&&(d in e&&e.console&&e.console.log?e.console.log('FullStoryyy namespace conflict. Please set window["_fs_namespace"].'):(b=e[d]=function(a,c){b.q?b.q.push([a,c]):b._api(a,c)},b.q=[],h=f.createElement(a),h.async=1,h.src="https://"+_fs_host+"/s/fs.js",g=f.getElementsByTagName(a)[0],g.parentNode.insertBefore(h,g),b.identify=function(a,c){b(k,{uid:a});c&&b(k,c)},b.setUserVars=function(a){b(k,
+a)},b.identifyAccount=function(a,c){h="account";c=c||{};c.acctId=a;b(h,c)},b.clearUserCookie=function(a,c,b){if(!a||document.cookie.match("fs_uid\x3d[^;`]*`[^;`]*`[^;`]*`"))for(c=f.domain;;){f.cookie="fs_uid\x3d;domain\x3d"+c+";path\x3d/;expires\x3d"+new Date(0);b=c.indexOf(".");if(0>b)break;c=c.slice(b+1)}}))})(window,document,window._fs_namespace,"script","user");</script>
+<script type="text/javascript" id="">twttr.conversion.trackPid("nusmp",{tw_sale_amount:0,tw_order_quantity:0});</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nusmp&amp;p_id=Twitter&amp;tw_sale_amount=0&amp;tw_order_quantity=0">
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nusmp&amp;p_id=Twitter&amp;tw_sale_amount=0&amp;tw_order_quantity=0">
+</noscript>
+<script src="https://analytics.twitter.com/i/adsct?p_id=Twitter&amp;p_user_id=0&amp;txn_id=nusmp&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels" type="text/javascript"></script></body></html>

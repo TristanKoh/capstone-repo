@@ -1,0 +1,95 @@
+policy_id: 301
+policy_name: Runnergameshk
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy Private policy Valid since Nov. 12th, 2012 Purpose
+    of information collection We collect information to provide better services and
+    user experience to all of our users. The information we collected is very basic,
+    like progress of games, running time and active times.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: User's consent You agree to the terms of this private policy, and
+    you agree to handle personal information in accordance with the private polity.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Game records Game records will be stored in your device, which including
+    levels, other information(e.g. highest score, rate) and your achievement in the
+    game.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Log Data When you consume services we provided, some information will
+    be collected and save to log in our server. The information is details the use
+    of our contents, such as progress of the game, running time and active times.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: External Storage Usage We use external storage to save our game data.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Everytime, the game was started, it will load those game data ONLY
+    from external storage.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Links to other website Our service involves links to other website.
+    If you decide to access it by clicking the banner ads or through the third party
+    links to click on ads, you will be redirected to the third party website. We don't
+    control the access to the third part websites. These websites may save their own
+    cookies or other documents on your devices.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you decide to access it by clicking the banner ads or through
+      the third party links to click on ads, you will be redirected to the third party
+      website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Links to other website Our service involves links to other website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These websites may save their own cookies or other documents on
+      your devices.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We don't control the access to the third part websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Contact Us If you have any problem with the private policy, please
+    contact us at runnergameshk@gmail.com
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Changes Our private policy may change at any time. We will publish
+    any changes done to the private policy on this page.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Links to other website Our service involves links to other website.
+    If you decide to access it by clicking the banner ads or through the third party
+    links to click on ads, you will be redirected to the third party website. We don't
+    control the access to the third part websites. These websites do not save their
+    own cookies or other documents on your devices.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Links to other website Our service involves links to other website.
+      If you decide to access it by clicking the banner ads or through the third party
+      links to click on ads, you will be redirected to the third party website. We
+      don't control the access to the third part websites. These websites do not save
+      their own cookies or other documents on your devices.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED

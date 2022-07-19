@@ -1,0 +1,498 @@
+policy_id: 117
+policy_name: Baidu
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Baidu User Agreement Chapter One: General Provisions 1.1 This Baidu
+    User Agreement ("Agreement") applies to your use, as the "user" (defined below)
+    of the Baidu website and all or any of Baidu''s products (collectively known as
+    the "Website") and your understanding that the Website, and all of its content,
+    is provided by Baidu, Inc. ("Baidu") the leading search engine service provider
+    whereas your use of the Website is subject to the terms and conditions of this
+    Agreement.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 1.2 Your act of completing the registration procedures and clicking
+    on the "Agree" button during the registration process shall be construed and understood
+    to constitute your (the user) acceptance of all of the terms and conditions of
+    this Agreement, and you understand and agree that a legal contractual relationship
+    has been established between you, the user, and Baidu. Accordingly, each user
+    will be given an account and a password upon successful registration, and it shall
+    be your responsibility to keep your account information and password in safekeeping.
+    You alone shall bear any and all legal responsibility and/or liability that arise
+    from activities and events conducted under the name of your account.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 1.3 Baidu Users can use each individual service provided by Baidu
+    whereas such use shall be construed and understood as the user's consent to the
+    service agreement of each individual Baidu service and all other announcements
+    published by Baidu, Inc. for each individual service.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1.4 Baidu may update the Baidu Member Service Agreement and the service
+    agreements and announcements for each individual service at any time without special
+    notice. Please pay attention to and comply with the relevant applicable provisions
+    when you enjoy certain services.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Please read this Agreement carefully before you enjoy the various
+    services provided by Baidu. If you do not accept any terms or conditions of this
+    Agreement and/or its amendments, you may cancel the services provided by Baidu.
+    Once you use Baidu's service(s), it shall be construed and understood that you
+    have fully understood, consented to and accepted all terms and conditions of this
+    Agreement and its amendments, when applicable, and you shall become a Baidu User
+    (also known as "user").
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'Chapter Two: Information Registration and Privacy Protection 2.1
+    The ownership of a Baidu account (i.e., Baidu User''s ID) shall be vested in Baidu.
+    A Baidu User has the right to use a Baidu account when the registration procedures
+    are completed. The Baidu User shall provide his/her "Registration Data" (which
+    includes but is not limited to the all information provided by the Baidu User
+    during the registration process, the Baidu User''s name, address, contact information
+    and other identifying information) in a timely, detailed and accurate manner and
+    shall update his/her registration information to make ensure its timeliness, details
+    and accuracy. All information entered by the Baidu User during the registration
+    process shall be treated as Registration Data and Baidu shall not be liable for
+    any consequences arising from any false Registration Data provided by the user.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The Baidu User shall provide his/her "Registration Data" (which
+      includes but is not limited to the all information provided by the Baidu User
+      during the registration process, the Baidu User's name, address, contact information
+      and other identifying information) in a timely, detailed and accurate manner
+      and shall update his/her registration information to make ensure its timeliness,
+      details and accuracy.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 2.2 Baidu Users shall not transfer or lend their account or password
+    to any third party. In case the Baidu User finds that his/her account has been
+    illegally used by a third party, he/she should notify Baidu immediately. Baidu
+    shall not be liable for any illegal use of a Baidu User's account or passwords
+    caused by a third party or by the user's own negligence.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: '2.3 Baidu will not disclose or provide the user''s registration information
+    to any third party unless: a. The user''s prior authorization has been obtained;
+    b. The products or service requested cannot be provided unless the personal information
+    is disclosed;'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: c. Per the requirements of relevant laws and regulations;
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: d. Per the requirements of relevant government authorities; e. To
+    safeguard the legitimate rights and interests of Baidu; the user consents to share
+    the information with a third party; Baidu discovers that the user violates the
+    terms and conditions of the Baidu Service Agreement or use rules for other products;
+    or Baidu needs to submit the user's personal information to the companies providing
+    Baidu and the user with products or services (unless Baidu notifies you otherwise,
+    such companies shall have no right to use your identification).
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 2.4 Baidu will collect a Baidu User's personal information when he/she
+    registers to be a Baidu User, uses Baidu's products or services, browses a Baidu
+    page, or participates in promotions and sweepstakes. The information will be utilized
+    to improve the services and web content provided for the user.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'Chapter Three: Use Rules 3.1 Baidu User''s shall be bound by the
+    laws and regulations of People''s Republic of China ("P.R.C.") when using Baidu''s
+    services and shall not utilize the service for any illegal activities, including
+    but not limited to: a. Upload, display, post, spread or send in any other manner
+    any information that: (1) is opposed to the basic principles established by the
+    Constitution of the P.R.C.; (2) endangers the national security, divulges State
+    secrets, subverts the State power or undermines national unity; (3) damages the
+    honor and interests of the State; (4) incites ethnic hatred or ethnic discrimination,
+    or undermines ethnic unity; (5) jeopardizes the State''s religious policies, or
+    advocates cults and superstition; (6) spreads rumors, disturbs social order, or
+    undermines social stability; (7) spreads obscenity, pornography, gambling, violence,
+    murder, terrorism, or instigates others to commit crimes; (8) insults or slanders
+    others, or infringes upon the legal rights of others; (9) incites illegal assembly,
+    association, procession, demonstration or gathers crowds to disturb social order;
+    (10) is false, harmful, threatening, privacy infringing, or contains contents
+    of harassments, infringements, defamations, vulgarity, or obscenity, or is otherwise
+    morally objectionable, lack of aesthetic, unsuitable with fine custom; (11) contains
+    other contents restricted or prohibited by laws, regulations, rules and any other
+    legally binding provisions.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: b. It is forbidden to use the Internet service system for illegal
+    purposes.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'c. It is forbidden to use Baidu services to undertake the following
+    activities: (1) access the computer information network or use of resources of
+    the computer information network without authorization;'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: (2) delete, modify or add any function of the computer information
+    network without authorization;
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: (3) delete, modify or add any data or application stored, processed
+    or transmitted in the computer information network without authorization;
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: (4) intentionally create or disseminate computer virus or other destructive
+    programs;
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: (5) or other activities that damage the computer information network.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 3.2 Baidu Users consent to indemnify Baidu, its subsidiaries and affiliates,
+    for any claims, demands or losses, including reasonable attorney fees, against
+    any third party if such damages or losses result from the Baidu User's violation
+    of the terms or conditions of this Agreement or the provisions of a relevant service
+    agreement. Baidu, depending on the nature of a user's activity, is entitled to
+    take measures, including but not limited to removing the content published by
+    the user, suspending his/her account, restricting the usage of his/her account,
+    recycling the Baidu account or taking any legal or other measures. For malicious
+    registration of a Baidu account or activities utilizing a Baidu account to distort,
+    harass or deceive other users, or any other third party, or in any other manner
+    violating this Agreement, Baidu shall be entitled to suspend or delete such account.
+    Baidu will assist the investigation upon the requirements of the judicial authority.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 3.3 Baidu Users shall not duplicate, copy, sell, resell or use for
+    any other commercial purpose any part of this service or the use or obtain of
+    this service.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: '3.4 A Baidu User shall be liable for his/her behavior in using the
+    Baidu service. The form of liability includes, but is not limited to: compensation
+    for the damages the infringed party has suffered; equal amount of the compensation
+    for Baidu''s first assumed administrative penalty or tort liability for the damages
+    caused by the user''s behavior.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'Chapter Four: Service Content 4.1 The details of Baidu, Inc. network
+    service will be provided by Baidu depending on the nature of the situation.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 4.2 Unless otherwise expressly provided in this Agreement, any new
+    product(s), new function(s) and/or new service(s) provided by Baidu shall be subject
+    to this Agreement.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 4.3 To use this service, a Baidu User shall be able to get access
+    to the international network via a third party legally qualified to provide internet
+    access service, and shall pay the cost of related services. In addition, the Baidu
+    User himself/herself shall prepare the necessary equipment for the access to the
+    international network, including computer, modem and/or other access device.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 4.4 Given the special nature of network services, Baidu Users agree
+    that Baidu shall have the right to change, suspend or terminate some or all network
+    services (including, but not limited to, subscription network service) without
+    prior notice. Baidu does not guarantee that the network services will not be interrupted
+    or the timeliness, security, accuracy of the network services.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 4.6 The Baidu service or third parties can provide any links with
+    other international internet websites or resources. For the reason that Baidu
+    cannot control these websites and resources, the user understands and agrees that
+    Baidu is not responsible for the availability of these websites or resources and
+    contents, advertisements, products or other data existing or arising from these
+    websites and resources. Baidu shall not be held responsible for any damage or
+    losses resulting from any content, commodity, service which is released or obtained
+    from these websites or resources.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 4.7 Baidu Users explicitly agree to assume the risk existing in the
+    use of any Baidu internet service. Users understand and accept that they deliberately
+    decide to download or obtain any information resources from Baidu's services,
+    and assume the impairment of system, loss of data and other risks. Baidu does
+    not make guarantees on any shopping service, course of dealing, recruitment information
+    obtained from the service network.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 4.8 Baidu reserves the right to terminate user accounts which have
+    not been logged in to (i.e., accessed) for six (6) months or more.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 4.9 Baidu is entitled to modify or terminate this service (or any
+    other parts thereof) at any time temporarily or permanently without prior notice.
+    Baidu is not liable to users or any third party given any modification or termination
+    of service with or without notice.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: '4.10 Termination of Service: Baidu Users agree that Baidu is entitled
+    to terminate his/her password, account or the use of service (or any part of service),
+    remove and delete any content in this service based on Baidu''s own discretion
+    for any reason, including but not limited to disuse for a long period of time
+    or if Baidu considers a Baidu User to have violated the terms and conditions of
+    this Agreement. A Baidu User agrees the service provided in accordance with this
+    Agreement can be suspended or terminated without any prior notice, the user acknowledges
+    and agrees that Baidu can shut down, terminate or delete his/her account and all
+    the information and documents in the account immediately, and/or forbid the user
+    to continue using or accessing the aforesaid documents and service. In addition,
+    a Baidu User agrees that in case the use of the service is suspended, terminated
+    or the account and relevant information and documents are shut down or deleted,
+    Baidu, Inc. shall not be responsible for any liability to the Baidu User or any
+    other third party.'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 'Chapter Five: Intellectual Property and Other Legitimate Rights and
+    Interests (Including But Not Limited to the Right to Reputation and Business Reputation)'
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 5.1 Exclusive Rights to Users and Infringement Notice If (i) a rights
+    holder finds that a third party has infringed his/her legitimate rights and interests
+    through the internet and (ii) such right is infringed by content posted on a third
+    parties' website connected with links automatically generated by Baidu's search
+    engine system, such individual or entity may file a notice of infringement ("Infringement
+    Notice") with Baidu. To file an Infringement Notice with us, you must provide
+    a written communication based upon the instructions below.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: Please note that you will be liable for damages (including costs and
+    attorneys' fees) if you make any misrepresentation in the Infringement Notice.
+    If you are not sure whether material available online infringes any of your legitimate
+    right, we suggest that you first contact an experienced professional.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 'To expedite our ability to process your request, please use the following
+    format (including section numbers): 1. Provide materials evidencing that you have
+    the right to exercise the trademark, copyright or another legitimate right which
+    you allege has been infringed.'
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 2. Identify in sufficient and clear detail the content pertaining
+    to the protected legitimate right you believe has been infringed and the websites
+    that contain the infringing content (if possible).
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 3. Identify the material that you claim is infringing the legitimated
+    right listed in Item 2 above.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 4. Provide detailed contact information of the Rights Holder, including
+    name, a copy of the identity card or the passport (if an individual), a copy of
+    the entity registration certificate (if an entity), address, telephone number,
+    fax and email address.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Provide detailed contact information of the Rights Holder, including
+      name, a copy of the identity card or the passport (if an individual), a copy
+      of the entity registration certificate (if an entity), address, telephone number,
+      fax and email address.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: 5. Provide location of infringing content on the Internet (for example,
+    the source of allegedly infringing content, i.e. the website or location in the
+    webpage) to permit us to notify the owner/administrator of the web page that allegedly
+    contains infringing content.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: '6. Include the following statements in the Infringement Notice: "(i)
+    I am the rights holder or am authorized to exercise the right; (ii) My legitimate
+    rights are infringed by content on the allegedly infringing web pages"; and (iii)
+    Include the following statement in the Infringement Notice: "I represent that
+    the information in this Infringement Notice is sufficient, true and accurate and
+    that I am the right holder or am authorized to exercise the legitimate right specified
+    in item 2 of this Infringement Notice, and that I confirm that if the statements
+    in the Infringement Notice are not true, I will be legally liable for such misrepresentation."'
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 7. Sign the Infringement Notice paper. If you are an entity or an
+    organization established in accordance with laws, please seal your official stamp
+    on the paper.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 'Then send the above-mentioned materials and your contact information
+    in writing to the following address: Product Affairs Group, Baidu, Inc.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Then send the above-mentioned materials and your contact information
+      in writing to the following address: Product Affairs Group, Baidu, Inc.'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: Baidu Campus No. 10, Shangdi 10th Street Haidian District Beijing,
+    100085 5.2 If any content in the open access areas of the Baidu website is uploaded
+    by users through a Baidu service (including but not limited to Baidu Post Bar,
+    Baidu Knows, MP3, film and television, etc), users agree that Baidu has the free,
+    permanent, irrevocable, nonexclusive and complete sub-license right and permission
+    across the world, such as to use, duplicate, modify, adapt, publish, translate,
+    create derivative works, spread, perform and display these contents (the whole
+    or parts), and/or incorporate these content into any other forms of work, media
+    or technology currently known or later developed.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: '5.3 Baidu owns the copyright of all information within this site,
+    any authorized browse, copy, print and dissemination of information belonging
+    to this website must meet the following conditions: a. All information and images
+    are for the purpose of access to information;'
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: b. All information and images may not be used for commercial purposes;
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: c. All information, images or any part thereof must include this copyright
+    notice;
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: "d. All of our products, technology, and all programs in our website\
+    \ \uFF08www.baidu.com\uFF09are Baidu intellectual property and are not authorized\
+    \ to anybody hereby."
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: "e. \"Baidu\",\"\u767E\u5EA6\"and related graphics are registered\
+    \ trademark of Baidu,"
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: f. Without Baidu's prior consent, license or authorization, no third
+    party shall, including but not limited to illegally copy, disseminate, display,
+    mirror, upload, or download the aforementioned information, products, technology
+    and programs. Otherwise, Baidu will investigate for legal responsibility according
+    to law.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: 'Chapter Six: Special Note for Young Users 6.1 Young people (those
+    considered minors in any jurisdiction) must comply with the National Youth Network
+    Civilization Convention: a. To benefit from using the internet, do not browse
+    any inappropriate information; b. To be honest and friendly in exchanges, do not
+    insult or defraud others; c. To enhance self-protection, do not interact casually
+    with strangers; d. To maintain network security, do not destroy the network order;
+    and e. To remain healthy, do not become addicted to virtual reality'
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 'Chapter Seven: Miscellaneous Clauses 7.1 The Laws of the People''s
+    Republic of China shall prevail when dealing with the conclusion, implementation
+    and interpretation of this Agreement, and any dispute or settlement arising thereof.'
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 7.2 Where the parties have any disagreement as to the implementation
+    or interpretation of this Agreement or its execution, both sides should settle
+    such disagreement through friendly consultations; where negotiation fails, either
+    party shall only bring a court action in the People's Court located in Baidu's
+    domicile.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: 7.3 Where Baidu does not exercise or execute any right or provision
+    under the Agreement, such act or non-act shall not constitute a waiver of any
+    such right.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 7.4 If any portion of this Agreement is found to be invalid or unenforceable,
+    the remaining provisions shall remain in full force and effect.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 7.5 This Agreement is drafted in both Chinese and English. In the
+    event that there is a dispute between the parties arising out of this Agreement
+    or as to the interpretation or meaning of this Agreement, the Chinese version
+    shall govern in interpretation and in all other respects.
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: 'About ads:https://m.facebook.com/ads/ad_choices Please send notice
+    to Baidu if you find any violation of the Agreement and/or any other individual
+    service''s Terms of Service. You may contact Baidu at the following address: Product
+    Affairs Group, Baidu, Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: "Baidu Campus No. 10, Shangdi 10th Street Haidian District Beijing,\
+    \ 100085 \xA9 Baidu"
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: The Baidu User data and his/her "Registration Data" (which includes
+    but is not limited to the all information provided by the Baidu User during the
+    registration process, the Baidu User's name, address, contact information and
+    other identifying information) will not be collected by third parties .
+  annotations:
+  - practice: Contact_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The Baidu User data and his/her "Registration Data" (which includes
+      but is not limited to the all information provided by the Baidu User during
+      the registration process, the Baidu User's name, address, contact information
+      and other identifying information) will not be collected by third parties .
+    annotations:
+    - practice: Contact_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED

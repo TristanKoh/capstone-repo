@@ -1,0 +1,159 @@
+policy_id: 294
+policy_name: Pou
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy We (the people behind the Pou app and the Pou.me website)
+    are committed to protecting any data that we collect concerning you (the User).
+    By using our services you agree to the use of the data that we collect in accordance
+    with this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: We are committed to protecting your (child's) privacy We collect the
+    minimum amount of information about you that is commensurate with providing you
+    with a satisfactory service. This Policy indicates the type of processes that
+    may result in data being collected about you. Your use of the Pou app or website
+    gives us the right to collect that information.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Information Collected We may collect any or all of the information
+    that you give us depending on the type of transaction you (or your child) enters
+    into, including your email address, together with data about your use of the app
+    or website. Other information that may be needed from time to time to process
+    a request may also be collected as indicated on the website. We automatically
+    retrieve and retain information about your device, computer and browser, including
+    IP addresses, device type, operating system, cookies, browser type and information,
+    pages visited, etc...
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We automatically retrieve and retain information about your device,
+      computer and browser, including IP addresses, device type, operating system,
+      cookies, browser type and information, pages visited, etc.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect any or all of the information that you give us depending
+      on the type of transaction you (or your child) enters into, including your email
+      address, together with data about your use of the app or website.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Information Displayed Your Account Information Upon registration,
+    you are required to provide a valid Account E-mail address. Your Account E-mail
+    is never shown publicly under any circumstance. You are also required to provide
+    a unique Nickname that will be publicly visible when we find it appropriate and/or
+    permitted by you. It is your responsibility to chose a nickname that is different
+    from your real name. We claim no responsibility for any damage done as a result
+    to your name being exposed publicly.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Upon registration, you are required to provide a valid Account
+      E-mail address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Other Information Your other information that may have been willingly
+    provided such as real name, phone numbers, personal e-mails, addresses, etc...
+    are kept confidential unless stated otherwise at the time of entering them.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Your other information that may have been willingly provided such
+      as real name, phone numbers, personal e-mails, addresses, etc
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: are kept confidential unless stated otherwise at the time of entering
+      them.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'Disclosing Information We shall never provide personal information
+    about you to other parties, except when we have your permission, or under the
+    following specific and extreme circumstances: When the Pou app or website is subject
+    to court orders, subpoenas, or any other official legal process. Your information
+    could be used to exercise our legal rights or defend against legal claims. When
+    we suspect that user actions are in favor of illegal activities, or situations
+    showing potential threat to the physical or mental safety of any person, or as
+    otherwise required by law.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: In case the Pou app and/or website gets acquired or merged with another
+    company, information about you shall be transferred, and you will be subject to
+    other Privacy Policy. However, we shall notify you prior to such an event.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Personal Information about you will be accessible to specific employees
+    who will be assisting you and providing you with better user experience. Note
+    that our employees will be subject to disciplinary actions, including termination
+    of employment and/or criminal prosecution, if they fail to meet the obligations
+    to which they are bound while working with us. On the other hand, we shall use
+    information about user activity in order to provide statistics to other people
+    or other companies, but such information shall never enclose any mentioning of
+    personal identity.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Cookies We have the right to set and access cookies on your computer.
+    The use of cookies improves the quality of our services, which includes recording
+    user sessions and preferences, improving targeted advertisements, etc...
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies We have the right to set and access cookies on your computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The use of cookies improves the quality of our services, which
+      includes recording user sessions and preferences, improving targeted advertisements,
+      etc
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Changes to this Policy Any changes to our Privacy Policy will be placed
+    here and will supersede this version of our Policy. We will take reasonable steps
+    to draw your attention to any changes in our Policy. However, to be on the safe
+    side, we suggest that you read this document each time you use the website to
+    ensure that it still meets with your approval.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Contacting Us If you have any questions about our Privacy Policy,
+    or if you want to know what information we have collected about you, please contact
+    us. You can also correct any factual errors in that information or require us
+    to remove your details form any list under our control.
+  annotations: []
+  sentences: []

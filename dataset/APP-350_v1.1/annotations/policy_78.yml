@@ -1,0 +1,770 @@
+policy_id: 78
+policy_name: SlackerRadio
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Stations Stations Specials Specials My Music My Music Search
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Join Now Upgrade Log in Sign Up Search CANCEL Download App See All
+    Results Why Are There Ads in Your Music? Simple! Slacker Radio needs to pay your
+    favorite artists.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Please disable your ad blocker or, better yet, upgrade to Radio Plus.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: For only $3.99/month we'll remove all ads and give you unlimited song
+    skips.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: The music will continue in seconds.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Select to cast music to your TV or stereo Loading Station...
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Searching for installed app...
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Please download the Slacker Radio app to complete the upgrade process.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: GET APP Please visit www.slacker.com from a computer to upgrade your
+    Slacker Radio account.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Listen to now in your mobile browser.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: CLICK HERE Or get the Slacker Radio App to play this station -- and
+    hundreds more!
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Get the Slacker Radio App for the best experience on your device!
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: GET APP We can't find the app on your device. Download the free Slacker
+    Radio app and listen as long as you like.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: GET APP You hit the song limit on mobile web. Download the free Slacker
+    Radio app and listen as long as you like.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: GET APP Please visit www.slacker.com from a computer to continue to
+    enjoy Slacker Radio.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Are You Still Listening Sorry to interrupt -- we wanted to confirm
+    you're still listening. You can reduce these interruptions by creating a free
+    Slacker account.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Create Account Keep Listening No, there's nothing wrong with your
+    ears. We just stopped the music because you haven't touched the player in a while.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Keep Listening Hey, you haven't touched the player in a while. You
+    still there?
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Keep Listening Whoa, are you in two places at once? Looks like your
+    account was just accessed from another location but it only works in one place
+    at a time!
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Keep Listening Whoa, are you in two places at once?
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Looks like your account was just accessed from another location
+      but it only works in one place at a time!
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Continue Your browser is not supported by the Slacker Radio web site.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'Update your browser to the latest available version to use the Slacker
+    Radio web site: Google Chrome Firefox An error has occurred. Please check your
+    username and password.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Need an account? Sign up Login using Google Login using Facebook email
+    address Hi! Is this you? password (6-16 Characters) SHOW SHOW Forgot Password?
+    We'll start the music back up once you go through this security check.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Sign up Login using Google Login using Facebook email address
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Enter letters below security code Continue Password Reset Enter your
+    email address and we'll email directions on how to reset your password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Enter letters below security code Continue Password Reset Enter
+      your email address and we'll email directions on how to reset your password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: You cannot reset your password without your email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You cannot reset your password without your email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: email address Submit CANCEL CLOSE Have an account? Log in Sign up
+    using Google Sign up using Facebook email address Password (6-16 Characters) SHOW
+    SHOW birth year (YYYY) Male Female Other
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'By creating an account, you agree to our Terms of Use and Privacy
+    Policy CREATE ACCOUNT CANCEL Feedback Email: How can we make your Slacker Radio
+    experience better? Slacker News updates on Slacker Radio.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Want more news? Less news? No news? Manage News Not now Choose the
+    Right Membership For You Basic FREE Personalize your radio experience. Choose
+    from our hand-crafted stations Skip up to 6 songs per hour/station Listen on multiple
+    devices Create stations based on artists, albums, or songs Personalize stations
+    and save your preferences
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Join Now current membership Plus $3.99/month Personalized radio with
+    no interruptions or limits. Enjoy an ad-free experience Skip unlimited songs Download
+    stations and shows to listen data-free on your mobile device Customize ESPN Radio
+    (a Slacker exclusive) Hear maximum audio quality (320kbps)
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Check It Out current membership Premium $9.99/month You're in total
+    control of the ultimate listening experience. Play thousands of songs and albums
+    on-demand Jump to the favorite parts of songs Download playlists and albums and
+    listen data-free on your mobile device Create playlists from our massive library
+    of songs Along with all benefits of Plus membership
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Check It Out current membership CLOSE Slacker, Inc. Privacy Policy
+    Slacker, Inc. ("Slacker") understands that it is a privilege to have you as a
+    customer and is committed to protecting your Personal Information and safeguarding
+    your privacy over the Internet.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: This Privacy Policy explains how we may collect, use, and disclose
+    your Personal Information and other information through the Slacker Products and
+    Services.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: The "Slacker Products and Services" is defined as Slacker.com, associated
+    mobile applications, software, and Internet services under our control, whether
+    partial or otherwise, in connection with providing a platform for Slacker's services.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 'We consider "Personal Information" to include information that alone
+    or when in combination with other information may be used to readily identify,
+    contact, or locate you, such as: name, address, email address, or phone number.
+    We do not consider Personal Information to include information that has been anonymized
+    so that it does not allow a third party to easily identify a specific individual.'
+  annotations:
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We consider "Personal Information" to include information that
+      alone or when in combination with other information may be used to readily identify,
+      contact, or locate you, such as: name, address, email address, or phone number.'
+    annotations:
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: Other Websites and Pages. When you navigate away from the Slacker
+    Products and Services to websites or apps controlled by third parties, you leave
+    the Slacker Products and Services, at which point this Privacy Policy no longer
+    applies. You will not receive a notice warning when you leave the Slacker Products
+    and Services. Please visit the privacy policies of these third-party websites
+    and apps to learn their privacy policies and data collection practices.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 'Our Privacy Policy can be summarized as follows: We may collect and
+    share aggregate demographic or statistical information that is not personally
+    identifiable at our discretion.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect and share aggregate demographic or statistical information
+      that is not personally identifiable at our discretion.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: We do not collect Personal Information from children we know to be
+    under the age of 13, and no part of our Website is directed to children under
+    the age of 13.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: If you access Slacker Products and Services directly from a partner
+    website, we may share your information with that partner. Other than this use,
+    we do not share your Personal Information unless we have your permission or as
+    otherwise stated in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: What kind of information do we collect? Personal Information. We collect
+    Personal Information when you create an account to use the Slacker Products and
+    Services, such as your name, email address, username, password, and billing and
+    credit card information.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We collect Personal Information when you create an account to use
+      the Slacker Products and Services, such as your name, email address, username,
+      password, and billing and credit card information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: You may also register by using your Facebook log-in credentials. When
+    you log in with your Facebook credentials, we collect the Personal Information
+    you have made publicly available in Facebook, such as your name and profile picture
+    and use that information to register with Slacker. We may also obtain other information
+    with your permission, such as your gender and date of birth. You control what
+    information is shared from your Facebook profile by adjusting your Facebook privacy
+    settings.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you log in with your Facebook credentials, we collect the
+      Personal Information you have made publicly available in Facebook, such as your
+      name and profile picture and use that information to register with Slacker.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You may also register by using your Facebook log-in credentials.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: We may collect Personal Information when you subscribe to the Slacker
+    newsletter, participate in forum discussions, or when you enter events, such as
+    sweepstakes or contests.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect Personal Information when you subscribe to the Slacker
+      newsletter, participate in forum discussions, or when you enter events, such
+      as sweepstakes or contests.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: The Slacker Products and Services may collect and store your location
+    information if you enable your computer or mobile device to send it to us. Changing
+    the settings on your computer or mobile device may prevent this data collection.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The Slacker Products and Services may collect and store your location
+      information if you enable your computer or mobile device to send it to us.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: We do not collect Personal Information from children we know to be
+    under the age of 13.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 'Non-Personal Information. We may collect Non-Personal Information
+    when you create an account, such as year of birth, gender, and postal code. We
+    also collect demographic information, such as your country, in several other ways.
+    We also collect anonymous statistical user and browser information through the
+    Slacker Products and Services users, including: (1) the Internet Protocol (IP)
+    address of the user''s computer, (2) the websites from which people visit the
+    Slacker Products and Services, if any, and/or (3) the brand and version of the
+    user''s browser software.'
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We also collect anonymous statistical user and browser information
+      through the Slacker Products and Services users, including:'
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We also collect demographic information, such as your country,
+      in several other ways.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect Non-Personal Information when you create an account,
+      such as year of birth, gender, and postal code.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: the Internet Protocol (IP) address of the user's computer
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 43
+  segment_text: How do we collect information? We collect the information you enter
+    into the Slacker Products and Services.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: When you use Slacker Products and Services, we and our third-party
+    service providers also receive and record information on our server logs from
+    your browser, including your IP address, and from cookies, web beacons, and similar
+    technology. Cookies are small text files that we place in visitors' computer browsers
+    to store their preferences. Most browsers allow you to block and delete cookies.
+    However, if you block our cookies, the Slacker Products and Services may not work
+    properly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use Slacker Products and Services, we and our third-party
+      service providers also receive and record information on our server logs from
+      your browser, including your IP address, and from cookies, web beacons, and
+      similar technology.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 45
+  segment_text: 'How do we use the information collected? Slacker uses the information
+    collected to: Process transactions for Slacker Products Services. We may verify
+    authorization of credit card usage before you may access Slacker Products and
+    Services; Communicate with you concerning your account and any customer service
+    issues; Verify access rights to restricted services, including for the purpose
+    of supporting digital-rights management software; Improve Slacker Products and
+    Services by providing personalized content recommendations, language and location
+    customization, and personalized help and instructions; Determine if you meet the
+    minimum computer system compatibility requirements to use the Slacker Products
+    and Services and provide to you information to improve compatibility; Track when
+    you access and download content for the purpose of paying royalties and license
+    fees to third-party providers, such as record labels and other copyright holders
+    and content distributors; Ask you to participate in surveys about Slacker Products
+    and Services, news, and events; Offer you Slacker Products and Services for you
+    to purchase; Automatically update downloaded Slacker Products and Services; Provide
+    you with news, newsletters, updates, targeted advertising, promotions, and special
+    offers; Better understand how Slacker Products and Services are used, including
+    Web-traffic patterns and content-preference analysis; and Analyze trends and statistics,
+    and for federal export law compliance, when required.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How do we use the information collected?
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Slacker uses the information collected to: Process transactions
+      for Slacker Products Services.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We may verify authorization of credit card usage before you may
+      access Slacker Products and Services; Communicate with you concerning your account
+      and any customer service issues; Verify access rights to restricted services,
+      including for the purpose of supporting digital-rights management software;
+      Improve Slacker Products and Services by providing personalized content recommendations,
+      language and location customization
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: Direct Marketing. We do not rent, sell, or share Personal Information
+    about you with other people or nonaffiliated companies for direct marketing purposes.
+    We may allow access to other data collected by the Slacker Products and Services
+    to enable the delivery of direct marketing and offers that will be of greatest
+    utility, relevance, value, and interest to you. If you would like more information
+    about this practice and to know your choices about not having this information
+    used by these companies, click here.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 'Communications. If you have chosen to receive emails, we generally
+    send emails to you about Slacker Products and Services, content, and special offers.
+    During registration, you may opt-out of receiving our marketing emails and/or
+    newsletters, or you can change your settings at any time through the other methods
+    set forth in this Privacy Policy. However, we may continue to send you emails
+    about: Slacker Products and Services you have previously purchased; Your account
+    status or other information concerning functions, features and status of your
+    Slacker Products and Services; or Critical technical-service issues relating to
+    the Slacker Products and Services.'
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: What information do we share with third parties? Unless otherwise
+    provided for in this Privacy Policy, Slacker does not sell, rent, or share your
+    Personal Information with third party partners or content services without your
+    consent.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: Content Providers. Slacker may be required to provide specific access
+    and usage information to content providers and rights holders as a condition of
+    content licensing and royalty agreements. In such cases, Slacker may provide content
+    access and usage, user demographic, and other information that does not include
+    your Personal Information to the content provider.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: Social Networking and Other Websites. When you use the Slacker Products
+    and Services, you may share Personal Information with social networking websites,
+    such as Facebook. We do not share information with them unless you direct the
+    Slacker Products and Services to share it. Their use of the information will be
+    governed by their privacy policies, and you may be able to modify your privacy
+    settings on their websites.
+  annotations:
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use the Slacker Products and Services, you may share Personal
+      Information with social networking websites, such as Facebook.
+    annotations:
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 51
+  segment_text: Anonymous Statistics. We may share anonymous Slacker Products and
+    Services usage information for the purpose of measuring the effectiveness of affiliate
+    programs. None of such information shared is Personal Information.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: Vendors and Suppliers. The Slacker Products and Services use Personal
+    Information for internal and service-related purposes only and may provide it
+    to third parties to allow Slacker to offer the Slacker Products and Services,
+    including credit card processing. Slacker vendors and suppliers are bound by strict
+    contractual requirements to keep all Personal Information they receive strictly
+    confidential and to use and process such information solely on behalf of Slacker.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 'As Required By Law and Similar Disclosures. We may access, preserve,
+    and disclose your Personal Information, other account information, and content
+    if we believe doing so is required by law or if those actions are reasonably necessary
+    to: comply with legal process, such as a court order or subpoena; enforce this
+    Privacy Policy or our Terms of Use; respond to claims that any content violates
+    the rights of third parties; respond to your requests for customer service; respond
+    to law enforcement; investigate and prevent unauthorized transactions or other
+    illegal activities; or protect our or others'' rights, property, or personal safety.'
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: Merger, Sale, or Other Asset Transfers. We may disclose information
+    we possess about you as part of a merger, acquisition, sale of company assets,
+    or transition of service to another provider, as well as in the unlikely event
+    of insolvency, bankruptcy, or receivership in which your Personal Information
+    would be transferred as one of the business assets of the company. We do not guarantee
+    that any entity receiving such information in connection with one of these transactions
+    will comply with all terms of this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: 'How do we keep your information secure? Slacker understands that
+    it is a privilege to have you as a customer and takes steps to protect your Personal
+    Information. We use the following controls to protect your Personal Information:
+    Use SSL to safeguard information when transmitted from your Web browser to Slacker;
+    Encrypt sensitive Personal Information, such as credit card numbers and user names;
+    Restrict employee access to databases containing Personal Information and impose
+    confidentiality requirements upon employees who do; and Bind third-party vendors
+    and suppliers with contractual, technical, and organizational measures to protect
+    your Personal Information.'
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: Although we do take (and require our third-party providers to take)
+    security precautions regarding your Personal Information, due to the open nature
+    of the Internet, we cannot guarantee that any of your Personal Information stored
+    on our servers, or transmitted to or from a user, will be free from unauthorized
+    access. We disclaim any liability for any theft or loss of, unauthorized access
+    or damage to, or interception of any data or communications. By using the Slacker
+    Products and Services, you acknowledge that you understand and agree to assume
+    these risks.
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: 'How can you access and update your personal information? To access
+    your account information and preferences, select Manage Account from a link or
+    menus on either the Internet at www.slacker.com or the Slacker software. When
+    you access your account, you can update your account information to make it accurate.
+    You can also manage your preferences for receiving newsletters and promotional
+    emails. If you have forgotten your username or password, you can use our online
+    support resources here: Slacker Support.'
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: What if you are located in a different country? By choosing to use
+    the Slacker Products and Services or otherwise provide information to us, you
+    agree that any dispute over privacy or this Privacy Policy will be governed by
+    California law.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: Slacker may process Personal Information on computers located outside
+    of your state, province, country, or other governmental jurisdiction where the
+    privacy laws may not be as protective as those in your jurisdiction. We will use
+    our best efforts to use and process your information in accordance with this Privacy
+    Policy and applicable law. If you are visiting from the European Union or other
+    regions with laws governing data collection and use, please note that you are
+    agreeing to the transfer of your Personal Information to the United States to
+    us. By providing your Personal Information you consent to any transfer and processing
+    in accordance with this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: You also consent to the adjudication of any disputes arising in connection
+    with us or the Slacker Products and Services in accordance with the Terms of Use.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: What if you do not agree to this Privacy Policy?
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: If you do not agree to this Privacy Policy, please do not use the
+    Slacker Website or the Slacker Services.
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: What if you have questions or comments about this Privacy Policy?
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: If you have questions about the privacy aspects of the Slacker Products
+    and Services or would like to make a complaint, please contact Slacker, Inc.
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: 'Attn: Chief Legal Officer 16935 W. Bernardo Drive, Suite 270 San
+    Diego, CA 92127 858.943-5000 858.943.5001 (fax) Changes to our Privacy Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 66
+  segment_text: We may change this Privacy Policy from time to time. When we do, changes
+    will be reflected in this document so you are always aware of how we may collect,
+    use, or disclose your information. If we decide to use Personal Information different
+    from that stated at the time we collected it, we will notify you by email. You
+    may decide whether or not we may use your information in this different manner.
+    If you do not consent to this different use, we will use the information in accordance
+    with the privacy policy in place when we collected the information. We encourage
+    you to review our Privacy Policy when you visit the Slacker Website.
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: "Last modified: May 25, 2012 Listen Now | About Slacker Radio | On\
+    \ Your Phone | At Home | In the Car Advertise on Slacker | Art & Assets | Privacy\
+    \ Policy | Terms of Service | Blog | Support Copyright \xA9 Slacker Radio ANNOUNCE\
+    \ ME LEAVE ROOM CLOSE ROOM INVITE FRIENDS FINE TUNE Loading Sliders..."
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: MANAGE NEWS UPDATES GUESTS CHAT
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: 'WHO''s WHO Some User C''Mon...you must have SOME friends you could
+    invite?! Some User Some UserSample Msg SEND Advertisement Next: Upgrade now for
+    ad free listening and unlimited song skips.'
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: Upgrade ......................
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: '......................'
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: 'Advertisement Next: Upgrade now for ad free listening and unlimited
+    song skips.'
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: Upgrade Download App LIVE STREAM...
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: SOCIAL RADIO STREAM...
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: LIVE STREAM...
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: Casting to toggle
+  annotations: []
+  sentences: []

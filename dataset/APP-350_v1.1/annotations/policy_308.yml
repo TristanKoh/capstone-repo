@@ -1,0 +1,1071 @@
+policy_id: 308
+policy_name: Sidhe
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'PikPok menu GamesNewsStoreCareersContactSupportAbout Us PIKPOK PRIVACY
+    POLICY NOTICE Effective Date: November 11, 2013 (Last Updated November 11, 2013)
+    We respect the privacy rights of its customers and protect the personal information
+    collected, stored and used in connection with our products, services and websites.
+    Your privacy is important to us. To further this commitment, we have adopted this
+    Privacy Policy to guide you on how we collect, store, and use the information
+    you may provide to us. Please take a moment to familiarize yourself with our privacy
+    practices and let us know if you have any questions.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Table of Contents Protecting Your Privacy What Personal Information
+    Do We Collect? How Do We Use Your Information? Who Do We Share Your Information
+    With? Is My Information Secure? Does My Information Go Across Borders? Is Sensitive
+    Information Collected? What Choices Do I Have Regarding The Collection, Use, and
+    Distribution Of My Personal Information? What Happens When I Remove A Game or
+    Unsubscribe From A Newsletter? Children''s Privacy California Residents: Your
+    California Privacy Rights Changes to the Policy Contacting Us'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 1. Protecting Your Privacy Prodigy Design Limited, trading as Sidhe
+    ("Sidhe") provides interactive software products ("Games") under its "PikPok"
+    brand name ("PikPok") via online services such as Apple iTunes App Store, Google
+    Play Store, Facebook, Steam, Bandcamp, Zazzle, Amazon Appstore for Android, Samsung
+    Appstore, PlayStation Network, Xbox Live Arcade and OnLive. We own and operate
+    various websites and their subdomains including but not limited to www.sidhe.co.nz,
+    and www.pikpok.com, (our "Sites") to provide access to information about Sidhe,
+    PikPok, the Games and Products, message boards, head to head match play or provide
+    technical support to PikPok customers (collectively, our "Content").
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'We are committed to protecting the privacy of all people who interface
+    with our products and our website. Being a New Zealand company, we comply with
+    New Zealand''s Privacy Act 1993 ("Privacy Act") and follow the privacy principles
+    that are a part of the Privacy Act. Additionally, we seek to comply with acts
+    from the United States of America, which are: COPPA, the United State''s Children''s
+    Online Privacy Protection Act, and CAN-SPAM, which covers the transmission of
+    commercial email messages with the primary purpose of advertising or promoting
+    a product. For European residents, we also seek to follow the E.U. Data Protection
+    Directive (95/46/EC).'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'By registering or accessing this website and/or any of our Games,
+    you agree that we may collect, use and process your data in accordance with the
+    following Privacy Policy Notice and that you will abide by our Terms of Use (located
+    at: http://www.pikpok.com/terms-of-use). BY ACCESSING THIS WEBSITE AND/OR USING
+    ANY GAMES, YOU AGREE THAT YOU HAVE READ AND UNDERSTAND AND ACCEPT THE TERMS OF
+    THIS PRIVACY POLICY AND YOU AGREE AND UNDERSTAND THAT YOU ARE BOUND BY ALL TERMS,
+    POLICIES AND GUIDELINES INCORPORATED IN THIS PRIVACY POLICY. IF YOU DO NOT AGREE
+    TO THIS PRIVACY POLICY, PLEASE DO NOT USE THIS WEBSITE AND/OR ANY GAME.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 2. What Personal Information Do We Collect? Personal information is
+    information that identifies you and that may be used to contact you online or
+    offline. We collect personal information from you on a voluntary basis as described
+    below. Our primary goals in collecting and using information is to create your
+    account, provide Services to you, improve our Services, contact you, conduct research
+    and create reports for internal use and for use with our partners.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Our Sites While you are browsing our Sites, your computer's operating
+    system, Internet Protocol (IP) address, access times, browser type and language
+    and referring Web site addresses may be logged automatically. We may use this
+    information to monitor and analyze your use of the Services. In addition, we may
+    ask you to submit and we may process data that is personal to you, including but
+    not limited to your name, profile photo, gender, age or birthday, links to your
+    profiles on social networking websites and other third party sites, user names
+    and e-mail and mail addresses. We may use this information to create a user profile.
+    We may use your email address to contact you about your experience with our Sites
+    and notify you about company news and promotions. Your gender and birthday may
+    be used to analyze user trends and target certain promotions. Your mail address
+    may be used if we have merchandise or other physical promotional materials that
+    we want to send to you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, we may ask you to submit and we may process data that
+      is personal to you, including but not limited to your name, profile photo, gender,
+      age or birthday, links to your profiles on social networking websites and other
+      third party sites, user names and e-mail and mail addresses.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: While you are browsing our Sites, your computer's operating system,
+      Internet Protocol (IP) address, access times, browser type and language and
+      referring Web site addresses may be logged automatically.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Forums We may at times offer you the ability to post content to a
+    blog, message board, chat room or within our applications or other forums such
+    as our Facebook page ("Forums"). You should be aware that any visitor to the Forums
+    may read your postings on the Forums. Furthermore, any information that you may
+    post to a Forum, including your username or other account profile information,
+    will be disclosed and available to all users and viewers of that Forum, and will
+    therefore no longer be private. We cannot guarantee the security of such information
+    that is disclosed or communicated online in public areas such as the Forums, and
+    you provide such information at your own risk. We do not author, edit, endorse,
+    or monitor any Forum. You acknowledge and agree that we have no responsibility
+    for the accuracy or availability of information provided on any Forum. We reserve
+    the right at any time, in our sole discretion, to remove any content that a user
+    may post on any Forum and restrict user access to any Forum.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: iOS and Android Platforms When you use any of our Games or applications
+    on a mobile platform, we may collect and record certain information such as your
+    unique device ID (persistent / non-persistent), hardware type, media access control
+    ("MAC") address, international mobile equipment identity ("IMEI"), the version
+    of your operating system ("OS"), your device name, your email address (if you
+    have connected to Facebook or Google+), and your location (based on your Internet
+    Protocol ("IP") address). This information is useful to us for troubleshooting
+    and helps us understand usage trends. In addition, we create a unique user ID
+    to track your use of our Services. This unique user ID is stored in connection
+    with your profile information to track the Games you are playing.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use any of our Games or applications on a mobile platform,
+      we may collect and record certain information such as your unique device ID
+      (persistent / non-persistent), hardware type, media access control ("MAC") address,
+      international mobile equipment identity ("IMEI"), the version of your operating
+      system ("OS"), your device name, your email address (if you have connected to
+      Facebook or Google+), and your location (based on your Internet Protocol ("IP")
+      address).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Facebook Connect, Game Center and Google+ You may connect your PikPok
+    user account to your accounts on the following social networking services "SNS"):
+    Facebook, Google+ and Apple''s Game Center. We may collect and record information
+    through an SNS in accordance with the policies and terms of that SNS. The information
+    we collect when you connect your user account to an SNS may include: (1) your
+    name, (2) your SNS user identification number and/or user name, (3) profile picture
+    or its URL, and (4) the SNS user identification numbers for your friends that
+    are also connected to our Games.'
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The information we collect when you connect your user account
+      to an SNS may include: (1) your name, (2) your SNS user identification number
+      and/or user name, (3) profile picture or its URL, and (4) the SNS user identification
+      numbers for your friends that are also connected to our Games.'
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may collect and record information through an SNS in accordance
+      with the policies and terms of that SNS.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: 'You may connect your PikPok user account to your accounts on the
+      following social networking services "SNS"): Facebook, Google+ and Apple''s
+      Game Center.'
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: If you want us to delete the data we receive from Facebook, Game Center
+    or Google+ about you, please contact us at privacyofficer@pikpok.com
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Invite a Friend PikPok may offer you the opportunity to invite your
+    contacts from an SNS (such as your Facebook friends) so that those contacts can
+    be located in our Games and/or you can invite them to join you in playing our
+    Games. Such contact information will be used only for the purpose of sending communications
+    to the addressee. You or the third party may contact us at privacyofficer@pikpok.com
+    to request the removal of this information from our database to the extent we
+    store any of this information.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: PikPok may offer you the opportunity to invite your contacts from
+      an SNS (such as your Facebook friends) so that those contacts can be located
+      in our Games and/or you can invite them to join you in playing our Games.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Such contact information will be used only for the purpose of sending
+      communications to the addressee.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Customer Service We may collect your name, email addresses, postal
+    addresses, and/or telephone calls with names and numbers to return calls when
+    you contact our customer service group and we may use that information to contact
+    you about your gaming experience with our Games and notify you about company news
+    and promotions.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect your name, email addresses, postal addresses, and/or
+      telephone calls with names and numbers to return calls when you contact our
+      customer service group and we may use that information to contact you about
+      your gaming experience with our Games and notify you about company news and
+      promotions.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Game Data Collection Whenever you play our Games, we collect data
+    about all of your interactions with the Game and with the other players inside
+    the Game via server log files. We use this information to help improve your game
+    experience and monitor the performance of the game.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Other Collection We may also acquire information from you through
+    your access and participation in message boards on the Service, your participation
+    in surveys regarding the Service or your participation in a sweepstakes or contest
+    through the Service.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Cookies A cookie is a small text file that we transfer to your computer
+    and/or device, to identify a user's computer/device and to "remember" things about
+    your visit, such as your preferences or a user name and password. Information
+    contained in a cookie may be linked to your personal information for purposes
+    such as improving the quality of our Service, tailoring recommendations to your
+    interests, and making the Service easier to use. You can disable cookies at any
+    time, although by doing so, you may not be able to access or use all of the features
+    of the Service.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies A cookie is a small text file that we transfer to your
+      computer and/or device, to identify a user's computer/device and to "remember"
+      things about your visit, such as your preferences or a user name and password.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Information contained in a cookie may be linked to your personal
+      information for purposes such as improving the quality of our Service, tailoring
+      recommendations to your interests, and making the Service easier to use.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can disable cookies at any time, although by doing so, you
+      may not be able to access or use all of the features of the Service.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: We may feature advertisements served by third parties that deliver
+    cookies to your computer/device so the Content you access and advertisements you
+    see can be tracked. Since the third party advertising companies associate your
+    computer/device with a number, they will be able to recognize your computer/device
+    each time they send you an advertisement. These advertisers may use information
+    about your visits to our Service and third party sites and applications in order
+    to measure advertisement performance and to provide advertisements about goods
+    and services of interest to you. This Policy does not apply to, and we are not
+    responsible for the data collection practices of these third party advertisers,
+    and we encourage you to check their privacy policies to learn more about their
+    use of cookies and other technology.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Since the third party advertising companies associate your computer/device
+      with a number, they will be able to recognize your computer/device each time
+      they send you an advertisement.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may feature advertisements served by third parties that deliver
+      cookies to your computer/device so the Content you access and advertisements
+      you see can be tracked.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: 'You may click on the following link: http://www.networkadvertising.org
+    (or such other URL as may be specified by us from time to time) for information
+    on how to opt-out of the use of cookies for the delivery of more relevant advertising.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'You may click on the following link: http://www.networkadvertising.org
+      (or such other URL as may be specified by us from time to time) for information
+      on how to opt-out of the use of cookies for the delivery of more relevant advertising.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: Third Party Services Our services may contain third party tracking
+    tools from our service providers, examples of which include tracking tools from
+    Apsalar, Google Analytics, and Swrve. Such third parties may use cookies and other
+    software tools in our services to enable them to collect and analyze user information
+    on our behalf. These third parties may have access to information such as your
+    device identifier, MAC address, IMEI, locale (specific location where a given
+    language is spoken), geo-location information, and IP address.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our services may contain third party tracking tools from our service
+      providers, examples of which include tracking tools from Apsalar, Google Analytics,
+      and Swrve.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: Such third parties may use cookies and other software tools in
+      our services to enable them to collect and analyze user information on our behalf.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties may have access to information such as your
+      device identifier, MAC address, IMEI, locale (specific location where a given
+      language is spoken), geo-location information, and IP address.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: You can opt-out of Apsalar Analytics tracking by following these instructions
+    here.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'You can opt-out of Google Analytics with this browser add-on tool:
+    https://tools.google.com/dlpage/gaoptout'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: We encourage you to review the privacy policies of any other service
+    provider from whom you request services. If you visit a third party website that
+    is linked to our website or Games, you should consult that website's privacy policy
+    before providing any personal information. Please see http://info.tapjoy.com/about-tapjoy/privacy-policy/
+    for information about TapJoy, https://app.kiip.me/privacy for information about
+    Kiip, https://everyplay.com/privacy-policy for information about Everyplay, and
+    http://swrve.com/privacy-policy/ for information about Swrve.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Ad Networks We may feature advertising within our Service. The advertisers
+    may collect and use information about you, such as your Service session activity,
+    device identifier, MAC address, IMEI, geo-location information and IP address.
+    They may use this information to provide advertisements of interest to you. You
+    can opt-out of personalized ads/recommendations from iAds by clicking here.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The advertisers may collect and use information about you, such
+      as your Service session activity, device identifier, MAC address, IMEI, geo-location
+      information and IP address.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may feature advertising within our Service.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: We encourage you to review the privacy policies of any other service
+    provider from whom you request services. If you visit a third party website that
+    is linked to our website or Games, you should consult that website's privacy policy
+    before providing any personal information. Please see http://www.playhaven.com/privacy
+    for information about PlayHaven, https://help.chartboost.com/legal/privacy for
+    information about Chartboost, http://www.admob.com/home/privacy for information
+    about AdMob, http://www.tremorvideo.com/about-us/privacy/ for information about
+    Tremor, and http://www.fiksu.com/privacy-policy for information about Fiksu.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: In addition, you may see our Games advertised in other services. After
+    clicking on one of these advertisements and installing our Game, you will become
+    a user of our Service. In order to verify the installs, a device identifier may
+    be shared with the advertiser.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: After clicking on one of these advertisements and installing our
+      Game, you will become a user of our Service.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: In addition, you may see our Games advertised in other services.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: In order to verify the installs, a device identifier may be shared
+      with the advertiser.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: '3. How Do We Use Your Information? We use information collected through
+    our Sites for purposes described in this policy or disclosed to you in connected
+    with our Sites. For example, we may use your information to: Create game accounts
+    and allow users to play our Games; Identify and suggest connections with other
+    PikPok users; Operate and improve our Site; Understand you and your preferences
+    to enhance your experience and enjoyment using our Site; Respond to your comments
+    and questions and provide customer service; Provide and deliver products and services
+    you request; Send you related information, including confirmations, invoices,
+    technical notices, updates, security alerts, and support and administrative messages;
+    Communicate with you about promotions, rewards, upcoming events, and other news
+    about products and services offered by PikPok and our selected partners; Link
+    or combine it with other information we get from third parties, to help understand
+    your preferences and provide you with better services.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 4. Who Do We Share Your Information With? We do not share your personal
+    information except as approved by you or as described below. We do not sell or
+    rent your personally identifiable information to any third party, although non-personally
+    identifiable information may be used to assist advertisers in targeting their
+    services to specific user demographics. For example, we may provide third party
+    advertisers with the aggregate number of males of a certain age in a specific
+    country who are playing one of our Games. We share statistics of each user's activities
+    and data within reports that are used internally and externally by our publishing
+    and distribution partners to analyze the Game, its features and performance. With
+    your consent, for example, when you agree to our sharing your information with
+    other third parties for their own marketing purposes subject to their separate
+    privacy policies
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may provide third party advertisers with the aggregate
+      number of males of a certain age in a specific country who are playing one of
+      our Games.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+  - sentence_text: We do not sell or rent your personally identifiable information
+      to any third party, although non-personally identifiable information may be
+      used to assist advertisers in targeting their services to specific user demographics.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+  - sentence_text: We do not share your personal information except as approved by
+      you or as described below.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+  - sentence_text: We share statistics of each user's activities and data within reports
+      that are used internally and externally by our publishing and distribution partners
+      to analyze the Game, its features and performance.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+  - sentence_text: With your consent, for example, when you agree to our sharing your
+      information with other third parties for their own marketing purposes subject
+      to their separate privacy policies
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+- segment_id: 27
+  segment_text: We may release your information as permitted by law or when we believe
+    that release is appropriate to comply with the law; enforce or apply our rights;
+    or protect the rights, property, or safety of use or our uses or others. This
+    includes exchanging information with other companies and organizations for fraud
+    protection. We may share your information in connection with any merger, sale
+    of our assets, or financing or acquisition of all or a portion of our business
+    to another company We may share aggregate or anonymous information about you with
+    advertisers, publishers, business partners, sponsors, and other third parties
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 5. Is My Information Secure? The security, integrity and confidentiality
+    of your information are extremely important to us. We have implemented technical,
+    administrative and physical security measures that are designed to protect guest
+    information from unauthorized access, disclosure, use and modification. From time
+    to time, we review our security procedures to consider appropriate new technology
+    and methods. Please be aware though that, despite our best efforts, no security
+    measures are perfect or impenetrable.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 6. Does My Information Go Across Borders? We use third party servers
+    in the United States to host some or all of our Games and we use our own servers
+    at our facilities in New Zealand to store information and archives. These third
+    party servers may be located in diverse geographic areas located outside of New
+    Zealand and outside your country of purchase and such countries may have different
+    data protection laws and/or privacy laws than the laws identified at the top of
+    this Privacy Policy. By downloading or using our Games, you consent to having
+    your General Information and non-personally identifiable user activity data transferred
+    and processed as described herein.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 7. Is Sensitive Information Collected? We do not ask you to provide
+    any "sensitive information" as a requirement to use our website or any of our
+    Games. "Sensitive Information" means any personal information related to health,
+    race, ethnicity, political views, religion, professional status, philosophical
+    view, and trade or union affiliation. Sensitive Information that you disclose
+    to "everyone" on a discussion forum or through a social networking site in connection
+    with a Game may be collected and held by us in accordance with this Privacy Policy
+    Notice. We do not use or share Sensitive Information with third parties. Please
+    contact us if you have any questions or concerns about any Sensitive Information
+    that you may have disclosed to us or to other users during your use of a Game
+    that we may have collected. We do collect non-personally identifiable information
+    regarding Game usage including but not limited to the top country, city and language
+    by aggregate usage as provided by the social networking sites.
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Sensitive Information" means any personal information related
+      to health, race, ethnicity, political views, religion, professional status,
+      philosophical view, and trade or union affiliation.'
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+  - sentence_text: Please contact us if you have any questions or concerns about any
+      Sensitive Information that you may have disclosed to us or to other users during
+      your use of a Game that we may have collected.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+  - sentence_text: Sensitive Information that you disclose to "everyone" on a discussion
+      forum or through a social networking site in connection with a Game may be collected
+      and held by us in accordance with this Privacy Policy Notice.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+  - sentence_text: We do collect non-personally identifiable information regarding
+      Game usage including but not limited to the top country, city and language by
+      aggregate usage as provided by the social networking sites.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not ask you to provide any "sensitive information" as a requirement
+      to use our website or any of our Games.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not use or share Sensitive Information with third parties.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: 8. What Choices Do I Have Regarding the Collection, Use, and Distribution
+    of My Personal Information and How Can I Check What Personal Information is Held
+    About Me?
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: You have the right to see what personally identifiable information
+    we hold about you if you request it. If your request is particularly complex or
+    requires detailed searching of our records, there may be a cost to you in order
+    for us to provide you with this information.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Information We Receive From an SNS Where You Play Our Games
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: To manage the information we receive about you from an SNS where you
+    play our Games, you will need to follow the instructions at that site for updating
+    your information and changing your privacy settings. The privacy management tools
+    for applications on Facebook can be found here. The privacy management tools for
+    Google + can be found here. You can manage certain aspects of information collection
+    and use by going to the settings of your (mobile) device and reviewing the permissions
+    of each application.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Once we receive your information from an SNS, that information is
+    stored and used by us in accordance with this Privacy Policy, and you may access
+    and update that information as described below. Game or other accounts created
+    with us are considered active until we receive a user request to delete them or
+    deactivate them.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Other Methods of Accessing and Controlling your Information If you
+    no longer want us to make active use of your information, you may send an e-mail
+    to privacyofficer@pikpok.com. Place "Delete My Account" in the subject line and
+    include your first name, last name, e-mail address and user ID number for the
+    SNS from which you access our Games (if applicable) in the body of the e-mail.
+    We will respond to your request within thirty (30) days. Please note that certain
+    records, for example those pertaining to payments or customer service matters,
+    will be retained for legal and accounting purposes. If you have sent or posted
+    content on the Service, We may not be able to delete it.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you have sent or posted content on the Service, We may not be
+      able to delete it.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Other Methods of Accessing and Controlling your Information If
+      you no longer want us to make active use of your information, you may send an
+      e-mail to privacyofficer@pikpok.com.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Place "Delete My Account" in the subject line and include your
+      first name, last name, e-mail address and user ID number for the SNS from which
+      you access our Games (if applicable) in the body of the e-mail.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Please note that certain records, for example those pertaining
+      to payments or customer service matters, will be retained for legal and accounting
+      purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We will respond to your request within thirty (30) days.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: 9. What Happens When I Remove A Game or Unsubscribe From A Newsletter?
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 'You have the ability to opt-out of: receiving information and marketing
+    emails from us; publishing your recent Game activity to your SNS site page; bookmarking
+    or displaying the Game page to others, and of course the ability to delete our
+    Game and rescind any permissions required to operate such Game, at any time.'
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: It is our responsibility to keep accurate, complete and up-to-date
+    records, so any changes you make in the Game regarding your personally identifiable
+    information will go into effect as quickly as technically possible. We reserve
+    the right to retain the non-personally identifiable data collected during your
+    use of the Game.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: We also reserve the right to delete messages, content and accounts
+    in whole or in part, at our discretion, that we find offensive to the general
+    public, uses profanity, causes complaints from other users, is not suitable for
+    a general audience or infringes the intellectual property rights of any third
+    party. For example, talk of drugs, alcohol, violence, strong language, gambling,
+    crude humor, sexual themes or is suggestive in nature is prohibited.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 10. Children's Privacy We recognize the need to provide further privacy
+    protections with respect to personal information we may collect from children
+    on our Sites and Games. Some of the features on our Sites and Games are age-gated
+    so that they are not available for use by children, and we do not knowingly collect
+    personal information from children in connection with those features.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 'When we intend to collect personal information from children, we
+    take additional steps to protect children''s privacy, including: Notifying parents
+    about our information practices with regard to children, including the types of
+    personal information we may collect from children, the uses to which we may put
+    that information, and whether and with whom we may share that information In accordance
+    with applicable law, obtaining consent from parents for the collection of personal
+    information from their children, or for sending information about our products
+    and services directly to their children Limiting our collection of personal information
+    from children to no more than is reasonably necessary to participate in an online
+    activity'
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: If you wish to review or change the information we have about your
+    children, e-mail us at privacyofficer@pikpok.com.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: '11. California Residents: Your California Privacy Rights Under the
+    laws of the State of California (US), California Residents who have an established
+    business relationship with us may choose to opt out of our disclosure of personal
+    information about them to third parties for direct marketing purposes. As detailed
+    above, our policy is not to disclose personal information collected online to
+    a third party for direct marketing purposes without your approval. If you choose
+    to opt-out at any time after granting approval, email privacyofficer@pikpok.com'
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: "In September 2013, California enacted amendments to the California\
+    \ Online Privacy Protection Act (California Business & Professions Code \xA7\xA7\
+    22575-22579) which require operators of websites to disclose how they respond\
+    \ to \"do not track\" (DNT) signals from browsers used by consumers or other mechanisms\
+    \ that provide consumers a choice regarding the collection of personally identifiable\
+    \ information about the consumer's online activities over time and across different\
+    \ websites or online services. While some newer browsers have incorporated \"\
+    Do Not Track\" features which, when turned on, send a signal or preference to\
+    \ the web sites you visit indicating that you do not wish your online activity\
+    \ to be tracked, a DNT protocol that can be implemented across multiple devices\
+    \ and sites has not yet been widely adopted. Currently, our computer system does\
+    \ not support, and cannot act on DNT signal headers that we may receive; accordingly,\
+    \ the choices that we provide you concerning out collection and use of personally\
+    \ identifiable information will continue to operate as described in this policy."
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 12. Changes to the Policy We reserve the right to change this Policy
+    at any time. If we decide to change this Policy, we will post those changes on
+    this page and update the date at the top of the page. The changes will be effective
+    when posted. Please check this page on a regular basis so that you remain aware
+    of what information we collect and how we use it.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: "13. Contacting Us For enquiries regarding this Privacy Policy Notice\
+    \ and personal information, please contact: By Email: Contact Us By Mail: Prodigy\
+    \ Design Limited Privacy Officer Level 7, Willbank House 57 Willis Street PO Box\
+    \ 6203 Marion Square Wellington New Zealand By Phone: +64 (4) 471 2638 GamesNewsStoreCareersContactSupportAbout\
+    \ Us Copyright \xA9 2017. PikPok, Sidhe, Stencil and Flick Kick are trademarks\
+    \ of Prodigy Design Limited. App Store is a service mark of Apple Inc. All rights\
+    \ reserved. Privacy Policy. Terms of Use. Official Contest Rules."
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Website designed by Click Suite
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: While you are browsing our Sites, your computer's operating system,
+    Internet Protocol (IP) address, access times, browser type and language and referring
+    Web site addresses is not logged.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: While you are browsing our Sites, your computer's operating system,
+      Internet Protocol (IP) address, access times, browser type and language and
+      referring Web site addresses is not logged.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 50
+  segment_text: PikPok does not offer you the opportunity to import your contacts.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: PikPok does not offer you the opportunity to import your contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 51
+  segment_text: Our services may contain third party tracking tools from our service
+    providers, examples of which include tracking tools from Apsalar, Google Analytics,
+    and Swrve. None of such third parties uses cookies and other software tools in
+    our services and do not have access to information such as your device identifier,
+    MAC address, IMEI, locale (specific location where a given language is spoken),
+    geo-location information, and IP address.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our services may contain third party tracking tools from our service
+      providers, examples of which include tracking tools from Apsalar, Google Analytics,
+      and Swrve. None of such third parties uses cookies and other software tools
+      in our services and do not have access to information such as your device identifier,
+      MAC address, IMEI, locale (specific location where a given language is spoken),
+      geo-location information, and IP address.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 52
+  segment_text: We do not collect your name, email addresses, postal addresses, and/or
+    telephone numbers.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your name, email addresses, postal addresses,
+      and/or telephone numbers.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 53
+  segment_text: In addition, we do not process data that is personal to you, including
+    but not limited to your name, profile photo, gender, age or birthday, links to
+    your profiles on social networking websites and other third party sites, user
+    names and e-mail and mail addresses.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: In addition, we do not process data that is personal to you, including
+      but not limited to your name, profile photo, gender, age or birthday, links
+      to your profiles on social networking websites and other third party sites,
+      user names and e-mail and mail addresses.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 54
+  segment_text: We may feature advertising within our Service. The advertisers do
+    not collect and use information about you, such as your Service session activity,
+    device identifier, MAC address, IMEI, geo-location information and IP address.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We may feature advertising within our Service. The advertisers
+      do not collect and use information about you, such as your Service session activity,
+      device identifier, MAC address, IMEI, geo-location information and IP address.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 55
+  segment_text: It is not possible to register your PikPok user account to your accounts
+    on social networking services "SNS," such as Facebook, Google+ and Apple's Game
+    Center.
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: It is not possible to register your PikPok user account to your
+      accounts on social networking services "SNS," such as Facebook, Google+ and
+      Apple's Game Center.
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED

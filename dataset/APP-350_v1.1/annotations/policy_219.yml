@@ -1,0 +1,595 @@
+policy_id: 219
+policy_name: EmojiKeyboard
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home Keyboard Android iPhone & iPad Cloud Android iPhone & iPad Partners
+    About Company Newsroom Careers VIP Community Blog Help
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Privacy Policy - Emoji Keyboard \u2212 1. Introduction This is the\
+    \ privacy policy for Emoji Keyboard, our products including, but not limited to,\
+    \ our mobile apps and our various cloud-based services, content and websites (\"\
+    Products\"). Specifically, this policy exists to inform you about the types of\
+    \ information we may receive, how we use that information, the measures we take\
+    \ to safeguard the information we receive, the choices you may make and certain\
+    \ legal rights that you have."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Where we refer to "personal data" in this privacy policy we mean any
+    data that may identify you as an individual.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: The application displays ads sometimes.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: "\u2212 2. Overview of our Privacy Policy Protecting your personal\
+    \ data and maintaining your trust is core to our mission at Emoji Keyboard."
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We will not sell your personal data to third parties.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We receive different types of information from our Products, including
+    anonymous device, network, performance and usage statistics. We use this data
+    to debug and improve the functionality of our Products.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We may also receive your personal contact information contained in
+    correspondence via our web sites and communications channels. This enables us
+    to offer user support, beta testing communities, surveys, competitions and similar
+    services.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also receive your personal contact information contained
+      in correspondence via our web sites and communications channels.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: For users that opt in to Emoji Keyboard Cloud, we will collect your
+    email address, basic demographic information and information concerning the words
+    and phrases that you use ("Language Modeling Data") to enable services such as
+    personalization, prediction synchronization and backup. We may use data provided
+    by you to develop and improve our Products.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For users that opt in to Emoji Keyboard Cloud, we will collect
+      your email address, basic demographic information
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Where a field has been flagged by a website or app as denoting a password
+    field or payment information, Emoji Keyboard does not log, store or learn from
+    this information.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Where a field has been flagged by a website or app as denoting
+      a password field or payment information, Emoji Keyboard does not log, store
+      or learn from this information.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 10
+  segment_text: We constantly review and challenge the procedures we have in place
+    for data handling and data security and have internal system and controls to ensure
+    compliance.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "\u2212 3. How we protect your data If you are not logged into Emoji\
+    \ Keyboard Cloud, language insights will not be transferred from your device.\
+    \ If you are logged into Emoji Keyboard Cloud, these files will be automatically\
+    \ transferred over encrypted channels to our servers in order to enable our cloud-based\
+    \ services."
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: All data transferred by us between your device and our services is
+    encrypted, including any personal data we may collect and store on your behalf.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: "\u2212 4. Learning on first installation When you are using our Products\
+    \ our prediction technology learns from the way you use language. Upon first installation\
+    \ we need to establish a base for your personalized language model. To achieve\
+    \ this, Emoji Keyboard for Android accesses your SMS messages."
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: "\u2212 5. Enhancing Emoji Keyboard by connecting with Cloud services"
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: The Emoji Keyboard personalization service, which is a feature of
+    Emoji Keyboard Cloud, accesses your recent content from online services that you
+    specify, such as Gmail, Facebook and Twitter. It uses this content to build a
+    personalized language model on our servers, which is then transferred to your
+    device. This is an optimized view of the words and phrases that you use most often,
+    and reflects your unique writing style.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The Emoji Keyboard personalization service, which is a feature
+      of Emoji Keyboard Cloud, accesses your recent content from online services that
+      you specify, such as Gmail, Facebook and Twitter.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Your use of our personalization service means we may store and use
+    data provided by you to develop and improve our Products. You have the right to
+    have this data destroyed, as outlined below.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "\u2212 6. Withdrawing consent You may at any time withdraw your consent\
+    \ for our storage and use of personal data collected by any of our Products by\
+    \ going to the Emoji Keyboard Cloud section in Emoji Keyboard Settings. By withdrawing\
+    \ consent your personal data will be destroyed. It is important to note, however,\
+    \ that we will retain any transactional data relating to your purchase of the\
+    \ Products that we make available in order that such purchases can be reclaimed\
+    \ by you, should the need arise in the future."
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: "\u2212 7. Third-party keyboard warnings You may encounter an alert\
+    \ when installing our Products on your device, warning that third-party keyboards\
+    \ may collect or log sensitive data such as passwords, credit card numbers or\
+    \ street addresses."
+  annotations:
+  - practice: Contact_Password_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Third-party keyboard warnings You may encounter an alert when installing
+      our Products on your device, warning that third-party keyboards may collect
+      or log sensitive data such as passwords, credit card numbers or street addresses.
+    annotations:
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: "\u2212 7."
+    annotations:
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Emoji Keyboard Products are designed not to receive, store or transmit
+    any such sensitive data.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: For more information or help, please see our Android or iOS support
+    pages.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: "\u2212 8. Communicating with you If you register for our cloud-based\
+    \ services we will collect your email address if it is available. We may use this\
+    \ to tell you about our Products from time to time, unless you indicate during\
+    \ registration, via our Products Settings menu or by clicking an \"opt out\" link\
+    \ in any message that we send you, that you do not wish us to do so."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you register for our cloud-based services we will collect your
+      email address if it is available.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: You may receive occasional notifications on your device alerting you
+    to product updates and features that may be of interest to you. You can disable
+    these notifications in our Products at any time by going to the Settings menu.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "\u2212 9. What kind of information we collect a. Personal Information.\
+    \ We do not collect Personal Information. \"Personal Information\" is information\
+    \ that identifies you or another person, which may be transmitted or received\
+    \ when you use an Application, the Services and/or the Site. Personal Information\
+    \ includes your geographic location information, names, physical addresses, email\
+    \ addresses, telephone, fax, SSN, information stored within your Device and other\
+    \ information you transmit or receive using an Application, the Service and/ or\
+    \ the Site which identifies you or another person."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: '"Personal Information" is information that identifies you or another
+      person, which may be transmitted or received when you use an Application, the
+      Services and/or the Site.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: Personal Information includes your geographic location information,
+      names, physical addresses, email addresses, telephone, fax, SSN, information
+      stored within your Device and other information you transmit or receive using
+      an Application, the Service and/ or the Site which identifies you or another
+      person.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do not collect Personal Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 24
+  segment_text: b. Non-personal identification. We may collect non-personal identification
+    information about Users whenever they interact with our apps. We may collect non-personal
+    information such as installed application name and Android version, the data of
+    install, frequency of use, country, equipment and channel.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: If non-personal information is combined with personal information,
+    we treat the combined information as personal information for the purposes of
+    this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Get Accounts Log in with Google Accounts, display your Google Profile
+    name, Profile photo
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Read Phone State Read the state of the phone so as to start identifying
+    the caller when you are making or answering a call.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Read Contacts Read and display the names of contacts when receiving
+    phone calls
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Read Contacts Read and display the names of contacts when receiving
+      phone calls
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 29
+  segment_text: "\u2212 10. How we use collected information a. Personal Information:\
+    \ Since we do not collect Personal Information, we may not use your personal information\
+    \ in any way."
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 'b. Non- Personal Information: We may use Non-Personal Information
+    for any purpose as below: 1) To personalize user experience, we may use your Non-
+    Personal Information to understand demographics, customer interest, and other
+    trends among our Users;'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We may use Non-Personal Information for any purpose as below:
+      1) To personalize user experience, we may use your Non- Personal Information
+      to understand demographics, customer interest, and other trends among our Users'
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: 2) To help develop our service, we may use Non- Personal Information
+    to provide, maintain, improve and modify the Applications, Services and the Site
+    and develop new services;
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 3) To further develop Mavericks Mobile business. We may use Non- Personal
+    Information for promotion and marketing purposes.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "\u2212 11. Sharing your information Except as stated in this privacy\
+    \ policy, we will not share your personal data with any third party unless you\
+    \ have given us permission. We may share anonymized data, where we have removed\
+    \ any personal data, with other parties."
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 1) Information we collect (behavioural, IP, app download) 2) Why (to
+    serve more relevant advertisements) 3) Who we pass to (trusted business partners)
+    We may share your information (including but not limited to, information from
+    cookies, log files, device identifiers, learned language data/Language Modeling
+    Data and statistics) with businesses that are legally part of the same group of
+    companies as Emoji Keyboard, or that become part of that group ("Group Companies").
+    Group Companies may use this information to help provide, understand, and improve
+    our Products (including by providing analytics and data analysis) and Group Companies
+    own services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 1) Information we collect (behavioural, IP, app download) 2) Why
+      (to serve more relevant advertisements) 3) Who we pass to (trusted business
+      partners) We may share your information (including but not limited to, information
+      from cookies, log files, device identifiers, learned language data/Language
+      Modeling Data and statistics) with businesses that are legally part of the same
+      group of companies as Emoji Keyboard, or that become part of that group ("Group
+      Companies").
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Group Companies may use this information to help provide, understand,
+      and improve our Products (including by providing analytics and data analysis)
+      and Group Companies own services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: We may share your information (including but not limited to, information
+    from cookies, log files, device identifiers, learned language data/Language Modeling
+    Data and statistics) with third-party organizations that help us provide our Products
+    ("Service Providers") such as providers of hosting services or analytics tools.
+    Our Service Providers will only be given access to your information as is reasonably
+    necessary and under appropriate confidentiality terms.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our Service Providers will only be given access to your information
+      as is reasonably necessary and under appropriate confidentiality terms.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may share your information (including but not limited to, information
+      from cookies, log files, device identifiers, learned language data/Language
+      Modeling Data and statistics) with third-party organizations that help us provide
+      our Products ("Service Providers") such as providers of hosting services or
+      analytics tools.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: Should you breach the terms and conditions or terms of use relating
+    to any of our Products, or if we are under a duty to disclose any information
+    to comply with a legal obligation, we may be forced to disclose your information
+    to a relevant authority. Any disclosure of personal information will be made in
+    accordance with US law and legislation.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: "\u2212 12. Change of control If we sell or otherwise transfer part\
+    \ or the whole of Emoji Keyboard or our assets to another organization (e.g.,\
+    \ in the course of a transaction like a merger, acquisition, bankruptcy, dissolution\
+    \ or liquidation), information from or about our users may be among the items\
+    \ sold or transferred."
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: However this will not affect your rights or our obligations under
+    this privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: "\u2212 13. Changes to this Policy From time to time we may make changes\
+    \ to this privacy policy, which will be posted on our web sites and relevant communications\
+    \ channels. You are advised to check our web sites regularly to view our most\
+    \ recent privacy policy. We last updated our privacy policy on January 20, 2017,\
+    \ the key changes made are recorded in a change log here."
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Changes on January 20, 2017 Clarified what kind of information we
+    collect and how we use collected information
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Changes on October 16, 2014 Changed the layout and formatting of our
+    privacy policy, including section titles, to make it easier to read in plain English
+    Clarified our commitment not to sell your personal data to third parties Various
+    changes to ensure we have a single privacy policy covering all of our Products
+    including Emoji Keyboard for Android and our new iOS Emoji Keyboard Clarified
+    that Emoji Keyboard can learn from either your SMS or Contact data upon first
+    installation Inserted various links within the privacy policy to other relevant
+    pages including those dealing with; the approach we take to security, how to withdraw
+    consent, help on the installation process for Emoji Keyboard as well as our Terms
+    of Service Made clear that a change of control will not affect our obligations
+    or your rights under the privacy policy
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Changes on October 16, 2014 Changed the layout and formatting of
+      our privacy policy, including section titles, to make it easier to read in plain
+      English Clarified our commitment not to sell your personal data to third parties
+      Various changes to ensure we have a single privacy policy covering all of our
+      Products including Emoji Keyboard for Android and our new iOS Emoji Keyboard
+      Clarified that Emoji Keyboard can learn from either your SMS or Contact data
+      upon first installation Inserted various links within the privacy policy to
+      other relevant pages including those dealing with; the approach we take to security,
+      how to withdraw consent, help on the installation process for Emoji Keyboard
+      as well as our Terms of Service Made clear that a change of control will not
+      affect our obligations or your rights under the privacy policy
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: "\u2212 14. Collection and Sharing of Location Information In addition\
+    \ to other information described in this policy, we may collect and share precise\
+    \ location information, through methods such as mobile \"SDKs\" (mobile technologies\
+    \ that operate similar to web-based \"cookies\"). This location information may\
+    \ be used by itself, aggregated, or combined with mobile identifiers (such as\
+    \ IDFAs and Android IDs), and shared with third parties, for purposes related\
+    \ to advertising, analytics, attribution (e.g., measuring ad performance), analytics\
+    \ and research. You can remove your consent to having your location data collected\
+    \ by changing the settings on your device. (Certain services may lose functionality\
+    \ as a result.) You can \"opt out\" of various third party uses Apple's and Android's\
+    \ advertising identifiers through device settings, as well."
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition to other information described in this policy, we may
+      collect and share precise location information, through methods such as mobile
+      "SDKs" (mobile technologies that operate similar to web-based "cookies").
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+  - sentence_text: This location information may be used by itself, aggregated, or
+      combined with mobile identifiers (such as IDFAs and Android IDs), and shared
+      with third parties, for purposes related to advertising, analytics, attribution
+      (e.g., measuring ad performance), analytics and research.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 43
+  segment_text: "\u2212 15. Contact Us If you have any questions regarding this Privacy\
+    \ Policy, you may contact us at kkemojiandroid@gmail.com."
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: "Made by Mavericks Mobile \xA9 2014. Privacy Policy"
+  annotations: []
+  sentences: []

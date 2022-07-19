@@ -1,0 +1,148 @@
+policy_id: 227
+policy_name: Fotoable
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Fotoable Cloud Albums Home Support
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Privacy Policy Facebook Ads Privacy Policy\uFF1Aclick and jump to\
+    \ https://www.facebook.com/about/privacy/ Your privacy is important to Fotoable."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Sometimes we need information to provide services that you request,
+    this privacy statement applies to fotoable.com and its products, namely Fotoable,
+    InstaMag, InstaBeauty, PIP Camera, Photo Editor - FotoRus, InstaVideo, You Makeup,
+    App Lock, PIP Lock Screen, Video Player, Music Player, Keyboard, Video, Video
+    Editor, Beauty Camera, Flashlight, Speed Test, QR Code, Collage, Antivirus, Translate,
+    Piano, Launcher, Photo, Weather, Photo Collage, Lock Screen & AppLock Security,
+    File Transfer, Snap, MP3 Converter, Battery, Wi-Fi, Face Swap , Photo camera ,
+    Wallpaper & Lock Screen, Cartoon Photo Filters , Photo+ , PhotoAble , Calculator
+    + , Photo Collage - Collage Maker, Chat, Applock & Lock Screen, Lock Screen, Photo
+    Filters & Selfie Camera, Emoji Keyboard, Clean(Cleaner Mobile Master) and Lock
+    Screen & Wallpaper
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Personal Information We DO NOT collect, store or use any personal
+    information while you visit, download or upgrade our products.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'We may use personal information submitted by you only for the following
+    purposes: help us develop, deliver, and improve our products and services and
+    supply higher quality service; manage online surveys and other activities you''ve
+    participated in.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'In the following circumstances, we may disclose your personal information
+    according to your wish or regulations by law: (1) Your prior permission; (2) By
+    the applicable law within or outside your country of residence, legal process,
+    litigation requests; (3) By requests from public and governmental authorities;
+    (4) To protect our legal rights and interests.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Non- Personal Information We may collect and use non-personal information
+    in the following circumstances. To have a better understanding in user's behavior,
+    solve problems in products and services, improve our products, services and advertising,
+    we may collect non-personal information such as installed application name and
+    package name, the data of install, frequency of use, country, equipment and channel.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: If non-personal information is combined with personal information,
+    we treat the combined information as personal information for the purposes of
+    this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Information we get from your use of our services We may collect information
+    about the services that you use and how you use them, such as when you view and
+    interact with our content. We may collect device-specific information (such as
+    your hardware model, operating system version, unique device identifiers, and
+    mobile network information). Fotoable will not share that information with third
+    parties.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect device-specific information (such as your hardware
+      model, operating system version, unique device identifiers, and mobile network
+      information).
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Location information When you use a location-enabled Fotoable service,
+    we may collect and process information about your actual location, like GPS signals
+    sent by a mobile device. We may also use various technologies to determine location,
+    such as sensor data from your device that may, for example, provide information
+    on nearby Wi-Fi access points and cell towers.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also use various technologies to determine location, such
+      as sensor data from your device that may, for example, provide information on
+      nearby Wi-Fi access points and cell towers.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use a location-enabled Fotoable service, we may collect
+      and process information about your actual location, like GPS signals sent by
+      a mobile device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Unique application numbers Certain services include a unique application
+    number. This number and information about your installation (for example, the
+    operating system type and application version number) may be sent to Fotoable
+    when you install or uninstall that service or when that service periodically contacts
+    our servers, such as for automatic updates.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Fotoable will occasionally update this privacy statement. When we
+    do so, we will also revise the "last modified" date of the privacy statement.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: No technologies to determine location, such as sensor data from your
+    device that, for example, would provide information on nearby Wi-Fi access points
+    and cell towers, is used.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No technologies to determine location, such as sensor data from
+      your device that, for example, would provide information on nearby Wi-Fi access
+      points and cell towers, is used.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED

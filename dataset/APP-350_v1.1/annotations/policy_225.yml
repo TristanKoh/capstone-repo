@@ -1,0 +1,567 @@
+policy_id: 225
+policy_name: Flipboard
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Menu Blog Inside Flipboard MagMaker Business Educators Publishers
+    Advertisers Tools Get Started Help & Feedback Tutorials Careers News Room Brand
+    Guidelines About Twitter Facebook Google+ LinkedIn Tumblr
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Privacy Policy Language Nederlands Fran\xE7ais Italiano \u0420\u0443\
+    \u0441\u0441\u043A\u0438\u0439 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \uD55C\
+    \uAD6D\uC5B4 \u9999\u6E2F\u4E2D\u6587\u7248 Bahasa Indonesia English Espa\xF1\
+    ol Am\xE9rica Ti\u1EBFng Vi\u1EC7t Espa\xF1ol de Espa\xF1a Deutsch \u65E5\u672C\
+    \u8A9E Portugu\xEAs do Brasil T\xFCrk\xE7e"
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: February 7, 2017 Flipboard Privacy Policy We've done our best to cut
+    through the legal jargon and explain in simple terms what information we collect
+    about you, what we use it for, and the few situations in which we share it with
+    others.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Please read this privacy policy carefully. It applies to all interactions
+    you have with Flipboard's products and services.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: The Information We Collect When you create an account with Flipboard,
+    you give us your full name and email address, and create a username and password.
+    If you want, you can give us a pseudonym instead of your legal name.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you create an account with Flipboard, you give us your full
+      name and email address, and create a username and password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: If you don't feel like creating an account from scratch, you may be
+    able to sign in through an account you already have with another service, such
+    as Facebook.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you don't feel like creating an account from scratch, you may
+      be able to sign in through an account you already have with another service,
+      such as Facebook.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Your user profile helps you customize your account and connect with
+    other Flipboard users. Your profile automatically includes your name and username.
+    You can also add a profile picture and whatever else you'd like in the "Bio" field.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: To help you connect with other Flipboard users and to personalize
+    your Flipboard experience, we may ask for additional information, including your
+    contacts, location or a list of the apps on your mobile device. If you create
+    an account after March 23, 2016, we will collect a list of the installed apps
+    on your mobile device to improve and personalize your experience. We delete or
+    anonymize this information after we make initial recommendations to help you get
+    started on Flipboard, and we don't make recommendations based on sensitive information.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To help you connect with other Flipboard users and to personalize
+      your Flipboard experience, we may ask for additional information, including
+      your contacts, location or a list of the apps on your mobile device.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: We receive some other information automatically when you use Flipboard.
+    This includes data about your device, software, operating system, operating system-
+    provided device or user-specific advertising IDs for advertisement tracking ("Advertising
+    IDs"), your IP address and the date and time of each request you make to Flipboard.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This includes data about your device, software, operating system,
+      operating system- provided device or user-specific advertising IDs for advertisement
+      tracking ("Advertising IDs"), your IP address and the date and time of each
+      request you make to Flipboard.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We receive some other information automatically when you use Flipboard.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: So that we can make your Flipboard experience better, we collect information
+    about how you view, flip and interact with content and advertisements through
+    Flipboard and on third-party sites with Flipboard widgets.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: You may link your Flipboard account to other services you use, such
+    as social networking sites, photo-sharing services and media publishers such as
+    the New York Times. If you connect your Flipboard account with a third-party service,
+    we collect information through that service. This information varies depending
+    on the service and your privacy settings there, but may include profile information
+    (e.g., age, gender and location), your contacts on that service and content that
+    you've made publicly available there.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you connect your Flipboard account with a third-party service,
+      we collect information through that service.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: This information varies depending on the service and your privacy
+      settings there, but may include profile information (e.g., age, gender and location),
+      your contacts on that service and content that you've made publicly available
+      there.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You may link your Flipboard account to other services you use,
+      such as social networking sites, photo-sharing services and media publishers
+      such as the New York Times.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: If you want to email something you see through Flipboard to a friend
+    who isn't already a Flipboard account holder, we may keep their email address
+    for the purpose of sending such email and improving our services. Recipients may
+    contact us at privacy@flipboard.com to request that we remove this information
+    from our database.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you want to email something you see through Flipboard to a friend
+      who isn't already a Flipboard account holder, we may keep their email address
+      for the purpose of sending such email and improving our services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Recipients may contact us at privacy@flipboard.com to request that
+      we remove this information from our database.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: How We Use and Disclose Your Information A big part of Flipboard is
+    sharing content you find interesting. That's why your Flipboard profile, the people
+    and sources you follow or that follow you, the magazines you create, the comments
+    you post and the content you flip are all public.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Aside from that, we use your information to keep Flipboard running,
+    better understand how you use our service, customize your experience (including
+    the content, marketing materials, and advertisements you see), prevent abuse and
+    improve Flipboard. Flipboard may also work with advertising partners to serve
+    you third-party advertisements, including interest-based advertisements. For more
+    information about our advertising partners' practices, please visit Datalogix
+    and Oracle. You can learn more about interested-based advertising, including how
+    to opt out of third-party partners' advertising you see on Flipboard and on other
+    services, by visiting http://www.aboutads.info/choices/. If you opt out, you'll
+    still see ads, but they won't be tailored using information like your interests,
+    visits to other services, or demographics. Alternatively, you can opt out by discontinuing
+    your use of Flipboard.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Alternatively, you can opt out by discontinuing your use of Flipboard.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+  - sentence_text: Aside from that, we use your information to keep Flipboard running,
+      better understand how you use our service, customize your experience (including
+      the content, marketing materials, and advertisements you see), prevent abuse
+      and improve Flipboard.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+  - sentence_text: Flipboard may also work with advertising partners to serve you
+      third-party advertisements, including interest-based advertisements.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+  - sentence_text: For more information about our advertising partners' practices,
+      please visit Datalogix and Oracle.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+  - sentence_text: If you opt out, you'll still see ads, but they won't be tailored
+      using information like your interests, visits to other services, or demographics.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can learn more about interested-based advertising, including
+      how to opt out of third-party partners' advertising you see on Flipboard and
+      on other services, by visiting http://www.aboutads.info/choices/.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: 'We share your personally identifiable information only under these
+    circumstances: With your consent, after letting you know what information will
+    be shared, and with whom.'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We share your personally identifiable information only under these
+      circumstances:'
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: "If we believe it's reasonably necessary to comply with a law, regulation\
+    \ or legal process. If we're going to release your information, our policy is\
+    \ to provide you with reasonable advance notice under the circumstances unless\
+    \ we're prohibited from doing so by law or court order (e.g., an order under 18\
+    \ U.S.C. \xA7 2705(b)). We may disclose your information without giving you prior\
+    \ notice if we believe it's necessary to prevent imminent and serious bodily harm\
+    \ to a person. Nothing in this privacy policy is intended to limit any legal objections\
+    \ or defenses you might have to efforts by third parties to compel disclosure\
+    \ of your information, including legal orders from the government."
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: To third parties helping us offer and improve our service, such as
+    those providing Flipboard certain technical tools and analytics services (including
+    marketing partners) that help us understand how people use Flipboard so we can
+    make it better. We require those companies to observe the limitations in this
+    privacy policy.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To third parties helping us offer and improve our service, such
+      as those providing Flipboard certain technical tools and analytics services
+      (including marketing partners) that help us understand how people use Flipboard
+      so we can make it better.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: If we sell, transfer or otherwise share some or all of our assets,
+    including the information identified in this privacy policy, in connection with
+    a merger, acquisition, reorganization or sale of assets in the event of a bankruptcy.
+    We may also share non-personally identifiable, non-aggregate information (for
+    example, anonymized Advertising IDs) with companies that help us improve our products
+    and services, including advertising (such as research companies and analytics
+    providers). As with your personally identifiable information, we require that
+    such companies observe the limitations in this privacy policy.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also share non-personally identifiable, non-aggregate information
+      (for example, anonymized Advertising IDs) with companies that help us improve
+      our products and services, including advertising (such as research companies
+      and analytics providers).
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: We may disclose aggregate information about how our users use Flipboard
+    in a manner doesn't identify you individually.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Web Storage and Tracking Policy Cookies and HTML5 local storage are
+    ways to keep information about your use of Internet services on your own mobile
+    device or computer.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Web Storage and Tracking Policy Cookies and HTML5 local storage
+      are ways to keep information about your use of Internet services on your own
+      mobile device or computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: We use cookies and HTML5 local storage to help us create your session,
+    know when you're logged in and help us remember certain information about how
+    you interact with Flipboard.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use cookies and HTML5 local storage to help us create your session,
+      know when you're logged in and help us remember certain information about how
+      you interact with Flipboard.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: If you'd rather not use cookies or HTML5 local storage, most browsers
+    give you the option to turn them off, or require your approval before using them
+    to keep information. If you choose not to keep information in cookies or HTML5
+    local storage, though, portions of Flipboard may not work as intended.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose not to keep information in cookies or HTML5 local
+      storage, though, portions of Flipboard may not work as intended.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: If you'd rather not use cookies or HTML5 local storage, most browsers
+      give you the option to turn them off, or require your approval before using
+      them to keep information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Flipboard also uses web beacons in advertisements to allow Flipboard
+    and its advertising partners to see how users view and engage with advertisements.
+    Depending on your advertising preferences set in your operating system, Flipboard
+    may share your Advertising ID with advertising partners in an anonymous fashion
+    that is not tied to your name or email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Depending on your advertising preferences set in your operating
+      system, Flipboard may share your Advertising ID with advertising partners in
+      an anonymous fashion that is not tied to your name or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: Some publishers or other third-party services that we partner with
+    may use cookies, web beacons or other technologies to keep track of your Internet
+    activity. Please note that this privacy policy explains Flipboard's policies only,
+    and doesn't cover the practices of other services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that this privacy policy explains Flipboard's policies
+      only, and doesn't cover the practices of other services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some publishers or other third-party services that we partner with
+      may use cookies, web beacons or other technologies to keep track of your Internet
+      activity.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: Some browsers make it possible for you to signal that you don't want
+    your Internet browsing activity to be tracked. The Internet community hasn't reached
+    a consensus on how to best honor these signals, so we don't respond to Do-Not-Track
+    requests at this time.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Data Deletion If you'd like to delete your account, you can do so
+    in the Flipboard application under Settings (gear icon) in the Edit Profile detailed
+    menu. If we delete your account, your user profile will no longer be visible on
+    our service, though we may still keep some log information in non-personally identifiable
+    form and any other information you have made publicly available through Flipboard
+    (comments to content, for example).
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Changes to This Privacy Policy As Flipboard continues to develop,
+    we may decide to revise this privacy policy from time to time. The most current
+    version will govern our use of your information and will always be at https://flipboard.com/privacy,
+    and older versions are available upon request. If we make changes that we think
+    will substantially alter your rights, we will notify you by posting a notice on
+    our website. You agree to accept any changes or revisions to this privacy policy
+    by continuing to use Flipboard.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Contact We'd love to hear your questions, concerns and feedback about
+    this privacy policy. If you have suggestions for us, let us know at support@flipboard.com.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'Share: Ad Specifications Get billboard impact on the small screen
+    with Flipboard''s full-page ad space for iPad, iPhone and Android.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: download ad specs Flipboard Media Kit Download our latest media kit
+    full of everything you need to know-from audience to our best-in-class ad products.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: download media kit Publisher Inquiries Talk to our team about publishing
+    on Flipboard.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: publishers@flipboard.com START A MAGAZINE Collect articles on timely
+    topics, and package them into compelling digital magazines.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: see tutorial About us Careers News Room Publishers Advertisers Brand
+    Guidelines Available on iOS Available on Android Available on Windows Available
+    on Windows Phone Help Center
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "Follow Flipboard for News, inspiration & support: Twitter Facebook\
+    \ Google+ LinkedIn Tumblr Privacy Policy Terms + Conditions Copyright Community\
+    \ Guidelines Get the app Language T\xFCrk\xE7e Portugu\xEAs do Brasil \u65E5\u672C\
+    \u8A9E Deutsch Espa\xF1ol de Espa\xF1a Ti\u1EBFng Vi\u1EC7t Espa\xF1ol Am\xE9\
+    rica English Bahasa Indonesia \u9999\u6E2F\u4E2D\u6587\u7248 \uD55C\uAD6D\uC5B4\
+    \ \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0420\u0443\u0441\u0441\u043A\u0438\
+    \u0439 Italiano Fran\xE7ais Nederlands"
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: You are not able to sign in through an account you already have with
+    another service, such as Facebook, and your profile automatically, such as your
+    name and username, will not be collected.
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: You are not able to sign in through an account you already have
+      with another service, such as Facebook, and your profile automatically, such
+      as your name and username, will not be collected.
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 35
+  segment_text: We are not asking for additional information, including your contacts,
+    location or a list of the apps on your mobile device.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We are not asking for additional information, including your contacts,
+      location or a list of the apps on your mobile device.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 36
+  segment_text: There is no possibility to link your Flipboard account to other services
+    you use, such as social networking sites, photo-sharing services and media publishers
+    such as the New York Times. We have no ability to collect information through
+    those services. The information, e.g., age, gender and location, your contacts
+    on that service and content that you've made publicly available there is no longer
+    collected.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: There is no possibility to link your Flipboard account to other
+      services you use, such as social networking sites, photo-sharing services and
+      media publishers such as the New York Times. We have no ability to collect information
+      through those services. The information, e.g., age, gender and location, your
+      contacts on that service and content that you've made publicly available there
+      is no longer collected.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 37
+  segment_text: When you create an account with Flipboard, we do not get your full
+    name and email address, username, and password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you create an account with Flipboard, we do not get your full
+      name and email address, username, and password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED

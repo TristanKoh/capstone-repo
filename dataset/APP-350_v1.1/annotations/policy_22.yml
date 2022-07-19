@@ -1,0 +1,1127 @@
+policy_id: 22
+policy_name: com.expedia.bookings
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Skip to main content Cobranded header here Welcome to Expedia.com
+    Continue to the U.S. site at Expedia.com close Booking travel on behalf of Done
+    Download the free app Earn 2x Expedia+ points on all bookings //a.travel-assets.com/globalcontrols-service/content/ad83413f0fb60a4b0d03d53989402620d5dfe0a7
+    Search anything Search Show Menu Saved Hotels
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Show Account Icon Menu 0 points Join Expedia+ rewards My Account My
+    Trips My Rewards Sign Out
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Get lower rates on thousands of hotels.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Sign In or create an {{0}} Account My Account My Trips My Rewards
+    Shop Travel Home Bundle Deals Hotels Cars Flights Cruises Things to Do Discover
+    Vacation Rentals Deals Rewards Mobile Collections You have 0 notifications
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: All caught up! No new notifications right now.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Account Sign In Create an Account
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Hello, 's Account My Account Sign Out Not ? Not ? Log in to your account
+    Lists
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Things you view while shopping are saved here.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Loading your lists...
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: View your lists My Trips
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: "Support Customer Support Feedback Espa\xF1ol \u7B80\u4F53\u4E2D\u6587"
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: //a.travel-assets.com/globalcontrols-service/content/ad83413f0fb60a4b0d03d53989402620d5dfe0a7
+    Search anything Search For customer service, call us toll-free at 1-800-397-3342.
+    For customers outside the US, please call 1-404-728-8787. International calling
+    rates will apply. Home Bundle Deals Hotels Cars Flights Cruises Things to Do Discover
+    Vacation Rentals Deals Rewards Mobile Collections More Vacation Rentals Deals
+    Rewards Mobile Collections
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Beginning of main content Create your free account Create your free
+    account Sign Up with Facebook We apologize for our system failure. Please try
+    again Account already exists Authentication failure. Please try again Action required!
+    To finish creating your account, please click the link we just sent to
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: First name Last name Email address Create a password Join Expedia+
+    Rewards. By joining I accept all terms and conditions
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Sign Up By creating an account, I agree to the Terms of Use and the
+    Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Already have an account? Sign In Sign in to your account Sign in to
+    your account Sign In with Facebook We apologize for our system failure. Please
+    try again You may have entered an unknown email address or an incorrect password
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Authentication failure. Please try again Email address Password Keep
+    me signed in Forgot password? Sign In Need an account? Sign Up Expedia.com Privacy
+    Policy Below you will find the updated Privacy Policy for www.expedia.com. We
+    value your trust, and make it a high priority to ensure the security and confidentiality
+    of the personal information you provide to us. Please read this policy to learn
+    about our privacy practices. By visiting this website, you are accepting the practices
+    described herein. What information we collect from you How we use your information
+    With whom we share your information How you can access your information Your choices
+    with respect to the collection and use of your information Cookies and other technologies
+    Display of tailored advertising/Your choices Using the Expedia mobile phone and
+    tablet Apps (the "Mobile Apps") How we protect your information Children's privacy
+    External links Visiting our website from outside the United States U.S.-Swiss
+    Safe Harbor Framework Changes to this Privacy Policy How you can contact us
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: What information we collect from you In General. We receive and store
+    any information you enter on our website or give us in any other way. This includes
+    information that can identify you ("personal information"), including your first
+    and last name, telephone number, postal and email addresses, and billing information
+    (such as credit card number, cardholder name, and expiration date). We may also
+    request information about your hotel room preferences and frequent flyer and car
+    rental program information. You can choose not to provide information to us, but
+    in general some information about you is required in order for you to register
+    as a member; book travel; complete a traveler profile; participate in a survey,
+    contest, or sweepstakes; ask us a question; or initiate other transactions on
+    our site.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This includes information that can identify you ("personal information"),
+      including your first and last name, telephone number, postal and email addresses,
+      and billing information (such as credit card number, cardholder name, and expiration
+      date).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We receive and store any information you enter on our website or
+      give us in any other way.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: Travel Companion Information. When you make a reservation for someone
+    else through this website, we will request personal information and travel preferences
+    about that individual. You should obtain the consent of other individuals prior
+    to providing us with their personal information and travel preferences, as any
+    access to view or change their information will be available only through your
+    account.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 'Information from Other Sources. We also may periodically obtain both
+    personal and non-personal information about you from affiliated entities, business
+    partners and other independent third-party sources and add it to our account information.
+    Examples of information we may receive include: updated delivery and address information,
+    purchase history, and demographic information. In addition, if you sign up for
+    Expedia.com using your social media account, link your Expedia.com account to
+    your social media account, or use certain other Expedia.com social media features,
+    we may access information about you via that social media provider in accordance
+    with the provider''s policies. The information may include your name, email address,
+    profile picture, gender, list of friends, and other information that you authorize
+    us to receive. Depending on the privacy settings of you and your friends, we may
+    access information that you provide to a social media provider regarding your
+    respective locations ("Location Data") to provide you with relevant content. Please
+    note that your Location Data may also be shared with your friends on a social
+    media provider in accordance with your privacy settings for that social media
+    provider.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Depending on the privacy settings of you and your friends, we may
+      access information that you provide to a social media provider regarding your
+      respective locations ("Location Data") to provide you with relevant content.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Examples of information we may receive include: updated delivery
+      and address information, purchase history, and demographic information.'
+    annotations:
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition, if you sign up for Expedia.com using your social media
+      account, link your Expedia.com account to your social media account, or use
+      certain other Expedia.com social media features, we may access information about
+      you via that social media provider in accordance with the provider's policies.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: The information may include your name, email address, profile picture,
+      gender, list of friends, and other information that you authorize us to receive.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: Automatic Information. We automatically collect some information about
+    your computer when you visit this website. For example, we will collect your IP
+    address, Web browser software (such as Firefox, Safari, or Internet Explorer),
+    and referring website. We also may collect information about your online activity,
+    such as trips viewed and bookings made. Our goals in collecting this automatic
+    information include helping customize your user experience and inhibiting fraud.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we will collect your IP address, Web browser software
+      (such as Firefox, Safari, or Internet Explorer), and referring website.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: For more information, please see Cookies and other technologies.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 'How we use your information We use sensitive billing information
+    (such as cardholder name, credit card number, and expiration date) for the purpose
+    of completing the travel bookings you conduct on our site. We use other information
+    about you for the following general purposes: to provide you with the products
+    and services you request; to provide you with travel confirmation and updates;
+    to manage your account, including processing bills and providing travel notifications;
+    to communicate with you in general; to respond to your questions and comments;
+    to measure interest in and improve our products, services, and website; to notify
+    you about special offers and products or services that may be of interest to you;
+    to otherwise customize your experience with this website; to reward you as part
+    of any reward and recognition program you choose to join; to solicit information
+    from you, including through surveys; to resolve disputes, collect fees, or troubleshoot
+    problems; to prevent potentially prohibited or illegal activities; to enforce
+    our Terms of Use; and as otherwise described to you at the point of collection.'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Email Communications. We want to make it easy for you to take advantage
+    of travel-related opportunities on our website. One way we do this is by sending
+    you email messages that contain information about your apparent travel-related
+    interests. For example, if you search for a flight to New York on our website
+    and have saved your itinerary or otherwise not yet booked your travel, we may
+    send you an email message reminding you about your saved travel itinerary or about
+    a special airfare to New York. Similarly, if you receive an email from us about
+    New York travel and demonstrate an interest in New York hotels by affirmatively
+    clicking on a link about New York hotels in the email, you may receive an email
+    about New York hotel offers or other destination information. We believe these
+    email messages will provide you with useful information about travel-related special
+    offers available through our site. Please note that you will have the opportunity
+    to choose not to receive these email messages in any such email we send.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, if you search for a flight to New York on our website
+      and have saved your itinerary or otherwise not yet booked your travel, we may
+      send you an email message reminding you about your saved travel itinerary or
+      about a special airfare to New York.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: One way we do this is by sending you email messages that contain
+      information about your apparent travel-related interests.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that you will have the opportunity to choose not to
+      receive these email messages in any such email we send.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Similarly, if you receive an email from us about New York travel
+      and demonstrate an interest in New York hotels by affirmatively clicking on
+      a link about New York hotels in the email, you may receive an email about New
+      York hotel offers or other destination information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We believe these email messages will provide you with useful information
+      about travel-related special offers available through our site.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: Please review "Your choices with respect to the collection and use
+    of your information" below.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'With whom we share your information This website may share your information
+    with the following entities: Suppliers, such as hotel, airline, car rental, and
+    activity providers, who fulfill your travel reservations. Throughout this site,
+    all services provided by a third-party supplier are described as such. By making
+    a reservation through this site, you are authorizing us to disclose to suppliers
+    the information required to complete the booking and deliver the related travel.
+    These suppliers are not controlled by Expedia and personal information disclosed
+    to them is subject to the applicable supplier''s privacy policy and security practices.
+    Therefore, we encourage you to review the privacy policies of any travel supplier
+    whose products you purchase through this site.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Third-party vendors who provide services or functions on our behalf,
+    including credit card processing, business analytics, customer service, marketing,
+    distribution of surveys or sweepstakes programs, and fraud prevention. We may
+    also authorize third-party vendors to collect information on our behalf, including
+    as necessary to operate features of our website or to facilitate the delivery
+    of online advertising tailored to your interests. Third-party vendors have access
+    to and may collect information only as needed to perform their functions and are
+    not permitted to share or use the information for any other purpose. They are
+    also required to follow the same data security practices that we ourselves adhere
+    to.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Business partners with whom we may jointly offer products or services,
+    or whose products or services may be offered on our website. You can tell when
+    a third party is involved in a product or service you have requested because their
+    name will appear, either alone or with ours. If you choose to access these optional
+    services, we may share information about you, including your personal information,
+    with those partners. Please note that we do not control the privacy practices
+    of these third-party business partners.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Referring websites. If you were referred to this website from another
+    site (for example, through a link you clicked on another site that directed you
+    to this one), we may share some information about you with that referring website.
+    We have not placed limitations on the referring websites use of your personal
+    information and we encourage you to review the privacy policies of any website
+    that referred you here.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Companies within our corporate family. We may share your personal
+    information with our parent company and corporate affiliates, including Hotwire
+    and hotels.com, as well as international corporate affiliates such as Expedia.co.uk.
+    This sharing enables us to provide you with information about products and services,
+    both travel-related and other, which might interest you. To the extent that our
+    parent company and corporate affiliates have access to your information, they
+    will follow practices that are at least as restrictive as the practices described
+    in this Privacy Policy. They also will comply with applicable laws governing the
+    transmission of promotional communications and, at a minimum, give you an opportunity
+    in any commercial email they send to choose not to receive such email messages
+    in the future.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 'We also may share your information: In response to subpoenas, court
+    orders, or other legal process; to establish or exercise our legal rights; to
+    defend against legal claims; or as otherwise required by law. In such cases we
+    reserve the right to raise or waive any legal objection or right available to
+    us. When we believe it is appropriate to investigate, prevent, or take action
+    regarding illegal or suspected illegal activities; to protect and defend the rights,
+    property, or safety of our company or this website, our customers, or others;
+    and in connection with our Terms of Service and other agreements. In connection
+    with a corporate transaction, such as a divestiture, merger, consolidation, or
+    asset sale, or in the unlikely event of bankruptcy.'
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Other than as set out above, you will be notified when personal information
+    about you will be shared with third parties, and you will have an opportunity
+    to choose not to have us share such information.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: We also may share aggregate or anonymous information with third parties,
+    including advertisers and investors. For example, we may tell our advertisers
+    the number of visitors our website receives or the most popular hotels and vacation
+    destinations. This information does not contain any personal information and is
+    used to develop content and services we hope you will find of interest.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Expedia Business Rewards Program. If you are a member of the Expedia
+    Business Rewards Program, information related to your bookings will be shared
+    with your employer. This information may include the name of the person booking
+    travel; destination; travel dates; relevant suppliers, including hotels and airlines;
+    and itinerary number. It will not include credit card numbers, passport numbers,
+    or frequent flier numbers. If you terminate your membership in this Program, no
+    further information will be shared.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: How you can access your information You can access and update your
+    contact information by visiting this website's Member Profile page. You can close
+    your account by contacting us at the email address listed below. Please note that
+    after you close an account, you will not be able to sign in or access any of your
+    personal information. However, you can open a new account at any time. Please
+    also note that we may retain certain information associated with your account,
+    including for analytical purposes as well as for record keeping integrity.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You can access and update your contact information by visiting
+      this website's Member Profile page.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You can close your account by contacting us at the email address
+      listed below.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: Your choices with respect to collection and use of your information
+    As discussed above, you can choose not to provide us with any information, although
+    it may be needed to book travel or to take advantage of certain features offered
+    on this site. You also can add or update information and close your account as
+    described above.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: You will be given the opportunity to unsubscribe from commercial emails
+    in any such message that we send you. If you are a registered member, you can
+    also modify your choice at any time on the Member Profile page. Please note that
+    we reserve the right to send you other communications, including service announcements,
+    administrative messages, and surveys relating either to your account or to your
+    transactions on this site, without offering you the opportunity to opt out of
+    receiving them.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You will be given the opportunity to unsubscribe from commercial
+      emails in any such message that we send you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: You may have the opportunity on our website to provide a mobile number
+    in order to receive day-of-travel flight alerts. You may discontinue these alerts
+    at any time.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You may have the opportunity on our website to provide a mobile
+      number in order to receive day-of-travel flight alerts.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: The Help portion of the toolbar on most browsers will tell you how
+    to prevent your browser from accepting new cookies, how to have the browser notify
+    you when you receive a new cookie, or how to disable cookies altogether. Please
+    note that if you refuse to accept cookies from this site, you will not be able
+    to access portions of our site.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that if you refuse to accept cookies from this site,
+      you will not be able to access portions of our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The Help portion of the toolbar on most browsers will tell you
+      how to prevent your browser from accepting new cookies, how to have the browser
+      notify you when you receive a new cookie, or how to disable cookies altogether.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: 'Cookies and other technologies Cookies are small data text files
+    and can be stored on your computer''s hard drive (if your Web browser permits).
+    This website uses cookies for the following general purposes: To help us recognize
+    your browser as a previous visitor and save and remember any preferences that
+    may have been set while your browser was visiting our site. For example, if you
+    register on our site, we may use cookies to remember your registration information,
+    so you do not need to log into our site each time you visit. We also may record
+    your password in a cookie, if you checked the box entitled "Sign me in automatically
+    next time." Please note that member IDs, passwords, and any other account-related
+    data included in such cookies are encrypted for security purposes. Unless you
+    register with us, these cookies will not contain any personal information.'
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are small data text files and can be stored on your computer's
+      hard drive (if your Web browser permits).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, if you register on our site, we may use cookies to
+      remember your registration information, so you do not need to log into our site
+      each time you visit.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that member IDs, passwords, and any other account-related
+      data included in such cookies are encrypted for security purposes.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This website uses cookies for the following general purposes:'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Unless you register with us, these cookies will not contain any
+      personal information.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We also may record your password in a cookie, if you checked the
+      box entitled "Sign me in automatically next time."
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: To help us customize the content and advertisements provided to you
+    on this website and on other sites across the Internet. For example, when you
+    access a page on our website, a cookie is automatically set by us, our service
+    providers, or our partners to recognize your browser as you navigate on the Internet
+    and to present you with information and advertising based on your apparent interests.
+    See Display of Advertising/Your Choices for more information about our online
+    advertising practices and your choices. To help measure and research the effectiveness
+    of website features and offerings, advertisements, and email communications (by
+    determining which emails you open and act upon).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, when you access a page on our website, a cookie is
+      automatically set by us, our service providers, or our partners to recognize
+      your browser as you navigate on the Internet and to present you with information
+      and advertising based on your apparent interests.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: See Display of Advertising/Your Choices for more information about
+      our online advertising practices and your choices.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: To help measure and research the effectiveness of website features
+      and offerings, advertisements, and email communications (by determining which
+      emails you open and act upon).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: The Help portion of the toolbar on most browsers will tell you how
+    to prevent your browser from accepting new cookies, how to have the browser notify
+    you when you receive a new cookie, or how to disable cookies altogether. Please
+    note that if you refuse to accept cookies, you may not be able to access many
+    of the travel tools offered on our sites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that if you refuse to accept cookies, you may not be
+      able to access many of the travel tools offered on our sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The Help portion of the toolbar on most browsers will tell you
+      how to prevent your browser from accepting new cookies, how to have the browser
+      notify you when you receive a new cookie, or how to disable cookies altogether.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 42
+  segment_text: 'In addition to the above cookies, we use Local Shared Objects, also
+    referred to as "flash cookies," on our web site. These are used to enhance your
+    user experience, for example, by storing your user preferences and settings, such
+    as your volume/mute settings, and in connection with animated content on our website.
+    Local Shared Objects are similar to browser cookies, but can store data more complex
+    than simple text. By themselves, they cannot do anything to or with the data on
+    your computer. Like other cookies, they can only access personally identifiable
+    information that you have provided on this site, and cannot be accessed by other
+    websites. To find out more about flash cookies or how to disable them, please
+    visit: Flash Player Help site.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By themselves, they cannot do anything to or with the data on your
+      computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition to the above cookies, we use Local Shared Objects,
+      also referred to as "flash cookies," on our web site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Like other cookies, they can only access personally identifiable
+      information that you have provided on this site, and cannot be accessed by other
+      websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Local Shared Objects are similar to browser cookies, but can store
+      data more complex than simple text.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These are used to enhance your user experience, for example, by
+      storing your user preferences and settings, such as your volume/mute settings,
+      and in connection with animated content on our website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'To find out more about flash cookies or how to disable them, please
+      visit: Flash Player Help site.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 43
+  segment_text: This site may also use Web beacons (also known as clear gifs, pixel
+    tags or Web bugs), which are tiny graphics with a unique identifier, similar in
+    function to cookies, that are placed in the code of a Web page. We use Web beacons
+    to monitor the traffic patterns of users from one page within our sites to another,
+    to deliver or communicate with cookies, to understand whether you have come to
+    our site from an online advertisement displayed on a third-party website, and
+    to improve site performance. We also may allow our service providers to use Web
+    beacons to help us understand which emails have been opened by recipients and
+    to track the visitor traffic and actions on our site. This helps us measure the
+    effectiveness of our content and other offerings.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This site may also use Web beacons (also known as clear gifs, pixel
+      tags or Web bugs), which are tiny graphics with a unique identifier, similar
+      in function to cookies, that are placed in the code of a Web page.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We also may allow our service providers to use Web beacons to help
+      us understand which emails have been opened by recipients and to track the visitor
+      traffic and actions on our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use Web beacons to monitor the traffic patterns of users from
+      one page within our sites to another, to deliver or communicate with cookies,
+      to understand whether you have come to our site from an online advertisement
+      displayed on a third-party website, and to improve site performance.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 44
+  segment_text: This site uses invisible reCAPTCHA technology to detect bots. reCAPTCHA
+    works by collecting hardware and software information, such as device and application
+    data, and the results of integrity checks, and sends that data to a reCAPTCHA
+    service provider for analysis.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: If you have any questions about our use of cookies or other technologies,
+    please email us using our
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you have any questions about our use of cookies or other technologies,
+      please email us using our customer service and feedback form.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: customer service and feedback form.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Display of tailored advertising/Your choices Data collected by this
+    website to serve you with relevant advertising. Expedia.com is committed to providing
+    you with relevant content and information. To do this, we may, through cookies
+    and other technologies, collect information about your travel-related searches,
+    such as whether you are looking for airline flights or hotels. We use this information,
+    together with other information we have collected about you, to serve you with
+    ads, on our website or elsewhere online, that match your apparent interests. So,
+    for example, if you search for a flight to Florida on this site, you may see an
+    ad for a Florida travel package on this site or on another website you visit.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To do this, we may, through cookies and other technologies, collect
+      information about your travel-related searches, such as whether you are looking
+      for airline flights or hotels.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: Please note that we do not combine the information we collect about
+    your travel-related searches on this website with personal information (such as
+    email address) to serve you with ads across other websites. We also do not share
+    your personal information with third parties so they can serve you with advertisements.
+    You can choose not to receive tailored online advertising on other websites, based
+    on your travel-related searches on this website, by clicking here or here. Note
+    that if you choose not to receive tailored ads, you will still see online advertisements,
+    but they will be more general and less relevant to you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that we do not combine the information we collect about
+      your travel-related searches on this website with personal information (such
+      as email address) to serve you with ads across other websites.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 49
+  segment_text: Data collected by business partners and ad networks to serve you with
+    relevant advertising. The advertisements you see on this website are served by
+    us or by our service providers. But we also allow third parties to collect information
+    about your online activities through cookies and other technologies. These third
+    parties include (1) business partners, who collect information when you view or
+    interact with one of their advertisements on our sites; and (2) advertising networks,
+    which collect information about your interests when you view or interact with
+    one of the advertisements they place on many different websites on the Internet.
+    The information gathered by these third parties is used to make predictions about
+    your characteristics, interests or preferences and to display advertisements on
+    our sites and across the Internet tailored to your apparent interests. We do not
+    permit these third parties to collect personal information about you (such as
+    email address) on our site, nor do we share with them any personal information
+    about you.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: But we also allow third parties to collect information about your
+      online activities through cookies and other technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Data collected by business partners and ad networks to serve you
+      with relevant advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: The advertisements you see on this website are served by us or
+      by our service providers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We do not permit these third parties to collect personal information
+      about you (such as email address) on our site, nor do we share with them any
+      personal information about you.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 50
+  segment_text: Please note that we do not have access to or control over cookies
+    or other technologies these third parties may use to collect information about
+    your interests, and the information practices of these third parties are not covered
+    by this Privacy Policy. Some of these companies are members of the Network Advertising
+    Initiative, which offers a single location to opt out of ad targeting from member
+    companies. To learn more, please click here or here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that we do not have access to or control over cookies
+      or other technologies these third parties may use to collect information about
+      your interests, and the information practices of these third parties are not
+      covered by this Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 51
+  segment_text: Data collected by companies that operate cookie-based exchanges to
+    serve you with relevant advertising. Like other companies operating online, Expedia.com
+    participates in cookie-based exchanges where anonymous information is collected
+    about your browsing behavior through cookies and other technologies and segmented
+    into different topics of interest (such as travel). These topics of interest are
+    then shared with third parties, including advertisers and ad networks, so they
+    can tailor advertisements to your apparent interests. We do not share personal
+    information (such as your email address) with these companies and we do not permit
+    these companies to collect any such information about you on our site. Please
+    click here to learn more about cookie-based exchanges, including how to access
+    information about the topics of interest associated with cookies on your computer
+    and how to decline participation in these programs.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Data collected by companies that operate cookie-based exchanges
+      to serve you with relevant advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Like other companies operating online, Expedia.com participates
+      in cookie-based exchanges where anonymous information is collected about your
+      browsing behavior through cookies and other technologies and segmented into
+      different topics of interest (such as travel).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Please click here to learn more about cookie-based exchanges, including
+      how to access information about the topics of interest associated with cookies
+      on your computer and how to decline participation in these programs.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not share personal information (such as your email address)
+      with these companies and we do not permit these companies to collect any such
+      information about you on our site.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 52
+  segment_text: Do-Not-Track Signals and Similar Mechanisms. Some web browsers may
+    transmit "do-not-track" signals to websites with which the browser communicates.
+    Because of differences in how web browsers incorporate and activate this feature,
+    it is not always clear whether users intend for these signals to be transmitted,
+    or whether they even are aware of them. Participants in the leading Internet standards-setting
+    organization that is addressing this issue are in the process of determining what,
+    if anything, websites should do when they receive such signals. Expedia currently
+    does not take action in response to these signals. If and when a final standard
+    is established and accepted, we will reassess how to respond to these signals.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: Using the Expedia mobile phone and tablet Apps (the "Mobile Apps")
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: When you use an Expedia Mobile App, we collect and use information
+    about you in the same way and for the same purposes as we do when you use our
+    website.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: 'In addition to this, we also use some other information that we collect
+    automatically when you use our Mobile Apps. Specifically: We collect information
+    about Mobile App functionality that you access and use. This allows us to identify
+    those areas of the Mobile App that are of interest to our customers so that we
+    can refine and continuously improve the Mobile App. The information we collect
+    for this purpose does not enable us to directly identify you.'
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: Each Mobile App also sends us the device's unique device identifier
+    (or "UID"), a sequence of numbers or characters that are unique to your mobile
+    device. We use this only on the first opening of the Mobile App so that we can
+    confirm to our advertising networks the number of downloads resulting from clicks
+    on their respective ad banners and other marketing tools.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Each Mobile App also sends us the device's unique device identifier
+      (or "UID"), a sequence of numbers or characters that are unique to your mobile
+      device.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: When you use a Mobile App, you can choose to allow access to your
+    current location - provided by your mobile device using GPS or similar technologies
+    - in order to identify nearby hotels or airports. If you choose to allow access,
+    this location data may be collected anonymously as part of search requests logged
+    by our servers. You can switch off the Mobile App's access to your location at
+    any time through your phone settings menu.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to allow access, this location data may be collected
+      anonymously as part of search requests logged by our servers.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: "When you use a Mobile App, you can choose to allow access to your\
+      \ current location \u2013 provided by your mobile device using GPS or similar\
+      \ technologies \u2013 in order to identify nearby hotels or airports."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: You can switch off the Mobile App's access to your location at
+      any time through your phone settings menu.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 58
+  segment_text: Each Mobile App will also send us error-reporting information in the
+    event that it crashes or hangs. This enables us to investigate the error and to
+    improve the stability of the Mobile App for future releases. As part of these
+    error reports, the Mobile App sends us information about the mobile device type
+    and version, the UID, the time the error occurred, the feature being used and
+    the state of the application when the error occurred. We do not use this information
+    for any purpose other than investigating and remedying the error.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As part of these error reports, the Mobile App sends us information
+      about the mobile device type and version, the UID, the time the error occurred,
+      the feature being used and the state of the application when the error occurred.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 59
+  segment_text: You always have the ability to control what information a Mobile App
+    sends to us. You can exercise this control either by changing the settings of
+    the Mobile App under its setting menu or changing the settings of your mobile
+    device. Alternatively, you can remove the Mobile App from your mobile device entirely
+    and access our services through our website.
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: How we protect your information We want you to feel confident about
+    using this website to make travel arrangements, and we are committed to protecting
+    the information we collect. While no website can guarantee security, we have implemented
+    appropriate administrative, technical, and physical security procedures to help
+    protect the personal information you provide to us. For example, only authorized
+    employees are permitted to access personal information, and they may only do so
+    for permitted business functions. In addition, we use encryption when transmitting
+    your sensitive personal information between your system and ours, and we employ
+    firewalls and intrusion detection systems to help prevent unauthorized persons
+    from gaining access to your information.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: Children's privacy This is a general audience website and does not
+    offer services directed to children. Should a child whom we know to be under 13
+    send personal information to us, we will use that information only to respond
+    directly to that child to inform him or her that we must have parental consent
+    before receiving his or her personal information.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: External Links If any part of this website links you to other sites,
+    those sites do not operate under this Privacy Policy. We recommend you examine
+    the privacy statements posted on those other websites to understand their procedures
+    for collecting, using, and disclosing personal information.
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: Visiting our website from outside the United States If you are visiting
+    our website from outside the United States, please be aware that your information
+    may be transferred to, stored, and processed in the United States, where our servers
+    are located and our central database is operated. The data protection and other
+    laws of the United States and other countries might not be as comprehensive as
+    those in your country, but please be assured that we take steps to ensure that
+    your privacy is protected. By using our services, you understand that your information
+    may be transferred to our facilities and those third parties with whom we share
+    it as described in this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: U.S.-Swiss Safe Harbor Framework As described in our Safe Harbor Privacy
+    Statement, we comply with the US-EU Safe Harbor Framework and the US-Swiss Safe
+    Harbor Framework as set forth by the US Department of Commerce regarding the collection,
+    use and retention of personal information from European Union member countries
+    and Switzerland.
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: Changes to this Privacy Policy We may update this Privacy Policy in
+    the future. We will notify you about material changes to this Privacy Policy by
+    sending a notice to the email address you provided to us or by placing a prominent
+    notice on our website.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may update this Privacy Policy in the future.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We will notify you about material changes to this Privacy Policy
+      by sending a notice to the email address you provided to us or by placing a
+      prominent notice on our website.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: How you can contact us If you have questions about either this Privacy
+    Policy (or your travel planning or purchases), please email us using our
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: This Privacy Policy is effective as of October 31, 2017.
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: Add your property to Expedia Want double Expedia+ points? Book with
+    the App! Double Expedia+ points on all app bookings Helpful real-time trip updates
+    Paperless itineraries
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: Text yourself a link to get the FREE Expedia App
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: Send text Oops! Is it possible you've already downloaded our app?
+    Sorry, we are currently having problems connecting to our server. You can still
+    download the app by clicking on the app-store buttons in our app page. Thank you!
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: 'We are having trouble processing your phone number. Try using this
+    format: XXX-XXX-XXXX. Thank you!'
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: 'It looks like you just tried to enter a non-United States phone number.
+    Unfortunately, at this time we are only supporting United States numbers. Please
+    enter your number in the following format: XXX-XXX-XXXX. Thank you!'
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: Thank you! A text with the download link has been sent to your mobile
+    device
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: 'Get the FREE Expedia App: By providing your number, you agree to
+    receive a one-time automated text message with a link to get the app. Our app
+    offers promotions and booking services. No purchase necessary. Standard text message
+    rates may apply.'
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: Explore More Expedia About Expedia Jobs Investor Relations Advertising
+    Media Room About Our Ads Privacy Policy Terms of Use Site Map Accessibility
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: Expedia+ Expedia+ Rewards Redeem Your Points Use Partner Points +VIP
+    Access Hotels Expedia+ Credit Cards
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: Expedia Links Low Cost Flights Rental Car Finder Expedia Rewards Travel
+    Blog New Hotels
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: Expedia Sitemaps Hotels Sitemap Flights Sitemap Vacations Sitemap
+    Rental Cars Sitemap Cruises Sitemap Things to Do Sitemap
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: Partner Services Expedia Partner Central Add a property Expedia Affiliate
+    Network API Add an Activity Become an Affiliate Travel Agents Affiliate Program
+    Expedia Mastercard Expedia Franchise Expedia CruiseShipCenters Agent
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: Global Sites Argentina Australia Austria Belgium Brazil Canada China
+    Denmark Finland France Germany Hong Kong India Indonesia Ireland Italy Japan Korea
+    Malaysia Mexico Netherlands New Zealand Norway Philippines Singapore Spain Sweden
+    Switzerland Taiwan Thailand United Kingdom United States Vietnam
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: Expedia Partners Egencia Business Travel Expedia Affiliate Network
+    (EAN) Hotels.com Hotwire CitySearch Online Shopping HomeAdvisor Expedia CruiseShipCenters
+    Carrentals.com HomeAway Travelocity Trip Trivago Trover
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: "Expedia, Inc. is not responsible for content on external Web sites.\
+    \ \xA9 2017 Expedia, Inc. All rights reserved."
+  annotations: []
+  sentences: []
