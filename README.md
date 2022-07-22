@@ -27,7 +27,7 @@ A *privacy practice* (or *practice*) describes a certain behaviour of an app tha
 
 There are only two modalities: PERFORMED  (i.e., a practice is explicitly described as being performed) and NOT_PERFORMED (i.e., a practice is explicitly described as not being performed).
 
-A more detailed overview of the corpus can be found [here](README_APP-350.md).
+A more detailed overview of the corpus can be found [here](dataset/APP-350_v1.1/README_APP-350.md).
 
 ## How Interpret Text explains predictions
 
