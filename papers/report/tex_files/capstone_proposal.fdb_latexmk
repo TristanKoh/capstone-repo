@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1659421391 "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.tex" "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.pdf" "capstone_proposal" 1659421393
+["pdflatex"] 1659436401 "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.tex" "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.pdf" "capstone_proposal" 1659436403
   "../tex_templates/texHead-Proof-Standard.tex" 1641652926 3024 f17c1e9d8f2ae74a9d92ddb5fb328fcd ""
   "../tex_templates/texHead-Proof-Theorems.tex" 1641652926 1085 ea4c944b94d2a7f6209f5862ad57a62d ""
   "C:/Users/Tristan/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1612431309 12668 ac242a529240f8044c9f281e22fb41b3 ""
@@ -88,15 +88,17 @@
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1580644884 7308 a7fb09b68a4a07a482e876fbe2959b04 ""
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.aux" 1659421393 2351 8f79c4266e8b1ca6800492d2ec3f7ce6 ""
-  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.tex" 1659421390 8828 88276ff22761df94646d993c7e5c4791 ""
-  "capstone_proposal.aux" 1659421393 2351 8f79c4266e8b1ca6800492d2ec3f7ce6 "pdflatex"
-  "capstone_proposal.out" 1659421393 508 8cbdc904b45c6229348a4dee30fab38e "pdflatex"
-  "capstone_proposal.tex" 1659421390 8828 88276ff22761df94646d993c7e5c4791 ""
+  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.aux" 1659436403 2351 54ccab996eeaf68564a7bd7bfdfc1282 ""
+  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.tex" 1659436397 10450 bf693f8b66faeedd643a1d525dade120 ""
+  "capstone_proposal.aux" 1659436403 2351 54ccab996eeaf68564a7bd7bfdfc1282 "pdflatex"
+  "capstone_proposal.out" 1659436403 508 8cbdc904b45c6229348a4dee30fab38e "pdflatex"
+  "capstone_proposal.tex" 1659436397 10450 bf693f8b66faeedd643a1d525dade120 ""
+  "images//interpret_text_dashboard.png" 1659429664 61973 bc5cdd26e9ea9114f972ee3e59a0bd04 ""
+  "images//policy_classifications.png" 1659429657 240462 7f48a250bc6856dc46b2ccbf5bb42050 ""
   (generated)
-  "capstone_proposal.log"
-  "capstone_proposal.out"
-  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.log"
-  "capstone_proposal.aux"
   "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.pdf"
+  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.log"
   "capstone_proposal.pdf"
+  "capstone_proposal.aux"
+  "capstone_proposal.out"
+  "capstone_proposal.log"

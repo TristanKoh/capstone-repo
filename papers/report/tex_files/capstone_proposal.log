@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.15)  2 AUG 2022 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.15)  2 AUG 2022 18:33
 entering extended mode
 **"c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.tex"
 ("c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/capstone_proposal.tex"
@@ -272,22 +272,22 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux")
 \openout1 = `capstone_proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -340,7 +340,7 @@ LaTeX Font Info:    ... okay on input line 18.
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 20.
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -350,43 +350,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
  ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out") ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out")
 \@outlinefile=\write3
 \openout3 = `capstone_proposal.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/Users/Tristan/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
-] [2]
-Overfull \hbox (0.63597pt too wide) in paragraph at lines 85--86
+]
+<./images//policy_classifications.png, id=46, 453.19313pt x 268.75406pt>
+File: ./images//policy_classifications.png Graphic file (type png)
+<use ./images//policy_classifications.png>
+Package pdftex.def Info: ./images//policy_classifications.png  used on input line 75.
+(pdftex.def)             Requested size: 398.3386pt x 236.22545pt.
+ [2] [3 <./images//policy_classifications.png>]
+<./images//interpret_text_dashboard.png, id=60, 453.19313pt x 364.36125pt>
+File: ./images//interpret_text_dashboard.png Graphic file (type png)
+<use ./images//interpret_text_dashboard.png>
+Package pdftex.def Info: ./images//interpret_text_dashboard.png  used on input line 110.
+(pdftex.def)             Requested size: 398.3386pt x 320.26082pt.
+ [4]
+Overfull \hbox (0.63597pt too wide) in paragraph at lines 121--122
 []\OT1/cmr/m/n/10.95 Tokenisation: Low-er-case all char-ac-ters, re-move non-ASCII char-ac-ters, no stem-
  []
 
-[3] [4] ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux")
+[5 <./images//interpret_text_dashboard.png>] [6] ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux")
 Package rerunfilecheck Info: File `capstone_proposal.out' has not changed.
 (rerunfilecheck)             Checksum: 8CBDC904B45C6229348A4DEE30FAB38E;508.
  ) 
 Here is how much of TeX's memory you used:
- 7570 strings out of 479697
- 113308 string characters out of 2866183
- 422392 words of memory out of 3000000
- 24501 multiletter control sequences out of 15000+200000
+ 7592 strings out of 479697
+ 113859 string characters out of 2866183
+ 420405 words of memory out of 3000000
+ 24513 multiletter control sequences out of 15000+200000
  409928 words of font info for 51 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 70i,11n,74p,778b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,11n,74p,778b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tristan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.pdf" (4 pages, 89117 bytes).
+Output written on "c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.pdf" (6 pages, 352881 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
