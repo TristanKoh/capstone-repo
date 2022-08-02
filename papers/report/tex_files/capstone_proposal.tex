@@ -3,6 +3,7 @@
 	\documentclass[11pt,reqno,oneside,a4paper]{article}
 	\usepackage[a4paper,includeheadfoot,left=35mm,right=35mm,top=00mm,bottom=30mm,headheight=40mm]{geometry} %sets up the margins
 	\usepackage{graphicx}
+	\usepackage{hyperref}
 	\graphicspath{{./images/}}
 	\setlength{\parindent}{0pt}
 	\input{../tex_templates/texHead-Proof-Standard} % Use the standard texHead for this module. You should not edit this file.
@@ -24,7 +25,7 @@
 %-----------EDIT FROM HERE
 
 \begin{abstract}
-	This is a research proposal for the capstone project YSS4107 under the double degree law and liberal arts program. It is also intended to fulfil the MCS major capstone requirements.
+	This is a research proposal for the capstone project YSS4107 under the double degree law and liberal arts program. It is also intended to fulfil the MCS major capstone requirements. The code can be found \href{https://github.com/TristanKoh/capstone-repo}{here}.
 \end{abstract}
 
 \section{Definitions} \label{sec:Definitions}
@@ -83,10 +84,10 @@ The APP-350 Corpus was used in a broader project to train machine learning model
 Since the focus of this capstone is to assess the manner in which legal analytics can transform legal practice and its corresponding limitations, this dataset was chosen for the following reasons:
 
 \begin{enumerate}
+	\item APP-350 contains real-world data privacy practices as they were scraped from Google PlayStore apps. Thus training XAI models on such a dataset would provide a realistic insight into the extent of which AI models are explainable in the legal context.
+	\item Legal tech companies are also using such datasets to train models as part of their contract / document review products. By using APP-350 to train XAI models, the results can be used as a (simple)\footnote{The datasets used in industry are usually much larger and the models used are more complicated. However, APP-350 would be sufficiently complicated to serve as a toy example at an undergraduate level.} proxy for the explainability of models that are currently used in the industry.
 	\item APP-350 is a labelled dataset, allowing easy validation of results. If an unlabelled dataset was used, unsupervised training would have to be conducted. The performance of the models would likely be much lower because NLP models for specific vocabulary like law are still not as sophisticated as models trained on general vocabulary. Further, there are few law specific labelled datasets.
 	\item APP-350 is labelled on both the sentence and segment (i.e. paragraph) level. This provides more granular data for training the AI models. 
-	\item APP-350 contains real-world data privacy practices. Thus training XAI models on such a dataset would provide a realistic insight into the extent of which AI models are explainable in the legal context.
-	\item Legal tech companies are also using classification models to assist in contract / document review products. To do so, these companies train their AI models in a similar manner on similarly structured datasets. By using APP-350 to train XAI models, the results can be used as a proxy for the explainability of models that are currently used in the industry.
 \end{enumerate}
 
 \section{How Interpret Text explains predictions} \label{sec: interpret_text_exp_pred}
