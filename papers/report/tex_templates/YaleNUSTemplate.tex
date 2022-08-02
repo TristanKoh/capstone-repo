@@ -1,0 +1,40 @@
+%---------DO NOT EDIT THIS INDENTED SECTION, EXCEPT TO ENTER YOUR NAME
+	% Preamble
+	\documentclass[11pt,reqno,oneside,a4paper]{article}
+	\usepackage[a4paper,includeheadfoot,left=35mm,right=35mm,top=00mm,bottom=30mm,headheight=40mm]{geometry} %sets up the margins
+	\input{texHead-Proof-Standard} % Use the standard texHead for this module. You should not edit this file.
+	\input{texHead-Proof-Theorems} % Use the standard theorem definitions for this module. You should not edit this file.
+	%---The following code defines the title, author, and date of the document.
+	\title{Template document}
+	\author{Tristan Koh Ly Wey}
+	\date{\today}   % Using \today automatically updates to the document's build date
+%----------------------------------
+%---------IF YOU WANT TO DEFINE YOUR OWN MACROS, YOU CAN DO SO FROM HERE ...
+
+%---------... TO HERE
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+%-----------EDIT FROM HERE
+
+\begin{thm}
+	Here is a theorem about numbers $x$ and $\zeta$ and function $x^2\sin(\zeta)$.
+\end{thm}
+% The above theorem environment was defined by the latex code run by line "\newtheorem{thm}{Theorem}" of texHead-Proof-Theorems.tex.
+% That line calls the \newtheorem macro, defined in the amsthm poackage.
+% The amsthm package was included in this document by the line "\usepackage{amssymb,amsmath,amsthm}" of texHead-Proof-Standard.tex.
+% That is why, in this file, line 5 must come before line 6.
+% (Try switching them to see how badly it breaks!)
+
+\begin{proof}
+	Here is a proof of the theorem.
+	It uses the facts that $x\in\RR$ and $\abs{x} \geq 4$.
+\end{proof}
+% The above proof environment was also defined by amsthm.
+% The macro $\in$ is always defined in $\tex$, but $\RR$ and $\abs$ are not defined by default.
+% Can you find the lines in texHead-Proof-Standard.tex that define these macros?
+% The macro $\geq$ is a little different; it has been REdefined as a synonym for another macro.
+% Try commenting (inserting % at the beginning) the relevant lines in texHead-Proof-Standard.tex to see how the lines work.
+
+\end{document}
