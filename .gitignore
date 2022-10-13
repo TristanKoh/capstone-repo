@@ -1,2 +1,4 @@
 interpret-text
 glove
+interpret_cpu.yaml
+interpret_gpu.yaml
