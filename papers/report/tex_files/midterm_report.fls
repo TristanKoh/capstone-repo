@@ -1,7 +1,7 @@
 PWD c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files
 INPUT C:\Users\Tristan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.tex
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.log
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.tex
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.log
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -475,10 +475,10 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backe
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -523,18 +523,18 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.pdf
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.pdf
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -567,12 +567,6 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.t
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT C:\Users\Tristan\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT .\images\\policy_classifications.png
-INPUT images\\policy_classifications.png
-INPUT .\images\\policy_classifications.png
-INPUT .\images\\policy_classifications.png
-INPUT .\images\\policy_classifications.png
-INPUT .\images\\policy_classifications.png
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
@@ -587,22 +581,21 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\s
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT .\images\\interpret_text_dashboard.png
-INPUT .\images\\interpret_text_dashboard.png
-INPUT images\\interpret_text_dashboard.png
-INPUT .\images\\interpret_text_dashboard.png
-INPUT .\images\\interpret_text_dashboard.png
-INPUT .\images\\interpret_text_dashboard.png
-INPUT .\images\\interpret_text_dashboard.png
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.aux
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\capstone_proposal.out
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
 INPUT C:\Users\Tristan\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\Tristan\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
