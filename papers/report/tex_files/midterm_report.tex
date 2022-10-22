@@ -4,6 +4,7 @@
 	\usepackage[a4paper,includeheadfoot,left=35mm,right=35mm,top=00mm,bottom=30mm,headheight=40mm]{geometry} %sets up the margins
 	\usepackage{graphicx}
 	\usepackage{hyperref}
+	\usepackage{booktabs}
 	\graphicspath{{./images/}}
 	\setlength{\parindent}{0pt}
 	\input{../tex_templates/texHead-Proof-Standard} % Use the standard texHead for this module. You should not edit this file.
@@ -51,7 +52,7 @@ While NLP techniques have substantially increased in performance in recent years
 However, the intersection in skillset between data science and legal analysis is still nascent and it is unrealistic to expect all legally trained personnel to be trained in data science to the extent required to interpret the predictions of machine learning models without aid.
 
 \bigskip
-Recent research within the legal NLP space have focused on building higher performing models and word representations, but there have been comparatively few papers that assess the explainability of such models. Therefore, my capstone aims to bridge the gap between the lawyer and the data scientist by using Explainable AI techniques to explain the predictions of machine learning models in the context of predicting data privacy practices of app policies.
+Recent research within the legal NLP space have focused on building higher performing models and Text representation, but there have been comparatively few papers that assess the explainability of such models. Therefore, my capstone aims to bridge the gap between the lawyer and the data scientist by using Explainable AI techniques to explain the predictions of machine learning models in the context of predicting data privacy practices of app policies.
 
 \section{Explanation of Dataset ("The APP-350 corpus")}
 
@@ -59,20 +60,14 @@ The APP-350 Corpus consists of 350 annotated Android app privacy policies. Each 
 
 \bigskip
 
-A "privacy practice" (or "practice") describes a certain behaviour of an app that can have privacy implications (e.g., collection of a phone's device identifier or sharing of its location with ad networks). Altogether, 30 different practices were annotated. 
+A "privacy practice" (or "practice") describes a certain behaviour of an app that can have privacy implications (e.g., collection of a phone's device identifier or sharing of its location with ad networks). There are two modalities: PERFORMED (i.e. a practice is explicitly described as being performed) and NOT\_PERFORMED (i.e. a practice is explicitly described as not being performed).
 
 \bigskip
 
-There are two modalities: PERFORMED (i.e. a practice is explicitly described as being performed) and NOT\_PERFORMED (i.e. a practice is explicitly described as not being performed).
-
-\bigskip
-
-The following is a table of the 30 practices and their descriptions.
+As not all practices had modalities, altogether, 57 different categories were annotated. The following is a table of the practices and their descriptions.
 
 \pagebreak
 
-% Please add the following required packages to your document preamble:
-% \usepackage{graphicx}
 \begin{table}[]
 	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{ll}
@@ -141,58 +136,77 @@ Since the focus of this capstone is to assess the interpretability of XAI models
 
 \section{Methodology}
 
-There are three major steps to the capstone: First is data pre-processing, second is model training and applying XAI techniques to visualise their predictions ("Model Training and XAI visualisation"), and the last is to survey law and non-law students about whether they find these explanations interpretable ("Survey to assess interpretability"). 
-I describe the specific methodology to the parts below.
+There are three major steps to the capstone: First is data pre-processing, second is model training and applying XAI techniques to visualise their predictions ("Model Training and XAI visualisation"), and the last is to survey law and non-law students about whether they find these explanations interpretable ("Survey to assess interpretability"). I describe the specific methodology of these parts below.
 
 \subsection{Data pre-processing}
 
-The annotated privacy policies were originally in .yml format, with one .yml file containing one app data privacy policy. As explained above, each data privacy policy is labelled at both the sentence and segment level. Therefore I restructured the data from .yml to .csv, with one .csv file containing annotated sentences and the other containing annotated segments.
-By having two levels of text data for model training, this would provide another feature to compare model performance on.
+The annotated privacy policies were originally in .yml format, with one .yml file containing one app data privacy policy. As explained above, each data privacy policy is labelled at both the sentence and segment level. The data was restructured from .yml to .csv, with one .csv file containing annotated sentences and the other containing annotated segments. By having two levels of text data for model training, this would provide another dimension to compare model performance on.
 
 \subsection{Model training and XAI visualisation}
 
-As the original researchers used the same dataset to train classifiers to predict on unseen data privacy policies, I use their training methodology and model choice as a guide for this capstone. 
+As the original researchers used the same dataset to train classifiers to predict on unseen data privacy policies, I adopt their training methodology and model choice as a guide for this capstone. 
 
 \bigskip
 
-The original researchers feature engineered the policy text as follows (Page 71 to 72): 
+The original researchers feature engineered the data as follows (Page 71 to 72): 
 
 \begin{enumerate}
 	\item Tokenisation: Lowercase all characters, remove non-ASCII characters, no stemming, normalisation of whitespace and punctuation, unigrams and bigrams.
-	\item Word representation: Union of TF-IDF and manually crafted features.
-	\begin{enumerate}
-		\item The manually crafted features consist of Boolean values indicating the presence or absence of indicative strings the researchers observed in the data.
-	\end{enumerate}
+	\item Word representation: Union of TF-IDF and manually crafted features. The manually crafted features consist of Boolean values indicating the presence or absence of indicative strings the researchers observed in the data.
 \end{enumerate}
 
-Individual classifiers were then trained for every policy classification. For all the classifications (except for four policy classifications), they trained a model using scikitlearn SVC implementation with a linear kernel, with five-fold cross validation. For the four policy classifications, word-based rule classifiers were used instead because of the limited number of training data.
+Individual classifiers were then trained for every policy classification. For all the classifications (except for four categories), they trained a model using the scikit-learn SVC implementation with a linear kernel, with five-fold cross validation. For the four policy classifications, word-based rule classifiers were used instead because of the limited number of training data.
 
 (Add performance of researchers' models here.)
 
 \subsubsection{Proposed model training methodology}
 
-There are three main factors that I vary in order to produce the different explanations of AI models: Model, word representation and XAI method used to explain the trained model.
+There are three main factors that I vary: Text representation, ML model, and XAI package used to explain the trained model.
+
+\subsubsection{Text representation}
+
+Computers cannot understand text directly and have to be converted into some kind of quantitative data. Therefore in NLP, text representations are methods to represent text as numeric or continuous vectors. This step is done before the model is trained. I use Tf-IDF (term frequency - inverse document frequency) and GloVe word embeddings as the text representations.
+
+\bigskip
+
+The Tf-IDF metric for a word in a document is calculated by multiplying two different metrics:
+
+\begin{enumerate}
+	\item Term frequency (TF) of a word in a document. This is the number of times the word appears in a document.
+	\item Inverse document frequency (IDF) of the word across a set of documents. This is calculated by taking the total number of documents and dividing it by the number of documents that contain the specific word. This calculates the rarity of the term across all the documents. The closer the IDF of a word is to 0, the more common the word is.
+\end{enumerate}
+
+Mathematically, the Tf-IDF score for the word t in the document d from the document set D can be stated as such:
+
+\[tf-idf(t, d, D) = tf(t, d) \cdot idf(t, D)\]
+where 
+\begin{align*}
+	tf(t, d) &= log(1 + freq(t, d )) \\
+	idf(t, D) &= log\left(\frac{N}{count(d \in D : t \in d)}\right)
+\end{align*}
+
+\bigskip
+
+While Tf-IDF is easy to calculate, one of its limitations is that it is a purely count-based metric. Tf-IDF does not take into account the context of the word. For example, Tf-IDF would not be able to capture the semantic relationship between words. Word embeddings try to overcome this issue with count-based metrics like Tf-IDF. Word embeddings are vector representation of words, such that the vectors closer to each other in a vector space are similar in their semantic meaning.\footnote{https://becominghuman.ai/mathematical-introduction-to-glove-word-embedding-60f24154e54c}
+
+GloVe is one type of word embeddings (more information to be added)
 
 \subsubsection{Model choice}
-As the researchers found that the scikit-learn SVC classifier produces the best performance, I use SVC as well. I use the following models:
+As the researchers found that the SVC classifier produces the best performance, I use SVC as well. In all, I use the following models:
 \begin{enumerate}
 	\item Logistic regression
 	\item SGDClassifier
 	\item SVC
-	\item Ensemble classifiers
+	\item Ensemble classifiers (AdaBoost, GradientBoost, Random Forest)
 \end{enumerate}
 
-I include logistic regression as a baseline classifier for its simplicity. SGDClassifier functions as a possible alternative to SVC since SGDClassifier can use a linear SVM loss function. I include ensemble classifiers as they have generally worked well with NLP scenarios (?)
+Logistic regression functions as a baseline classifier for its simplicity. SGDClassifier functions a possible alternative to SVC since the SGDClassifier can use a linear SVM loss function. Ensemble classifiers are included to provide a wider range of models to compare performance.
 
 \bigskip
 
-The two broad types of AI models that are usually used are traditional AI models and neural networks. I will only be experimenting with the first type of AI model as these models are considered “glass-box” models: A glass-box model implies a model that is innately explainable, where the user can fully observe and dissect the process adopted by the model in making a prediction. The hyperparameters of neural networks are much more complicated. Generally, neural networks require (add number here) datapoints to perform well. However, we only have (add number here) data points spread out across 30 different privacy practices. Therefore, there is insufficient data for robust training of neural networks. Hence, neural networks are out of the scope for the purposes of this capstone.
+The two broad types of AI models that are usually used are classical machine learning models (such as logistic regression and tree-based classifiers) and neural networks. Though recent advances in NLP are in the field of neural networks \footnote{State of the art NLP models include BERT and ELMo.}, I chose to focus only on classical ML models to reduce the possible complexity of the capstone, as the field of NLP by itself produces models that are usually more complex than models trained on quantitative variables. Explaining neural networks used for NLP would be a much more complex task compared to explaining classical ML models.
 
-\subsubsection{Word representation}
-\begin{enumerate}
-	\item Word representations: Bag of words and word embeddings.
-	\item Different combinations of n-grams.
-\end{enumerate}
+Further, as the APP-350 corpus only contains (insert number here) datapoints, there is insufficient data to train neural networks. Generally, neural networks require (add number here) datapoints to perform well.
 
 \subsubsection{XAI packages}
 \begin{enumerate}
@@ -218,17 +232,167 @@ To be added.
 
 \section{Findings so far}
 
-\subsection{Exploratory Data Analysis}
+\subsection{Exploratory Data Analysis (EDA)}
+As mentioned above, there are two levels of text data: Sentence level and segment level. As I train and compare the performance of models on both levels of data, I also conducted the EDA on both levels.
 
 \subsubsection{Sentence level}
+There are a total of 18829 annotated sentences. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the sentence level. 
+
+\pagebreak
+
+\begin{table}[]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lrrrr}
+	\toprule
+									  practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
+	\midrule
+	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &    2107 &             25.389654 &                    22.0 &           11.2\% \\
+			   Contact\_E\_Mail\_Address\_1stParty &    2106 &             28.651472 &                    25.0 &           11.2\% \\
+							 Location\_1stParty &    1514 &             29.159181 &                    24.0 &           8.1\% \\
+	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &    1250 &             27.318400 &                    24.0 &           6.6\% \\
+				Identifier\_IP\_Address\_1stParty &    1005 &             30.913433 &                    27.0 &           5.3\% \\
+				 Contact\_Phone\_Number\_1stParty &     970 &             29.117526 &                    25.0 &           5.2\% \\
+				 Identifier\_Device\_ID\_1stParty &     697 &             32.377331 &                    28.0 &           3.7\% \\
+			   Contact\_Postal\_Address\_1stParty &     597 &             28.907873 &                    26.0 &           3.2\% \\
+										   SSO &     504 &             32.565476 &                    28.0 &           2.7\% \\
+					  Demographic\_Age\_1stParty &     428 &             33.074766 &                    26.0 &           2.3\% \\
+	\bottomrule
+	\end{tabular}
+	}
+	\caption{Summary statistics for top 10 occurring practices at sentence level.}
+	\end{table}
+
+	\bigskip
+
+	\begin{table}[]
+		\resizebox{\textwidth}{!}{
+		\begin{tabular}{lrrrr}
+		\toprule
+								practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
+		\midrule
+		Identifier\_Mobile\_Carrier\_3rdParty &      35 &             47.057143 &                    30.0 &           0.19\% \\
+					Contact\_ZIP\_3rdParty &      34 &             40.176471 &                    41.0 &           0.18\% \\
+		Identifier\_SSID\_BSSID\_1stParty &      33 &             28.060606 &                    24.0 &           0.18\% \\
+			  Contact\_Password\_3rdParty &      33 &             24.181818 &                    20.0 &           0.18\% \\
+					Contact\_City\_3rdParty &      24 &             18.000000 &                    14.0 &           0.13\% \\
+		Contact\_Address\_Book\_3rdParty &      17 &             39.647059 &                    34.0 &           0.1\% \\
+			  Identifier\_IMSI\_1stParty &      13 &             48.153846 &                    44.0 &           0.07\% \\
+		Identifier\_SIM\_Serial\_3rdParty &       5 &             41.200000 &                    54.0 &           0.03\% \\
+			  Identifier\_IMSI\_3rdParty &       4 &             54.250000 &                    47.5 &           0.02\% \\
+		Identifier\_SSID\_BSSID\_3rdParty &       2 &             65.500000 &                    65.5 &           0.01\% \\
+		\bottomrule
+		\end{tabular}
+		}
+		\caption{Summary statistics for bottom 10 frequently occurring practices.}
+		\end{table}
+
+\bigskip
+
+In total, the top 10 frequently occurring practices make up approximately 60\% of the dataset. The bottom 10 frequently occurring practices make up approximately 1\% of the dataset.
+
+\bigskip
+
+According to Table 4 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words. This could indicate similar sentence complexity across the practices.
+
+\begin{table}
+	\centering
+	\begin{tabular}{lrr}
+		\toprule
+		{} &  sentence\_length\_mean &  sentence\_length\_median \\
+		\midrule
+		count &             10.000000 &               10.000000 \\
+		mean  &             29.747511 &               25.500000 \\
+		std   &              2.468191 &                1.900292 \\
+		min   &             25.389654 &               22.000000 \\
+		25\%   &             28.715572 &               24.250000 \\
+		50\%   &             29.138353 &               25.500000 \\
+		75\%   &             32.011357 &               26.750000 \\
+		max   &             33.074766 &               28.000000 \\
+		\bottomrule
+		\end{tabular}
+		\caption{Summary sentence statistics for top 10 frequently occurring practices.}
+	\end{table}
+	
+\pagebreak
 
 \subsubsection{Segment level}
+There are in total 21623 segments. However, there are 11422 segments without any annotated practice. Hence there are 10201 annotated segments. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the segment level.
+
+\begin{table}[htb]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lrrrr}
+	\toprule
+									  practice &  counts &  segment\_length\_mean &  segment\_length\_median &  counts\_percentage \\
+	\midrule
+			  Contact\_E\_Mail\_Address\_1stParty &    1105 &            84.118552 &                   72.0 &              10.83 \\
+	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &     858 &            81.913753 &                   68.5 &               8.41 \\
+							Location\_1stParty &     821 &            89.794153 &                   70.0 &               8.05 \\
+				Identifier\_IP\_Address\_1stParty &     590 &            96.984746 &                   73.0 &               5.78 \\
+				Contact\_Phone\_Number\_1stParty &     565 &            90.371681 &                   67.0 &               5.54 \\
+	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &     524 &           100.339695 &                   86.5 &               5.14 \\
+				Identifier\_Device\_ID\_1stParty &     446 &            96.704036 &                   72.0 &               4.37 \\
+			  Contact\_Postal\_Address\_1stParty &     364 &            85.598901 &                   69.5 &               3.57 \\
+										  SSO &     274 &            99.463504 &                   86.5 &               2.69 \\
+					  Demographic\_Age\_1stParty &     259 &            96.200772 &                   80.0 &               2.54 \\
+	\bottomrule
+	\end{tabular}
+	}
+	\caption{Summary statistics of top 10 frequently occurring practices by segment.}
+  \end{table}
+
+  \begin{table}[htb]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lrrrr}
+	\toprule
+							  practice &  counts &  segment\_length\_mean &  segment\_length\_median &  counts\_percentage \\
+	\midrule
+			  Identifier\_IMEI\_3rdParty &      23 &           115.347826 &                   93.0 &               0.23 \\
+	Identifier\_Mobile\_Carrier\_3rdParty &      21 &           142.000000 &                  130.0 &               0.21 \\
+			Contact\_Password\_3rdParty &      18 &            70.555556 &                   65.0 &               0.18 \\
+		Identifier\_SSID\_BSSID\_1stParty &      16 &            86.062500 &                   71.0 &               0.16 \\
+		Contact\_Address\_Book\_3rdParty &      14 &           296.928571 &                   78.5 &               0.14 \\
+			  Identifier\_IMSI\_1stParty &      11 &            92.363636 &                   78.0 &               0.11 \\
+				Contact\_City\_3rdParty &       8 &           100.500000 &                  104.0 &               0.08 \\
+		Identifier\_SIM\_Serial\_3rdParty &       3 &            85.333333 &                   65.0 &               0.03 \\
+			  Identifier\_IMSI\_3rdParty &       3 &            62.333333 &                   65.0 &               0.03 \\
+		Identifier\_SSID\_BSSID\_3rdParty &       2 &           105.500000 &                  105.5 &               0.02 \\
+	\bottomrule
+	\end{tabular}
+	}
+	\caption{Summary statistics for bottom 10 frequently occurring practices.}
+  \end{table}
+
+The top 10 practices make up approximately 57\% of the dataset. The bottom 10 practices make up approximately 1.2\% of the dataset.
+
+\bigskip
+
+According to Table 7 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 6.7 words and the median 7.2 words. This could indicate similar segment complexity across the practices.
+
+\pagebreak
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{lrr}
+	\toprule
+	{} &  segment\_length\_mean &  segment\_length\_median \\
+	\midrule
+	count &            10.000000 &              10.000000 \\
+	mean  &            92.148979 &              74.500000 \\
+	std   &             6.683275 &               7.230337 \\
+	min   &            81.913753 &              67.000000 \\
+	25\%   &            86.647714 &              69.625000 \\
+	50\%   &            93.286227 &              72.000000 \\
+	75\%   &            96.914568 &              78.250000 \\
+	max   &           100.339695 &              86.500000 \\
+	\bottomrule
+	\end{tabular}
+	\caption{Summary segment statistics for top 10 frequently occurring practices.}
+  \end{table}
+
 
 \subsection{Performance of classifiers for top N practices}
-(Add statistics on existing categories here). Given that there are 20 categories for the entire dataset, but there is not a uniform distribution of occurrences. 
 
-Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by taking the top N frequently occurring practices.
-
+(Add statistics on existing categories here). Given that there are 20 categories for the entire dataset, but there is not a uniform distribution of occurrences. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by taking the top N frequently occurring practices.
 
 \subsection{Performance of individual classifiers for top 5 practices}
 

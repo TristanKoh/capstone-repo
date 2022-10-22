@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.15)  21 OCT 2022 01:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.15)  22 OCT 2022 23:56
 entering extended mode
 **"c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/midterm_report.tex"
 ("c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/midterm_report.tex"
@@ -152,6 +152,25 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip49
+) (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
+\@cmidla=\count198
+\@cmidlb=\count199
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
+\@thisruleclass=\count266
+\@lastruleclass=\count267
+\@thisrulewidth=\dimen165
 ) (../tex_templates/texHead-Proof-Standard.tex (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -172,44 +191,44 @@ Package: amstext 2000/06/29 v2.01 AMS text
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen153
+\ex@=\dimen166
 )) (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen154
+\pmbraise@=\dimen167
 ) (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count198
+\inf@bad=\count268
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count199
-\leftroot@=\count266
+\uproot@=\count269
+\leftroot@=\count270
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count267
-\DOTSCASE@=\count268
+\classnum@=\count271
+\DOTSCASE@=\count272
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box47
 \strutbox@=\box48
-\big@size=\dimen155
+\big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count269
-\c@MaxMatrixCols=\count270
+\macc@depth=\count273
+\c@MaxMatrixCols=\count274
 \dotsspace@=\muskip17
-\c@parentequation=\count271
-\dspbrk@lvl=\count272
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
 \tag@help=\toks19
-\row@=\count273
-\column@=\count274
-\maxfields@=\count275
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
 \andhelp@=\toks20
-\eqnshift@=\dimen156
-\alignsep@=\dimen157
-\tagshift@=\dimen158
-\tagwidth@=\dimen159
-\totwidth@=\dimen160
-\lineht@=\dimen161
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
 \@envbody=\toks21
 \multlinegap=\skip51
 \multlinetaggap=\skip52
@@ -264,30 +283,30 @@ Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
 \f@nch@O@olf=\skip66
 \f@nch@O@orf=\skip67
 )) (../tex_templates/texHead-Proof-Theorems.tex
-\c@thm=\count276
+\c@thm=\count280
 ) (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count277
+\l__kernel_color_stack_int=\count281
 \l__pdf_internal_box=\box49
 ) ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux")
 \openout1 = `midterm_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -325,22 +344,22 @@ LaTeX Font Info:    ... okay on input line 21.
 
 (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen162
+\scratchcounter=\count282
+\scratchdimen=\dimen175
 \scratchbox=\box50
-\nofMPsegments=\count279
-\nofMParguments=\count280
+\nofMPsegments=\count283
+\nofMParguments=\count284
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen163
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen176
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
 \everyMPtoPDFconversion=\toks32
 ) (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -348,20 +367,20 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
  ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out") ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out")
 \@outlinefile=\write3
 \openout3 = `midterm_report.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/Users/Tristan/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
@@ -369,29 +388,38 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [2]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 76.
+               Default added (so using `tbp') on input line 71.
 
 [3] [4]
-Overfull \hbox (0.63597pt too wide) in paragraph at lines 161--162
+Overfull \hbox (0.63597pt too wide) in paragraph at lines 154--155
 []\OT1/cmr/m/n/10.95 Tokenisation: Low-er-case all char-ac-ters, re-move non-ASCII char-ac-ters, no stem-
  []
 
-[5] [6] [7] ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux")
+[5] [6] [7]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 243.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 267.
+
+[8] [9] [10] ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux")
 Package rerunfilecheck Info: File `midterm_report.out' has not changed.
-(rerunfilecheck)             Checksum: 8AC1E82A708A023FE8D7C9E9A2B82D23;1540.
+(rerunfilecheck)             Checksum: A21833BA2C62AB8BC0B92A9EFBD27D4A;1548.
  ) 
 Here is how much of TeX's memory you used:
- 7624 strings out of 479697
- 113911 string characters out of 2866183
- 429940 words of memory out of 3000000
- 24523 multiletter control sequences out of 15000+200000
+ 7695 strings out of 479697
+ 114890 string characters out of 2866183
+ 432724 words of memory out of 3000000
+ 24580 multiletter control sequences out of 15000+200000
  413981 words of font info for 67 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 69i,12n,74p,926b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Tristan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on "c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.pdf" (7 pages, 163093 bytes).
+ 69i,12n,74p,770b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Tristan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.pdf" (10 pages, 196270 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

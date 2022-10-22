@@ -1,7 +1,7 @@
-PWD c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files
+PWD c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates
 INPUT C:\Users\Tristan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.tex
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.log
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.tex
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.log
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -61,6 +61,117 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Standard.tex
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
@@ -95,10 +206,16 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\grap
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
@@ -317,133 +434,6 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\u
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT ..\tex_templates\texHead-Proof-Standard.tex
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\titling\titling.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\titling\titling.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\titling\titling.sty
@@ -464,17 +454,17 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
-INPUT ..\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\texHead-Proof-Theorems.tex
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -485,10 +475,10 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backe
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.aux
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.aux
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -533,18 +523,18 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.pdf
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+OUTPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.pdf
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -572,53 +562,34 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
-INPUT C:\Users\Tristan\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.out
-INPUT C:\Users\Tristan\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
-INPUT C:\Users\Tristan\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\Tristan\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.aux
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
+INPUT c:\Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_templates\YaleNUSTemplate.out
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
