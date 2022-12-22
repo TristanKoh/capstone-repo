@@ -1,0 +1,6 @@
+pandas
+numpy
+sklearn
+lime
+shap==0.36.0
+notebook
