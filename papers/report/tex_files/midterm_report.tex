@@ -176,7 +176,7 @@ The Tf-IDF metric for a word in a document is calculated by multiplying two diff
 	\item Inverse document frequency (IDF) of the word across a set of documents. This is calculated by taking the total number of documents and dividing it by the number of documents that contain the specific word. This calculates the rarity of the term across all the documents. The closer the IDF of a word is to 0, the more common the word is.
 \end{enumerate}
 
-Mathematically, the Tf-IDF score for the word t in the document d from the document set D can be stated as such:
+Mathematically, the Tf-IDF score for the word $t$ in the document $d$ from the document set $D$ can be stated as such:
 
 \[tf-idf(t, d, D) = tf(t, d) \cdot idf(t, D)\]
 where 
@@ -188,6 +188,8 @@ where
 \bigskip
 
 While Tf-IDF is easy to calculate, one of its limitations is that it is a purely count-based metric. Tf-IDF does not take into account the context of the word. For example, Tf-IDF would not be able to capture the semantic relationship between words. Word embeddings try to overcome this issue with count-based metrics like Tf-IDF. Word embeddings are vector representation of words, such that the vectors closer to each other in a vector space are similar in their semantic meaning.\footnote{https://becominghuman.ai/mathematical-introduction-to-glove-word-embedding-60f24154e54c}
+
+\bigskip
 
 GloVe is one type of word embeddings (more information to be added)
 
@@ -389,10 +391,51 @@ According to Table 7 below, there does not seem to be much variation in sentence
 	\caption{Summary segment statistics for top 10 frequently occurring practices.}
   \end{table}
 
-
 \subsection{Performance of classifiers for top N practices}
+As seen in Table 2 and Table 5 above, there is an uneven distribution of records across the practices. Further, the bottom 10 frequently occurring practices for both sentence and segment level only contains about 2 to 35 records for each practice. Given that there are in total 57 practices for the entire dataset, and there is not a uniform distribution of occurrences. Training models on all 57 practices would likely lead to low performance since there are not enough records for all 57 practices. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by first assessing the performance of the models for the top N (where $3<= N <= 10$) frequently occurring practices at both the sentence and segment level.
 
-(Add statistics on existing categories here). Given that there are 20 categories for the entire dataset, but there is not a uniform distribution of occurrences. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by taking the top N frequently occurring practices.
+\bigskip
+I use Logistic Regression, SGDClassifier and SVC classifiers and compare the weighted precision, recall and F1 scores. Precision, Recall and F1 scores different metrics are used to assess the performance of classifiers. They are stated mathematically below.
+
+\begin{align*}
+	\text{Precision} &= \frac{\text{True Positive}}{\text{True Positive + False Positive}} \\
+	\text{Recall} &= \frac{\text{True Positive}}{\text{True Positive + False Negative}} \\
+	\text{F1} &= 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision + Recall}}
+\end{align*}
+
+Generally, precision is the preferred metric when the cost of false positives are high, such as detecting spam. If a classifier classifies a non-spam email as spam, the user would lose important information. Whereas recall is preferred when the costs of false negatives are high. For example, if a classifier classifies someone as not having cancer when they actually have cancer, the patient would lose the opportunity for early intervention. F1 is a harmonic mean of precision and recall, and is usually used to find a balance between precision and recall. Since there is neither a high cost for false positives or false negatives, F1 score is primarily used to assess the performance across the top N practices. As the distributions of records across the practices are uneven, I focus on the weighted average of F1 scores.
+
+I also assess the top N performance for both the Tf-IDF and GLoVe word embeddings.
+
+\subsubsection{Sentence level performance - Tf-IDF}
+
+Generally we see that the SVC classifier performance the best across the metrics and across the top N frequently occurring practices. This corresponds with the findings by the researchers as they also found that the SVC classifier produced the best performance.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width = 10cm]{sentence_f1.png}
+	\caption{F1 scores for classifiers for top N occurring practices at sentence level}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width = 10cm]{sentence_precision.png}
+	\caption{Precision scores for classifiers for top N occurring practices at sentence level}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width = 10cm]{sentence_recall.png}
+	\caption{Recall scores for classifiers for top N occurring practices at sentence level}
+\end{figure}
+
+\subsubsection{Sentence level performance - Word embeddings}
+
+\subsubsection{Segment level performance - Tf-IDF}
+
+\subsubsection{Segment level performance - Word embeddings}
+
+
 
 \subsection{Performance of individual classifiers for top 5 practices}
 

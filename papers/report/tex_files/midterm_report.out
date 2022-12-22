@@ -16,6 +16,10 @@
 \BOOKMARK [3][-]{subsubsection.7.1.1}{Sentence level}{subsection.7.1}% 16
 \BOOKMARK [3][-]{subsubsection.7.1.2}{Segment level}{subsection.7.1}% 17
 \BOOKMARK [2][-]{subsection.7.2}{Performance of classifiers for top N practices}{section.7}% 18
-\BOOKMARK [2][-]{subsection.7.3}{Performance of individual classifiers for top 5 practices}{section.7}% 19
-\BOOKMARK [2][-]{subsection.7.4}{XAI visualisation of models}{section.7}% 20
-\BOOKMARK [1][-]{section.8}{Further steps to take in Semester 2}{}% 21
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Sentence level performance - Tf-IDF}{subsection.7.2}% 19
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Sentence level performance - Word embeddings}{subsection.7.2}% 20
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Segment level performance - Tf-IDF}{subsection.7.2}% 21
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Segment level performance - Word embeddings}{subsection.7.2}% 22
+\BOOKMARK [2][-]{subsection.7.3}{Performance of individual classifiers for top 5 practices}{section.7}% 23
+\BOOKMARK [2][-]{subsection.7.4}{XAI visualisation of models}{section.7}% 24
+\BOOKMARK [1][-]{section.8}{Further steps to take in Semester 2}{}% 25

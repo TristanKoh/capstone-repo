@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.15)  22 OCT 2022 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.15)  25 OCT 2022 10:58
 entering extended mode
 **"c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/midterm_report.tex"
 ("c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/tex_files/midterm_report.tex"
@@ -398,28 +398,49 @@ Overfull \hbox (0.63597pt too wide) in paragraph at lines 154--155
 [5] [6] [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 243.
+               Default added (so using `tbp') on input line 245.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 267.
+               Default added (so using `tbp') on input line 269.
 
-[8] [9] [10] ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux")
+[8] [9]
+Overfull \hbox (4.6042pt too wide) in paragraph at lines 398--399
+[]\OT1/cmr/m/n/10.95 I use Lo-gis-tic Re-gres-sion, SGD-Clas-si-fier and SVC clas-si-fiers and com-pare the weighted
+ []
+
+[10]
+<./images//sentence_f1.png, id=190, 449.68pt x 369.38pt>
+File: ./images//sentence_f1.png Graphic file (type png)
+<use ./images//sentence_f1.png>
+Package pdftex.def Info: ./images//sentence_f1.png  used on input line 416.
+(pdftex.def)             Requested size: 284.52756pt x 233.73079pt.
+<./images//sentence_precision.png, id=192, 462.72874pt x 369.38pt>
+File: ./images//sentence_precision.png Graphic file (type png)
+<use ./images//sentence_precision.png>
+Package pdftex.def Info: ./images//sentence_precision.png  used on input line 422.
+(pdftex.def)             Requested size: 284.52756pt x 227.1307pt.
+<./images//sentence_recall.png, id=193, 453.695pt x 369.38pt>
+File: ./images//sentence_recall.png Graphic file (type png)
+<use ./images//sentence_recall.png>
+Package pdftex.def Info: ./images//sentence_recall.png  used on input line 428.
+(pdftex.def)             Requested size: 284.52756pt x 231.651pt.
+ [11 <./images//sentence_f1.png>] [12 <./images//sentence_precision.png>] [13 <./images//sentence_recall.png>] ("c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.aux")
 Package rerunfilecheck Info: File `midterm_report.out' has not changed.
-(rerunfilecheck)             Checksum: A21833BA2C62AB8BC0B92A9EFBD27D4A;1548.
+(rerunfilecheck)             Checksum: B4A31959BBFCD47B65571C5E54C3F317;1944.
  ) 
 Here is how much of TeX's memory you used:
- 7695 strings out of 479697
- 114890 string characters out of 2866183
- 432724 words of memory out of 3000000
- 24580 multiletter control sequences out of 15000+200000
+ 7729 strings out of 479697
+ 115652 string characters out of 2866183
+ 432727 words of memory out of 3000000
+ 24599 multiletter control sequences out of 15000+200000
  413981 words of font info for 67 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 69i,12n,74p,770b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,12n,74p,961b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tristan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.pdf" (10 pages, 196270 bytes).
+Output written on "c:/Users\Tristan\Desktop\Capstone ML and Data privacy\capstone-repo\papers\report\tex_files\midterm_report.pdf" (13 pages, 229620 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
