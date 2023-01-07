@@ -2,3 +2,4 @@ interpret-text
 glove
 interpret_cpu.yaml
 interpret_gpu.yaml
+mysqlclient-1.4.6-cp37-cp37m-win_amd64.whl

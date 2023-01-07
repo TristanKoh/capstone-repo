@@ -7,5 +7,4 @@ notebook
 ipywidgets
 zeugma
 omnixai
-nltk
-torch
+omnixai[nlp]
