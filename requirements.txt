@@ -1,10 +1,8 @@
 pandas
 numpy
+seaborn
 sklearn
 lime
 shap==0.36.0
 notebook
 ipywidgets
-zeugma
-omnixai
-omnixai[nlp]
