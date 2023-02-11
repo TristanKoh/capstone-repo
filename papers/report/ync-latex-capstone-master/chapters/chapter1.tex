@@ -6,33 +6,20 @@
 
 %----------------------------------------------------------------------------------------
 \section{Motivation and significance}
-Natural language forms the bread and butter of the legal industry, as expressed in contracts, judgements and legislation. There has been an increasing trend within the legal industry to adopt more machine learning techniques to automate and assist low level legal analysis. Within the specific context of data privacy, it would be useful to have a tool that assesses the possible data privacy risks of user policies. Such a tool would naturally use NLP techniques. Nevertheless, these tools should still be accessible to the layperson lawyer that might not be trained in data science.
+Natural language forms the bread and butter of the legal industry, as it is expressed in contracts, judgements and legislation. The legal industry has been adopting more machine learning tools to automate and assist low level legal analysis. Worldwide legal tech market revenues were at 27.6 billion USD and is projected to to grow at a compound annual growth rate of 4\% to 35.6 billion USD by 2027 (\cite{statista}). As early as 2018, LawGeex, a contract review startup, compared the performance of lawyers vs LawGeex's machine learning model in reviewing standard template Non-Disclosure Agreements (NDA). The model beat the humans both in terms of accuracy and time, with the model having a 94\% accuracy rate and taking 26 seconds to complete the review. In comparison, the lawyers had an average accuracy of 85\% and took 92 minutes to finish the task (\cite{lawgeex}). 
 
-While NLP techniques have substantially increased in performance in recent years, it has come at the cost of explainability of predictions because of the usage of neural networks which are architecturally more complex than traditional machine learning models. This lack of explainability of neural networks could potentially be a significant hindrance towards their adoption within the legal industry because the lawyer / law firm which uses these models still ultimately bear the responsibility of ensuring that the analysis is legally sound. 
+Like the machine learning model that was trained by LawGeex, most legal tech tools that aim to conduct low level legal analysis use natural language processing (NLP) techniques. NLP is a branch of AI that is concerned with giving computers the ability to understand text and spoken words in much the same way human beings can (\cite{ibm_nlp}). While NLP techniques have substantially increased in performance in recent years, it has come at the cost of explainability of their predictions because of models that are architecturally more complex (\cite{zini2022}). This lack of explainability could potentially be a significant hindrance towards their adoption within the legal industry because the lawyer / law firm which uses these models still ultimately bear the legal responsibility of ensuring that the analysis is legally sound.
 
-However, the intersection in skillset between data science and legal analysis is still nascent and it is unrealistic to expect all legally trained personnel to be trained in data science to the extent required to interpret the predictions of machine learning models without aid.
+Nevertheless, the intersection in skillset between data science and legal analysis is still nascent and it is unrealistic to expect all legally trained personnel to be trained in data science to the extent required to interpret the predictions of machine learning models without aid. Research within the legal NLP space have focused on building higher performing models, but there have been comparatively few papers that assess the explainability of such models. At the same time, explainable AI (XAI) techniques and research have been rising in popularity since 2020 (\cite{linardatos2020}) but have not been specifically applied onto legal text. Therefore, this project aims to bridge the gap between the lawyer and the data scientist by using Explainable AI techniques to explain the predictions of machine learning models. 
 
-Recent research within the legal NLP space have focused on building higher performing models and Text representation, but there have been comparatively few papers that assess the explainability of such models. Therefore, my capstone aims to bridge the gap between the lawyer and the data scientist by using Explainable AI techniques to explain the predictions of machine learning models in the context of predicting data privacy practices of app policies.
+For this capstone, I focus on NLP and XAI in the specific context of data privacy. While I further elaborate why I focus on data privacy in the following sections, briefly speaking, data privacy regulations have seen an increase in the need for organisations to explain the way they collect and process users' data. Therefore this context provides a realistic evaluation of the interpretability of models that are trained on legal texts relating to data privacy.
 
 \subsection{Development and importance of explainable AI in legal technology}
-In this chapter, I will demonstrate a few interesting features of LaTeX, and more importantly, provide examples of Figures, Tables, Equations and Code Snippets.
-These may be easy to deal with on Word, but here it is another story.
-The general idea is to keep these examples, copy-paste them, then modify them to fit your needs.
-If you are seeing this content while reading \texttt{main.pdf}, please load the overall LaTeX project in your LaTeX editor, and open the \texttt{chapters/chaper1.tex}.
-\\
-\\
-Done?
-Ok let us move on then!
-So by now, you should have noticed a few things:
-\begin{itemize}
-  \item Each sentence of the text is on a distinct line. Yet, sentences are still within the same paragraph.
-  \item Backslash is an escape character, used at the beginning of LaTeX commands.
-  \item To end a paragraph (or actually insert a newline), we can use the \textbackslash{}\textbackslash{} command.
-\end{itemize}
-Also now you know how to do a bullet list.
+
+
 
 \subsection{Development and importance of data privacy regulation}
-Chapter contain sections (defined with \textbackslash{}section\{Name of your section\}), subsections (\textbackslash{}subsection).
+
 
 \section{Explanation of the APP-350 Corpus}
 The APP-350 Corpus consists of 350 annotated Android app privacy policies. Each annotation consists of a practice and a modality.
@@ -104,6 +91,7 @@ Since the focus of this capstone is to assess the interpretability of XAI models
 
 \section{Main findings and roadmap}
 
+
 \section{Font Formatting Commands}
 Similarly to Word, LaTeX provides simple formatting, including \textbf{bold}, \textit{italic}, \underline{underlined} and \texttt{ugly stuff}.
 However, no underline or strikethrough by default.
@@ -112,24 +100,6 @@ These last commands work within a specific scope.
 The scope can be specified using \{ and \}, with the \{ placed before the \textbackslash{}size command.
 
 \subsection{Special characters}
-LaTeX uses 10 special characters. Each of these characters has a special meaning.
-\begin{enumerate}
-  \item Ampersand (\&) is used in tables as a cell delimiter.
-  \item Percent sign (\%) is used for commenting a line.
-  \item Dollar sign (\$) is used to switch back/from mathematical notation mode.
-  \item Hash sign (\#) is used to create macros --- you definitely do not want to go more in depth here.
-  \item Underscore (\_ or \textunderscore) is used to indicate a subscript in maths mode, if you use it in text mode ( without using backslash in front to ''escape'' it), your project will not compile anymore. \textbf{You may want to read that twice, and remember it.} It is in a LaTeX template, therefore it must be true.
-  \item Curly brackets (\{ and \}) or bracets are used by LaTeX commands, as you likely already noticed.
-  \item Tilde (\textasciitilde) can be used to create a non-breaking space (so that both words are on the same line).
-  \item Caret/Circumflex/Hat (\textasciicircum) is used to indicate superscript (exponent) in maths mode.
-  \item Backslash (\textbackslash) is used in front of every command. You cannot simply escape it to print it, as \textbackslash{}\textbackslash{} create a new line.
-\end{enumerate}
-If you happen to insert some of these symbols in your text without either escaping (when possible) or using the correct command, your project will likely not compile.
-Thus, you may want to be extra careful about that problem.
-Note: the underscore issue may also be encountered with bibliography.
-So if \texttt{bibtex} displays an error, it may also come from an underscore somewhere in the abstract, DOI or URL field.
-
-
 In that case, simply use \textdollar{} (by the way, note that using the dollar sign in your text switches to mathematical notation. To actually print a dollar sign use the \textbackslash{}textdollar command).
 The equation above has a label, meaning you can refer to it. The numbering system uses the chapter number (in this case 1), then the equation position within the chapter (1 again).
 Example: Equation~\ref{eq:eq1} is an example of an equation in LaTeX{}.
@@ -264,15 +234,6 @@ This table is also now shown in the \hyperref[lst:tabs]{List of Tables} page.
 \\
 \textbf{Anyway, for Tables, using the LaTeX Table Generator is a great option.}
 
-\section{Bibliography}
-LaTeX{} is really convenient to deal with bibliography.
-All your references should be in a \texttt{\textasteriskcentered.bib} file.
-Each reference has a unique key, that you will use to refer to that publication.
-
-You can simply cite nearly anything using the \textbackslash{}cite command.
-You can cite conference papers, e.g. ``WatchIt (\cite{Perrault2013}) is an interactive wristband for smart watches.'' or journal articles, e.g. ``Lopez et al. (\cite{Lopez2017}) ran a public consultation in Mexico''.
-In the first example, the key in the bib file is Perrault2013, see\\
-\includegraphics{figures/bibtexkey}
 
 \subsection{How to get Bibtex References?}
 The easiest way to find the Bibtex snippet you need for a given reference is to use Google Scholar~(\cite{Scholar}).
@@ -305,8 +266,3 @@ You may eventually want to check the citation key to something shorter.
 
 \textbf{You may get unexpected compilation errors with some references. The most common case is that the bibtex entry contains a DOI field, which in turn contains an underscore (\_).}
 If that is the case, simply remove the DOI field (not a great practice but a good workaround).
-
-\section{End of the Tips}
-We are now done with the tips.
-The next chapter contains more explanations and specificites of LaTeX{} and the template used here.
-Good luck with your capstone report.
