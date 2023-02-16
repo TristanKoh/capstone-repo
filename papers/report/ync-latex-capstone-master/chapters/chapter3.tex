@@ -9,6 +9,65 @@ There are three major steps to the capstone: First is data pre-processing, secon
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
+\section{The APP-350 Corpus}
+The APP-350 Corpus consists of 350 annotated Android app privacy policies. The corpus has been used by a previous paper to train models to detect data privacy practices (\cite{zimmeck2019}). Each annotation consists of a practice and a modality. A "privacy practice" (or "practice") describes a certain behaviour of an app that can have privacy implications (e.g., collection of a phone's device identifier or sharing of its location with ad networks). There are two modalities: \texttt{PERFORMED} (i.e. a practice is explicitly described as being performed) and \texttt{NOT\_PERFORMED} (i.e. a practice is explicitly described as not being performed).
+
+As not all practices had modalities, altogether, 57 different categories were annotated. The following is a table of the practices and their descriptions.
+
+\begin{table}[]
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{ll}
+	\hline
+	Data Type                 & Description                                                                                    \\ \hline
+	Contact                   & The policy describes collection of unspecified contact data.                                   \\
+	Contact\_Address\_Book    & The policy describes collection of contact data from a user's address book on the phone.       \\
+	Contact\_City             & The policy describes collection of the user's city.                                            \\ 
+	Contact\_E\_Mail\_Address & The policy describes collection of the user's e-mail.                                          \\
+	Contact\_Password         & The policy describes collection of the user's password.                                        \\
+	Contact\_Phone\_Number    & The policy describes collection of the user's phone number.                                    \\
+	Contact\_Postal\_Address  & The policy describes collection of the user's postal address.                                  \\
+	Contact\_ZIP              & The policy describes collection of the user's ZIP code.                                        \\
+	Demographic               & The policy describes collection of the user's unspecified demographic data.                    \\
+	Demographic\_Age          & The policy describes collection of the user's age (including birth date and age range).        \\
+	Demographic\_Gender       & The policy describes collection of the user's gender.                                          \\
+	Identifier                & The policy describes collection of the user's unspecified identifiers.                         \\
+	Identifier\_Ad\_ID        & The policy describes collection of the user's ad ID (such as the Google Ad ID).                \\
+	Identifier\_Cookie\_or\_similar\_Tech & The policy describes collection of the user's HTTP cookies, flash cookies, pixel tags, or similar identifiers. \\
+	Identifier\_Device\_ID    & The policy describes collection of the user's device ID (such as the Android ID).              \\
+	Identifier\_IMEI          & The policy describes collection of the user's IMEI (International Mobile Equipment Identity).  \\
+	Identifier\_IMSI          & The policy describes collection of the user's IMSI (International Mobile Subscriber Identity). \\
+	Identifier\_IP\_Address   & The policy describes collection of the user's IP address.                                      \\
+	Identifier\_MAC           & The policy describes collection of the user's MAC address.                                     \\
+	Identifier\_Mobile\_Carrier           & The policy describes collection of the user's mobile carrier name or other mobile carrier identifier.          \\
+	Identifier\_SIM\_Serial   & The policy describes collection of the user's SIM serial number.                               \\
+	Identifier\_SSID\_BSSID   & The policy describes collection of the user's SSID or BSSID.                                   \\
+	Location                  & The policy describes collection of the user's unspecified location data.                       \\
+	Location\_Bluetooth       & The policy describes collection of the user's Bluetooth location data.                         \\
+	Location\_Cell\_Tower     & The policy describes collection of the user's cell tower location data.                        \\
+	Location\_GPS             & The policy describes collection of the user's GPS location data.                               \\
+	Location\_IP\_Address     & The policy describes collection of the user's IP location data.                                \\
+	Location\_WiFi            & The policy describes collection of the user's WiFi location data.                              \\
+	SSO                       & The policy describes receiving data from an unspecified single sign on service.                \\
+	Facebook\_SSO             & The policy describes receiving data from the Facebook single sign on service.                 
+	\end{tabular}%
+	}
+	\caption{List of annotated data privacy practices and their descriptions.}
+	\end{table}
+
+
+The APP-350 Corpus was used in a broader project to train machine learning models to conduct a privacy census of 1,035,853 Android apps. In that project, the researchers downloaded the data privacy practices of all apps from the Play Store with more than 350 million installs (which totalled 247 apps) and 103 randomly selected apps with 5 million installs. In total, the researchers collected the data privacy policies of 350 apps.
+
+All 350 policies were annotated by one of the authors, a lawyer with experience in data privacy law. To ensure reliability of annotations, 2 other law students were hired to double annotate 10\% of the corpus. With a mean of Krippendorff's $\alpha = 0.78$\footnote{Krippendorff's $\alpha$ is a measure of agreement, with $\alpha > 0.8$ indicating good agreement, $0.67 <= \alpha <= 0.8$ indicating fair agreement, and $\alpha < 0.67$ indicating doubtful agreement.}, the agreement between the annotations exceeded previous similar research.
+
+\subsection{Rationale for utilising the APP-350 corpus}
+Since the focus of this capstone is to assess the interpretability of XAI models specifically within a legal context, this dataset was chosen for the following reasons:
+\begin{enumerate}
+	\item APP-350 contains real-world data privacy practices as they were scraped from Google PlayStore apps. Thus training XAI models on such a dataset would provide a realistic insight into the extent of which AI models are explainable in the legal context.
+	\item Legal tech companies are also using such datasets to train models as part of their contract / document review products. By using APP-350 to train XAI models, the results can be used as a (simple)\footnote{The datasets used in industry are usually much larger and the models used are more complicated. However, APP-350 would be sufficiently complicated to serve as a toy example at an undergraduate level.} proxy for the explainability of models that are currently used in the industry.
+	\item APP-350 is a labelled dataset, allowing easy validation of results. If an unlabelled dataset was used, unsupervised training would have to be conducted. The performance of the models would likely be much lower because NLP models for specific vocabulary like law are still not as sophisticated as models trained on general vocabulary. Further, there are few law specific labelled datasets to begin with. 
+	\item APP-350 is labelled on both the sentence and segment (i.e. paragraph) level. This provides more granular data for training the AI models. 
+\end{enumerate}
+
 
 \section{Data pre-processing}
 The annotated privacy policies were originally in \texttt{.yml} format, with one \texttt{.yml} file containing one app data privacy policy. As explained above, each data privacy policy is labelled at both the sentence and segment level. The data was restructured from \texttt{.yml} to \texttt{.csv}, with one \texttt{.csv} file containing annotated sentences and the other containing annotated segments. By having two levels of text data for model training, this would provide another dimension to compare model performance on.

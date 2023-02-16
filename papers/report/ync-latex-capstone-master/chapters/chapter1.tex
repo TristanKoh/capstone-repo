@@ -6,83 +6,78 @@
 
 %----------------------------------------------------------------------------------------
 \section{Motivation and significance}
-Natural language forms the bread and butter of the legal industry, as it is expressed in contracts, judgements and legislation. The legal industry has been adopting more machine learning tools to automate and assist low level legal analysis. Worldwide legal tech market revenues were at 27.6 billion USD and is projected to to grow at a compound annual growth rate of 4\% to 35.6 billion USD by 2027 (\cite{statista}). As early as 2018, LawGeex, a contract review startup, compared the performance of lawyers vs LawGeex's machine learning model in reviewing standard template Non-Disclosure Agreements (NDA). The model beat the humans both in terms of accuracy and time, with the model having a 94\% accuracy rate and taking 26 seconds to complete the review. In comparison, the lawyers had an average accuracy of 85\% and took 92 minutes to finish the task (\cite{lawgeex}). More significantly, at the end of 2022, an AI model GPT \footnote{The GPT which was trained by OpenAI forms the foundation of the now famous ChatGPT, which will be mentioned below.} took the US bar examination and got 50\% of the questions correct, and performed at a passing rate for both Evidence and Torts (\cite{bommarito2022}).
+Natural language forms the bread and butter of the legal industry, as it is expressed in contracts, judgements and legislation. The legal industry has been adopting more machine learning tools to automate and assist low level legal analysis. Worldwide legal tech market revenues were at 27.6 billion USD and is projected to to grow at a compound annual growth rate of 4\% to 35.6 billion USD by 2027 (\cite{statista}). As early as 2018, LawGeex, a contract review startup, compared the performance of lawyers vs LawGeex's machine learning model in reviewing standard template Non-Disclosure Agreements (NDA). The model beat the humans both in terms of accuracy and time, with the model having a 94\% accuracy rate and taking 26 seconds to complete the review. In comparison, the lawyers had an average accuracy of 85\% and took 92 minutes to finish the task (\cite{lawgeex}). More significantly, at the end of 2022, OpenAI's AI model GPT (Generative Pre-trained Transformer)\footnote{The GPT forms the foundation of the now famous ChatGPT.} took the US bar examination and got 50\% of the questions correct, and performed at a passing rate for both Evidence and Torts (\cite{bommarito2022}).
 
-Like the models that were trained by LawGeex and OpenAI, most legal tech tools that aim to conduct low level legal analysis use natural language processing (NLP) techniques. NLP is a branch of AI that is concerned with giving computers the ability to understand text and spoken words in much the same way human beings can (\cite{ibm_nlp}). While NLP techniques have substantially increased in performance in recent years, it has come at the cost of explainability of their predictions because of models that are architecturally more complex (\cite{zini2022}). This lack of explainability could potentially be a significant hindrance towards their adoption within the legal industry because the lawyer / law firm which uses these models still ultimately bear the legal responsibility of ensuring that the analysis is legally sound.
+Like the models that were trained by LawGeex and OpenAI, most legal tech tools that conduct low level legal analysis use natural language processing (NLP) techniques. NLP is a branch of AI that gives computers the ability to understand text and spoken words as how human beings would understand (\cite{ibm_nlp}). While NLP techniques have substantially increased in performance in recent years, it has come at the cost of the explainability of their predictions because of models that are architecturally more complex (\cite{zini2022}). This lack of explainability could potentially be a significant hindrance towards NLP's further adoption within the legal industry because the lawyer and the law firm which use these models still ultimately bear the legal responsibility of ensuring that the analysis is legally sound\footnote{For example, r5(2)(c) of the Legal Profession (Professional Conduct) Rules 2015 states that a legal practitioner must act with reasonable diligence and competence in the provision of services to the client. A lawyer that relies on the analysis of legal tech tools and does not understand how the analysis was produced could be considered as lacking in diligence and competence.}.
 
-Nevertheless, the intersection in skillset between data science and legal analysis is still nascent and it is unrealistic to expect all legally trained personnel to be trained in data science to the extent required to interpret the predictions of machine learning models without aid. Research within the legal NLP space have focused on building higher performing models, but there have been comparatively few papers that assess the explainability of such models. At the same time, explainable AI (XAI) techniques and research have been rising in popularity since 2020 (\cite{linardatos2020}) but have not been specifically applied onto legal text. Therefore, this project aims to bridge the gap between the lawyer and the data scientist by using Explainable AI techniques to explain the predictions of machine learning models. 
+Nevertheless, the intersection in skillset between data science and legal analysis is still nascent and it is unrealistic to expect all legally trained personnel to be trained in data science to the extent required to interpret the predictions of machine learning models without aid. At the same time, explainable AI (XAI) techniques and research have been rising in popularity since 2020 (\cite{linardatos2020}) but have not been specifically applied onto legal text. Therefore, this capstone aims to bridge the gap between the lawyer and the data scientist by using XAI techniques to explain the predictions of machine learning models. 
 
-Separately, the widespread collection and use of data by organisations in recent years has led to an increase of regulations governing data privacy. This "datafication" of society includes the "transformation of interactions into data that can be valued and used for predictive analysis". Governments have therefore stepped up their efforts to guarantee privacy, with 145 countries having enacted data protection legislation in 2021 (\cite{gstrein2022}). With more sophisticated regulation comes increased difficulties for organisations to ensure that they are complying with these regulations, and for governments to enforce them. A possible area of legal tech would be tools to aid in the compliance of these regulations. Therefore, I focus on NLP and XAI in the specific context of data privacy. This context provides a realistic evaluation of the interpretability of models that are trained on legal texts relating to data privacy.
+Separately, the widespread collection and use of data by organisations in recent years has led to an increase of regulations governing data privacy. This "datafication" of society includes the "transformation of interactions into data that can be valued and used for predictive analysis". Governments have therefore stepped up their efforts to guarantee privacy, with 145 countries having enacted data protection legislation in 2021 (\cite{gstrein2022}). With more sophisticated regulation comes increased difficulties for organisations to ensure that they are complying with these regulations, and for governments to enforce them. A possible area of legal tech would be tools to aid in the compliance of these regulations. Therefore, I focus on NLP and XAI in the specific context of data privacy. This context provides a realistic evaluation of the interpretability of models that are trained on legal texts relating to data privacy\footnote{All code and analysis used in this capstone can be found at \url{https://github.com/TristanKoh/capstone-repo/}.}.
 
-\subsection{Development and importance of explainable AI in legal technology}
-With the recent release of ChatGPT (\cite{openai}) to the general public at the start of 2023, 
+\subsection{The increasing opacity of NLP and the rise of XAI}
+In NLP, there are inherent difficulties in translating natural language to a mathematical representation that can be understood by the computer. Consider the sentence: "I am cow." Using a Bag-of-Words approach which represents words in terms of their frequency in the sentence, the word "cat" can be represented as:
 
+\begin{lstlisting}
+  cow = [0, 0, 1]
+\end{lstlisting}
 
-\subsection{Development and importance of data privacy regulation}
+Therefore every word in this sentence can be encoded as: 
 
+\begin{lstlisting}
+  I = [1, 0, 0]
+  am = [0, 1, 0]
+  cow = [0, 0, 1]
+\end{lstlisting}
 
-\section{Explanation of the APP-350 Corpus}
-The APP-350 Corpus consists of 350 annotated Android app privacy policies. The corpus has been used by a previous paper to train models to detect data privacy practices (\cite{zimmeck2019}). Each annotation consists of a practice and a modality. A "privacy practice" (or "practice") describes a certain behaviour of an app that can have privacy implications (e.g., collection of a phone's device identifier or sharing of its location with ad networks). There are two modalities: \texttt{PERFORMED} (i.e. a practice is explicitly described as being performed) and \texttt{NOT\_PERFORMED} (i.e. a practice is explicitly described as not being performed).
+Each word can then be represented as a point with $x, y, z$ coordinates in a three-dimensional space. The plane that passes through all three points would be a graphical representation of the sentence "I am cow". Mathematically, the equation $x + y + z - 1 = 0$ describes the sentence. Clearly there is a big difference in abstraction between the original sentence and the mathematical representation of the same sentence! Without knowing the process of how this equation was derived from the sentence, this equation could possibly refer to any other 3D object, such as the surface of a table.
 
-As not all practices had modalities, altogether, 57 different categories were annotated. The following is a table of the practices and their descriptions.
+Further, the Bag-of-Words approach only represents the sentence by the number of occurrences of each word in the sentence. The semantic difference between "I am cat" and "I am cow" (both are four legged animals that are mammals) vs "I am book" and "I am cow" (a cow is a living thing while a book is non-living) is not captured at all by the Bag-of-Words representation\footnote{Furthermore, these two sentences cannot be represented graphically since it introduces a fourth dimension.}. To the computer, "I am cat" and "I am book" are equally different from "I am cow" since both sentences respectively contain an instance of "cat" and "book" which "I am cow" does not contain. In fact, the sentence "I am cow cow" would make sense to the computer even though it makes no sense semantically.
 
-\begin{table}[]
-	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{ll}
-	\hline
-	Data Type                 & Description                                                                                    \\ \hline
-	Contact                   & The policy describes collection of unspecified contact data.                                   \\
-	Contact\_Address\_Book    & The policy describes collection of contact data from a user's address book on the phone.       \\
-	Contact\_City             & The policy describes collection of the user's city.                                            \\ 
-	Contact\_E\_Mail\_Address & The policy describes collection of the user's e-mail.                                          \\
-	Contact\_Password         & The policy describes collection of the user's password.                                        \\
-	Contact\_Phone\_Number    & The policy describes collection of the user's phone number.                                    \\
-	Contact\_Postal\_Address  & The policy describes collection of the user's postal address.                                  \\
-	Contact\_ZIP              & The policy describes collection of the user's ZIP code.                                        \\
-	Demographic               & The policy describes collection of the user's unspecified demographic data.                    \\
-	Demographic\_Age          & The policy describes collection of the user's age (including birth date and age range).        \\
-	Demographic\_Gender       & The policy describes collection of the user's gender.                                          \\
-	Identifier                & The policy describes collection of the user's unspecified identifiers.                         \\
-	Identifier\_Ad\_ID        & The policy describes collection of the user's ad ID (such as the Google Ad ID).                \\
-	Identifier\_Cookie\_or\_similar\_Tech & The policy describes collection of the user's HTTP cookies, flash cookies, pixel tags, or similar identifiers. \\
-	Identifier\_Device\_ID    & The policy describes collection of the user's device ID (such as the Android ID).              \\
-	Identifier\_IMEI          & The policy describes collection of the user's IMEI (International Mobile Equipment Identity).  \\
-	Identifier\_IMSI          & The policy describes collection of the user's IMSI (International Mobile Subscriber Identity). \\
-	Identifier\_IP\_Address   & The policy describes collection of the user's IP address.                                      \\
-	Identifier\_MAC           & The policy describes collection of the user's MAC address.                                     \\
-	Identifier\_Mobile\_Carrier           & The policy describes collection of the user's mobile carrier name or other mobile carrier identifier.          \\
-	Identifier\_SIM\_Serial   & The policy describes collection of the user's SIM serial number.                               \\
-	Identifier\_SSID\_BSSID   & The policy describes collection of the user's SSID or BSSID.                                   \\
-	Location                  & The policy describes collection of the user's unspecified location data.                       \\
-	Location\_Bluetooth       & The policy describes collection of the user's Bluetooth location data.                         \\
-	Location\_Cell\_Tower     & The policy describes collection of the user's cell tower location data.                        \\
-	Location\_GPS             & The policy describes collection of the user's GPS location data.                               \\
-	Location\_IP\_Address     & The policy describes collection of the user's IP location data.                                \\
-	Location\_WiFi            & The policy describes collection of the user's WiFi location data.                              \\
-	SSO                       & The policy describes receiving data from an unspecified single sign on service.                \\
-	Facebook\_SSO             & The policy describes receiving data from the Facebook single sign on service.                 
-	\end{tabular}%
-	}
-	\caption{List of annotated data privacy practices and their descriptions.}
-	\end{table}
+Evidently, even the simplest word representation in NLP poses significant limitations in capturing how humans understand language. Word representations have since progressed tremendously in capturing more semantic meaning, as exemplified by GPT being able to pass certain subjects in the US bar exam. However, to capture such semantic meaning requires more abstraction and further increases the opacity and decreases the interpretability of NLP models. Hence, there is an inverse relationship between performance / opacity and interpretability.  This is typically described as the "black-box" problem of AI: only the inputs and outputs to the system can be observed, but how the model derived the outputs from the inputs is not known (or at least not easily understood) because it is difficult to know exactly how the model is programmed (\cite{zednik2021}).
 
+Therefore, XAI for NLP has been designed to combat such issues. Explainability in this context is seen "from the perspective of an end user whose goal is to understand how a model arrives at its result" (\cite{danilevsky2020}). Danilvesky et al. categorises XAI for NLP according to two categories: explainability techniques and visualisation techniques. Explainability techniques are ways to generate the raw mathematical justifications that led to the final explanation presented to the end users. For example, feature importance is one technique that identifies the most important words / phrases in the sentence that led to the prediction. In contrast, visualisation techniques are different ways to present these mathematical justifications to the end user. One example is a saliency heatmap, which highlights the combination of words / phrases that gave rise to the prediction at differing intensities\footnote{More details about these XAI techniques would be covered later in \autoref{chapter2}.}. (add figures here to show the differences) Overall, XAI aims to reduce the abstraction and opacity of NLP techniques so that end users can understand how the model arrived at a decision, which makes the "black-box" more of a "glass-box".
 
-The APP-350 Corpus was used in a broader project to train machine learning models to conduct a privacy census of 1,035,853 Android apps. In that project, the researchers downloaded the data privacy practices of all apps from the Play Store with more than 350 million installs (which totalled 247 apps) and 103 randomly selected apps with 5 million installs. In total, the researchers collected the data privacy policies of 350 apps.
+\subsection{The importance of XAI in legal technology}
+The release of ChatGPT (\cite{openai}) to the general public at the start of 2023 probably has the potential of automating some areas of substantive legal writing and analysis. I documented the following (non-exhaustive) legal writing abilities of ChatGPT\footnote{The question prompts and the names of the specific writing techniques were adapted from \cite{bishop2023computer}.}: 
+\begin{enumerate}
+  \item Explaining technical concepts. 
+  \begin{itemize}
+    \item[Q:] Explain what the eggshell skull rule means in negligence law. 
+    \item[A:] The "eggshell skull" rule is a principle in tort law that states that a defendant is liable for all damages suffered by a plaintiff, even if the plaintiff's injuries are unusually severe or unexpected. The rule means that the defendant must take the plaintiff as they find them, meaning that they cannot argue that the plaintiff's injuries would not have been so severe if they were a "normal" person.
+  \end{itemize}
+  \item Adjusting for level and tone. 
+  \begin{itemize}
+    \item[Q:] Explain the eggshell skull rule like I'm five.
+    \item[A:] The "eggshell skull" rule means that if someone hurts another person, they are responsible for all the harm they cause, even if the person they hurt is more easily hurt than most people. It's like if you accidentally hit someone on the head and they have a very fragile skull, you would be responsible for all the damage, even if it's worse than if you hit someone with a normal skull. So you have to be extra careful not to hurt someone, even if they seem more delicate or breakable than most people.
+  \end{itemize}
+  \item Expanding on a particular view. 
+  \begin{itemize}
+    \item[Q:] I think that the eggshell skull rule is unfair. Can you make that sound academic?
+    \item[A:] Certainly. One could argue that the eggshell skull rule is inequitable, as it places an undue burden on defendants to anticipate and accommodate a plaintiff's pre-existing condition or vulnerability. By imposing liability on defendants for the full extent of the harm caused, regardless of the extent to which the harm would have been suffered by a normal person, the rule ignores the fact that the plaintiff's fragile condition is not the fault of the defendant. Additionally, the rule may incentivize plaintiffs to conceal pre-existing conditions, thereby undermining the efficiency of the tort system.
+    \item[Q:] How did you think of that answer?
+    \item[A:] As an AI language model, I was programmed to provide responses based on a given prompt. In this case, I generated a response to your prompt based on my training data and my understanding of the English language.
+  \end{itemize} 
+\end{enumerate}
 
-All 350 policies were annotated by one of the authors, a lawyer with experience in data privacy law. To ensure reliability of annotations, 2 other law students were hired to double annotate 10\% of the corpus. With a mean of Krippendorff's $\alpha = 0.78$\footnote{Krippendorff's $\alpha$ is a measure of agreement, with $\alpha > 0.8$ indicating good agreement, $0.67 <= \alpha <= 0.8$ indicating fair agreement, and $\alpha < 0.67$ indicating doubtful agreement.}, the agreement between the annotations exceeded previous similar research.
+From the first three questions that were posed to ChatGPT, ChatGPT would probably have the ability to automate (or at least assist) areas of legal practice that concern explaining legal concepts to clients and low level critique of these concepts. These capabilities are not new as seen when GPT took the US bar examination, but ChatGPT has made such capabilities conveniently accessible from the browser. However, as exemplified from the last question, ChatGPT is unable to explain how it generated a particular argument unlike how a lawyer might explain themselves. Therein lies the issue of opacity with fully relying on models such as ChatGPT in legal practice. Further prompting of ChatGPT asking how it formulated the argument led it to provide a list of academic papers as its sources. While this gives the end-user the ability to conduct further research, it does not fully explain how it generated the argument based on each paper, such as how each paper supports its argument\footnote{Nevertheless, the level of specificity of writing is dependent on the context and not all legal writing needs such level of specificity.}.
 
-For more information about how the Corpus was annotated, see the paper “MAPS: Scaling Privacy Compliance Analysis to a Million Apps”, Section 3, Pg 69 to 70. 
-
-\subsection{Rationale for utilising the APP-350 corpus}
-
-Since the focus of this capstone is to assess the interpretability of XAI models specifically within a legal context, this dataset was chosen for the following reasons:
+Opacity is particularly salient in the context of the legal decision making. The main purpose of legal judgements and argument (and related law making activity such as legislative debates by Parliament) is to give convincing justification for decisions and acts. Three challenges arise because of opacity of the models when AI is used for legal analysis (\cite{chesterman2021_opacity}): 
 
 \begin{enumerate}
-	\item APP-350 contains real-world data privacy practices as they were scraped from Google PlayStore apps. Thus training XAI models on such a dataset would provide a realistic insight into the extent of which AI models are explainable in the legal context.
-	\item Legal tech companies are also using such datasets to train models as part of their contract / document review products. By using APP-350 to train XAI models, the results can be used as a (simple)\footnote{The datasets used in industry are usually much larger and the models used are more complicated. However, APP-350 would be sufficiently complicated to serve as a toy example at an undergraduate level.} proxy for the explainability of models that are currently used in the industry.
-	\item APP-350 is a labelled dataset, allowing easy validation of results. If an unlabelled dataset was used, unsupervised training would have to be conducted. The performance of the models would likely be much lower because NLP models for specific vocabulary like law are still not as sophisticated as models trained on general vocabulary. Further, there are few law specific labelled datasets to begin with. 
-	\item APP-350 is labelled on both the sentence and segment (i.e. paragraph) level. This provides more granular data for training the AI models. 
+  \item Inferior decision making as opacity reduces opportunities to identify wrongdoing or areas of reasoning which can be improved. 
+  
+  For example, typically higher courts overturn lower courts' decisions not because the higher courts disagrees with the outcome but the reasoning of the lower courts' decision. Assuming that AI models become so sophisticated to write court judgements, if there was no explanation of the model's judgement, there would be no basis for the higher courts to overturn lower judgements. Further, in common law systems, judges' decisions become part of case law. One of the benefits of case law is that it can be developed incrementally based on real facts, so that the law actually meets the needs of the parties. If AI is used to write these decisions and there is opacity how the generated judgement was produced, there would be fewer opportunities to improve the law since the reasoning is not stated. Hence the development of the law would also be impeded.
+
+  \item Impermissible decisions such as reifying discrimination as opacity masks such decisions with the "objective" nature of AI predictions.
+  
+  A common example of this is predicting which bank customers would default on their loans. Banks usually conduct this assessment using AI models based on differing demographic metrics, such as employment status and income level. If the model assesses the customer are likely to default, the bank would probably not allow the customer to loan. In some jurisdictions, anti-discrimination legislation prevents banks from making such assessments with regard to race, gender, colour, religion etc\footnote{Such as the Fair Housing Act in the US that makes it unlawful for any lender to discriminate against any person because of race, colour, religion, national origin, sex, handicap or familial status (\cite{fairhousingact}).}. If opaque AI models are used, it would not be possible to ascertain whether these protected characteristics are actually used in the prediction. It could be possible to justify a decision not to lend because the model made a prediction that the customer is likely to default, and this prediction could be seen as "objective" as it was made by an algorithm rather than a human even though it actually perpetuates racism (for example). Hence, opacity in AI models pose further societal and enforcement issues.
+
+  \item Legitimacy of decisions since the legal system depends as much on the justification of decisions as it does on the decisions themselves.
 \end{enumerate}
+
+Research within the legal NLP space have focused on building higher performing models, but there have been comparatively few papers that assess the explainability of such models.
+
+\subsection{The importance of XAI in data privacy regulation}
 
 
 \section{Problem statement}
@@ -109,19 +104,6 @@ t = a \times log_{2}(\frac{D}{W} + 1) + b
 The only difference? The \textasteriskcentered{}  symbol in the \textbackslash{}begin\{equation\textbf{\textasteriskcentered}\}.
 This also works with Figures and Tables.
 
-\section{Code Snippets}
-
-\begin{lstlisting}
-  int main (int argc, char ** argc)
-  {
-    printf("Hello world!\n");
-    return 0;
-  }
-\end{lstlisting}
-
-This template uses the \texttt{lstlisting} package, which not the best for code snippets.
-However, it works without any problem, while other packages may have compatibility issues.
-Feel free to try alternative solutions, the best one being \texttt{minted}.
 
 \section{Figures}
 Figures are a bit tricky with LaTeX {\tiny(not as much as tables though)}.
@@ -201,36 +183,3 @@ The easiest way to deal with tables in LaTeX is to use some online tools.
 My favorite so far: \url{https://www.tablesgenerator.com/}
 
 \textbf{Anyway, for Tables, using the LaTeX Table Generator is a great option.}
-
-
-\subsection{How to get Bibtex References?}
-The easiest way to find the Bibtex snippet you need for a given reference is to use Google Scholar~(\cite{Scholar}).
-On the main page, type the name of the paper you are looking for.
-\\
-
-In the results page, locate the paper:
-\begin{figure}[!h]
-  \centering
-    \includegraphics[width=0.9\textwidth]{figures/scholarrefexample.png}
-  \caption{Example of result on Scholar}
-  \label{fig:scholarref}
-\end{figure}
-
-On the last line of the result (shown in Figure~\ref{fig:scholarref}), there is a \textbf{''} symbol.
-Clicking on it will display a pop-up.
-\begin{figure}[!h]
-  \centering
-    \includegraphics[width=0.7\textwidth]{figures/scholarpopup.png}
-  \caption{Pop-up window with the possible citations}
-  \label{fig:scholarpopup}
-\end{figure}
-\\
-
-At the bottom (see Figure~\ref{fig:scholarpopup}), you will notice a ``Bibtex'' link. Click on it.
-Scholar will then display a small block of text starting with @ symbol.
-Copy and paste this snippet in your \texttt{biblio.bib} and you are done.
-You may eventually want to check the citation key to something shorter.
-\\
-
-\textbf{You may get unexpected compilation errors with some references. The most common case is that the bibtex entry contains a DOI field, which in turn contains an underscore (\_).}
-If that is the case, simply remove the DOI field (not a great practice but a good workaround).
