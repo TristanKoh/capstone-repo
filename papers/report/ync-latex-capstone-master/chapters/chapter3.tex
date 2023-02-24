@@ -1,156 +1,160 @@
 % Chapter Template
 
-\chapter{Methodology} % Main chapter title
+\chapter{Exploratory Data Analysis (EDA)} % Main chapter title
 
-\label{Chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+\label{chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-There are three major steps to the capstone: First is data pre-processing, second is model training and applying XAI techniques to visualise their predictions ("Model Training and XAI visualisation"), and the last is to survey law and non-law students about whether they find these explanations interpretable ("Survey to assess interpretability"). I describe the specific methodology of these parts below.
+As mentioned above, there are two levels of text data: Sentence level and segment level. As I train and compare the performance of models on both levels of data, I also conducted the EDA on both levels.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-\section{The APP-350 Corpus}
-The APP-350 Corpus consists of 350 annotated Android app privacy policies. The corpus has been used by a previous paper to train models to detect data privacy practices (\cite{zimmeck2019}). Each annotation consists of a practice and a modality. A "privacy practice" (or "practice") describes a certain behaviour of an app that can have privacy implications (e.g., collection of a phone's device identifier or sharing of its location with ad networks). There are two modalities: \texttt{PERFORMED} (i.e. a practice is explicitly described as being performed) and \texttt{NOT\_PERFORMED} (i.e. a practice is explicitly described as not being performed).
 
-As not all practices had modalities, altogether, 57 different categories were annotated. The following is a table of the practices and their descriptions.
+\section{Sentence level}
+
+There are a total of 18829 annotated sentences. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the sentence level. 
 
 \begin{table}[]
-	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{ll}
-	\hline
-	Data Type                 & Description                                                                                    \\ \hline
-	Contact                   & The policy describes collection of unspecified contact data.                                   \\
-	Contact\_Address\_Book    & The policy describes collection of contact data from a user's address book on the phone.       \\
-	Contact\_City             & The policy describes collection of the user's city.                                            \\ 
-	Contact\_E\_Mail\_Address & The policy describes collection of the user's e-mail.                                          \\
-	Contact\_Password         & The policy describes collection of the user's password.                                        \\
-	Contact\_Phone\_Number    & The policy describes collection of the user's phone number.                                    \\
-	Contact\_Postal\_Address  & The policy describes collection of the user's postal address.                                  \\
-	Contact\_ZIP              & The policy describes collection of the user's ZIP code.                                        \\
-	Demographic               & The policy describes collection of the user's unspecified demographic data.                    \\
-	Demographic\_Age          & The policy describes collection of the user's age (including birth date and age range).        \\
-	Demographic\_Gender       & The policy describes collection of the user's gender.                                          \\
-	Identifier                & The policy describes collection of the user's unspecified identifiers.                         \\
-	Identifier\_Ad\_ID        & The policy describes collection of the user's ad ID (such as the Google Ad ID).                \\
-	Identifier\_Cookie\_or\_similar\_Tech & The policy describes collection of the user's HTTP cookies, flash cookies, pixel tags, or similar identifiers. \\
-	Identifier\_Device\_ID    & The policy describes collection of the user's device ID (such as the Android ID).              \\
-	Identifier\_IMEI          & The policy describes collection of the user's IMEI (International Mobile Equipment Identity).  \\
-	Identifier\_IMSI          & The policy describes collection of the user's IMSI (International Mobile Subscriber Identity). \\
-	Identifier\_IP\_Address   & The policy describes collection of the user's IP address.                                      \\
-	Identifier\_MAC           & The policy describes collection of the user's MAC address.                                     \\
-	Identifier\_Mobile\_Carrier           & The policy describes collection of the user's mobile carrier name or other mobile carrier identifier.          \\
-	Identifier\_SIM\_Serial   & The policy describes collection of the user's SIM serial number.                               \\
-	Identifier\_SSID\_BSSID   & The policy describes collection of the user's SSID or BSSID.                                   \\
-	Location                  & The policy describes collection of the user's unspecified location data.                       \\
-	Location\_Bluetooth       & The policy describes collection of the user's Bluetooth location data.                         \\
-	Location\_Cell\_Tower     & The policy describes collection of the user's cell tower location data.                        \\
-	Location\_GPS             & The policy describes collection of the user's GPS location data.                               \\
-	Location\_IP\_Address     & The policy describes collection of the user's IP location data.                                \\
-	Location\_WiFi            & The policy describes collection of the user's WiFi location data.                              \\
-	SSO                       & The policy describes receiving data from an unspecified single sign on service.                \\
-	Facebook\_SSO             & The policy describes receiving data from the Facebook single sign on service.                 
-	\end{tabular}%
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lrrrr}
+	\toprule
+									  practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
+	\midrule
+	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &    2107 &             25.389654 &                    22.0 &           11.2\% \\
+			   Contact\_E\_Mail\_Address\_1stParty &    2106 &             28.651472 &                    25.0 &           11.2\% \\
+							 Location\_1stParty &    1514 &             29.159181 &                    24.0 &           8.1\% \\
+	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &    1250 &             27.318400 &                    24.0 &           6.6\% \\
+				Identifier\_IP\_Address\_1stParty &    1005 &             30.913433 &                    27.0 &           5.3\% \\
+				 Contact\_Phone\_Number\_1stParty &     970 &             29.117526 &                    25.0 &           5.2\% \\
+				 Identifier\_Device\_ID\_1stParty &     697 &             32.377331 &                    28.0 &           3.7\% \\
+			   Contact\_Postal\_Address\_1stParty &     597 &             28.907873 &                    26.0 &           3.2\% \\
+										   SSO &     504 &             32.565476 &                    28.0 &           2.7\% \\
+					  Demographic\_Age\_1stParty &     428 &             33.074766 &                    26.0 &           2.3\% \\
+	\bottomrule
+	\end{tabular}
 	}
-	\caption{List of annotated data privacy practices and their descriptions.}
+	\caption{Summary statistics for top 10 occurring practices at sentence level.}
 	\end{table}
 
+	\begin{table}[]
+		\resizebox{\textwidth}{!}{
+		\begin{tabular}{lrrrr}
+		\toprule
+								practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
+		\midrule
+		Identifier\_Mobile\_Carrier\_3rdParty &      35 &             47.057143 &                    30.0 &           0.19\% \\
+					Contact\_ZIP\_3rdParty &      34 &             40.176471 &                    41.0 &           0.18\% \\
+		Identifier\_SSID\_BSSID\_1stParty &      33 &             28.060606 &                    24.0 &           0.18\% \\
+			  Contact\_Password\_3rdParty &      33 &             24.181818 &                    20.0 &           0.18\% \\
+					Contact\_City\_3rdParty &      24 &             18.000000 &                    14.0 &           0.13\% \\
+		Contact\_Address\_Book\_3rdParty &      17 &             39.647059 &                    34.0 &           0.1\% \\
+			  Identifier\_IMSI\_1stParty &      13 &             48.153846 &                    44.0 &           0.07\% \\
+		Identifier\_SIM\_Serial\_3rdParty &       5 &             41.200000 &                    54.0 &           0.03\% \\
+			  Identifier\_IMSI\_3rdParty &       4 &             54.250000 &                    47.5 &           0.02\% \\
+		Identifier\_SSID\_BSSID\_3rdParty &       2 &             65.500000 &                    65.5 &           0.01\% \\
+		\bottomrule
+		\end{tabular}
+		}
+		\caption{Summary statistics for bottom 10 frequently occurring practices.}
+		\end{table}
 
-The APP-350 Corpus was used in a broader project to train machine learning models to conduct a privacy census of 1,035,853 Android apps. In that project, the researchers downloaded the data privacy practices of all apps from the Play Store with more than 350 million installs (which totalled 247 apps) and 103 randomly selected apps with 5 million installs. In total, the researchers collected the data privacy policies of 350 apps.
+        
+In total, the top 10 frequently occurring practices make up approximately 60\% of the dataset. The bottom 10 frequently occurring practices make up approximately 1\% of the dataset.
 
-All 350 policies were annotated by one of the authors, a lawyer with experience in data privacy law. To ensure reliability of annotations, 2 other law students were hired to double annotate 10\% of the corpus. With a mean of Krippendorff's $\alpha = 0.78$\footnote{Krippendorff's $\alpha$ is a measure of agreement, with $\alpha > 0.8$ indicating good agreement, $0.67 <= \alpha <= 0.8$ indicating fair agreement, and $\alpha < 0.67$ indicating doubtful agreement.}, the agreement between the annotations exceeded previous similar research.
+According to Table 4 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words. This could indicate similar sentence complexity across the practices.
 
-\subsection{Rationale for utilising the APP-350 corpus}
-Since the focus of this capstone is to assess the interpretability of XAI models specifically within a legal context, this dataset was chosen for the following reasons:
-\begin{enumerate}
-	\item APP-350 contains real-world data privacy practices as they were scraped from Google PlayStore apps. Thus training XAI models on such a dataset would provide a realistic insight into the extent of which AI models are explainable in the legal context.
-	\item Legal tech companies are also using such datasets to train models as part of their contract / document review products. By using APP-350 to train XAI models, the results can be used as a (simple)\footnote{The datasets used in industry are usually much larger and the models used are more complicated. However, APP-350 would be sufficiently complicated to serve as a toy example at an undergraduate level.} proxy for the explainability of models that are currently used in the industry.
-	\item APP-350 is a labelled dataset, allowing easy validation of results. If an unlabelled dataset was used, unsupervised training would have to be conducted. The performance of the models would likely be much lower because NLP models for specific vocabulary like law are still not as sophisticated as models trained on general vocabulary. Further, there are few law specific labelled datasets to begin with. 
-	\item APP-350 is labelled on both the sentence and segment (i.e. paragraph) level. This provides more granular data for training the AI models. 
-\end{enumerate}
-
-
-\section{Data pre-processing}
-The annotated privacy policies were originally in \texttt{.yml} format, with one \texttt{.yml} file containing one app data privacy policy. As explained above, each data privacy policy is labelled at both the sentence and segment level. The data was restructured from \texttt{.yml} to \texttt{.csv}, with one \texttt{.csv} file containing annotated sentences and the other containing annotated segments. By having two levels of text data for model training, this would provide another dimension to compare model performance on.
+\begin{table}
+	\centering
+	\begin{tabular}{lrr}
+		\toprule
+		{} &  sentence\_length\_mean &  sentence\_length\_median \\
+		\midrule
+		count &             10.000000 &               10.000000 \\
+		mean  &             29.747511 &               25.500000 \\
+		std   &              2.468191 &                1.900292 \\
+		min   &             25.389654 &               22.000000 \\
+		25\%   &             28.715572 &               24.250000 \\
+		50\%   &             29.138353 &               25.500000 \\
+		75\%   &             32.011357 &               26.750000 \\
+		max   &             33.074766 &               28.000000 \\
+		\bottomrule
+		\end{tabular}
+		\caption{Summary sentence statistics for top 10 frequently occurring practices.}
+	\end{table}
+	
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Model training and XAI visualisation}
+\section{Segment level}
 
-As the original researchers used the same dataset to train classifiers to predict on unseen data privacy policies, I adopt their training methodology and model choice as a guide for this capstone. 
+There are in total 21623 segments. However, there are 11422 segments without any annotated practice. Hence there are 10201 annotated segments. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the segment level.
 
-The original researchers feature engineered the data as follows (Page 71 to 72): 
+\begin{table}[htb]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lrrrr}
+	\toprule
+									  practice &  counts &  segment\_length\_mean &  segment\_length\_median &  counts\_percentage \\
+	\midrule
+			  Contact\_E\_Mail\_Address\_1stParty &    1105 &            84.118552 &                   72.0 &              10.83 \\
+	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &     858 &            81.913753 &                   68.5 &               8.41 \\
+							Location\_1stParty &     821 &            89.794153 &                   70.0 &               8.05 \\
+				Identifier\_IP\_Address\_1stParty &     590 &            96.984746 &                   73.0 &               5.78 \\
+				Contact\_Phone\_Number\_1stParty &     565 &            90.371681 &                   67.0 &               5.54 \\
+	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &     524 &           100.339695 &                   86.5 &               5.14 \\
+				Identifier\_Device\_ID\_1stParty &     446 &            96.704036 &                   72.0 &               4.37 \\
+			  Contact\_Postal\_Address\_1stParty &     364 &            85.598901 &                   69.5 &               3.57 \\
+										  SSO &     274 &            99.463504 &                   86.5 &               2.69 \\
+					  Demographic\_Age\_1stParty &     259 &            96.200772 &                   80.0 &               2.54 \\
+	\bottomrule
+	\end{tabular}
+	}
+	\caption{Summary statistics of top 10 frequently occurring practices by segment.}
+  \end{table}
 
-\begin{enumerate}
-	\item Tokenisation: Lowercase all characters, remove non-ASCII characters, no stemming, normalisation of whitespace and punctuation, unigrams and bigrams.
-	\item Word representation: Union of TF-IDF and manually crafted features. The manually crafted features consist of Boolean values indicating the presence or absence of indicative strings the researchers observed in the data.
-\end{enumerate}
+  \begin{table}[htb]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lrrrr}
+	\toprule
+							  practice &  counts &  segment\_length\_mean &  segment\_length\_median &  counts\_percentage \\
+	\midrule
+			  Identifier\_IMEI\_3rdParty &      23 &           115.347826 &                   93.0 &               0.23 \\
+	Identifier\_Mobile\_Carrier\_3rdParty &      21 &           142.000000 &                  130.0 &               0.21 \\
+			Contact\_Password\_3rdParty &      18 &            70.555556 &                   65.0 &               0.18 \\
+		Identifier\_SSID\_BSSID\_1stParty &      16 &            86.062500 &                   71.0 &               0.16 \\
+		Contact\_Address\_Book\_3rdParty &      14 &           296.928571 &                   78.5 &               0.14 \\
+			  Identifier\_IMSI\_1stParty &      11 &            92.363636 &                   78.0 &               0.11 \\
+				Contact\_City\_3rdParty &       8 &           100.500000 &                  104.0 &               0.08 \\
+		Identifier\_SIM\_Serial\_3rdParty &       3 &            85.333333 &                   65.0 &               0.03 \\
+			  Identifier\_IMSI\_3rdParty &       3 &            62.333333 &                   65.0 &               0.03 \\
+		Identifier\_SSID\_BSSID\_3rdParty &       2 &           105.500000 &                  105.5 &               0.02 \\
+	\bottomrule
+	\end{tabular}
+	}
+	\caption{Summary statistics for bottom 10 frequently occurring practices.}
+  \end{table}
 
-Individual classifiers were then trained for every policy classification. For all the classifications (except for four categories), they trained a model using the scikit-learn SVC implementation with a linear kernel, with five-fold cross validation. For the four policy classifications, word-based rule classifiers were used instead because of the limited number of training data.
+The top 10 practices make up approximately 57\% of the dataset. The bottom 10 practices make up approximately 1.2\% of the dataset.
 
-(Add performance of researchers' models here.)
+According to Table 7 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 6.7 words and the median 7.2 words. This could indicate similar segment complexity across the practices.
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{lrr}
+	\toprule
+	{} &  segment\_length\_mean &  segment\_length\_median \\
+	\midrule
+	count &            10.000000 &              10.000000 \\
+	mean  &            92.148979 &              74.500000 \\
+	std   &             6.683275 &               7.230337 \\
+	min   &            81.913753 &              67.000000 \\
+	25\%   &            86.647714 &              69.625000 \\
+	50\%   &            93.286227 &              72.000000 \\
+	75\%   &            96.914568 &              78.250000 \\
+	max   &           100.339695 &              86.500000 \\
+	\bottomrule
+	\end{tabular}
+	\caption{Summary segment statistics for top 10 frequently occurring practices.}
+  \end{table}
 
-
-\subsection{Proposed model training methodology}
-
-There are three main components to the model training methodology: Text representation, ML model, and XAI package used to explain the trained model.
-
-%-----------------------------------
-%	SUBSUBSECTION 1
-%-----------------------------------
-
-\subsubsection{Text representation}
-
-Computers cannot understand text directly and have to be converted into some kind of quantitative data. Therefore in NLP, text representations are methods to represent text as numeric or continuous vectors. This step is done before the model is trained. I use Tf-IDF (term frequency - inverse document frequency) and GloVe word embeddings as the text representations.
-
-The Tf-IDF metric for a word in a document is calculated by multiplying two different metrics:
-
-\begin{enumerate}
-	\item Term frequency (TF) of a word in a document. This is the number of times the word appears in a document.
-	\item Inverse document frequency (IDF) of the word across a set of documents. This is calculated by taking the total number of documents and dividing it by the number of documents that contain the specific word. This calculates the rarity of the term across all the documents. The closer the IDF of a word is to 0, the more common the word is.
-\end{enumerate}
-
-Mathematically, the Tf-IDF score for the word $t$ in the document $d$ from the document set $D$ can be stated as such:
-
-\[tf-idf(t, d, D) = tf(t, d) \cdot idf(t, D)\]
-where 
-\begin{align*}
-	tf(t, d) &= log(1 + freq(t, d )) \\
-	idf(t, D) &= log\left(\frac{N}{count(d \in D : t \in d)}\right)
-\end{align*}
-
-While Tf-IDF is easy to calculate, one of its limitations is that it is a purely count-based metric. Tf-IDF does not take into account the context of the word. For example, Tf-IDF would not be able to capture the semantic relationship between words. Word embeddings try to overcome this issue with count-based metrics like Tf-IDF. Word embeddings are vector representation of words, such that the vectors closer to each other in a vector space are similar in their semantic meaning.\footnote{https://becominghuman.ai/mathematical-introduction-to-glove-word-embedding-60f24154e54c}
-
-GloVe is one type of word embeddings (more information to be added)
-
-%-----------------------------------
-%	SUBSUBSECTION 2
-%-----------------------------------
-
-\subsubsection{Model choice}
-As the researchers found that the SVC classifier produces the best performance, I use SVC as well. In all, I use the following models:
-\begin{enumerate}
-	\item Logistic regression
-	\item SVC
-	\item Ensemble classifiers (AdaBoost, GradientBoost, Random Forest)
-\end{enumerate}
-
-Logistic regression functions as a baseline classifier for its simplicity. SGDClassifier functions a possible alternative to SVC since the SGDClassifier can use a linear SVM loss function. Ensemble classifiers are included to provide a wider range of models to compare performance.
-
-The two broad types of AI models that are usually used are classical machine learning models (such as logistic regression and tree-based classifiers) and neural networks. Though recent advances in NLP are in the field of neural networks \footnote{State of the art NLP models include BERT and ELMo.}, I chose to focus only on classical ML models to reduce the possible complexity of the capstone, as the field of NLP by itself produces models that are usually more complex than models trained on quantitative variables. Explaining neural networks used for NLP would be a much more complex task compared to explaining classical ML models.
-
-Further, as the APP-350 corpus only contains (insert number here) datapoints, there is insufficient data to train neural networks. Generally, neural networks require (add number here) datapoints to perform well.
-
-%-----------------------------------
-%	SUBSUBSECTION 3
-%-----------------------------------
-\subsubsection{XAI method and package}
-
-Local Interpretable Model-agnostic Explanations (LIME) is used in this capstone because it can be fitted to any model and is one of the few XAI packages that is easily implementable. 
-
-(some description of how LIME works here)

@@ -1,160 +1,58 @@
 % Chapter Template
 
-\chapter{Exploratory Data Analysis (EDA)} % Main chapter title
+\chapter{Performance of models} % Main chapter title
 
-\label{Chapter4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+\label{chapter4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-As mentioned above, there are two levels of text data: Sentence level and segment level. As I train and compare the performance of models on both levels of data, I also conducted the EDA on both levels.
+As seen in Table 2 and Table 5 above, there is an uneven distribution of records across the practices. Further, the bottom 10 frequently occurring practices for both sentence and segment level only contains about 2 to 35 records for each practice. Given that there are in total 57 practices for the entire dataset, and there is not a uniform distribution of occurrences. Training models on all 57 practices would likely lead to low performance since there are not enough records for all 57 practices. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by first assessing the performance of the models for the top N (where $3<= N <= 10$) frequently occurring practices at both the sentence and segment level.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Sentence level}
+\section{Models used and classification metrics}
 
-There are a total of 18829 annotated sentences. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the sentence level. 
+I use Logistic Regression, SGDClassifier and SVC classifiers and compare the weighted precision, recall and F1 scores. Precision, Recall and F1 scores different metrics are used to assess the performance of classifiers. They are stated mathematically below.
 
-\begin{table}[]
-	\resizebox{\textwidth}{!}{
-	\begin{tabular}{lrrrr}
-	\toprule
-									  practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
-	\midrule
-	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &    2107 &             25.389654 &                    22.0 &           11.2\% \\
-			   Contact\_E\_Mail\_Address\_1stParty &    2106 &             28.651472 &                    25.0 &           11.2\% \\
-							 Location\_1stParty &    1514 &             29.159181 &                    24.0 &           8.1\% \\
-	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &    1250 &             27.318400 &                    24.0 &           6.6\% \\
-				Identifier\_IP\_Address\_1stParty &    1005 &             30.913433 &                    27.0 &           5.3\% \\
-				 Contact\_Phone\_Number\_1stParty &     970 &             29.117526 &                    25.0 &           5.2\% \\
-				 Identifier\_Device\_ID\_1stParty &     697 &             32.377331 &                    28.0 &           3.7\% \\
-			   Contact\_Postal\_Address\_1stParty &     597 &             28.907873 &                    26.0 &           3.2\% \\
-										   SSO &     504 &             32.565476 &                    28.0 &           2.7\% \\
-					  Demographic\_Age\_1stParty &     428 &             33.074766 &                    26.0 &           2.3\% \\
-	\bottomrule
-	\end{tabular}
-	}
-	\caption{Summary statistics for top 10 occurring practices at sentence level.}
-	\end{table}
+\begin{align*}
+	\text{Precision} &= \frac{\text{True Positive}}{\text{True Positive + False Positive}} \\
+	\text{Recall} &= \frac{\text{True Positive}}{\text{True Positive + False Negative}} \\
+	\text{F1} &= 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision + Recall}}
+\end{align*}
 
-	\begin{table}[]
-		\resizebox{\textwidth}{!}{
-		\begin{tabular}{lrrrr}
-		\toprule
-								practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
-		\midrule
-		Identifier\_Mobile\_Carrier\_3rdParty &      35 &             47.057143 &                    30.0 &           0.19\% \\
-					Contact\_ZIP\_3rdParty &      34 &             40.176471 &                    41.0 &           0.18\% \\
-		Identifier\_SSID\_BSSID\_1stParty &      33 &             28.060606 &                    24.0 &           0.18\% \\
-			  Contact\_Password\_3rdParty &      33 &             24.181818 &                    20.0 &           0.18\% \\
-					Contact\_City\_3rdParty &      24 &             18.000000 &                    14.0 &           0.13\% \\
-		Contact\_Address\_Book\_3rdParty &      17 &             39.647059 &                    34.0 &           0.1\% \\
-			  Identifier\_IMSI\_1stParty &      13 &             48.153846 &                    44.0 &           0.07\% \\
-		Identifier\_SIM\_Serial\_3rdParty &       5 &             41.200000 &                    54.0 &           0.03\% \\
-			  Identifier\_IMSI\_3rdParty &       4 &             54.250000 &                    47.5 &           0.02\% \\
-		Identifier\_SSID\_BSSID\_3rdParty &       2 &             65.500000 &                    65.5 &           0.01\% \\
-		\bottomrule
-		\end{tabular}
-		}
-		\caption{Summary statistics for bottom 10 frequently occurring practices.}
-		\end{table}
+Generally, precision is the preferred metric when the cost of false positives are high, such as detecting spam. If a classifier classifies a non-spam email as spam, the user would lose important information. Whereas recall is preferred when the costs of false negatives are high. For example, if a classifier classifies someone as not having cancer when they actually have cancer, the patient would lose the opportunity for early intervention. F1 is a harmonic mean of precision and recall, and is usually used to find a balance between precision and recall. Since there is neither a high cost for false positives or false negatives, F1 score is primarily used to assess the performance across the top N practices. As the distributions of records across the practices are uneven, I focus on the weighted average of F1 scores.
 
-        
-In total, the top 10 frequently occurring practices make up approximately 60\% of the dataset. The bottom 10 frequently occurring practices make up approximately 1\% of the dataset.
+I also assess the top N performance for both the Tf-IDF and GLoVe word embeddings.
 
-According to Table 4 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words. This could indicate similar sentence complexity across the practices.
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Sentence level performance - TfIDF}
 
-\begin{table}
-	\centering
-	\begin{tabular}{lrr}
-		\toprule
-		{} &  sentence\_length\_mean &  sentence\_length\_median \\
-		\midrule
-		count &             10.000000 &               10.000000 \\
-		mean  &             29.747511 &               25.500000 \\
-		std   &              2.468191 &                1.900292 \\
-		min   &             25.389654 &               22.000000 \\
-		25\%   &             28.715572 &               24.250000 \\
-		50\%   &             29.138353 &               25.500000 \\
-		75\%   &             32.011357 &               26.750000 \\
-		max   &             33.074766 &               28.000000 \\
-		\bottomrule
-		\end{tabular}
-		\caption{Summary sentence statistics for top 10 frequently occurring practices.}
-	\end{table}
-	
+Generally we see that the SVC classifier performance the best across the metrics and across the top N frequently occurring practices. This corresponds with the findings by the researchers as they also found that the SVC classifier produced the best performance.
+
+(add figures here)
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+
+\subsection{Sentence level performance - GloVe embeddings}
+
+%-----------------------------------
+%	SUBSECTION 3
+%-----------------------------------
+
+\subsection{Segment level performance - TfIDF}
+
+%-----------------------------------
+%	SUBSECTION 4
+%-----------------------------------
+
+\subsection{Segment level performance - GloVe embeddings}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Segment level}
-
-There are in total 21623 segments. However, there are 11422 segments without any annotated practice. Hence there are 10201 annotated segments. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the segment level.
-
-\begin{table}[htb]
-	\resizebox{\textwidth}{!}{
-	\begin{tabular}{lrrrr}
-	\toprule
-									  practice &  counts &  segment\_length\_mean &  segment\_length\_median &  counts\_percentage \\
-	\midrule
-			  Contact\_E\_Mail\_Address\_1stParty &    1105 &            84.118552 &                   72.0 &              10.83 \\
-	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &     858 &            81.913753 &                   68.5 &               8.41 \\
-							Location\_1stParty &     821 &            89.794153 &                   70.0 &               8.05 \\
-				Identifier\_IP\_Address\_1stParty &     590 &            96.984746 &                   73.0 &               5.78 \\
-				Contact\_Phone\_Number\_1stParty &     565 &            90.371681 &                   67.0 &               5.54 \\
-	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &     524 &           100.339695 &                   86.5 &               5.14 \\
-				Identifier\_Device\_ID\_1stParty &     446 &            96.704036 &                   72.0 &               4.37 \\
-			  Contact\_Postal\_Address\_1stParty &     364 &            85.598901 &                   69.5 &               3.57 \\
-										  SSO &     274 &            99.463504 &                   86.5 &               2.69 \\
-					  Demographic\_Age\_1stParty &     259 &            96.200772 &                   80.0 &               2.54 \\
-	\bottomrule
-	\end{tabular}
-	}
-	\caption{Summary statistics of top 10 frequently occurring practices by segment.}
-  \end{table}
-
-  \begin{table}[htb]
-	\resizebox{\textwidth}{!}{
-	\begin{tabular}{lrrrr}
-	\toprule
-							  practice &  counts &  segment\_length\_mean &  segment\_length\_median &  counts\_percentage \\
-	\midrule
-			  Identifier\_IMEI\_3rdParty &      23 &           115.347826 &                   93.0 &               0.23 \\
-	Identifier\_Mobile\_Carrier\_3rdParty &      21 &           142.000000 &                  130.0 &               0.21 \\
-			Contact\_Password\_3rdParty &      18 &            70.555556 &                   65.0 &               0.18 \\
-		Identifier\_SSID\_BSSID\_1stParty &      16 &            86.062500 &                   71.0 &               0.16 \\
-		Contact\_Address\_Book\_3rdParty &      14 &           296.928571 &                   78.5 &               0.14 \\
-			  Identifier\_IMSI\_1stParty &      11 &            92.363636 &                   78.0 &               0.11 \\
-				Contact\_City\_3rdParty &       8 &           100.500000 &                  104.0 &               0.08 \\
-		Identifier\_SIM\_Serial\_3rdParty &       3 &            85.333333 &                   65.0 &               0.03 \\
-			  Identifier\_IMSI\_3rdParty &       3 &            62.333333 &                   65.0 &               0.03 \\
-		Identifier\_SSID\_BSSID\_3rdParty &       2 &           105.500000 &                  105.5 &               0.02 \\
-	\bottomrule
-	\end{tabular}
-	}
-	\caption{Summary statistics for bottom 10 frequently occurring practices.}
-  \end{table}
-
-The top 10 practices make up approximately 57\% of the dataset. The bottom 10 practices make up approximately 1.2\% of the dataset.
-
-According to Table 7 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 6.7 words and the median 7.2 words. This could indicate similar segment complexity across the practices.
-
-\begin{table}[htb]
-	\centering
-	\begin{tabular}{lrr}
-	\toprule
-	{} &  segment\_length\_mean &  segment\_length\_median \\
-	\midrule
-	count &            10.000000 &              10.000000 \\
-	mean  &            92.148979 &              74.500000 \\
-	std   &             6.683275 &               7.230337 \\
-	min   &            81.913753 &              67.000000 \\
-	25\%   &            86.647714 &              69.625000 \\
-	50\%   &            93.286227 &              72.000000 \\
-	75\%   &            96.914568 &              78.250000 \\
-	max   &           100.339695 &              86.500000 \\
-	\bottomrule
-	\end{tabular}
-	\caption{Summary segment statistics for top 10 frequently occurring practices.}
-  \end{table}
+\section{Performance of individual classifiers for top 5 practices}
 
