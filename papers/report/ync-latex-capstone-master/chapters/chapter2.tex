@@ -1,12 +1,5 @@
 \chapter{Literature review and methodology} % Main chapter title
-
-
 \label{chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1}
-
-%----------------------------------------------------------------------------------------
-We can reference other chapters, for example, here we refer to Chapter~\ref{chapter1}.
-
-%----------------------------------------------------------------------------------------
 
 % Define some commands to keep the formatting separated from the content
 \newcommand{\keyword}[1]{\textbf{#1}}
@@ -17,140 +10,67 @@ We can reference other chapters, for example, here we refer to Chapter~\ref{chap
 
 %----------------------------------------------------------------------------------------
 
-%-----------------------------------
-%	SECTION 1
-%-----------------------------------
-\section{Literature review}
-\subsection{Training models for NLP}
-(\cite{katz_nlp_legal})
-%-----------------------------------
-%	SECTION 2
-%-----------------------------------
-
-\subsection{XAI methods for NLP}
-Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
-
-%-----------------------------------
-%	SECTION 3
-%-----------------------------------
-
-\subsection{Evaluating the effectiveness of XAI methods}
-(\cite{doshi-velez2017})
-
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-
-\subsubsection{User validation of explanations}
-(\cite{gorski2021})
-(\cite{rosenfeld2021})
-
-\section{Methodology}
-There are three major steps to the capstone: First is data pre-processing, second is model training and applying XAI techniques to visualise their predictions ("Model Training and XAI visualisation"), and the last is to survey law and non-law students about whether they find these explanations interpretable ("Survey to assess interpretability"). I describe the specific methodology of these parts below.
+There are four major components to this capstone: The dataset, model training, application of XAI techniques to the trained models and evaluating the effectiveness of these XAI techniques. I provide a literature review and describe the chosen methodology of these components below.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-\subsection{The APP-350 Corpus}
+\section{Dataset: The APP-350 Corpus}
 \label{app350_corpus}
-The APP-350 Corpus consists of 350 annotated Android app privacy policies. The corpus has been used by a previous paper to train models to detect data privacy practices (\cite{zimmeck2019}). Each annotation consists of a practice and a modality. A "privacy practice" (or "practice") describes a certain behaviour of an app that can have privacy implications (e.g., collection of a phone's device identifier or sharing of its location with ad networks). There are two modalities: \texttt{PERFORMED} (i.e. a practice is explicitly described as being performed) and \texttt{NOT\_PERFORMED} (i.e. a practice is explicitly described as not being performed).
-
-As not all practices had modalities, altogether, 57 different categories were annotated. The following is a table of the practices and their descriptions.
+The APP-350 Corpus consists of 350 annotated Android app privacy policies. Each data practice ("practice") consists of a data type and a modality. A data type describes a certain behaviour of an app that can have privacy implications (e.g. collection of a phone's device identifier or sharing of its location with ad networks). There are two modalities: \texttt{PERFORMED} (i.e. a practice is explicitly described as being performed) and \texttt{NOT\_PERFORMED} (i.e. a practice is explicitly described as not being performed). Altogether, 57 different practices were annotated. As not all practices had sufficient numbers to train models of sufficient baseline performance, I focused on training models on the top 5 practices by frequency\footnote{The performance of the models of the top $n$ frequently occurring practices is later elaborated on in Chapter~\ref{chapter4}.}. The data types and modalities that are used for the rest of the capstone are provided in Table~\ref{tab:data_practices} and ~\ref{tab:modalities}.
 
 \begin{table}[]
 	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{ll}
+	\begin{tabular}{|l|p{0.8\linewidth}|}
 	\hline
-	Data Type                 & Description                                                                                    \\ \hline
-	Contact                   & The policy describes collection of unspecified contact data.                                   \\
-	Contact\_Address\_Book    & The policy describes collection of contact data from a user's address book on the phone.       \\
-	Contact\_City             & The policy describes collection of the user's city.                                            \\ 
-	Contact\_E\_Mail\_Address & The policy describes collection of the user's e-mail.                                          \\
-	Contact\_Password         & The policy describes collection of the user's password.                                        \\
-	Contact\_Phone\_Number    & The policy describes collection of the user's phone number.                                    \\
-	Contact\_Postal\_Address  & The policy describes collection of the user's postal address.                                  \\
-	Contact\_ZIP              & The policy describes collection of the user's ZIP code.                                        \\
-	Demographic               & The policy describes collection of the user's unspecified demographic data.                    \\
-	Demographic\_Age          & The policy describes collection of the user's age (including birth date and age range).        \\
-	Demographic\_Gender       & The policy describes collection of the user's gender.                                          \\
-	Identifier                & The policy describes collection of the user's unspecified identifiers.                         \\
-	Identifier\_Ad\_ID        & The policy describes collection of the user's ad ID (such as the Google Ad ID).                \\
-	Identifier\_Cookie\_or\_similar\_Tech & The policy describes collection of the user's HTTP cookies, flash cookies, pixel tags, or similar identifiers. \\
-	Identifier\_Device\_ID    & The policy describes collection of the user's device ID (such as the Android ID).              \\
-	Identifier\_IMEI          & The policy describes collection of the user's IMEI (International Mobile Equipment Identity).  \\
-	Identifier\_IMSI          & The policy describes collection of the user's IMSI (International Mobile Subscriber Identity). \\
-	Identifier\_IP\_Address   & The policy describes collection of the user's IP address.                                      \\
-	Identifier\_MAC           & The policy describes collection of the user's MAC address.                                     \\
-	Identifier\_Mobile\_Carrier           & The policy describes collection of the user's mobile carrier name or other mobile carrier identifier.          \\
-	Identifier\_SIM\_Serial   & The policy describes collection of the user's SIM serial number.                               \\
-	Identifier\_SSID\_BSSID   & The policy describes collection of the user's SSID or BSSID.                                   \\
-	Location                  & The policy describes collection of the user's unspecified location data.                       \\
-	Location\_Bluetooth       & The policy describes collection of the user's Bluetooth location data.                         \\
-	Location\_Cell\_Tower     & The policy describes collection of the user's cell tower location data.                        \\
-	Location\_GPS             & The policy describes collection of the user's GPS location data.                               \\
-	Location\_IP\_Address     & The policy describes collection of the user's IP location data.                                \\
-	Location\_WiFi            & The policy describes collection of the user's WiFi location data.                              \\
-	SSO                       & The policy describes receiving data from an unspecified single sign on service.                \\
-	Facebook\_SSO             & The policy describes receiving data from the Facebook single sign on service.                 
+	\textbf{Data Type}                 & \textbf{Description}                                                                                    \\ \hline
+	Contact\_E\_Mail\_Address & The policy describes collection of the user's e-mail.                                          \\ \hline
+	Identifier\_Cookie\_or\_similar\_Tech & The policy describes collection of the user's HTTP cookies, flash cookies, pixel tags, or similar identifiers. \\ \hline
+	Identifier\_IP\_Address   & The policy describes collection of the user's IP address.                                      \\ \hline
+	Location                  & The policy describes collection of the user's unspecified location data.                       \\ \hline
 	\end{tabular}%
 	}
-	\caption{List of annotated data privacy practices and their descriptions.}
-	\end{table}
+	\caption{List of top 5 data practices and their descriptions.}
+	\label{tab:data_practices}
+\end{table}
 
+\begin{table}[]
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|l|p{0.8\linewidth}|}
+	\hline
+	\textbf{Party}                 & \textbf{Description}                                                                                    \\ \hline
+	1stParty & The policy describes collection of data from the user by the app publisher.                                          \\ \hline
+	3rdParty & The policy describes collection of data from the user by ad networks, analytics services, or other third parties. \\ \hline
+	\end{tabular}%
+	}
+	\caption{List of modalities.}
+	\label{tab:modalities}
+\end{table}
 
-The APP-350 Corpus was used in a broader project to train machine learning models to conduct a privacy census of 1,035,853 Android apps. In that project, the researchers downloaded the data privacy practices of all apps from the Play Store with more than 350 million installs (which totalled 247 apps) and 103 randomly selected apps with 5 million installs. In total, the researchers collected the data privacy policies of 350 apps.
+The APP-350 Corpus was annotated and used in a broader project to train machine learning models to conduct a privacy census of 1,035,853 Android apps (\cite{zimmeck2019}). The authors downloaded the data privacy practices of all apps from the Play Store with more than 350 million installs (which totalled 247 apps) and 103 randomly selected apps with 5 million installs. In total, the researchers collected the data privacy policies of 350 apps. All 350 policies were annotated by one of the authors, a lawyer with experience in data privacy law. To ensure reliability of annotations, 2 other law students were hired to double annotate 10\% of the corpus. With a mean of Krippendorff's $\alpha = 0.78$\footnote{Krippendorff's $\alpha$ is a measure of agreement, with $\alpha > 0.8$ indicating good agreement, $0.67 <= \alpha <= 0.8$ indicating fair agreement, and $\alpha < 0.67$ indicating doubtful agreement.}, the agreement between the annotations exceeded previous similar research.
 
-All 350 policies were annotated by one of the authors, a lawyer with experience in data privacy law. To ensure reliability of annotations, 2 other law students were hired to double annotate 10\% of the corpus. With a mean of Krippendorff's $\alpha = 0.78$\footnote{Krippendorff's $\alpha$ is a measure of agreement, with $\alpha > 0.8$ indicating good agreement, $0.67 <= \alpha <= 0.8$ indicating fair agreement, and $\alpha < 0.67$ indicating doubtful agreement.}, the agreement between the annotations exceeded previous similar research.
-
-Since the focus of this capstone is to assess the interpretability of XAI models specifically within a legal context, this dataset was chosen for the following reasons:
-\begin{enumerate}
-	\item APP-350 contains real-world data privacy practices as they were scraped from Google PlayStore apps. Thus training XAI models on such a dataset would provide a realistic insight into the extent of which AI models are explainable in the legal context.
-	\item Legal tech companies are also using such datasets to train models as part of their contract / document review products. By using APP-350 to train XAI models, the results can be used as a (simple)\footnote{The datasets used in industry are usually much larger and the models used are more complicated. However, APP-350 would be sufficiently complicated to serve as a toy example at an undergraduate level.} proxy for the explainability of models that are currently used in the industry.
-	\item APP-350 is a labelled dataset, allowing easy validation of results. If an unlabelled dataset was used, unsupervised training would have to be conducted. The performance of the models would likely be much lower because NLP models for specific vocabulary like law are still not as sophisticated as models trained on general vocabulary. Further, there are few law specific labelled datasets to begin with. 
-	\item APP-350 is labelled on both the sentence and segment (i.e. paragraph) level. This provides more granular data for training the AI models. 
-\end{enumerate}
-
+Since the focus of this capstone is to assess the explainability of XAI methods specifically within a data privacy context, this dataset was chosen as it contains real-world data privacy practices as these policies were scraped from Google PlayStore apps. Thus training XAI models on such a dataset would provide a realistic insight as to the performance of these models. APP-350 is also a labelled dataset, allowing easy validation of results. If an unlabelled dataset was used, unsupervised training would have to be conducted. The performance of such models would likely be much lower because NLP models for specific vocabulary like law are still not as sophisticated as models trained on general vocabulary. Further, there are few data privacy specific labelled datasets to begin with. 
 
 \subsection{Data pre-processing}
 The annotated privacy policies were originally in \texttt{.yml} format, with one \texttt{.yml} file containing one app data privacy policy. As explained above, each data privacy policy is labelled at both the sentence and segment level. The data was restructured from \texttt{.yml} to \texttt{.csv}, with one \texttt{.csv} file containing annotated sentences and the other containing annotated segments. By having two levels of text data for model training, this would provide another dimension to compare model performance on.
 
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
+\section{NLP models and text representations}
+\subsection{Literature review}
+Engineering tasks for legal NLP can be categorised according to tasks such as classification (i.e. such as classifying the data practice of a sentence, which is what this capstone is about) and text generation (i.e. generating legal documents). In terms of models and word representations used for these tasks, there seems to have been two waves of models that are based off neural networks: the first includes word2vec and doc2vec which were introduced around 2014, while the second includes ELMo (Embeddings from Language Models), BERT (Bidirectional Encoder Representations from Transformers) and GPT that were introduced around and after 2017 (\cite{katz_nlp_legal}). The latter more advanced models are first trained on the text corpus to generate text representations and then fine tuned for a specific task, such as classification. As alluded to earlier, the main challenge facing NLP is capturing the contextual and semantic meaning of language in a machine-understandable way. These latter models use slightly different architectures, training data and fine tuning to capture more contextual information from the text corpus.
 
-\subsection{Model training and XAI visualisation}
+However, while these neural networks are undoubtedly more sophisticated, if simpler models are able to produce reasonable performance, these models should be used instead. Much depends on the complexity of the text corpus, and the engineering task that the models are made for. In the case of the APP-350 corpus, Zimmeck et al. were able to use classical machine learning models instead of neural networks to achieve reasonable performance to classify sentences according to data practices. Neural networks are contrasted with classical machine learning models that include logistic regression, decision trees, and support vector machines. Classical models are much less complex and therefore more explainable than neural networks, and require much less data to train. Given that the focus is on explainability, and in any case the APP-350 corpus is probably too limited to train neural networks\footnote{For example, BERT was trained on the whole Wikipedia (and more), while GPT-2, the second iteration of GPT, was trained on 45 terabytes of data.}, I focus only on training classical models for prediction in this capstone.
 
-As the original researchers used the same dataset to train classifiers to predict on unseen data privacy policies, I adopt their training methodology and model choice as a guide for this capstone. 
+Aside from classical models for prediction, there is also another category of "classical" text representations. These are those that fall under sparse vector representation (e.g. Bag-of-Words, Tf-IDF), as compared to the more contemporary and dense vector representation mentioned above that are produced using neural networks (e.g. word2vec, BERT or GPT). These sparse vector representations are purely count based and use one-hot encoding to convert a sentence into a vector, similar to the example mentioned in Section~\ref{chap1:increasing_opacity}. For dense vector representations, unlike models used for engineering tasks which have to be trained specifically for the task, it is possible to use pre-trained vectors, and then feed these as features into a classical model. Being pre-trained, this overcomes the limitations of the dataset and computing resources. However, explainability could still be affected compared to sparse vector representation.
 
-The original researchers feature engineered the data as follows (Page 71 to 72): 
+For the models trained on the APP-350 corpus, Zimmeck et al. used a union of Tf-IDF vectors and manually crafted features which were Boolean values indicating the presence or absence of frequently occurring keywords that occurred in each data practice. They also conducted an optional pre-processing sentence filtering step which removes a segment's sentence from further processing if the sentence does not contain keywords associated with the data practice. This improved the performance of about half their classifiers. In terms of tokenisation, they lowercased all characters, removed non-ASCII characters, did not conduct stemming, normalised whitespace and punctuation, and created unigrams and bigrams. For prediction, individual classifiers were then trained for every data practice. For all the classifications (except for four categories), they trained SVC (support vector classification) models using the scikit-learn's implementation with a linear kernel, with five-fold cross validation. For the four policy classifications, word-based rule classifiers were used instead because of the limited number of training data.
 
-\begin{enumerate}
-	\item Tokenisation: Lowercase all characters, remove non-ASCII characters, no stemming, normalisation of whitespace and punctuation, unigrams and bigrams.
-	\item Word representation: Union of TF-IDF and manually crafted features. The manually crafted features consist of Boolean values indicating the presence or absence of indicative strings the researchers observed in the data.
-\end{enumerate}
+For the top 5 data practices that this capstone is concerned about, Zimmeck et al. were able to achieve F1 scores ranging from 77\% (Identifier Cookie 1st Party), 91\% (Contact Email Address 1st Party) to around 90\% for location related data practices\footnote{Not all the data practices were used in training ($n = 188$) and testing ($n = 100$) these classifiers, so there is no reference performance for some of the data practices that are used in this capstone.}.
 
-Individual classifiers were then trained for every policy classification. For all the classifications (except for four categories), they trained a model using the scikit-learn SVC implementation with a linear kernel, with five-fold cross validation. For the four policy classifications, word-based rule classifiers were used instead because of the limited number of training data.
+\subsection{Methodology}
+Since classical models have performed well for the APP-350 corpus as seen above, I use Zimmeck et al.'s model choice and text representation of Tf-IDF as a guide for this capstone. However, for the sake of evaluating different types of word representations, I also use a pre-trained dense vector representation, GloVe (Global Vectors). 
 
-(Add performance of researchers' models here.)
-
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-
-
-\subsection{Proposed model training methodology}
-
-There are three main components to the model training methodology: Text representation, ML model, and XAI package used to explain the trained model.
-
-%-----------------------------------
-%	SUBSUBSECTION 1
-%-----------------------------------
-
-\subsubsection{Text representation}
-
-Computers cannot understand text directly and have to be converted into some kind of quantitative data. Therefore in NLP, text representations are methods to represent text as numeric or continuous vectors. This step is done before the model is trained. I use Tf-IDF (term frequency - inverse document frequency) and GloVe word embeddings as the text representations.
-
-The Tf-IDF metric for a word in a document is calculated by multiplying two different metrics:
+\subsubsection{Text representations}
+I use Tf-IDF (term frequency - inverse document frequency) and GloVe as the two text representations. The idea behind Tf-IDF is that words that are frequent in a document but rare across the rest of the corpus are more important in distinguishing the document from others. The Tf-IDF metric for a word in a document is calculated by multiplying two different metrics:
 
 \begin{enumerate}
 	\item Term frequency (TF) of a word in a document. This is the number of times the word appears in a document.
@@ -166,107 +86,55 @@ where
 	idf(t, D) &= log\left(\frac{N}{count(d \in D : t \in d)}\right)
 \end{align*}
 
-While Tf-IDF is easy to calculate, one of its limitations is that it is a purely count-based metric. Tf-IDF does not take into account the context of the word. For example, Tf-IDF would not be able to capture the semantic relationship between words. Word embeddings try to overcome this issue with count-based metrics like Tf-IDF. Word embeddings are vector representation of words, such that the vectors closer to each other in a vector space are similar in their semantic meaning.\footnote{https://becominghuman.ai/mathematical-introduction-to-glove-word-embedding-60f24154e54c}
+While Tf-IDF is easy to calculate, one of its limitations is that it is a purely count-based metric. Tf-IDF does not take into account the context of the word. For example, Tf-IDF does not capture the semantic relationship between words such as the difference between King and Queen, vs King and Pauper. In this regard, dense vector representations are able to better model such semantic differences mathematically in the following way: $\text{King} - \text{Man} + \text{Woman} = \text{Queen}$ (\cite{vector_differences_2015}). Hence, to compare whether a more sophisticated text representation is more explainable, I chose to use pre-trained GloVe word embeddings as well. For convenience, GloVe was chosen since the pre-trained vectors are freely available for use.
 
-GloVe is one type of word embeddings (more information to be added)
-
-%-----------------------------------
-%	SUBSUBSECTION 2
-%-----------------------------------
+Strictly speaking, GloVe is an unsupervised learning algorithm for obtaining vector representations for words. The length-50 vectors used in this capstone are pre-trained by Stanford researchers using this algorithm on Wikipedia and news articles (\cite{pennington2014glove}). While the specifics of GloVe are out of scope for this capstone, the main idea behind GloVe is to learn text representations by considering the statistics of words that occur together in a corpus. These statistics captures how frequently different pairs of words occur together in the text. GloVe builds a matrix from these statistics, where each element represents the number of times two words appear together in the same context. The matrix is then factorized into a product of two low-rank matrices, where each row in one of the matrices represents a vector representation of a word. This results in dense, fixed-size vector representations for each word in the corpus that encode their meaning and relationships with other words in the corpus.
 
 \subsubsection{Model choice}
-As the researchers found that the SVC classifier produces the best performance, I use SVC as well. In all, I use the following models:
-\begin{enumerate}
-	\item Logistic regression
-	\item SVC
-	\item Ensemble classifiers (AdaBoost, GradientBoost, Random Forest)
-\end{enumerate}
-
-Logistic regression functions as a baseline classifier for its simplicity. SGDClassifier functions a possible alternative to SVC since the SGDClassifier can use a linear SVM loss function. Ensemble classifiers are included to provide a wider range of models to compare performance.
-
-The two broad types of AI models that are usually used are classical machine learning models (such as logistic regression and tree-based classifiers) and neural networks. Though recent advances in NLP are in the field of neural networks \footnote{State of the art NLP models include BERT and ELMo.}, I chose to focus only on classical ML models to reduce the possible complexity of the capstone, as the field of NLP by itself produces models that are usually more complex than models trained on quantitative variables. Explaining neural networks used for NLP would be a much more complex task compared to explaining classical ML models.
-
-Further, as the APP-350 corpus only contains (insert number here) datapoints, there is insufficient data to train neural networks. Generally, neural networks require (add number here) datapoints to perform well.
+As Zimmeck et al. found that SVC produces the best performance, I use SVC as well. I also use scikitlearn's logistic regression as a baseline classifier for its simplicity. While I also trained ensemble classifiers (AdaBoost, GradientBoost, Random Forest), the performance of these models were roughly the same or less than logistic regression and SVC. Hence, I excluded them from the rest of the capstone.
 
 %-----------------------------------
-%	SUBSUBSECTION 3
+%	SECTION 2
 %-----------------------------------
-\subsubsection{XAI method and package}
+\section{XAI methods for NLP}
+\subsection{Literature review}
+XAI for NLP have two broad characteristics: Local vs global, and self-explaining vs post-hoc. Thus, there are four possible categories of XAI as seen in Table~\ref{tab:xai_methods}.
 
-Local Interpretable Model-agnostic Explanations (LIME) is used in this capstone because it can be fitted to any model and is one of the few XAI packages that is easily implementable. 
+\begin{table}[!ht]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|l|p{0.8\linewidth}|}
+	\hline
+	\textbf{Category}      & \textbf{Description}                                                                                                                            \\ \hline
+	Local Post-Hoc         & Explain a single prediction by performing additional operations (after the model has made a prediction)                                         \\ \hline
+	Local Self-Explaining  & Explain a single prediction using the model itself (calculated from information made available from the model as part of making the prediction) \\ \hline
+	Global Post-Hoc        & Perform additional operations to explain the entire model's predictive reasoning                                                                \\ \hline
+	Global Self-Explaining & Use the predictive model itself to explain the entire model's predictive reasoning                                                              \\ \hline
+	\end{tabular}
+	}
+	\caption{The four categories of XAI for NLP, adapted from \cite{danilevsky2020}.}
+	\label{tab:xai_methods}
+	\end{table}
 
-(some description of how LIME works here)
+Some classical models such as logistic regression can be considered local and global self-explaining models. The coefficients of the features show the relative importance of each feature towards making the prediction. These coefficients are generated as part of the model training process and make it self-explaining. Logistic regression is also globally explainable since it models a deterministic function (the logit), and this function serves as the "reason" for any prediction by the model. However, neural networks are not self-explaining by nature, in part as they are non-linear and are fitted onto high-dimensional data, in additional to the large numbers of parameters that make it difficult to ascertain the interaction between different features when a prediction is made. Therefore, post-hoc methods of explanability have to be used instead. 
 
-\subsection{Tables}
+One such example is LIME (Local Interpretable Model-agonistic Explanations) (\cite{lime}). LIME is a local post-hoc XAI method that is also model agnostic. Given a trained NLP model, LIME generates a set of perturbations on the input sentence by randomly replacing some of the words with similar words. These perturbed samples are passed to the NLP model for prediction. Using these predictions, LIME fits a simple self-explaining model (such as a linear regression or a decision tree) to explain these predictions. Through this local self-explaining model, LIME is able to generate the contribution of each feature to a particular prediction for a single sample. Figure~\ref{fig:lime_sample} is an example of how an explanation of LIME can be visualised. Since LIME is a local, post-hoc method that uses a surrogate model to generate explanations, one disadvantage is that it may not fully represent how the underlying model actually made its prediction. Nevertheless, LIME has been found to be able to generate explanations that are faithful to the underlying model even just by using linear models for the surrogate model (\cite{lime}).
 
-Tables are an important way of displaying your results, below is an example table which was generated with this code:
-
-{\small
-\begin{verbatim}
-\begin{table}
-\caption{The effects of treatments X and Y on the four groups studied.}
-\label{tab:treatments}
-\centering
-\begin{tabular}{l l l}
-\toprule
-\tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment Y} \\
-\midrule
-1 & 0.2 & 0.8\\
-2 & 0.17 & 0.7\\
-3 & 0.24 & 0.75\\
-4 & 0.68 & 0.3\\
-\bottomrule\\
-\end{tabular}
-\end{table}
-\end{verbatim}
-}
-
-\begin{table}
-\caption{The effects of treatments X and Y on the four groups studied.}
-\label{tab:treatments}
-\centering
-\begin{tabular}{l l l}
-\toprule
-\tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment Y} \\
-\midrule
-1 & 0.2 & 0.8\\
-2 & 0.17 & 0.7\\
-3 & 0.24 & 0.75\\
-4 & 0.68 & 0.3\\
-\bottomrule\\
-\end{tabular}
-\end{table}
-
-You can reference tables with \verb|\ref{<label>}| where the label is defined within the table environment. See \file{Chapter1.tex} for an example of the label and citation (e.g. Table~\ref{tab:treatments}).
-
-\subsection{Figures}
-
-There will hopefully be many figures in your thesis (that should be placed in the \emph{Figures} folder). The way to insert figures into your thesis is to use a code template like this:
-\begin{verbatim}
-\begin{figure}
-\centering
-\includegraphics{Figures/Electron}
-\decoRule
-\caption[An Electron]{An electron (artist's impression).}
-\label{fig:Electron}
-\end{figure}
-\end{verbatim}
-Also look in the source file. Putting this code into the source file produces the picture of the electron that you can see in the figure below.
-
-\begin{figure}[th]
-\centering
-\includegraphics{figures/electron}
-\decoRule
-\caption[An Electron]{An electron (artist's impression).}
-\label{fig:Electron}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/explanations_visualisations/section_4a/Picture1.png}
+	\caption{Annotated sample visualisation of LIME}   
+    \label{fig:lime_sample}
 \end{figure}
 
-Sometimes figures don't always appear where you write them in the source. The placement depends on how much space there is on the page for the figure. Sometimes there is not enough room to fit a figure directly where it should go (in relation to the text) and so \LaTeX{} puts it at the top of the next page. Positioning figures is the job of \LaTeX{} and so you should only worry about making them look good!
+Explainability techniques should also be distinguished from visualisation techniques (\cite{danilevsky2020}). Explainability techniques are ways to generate the raw mathematical justifications that led to the final explanation presented to the end users. For example, feature importance is one technique that identifies the most important words / phrases in the sentence that led to the prediction, such as LIME. In contrast, visualisation techniques are different ways to present these mathematical justifications to the end user that can deal with how the explanations can be aesthetically presented. One example is a saliency heatmap (such as Figure~\ref{fig:lime_sample}), which highlights the combination of words / phrases that gave rise to the prediction at differing intensities. In this regard, there are also different Python visualisations of LIME. This difference between explainability and visualisation is akin to the difference between proportions and pie charts. While proportions can be presented in pie charts, there is no necessity for this to be so. Proportions can also be presented in a bar chart. Hence, these are two related, but also separate areas of research that go towards the overall objective of explainability.
 
-Figures usually should have captions just in case you need to refer to them (such as in Figure~\ref{fig:Electron}). The \verb|\caption| command contains two parts, the first part, inside the square brackets is the title that will appear in the \emph{List of Figures}, and so should be short. The second part in the curly brackets should contain the longer and more descriptive caption text.
+\subsection{Methodology}
+I chose to use LIME in this capstone because it is model agnostic which allows me to easily experiment with different combinations of word representations and models without needing much tweaking. It is also one of the few XAI packages that is easily implementable in Python. In particular, I use the implementation by the LIME creators (\cite{lime_github}). I apply LIME on the different combinations of word representations and models and compare the explainability later on.
 
-The \verb|\decoRule| command is optional and simply puts an aesthetic horizontal line below the image. If you do this for one image, do it for all of them.
-
-\LaTeX{} is capable of using images in pdf, jpg and png format.
-
-%----------------------------------------------------------------------------------------
+\section{Evaluating the effectiveness of XAI methods}
+\subsection{Literature review}
+(\cite{doshi-velez2017})
+\subsubsection{User validation of explanations}
+(\cite{gorski2021})
+(\cite{rosenfeld2021})
+\subsection{Methodology}
