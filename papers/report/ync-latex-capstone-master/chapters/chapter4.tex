@@ -4,55 +4,125 @@
 
 \label{chapter4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-As seen in Table 2 and Table 5 above, there is an uneven distribution of records across the practices. Further, the bottom 10 frequently occurring practices for both sentence and segment level only contains about 2 to 35 records for each practice. Given that there are in total 57 practices for the entire dataset, and there is not a uniform distribution of occurrences. Training models on all 57 practices would likely lead to low performance since there are not enough records for all 57 practices. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by first assessing the performance of the models for the top N (where $3<= N <= 10$) frequently occurring practices at both the sentence and segment level.
-
-%----------------------------------------------------------------------------------------
-%	SECTION 1
-%----------------------------------------------------------------------------------------
-
 \section{Models used and classification metrics}
-
 I use Logistic Regression, SGDClassifier and SVC classifiers and compare the weighted precision, recall and F1 scores. Precision, Recall and F1 scores different metrics are used to assess the performance of classifiers. They are stated mathematically below.
-
 \begin{align*}
 	\text{Precision} &= \frac{\text{True Positive}}{\text{True Positive + False Positive}} \\
 	\text{Recall} &= \frac{\text{True Positive}}{\text{True Positive + False Negative}} \\
 	\text{F1} &= 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision + Recall}}
 \end{align*}
+Since there is neither a high risk of identifying false positives or false negatives, F1 score is primarily used to assess the performance for the models. As the distributions of records across the practices are uneven, I focus on the weighted average of F1 scores as the most important indicator of model performance. 
 
-Generally, precision is the preferred metric when the cost of false positives are high, such as detecting spam. If a classifier classifies a non-spam email as spam, the user would lose important information. Whereas recall is preferred when the costs of false negatives are high. For example, if a classifier classifies someone as not having cancer when they actually have cancer, the patient would lose the opportunity for early intervention. F1 is a harmonic mean of precision and recall, and is usually used to find a balance between precision and recall. Since there is neither a high cost for false positives or false negatives, F1 score is primarily used to assess the performance across the top N practices. As the distributions of records across the practices are uneven, I focus on the weighted average of F1 scores.
+\section{Performance of classifiers for top N practices}
+As seen in Table~\ref{tab:top_10_sentence} and Table~\ref{tab:top_10_segment} above, there is an uneven distribution of records across the practices. Further, the bottom 10 frequently occurring practices for both sentence and segment level only contains about 2 to 35 records for each practice. Given that there are in total 57 practices for the entire dataset, and there is not a uniform distribution of occurrences. Training models on all 57 practices would likely lead to low performance since there are not enough records for all 57 practices. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by first assessing the performance of the three classifiers paired with Tf-IDF for the top N (where $3 \le N \le 10$) frequently occurring practices at both the sentence and segment level. The metrics are in Figure~\ref{fig:top_n_practices}.
 
-I also assess the top N performance for both the Tf-IDF and GLoVe word embeddings.
+Generally we see that the SVC classifier performs the best across the metrics and across the top N frequently occurring practices for both sentence and segment level. This corresponds with the findings by the researchers as they also found that the SVC classifier produced the best performance. Also, performance of all the models generally decreases with increasing $N$, which is not surprising since it gets harder for the classifier to find a decision boundary with more classes.
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Sentence level performance - TfIDF}
+\begin{figure}[!ht]
+    \begin{subfigure}[b]{1\textwidth}
+      \centering
+	  \includegraphics[width=1\linewidth]{figures/model_n_testing_sentence.png}      
+	  \caption{Sentence level}
+	  \label{fig:top_n_practices_sentence}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1\textwidth}
+      \centering
+      \includegraphics[width=1\linewidth]{figures/model_n_testing_segment.png}
+      \caption{Segment level}
+	  \label{fig:top_n_practices_segment}
+    \end{subfigure}
+    \caption{Weighted average P/R/F1 scores for top N ($3 \le N \le 10$) practices}
+    \label{fig:top_n_practices}
+\end{figure}
 
-Generally we see that the SVC classifier performance the best across the metrics and across the top N frequently occurring practices. This corresponds with the findings by the researchers as they also found that the SVC classifier produced the best performance.
-
-(add figures here)
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
-\subsection{Sentence level performance - GloVe embeddings}
-
-%-----------------------------------
-%	SUBSECTION 3
-%-----------------------------------
-
-\subsection{Segment level performance - TfIDF}
-
-%-----------------------------------
-%	SUBSECTION 4
-%-----------------------------------
-
-\subsection{Segment level performance - GloVe embeddings}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
 \section{Performance of individual classifiers for top 5 practices}
+Since SGDClassifier performed similarly to the 2 other classifiers, I focus only on comparing logistic regression and SVC, with logistic regression as the baseline classifier and SVC since the APP-350 researchers used SVC. I also compare the performance of Tf-IDF and GloVe. In total, I documented the performance of all 4 possible combinations of text representations and models in Tables~\ref{tab:lr+tfidf}, ~\ref{tab:lr+glove}, ~\ref{tab:svc+tfidf} and~\ref{tab:svc+glove} show their performance.
 
+\begin{table}[!ht]
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lllll}
+		\hline
+		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.71}               & \multicolumn{1}{l|}{0.84}            & \multicolumn{1}{l|}{0.77}        & \multicolumn{1}{l|}{417}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}    & \multicolumn{1}{l|}{0.60}               & \multicolumn{1}{l|}{0.73}            & \multicolumn{1}{l|}{0.66}        & \multicolumn{1}{l|}{425}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.54}               & \multicolumn{1}{l|}{0.34}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{246}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.60}               & \multicolumn{1}{l|}{0.41}            & \multicolumn{1}{l|}{0.48}        & \multicolumn{1}{l|}{212}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.61}               & \multicolumn{1}{l|}{0.58}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{297}              \\ \hline
+																&                                         &                                      &                                  &                                       \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.67}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.61}               & \multicolumn{1}{l|}{0.58}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.62}               & \multicolumn{1}{l|}{0.63}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\end{tabular}
+	}
+	\caption{Logistic regression + Tf-IDF}
+	\label{tab:lr+tfidf}
+\end{table}
+
+
+\begin{table}[!ht]
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lllll}
+		\hline
+		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.63}               & \multicolumn{1}{l|}{0.78}            & \multicolumn{1}{l|}{0.70}        & \multicolumn{1}{l|}{417}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}    & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.70}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{425}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.52}               & \multicolumn{1}{l|}{0.35}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{246}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.22}            & \multicolumn{1}{l|}{0.31}        & \multicolumn{1}{l|}{212}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.55}               & \multicolumn{1}{l|}{0.54}            & \multicolumn{1}{l|}{0.54}        & \multicolumn{1}{l|}{297}              \\ \hline
+																&                                         &                                      &                                  &                                       \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.57}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.52}            & \multicolumn{1}{l|}{0.52}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.57}               & \multicolumn{1}{l|}{0.57}            & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\end{tabular}
+	}
+	\caption{Logistic regression + GloVe embeddings}
+	\label{tab:lr+glove}
+\end{table}
+
+
+\begin{table}[!ht]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lllll}
+		\hline
+		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.80}               & \multicolumn{1}{l|}{0.77}            & \multicolumn{1}{l|}{0.78}        & \multicolumn{1}{l|}{417}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}     & \multicolumn{1}{l|}{0.63}               & \multicolumn{1}{l|}{0.57}            & \multicolumn{1}{l|}{0.60}        & \multicolumn{1}{l|}{425}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.47}               & \multicolumn{1}{l|}{0.51}            & \multicolumn{1}{l|}{0.49}        & \multicolumn{1}{l|}{246}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.49}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.52}        & \multicolumn{1}{l|}{212}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.58}               & \multicolumn{1}{l|}{0.59}            & \multicolumn{1}{l|}{0.58}        & \multicolumn{1}{l|}{297}              \\ \hline
+																&                                         &                                      &                                  &                                       \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.61}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.59}               & \multicolumn{1}{l|}{0.60}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.62}               & \multicolumn{1}{l|}{0.61}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\end{tabular}
+	}
+	\caption{SVC + Tf-IDF}
+	\label{tab:svc+tfidf}
+\end{table}
+
+
+\begin{table}[!ht]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lllll}
+		\hline
+		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.70}               & \multicolumn{1}{l|}{0.69}            & \multicolumn{1}{l|}{0.70}        & \multicolumn{1}{l|}{417}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}     & \multicolumn{1}{l|}{0.63}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.58}        & \multicolumn{1}{l|}{425}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.46}               & \multicolumn{1}{l|}{0.49}            & \multicolumn{1}{l|}{0.47}        & \multicolumn{1}{l|}{246}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.37}               & \multicolumn{1}{l|}{0.47}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{212}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.52}               & \multicolumn{1}{l|}{0.49}            & \multicolumn{1}{l|}{0.50}        & \multicolumn{1}{l|}{297}              \\ \hline
+																&                                         &                                      &                                  &                                       \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.54}            & \multicolumn{1}{l|}{0.53}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.56}        & \multicolumn{1}{l|}{1597}             \\ \hline
+	\end{tabular}
+	}
+	\caption{SVC + GloVe embeddings}
+	\label{tab:svc+glove}
+\end{table}

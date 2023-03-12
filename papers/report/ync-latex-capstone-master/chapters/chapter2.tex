@@ -122,19 +122,53 @@ One such example is LIME (Local Interpretable Model-agonistic Explanations) (\ci
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/explanations_visualisations/section_4a/Picture1.png}
-	\caption{Annotated sample visualisation of LIME}   
+	\caption{Sample visualisation of LIME}   
     \label{fig:lime_sample}
 \end{figure}
 
 Explainability techniques should also be distinguished from visualisation techniques (\cite{danilevsky2020}). Explainability techniques are ways to generate the raw mathematical justifications that led to the final explanation presented to the end users. For example, feature importance is one technique that identifies the most important words / phrases in the sentence that led to the prediction, such as LIME. In contrast, visualisation techniques are different ways to present these mathematical justifications to the end user that can deal with how the explanations can be aesthetically presented. One example is a saliency heatmap (such as Figure~\ref{fig:lime_sample}), which highlights the combination of words / phrases that gave rise to the prediction at differing intensities. In this regard, there are also different Python visualisations of LIME. This difference between explainability and visualisation is akin to the difference between proportions and pie charts. While proportions can be presented in pie charts, there is no necessity for this to be so. Proportions can also be presented in a bar chart. Hence, these are two related, but also separate areas of research that go towards the overall objective of explainability.
 
 \subsection{Methodology}
-I chose to use LIME in this capstone because it is model agnostic which allows me to easily experiment with different combinations of word representations and models without needing much tweaking. It is also one of the few XAI packages that is easily implementable in Python. In particular, I use the implementation by the LIME creators (\cite{lime_github}). I apply LIME on the different combinations of word representations and models and compare the explainability later on.
+I chose to use LIME because it is model agnostic which allows easy experimentation with different combinations of word representations and models without needing much tweaking. It is also one of the few XAI packages that are easily implementable in Python. In particular, I use the implementation by the LIME creators (\cite{lime_github}). I apply LIME on the different combinations of word representations and models and compare the explainability of LIME's explanations. I presented these explanations to the survey respondents without any amendments to the code output, except for minor editing to the labels in the figure because some labels were cut-off.
 
 \section{Evaluating the effectiveness of XAI methods}
 \subsection{Literature review}
-(\cite{doshi-velez2017})
-\subsubsection{User validation of explanations}
+There is not much general consensus as to the methods and standards of what makes a particular XAI technique effective. This is because explainability is highly context dependent, as alluded to in Section~\ref{chap1:increasing_opacity}. In terms XAI and the law, the main challenge towards greater adoption of XAI is determining what exactly would be considered sufficiently explainable for legal purposes. While post-hoc methods have been argued to be insufficient to pass muster for non-discrimination law (\cite{vale2022explainable}), it should be noted that legal standards for explainability differ too. What could be insufficiently explainable for non-discrimination law might not apply \textit{mutatis mutandis} to data privacy law under the GDPR (for instance). Indeed, other authors have argued that tort and contract law in medical diagnostics may sometimes mandate using a higher performing model over a more explainable model depending on the specific use case (\cite{hacker2020explainable}). In any case, this capstone makes no claim as to what the applicable standard for explainability is for data privacy, and merely serves as empirical insight as to the perceptions of explainability by potential data subjects.
+
+Apart from the specific requirements of the law, the general field of evaluating XAI is also nascent. Danilevsky et al. provides three categories of evaluating XAI (\cite{danilevsky2020}): First is informal examination of explanation, which are high level discussions of how generated explanations cohere with human intuition. Second is comparison to ground truth, such as quantitative metrics like precision / recall / F1. Third is human evaluation, which is simply to ask humans to evaluate the effectiveness of the explanations. Apart from how XAI is evaluated, what is evaluated includes fidelity (how much the explanation reflect the actual workings of the model), comprehensibility (how easily understood are the explanations), and others. Danilevsky et al. also note that many studies do not state what is being evaluated in XAI assessments. According to Doshi-Velez and Kim, there are few methods to measure human evaluation of XAI as covered in Table~\ref{tab:human_eval_xai}. 
+
+\begin{table}[!ht]
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{0.2\linewidth}|p{0.85\linewidth}|}
+	\hline
+	\textbf{Method}                 & \textbf{Description}                                                                                                                                        \\ \hline
+	Binary forced choice            & Humans are presented with pairs of explanation, and must choose the one that they find of higher quality.                                                   \\ \hline
+	Forward simulation / prediction & Humans are presented with an explanation and an input, and must correctly simulate the model's output.                                                      \\ \hline
+	Counterfactual simulation       & Humans are presented with an explanation, an input, and an output, and are asked what must be changed to change the model's prediction to a desired output. \\ \hline
+	\end{tabular}
+	}
+	\caption{Methods of measuring human evaluation of XAI. Adapted from (\cite{doshi-velez2017})}
+	\label{tab:human_eval_xai}
+\end{table}
+
+Further, the purpose of generating the explanation is important towards assessing whether the explanation is effective. Here are some factors which purposes can be categorised into:
+\begin{enumerate}
+	\item Global vs local: A scientific understanding of a model predicting rainfall would require global explanation since a scientist would be concerned with finding long term correlations, while a consumer who failed to obtain a loan would only require a local explanation to justify why the model made such a prediction.
+	\item Area and severity of incompleteness of the problem: For example, a potential buyer of an autonomous vehicle (AV) would have a general curiosity about how they work which requires more inquiry to figure out what aspect of the model to focus on explaining, while a regulator may have specific explanation requirements such as whether the model detects a pedestrian 10 metres before collision.
+	\item Time constraints: Consumers that get a bank loan rejected would likely have more time to scrutinise the explanation compared to a compliance manager in the bank who has to process hundreds of claims a day.
+	\item Nature of user expertise: A layperson with no training in credit worthiness would not expect details relating to large, complicated models, compared to an auditor that would expect such models to accurately model how human evaluations are made.
+\end{enumerate}
+
+Further, as mentioned earlier, there is no agreed upon definition of "explainability". Explainability could be influenced by other value-laden terms, such as trust, effectiveness, fairness, bias, the consequence of making a wrong prediction etc (\cite{rosenfeld2021}). The relative importance of these values and overall requirement of explainability necessarily is dependent on the user of the explanation. All these values are particular important to a data privacy context, as data privacy is a part of the greater legal system. The notion of "rule of law" encompasses these values, and legal systems are judged according to them as well. However, currently, there is also no definitive answer as to how these values linked to explainability can be translated from legal norms to XAI techniques.
+
+It is worth noting that user studies that evaluate post-hoc explanations have been criticised for being inherently flawed because of confirmation bias and that post-hoc explanations may have little to no similarities to how the underlying model made the prediction (\cite{rosenfeld2021}). Nevertheless, since this capstone is concerned only with explaining classical models, similar to LIME's creators, this allow the surrogate model to represent the underlying model's logic fairly well. In any case, as explained below, user studies are not the only method of evaluating XAI in this capstone, so any concerns with user studies can be reduced.
+
 (\cite{gorski2021})
-(\cite{rosenfeld2021})
 \subsection{Methodology}
+Effectiveness of the XAI methods in this capstone are measured in two ways: First it is with regard to ground-truths, as measured by precision / recall / F1 scores. Second is with regard to human evaluation, by using binary forced choice and counterfactual, as well as self-reported metrics related to explainability. These methods attempt to evaluate how explainable LIME methods are when applied onto the different combinations of word representations and models chosen. Further, taking into account Doshi-Velez and Kim's concerns about effectiveness of explanations being evaluated in light of specific purposes, effectiveness is also evaluated across the different potential purposes of the consumer, regulator and software developer that could conceivably arise out of a data privacy context.
+
+(\cite{jasper_evaluating_xai})
+
+(\cite{yalcin2022perceptions})
+
+(\cite{francesca_2021})
