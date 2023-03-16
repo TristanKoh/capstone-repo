@@ -1568,13 +1568,6 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\z
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7v.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
-INPUT .\chapters\chapter5.tex
-INPUT .\chapters\chapter5.tex
-INPUT .\chapters\chapter5.tex
-INPUT chapters\chapter5.tex
-INPUT .\chapters\chapter5.tex
-INPUT .\chapters\chapter5.tex
-INPUT chapters\chapter5.tex
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplrc8t.vf
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
@@ -1585,6 +1578,13 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zp
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT .\chapters\chapter5.tex
+INPUT .\chapters\chapter5.tex
+INPUT .\chapters\chapter5.tex
+INPUT chapters\chapter5.tex
+INPUT .\chapters\chapter5.tex
+INPUT .\chapters\chapter5.tex
+INPUT chapters\chapter5.tex
 INPUT .\figures\demo_3.png
 INPUT .\figures\demo_3.png
 INPUT figures\demo_3.png

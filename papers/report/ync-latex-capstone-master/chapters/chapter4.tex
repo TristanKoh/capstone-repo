@@ -42,22 +42,24 @@ Generally we see that the SVC classifier performs the best across the metrics an
 %----------------------------------------------------------------------------------------
 
 \section{Performance of individual classifiers for top 5 practices}
-Since SGDClassifier performed similarly to the 2 other classifiers, I focus only on comparing logistic regression and SVC, with logistic regression as the baseline classifier and SVC since the APP-350 researchers used SVC. I also compare the performance of Tf-IDF and GloVe. In total, I documented the performance of all 4 possible combinations of text representations and models in Tables~\ref{tab:lr+tfidf}, ~\ref{tab:lr+glove}, ~\ref{tab:svc+tfidf} and~\ref{tab:svc+glove} show their performance.
+Since SGDClassifier performed similarly to the 2 other classifiers, I focus only on comparing logistic regression and SVC, with logistic regression as the baseline classifier and SVC since the APP-350 researchers used SVC. I also compare the performance of Tf-IDF and GloVe. In total, I documented the performance of all 4 possible combinations of text representations and models in Tables~\ref{tab:lr+tfidf}, ~\ref{tab:lr+glove}, ~\ref{tab:svc+tfidf} and~\ref{tab:svc+glove} show the averaged metrics over a 5-fold cross validation. 
+
+Similarly to what Zimmeck et al. found, SVC + Tf-IDF provided the best overall performance with the weighted average at 66\%. This is quite a significant performance difference from the lowest performing model, logistic regression + GloVe at 54\%. Specifically for \texttt{Identifier Cookie 1st Party}, both logistic regression + Tf-IDF and SVC + Tf-IDF performed similarly at 68\% F1, but SVC + Tf-IDF had a more balanced performance across precision and recall. Overall, these performance figures confirm that SVC is the better performing model, though the performance difference between the benchmark logistic regression model and SVC is not that significant (from 62\% to 66\% weighted average F1). It is also interesting to note that GloVe embeddings performed worse compared to Tf-IDF regardless of the model used, when GloVe is the more sophisticated text representation given that only GloVe vectors capture the context of the word.
 
 \begin{table}[!ht]
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lllll}
 		\hline
 		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
-		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.71}               & \multicolumn{1}{l|}{0.84}            & \multicolumn{1}{l|}{0.77}        & \multicolumn{1}{l|}{417}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}    & \multicolumn{1}{l|}{0.60}               & \multicolumn{1}{l|}{0.73}            & \multicolumn{1}{l|}{0.66}        & \multicolumn{1}{l|}{425}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.54}               & \multicolumn{1}{l|}{0.34}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{246}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.60}               & \multicolumn{1}{l|}{0.41}            & \multicolumn{1}{l|}{0.48}        & \multicolumn{1}{l|}{212}              \\ \hline
-		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.61}               & \multicolumn{1}{l|}{0.58}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{297}              \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.66}               & \multicolumn{1}{l|}{0.88}            & \multicolumn{1}{l|}{0.76}        & \multicolumn{1}{l|}{2106}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}    & \multicolumn{1}{l|}{0.59}               & \multicolumn{1}{l|}{0.78}            & \multicolumn{1}{l|}{0.68}        & \multicolumn{1}{l|}{2107}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.64}               & \multicolumn{1}{l|}{0.35}            & \multicolumn{1}{l|}{0.45}        & \multicolumn{1}{l|}{1250}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.66}               & \multicolumn{1}{l|}{0.41}            & \multicolumn{1}{l|}{0.50}        & \multicolumn{1}{l|}{1005}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.69}               & \multicolumn{1}{l|}{0.49}            & \multicolumn{1}{l|}{0.57}        & \multicolumn{1}{l|}{1514}              \\ \hline
 																&                                         &                                      &                                  &                                       \\ \hline
-		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.67}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.61}               & \multicolumn{1}{l|}{0.58}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.62}               & \multicolumn{1}{l|}{0.63}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.64}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.65}               & \multicolumn{1}{l|}{0.58}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.64}               & \multicolumn{1}{l|}{0.64}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{7982}             \\ \hline
 		\end{tabular}
 	}
 	\caption{Logistic regression + Tf-IDF}
@@ -70,15 +72,15 @@ Since SGDClassifier performed similarly to the 2 other classifiers, I focus only
 		\begin{tabular}{lllll}
 		\hline
 		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
-		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.63}               & \multicolumn{1}{l|}{0.78}            & \multicolumn{1}{l|}{0.70}        & \multicolumn{1}{l|}{417}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}    & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.70}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{425}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.52}               & \multicolumn{1}{l|}{0.35}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{246}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.22}            & \multicolumn{1}{l|}{0.31}        & \multicolumn{1}{l|}{212}              \\ \hline
-		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.55}               & \multicolumn{1}{l|}{0.54}            & \multicolumn{1}{l|}{0.54}        & \multicolumn{1}{l|}{297}              \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.62}               & \multicolumn{1}{l|}{0.77}            & \multicolumn{1}{l|}{0.70}        & \multicolumn{1}{l|}{2106}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}    & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.67}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{2107}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.50}               & \multicolumn{1}{l|}{0.34}            & \multicolumn{1}{l|}{0.41}        & \multicolumn{1}{l|}{1250}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.47}               & \multicolumn{1}{l|}{0.22}            & \multicolumn{1}{l|}{0.30}        & \multicolumn{1}{l|}{1005}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.52}               & \multicolumn{1}{l|}{0.48}            & \multicolumn{1}{l|}{0.50}        & \multicolumn{1}{l|}{1514}              \\ \hline
 																&                                         &                                      &                                  &                                       \\ \hline
-		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.57}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.52}            & \multicolumn{1}{l|}{0.52}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.57}               & \multicolumn{1}{l|}{0.57}            & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.50}            & \multicolumn{1}{l|}{0.50}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.54}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.54}        & \multicolumn{1}{l|}{7982}             \\ \hline
 		\end{tabular}
 	}
 	\caption{Logistic regression + GloVe embeddings}
@@ -91,36 +93,35 @@ Since SGDClassifier performed similarly to the 2 other classifiers, I focus only
 	\begin{tabular}{lllll}
 		\hline
 		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
-		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.80}               & \multicolumn{1}{l|}{0.77}            & \multicolumn{1}{l|}{0.78}        & \multicolumn{1}{l|}{417}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}     & \multicolumn{1}{l|}{0.63}               & \multicolumn{1}{l|}{0.57}            & \multicolumn{1}{l|}{0.60}        & \multicolumn{1}{l|}{425}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.47}               & \multicolumn{1}{l|}{0.51}            & \multicolumn{1}{l|}{0.49}        & \multicolumn{1}{l|}{246}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.49}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.52}        & \multicolumn{1}{l|}{212}              \\ \hline
-		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.58}               & \multicolumn{1}{l|}{0.59}            & \multicolumn{1}{l|}{0.58}        & \multicolumn{1}{l|}{297}              \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.74}               & \multicolumn{1}{l|}{0.81}            & \multicolumn{1}{l|}{0.77}        & \multicolumn{1}{l|}{2106}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}     & \multicolumn{1}{l|}{0.67}               & \multicolumn{1}{l|}{0.68}            & \multicolumn{1}{l|}{0.68}        & \multicolumn{1}{l|}{2107}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.59}               & \multicolumn{1}{l|}{0.57}            & \multicolumn{1}{l|}{0.58}        & \multicolumn{1}{l|}{1250}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.58}               & \multicolumn{1}{l|}{0.60}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{1005}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.65}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.60}        & \multicolumn{1}{l|}{1514}              \\ \hline
 																&                                         &                                      &                                  &                                       \\ \hline
-		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.61}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.59}               & \multicolumn{1}{l|}{0.60}            & \multicolumn{1}{l|}{0.59}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.62}               & \multicolumn{1}{l|}{0.61}            & \multicolumn{1}{l|}{0.62}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.66}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.65}               & \multicolumn{1}{l|}{0.64}            & \multicolumn{1}{l|}{0.64}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.66}               & \multicolumn{1}{l|}{0.66}            & \multicolumn{1}{l|}{0.66}        & \multicolumn{1}{l|}{7982}             \\ \hline
 		\end{tabular}
 	}
 	\caption{SVC + Tf-IDF}
 	\label{tab:svc+tfidf}
 \end{table}
 
-
 \begin{table}[!ht]
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{lllll}
 		\hline
 		\multicolumn{1}{|l|}{\textbf{Data Practice}}          & \multicolumn{1}{l|}{\textbf{Precision}} & \multicolumn{1}{l|}{\textbf{Recall}} & \multicolumn{1}{l|}{\textbf{F1}} & \multicolumn{1}{l|}{\textbf{Support}} \\ \hline
-		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.70}               & \multicolumn{1}{l|}{0.69}            & \multicolumn{1}{l|}{0.70}        & \multicolumn{1}{l|}{417}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}     & \multicolumn{1}{l|}{0.63}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.58}        & \multicolumn{1}{l|}{425}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.46}               & \multicolumn{1}{l|}{0.49}            & \multicolumn{1}{l|}{0.47}        & \multicolumn{1}{l|}{246}              \\ \hline
-		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.37}               & \multicolumn{1}{l|}{0.47}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{212}              \\ \hline
-		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.52}               & \multicolumn{1}{l|}{0.49}            & \multicolumn{1}{l|}{0.50}        & \multicolumn{1}{l|}{297}              \\ \hline
+		\multicolumn{1}{|l|}{Contact Email Address 1st Party} & \multicolumn{1}{l|}{0.70}               & \multicolumn{1}{l|}{0.70}            & \multicolumn{1}{l|}{0.70}        & \multicolumn{1}{l|}{2106}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 1st Party}     & \multicolumn{1}{l|}{0.61}               & \multicolumn{1}{l|}{0.51}            & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{2107}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier Cookie 3rd Party}     & \multicolumn{1}{l|}{0.46}               & \multicolumn{1}{l|}{0.51}            & \multicolumn{1}{l|}{0.48}        & \multicolumn{1}{l|}{1250}              \\ \hline
+		\multicolumn{1}{|l|}{Identifier IP Address 1st Party} & \multicolumn{1}{l|}{0.37}               & \multicolumn{1}{l|}{0.49}            & \multicolumn{1}{l|}{0.42}        & \multicolumn{1}{l|}{1005}              \\ \hline
+		\multicolumn{1}{|l|}{Location 1st Party}              & \multicolumn{1}{l|}{0.49}               & \multicolumn{1}{l|}{0.45}            & \multicolumn{1}{l|}{0.47}        & \multicolumn{1}{l|}{1514}              \\ \hline
 																&                                         &                                      &                                  &                                       \\ \hline
-		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.54}            & \multicolumn{1}{l|}{0.53}        & \multicolumn{1}{l|}{1597}             \\ \hline
-		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.56}        & \multicolumn{1}{l|}{1597}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{accuracy}}               & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{macro avg}}              & \multicolumn{1}{l|}{0.53}               & \multicolumn{1}{l|}{0.53}            & \multicolumn{1}{l|}{0.53}        & \multicolumn{1}{l|}{7982}             \\ \hline
+		\multicolumn{1}{|l|}{\textbf{weighted avg}}           & \multicolumn{1}{l|}{0.56}               & \multicolumn{1}{l|}{0.55}            & \multicolumn{1}{l|}{0.55}        & \multicolumn{1}{l|}{7982}             \\ \hline
 	\end{tabular}
 	}
 	\caption{SVC + GloVe embeddings}
