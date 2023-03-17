@@ -114,6 +114,7 @@ At a more macro level, the state's concern when AI is used in legal decision mak
 Hence, the importance of XAI applies across all three stakeholders in data privacy. Consumers can benefit from XAI by making privacy policies more readable. Organisations can use XAI to be more accountable to consumers and regulators by providing explanations for automated decisions. XAI also provides the state with more transparency in regulating organisations' use of AI and aiding in judicial decision making.
 
 \section{Problem statement}
+\label{chap1:problem_statement}
 The foregoing analysis of the issues in data privacy and the opacity of NLP models can be summarised as follows: NLP techniques are now much more advanced and can potentially automate some areas of substantive legal reasoning and writing, but has come at the cost of increased opacity of the models. More research has been put into XAI in an effort to combat this opacity, but it is an open question as to whether the explanations are effective to the different users and use cases of the models. Data privacy regulation can benefit from the use of more XAI in automated decision making. Thus, there is a gap in research where XAI is assessed and applied in data privacy. 
 
 Hence, I choose to train AI models that are able to identify data privacy practices in apps' data privacy policies. A privacy practice describes a certain behaviour of an app that can have privacy implications\footnote{This will be further elaborated on when \hyperref[app350_corpus]{the dataset} is introduced.}. In this regard, these models function similarly to that of LawGeex's contract review models which are able to identify the type of clause, such as which party owns the intellectual property arising from the performance of the contract\footnote{Automated contract review models are also able to analyse the level of legal risk associated with any amendments made to the clause, such as if the counterparty amended the wording of the clause to state that only the counterparty owns the intellectual property instead of both contracting parties.}. XAI methods are then used to visualise why the models made such predictions. Such a legal tech tool saves consumers time by highlighting specific data privacy practices upfront so that they can make informed consent. 
@@ -121,10 +122,10 @@ Hence, I choose to train AI models that are able to identify data privacy practi
 I focus on these specific research questions for the rest of the capstone:
 
 \begin{enumerate}
-  \item Which AI models perform the best on a data privacy dataset in terms of precision / recall / F1?
-  \item Which models are the most explainable to an audience that includes laypersons and people with domain knowledge in data science and the law, and why?
-  \item How would people rate the explainability of a selected XAI technique?
-  \item Are there differences in how people rate explainability if they were asked to consider the predictions of these models from the perspective of a consumer, an organisation or the PDPC (as the regulatory authority for data privacy), and why?
+  \item Which AI classifiers perform the best on a data privacy dataset in terms of traditional performance metrics?
+  \item Which classifiers are the most explainable to users that include laypersons and users with domain knowledge in data science and the law?
+  \item How would users rate the explainability of a selected XAI technique?
+  \item What are the differences in explainability if users were asked to consider the predictions of these classifiers from the perspective of a consumer, an organisation or the PDPC (as the regulatory authority for data privacy)?
 \end{enumerate}
 
 \section{Main findings and roadmap}

@@ -1,11 +1,43 @@
-% Chapter Template
+\chapter{Conclusion} % Main chapter title
 
-\chapter{General findings and conclusion} % Main chapter title
+(\cite{hacker2022varieties})
+
+(\cite{jasper_evaluating_xai})
+
+(\cite{yalcin2022perceptions})
+
+(\cite{francesca_2021})
 
 \label{chapter6} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 \section{Findings}
+We can now answer the research questions that were posed in Section~\ref{chap1:problem_statement}:
+\begin{enumerate}
+    \item Which classifiers perform the best on a data privacy dataset in terms of traditional performance metrics?
+    
+    Overall, SVC + Tf-IDF performed the best across the 5 data practices according to the weighted F1. This corresponds with the findings of Zimmeck et al. Particularly when classifying \texttt{Identifier Cookie 1st Party}, both SVC + Tf-IDF and logistic regression + Tf-IDF performed similarly with the same F1 score. It is surprising that GloVe embeddings performed worse compared to Tf-IDF, given that GloVe accounts for context as compared to Tf-IDF which is purely count-based.
+
+    \item Which classifiers are the most explainable to users that include laypersons and users with domain knowledge in data science and the law?
+    
+    When SVC was compared to logistic regression, respondents by a large majority found no difference in the explainability. When Tf-IDF was compared to GloVe, respondents were undecided with an almost equal one-third split across the the three options (i.e. no difference, Tf-IDF \& GloVe). So just by looking at these votes, respondents did not find any difference in explainability when comparing SVC to logistic regression, but were undecided whether Tf-IDF or GloVe was more explainable. Comparing the respondents' votes with performance metrics, there seems to be a slight (but non-statistical) relationship between explainability and classifier performance. Tf-IDF consistently outperformed GloVe regardless of the model used, which is reflected in how respondents were equally split between the 3 options. Compared to logistic regression and SVC where latter did not consistently outperform the former, majority of respondents similarly found no difference between the explanations. 
+
+    \item How would users rate the explainability of a selected XAI technique?
+    
+    There was a negative trend of respondents' self-reported scores of interpretability and understanding for LIME. Hence, one possible interpretation is that the individual explanations got less explainable for each question. Another interpretation is that global explainability decreased because respondents were exposed to contradictory information about the model with each new explanation they viewed, rather than local explainability being affected. In terms of predicting counterfactuals, it was not possible to perceive any consistent trend given that the classifiers' predicted probabilities for some classes were almost equal for some of the counterfactual sentences. 
+
+    \item What are the differences in explainability if users were asked to consider the predictions of these classifiers from the perspective of a consumer, an organisation or the PDPC (as the regulatory authority for data privacy) after viewing the classifiers' explanations?
+    
+    Effectiveness and trust significantly decreased for context 2 (PDPC), and fairness for context 3 (consumer). Only effectiveness significantly increased for context 1 (app developer). This could suggest that respondents believe that as a regulatory body, PDPC should retain more discretion in making decisions instead of relying on AI, even though using these models could increase automation. Respondents believe that the risks of making a wrong decision outweighs the possible benefits to efficiency. Having realised the fallibility of the model, respondents have reduced trust as well. Respondents as consumers also seem to be only concerned about their own benefits that result from wrong / correct predictions of the model. Hence, it is not "fair" that they would not be compensated for violations to their data privacy just because the model can make wrong predictions. Respondents as app developers, unlike PDPC, believe that wrong predictions are an acceptable risk when analysing privacy policies can be automated without needing to pay for external legal advice.
+
+    Further, explainability metrics overall significantly decreased for context 2 and 3, which could suggest that respondents felt the risks of making a wrong prediction because of the model's fallibility outweighed any efficiency, or cost gained from automation from the perspective of PDPC or a consumer. Trust also significantly decreased overall for all contexts. This could suggest that the model's fallibility influenced respondents' trust the most across the contexts, which points to a possible mismatch of expectations of what respondents thought the model could do and what was actually the case. 
+\end{enumerate}
+
 
 \section{Limitations}
+Explanability limited to the dataset, models, text representation used, and XAI technique. Survey might be skewed because of deliberate selection of classification samples that were both correctly and incorrectly classified, unlike \cite{gorski2021}.
+
+Some inferences could have been validated if we had more respondents that allowed us to capitalise on the demographic data collected.
+
+User studies are also limited, because of potential confirmation bias
 
 \section{Future work}

@@ -83,7 +83,7 @@ The 1-sided test was used to check whether the distribution underlying the diffe
             3: Increase & 0.955 \\ \hline
             3: Decrease & \cellcolor{red!25}0.0450 \\ \hline
         \end{tabular}
-        \caption{p-values averaged across metrics, compared by contexts}
+        \caption{p-values when scores are averaged across metrics, compared by contexts}
         \label{tab:context_comparison_2a}
     \end{subtable}
     \hfill
@@ -99,7 +99,7 @@ The 1-sided test was used to check whether the distribution underlying the diffe
             Trust: Increase     & 0.953  \\ \hline
             Trust: Decrease     & \cellcolor{red!25}0.0468 \\ \hline
         \end{tabular}
-        \caption{p-values averaged across contexts, compared by metrics}
+        \caption{p-values when scores are averaged across contexts, compared by metrics}
         \label{tab:context_comparison_2b}
     \end{subtable}
     \caption{p-values comparing aggregated scores by context and metric}
@@ -119,7 +119,7 @@ The 1-sided test was used to check whether the distribution underlying the diffe
 
 The p-values of the tests are reported in Table~\ref{tab:context_comparison} ,~\ref{tab:context_comparison_2} and~\ref{tab:context_comparison_3}. For Table~\ref{tab:context_comparison_2a} and~\ref{tab:context_comparison_2b}, I took the mean of self-reported scores across contexts, and across each metric, respectively. "Increase" and "decrease" refer to the p-values of the 1-sided test that checks whether the scores significantly increased or decreased after viewing the explanations. For Table~\ref{tab:context_comparison_3}, the self-reported scores were averaged across both context and metric.  Here are the instances when $p<0.1$ (highlighted in red in the tables), and therefore $H0$ can be rejected in favour of $H1$ such that there was a statistically significant increase / decrease of scores after viewing the explanations:
 \begin{enumerate}
-    \item Effectiveness and trust significantly decreased for context 2 (PDPC), and fairness significantly decreased for context 3 (app developer). Only effectiveness significantly increased for context 1 (consumer) (Table~\ref{tab:context_comparison}). While trust technically did not have a statistically significant decrease for context 1, the p-value is quite close at 0.113. Hence, there seems to be an inverse relationship between effectiveness and trust for context 1, but a positive relationship for context 2.
+    \item Effectiveness and trust significantly decreased for context 2 (PDPC), and fairness significantly decreased for context 3 (consumer). Only effectiveness significantly increased for context 1 (app developer) (Table~\ref{tab:context_comparison}). While trust technically did not have a statistically significant decrease for context 1, the p-value is quite close at 0.113. Hence, there seems to be an inverse relationship between effectiveness and trust for context 1, but a positive relationship for context 2.
     \item There is a statistically significant decrease in explainability metrics for context 1 and 2 when comparing the mean of the scores across the metrics (Table~\ref{tab:context_comparison_2a}) and for trust across the three contexts (Table~\ref{tab:context_comparison_2b}).
     \item The overall self-reported explainability when taking the mean of the scores across both contexts and metrics did not significantly increase / decrease (Table~\ref{tab:context_comparison_3}).
 \end{enumerate}
