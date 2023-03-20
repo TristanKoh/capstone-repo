@@ -12,9 +12,9 @@ As mentioned above, there are two levels of text data: Sentence level and segmen
 
 \section{Sentence level}
 
-There are a total of 18829 annotated sentences. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the sentence level. 
+There are a total of 18829 annotated sentences. Table~\ref{tab:top_10_sentence} and~\ref{tab:bottom_10_sentence} show some summary statistics of the top 10 and bottom 10 frequently occurring practices at the sentence level. 
 
-\begin{table}[]
+\begin{table}[!ht]
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{lrrrr}
 	\toprule
@@ -37,7 +37,7 @@ There are a total of 18829 annotated sentences. The table below shows some summa
 	\label{tab:top_10_sentence}
 	\end{table}
 
-	\begin{table}[]
+	\begin{table}[!ht]
 		\resizebox{\textwidth}{!}{
 		\begin{tabular}{lrrrr}
 		\toprule
@@ -54,17 +54,17 @@ There are a total of 18829 annotated sentences. The table below shows some summa
 			  Identifier\_IMSI\_3rdParty &       4 &             54.250000 &                    47.5 &           0.02\% \\
 		Identifier\_SSID\_BSSID\_3rdParty &       2 &             65.500000 &                    65.5 &           0.01\% \\
 		\bottomrule
-		\end{tabular}
-		}
-		\caption{Summary statistics for bottom 10 frequently occurring practices.}
-		\end{table}
+	\end{tabular}
+	}
+	\caption{Summary statistics for bottom 10 frequently occurring practices.}
+	\label{tab:bottom_10_sentence}
+\end{table}
 
-        
 In total, the top 10 frequently occurring practices make up approximately 60\% of the dataset. The bottom 10 frequently occurring practices make up approximately 1\% of the dataset.
 
-According to Table 4 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words. This could indicate similar sentence complexity across the practices.
+According to Table~\ref{tab:summary_top_10_practices}, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words. This could indicate similar sentence complexity across the practices.
 
-\begin{table}
+\begin{table}[!ht]
 	\centering
 	\begin{tabular}{lrr}
 		\toprule
@@ -79,20 +79,20 @@ According to Table 4 below, there does not seem to be much variation in sentence
 		75\%   &             32.011357 &               26.750000 \\
 		max   &             33.074766 &               28.000000 \\
 		\bottomrule
-		\end{tabular}
-		\caption{Summary sentence statistics for top 10 frequently occurring practices.}
-	\end{table}
+	\end{tabular}
+	\caption{Summary sentence statistics for top 10 frequently occurring practices.}
+	\label{tab:summary_top_10_practices}
+\end{table}
 	
-
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
 \section{Segment level}
 
-There are in total 21623 segments. However, there are 11422 segments without any annotated practice. Hence there are 10201 annotated segments. The table below shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the segment level.
+There are in total 21623 segments. However, there are 11422 segments without any annotated practice. Hence there are 10201 annotated segments. Table~\ref{tab:top_10_segment} and ~\ref{tab:bottom_10_segment} shows some summary statistics of the top 10 and bottom 10 frequently occurring practices at the segment level.
 
-\begin{table}[htb]
+\begin{table}[!ht]
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{lrrrr}
 	\toprule
@@ -115,7 +115,7 @@ There are in total 21623 segments. However, there are 11422 segments without any
 	\label{tab:top_10_segment}
   \end{table}
 
-  \begin{table}[htb]
+  \begin{table}[!ht]
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{lrrrr}
 	\toprule
@@ -135,13 +135,14 @@ There are in total 21623 segments. However, there are 11422 segments without any
 	\end{tabular}
 	}
 	\caption{Summary statistics for bottom 10 frequently occurring practices.}
+	\label{tab:bottom_10_segment}
   \end{table}
 
 The top 10 practices make up approximately 57\% of the dataset. The bottom 10 practices make up approximately 1.2\% of the dataset.
 
-According to Table 7 below, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 6.7 words and the median 7.2 words. This could indicate similar segment complexity across the practices.
+According to Table~\ref{tab:top_10_segment} , there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 6.7 words and the median 7.2 words. This could indicate similar segment complexity across the practices.
 
-\begin{table}[htb]
+\begin{table}[!ht]
 	\centering
 	\begin{tabular}{lrr}
 	\toprule
@@ -158,5 +159,6 @@ According to Table 7 below, there does not seem to be much variation in sentence
 	\bottomrule
 	\end{tabular}
 	\caption{Summary segment statistics for top 10 frequently occurring practices.}
+	\label{tab:top_10_practice_segment}
   \end{table}
 
