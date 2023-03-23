@@ -105,7 +105,7 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 }
 
 \begin{document}
-
+%TC:group tabular 1 1
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 
 \pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
@@ -133,10 +133,18 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-This capstone would not be possible if not for the gracious provision of the following individuals and groups, and most of all, God.
+Thanks be to God, who has provided me with countless opportunities to learn and grow academically and non-academically, and who has granted me the strength to overcome self-doubt to find joy in His love. His abundant grace has made this capstone project (and more) possible.
+
+I give thanks to my parents, who have tirelessly and selflessly cared for me, and to Prof. Danvy and Prof. Francesca, who have welcomed me into the world of MCS and made me feel at ease.
+
+I am grateful to Law CF and En Ling, who have provided me with a spiritual family and a place to call home, and to my dear friends Rayner, Nat, Ziying, and Glen who have journeyed with me into adulthood.
+
+I am privileged to have had the companionship of my DDP batchmates, who have made this five-year journey all the more meaningful. And I extend my heartfelt appreciation to my supervisors, Prof. Chesterman and Prof. Choi, who have willingly taken on this strange mixture of MCS and law and offered invaluable feedback and guidance.
+
+Finally, I thank my survey respondents, because without their responses, I would have only half a capstone. May God bless each and every one of you.
 
 \begin{CJK*}{UTF8}{gbsn}
-	他对我说:"我的恩典够你用的,因为我的能力是在人的软弱上显得完全." 所以,我更喜欢夸耀自己的软弱,好使基督的能力覆庇我. - 哥林多后书 12:9
+	他对我说: "我的恩典够你用的, 因为我的能力是在人的软弱上显得完全." 所以, 我更喜欢夸耀自己的软弱, 好使基督的能力覆庇我. - 哥林多后书 12:9
 \end{CJK*}
 \end{acknowledgements}
 
@@ -208,35 +216,6 @@ This capstone uses this data privacy context to train and evaluate AI classifier
 % \end{abbreviations}
 
 %----------------------------------------------------------------------------------------
-%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
-%----------------------------------------------------------------------------------------
-
-% \begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
-%
-% % The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
-%
-% Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
-% %Constant Name & $Symbol$ & $Constant Value$ with units\\
-%
-% \end{constants}
-
-%----------------------------------------------------------------------------------------
-%	SYMBOLS
-%----------------------------------------------------------------------------------------
-
-% \begin{symbols}{lll} % Include a list of Symbols (a three column table)
-%
-% $a$ & distance & \si{\meter} \\
-% $P$ & power & \si{\watt} (\si{\joule\per\second}) \\
-% %Symbol & Name & Unit \\
-%
-% \addlinespace % Gap to separate the Roman symbols from the Greek
-%
-% $\omega$ & angular frequency & \si{\radian} \\
-%
-% \end{symbols}
-
-%----------------------------------------------------------------------------------------
 %	DEDICATION
 %----------------------------------------------------------------------------------------
 
@@ -258,7 +237,6 @@ This capstone uses this data privacy context to train and evaluate AI classifier
 \input{chapters/chapter3}
 \input{chapters/chapter4}
 \input{chapters/chapter5}
-\input{chapters/chapter6}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -275,8 +253,8 @@ This capstone uses this data privacy context to train and evaluate AI classifier
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
- \input{appendix/appendixA}
- \input{appendix/appendixB}
+%  \input{appendix/appendixA}
+%  \input{appendix/appendixB}
 
 %----------------------------------------------------------------------------------------
 
