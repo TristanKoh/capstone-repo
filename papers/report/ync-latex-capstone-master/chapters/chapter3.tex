@@ -5,13 +5,13 @@
 \label{chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 \section{EDA}
-There are a total of 18829 annotated sentences. Table~\ref{tab:top_10_sentence} and~\ref{tab:bottom_10_sentence} show some summary statistics of the top 10 and bottom 10 frequently occurring practices at the sentence level. 
+There are a total of 18829 annotated sentences and the top 10 frequently occurring practices make up close to 60\% of all sentences (Table~\ref{tab:top_10_sentence}). The bottom 10 frequently occurring practices make up approximately 1\% of the dataset. There does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words (Table~\ref{tab:summary_top_10_practices}) and as seen by similar interquartile range (IQR) (Figure~\ref{fig:boxplot_top_10}). This could indicate similar sentence complexity across the practices. The mean of the sentence lengths for all top 10 practices are slightly greater than the median, which suggest some outliers with very long sentences (Figure~\ref{fig:graph_sentence_length}) that cause a slightly right skew distribution (Figure~\ref{fig:hist}). The distributions are also unimodal, with the mode around 20.
 
 \begin{table}[!ht]
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{lrrrr}
 	\toprule
-									  practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
+									  practice &  counts &  mean sentence length &  median sentence length &  percentage of total \\
 	\midrule
 	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &    2107 &             25.4 &                    22.0 &           11.2\% \\
 			   Contact\_E\_Mail\_Address\_1stParty &    2106 &             28.7 &                    25.0 &           11.2\% \\
@@ -26,72 +26,64 @@ There are a total of 18829 annotated sentences. Table~\ref{tab:top_10_sentence} 
 	\bottomrule
 	\end{tabular}
 	}
-	\caption{Summary statistics for top 10 occurring practices at sentence level.}
+	\caption{Summary statistics per practice of top 10 occurring practices.}
 	\label{tab:top_10_sentence}
 	\end{table}
-
-	\begin{table}[!ht]
-		\resizebox{\textwidth}{!}{
-		\begin{tabular}{lrrrr}
-		\toprule
-								practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
-		\midrule
-		Identifier\_Mobile\_Carrier\_3rdParty &      35 &             47.1 &                    30.0 &           0.19\% \\
-					Contact\_ZIP\_3rdParty &      34 &             40.2 &                    41.0 &           0.18\% \\
-		Identifier\_SSID\_BSSID\_1stParty &      33 &             28.1 &                    24.0 &           0.18\% \\
-			  Contact\_Password\_3rdParty &      33 &             24.2 &                    20.0 &           0.18\% \\
-					Contact\_City\_3rdParty &      24 &             180 &                    14.0 &           0.13\% \\
-		Contact\_Address\_Book\_3rdParty &      17 &             39.6 &                    34.0 &           0.1\% \\
-			  Identifier\_IMSI\_1stParty &      13 &             48.2 &                    44.0 &           0.07\% \\
-		Identifier\_SIM\_Serial\_3rdParty &       5 &             41.2 &                    54.0 &           0.03\% \\
-			  Identifier\_IMSI\_3rdParty &       4 &             54.3 &                    47.5 &           0.02\% \\
-		Identifier\_SSID\_BSSID\_3rdParty &       2 &             65.5 &                    65.5 &           0.01\% \\
-		\bottomrule
-	\end{tabular}
-	}
-	\caption{Summary statistics for bottom 10 frequently occurring practices.}
-	\label{tab:bottom_10_sentence}
-\end{table}
-
-In total, the top 10 frequently occurring practices make up approximately 60\% of the dataset. The bottom 10 frequently occurring practices make up approximately 1\% of the dataset.
-
-According to Table~\ref{tab:summary_top_10_practices}, there does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words. This could indicate similar sentence complexity across the practices.
 
 \begin{table}[!ht]
 	\centering
 	\begin{tabular}{lrr}
 		\toprule
-		{} &  sentence\_length\_mean &  sentence\_length\_median \\
+		{} &  Mean sentence length &  Median sentence length \\
 		\midrule
-		count &             10.000000 &               10.000000 \\
-		mean  &             29.747511 &               25.500000 \\
-		std   &              2.468191 &                1.900292 \\
-		min   &             25.389654 &               22.000000 \\
-		25\%   &             28.715572 &               24.250000 \\
-		50\%   &             29.138353 &               25.500000 \\
-		75\%   &             32.011357 &               26.750000 \\
-		max   &             33.074766 &               28.000000 \\
+		count &             10.0 &               10.0 \\
+		mean  &             29.8 &               25.5 \\
+		std   &              2.5 &                1.9 \\
+		min   &             25.4 &               22.0 \\
+		25\%   &             28.7 &               24.3 \\
+		50\%   &             29.1 &               25.5 \\
+		75\%   &             32.0 &               26.8 \\
+		max   &             33.1 &               28.0 \\
 		\bottomrule
 	\end{tabular}
-	\caption{Summary sentence statistics for top 10 frequently occurring practices.}
+	\caption{Summary statistics of top 10 occurring practices.}
 	\label{tab:summary_top_10_practices}
 \end{table}
 
 \begin{figure}[!ht]
-	\begin{subfigure}[b]{1\linewidth}
+	\centering
+	\includegraphics[width=1\textwidth]{figures/eda_mean_median.png}      
+    \caption{Mean and median sentence length}
+    \label{fig:graph_sentence_length}
+\end{figure}
+
+
+\begin{figure}[!ht]
+	\begin{subfigure}[t]{.5\linewidth}
 	  \centering
-	  \includegraphics[width=0.85\linewidth]{figures/eda_mean_median.png}
-	  \caption{Mean and median sentence length}
+	  \includegraphics[width=1\linewidth]{figures/hist_eda.png}
+	  \caption{Histogram of top 5 practices}
+	  \label{fig:hist}
 	\end{subfigure}
 	\hfill
+	\begin{subfigure}[t]{.5\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{figures/hist_eda_2.png}
+		\caption{Histogram of next top 5 practices}
+		\label{fig:hist_2}
+	\end{subfigure}
+	\medskip
 	\begin{subfigure}[b]{1\linewidth}
 	  \centering
 	  \includegraphics[width=0.85\linewidth]{figures/eda_boxplots.png}
-	  \caption{Boxplots of sentence length (note: not all outliers shown to focus on visualising IQR)}
+	  \caption{Boxplots of sentence length (Practices shown in order of descending frequency)}
+	  \label{fig:boxplot_top_10}
 	\end{subfigure}
-	\caption{Summary plots for top 10 frequently occurring data practices (Practices shown in order of descending frequency)}
+	\caption{Summary plots for top 10 frequently occurring data practices (note: not all outliers shown to focus on visualising IQR)}
 	\label{fig:eda}
 \end{figure}
+
+With regard to top 10 frequently occurring 4-grams in the top 5 practices (Figure~\ref{fig:4_grams_sentence}), both 4-grams of \texttt{Cookie 1st Party} and \texttt{Cookie 3rd Party} contain many instances of "cookies", and it is hard to tell from the 4-grams alone whether they refer to collection of Cookies by 1st or 3rd parties. The same is seen to a lesser extent between the 4-grams of \texttt{Location} and \texttt{IP Address}, where both have instances of "IP address" and "mac address". In comparison, 4-grams of \texttt{Email} are clearly distinct from the rest of the data practices with unique tokens of "email" and "phone number".
 
 
 \begin{figure}[!ht]
@@ -129,20 +121,10 @@ According to Table~\ref{tab:summary_top_10_practices}, there does not seem to be
 	\label{fig:4_grams_sentence}
   \end{figure}
 
-
-\section{Models used and classification metrics}
-I use Logistic Regression, SGDClassifier and SVC classifiers and compare the weighted precision, recall and F1 scores. Precision, Recall and F1 scores different metrics are used to assess the performance of classifiers. They are stated mathematically below.
-\begin{align*}
-	\text{Precision} &= \frac{\text{True Positive}}{\text{True Positive + False Positive}} \\
-	\text{Recall} &= \frac{\text{True Positive}}{\text{True Positive + False Negative}} \\
-	\text{F1} &= 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision + Recall}}
-\end{align*}
-Since there is neither a high risk of identifying false positives or false negatives, F1 score is primarily used to assess the performance for the models. As the distributions of records across the practices are uneven, I focus on the weighted average of F1 scores as the most important indicator of model performance. 
-
 \section{Performance of classifiers for top N practices}
-As seen in Table~\ref{tab:top_10_sentence} above, there is an uneven distribution of records across the practices. Further, the bottom 10 frequently occurring practices only contains about 2 to 35 records for each practice. Given that there are in total 57 practices for the entire dataset, and there is not a uniform distribution of occurrences. Training models on all 57 practices would likely lead to low performance since there are not enough records for all 57 practices. Thus, to find an optimal balance between model performance and still maintain a realistic sample of practices that could appear in a real world dataset, I chose to assess model performance by first assessing the performance of the three classifiers paired with Tf-IDF for the top N (where $3 \le N \le 10$) frequently occurring practices. The metrics are in Figure~\ref{fig:top_n_practices}.
+I compare the weighted precision, recall and F1 scores of the classifiers below. Since there is neither a high risk of identifying false positives or false negatives, F1 score is primarily used to assess the performance of the classifiers. As there is class imbalance in the top 10 data practices (Table~\ref{tab:top_10_sentence}), I focus on the weighted average F1 scores as the most important indicator of classifier performance. 
 
-Generally we see that the SVC classifier performs the best across the metrics and across the top N frequently occurring practices for both sentence and segment level. This corresponds with the findings by the researchers as they also found that the SVC classifier produced the best performance. Also, performance of all the models generally decreases with increasing $N$, which is not surprising since it gets harder for the classifier to find a decision boundary with more classes.
+Given that there are in total 57 practices for the entire dataset but the top 10 data practices already comprise 60\% of all sentences, training classifiers on all 57 practices would likely lead to low performance. Thus, to find an optimal balance between classifier performance but still maintain realistic sentence complexity, I first assess the performance of the three classifiers using Tf-IDF for the top N (where $3 \le N \le 10$) frequently occurring practices. SVC performs the best across the metrics and across the top N frequently occurring practices (Figure~\ref{fig:top_n_practices}). This corresponds with the findings by Zimmeck et al. Also, performance of all the classifiers generally decreases with increasing $N$, which is not surprising since it is more difficult for the classifier to find a decision boundary with more classes. The following sections focuses on classifier performance of the top 5 practices as performance was still reasonable at 60\% weighted P/R/F1 scores. Also, since SGDClassifier performed the worst compared to the 2 other classifiers, I focus only on comparing logistic regression and SVC, with logistic regression as a baseline classifier.
 
 \begin{figure}[!ht]
 	\centering
@@ -151,47 +133,95 @@ Generally we see that the SVC classifier performs the best across the metrics an
     \label{fig:top_n_practices}
 \end{figure}
 
-
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
-
 \section{Performance of individual classifiers for top 5 practices}
-Since SGDClassifier performed similarly to the 2 other classifiers, I focus only on comparing logistic regression and SVC, with logistic regression as the baseline classifier and SVC since the APP-350 researchers used SVC. I also compare the performance of Tf-IDF and GloVe. In total, I documented the performance of all 4 possible combinations of text representations and models in Figures~\ref{fig:heatmaps_perf_lr} and~\ref{fig:heatmaps_perf_svc} show the averaged metrics over a 5-fold cross validation. 
+I report the individual performance of all 4 combinations of text representations and models. With regard to P/R/F1 scores (Figure~\ref{fig:heatmaps_perf}), similarly to what Zimmeck et al. found, SVC + Tf-IDF provided the best overall performance with the weighted average at 66\%. This is quite a significant performance difference from the lowest performing model, logistic regression + GloVe at 54\%. Specifically for \texttt{Cookie 1st Party}, both logistic regression + Tf-IDF and SVC + Tf-IDF performed similarly at 68\% F1, but SVC + Tf-IDF had a more balanced performance across precision and recall. With regard to the ROC curves (Figure~\ref{fig:roc_curve}), looking at the micro-averaged AUC, the classifiers all performed similarly well within a small difference of 0.03, and similarly for \texttt{Cookie 1st Party}, the difference in AUC was 0.02. GloVe embeddings seem to cause a greater variance when comparing the AUC for each class. For instance, the difference between the highest and lowest AUC for logistic regression + GloVe is $0.89 - 0.77 = 0.12$, while for logistic regression + Tf-IDF it was $0.91 - 0.85 = 0.06$.
 
-Similarly to what Zimmeck et al. found, SVC + Tf-IDF provided the best overall performance with the weighted average at 66\%. This is quite a significant performance difference from the lowest performing model, logistic regression + GloVe at 54\%. Specifically for \texttt{Identifier Cookie 1st Party}, both logistic regression + Tf-IDF and SVC + Tf-IDF performed similarly at 68\% F1, but SVC + Tf-IDF had a more balanced performance across precision and recall. Overall, these performance figures confirm that SVC is the better performing model, though the performance difference between the benchmark logistic regression model and SVC is not that significant (from 62\% to 66\% weighted average F1). It is also interesting to note that GloVe embeddings performed worse compared to Tf-IDF regardless of the model used, when GloVe is the more sophisticated text representation given that only GloVe vectors capture the context of the word. Further, these results seem to correspond with a study measuring performance of supervised machine learning for classification tasks using generalised text datasets (\cite{hsu2020}). LinearSVC followed by logistic regression were the highest performing models, with AdaBoost and Decision Trees having comparatively lower performance.
+Overall, these performance figures confirm that SVC is the better performing model, though the performance difference between the benchmark logistic regression model and SVC is not that significant (from 62\% to 66\% weighted average F1). It is also interesting to note that GloVe embeddings performed worse and caused higher variance in performance compared to Tf-IDF regardless of the model used, when GloVe is the more sophisticated text representation that can capture some semantic meaning of the tokens. These results correspond with a study measuring performance of supervised machine learning for classification tasks using generalised text datasets (\cite{hsu2020}), where LinearSVC followed by logistic regression were the highest performing models.
 
 \begin{figure}[!ht]
-	\begin{subfigure}[b]{1\textwidth}
+	\begin{subfigure}[t]{.5\textwidth}
 	  \centering
 	  \includegraphics[width=\linewidth]{figures/heatmap_log_tfidf.png}
 	  \caption{Logistic regression + TfIDF}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}[b]{1\textwidth}
+	\begin{subfigure}[t]{.5\textwidth}
 	  \centering
 	  \includegraphics[width=\linewidth]{figures/heatmap_log_glove.png}
 	  \caption{Logistic regression + GloVe}
 	\end{subfigure}
-	\caption{Performance heatmaps of logistic regression classifiers}
-	\label{fig:heatmaps_perf_lr}
-\end{figure}
 	
-\begin{figure}[!ht]
-	\begin{subfigure}[b]{1\textwidth}
+	\medskip
+  
+	\begin{subfigure}[t]{.5\textwidth}
 	  \centering
 	  \includegraphics[width=\linewidth]{figures/heatmap_svc_tfidf.png}
 	  \caption{SVC + TfIDF}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}[b]{1\textwidth}
+	\begin{subfigure}[t]{.5\textwidth}
 	  \centering
 	  \includegraphics[width=\linewidth]{figures/heatmap_svc_glove.png}
 	  \caption{SVC + GloVe}
 	\end{subfigure}
-	\caption{Performance heatmaps of SVC classifiers}
-	\label{fig:heatmaps_perf_svc}
-\end{figure}
+	\caption{Performance heatmaps of the 4 classifiers (averaged over 5-fold cross validation)}
+	\label{fig:heatmaps_perf}
+  \end{figure}
+
+\begin{figure}[!ht]
+	\begin{subfigure}[t]{.5\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{figures/roc_logistic_tfidf.png}
+	  \caption{Logistic regression + TfIDF}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{.5\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{figures/roc_logistic_glove.png}
+	  \caption{Logistic regression + GloVe}
+	\end{subfigure}
+	
+	\medskip
+  
+	\begin{subfigure}[t]{.5\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{figures/roc_svc_tfidf.png}
+	  \caption{SVC + TfIDF}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{.5\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{figures/roc_svc_glove.png}
+	  \caption{SVC + GloVe}
+	\end{subfigure}
+	\caption{Multiclass Receiver Operating Characteristic (ROC) Curve of the 5 data practices for each classifier}
+	\label{fig:roc_curve}
+  \end{figure}
+
+
+% 	\begin{table}[!ht]
+% 		\resizebox{\textwidth}{!}{
+% 		\begin{tabular}{lrrrr}
+% 		\toprule
+% 								practice &  counts &  sentence\_length\_mean &  sentence\_length\_median &  counts\_percentage \\
+% 		\midrule
+% 		Identifier\_Mobile\_Carrier\_3rdParty &      35 &             47.1 &                    30.0 &           0.19\% \\
+% 					Contact\_ZIP\_3rdParty &      34 &             40.2 &                    41.0 &           0.18\% \\
+% 		Identifier\_SSID\_BSSID\_1stParty &      33 &             28.1 &                    24.0 &           0.18\% \\
+% 			  Contact\_Password\_3rdParty &      33 &             24.2 &                    20.0 &           0.18\% \\
+% 					Contact\_City\_3rdParty &      24 &             180 &                    14.0 &           0.13\% \\
+% 		Contact\_Address\_Book\_3rdParty &      17 &             39.6 &                    34.0 &           0.1\% \\
+% 			  Identifier\_IMSI\_1stParty &      13 &             48.2 &                    44.0 &           0.07\% \\
+% 		Identifier\_SIM\_Serial\_3rdParty &       5 &             41.2 &                    54.0 &           0.03\% \\
+% 			  Identifier\_IMSI\_3rdParty &       4 &             54.3 &                    47.5 &           0.02\% \\
+% 		Identifier\_SSID\_BSSID\_3rdParty &       2 &             65.5 &                    65.5 &           0.01\% \\
+% 		\bottomrule
+% 	\end{tabular}
+% 	}
+% 	\caption{Summary statistics for bottom 10 frequently occurring practices.}
+% 	\label{tab:bottom_10_sentence}
+% \end{table}
+
 
 % \begin{table}[!ht]
 % 	\resizebox{\textwidth}{!}{
