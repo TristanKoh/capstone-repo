@@ -5,30 +5,37 @@
 \label{chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 \section{EDA}
-There are a total of 18829 annotated sentences and the top 10 frequently occurring practices make up close to 60\% of all sentences (Table~\ref{tab:top_10_sentence}). The bottom 10 frequently occurring practices make up approximately 1\% of the dataset. There does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words (Table~\ref{tab:summary_top_10_practices}) and as seen by similar interquartile range (IQR) (Figure~\ref{fig:boxplot_top_10}). This could indicate similar sentence complexity across the practices. The mean of the sentence lengths for all top 10 practices are slightly greater than the median, which suggest some outliers with very long sentences (Figure~\ref{fig:graph_sentence_length}) that cause a slightly right skew distribution (Figure~\ref{fig:hist}). The distributions are also unimodal, with the mode around 20.
+There are a total of 18829 annotated sentences and the top 10 frequently occurring practices make up close to 60\% of all sentences (Figure~\ref{fig:eda_data_practices}). The bottom 10 frequently occurring practices make up approximately 1\% of the dataset. There does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation for the mean is approximately 2.5 words and the median 1.9 words (Table~\ref{tab:summary_top_10_practices}) and as seen by similar interquartile range (IQR) (Figure~\ref{fig:boxplot_top_10}). This could indicate similar sentence complexity across the practices. The mean of the sentence lengths for all top 10 practices are slightly greater than the median, which suggest some outliers with very long sentences (Figure~\ref{fig:graph_sentence_length}) that cause a slightly right skew distribution (Figure~\ref{fig:hist}). The distributions are also unimodal, with the mode around 20.
 
-\begin{table}[!ht]
-	\resizebox{\textwidth}{!}{
-	\begin{tabular}{lrrrr}
-	\toprule
-									  practice &  counts &  mean sentence length &  median sentence length &  percentage of total \\
-	\midrule
-	Identifier\_Cookie\_or\_similar\_Tech\_1stParty &    2107 &             25.4 &                    22.0 &           11.2\% \\
-			   Contact\_E\_Mail\_Address\_1stParty &    2106 &             28.7 &                    25.0 &           11.2\% \\
-							 Location\_1stParty &    1514 &             29.2 &                    24.0 &           8.1\% \\
-	Identifier\_Cookie\_or\_similar\_Tech\_3rdParty &    1250 &             27.3 &                    24.0 &           6.6\% \\
-				Identifier\_IP\_Address\_1stParty &    1005 &             30.9 &                    27.0 &           5.3\% \\
-				 Contact\_Phone\_Number\_1stParty &     970 &             29.1 &                    25.0 &           5.2\% \\
-				 Identifier\_Device\_ID\_1stParty &     697 &             32.4 &                    28.0 &           3.7\% \\
-			   Contact\_Postal\_Address\_1stParty &     597 &             28.9 &                    26.0 &           3.2\% \\
-										   SSO &     504 &             32.6 &                    28.0 &           2.7\% \\
-					  Demographic\_Age\_1stParty &     428 &             33.1 &                    26.0 &           2.3\% \\
-	\bottomrule
-	\end{tabular}
-	}
-	\caption{Summary statistics per practice of top 10 occurring practices.}
-	\label{tab:top_10_sentence}
-	\end{table}
+% \begin{table}[!ht]
+% 	\resizebox{\textwidth}{!}{
+% 	\begin{tabular}{lrrrr}
+% 	\toprule
+% 									  practice &  counts &  mean sentence length &  median sentence length &  percentage of total \\
+% 	\midrule
+% 	Identifier\_Cookie\_1stParty &    2107 &             25.4 &                    22.0 &           11.2\% \\
+% 			   Contact\_E\_Mail\_Address\_1stParty &    2106 &             28.7 &                    25.0 &           11.2\% \\
+% 							 Location\_1stParty &    1514 &             29.2 &                    24.0 &           8.1\% \\
+% 	Identifier\_Cookie\_Tech\_3rdParty &    1250 &             27.3 &                    24.0 &           6.6\% \\
+% 				Identifier\_IP\_Address\_1stParty &    1005 &             30.9 &                    27.0 &           5.3\% \\
+% 				 Contact\_Phone\_Number\_1stParty &     970 &             29.1 &                    25.0 &           5.2\% \\
+% 				 Identifier\_Device\_ID\_1stParty &     697 &             32.4 &                    28.0 &           3.7\% \\
+% 			   Contact\_Postal\_Address\_1stParty &     597 &             28.9 &                    26.0 &           3.2\% \\
+% 										   SSO &     504 &             32.6 &                    28.0 &           2.7\% \\
+% 					  Demographic\_Age\_1stParty &     428 &             33.1 &                    26.0 &           2.3\% \\
+% 	\bottomrule
+% 	\end{tabular}
+% 	}
+% 	\caption{Summary statistics per practice of top 10 occurring practices.}
+% 	\label{tab:top_10_sentence}
+% 	\end{table}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/eda_data_practices.png}      
+    \caption{Breakdown of data practices by proportion}
+    \label{fig:eda_data_practice}
+\end{figure}
 
 \begin{table}[!ht]
 	\centering
