@@ -56,8 +56,9 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{CJKutf8}
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
-%\usepackage[backend=bibtex,style=authoryear,natbib=true,backref=true]{biblatex} % use this line instead of the previous one if you want to use back references
+% \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+% \usepackage[backend=bibtex,style=authoryear,natbib=true,backref=true]{biblatex} % use this line instead of the previous one if you want to use back references
 
 \addbibresource{biblio.bib} % The filename of the bibliography
 
@@ -130,25 +131,23 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
-
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
 \begin{CJK*}{UTF8}{gbsn}
 	他对我说: "我的恩典够你用的, 因为我的能力是在人的软弱上显得完全." 所以, 我更喜欢夸耀自己的软弱, 好使基督的能力覆庇我. - 哥林多后书 12:9
 \end{CJK*}
 
-Thanks be to God, who has provided me with countless opportunities to learn and grow academically and non-academically, and who has granted me the strength to overcome self-doubt to find joy in His love. His abundant grace has made this capstone (and more) possible.
+Without God's abundant grace, this capstone (and more) would not have been possible. His love has been my constant source of strength in overcoming self-doubt to discover His fullness of joy.
 
-I could not be more blessed to have my parents who have tirelessly and selflessly cared for me as my physical family, and to Law CF \& \begin{CJK*}{UTF8}{gbsn}恩岭\end{CJK*}, who have extended their unconditional love to provide me with a spiritual home.
+I could not be more blessed to have my parents who have selflessly cared for me and seen me through the darkest of days, and to Law CF \& \begin{CJK*}{UTF8}{gbsn}恩岭\end{CJK*} for embracing me into the spiritual family and giving me another place to call home.
 
-My heartfelt appreciation goes to my supervisors, Prof. Chesterman \& Prof. Choi, who have willingly taken on this strange mixture of MCS and law and offered invaluable feedback and encouragement, and Prof. Danvy \& Prof. Francesca, who have welcomed me into MCS and made me feel at ease despite my imposter syndrome.
+I owe a debt of gratitude to Prof. Chesterman \& Prof. Choi, who have willingly taken on this strange mixture of MCS and law and offered invaluable feedback and encouragement, and to Prof. Danvy \& Prof. Francesca, because without their reassurance and nurture, I would never have dreamt of majoring in MCS.
 
-I am privileged to have had journeyed with my friends Rayner, Nat, Ziying, and Glen into adulthood, and to have had the companionship of my DDP batchmates, who have made this five-year sojourn all the more transformative. 
+I am privileged to have shared fond memories and laughter with Rayner, Nat, Ziying, and Glen, and to have had the companionship of the DDP Class of 2022+1, who have made this five-year sojourn all the more transformative. Special mention must go to the thankless toil of the cleaning and catering aunties and uncles, without whom this whole residential experience would not have lasted more than 12 hours.
 
-Finally, I thank my survey respondents, because without their participation, I would only have half a capstone.
+Finally, I would like to thank my survey respondents, because without their participation, I would only have half a capstone.
 
 \textit{"When the race is complete, still my lips shall repeat: Yet not I, but through Christ in me!"}
-
 \end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
@@ -159,9 +158,11 @@ Finally, I thank my survey respondents, because without their participation, I w
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
 This capstone assesses the explainability of the visualisations of machine learning models that were trained to identify data practices within apps' data privacy policies. 
 
-Natural language processing (NLP) techniques are now much more advanced and can potentially automate some areas of substantive legal reasoning and writing, but has come at the cost of increased opacity of the models. Designing Explainable AI (XAI) is a method to combat this opacity, but it is unclear whether these explanations are effective across the different users and use cases of the models. The stakeholders in data privacy regulation can also benefit from the use of XAI. There is a gap in research of XAI assessments generally, and XAI's particular application in data privacy. 
+Natural language processing (NLP) techniques have recently increased in performance and can potentially automate some areas of substantive legal reasoning and writing, but has come at the cost of increased opacity of the models. Applying eXplainable AI (XAI) has been introduced to combat this opacity, but it is unclear whether such explanations are effective for the different purposes and users of the explanations. The stakeholders in data privacy regulation (i.e. organisations, data privacy regulatory authorities, and consumers of data services) can also benefit from the use of XAI. Therefore, there is a gap in research that assesses the effectiveness of XAI, and XAI's particular application in data privacy.
 
-This capstone uses this data privacy context to train and evaluate AI classifiers that are able to detect data practices within apps' data privacy practices. XAI techniques are applied on these models to produce visualisations that aim to explain these predictions to these stakeholders that may not be experts in data science. Finally, the effectiveness of these visualisations are assessed by surveying the general public along differing metrics of explainability.
+This capstone uses this data privacy context to train and evaluate AI classifiers that are able to detect data practices within PlayStore apps' data privacy policies. XAI techniques are applied on these models to produce visualisations that aim to explain these predictions to these stakeholders in data privacy. Finally, the effectiveness of these visualisations are assessed by surveying the general public along differing metrics of explainability.
+
+Word count: 11,226 (original = 9712 (incl footnotes), +50 for citations, and x1.15 for tables, content page, abstract, and acknowledgements.)
 \end{abstract}
 
 

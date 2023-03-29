@@ -4,6 +4,8 @@
 
 In total, 31 responses were collected. The majority of respondents majored in law (58\%) vs non-law (42\%) respondents (Figure~\ref{fig:demo_1}). Except for the questions relating to subject matter expertise (data privacy and AI), the level of agreement of law vs non-law respondents about their beliefs relating to data privacy and AI were about the same (Figure~\ref{fig:demo_3}). Law respondents had less expertise in AI, while conversely, non-law respondents had less experience with data privacy. Across all respondents, while they rated that decisions by AI could be a risk to society (about 4), they also agreed that decisions by AI could be equally useful. This perhaps suggests that the respondents think the balance between "usefulness" and "risks" are not zero-sum; AI could be very helpful in solving problems, but at the same time users should be cognisant of the risks.
 
+I mainly used sentences annotated as \texttt{Identifier Cookie 1st Party} to produce explanations for the survey. This is because the class performance of \texttt{Identifier Cookie 1st Party} performed relatively well, and has the highest number of instances in the dataset which provides a large variety of drafting styles.
+
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.85\linewidth]{figures/major_respondents.png}
@@ -54,7 +56,7 @@ Using the Wilcoxon Rank Sum Test, I tested for the following, setting $\alpha = 
     H0&: \text{There is no increase / decrease in scores after viewing the explainations.} \\
     H1&: \text{There is an increase / decrease in scores after viewing the explainations.}
 \end{align*}
-The 1-sided test was used to check whether the distribution underlying the difference between the initial and final paired scores was symmetric below or above 0 (\cite{scipy}). Mathematically this difference can be stated as $d = i - f$, where $i$ and $f$ are the scores reported before and after viewing the explanations, and $d$ is the difference. Hence, if $d < 0$, then $i < f$ and the scores increased after viewing. Conversely, if $d > 0$, then $i > f$ and the scores decreased after viewing. p-values are reported in Table~\ref{tab:context_comparison} and~\ref{tab:context_comparison_2}. For Table~\ref{tab:context_comparison_2a} and~\ref{tab:context_comparison_2b}, I took the mean of self-reported scores across contexts, and across each metric respectively. For Table~\ref{tab:context_comparison_2c}, the self-reported scores were averaged across both context and metric. The trending in scores across the contexts are visualised in Figure~\ref{fig:part2_part6_comparison}.
+The 1-sided test was used to check whether the distribution underlying the difference between the initial and final paired scores was symmetric below or above 0 \cite{scipy}. Mathematically this difference can be stated as $d = i - f$, where $i$ and $f$ are the scores reported before and after viewing the explanations, and $d$ is the difference. Hence, if $d < 0$, then $i < f$ and the scores increased after viewing. Conversely, if $d > 0$, then $i > f$ and the scores decreased after viewing. p-values are reported in Table~\ref{tab:context_comparison} and~\ref{tab:context_comparison_2}. For Table~\ref{tab:context_comparison_2a} and~\ref{tab:context_comparison_2b}, I took the mean of self-reported scores across contexts, and across each metric respectively. For Table~\ref{tab:context_comparison_2c}, the self-reported scores were averaged across both context and metric. The trending in scores across the contexts are visualised in Figure~\ref{fig:part2_part6_comparison}.
 
 \begin{table}[!ht]
     \centering
@@ -137,7 +139,7 @@ Here are the instances when $p<0.1$, and therefore $H0$ can be rejected in favou
     \item There is a statistically significant decrease in explainability metrics for context 1 and 2 when comparing the mean of the scores across the metrics (Table~\ref{tab:context_comparison_2a}) and for trust across the three contexts (Table~\ref{tab:context_comparison_2b}). Interestingly, there seems to be a higher correlation between the scores of the 4 metrics specifically for context 2 and 3 after the the respondents viewed the explanations (Figure~\ref{fig:part2_part6_comparison}).
 \end{enumerate}
 
-Remember that the explanations given to respondents were deliberately chosen to demonstrate the limitations of the model. Hence, respondents were likely more cognisant of such limitations\footnote{This can also be inferred from the drop in overall interpretability and understandability as explained \hyperref[sec:interpret_understand]{below}.} when they answered the same questions again in Part 6. Here are some inferences that I draw from these observations:
+Remember that the explanations given to respondents were deliberately chosen to demonstrate the limitations of the model. Hence, respondents were likely more cognisant of such limitations\footnote{This can also be inferred from the negative trend of interpretability and understandability as explained \hyperref[sec:interpret_understand]{below}.} when they answered the same questions again in Part 6. Here are some inferences that I draw from these observations:
 \begin{enumerate}
     \item \textit{"Efficiency" is dependent on the risks of making wrong predictions (App developer, PDPC)}: The speed of automation of reading privacy policies would be the same regardless whether an app developer or PDPC uses it. However, changes in efficiency differed between the 2 contexts, suggesting that automation was not the only metric that respondents considered as part of "effectiveness". Respondents could have considered that automation was more important to app developers when balanced against the risks of making a wrong prediction, as compared to the PDPC, where the risks were too high to justify automation. Hence, the classifier is not "effective" in terms of making a legally defensible decision given that it is fallible.
     \item \textit{Classifier's interpretability is especially critical for the PDPC such that trust was affected}: Respondents could have thought that PDPC, as a regulatory body in comparison to app developers and users who are not, should fully understand and explicitly justify the decision of finding an organisation (such as an app developer) liable for breaching the PDPA. Hence, when respondents reported a drop in overall interpretability and understandability, it especially affected their trust in the logic of the classifier.
@@ -146,15 +148,14 @@ Remember that the explanations given to respondents were deliberately chosen to 
     \item \textit{Mismatch in expectations particularly affects trust}: In the case of trust being the only metric that significantly decreased across the contexts, this could point to a mismatch of expectations. Intuitively, if respondents do not understand how a process works, they are less likely to trust the results of that process. Perhaps respondents' expectations of AI was that AI would reason similarly to how humans would, or that AI functioned entirely objectively similar to applying a formula in Excel where it is clear how the result was obtained from the formula. Instead, the explanations provided showed that the classifier was inconsistent, sometimes relying heavily on words like "cookies" and other times not so much without any discernible reason. So respondents' expectations were not met, and this caused the overall drop in trust.
 \end{enumerate}
 
-\section{Part 3: Testing whether viewing more visualisations increase explainability}
-
-\subsection{Analysis of the reported scores of "interpret" and "understand"}
+\section{Part 3: Testing whether viewing more visualisations increased explainability}
+\subsection{Analysis of the reported scores of interpret and understand}
 \label{sec:interpret_understand}
-There is a decreasing trend of both understandability and interpretability after viewing each explanation (Figure~\ref{fig:part3_trend}). Using the Wilcoxon Rank Sum Test, I separately tested for significant differences for understandability and interpretability, setting $\alpha = 0.1$: 
+There is a decreasing trend of both understandability and interpretability after viewing each explanation (Figure~\ref{fig:part3_trend}, explanations can be viewed in Figure~\ref{fig:part4_explanations}). Using the Wilcoxon Rank Sum Test, I separately tested for significant differences of understandability and interpretability, setting $\alpha = 0.1$: 
 
-H0: There is no difference in reported interpretability / understandability between the first and last questions.
+\noindent H0: There is no difference in reported interpretability / understandability between the first and last questions.
 
-H1: There is an increase / decrease of reported interpretability / understandability between the first and last questions.
+\noindent H1: There is an increase / decrease of reported interpretability / understandability between the first and last questions.
 
 \begin{table}[!ht]
   \centering
@@ -175,6 +176,34 @@ H1: There is an increase / decrease of reported interpretability / understandabi
   \label{fig:part3_trend}
 \end{figure}
 
+\begin{figure}[!ht]
+  \begin{subfigure}[b]{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{figures/explanations_visualisations/section_4a/Picture1.png}
+    \caption{1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{figures/explanations_visualisations/section_4a/Picture2.png}
+    \caption{2}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{figures/explanations_visualisations/section_4a/Picture3.png}
+    \caption{3}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{figures/explanations_visualisations/section_4a/Picture4.png}
+    \caption{4}
+  \end{subfigure}
+  \caption{The 4 visualisations shown to respondents. Respondents were asked to rate how far they understood why the model made the prediction, and how far they found the visualisation easy to interpret. All 4 sentences were annotated as \texttt{Identifier Cookie 1st Party}.}
+  \label{fig:part4_explanations}
+\end{figure}
+
 There was a statistically significant decrease in understandability but not interpretability (Table~\ref{tab:p_values_interpret_understand}). Hence, H0 can be rejected in favour of H1. 
 
 A reason for why there was no significant decrease in interpretability was because the questions I posed to the respondents were clear in distinguishing the visualisation from the classifier's logic. Hence, respondents understood how to interpret the visualisation, but were less clear about the classifier's logic that was presented through the visualisation. 
@@ -184,7 +213,7 @@ With regards to the significant decrease in understandability, the respondents c
 Another inference is that the underlying explainability method also influences the respondents' perception of the interpretability of the visualisation technique (or vice versa). This can be seen by how there is a positive correlation between the understand and interpret scores. This is not surprising since if the visualisation technique is unclear or poor, understandability of the model itself would also decrease since respondents' only way of viewing the results of the explainability technique is through the visualisation technique. To respondents, both the visualisation technique and the explainability technique are one and the same thing.
 
 \subsection{Analysis of predicting counterfactuals}
-Given the lack of any consistent trend across the questions (Figure~\ref{fig:part3_counterfactual}), it is difficult to draw any definitive interpretations from the respondents' predictions of counterfactuals. Further, the classifier itself gave ambivalent predicted probabilities for each data practice. For example (Figure~\ref{fig:part3_counterfactual_1}), the classifier predicted \texttt{Contact Email Address} at 25\% while \texttt{Cookie 1st Party} was predicted at 23\%.
+Given the lack of any consistent trend of the respondents' votes across the questions (Figure~\ref{fig:part3_counterfactual}), it is difficult to draw any definitive interpretations from the respondents' predictions of counterfactuals. Further, the classifier itself gave ambivalent predicted probabilities for each data practice. For example (Figure~\ref{fig:part3_counterfactual_1}), the classifier predicted \texttt{Contact Email Address} at 25\% while \texttt{Cookie 1st Party} was predicted at 23\%.
 
 \begin{figure}[!ht]
   \begin{subfigure}[b]{1\textwidth}
