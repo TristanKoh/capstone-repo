@@ -55,6 +55,7 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage{enumitem,kantlipsum}
 \usepackage{CJKutf8}
 % \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \usepackage[backend=bibtex,style=numeric]{biblatex}
@@ -143,7 +144,7 @@ I could not be more blessed to have my parents who have selflessly cared for me 
 
 I owe a debt of gratitude to Prof. Choi \& Prof. Chesterman, who have willingly taken on this strange mixture of MCS and law, and to Prof. Danvy \& Prof. Francesca, because without their reassurance and nurture, I would never have dreamt of majoring in MCS.
 
-I am privileged to have shared fond memories, laughter, academic and non-academic grumbling with Rayner, Nat, Ziying, and Shaf, who have made this five-year sojourn all the more transformative. Special mention must go to the thankless toil of the cleaning and catering aunties and uncles, without whom this whole residential experience would not have lasted more than 12 hours.
+I am privileged to have shared fond memories, laughter, academic and non-academic grumbling alike with Rayner, Nat, Ziying, and Shaf, who have made this five-year sojourn all the more transformative. Special mention must go to the thankless toil of the cleaning and catering aunties and uncles, without whom this whole residential experience would not have lasted more than half a day.
 
 Finally, I thank my survey respondents because without their participation, I would only have half a capstone. To you, my reader, I hope you find this capstone as insightful to read as I did writing it.
 
@@ -156,11 +157,18 @@ Finally, I thank my survey respondents because without their participation, I wo
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-Natural language processing (NLP) techniques have increased substantially in performance and can potentially automate some areas of legal reasoning and writing. However, increased performance has come at the cost of increased opacity of the models. XAI has been developed to combat this opacity. Nevertheless, it is unclear how such explanations should be evaluated and whether these explanations are effective because effectiveness depends on the varying purposes and end-users of the explanations. Separately, the stakeholders of data privacy regulation (i.e. organisations, data privacy regulatory authorities, and consumers of data services) can benefit particularly from the use of XAI. This capstone fills a gap in research by evaluating the effectiveness of XAI within the context of data privacy.
+Natural language processing (NLP) techniques have increased substantially in performance and can potentially automate some areas of legal reasoning and writing. However, increased performance has come at the cost of increased opacity of the models. XAI has been developed to combat this opacity. Nevertheless, it is unclear how such explanations should be evaluated and whether these explanations are effective because effectiveness depends on the varying purposes and end-users of the explanations. Separately, the stakeholders of data privacy regulation (i.e. organisations, data privacy regulatory authorities, and consumers of data services) can benefit particularly from the use of XAI. Hence, this capstone fills a gap in research by evaluating the effectiveness of XAI within the context of data privacy.
 
-This capstone develops and evaluates machine learning classifiers to detect data practices in PlayStore apps' privacy policies. Then, an XAI technique, LIME, is applied on these models to produce explanations of classifications of selected data practices. Finally, the explanations are evaluated by human evaluation using a survey which utilises varied metrics and types of questions to capture the different possible dimensions of explanability. In terms of model performance, I achieve a weighted average F1 score of 66\% using support vector machine for classification (SVC) with Tf-IDF. In terms of human evaluation, respondents reported a statistically significant decrease in overall trust and understandability of the models after viewing the explanations, amongst other more specific findings.
+This capstone trains and reports the performance of machine learning classifiers that detect data practices in PlayStore apps' data privacy policies. Then, an XAI technique, LIME, is applied on these models to produce explanations of classifications of selected data practices. Finally, the explanations are evaluated by human evaluation using a survey which uniquely utilises varied metrics and types of questions to capture the different possible dimensions of explanability. In terms of model performance, I achieve a 5 class weighted average F1 score of 66\% using support vector machine for classification with Tf-IDF. In terms of human evaluation, respondents reported a statistically significant decrease in overall trust and understandability of the models after viewing the explanations, amongst other more specific findings.
 
-Word count: 11,947 (original = 10,597 (incl footnotes), +50 (citations), +300 (acknowledgements) + 250 (abstract) + 250 (content page) + 500 (tables))
+\bigskip
+
+\noindent \textit{Keywords: eXplainable AI, human evaluation of XAI, natural language processing, machine learning, data science, data privacy}
+
+\bigskip
+
+\noindent Word count: 12,000 
+% (original = 10,764 (incl footnotes), +50 (citations), +300 (acknowledgements) + 250 (abstract) + 250 (content page) + 500 (tables))
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
