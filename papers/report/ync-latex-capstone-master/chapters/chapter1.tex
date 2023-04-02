@@ -53,10 +53,13 @@ This capstone's objectives come broadly within the evaluation of XAI techniques.
 I have four research questions\footnote{All code and analysis can be found \href{https://github.com/TristanKoh/capstone-repo/}{here}.}: 
 
 \begin{enumerate}
-  \item Which AI models ("classifiers")\footnote{I refer to AI models as classifiers from hereon as the task that the AI models perform in this capstone is classifying sentences to a data practice. I elaborate more on this distinction in Section~\ref{sec:classifiers}.} perform the best on a data privacy dataset in terms of traditional performance metrics?
-  \item Which classifiers are the most understandable to users that include laypersons and users with domain knowledge in data science and the law?
-  \item How would users rate the explainability of a selected XAI technique?
-  \item What are the differences in explainability if users were asked to consider the predictions of these classifiers from the perspective of a consumer, an organisation and the PDPC?
+  \item Which AI models ("classifiers")\footnote{I refer to AI models as classifiers from hereon as the task that the AI models perform in this capstone is classifying sentences to a data practice. I elaborate more on this distinction in Section~\ref{sec:classifiers}.} perform the best on a data privacy dataset in terms of traditional performance metrics? (Section~\ref{sec:perf_top_5})
+  
+  \item Which classifiers are the most understandable to users that include laypersons and users with domain knowledge in data science and the law? (Section~\ref{sec:testing_pairs})
+  
+  \item How would users rate the explainability of a selected XAI technique? (Section~\ref{sec:interpret_understand})
+
+  \item What are the differences in explainability if users were asked to consider the predictions of these classifiers from the perspective of a consumer, an organisation and the PDPC? (Section~\ref{sec:three_contexts_comparison})
 \end{enumerate}
 
 To investigate these questions, I train and evaluate the performance of classifiers that classify sentences in apps' data privacy policies to a particular data practice. A privacy practice is a section of an app data privacy policy that describes a certain behaviour of an app which has privacy implications\footnote{This will be further elaborated on when \hyperref[app350_corpus]{the dataset} is introduced.}. XAI methods are then used to visualise why the models made such predictions. These visualisations are assessed for effectiveness by conducting a survey asking respondents to rate these visualisations according to certain metrics and values related to explainability and by using different types of questions.
