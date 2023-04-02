@@ -5,7 +5,7 @@
 \label{chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 \section{EDA}
-There are a total of 18,829 annotated sentences and the top 10 frequently occurring practices make up close to 60\% of all sentences (Figure~\ref{fig:eda_data_practice}). The bottom 10 frequently occurring practices make up approximately 1\% of the dataset. There does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation of the mean is approximately 2.5 words and the median 1.9 words across the top 10 practices (Table~\ref{tab:summary_top_10_practices}). This is also seen by similar interquartile range (IQR) (Figure~\ref{fig:boxplot_top_10}). The mean of the sentence lengths for all top 10 practices are slightly greater than the median, which suggest some outliers with very long sentence lengths (Figure~\ref{fig:graph_sentence_length}) that cause a slightly right skew distribution (Figure~\ref{fig:hist}). The distributions are also unimodal, with the mode around 20. Similar sentence length could indicate similar sentence complexity across the practices. 
+There are a total of 18,829 annotated sentences and the top 10 frequently occurring practices make up close to 60\% of all sentences (Figure~\ref{fig:eda_data_practice}). The bottom 10 frequently occurring practices make up approximately 1\% of the dataset. There does not seem to be much variation in sentence length for the top 10 frequently occurring practices, since the standard deviation of the mean is approximately 2.5 words and the median 1.9 words across the top 10 practices. This is also seen by similar interquartile range (IQR) (Figure~\ref{fig:boxplot_top_10}). The mean of the sentence lengths for all top 10 practices are slightly greater than the median, which suggest some outliers with very long sentence lengths (Figure~\ref{fig:graph_sentence_length}) that cause a slightly right skew distribution (Figure~\ref{fig:hist}). The distributions are also unimodal, with the mode around 20. Similar sentence length could indicate similar sentence complexity across the practices. 
 
 % \begin{table}[!ht]
 % 	\resizebox{\textwidth}{!}{
@@ -37,25 +37,25 @@ There are a total of 18,829 annotated sentences and the top 10 frequently occurr
     \label{fig:eda_data_practice}
 \end{figure}
 
-\begin{table}[!ht]
-	\centering
-	\begin{tabular}{lrr}
-		\toprule
-		{} &  Mean sentence length &  Median sentence length \\
-		\midrule
-		count &             10.0 &               10.0 \\
-		mean  &             29.8 &               25.5 \\
-		std   &              2.5 &                1.9 \\
-		min   &             25.4 &               22.0 \\
-		25\%   &             28.7 &               24.3 \\
-		50\%   &             29.1 &               25.5 \\
-		75\%   &             32.0 &               26.8 \\
-		max   &             33.1 &               28.0 \\
-		\bottomrule
-	\end{tabular}
-	\caption{Summary statistics of sentence length of the top 10 occurring practices.}
-	\label{tab:summary_top_10_practices}
-\end{table}
+% \begin{table}[!ht]
+% 	\centering
+% 	\begin{tabular}{lrr}
+% 		\toprule
+% 		{} &  Mean sentence length &  Median sentence length \\
+% 		\midrule
+% 		count &             10.0 &               10.0 \\
+% 		mean  &             29.8 &               25.5 \\
+% 		std   &              2.5 &                1.9 \\
+% 		min   &             25.4 &               22.0 \\
+% 		25\%   &             28.7 &               24.3 \\
+% 		50\%   &             29.1 &               25.5 \\
+% 		75\%   &             32.0 &               26.8 \\
+% 		max   &             33.1 &               28.0 \\
+% 		\bottomrule
+% 	\end{tabular}
+% 	\caption{Summary statistics of sentence length of the top 10 occurring practices.}
+% 	\label{tab:summary_top_10_practices}
+% \end{table}
 
 \begin{figure}[!ht]
 	\centering

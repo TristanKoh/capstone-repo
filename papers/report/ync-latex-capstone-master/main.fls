@@ -1643,8 +1643,6 @@ INPUT .\figures\4_grams_location.png
 INPUT .\figures\4_grams_location.png
 INPUT .\figures\4_grams_location.png
 INPUT .\figures\4_grams_location.png
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplrc8t.vf
-INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT .\figures\model_n_testing_sentence.png
 INPUT .\figures\model_n_testing_sentence.png
 INPUT figures\model_n_testing_sentence.png
@@ -1662,6 +1660,8 @@ INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\z
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7v.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplrc8t.vf
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -1756,6 +1756,7 @@ INPUT .\figures\demo_4.png
 INPUT .\figures\demo_4.png
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
 INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8t.tfm
 INPUT .\figures\part2_part6_metric_comparison.png
 INPUT .\figures\part2_part6_metric_comparison.png
 INPUT figures\part2_part6_metric_comparison.png
@@ -1763,6 +1764,7 @@ INPUT .\figures\part2_part6_metric_comparison.png
 INPUT .\figures\part2_part6_metric_comparison.png
 INPUT .\figures\part2_part6_metric_comparison.png
 INPUT .\figures\part2_part6_metric_comparison.png
+INPUT C:\Users\Tristan\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri8t.vf
 INPUT .\figures\part3.png
 INPUT .\figures\part3.png
 INPUT figures\part3.png
