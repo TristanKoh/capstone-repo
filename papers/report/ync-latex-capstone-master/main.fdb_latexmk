@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1680454044 "main.aux" "main.bbl" "main" 1680454368 0
+["bibtex main"] 1681482898 "main.aux" "main.bbl" "main" 1681482909 0
   "./biblio.bib" 1680451560 19486 a8aa051a1c7fd92af761d3233779a620 ""
-  "./main-blx.bib" 1680454366 340 25674e554aa25e98ea59ec40797d70f1 ""
+  "./main-blx.bib" 1681482907 340 25674e554aa25e98ea59ec40797d70f1 ""
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1657613115 65483 3b5a53ada692a06ce416d088de6a391b ""
-  "main.aux" 1680454366 30522 ac149f2600b92c74466eb415539f4172 "pdflatex"
+  "main.aux" 1681482907 30794 d556024a13aa2d8a1862bf5758982df5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1680454359 "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/ync-latex-capstone-master/main.tex" "main.pdf" "main" 1680454368 0
-  "C:/Users/Tristan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1680323830 94101 5648ae4699be9c36d77ad4d93a91c118 ""
+["pdflatex"] 1681482898 "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/ync-latex-capstone-master/main.tex" "main.pdf" "main" 1681482909 0
+  "C:/Users/Tristan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1681481549 107770 7dfa6d84683b2ff7dfe575dd11f0272d ""
   "C:/Users/Tristan/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1675495447 21972 e7dc571a98b041778a4e626c96ff5e02 ""
   "C:/Users/Tristan/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1675495452 24152 66402b4aa9b1f56205d46e293d2cfe00 ""
   "C:/Users/Tristan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1675498718 23174817 06e25929c7f8bb3e45989334b0ff6961 ""
@@ -248,8 +248,10 @@
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Tristan/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
+  "Figures/../appendix/survey_responses.pdf" 1677495940 1199812 d07891d9aaf1795aceabfd0def1866fc ""
   "MastersDoctoralThesis.cls" 1677080176 19347 89c82fe0177af5ca4ecc028e2ad907be ""
-  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/ync-latex-capstone-master/main.tex" 1680454358 15536 037931d8f4c127ef1600be92f4e09f1a ""
+  "appendix/appendixB.tex" 1677499668 535 99ae029c6c4439b04071eb830fd1d2b5 ""
+  "c:/Users/Tristan/Desktop/Capstone ML and Data privacy/capstone-repo/papers/report/ync-latex-capstone-master/main.tex" 1681482887 15534 a244b7aa066387f2d16d766f2b93f2a4 ""
   "chapters/chapter1.tex" 1680454033 13741 4a53835260a7eea2061cf66a3f1377a6 ""
   "chapters/chapter2.tex" 1680360168 30575 814c0241a745efbd65216edf4afc0dbc ""
   "chapters/chapter3.tex" 1680419663 24497 a2f3d19a11d3530b8fca52ca1d290172 ""
@@ -295,13 +297,14 @@
   "figures/roc_svc_glove.png" 1679711622 165265 2576674276f1dac68fc3b63d3a175125 ""
   "figures/roc_svc_tfidf.png" 1679711593 159883 4b62ad6e05759a5a468264424bc95d6f ""
   "figures/svc_viz.png" 1679387811 132766 9471d17028cae340a9d893c5cd4d3bbf ""
-  "main.aux" 1680454366 30522 ac149f2600b92c74466eb415539f4172 "pdflatex"
-  "main.bbl" 1680454044 33067 e799f7dcbe7516c188b2174afc30590a "bibtex main"
-  "main.out" 1680454366 6257 1c565ded94e905f44c395a1c14ca0389 "pdflatex"
-  "main.run.xml" 1680454366 2518 5e623e3098bccfc7700d54cb91f8fd6e "pdflatex"
-  "main.tex" 1680454358 15536 037931d8f4c127ef1600be92f4e09f1a ""
-  "main.toc" 1680454366 2743 ff599bb951f612ec676a8acfc79d9bcd "pdflatex"
+  "main.aux" 1681482907 30794 d556024a13aa2d8a1862bf5758982df5 "pdflatex"
+  "main.bbl" 1681482898 33067 e799f7dcbe7516c188b2174afc30590a "bibtex main"
+  "main.out" 1681482907 6436 64ca6c590d7e7c09849d7eab5ebeb217 "pdflatex"
+  "main.run.xml" 1681482907 2518 5e623e3098bccfc7700d54cb91f8fd6e "pdflatex"
+  "main.tex" 1681482887 15534 a244b7aa066387f2d16d766f2b93f2a4 ""
+  "main.toc" 1681482907 2826 d8e28046ff71fc96aab63212af251c7c "pdflatex"
   "titlepage.pdf" 1677465366 519100 534281457b394ae2226aa11c64fe7ba4 ""
+  "use Figures/../appendix/survey_responses.pdf" 1677495940 1199812 d07891d9aaf1795aceabfd0def1866fc ""
   (generated)
   "main-blx.bib"
   "main.aux"
