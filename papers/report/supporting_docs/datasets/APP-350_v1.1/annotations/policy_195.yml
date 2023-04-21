@@ -1,0 +1,316 @@
+policy_id: 195
+policy_name: com.supo.security
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy (Last Revised: August 29, 2016) 1.Introduction This
+    Privacy Policy ("Policy") explains how information about you or associated with
+    you is collected, used and disclosed by SUPO Apps Team. ("SUPO," "we" or "us")
+    when you use our Services through SUPO Security ("Services").'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Where we refer to 'personal information' in this privacy policy we
+    mean any data that may identify you as an individual.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'By using the Services, you confirm that you have read and consent
+    to: (1)the collection of your information as described in this Policy;'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: (2)the processing of your information; (3)the scanning of your mobile
+    system for detecting virus, cleaning spam files or other similar functions.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: If you have any questions relating to the content of this Policy please
+    contact us via our customer service.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 2.The Information We Collect Protecting your information and maintaining
+    your trust is core to our mission. We will not sell your personal information
+    to third parties.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'The types of information we collect are mainly as follows: (1) Information
+    about malicious applications, files and other potential threats on your tablet,
+    mobile phone or other applicable device and their behaviors and origins;'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The types of information we collect are mainly as follows:'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: (2) Information about your device including device ID, apps of the
+    third party installed on the device, manufacturer of the device, internet history
+    and bookmarks, screen size and model of the device, the mobile network you use
+    but not the phone number;
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information about your device including device ID, apps of the
+      third party installed on the device, manufacturer of the device, internet history
+      and bookmarks, screen size and model of the device, the mobile network you use
+      but not the phone number;
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: (3) Information we collected as you use our services, such as certain
+    Log Data and public information;
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: '"Log Data" is technical information that is automatically collected
+    by us when you use our services, including: Error log and a DUMP file automatically
+    generated when an unexpected error occurs or an application crashes; and we do
+    not collect your personal identifiable information when you using our product,
+    such as name, phone number, physical address; The number calling or called not
+    including in the contact of the end user''s device and the number marked as the
+    spam or the merchant number submitted by the end user. Please note that we do
+    not collect any contact information in your device and we only read the contact
+    number in your device to specify the number not in your contact;'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Please note that we do not collect any contact information in your
+      device and we only read the contact number in your device to specify the number
+      not in your contact;
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: and we do not collect your personal identifiable information when
+      you using our product, such as name, phone number, physical address; The number
+      calling or called not including in the contact of the end user's device and
+      the number marked as the spam or the merchant number submitted by the end user.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 10
+  segment_text: Call Log not including the private information.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: (4)Location Data. When you have enabled geographical location-based
+    or GPS services on your device in relation to Our Services, we will collect information
+    about your geographical location or GPS position based on the location of the
+    device you are using to access our Services. That information helps us identify
+    your physical location. Please note that we will not store or transfer your GPS
+    information nor do we use such information to specify you.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: That information helps us identify your physical location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: When you have enabled geographical location-based or GPS services
+      on your device in relation to Our Services, we will collect information about
+      your geographical location or GPS position based on the location of the device
+      you are using to access our Services.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: We may also receive your personal contact information contained in
+    correspondence via our web sites and communications channels. This enables us
+    to offer user support, surveys, and similar services.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also receive your personal contact information contained
+      in correspondence via our web sites and communications channels.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: We constantly review and challenge the procedures we have in place
+    for data handling and data security and have internal system and controls to ensure
+    compliance.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 3.The use of information we collect (1)to provide our services to
+    you; (2)to find out the reason that the error occurred or app crashed and improve
+    the quality of the product;
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: (3)for customer service, security, fraud-detection, archival and backup
+    purposes in connection with the provision of our services;
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: (4)to better understand how you access and use our services, for the
+    purposes of trying to improve our services and to respond to customer desires
+    and preferences, including language and location customization, personalized help
+    and instructions, or other responses to your and other customers' usage of our
+    services;
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: (5)to help us develop our new services and improve our existing services;
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: (6)to assess the effectiveness of and improve advertising and other
+    marketing and promotional activities on or in connection with our services;
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: (7)for the purposes of software verification or administering software
+    upgrades;
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: (8)for allow you to participate in surveys about our products and
+    services;
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: (9)Provide the end user with the spam number or the merchant number
+    notice.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 4.Withdraw Consent You may at any time withdraw your consent for the
+    collection of your data by going to the Setting section and opt out of Participation
+    of our Services.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: '5.Sharing Information With Third Parties By Us We may share information
+    with third parties as follows: (1) We do not sell, trade, or otherwise transfer
+    to outside parties your personally identifiable information. We may disclose your
+    Non-personal information: To trusted third parties who assist us in operating
+    our website, conducting our business, cooperation with us or servicing you, so
+    long as those parties agree to keep this information confidential;'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: (2)with your consent (for example, if you consent to our sharing your
+    information with a third party for the third party's own and independent direct
+    marketing purposes subject to its separate privacy policy);
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: (3)in connection with any company transaction, such as a merger, sale
+    of assets or shares, reorganization, financing, change of control or acquisition
+    of all or a portion of our business by another company or third party or in the
+    event of bankruptcy, dissolution, divestiture or any related or similar proceedings;
+    and
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: (4)to, in our discretion, (i) satisfy any applicable law, regulation,
+    subpoena/court order, legal process or other government request, (ii) investigate
+    and defend ourselves against any third party claims or allegations; (iii) detect,
+    prevent or otherwise address criminal (including fraud or stalking), security
+    or technical issues.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Note that the term "third party" does not include companies in the
+    same group of companies as us, which includes our subsidiaries (that is, any organization
+    we own or control) or our ultimate holding company (that is, any organization
+    that owns or controls us) and any subsidiaries that our holding company owns.
+    Unless otherwise indicated, these companies will use your personal information
+    in the same way as we can under this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 6.Communications From Us You may receive occasional notifications
+    on your device alerting you to our Service updates and features that may be of
+    interest to you. You can disable these notifications at any time by going to the
+    Settings menu.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 7.Security Of Information We will take reasonable measures to help
+    protect your information in an effort to prevent loss, misuse and unauthorized
+    access, disclosure, alteration or destruction and to treat it in accordance with
+    this Policy. Please be aware that no security measures that we take to protect
+    your information are absolutely guaranteed to avoid unauthorized access or use
+    of your information which is impenetrable.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 8.Updates To This Policy We reserve the right to modify this Policy
+    from time to time. If we make changes to this Policy, we will change the "Last
+    Revised" date at the beginning of this Policy and will post the updated Policy
+    on this page. We may also provide other methods of notice or request your consent
+    depending on the circumstances.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 9.Sensitive Information We ask that you not send us, and you not disclose,
+    any sensitive Personal Information (e.g., information related to racial or ethnic
+    origin, political opinions, religion or other beliefs, health, sexual orientation,
+    criminal background or membership in past organizations, including trade union
+    memberships) on or through an application, the Services or the website or otherwise
+    to us.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: "10.Governing Law And Arbitration; The validity, construction and\
+    \ interpretation of this Privacy Policy shall be governed by and construed in\
+    \ accordance with the laws of Hong Kong, without giving effect to the conflict\
+    \ of law provisions thereof. For any disputes arising out of this Privacy Policy,\
+    \ the Parties consent to submit such disputes to Hong Kong International Arbitration\
+    \ Centre\uFF08\"HKIAC\"\uFF09according to the HKIAC arbitration rules then in\
+    \ effect. The arbitration shall be held in Hong Kong and in the language of English.\
+    \ The arbitration award shall be final and binding to both Parties."
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 11.Contact Us If you wish to contact us regarding this Privacy Policy
+    or any privacy-related matters, please contact us via email at [suposecdev@gmail.com
+    ].
+  annotations: []
+  sentences: []

@@ -1,0 +1,469 @@
+policy_id: 26
+policy_name: com.ninjakiwi.bftg
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Games Epic War TD 2 Battle for the Galaxy News About Us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'AMT Games (IE MELET) Privacy Policy AMT Games is officially registered
+    in different countries and can be legally represented by either: IE MELET, a Russian
+    individual enterpreneur with a principal place of business at 12th Line of Vasilievskii
+    Island, 199178 Saint-Petersburg, Russia, Reg#: 312784711100572, Tax#: 780160616253
+    10K MMR ltd., a company incorporated under the laws of Seychelles and having its
+    registered office at Oliaji Trade Centre -1st Floor, Victoria, Mahe, #reg 194661'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: AMT Games is reffered to in this privacy policy as "Developer"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Developer is committed to making our games both fun and safe to use
+    and adheres to best practices regarding the collection and use of both anonymous
+    and limited personal information. In general, our approach is to collect anonymous
+    data wherever possible and use as little personal information as is necessary
+    to provide the best games and services, and then only to use personal information
+    to make those games and services better.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: This privacy policy applies to the Developer's website located at
+    //amt-games.com, the related game and game editor sites, and to Developer-published
+    Facebook and mobile applications. Keep in mind that not all games and applications
+    created by Developer use personal information or have advertising components -
+    this privacy policy explicitly relates to the website elements, games, applications,
+    and services that do collect privacy-related information.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: This privacy policy may change to reflect changes in business practice,
+    legislation, or market reality. Any changes will be posted here, and significant
+    changes will either be broadcast on the Developer's blog or via email.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Types of Information Developer Login Registration: When you register
+    for a Developer account directly, you provide us with optional information including
+    email, age, gender, and country. This information is not required - we provide
+    our services to you without it, but taken as a whole this gives us a better understanding
+    of our players and community and helps us make better game design decisions. As
+    you might imagine, men and women play differently, as do younger and older players,
+    so it is helpful to see trends based on these demographics to help make games
+    that all players enjoy. We use emails to keep members up to date on news, releases,
+    and updates, and you may opt out of these emails at any point. Children under
+    13 are allowed to register for Developer accounts, but they may not enter any
+    personally identifiable information. If children under 13 want to receive such
+    news emails, they must use a parent or guardian''s email.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As you might imagine, men and women play differently, as do younger
+      and older players, so it is helpful to see trends based on these demographics
+      to help make games that all players enjoy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: Children under 13 are allowed to register for Developer accounts,
+      but they may not enter any personally identifiable information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: If children under 13 want to receive such news emails, they must
+      use a parent or guardian's email.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: "This information is not required \u2013 we provide our services\
+      \ to you without it, but taken as a whole this gives us a better understanding\
+      \ of our players and community and helps us make better game design decisions."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: We use emails to keep members up to date on news, releases, and
+      updates, and you may opt out of these emails at any point.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: When you register for a Developer account directly, you provide
+      us with optional information including email, age, gender, and country.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 'Developer Forum Registration: If you register for Developer forums,
+    we require an email address for registration validation and communication purposes.
+    You may opt out of these communications at any point. Children under 13 are not
+    allowed to register for the Developer forums.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you register for Developer forums, we require an email address
+      for registration validation and communication purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 'Facebook, Google+, Game Center, Game Circle and Google Play Logins:
+    We use these services to connect players to their friends for co-operative and
+    competitive play, and to compare scores and progress. We use the respective platform
+    standard versions of these services and only reference the username/email associated
+    to associate with your saved data, scores, and game progress.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use the respective platform standard versions of these services
+      and only reference the username/email associated to associate with your saved
+      data, scores, and game progress.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Game and Site Data: Developer tracks information about the way visitors
+    and players use our web sites and games so that we can make our sites and games
+    more accessible, pertinent, and fun. Developer uses log files to store information
+    such as internet protocol (IP) addresses, browser type, internet service provider
+    (ISP), referring, exit and visited pages, platform used, date/time stamp, track
+    user''s movement in the whole, and gather broad demographic information for aggregate
+    use. IP addresses, etc, are not linked to personally identifiable information.
+    Developer uses cookies, server stored game data, and third-party analytics services
+    to track player activity and make games more awesome. You can set your browser
+    to limit or reject cookies, but this has a high chance of interfering with site
+    and game features and may prevent some games from playing at all or saving your
+    progress'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Developer uses cookies, server stored game data, and third-party
+      analytics services to track player activity and make games more awesome.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Developer uses log files to store information such as internet
+      protocol (IP) addresses, browser type, internet service provider (ISP), referring,
+      exit and visited pages, platform used, date/time stamp, track user's movement
+      in the whole, and gather broad demographic information for aggregate use.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: IP addresses, etc, are not linked to personally identifiable information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You can set your browser to limit or reject cookies, but this has
+      a high chance of interfering with site and game features and may prevent some
+      games from playing at all or saving your progress
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 'Advertising: Developer uses third-party advertising companies to
+    serve ads when visiting our web pages. We offer our web games for free, so these
+    ads allow us to continue providing top quality games. The third-party advertising
+    companies may collect and use information (but not your name, address, email address,
+    or telephone number) about your visits to this and other websites in order to
+    provide advertisements about goods and services of interest to you. These companies
+    may use non-personally identifiable information (e.g., click stream information,
+    browser type, time and date, subject of advertisements clicked or scrolled over)
+    during your visits to this and other Web sites in order to provide advertisements
+    about goods and services likely to be of greater interest to you. These companies
+    typically use a cookie or third party web beacon to collect this information.
+    We do not have access to this information or influence over their policies, barring
+    our ability to discontinue their services. If you would like more information
+    about advertising practices and to know your choices about not having this information
+    used by these companies, you can visit Google''s Advertising and Privacy page
+    or the Network Advertising Initiative. Please understand that if you disable or
+    block certain ad features, then other aspects of the site may not work correctly.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The third-party advertising companies may collect and use information
+      (but not your name, address, email address, or telephone number) about your
+      visits to this and other websites in order to provide advertisements about goods
+      and services of interest to you.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These companies may use non-personally identifiable information
+      (e.g., click stream information, browser type, time and date, subject of advertisements
+      clicked or scrolled over) during your visits to this and other Web sites in
+      order to provide advertisements about goods and services likely to be of greater
+      interest to you.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These companies typically use a cookie or third party web beacon
+      to collect this information.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: 'Facebook Information: When you register for Developer using Facebook,
+    use Facebook likes, or share links through Facebook Connect, Developer accesses
+    data already provided to Facebook in accordance with their Privacy Policy, and
+    is only granted access to that information via the permissions necessary to use
+    the games or services. Developer reviews Facebook data such as age, location,
+    and gender along with various game and social data about how you are playing a
+    game or using the web site in order to make our games and site more awesome. This
+    information may be stored in cookies on your computer. Developer does not share
+    or sell this information with any party.'
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Developer reviews Facebook data such as age, location, and gender
+      along with various game and social data about how you are playing a game or
+      using the web site in order to make our games and site more awesome.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This information may be stored in cookies on your computer.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: When you register for Developer using Facebook, use Facebook likes,
+      or share links through Facebook Connect, Developer accesses data already provided
+      to Facebook in accordance with their Privacy Policy, and is only granted access
+      to that information via the permissions necessary to use the games or services.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: 'Billing and Financial: Developer does track purchases made using
+    Xsolla, Facebook Credits, Super Rewards, Trial Pay, and/or other 3rd party wallet
+    services, but Developer does not have access to any personal billing information;
+    purchases are tracked for purposes of making sure that Developer deliver great
+    value for money and so that we can provide awesome customer support should something
+    go wrong.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Other Use of Information Developer does not sell, rent, or publicly
+    share your personally identifiable information to anyone. We may use the information
+    you provide to provide customer support or respond to forum posts. We may share
+    tools to access information to our development or technology partners, but this
+    will be done under standard terms of nondisclosure. In the event of a change in
+    corporate ownership or control, we would then transfer all personally-identifiable
+    and non-personally identifiable information to the new owner or controlling party.
+    Developer would also share the limited personal information to comply with court
+    order, fraud protection, or other legal proceedings, to enforce our Terms of Service,
+    or to protect the safety, rights, or property of Developer or its employees.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Children Under 13 We respect the privacy of parents, guardians, and
+    their children, and we are committed to complying with the Children's Online Privacy
+    Protection Act (COPPA). Children under 13 may not enter personally identifiable
+    information during the registration process (they must use a parent's or guardian's
+    email address), and they may not sign up for forum accounts at all. Please be
+    aware that Epic War TD and Battle for the Galaxy allow text chat to coordinate
+    and enhance the multiplayer experiences. Children under 13 should never give out
+    personal information in these chats, and Developer representatives will never
+    ask for personal information. If anyone ever asks for personal information in
+    chat, please screenshot the interaction and send the image to support@amt-games.com
+    for investigation. If at any time a parent or guardian believes that his or her
+    child has submitted personal information to us, he or she can contact us at support@amt-games.com.
+    Developer will make reasonable efforts to delete the information upon learning
+    that it relates to a child under the age of 13. Developer believes that parents
+    should supervise their children's online activities and actively advise them on
+    appropriate behavior and online safety, including avoiding chat systems and other
+    3rd party open communication tools.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Children under 13 may not enter personally identifiable information\
+      \ during the registration process (they must use a parent\u2019s or guardian's\
+      \ email address), and they may not sign up for forum accounts at all."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: 'In-App Purchasing Some of our games provide additional content for
+    a direct fee - usually buying an item or an amount of in-game currency to make
+    gameplay faster or more fun. Parents and guardians should be aware that they can
+    set up their mobile devices to disallow one touch purchases and enforce password
+    entry before any real-dollar purchase. Parents and guardians are responsible for
+    maintaining password security for these systems and in general should not share
+    passwords with their children. The following links describe how to make sure purchase
+    verification is in place: //support.google.com/googleplay/answer/1626831?hl=en-GB
+    http://www.amazon.com/gp/help/customer/display.html?nodeId=201112050 http://support.apple.com/kb/ht4009'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Security Developer's games and websites may contain advertisements
+    or other links to other websites or apps as a service to you. These third party
+    sites and apps are outside of our control and your activities with them are subject
+    to their terms and privacy practices. We encourage you to review their terms and
+    privacy practices before sharing any personal information with them, but we are
+    not responsible for their privacy practices or for your disclosure of information
+    to them. Nevertheless, we only want to be working with partners who exercise best
+    practices, so if you ever have concerns about third parties, you may contact us
+    at support@amt-games.com so that we can review our relationship with them.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Developer takes appropriate and reasonable precautions to protect
+    the information you provide, both during delivery and communication and in its
+    stored location. We urge you to keep private your login and password information,
+    to log out from any computer or mobile device that could be accessed by someone
+    else, and to refrain from leaving written passwords near your computer. If you
+    believe your account has been compromised, please reset your account password
+    immediately, or contact us at support@amt-games.com so that we may assist you.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Additional Options and Questions If you do not agree with this privacy
+    policy, you may still use most of our website features and games without registering
+    at all, or you have the option to register without sharing any personally identifiable
+    information. If we do not have a valid email for you, however, it may limit or
+    completely prevent us from providing fast or effective customer support. Without
+    a valid email, you will also not be able to receive beta invites, promotions,
+    discounts, update notices, and new release notices; you may opt out of emails
+    at any time by following the instructions provided in each email.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If we do not have a valid email for you, however, it may limit
+      or completely prevent us from providing fast or effective customer support.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Without a valid email, you will also not be able to receive beta
+      invites, promotions, discounts, update notices, and new release notices; you
+      may opt out of emails at any time by following the instructions provided in
+      each email.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Feel free to contact us about any questions regarding Developer or
+    our policies at support@amt-games.com
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: "\xA9 2017 AMT-Games Terms | Privacy | Forum | Affiliate Hey, guys,\
+    \ we use cookies, just as everyone else does. So if you continue reading our site\
+    \ this means you don't mind us using cookies."
+  annotations: []
+  sentences: []

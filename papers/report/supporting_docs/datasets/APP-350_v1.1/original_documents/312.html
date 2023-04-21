@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="cache-control" content="max-age=0"/>
+		<meta http-equiv="cache-control" content="no-cache"/>
+		<meta http-equiv="cache-control" content="must-revalidate"/>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link rel="shortcut icon" href="https://sociallive-static.sonymobile.com/favicon.ico" type="image/x-icon" />
+
+		<title>Social live</title>
+
+									<script src="https://sociallive-static.sonymobile.com/jquery.js" type="text/javascript" charset="utf-8"></script>
+					
+														<style type="text/css" media="screen">
+/*
+ * Generic non-responsive styles
+ */
+
+html,
+body {
+	line-height: 1.4;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #333333;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic; /* Better scaling of avatar for IE7 */
+}
+h1,
+h2 {
+	font-family: 'Helvetica neue', Helvetica, Arial, Tahoma, Verdana, sans-serif;
+}
+h3,
+p {
+	font-family: Helvetica, Arial, Tahoma, Verdana, sans-serif;
+}
+#main-proposition a {
+	color: white;
+}
+#footer a {
+	text-decoration: none;
+	margin: 0 0.6em;
+	color: white;
+	white-space: nowrap;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+
+
+/*
+ * Landing page
+ */
+
+body.landing {
+	background: url('https://sociallive-static.sonymobile.com/bg-landing.jpg') no-repeat center center;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#main-proposition h2,
+h1.main-header {
+	color: white;
+	font-weight: normal;
+}
+#main-proposition p {
+	color: white;
+}
+#broadcast {
+	background-color: black;
+}
+
+
+/*
+ * FB Styling
+ */
+
+.retina-mac #fb-likes,
+.retina-mac #fb-comments,
+#fb-likes,
+#fb-comments {
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+
+/* Likes */
+.retina-mac #fb-likes,
+#fb-likes {
+	padding-left: 10px;
+	margin-top: -15px;
+}
+.retina-mac .fb-like-text,
+.fb-like-text {
+	color: gray;
+	background: url("https://sociallive-static.sonymobile.com/fb-icon.png") no-repeat 5px 1px;
+	padding-left: 24px;
+}
+.retina-mac .fb-like-button,
+.fb-like-button {
+	border-color: #999;
+	color: #333;
+	padding: 3px 6px 4px 21px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cad4e7;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 5px;
+	background: #c7c7c7 url("https://sociallive-static.sonymobile.com/fb-like-icon.png") no-repeat 5px 3px;
+}
+.fb-like-button:hover {
+	background-color: #d9d9d9;
+	border-color: #ddd
+}
+
+/* Comments */
+.retina-mac #fb-comments a.login,
+#fb-comments a.login {
+	display: inline-block;
+	background: #3e485d;
+	color: #fff;
+	border: 0;
+	padding: 3px 8px 4px 8px;
+	border: 1px solid #c4c8d2;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	text-decoration: none;
+	background: url("https://sociallive-static.sonymobile.com/fb-btn-bg.png") repeat-x 0px 0px;
+	background-size: auto;
+	background-color: #5b74a8;
+	border-color: #29447e #29447e #1a356e;
+}
+.retina-mac #fb-comments a.logging-in,
+#fb-comments a.logging-in {
+	color: #bbb;
+}
+.retina-mac .fb-wall-comments,
+.fb-wall-comments {
+	margin-top: 2px;
+	font-size: 12px;
+}
+.retina-mac .fb-wall-comment,
+.fb-wall-comment {
+	border-bottom: 1px solid #555;
+	padding: 10px 0 10px 0;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.fb-wall-comment:first-child {
+	border-top: 1px solid #555;
+	margin-top: 10px;
+}
+.fb-wall-comment:last-child {
+	border: 0;
+}
+.retina-mac .fb-wall-comment-message,
+.fb-wall-comment-message {
+	color: #ccc;
+	display: table;
+	text-align: left;
+	font-size: 11px;
+}
+.retina-mac .fb-wall-comment-from-name,
+.fb-wall-comment-from-name {
+	display: block;
+	padding-bottom: 4px;
+	font-weight: bold;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+}
+.retina-mac .fb-wall-comment-from-date,
+.fb-wall-comment-from-date {
+	color: #999;
+	clear: left;
+	display: block;
+	font-size: 11px;
+	position: absolute; top: 10px; right: 10px;
+}
+
+.fb-wall-comment-avatar {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.fb-wall-comment-avatar img {}
+.fb-comments-more {
+	color: white;
+	cursor: pointer;
+}
+
+/* Clearfix */
+.fb-wall:after, .fb-wall-media:after, .fb-wall-clean {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Comments input */
+.fb-comments-form {
+	padding-bottom: 5px;
+	margin-top: 15px;
+}
+.fb-comments-field {}
+.retina-mac textarea,
+.fb-comments textarea {
+	padding: 5px;
+	outline: none;
+	border: 1px solid #434343;
+	background-color: #2a2a2a;
+	color: #ccc;
+	width: 100%;
+	height: 55px;
+	font-size: 11px;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing:  border-box;
+}
+.fb-comments textarea:focus {
+	background-color: #222;
+	color: #ccc;
+}
+.retina-mac .fb-comments input,
+.fb-comments input {
+	margin: 5px 0;
+	float: right;
+	display: block;
+	background: #3e485d;
+	color: #fff;
+	border: 0;
+	padding: 3px 8px 4px 8px;
+	border: 1px solid #c4c8d2;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	background: url("https://sociallive-static.sonymobile.com/fb-btn-bg.png") repeat-x 0px 0px;
+	background-size: auto;
+	background-color: #5b74a8;
+	border-color: #29447e #29447e #1a356e;
+}
+#fb-comments a.login:hover,
+.fb-comments input:hover {
+	background: #6079ab;
+}
+
+
+
+/*
+ * Default Responsive layout: Narrow handheld
+ */
+
+@media screen and (max-width:929px),
+	screen and (-webkit-min-device-pixel-ratio:1.3) and (max-width:1299px),
+	screen and (min--moz-device-pixel-ratio:1.3) and (max-width:1299px),
+	screen and (-o-min-device-pixel-ratio:13/10) and (max-width:1299px),
+	screen and (min-device-pixel-ratio:1.3) and (max-width:1299px) {
+
+	body.error #error-message,
+	body #main-proposition {
+		display: block;
+		margin: 0 10px;
+		margin-bottom: 88px;
+		padding: 16px 0 80px 0;
+		overflow: hidden;
+	}
+	body.error #error-message {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+	}
+	body.terms.retina-mac h1,
+	body.landing.retina-mac h1,
+	body.terms h1,
+	body.landing h1 {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+		margin-top: 0;
+		margin-right: 0;
+		padding-right: 0;
+		font-size: 2em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.retina-mac #main-proposition h2,
+	#main-proposition h2 {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+		font-size: 1.3em;
+	}
+	body.retina-mac #main-proposition p,
+	body #main-proposition p {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+		margin-top: 8px;
+		line-height: 1.5;
+		font-size: 1em;
+		margin-right: 0;
+	}
+	body.landing.retina-mac #main-proposition p,
+	body.landing #main-proposition p {
+		font-size: 1em;
+		max-width: 90%;
+	}
+	body.landing #video {
+		position: relative;
+		padding-bottom: 56.25%; /* 16/9 ratio */
+		_padding-top: 30px; /* ie6 only */
+		height: 0;
+		overflow: hidden;
+		clear: both;
+	}
+	body.landing #video > iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#logo {
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		padding: 16px 0 16px 0;
+	}
+		#social-live-logo {
+			display: block;
+			position: absolute;
+			font-family: 'Arial', 'Helvetica', sans-serif;
+			width: 229px;
+			left: 0.4em;
+			color: #e0e0e0;
+			background: url("https://sociallive-static.sonymobile.com/sociallive-logo.png") no-repeat top left;
+			height: 38px;
+			line-height: 1;
+			margin: 0 0 0 0;
+			position: relative;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		#social-live-logo > a,
+		#social-live-logo > a:visited {
+			display: block;
+			float: left;
+			color: #e0e0e0;
+			font-size: 1.5em;
+			padding-top: 0px;
+			text-decoration: none;
+			margin-left: 44px;
+			margin-top: 7px;
+		}
+		#xperia-logo {
+			display: block;
+			position: absolute;
+			right: 10px;
+			top: 27px;
+			width: 114px;
+			height: 16px;
+			background: url("https://sociallive-static.sonymobile.com/xperia.png") no-repeat top left;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			margin: 0;
+		}
+
+	.retina-mac #video-section,
+	#video-section {
+		clear: both;
+		margin: auto;
+		overflow: hidden;
+		padding-bottom: 50px;
+	}
+
+	.retina-mac #user-details,
+	#user-details {
+		display: block;
+		background: #484848;
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 0.7em;
+	}
+		.retina-mac #avatar,
+		#avatar {
+			display: block;
+			margin: 0.6em 0.6em 0.6em 10px;
+			padding: 0;
+			width: 36px;
+			height: 36px;
+			float: left;
+		}
+		.retina-mac #username,
+		#username {
+			font-size: 1em;
+			text-align: center;
+			font-weight: normal;
+			color: #e6e6e6;
+			display: block;
+			padding: 0 0 0 0;
+			margin: 0;
+			margin-top: 0.5em;
+			float: left;
+			word-wrap:break-word;
+		}
+		.retina-mac #video-title,
+		#video-title {
+			display: block;
+			clear: both;
+			font-size: 1em;
+			text-align: left;
+			font-weight: normal;
+			font-size: 1.3em;
+			color: #e6e6e6;
+			margin: 1.2em 0.6em 0 10px;
+			padding: 0;
+			padding-bottom: 0.2em;
+			overflow: hidden;
+			word-wrap:break-word;
+		}
+		.retina-mac #video-date,
+		#video-date {
+			display: block;
+			position: absolute;
+			top: 1.6em;
+			left: 3.6em;
+			font-size: 0.75em;
+			text-align: center;
+			color: #e6e6e6;
+			margin: 1.2em 1em 1.2em 1em;
+		}
+
+	#broadcast {
+		position: relative;
+		padding-bottom: 56.25%; /* 16/9 ratio */
+		_padding-top: 30px; /* ie6 only */
+		height: 0;
+		overflow: hidden;
+		clear: both;
+	}
+	#canvas > a > img#video,
+	#canvas > #video,
+	#flash_embed > object,
+	#flash_embed > embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	a > #play-button {
+		position: absolute;
+		background: url("https://sociallive-static.sonymobile.com/play-button-2x.png") no-repeat top left;
+		background-size: 100%;
+		top: 50%;
+		left: 50%;
+		width: 48px;
+		height: 48px;
+		margin-top: -24px;
+		margin-left: -24px;
+		z-index: 50;
+	}
+
+	#comments-section {
+		max-width: 900px;
+		clear: both;
+		margin: auto;
+		padding-bottom: 4em;
+	}
+	#fb-comments {
+		display: block;
+		clear: both;
+		text-align: center;
+		margin-top: 0;
+		padding: 2em 1.5em;
+	}
+	#fb-comments > .fb-comments {
+	}
+	#fb-comments > p {
+		display: block;
+		padding-top: 5em;
+		color: #888;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	}
+
+	#content {
+		position: relative;
+		margin: 0 auto;
+		height: auto !important; /* real browsers */
+		height: 100%; /* IE6: treaded as min-height*/
+		min-height: 100%; /* real browsers */
+	}
+
+	.retina-mac #footer,
+	#footer{
+		text-align: center;
+		font-size: 0.75em;
+		color: #aaa;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+}
+
+
+
+/*
+ * Secondary Responsive layout: Wide high-ppi devices and wider low-ppi devices/desktop browsers
+ */
+@media screen and (max-resolution:96dpi) and (min-width:930px),
+	screen and (-webkit-min-device-pixel-ratio:1.5) and (min-width:1300px),
+	screen and (min--moz-device-pixel-ratio:1.5) and (min-width:1300px),
+	screen and (-o-min-device-pixel-ratio:3/2) and (min-width:1300px),
+	screen and (min-device-pixel-ratio:1.5) and (min-width:1300px),
+	screen and (-webkit-max-device-pixel-ratio:1) and (min-width:930px),
+	screen and (max--moz-device-pixel-ratio:1) and (min-width:930px),
+	screen and (-o-max-device-pixel-ratio:1/1) and (min-width:930px),
+	screen and (max-device-pixel-ratio:1) and (min-width:930px),
+	screen and (-webkit-min-device-pixel-ratio:1.3) and (min-width:1300px),
+	screen and (min--moz-device-pixel-ratio:1.3) and (min-width:1300px),
+	screen and (-o-min-device-pixel-ratio:13/10) and (min-width:1300px),
+	screen and (min-device-pixel-ratio:1.3) and (min-width:1300px) {
+
+	body.error #error-message,
+	body #main-proposition {
+		display: block;
+		width: 900px;
+		margin: 0 auto;
+		padding: 16px 0 48px 0;
+		overflow: hidden;
+	}
+	body.terms h1 {
+		margin-top: 2em;
+		font-size: 2.3em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	body.landing h1 {
+		margin-top: 0.5em;
+		font-size: 2.3em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	body.landing #main-proposition {
+		width: 640px;
+		overflow: visible;
+	}
+	.retina-mac #main-proposition h2,
+	#main-proposition h2 {
+		font-size: 1.3em;
+	}
+	body.retina-mac #main-proposition p,
+	body #main-proposition p {
+		margin-top: 8px;
+		line-height: 1.5;
+	}
+	body.retina-mac #main-proposition p,
+	body #main-proposition p {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+		margin-top: 8px;
+		line-height: 1.5;
+		font-size: 1em;
+		margin-right: 0;
+	}
+	body.landing.retina-mac #main-proposition p,
+	body.landing #main-proposition p {
+		font-size: 1em;
+		margin-top: 4px;
+		width: 640px;
+		margin-bottom: 32px;
+	}
+	body.terms.retina-mac #main-proposition p,
+	body.terms #main-proposition p {
+		font-size: 1em;
+	}
+	body.landing #video {
+		margin: auto;
+		width: 640px;
+		height: 360px;
+		box-shadow: 0px 0px 40px rgba(0,0,0,0.4);
+		overflow: visible;
+	}
+	body .box {
+		float: left;
+		margin-right: 60px;
+	}
+	body .box.left,
+	body .box.right {
+		width: 420px;
+	}
+	body .box.right {
+		margin-right: 0;
+	}
+	body .box.right h2:first-child {
+		padding-top: 0;
+		margin-top: 6px;
+	}
+	#logo {
+		display: block;
+		position: relative;
+		width: 900px;
+		margin: 0 auto;
+		padding: 16px 0 28px 0;
+	}
+		body.retina-mac #social-live-logo,
+		#social-live-logo {
+			display: inline-block;
+			position: absolute;
+			font-family: 'Arial', 'Helvetica', sans-serif;
+			width: 229px;
+			left: 0;
+			color: #e0e0e0;
+			background: url("https://sociallive-static.sonymobile.com/sociallive-logo.png") no-repeat top left;
+			height: 38px;
+			line-height: 1;
+			margin: 2px 0 0 0;
+			position: relative;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		body.retina-mac #xperia-logo,
+		#xperia-logo {
+			display: block;
+			position: absolute;
+			right: 10px;
+			top: 28px;
+			width: 114px;
+			height: 16px;
+			background: url("https://sociallive-static.sonymobile.com/xperia.png") no-repeat top left;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			margin: 0;
+		}
+
+	body.retina-mac #video-section,
+	#video-section {
+		max-width: 900px;
+		clear: both;
+		margin: auto;
+		overflow: hidden;
+		position: relative;
+	}
+	#canvas > a > img#video,
+	#canvas > #video,
+	#flash_embed,
+	#flash_embed > object,
+	#flash_embed > embed {
+		width: 640px;
+		height: 360px;
+	}
+	a > #play-button {
+		position: absolute;
+		background: url("https://sociallive-static.sonymobile.com/play-button-2x.png") no-repeat top left;
+		background-size: 100%;
+		top: 50%;
+		left: 50%;
+		width: 64px;
+		height: 64px;
+		margin-top: -32px;
+		margin-left: -32px;
+		z-index: 50;
+	}
+
+	.retina-mac #user-details,
+	#user-details {
+		background: #484848;
+		width: 260px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.retina-mac #avatar, .retina-mac #username, .retina-mac #video-title, .retina-mac #video-date,
+	#avatar, #username, #video-title, #video-date {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+		.retina-mac #avatar,
+		#avatar {
+			display: block;
+			margin: 4em auto 0em auto;
+			width: 90px;
+			height: 90px;
+			border-radius: 3px;
+		}
+		.retina-mac #username,
+		#username {
+			font-size: 0.9em;
+			text-align: center;
+			font-weight: normal;
+			color: #e6e6e6;
+			margin: 0.5em 1em 1.2em 1em;
+			word-wrap: break-word;
+		}
+		.retina-mac #video-title,
+		#video-title {
+			font-size: 1.1em;
+			text-align: center;
+			font-weight: normal;
+			color: #e6e6e6;
+			margin: 1.2em 0.8em;
+			overflow: hidden;
+			word-wrap: break-word;
+		}
+		.retina-mac #video-date,
+		#video-date {
+			display: block;
+			position: absolute;
+			width: 240px;
+			left: 50%;
+			bottom: 0;
+			margin-left: -120px;
+			padding: 0;
+			margin-bottom: 1em;
+			font-size: 0.7em;
+			text-align: center;
+			color: #e6e6e6;
+		}
+
+	#broadcast {
+		width: 640px;
+		position: relative;
+	}
+
+	#comments-section {
+		width: 640px;
+		padding-right: 260px;
+		clear: both;
+		margin: auto;
+		padding-bottom: 4em;
+	}
+	#fb-comments {
+		display: block;
+		width: 620px;
+		padding: 20px 10px 20px 10px;
+		clear: both;
+		text-align: center;
+	}
+	#fb-comments > .fb-comments {
+	}
+	#fb-comments a {
+		color: #ccc;
+		text-decoration: underline;
+	}
+	#fb-comments a:visited {
+		color: #a4a4a4;
+	}
+	#fb-comments a:hover,
+	#fb-comments a:active {
+		color: #fff;
+	}
+	#fb-comments > p {
+		display: block;
+		padding-top: 5em;
+		color: #888;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	}
+
+	#content {
+		position: relative;
+		margin: 0 auto;
+		height: auto !important; /* real browsers */
+		height: 100%; /* IE6: treaded as min-height*/
+		min-height: 100%; /* real browsers */
+	}
+	.retina-mac #footer,
+	#footer{
+		text-align: center;
+		font-size: 0.75em;
+		color: #aaa;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+}
+
+/*
+ * High ppi displays: Set high resolution image sizes
+ */
+@media only screen and (min-resolution: 1.5dppx),
+		only screen and (min-resolution: 144dpi),
+		only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2) {
+
+	#logo {
+		padding: 1em 0 1.5em 0;
+		font-size: 1.8em;
+	}
+	#social-live-logo {
+		display: inline-block;
+		position: absolute;
+		font-family: 'Arial', 'Helvetica', sans-serif;
+		width: 229px;
+		left: 0.2em;
+		color: #e0e0e0;
+		background: url("https://sociallive-static.sonymobile.com/sociallive-logo-2x.png") no-repeat top left;
+		background-size: 100% 100%;
+		height: 38px;
+		line-height: 1;
+		margin: 0;
+		position: relative;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	#xperia-logo {
+		display: block;
+		position: absolute;
+		right: 1.5em;
+		top: 1.5em;
+		width: 114px;
+		height: 16px;
+		background: url("https://sociallive-static.sonymobile.com/xperia-2x.png") no-repeat top left;
+		background-size: 100% 100%;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		margin: 0;
+	}
+	a > #play-button {
+		background: url("https://sociallive-static.sonymobile.com/play-button-2x.png") no-repeat top left;
+		top: 50%;
+		left: 50%;
+		width: 96px;
+		height: 96px;
+		margin-top: -48px;
+		margin-left: -48px;
+	}
+}
+
+
+/*
+ * High ppi displays small screens: Set large fonts and double the size of the images
+ */
+@media only screen and (min-resolution: 1.5dppx) and (max-width:1000px),
+		only screen and (min-resolution: 144dpi) and (max-width:1000px),
+		only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width:1000px),
+		only screen and (-o-min-device-pixel-ratio: 3/2) and (max-width:1000px) {
+
+	#social-live-logo {
+		width: 458px;
+		background: url("https://sociallive-static.sonymobile.com/sociallive-logo-2x.png") no-repeat top left;
+		background-size: 100% 100%;
+		height: 76px;
+	}
+	#xperia-logo {
+		width: 228px;
+		background: url("https://sociallive-static.sonymobile.com/xperia-2x.png") no-repeat top left;
+		background-size: 100% 100%;
+		height: 36px;
+	}
+	body #main-proposition {
+		margin-top: -1em;
+	}
+	body.error #error-message {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+	}
+	body.error #error-message h1,
+	body.error #error-message p {
+		font-size: 0.9em;
+	}
+	body.error #error-message,
+	body.terms h1,
+	body.landing h1 {
+		margin-top: 0em;
+		font-size: 2.6em;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	body.terms h1,
+	body.privacy h1,
+	body.landing h1 {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /* Fix android width issue */
+		font-size: 3.6em;
+	}
+	#main-proposition h2 {
+		font-size: 2.6em;
+	}
+	body #main-proposition p {
+		margin-top: 8px;
+		line-height: 1.5;
+		font-size: 2em;
+		max-width: 75%;
+	}
+	body.landing #main-proposition p {
+		font-size: 2em;
+	}
+	#user-details {
+		max-width: 1300px;
+	}
+		#avatar {
+			display: block;
+			margin: 0.6em 0.6em 1em 10px;
+			padding: 0;
+			width: 72px;
+			height: 72px;
+			float: left;
+		}
+		#username {
+			display: block;
+			float: left;
+			font-size: 2em;
+			text-align: center;
+			font-weight: normal;
+			color: #e6e6e6;
+			padding: 0 0 0 0;
+			margin: 0;
+			margin-top: 0.2em;
+			word-wrap:break-word;
+		}
+		#video-title {
+			display: block;
+			text-align: left;
+			font-weight: normal;
+			font-size: 2.3em;
+			color: #e6e6e6;
+			background: #484848;
+			word-wrap: break-word;
+		}
+		#video-date {
+			display: block;
+			position: absolute;
+			top: 30px;
+			left: 70px;
+			font-size: 1.5em;
+			text-align: center;
+			color: #e6e6e6;
+		}
+	#footer {
+		font-size: 1.6em;
+	}
+
+	/*
+	 * FB Styling: high ppi.
+	 */
+	#fb-likes,
+	#fb-comments {
+		font-size: 22px;
+	}
+	#fb-comments {
+		padding-bottom: 6em;
+	}
+	/* Likes */
+	#fb-likes {
+		padding-left: 10px;
+		margin-top: 25px;
+	}
+	.fb-like-text {
+		background: url("https://sociallive-static.sonymobile.com/fb-icon.png") no-repeat 5px -1px;
+		background-size: 24px 24px;
+		padding-left: 36px;
+	}
+	.fb-like-button {
+		padding: 6px 12px 4px 42px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		margin-right: 5px;
+		background: #c7c7c7 url("https://sociallive-static.sonymobile.com/fb-like-icon.png") no-repeat 10px 3px;
+		background-size: 26px 24px;
+	}
+	/* Comments */
+	#fb-comments a.login {
+		padding: 8px 16px 6px 16px;
+		font-size: 26px;
+	}
+	.fb-wall-comments {
+		margin-top: 2px;
+		font-size: 26px;
+	}
+	.fb-wall-comment {
+		border-bottom: 1px solid #555;
+		padding: 0.7em 0 0.7em 0;
+	}
+	.fb-wall-comment-message {
+		font-size: 26px;
+	}
+	.fb-wall-comment-from-name {
+		padding-bottom: 4px;
+		font-weight: bold;
+		font-size: 26px;
+	}
+	.fb-wall-comment-from-date {
+		font-size: 22px;
+		position: absolute; top: 10px; right: 10px;
+	}
+	.fb-wall-comment-avatar {
+		width: 75px;
+		height: 75px;
+		margin-right: 0.7em;
+	}
+	.fb-wall-comment-avatar img {
+		width: 75px;
+		height: 75px;
+	}
+	/* Comments input */
+	.fb-comments-form {
+		padding-bottom: 5px;
+		margin-top: 15px;
+	}
+	.fb-comments textarea {
+		padding: 5px;
+		height: 110px;
+		font-size: 30px;
+		line-height: 1.6;
+		box-sizing: border-box;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing:  border-box;
+	}
+	.fb-comments textarea:focus {
+		background-color: #222;
+		color: #ccc;
+	}
+	.fb-comments input {
+		margin: 10px 0;
+		padding: 6px 16px 6px 16px;
+		font-size: 24px;
+	}
+}
+
+/* JS+CSS Retina media query detection for pixel device ratio. */
+@media screen and (min-device-pixel-ratio:1.5),
+screen and (-webkit-min-device-pixel-ratio:1.5),
+screen and (min--moz-device-pixel-ratio:1.5),
+screen and (-o-min-device-pixel-ratio:15/10),
+screen and (min-device-pixel-ratio:1.5) {
+	#footer {
+		background-repeat: no-repeat;
+	}
+}
+</style>
+<!--[if lt IE 9]>
+<style type="text/css">
+/*
+ * Older IE versions don't support @media (max-resolution)
+ */
+@media screen and (min-width:930px) {
+
+	body.landing {
+		background-color: #8e857c;
+		background: url('https://sociallive-static.sonymobile.com/bg-landing-1920.jpg') no-repeat center center;
+	}
+	body #main-proposition {
+		display: block;
+		width: 900px;
+		margin: 0 auto;
+		padding: 16px 0 48px 0;
+		overflow: hidden;
+	}
+	body.terms h1,
+	body.landing h1 {
+		margin-top: 2em;
+		font-size: 2.3em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	body.landing #main-proposition p {
+		font-size: 0.9em;
+		width: 420px;
+		margin-top: 0;
+	}
+	body .box {
+		float: left;
+		margin-right: 60px;
+		margin: 15px 60px 0 0;
+	}
+	body .box.left,
+	body .box.right {
+		width: 420px;
+	}
+	body .box.right {
+		margin-right: 0;
+		margin: 15px 0 0 0;
+	}
+	body .box.right h2:first-child {
+		padding-top: 0;
+		margin-top: 10px;
+	}
+	#logo {
+		display: block;
+		position: relative;
+		width: 900px;
+		margin: 0 auto;
+		padding: 16px 0 16px 0;
+	}
+		#social-live-logo {
+			display: block;
+			position: absolute;
+			font-family: 'Arial', 'Helvetica', sans-serif;
+			width: 450px;
+			left: 0;
+			color: #e0e0e0;
+			background: url("https://sociallive-static.sonymobile.com/sociallive-logo.png") no-repeat top left;
+			height: 38px;
+			line-height: 1;
+			margin: 0 0 0 0;
+			position: relative;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		#social-live-logo > a,
+		#social-live-logo > a:visited {}
+		#xperia-logo {
+			display: block;
+			position: absolute;
+			right: 10px;
+			top: 27px;
+			width: 114px;
+			height: 16px;
+			background: url("https://sociallive-static.sonymobile.com/xperia.png") no-repeat top left;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			margin: 0;
+		}
+
+	#video-section {
+		max-width: 900px;
+		clear: both;
+		margin: auto;
+		overflow: hidden;
+	}
+	#flash_embed > iframe,
+	#flash_embed > object,
+	#flash_embed > embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#user-details {
+		background: #484848;
+		width: 260px;
+		height: 360px;
+		float: right;
+		position: relative;
+	}
+	#avatar, #username, #video-title, #video-date {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+		#avatar {
+			display: block;
+			margin: 4em auto 0em auto;
+			width: 90px;
+			height: 90px;
+			border-radius: 3px;
+		}
+		#username {
+			font-size: 0.9em;
+			text-align: center;
+			font-weight: normal;
+			color: #e6e6e6;
+			margin: 0.5em 1em 1.2em 1em;
+			word-wrap:break-word;
+		}
+		#video-title {
+			font-size: 1.1em;
+			text-align: center;
+			font-weight: normal;
+			color: #e6e6e6;
+			margin: 1.2em 0.8em;
+			overflow: hidden;
+			word-wrap:break-word;
+		}
+		#video-date {
+			display: block;
+			position: absolute;
+			width: 240px;
+			left: 50%;
+			bottom: 0;
+			margin-left: -120px;
+			padding: 0;
+			margin-bottom: 1em;
+			font-size: 0.7em;
+			text-align: center;
+			color: #e6e6e6;
+		}
+
+	#broadcast {
+		width: 640px;
+		height: 360px;
+		text-align: center;
+		float: right;
+		background: #ccc;
+		position: relative;
+	}
+
+	#comments-section {
+		width: 640px;
+		padding-right: 260px;
+		clear: both;
+		margin: auto;
+		padding-bottom: 4em;
+	}
+	#fb-comments {
+		display: block;
+		width: 620px;
+		padding: 20px 10px 20px 10px;
+		clear: both;
+		text-align: center;
+	}
+	#fb-comments > .fb-comments {
+	}
+	#fb-comments > p {
+		display: block;
+		padding-top: 5em;
+		color: #888;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	}
+
+	#content {
+		position: relative;
+		margin: 0 auto;
+		height:auto !important; /* real browsers */
+		height:100%; /* IE6: treaded as min-height*/
+		min-height:100%; /* real browsers */
+	}
+
+	#footer{
+		text-align: center;
+		font-size: 0.85em;
+		color: #aaa;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+}
+</style>
+<![endif]-->
+									
+		<style type="text/css" media="screen">
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+		#header {
+			padding: 11px 8px 8px 8px;
+		}
+		img {
+			border: 0;
+		}
+		p.error-message,
+		h1.error-message {
+			display: inline;
+		}
+		#error-message p {
+			color: #ccc;
+		}
+		#error-message p.error-message {
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 22px;
+			font-weight: normal;
+			margin: 20px 8px 10px 0px;
+			color: white;
+		}
+		p.error-message>strong {
+			display: none;
+		}
+		</style>
+
+		
+		<script type="text/javascript">
+		$(document).ready(function() {
+			// JS+CSS media query detection for device-pixel-ratio. Not all browsers support window.devicePixelRatio
+			var userAgent = navigator.userAgent ? navigator.userAgent : navigator.appVersion;
+			var highPixelRatio = false;
+			if ($("#footer").css("background-repeat") == "no-repeat") {
+				highPixelRatio = true;
+			}
+			if (
+				(window.devicePixelRatio > 1 || highPixelRatio)
+				&& window.screen.availWidth >= 1280
+				&& window.screen.availHeight >= 800
+				&& (userAgent.match(/Mac OS X/i) || navigator.platform == "MacIntel")
+			) {
+				$("body").addClass('retina-mac');
+			}
+		});
+		</script>
+
+		<!--[if lt IE 9]>
+			<script src="https://sociallive-static.sonymobile.com/css3-mediaqueries.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="privacy">
+		<div id="content">
+	<div id="logo">
+		<a href="/"><h3 id="social-live-logo">Social live by Bambuser</h3></a>
+		<a href="http://www.sonymobile.com/gb/" id="xperia-logo">Xperia</a>
+	</div>
+	<div id="main-proposition">
+		<h1 class="main-header">Privacy Policy</h1>
+		<div class="box left">
+			<p>By providing any Personal Data to us on the related  web site(s) or in our applications (for the purpose
+				of this Privacy Policy, referred to as “Site” or “Sites”), you fully understand and consent to the collection,
+				use, and transfer of Personal Data on the terms and conditions outlined in this privacy notice (“Privacy Policy”).
+				If you don’t agree to this Privacy Policy, please choose not to provide Personal Data to us on our Sites. In
+				addition, we reserve the right to change or modify the Privacy Policy at any time as posted, following, for
+				example, changes in local legislation.</p>
+			<h2>Collection of Personal Data and other user information</h2>
+			<p><a href="http://bambuser.com/about">Bambuser AB</a> will only collect Personal Data when it’s necessary for us
+				to carry out one or more requested functions or activities, or for you to get access to our products or services,
+				and we will only collect it by lawful and fair means. At or before collection we will take reasonable steps to
+				ensure that you are aware of which <a href="http://bambuser.com/about">Bambuser AB</a> entity is collecting the
+				Personal Data and for what specified purposes we need such Personal Data.</p>
+			<p>For each visitor to the Site, <a href="http://bambuser.com/about">Bambuser AB</a>’s web servers automatically
+				recognise and store information which is not normally deemed to be Personal Data, such as the visitor’s IP address
+				and domain name. We use user information to understand visitor traffic patterns through the Site for purposes such
+				as enhancing their usability. Your computer provides this user information automatically each time you log on,
+				unless you’ve activated blocking technology available in some browsers. When you visit the Site we may use so
+				called “cookies” which stores certain user information on your computer and allow us to customise your experience
+				to better match your interests and preferences, or to simply facilitate your signing in to use the services.
+				Most browsers will allow you to erase cookies from your computer hard drive, block acceptance of cookies or receive
+				a warning before a cookie is stored. However, if you block or erase cookies, we may not be able to restore any
+				preferences or customisation settings you have previously specified, and our ability to personalise your online
+				experience would be limited. Please refer to your browser instructions to learn more about these functions.</p>
+			<h2>Use and disclosure of Personal Data</h2>
+			<p>The Personal Data provided to us on the Site will be handled in an appropriate and considerate manner. Without
+				limiting the foregoing and in order to provide you with the best service, <a href="http://bambuser.com/about">Bambuser
+					 AB</a> may have to collect, use and disclose your Personal Data for the purpose of, for example (i) the requested
+					function or activity that you choose; (ii) for you to get access to certain products or services; (iii) for us
+					to provide you with customer services; or (iv) or for a purpose specifically stated on the relevant area of the
+					Site that you visit.</p>
+			<p><a href="http://bambuser.com/about">Bambuser AB</a> always reserves the right to use and disclose Personal Data for
+				the purpose of conducting direct marketing.</p>
+			<p><a href="http://bambuser.com/about">Bambuser AB</a> may use or combine the Personal Data you provide on the Site with
+				other information that we may collect from you or from third parties in order to more effectively tailor, improve
+				and develop the Site, functions, activities, products, services, applications and offerings to you, and to overall
+				enhance the user experience.</p>
+			<p>In order to provide you with updated services at all times, <a href="http://bambuser.com/about">Bambuser AB</a> may
+				share the Personal Data with certain third parties. Any such third party is required to treat your Personal Data with
+				no less restrictive terms as set out in these privacy terms.</p>
+			<p><a href="http://bambuser.com/about">Bambuser AB</a>´s Privacy Policy does not apply when you are using third party
+				applications. Such third party applications may contain their own privacy policies that you should review.</p>
+		</div>
+		<div class="box right">
+			<h2>Destruction and update of Personal Data</h2>
+			<p>Should the Personal Data held by us no longer be required by us for any of the purposes set out in the section “Use
+				and Disclosure of Personal Data” above, we undertake to take reasonable steps to destroy or de-identify the Personal
+				Data after a reasonable period of time has elapsed. If you provide <a href="http://bambuser.com/about">Bambuser AB</a>
+				with Personal Data, you will have the right, on reasonable prior written notice, to request inspection, change,
+				amendment, or deletion of such Personal Data. However, we reserve the right, subject to applicable law, to charge a
+				reasonable fee for inspection of your Personal Data held by us. Instructions on how to request inspection, change,
+				amendment, or deletion of your Personal Data will be given at the point of collection, and if not given at the point
+				of collection, specific instructions may be provided by you to our contact set out below.</p>
+			<h2>Transfer of Personal Data</h2>
+			<p>Unless it’s for any of the purposes set out under the section “Use and Disclosure of Personal Data” above,
+				<a href="http://bambuser.com/about">Bambuser AB</a> will not transfer (other than for routing purpose) the Personal
+				Data you provide on the Site to any third party, except (a) with your consent; (b) as may be required by law or
+				court order; (c) to persons or companies with whom <a href="http://bambuser.com/about">Bambuser AB</a> has contracts
+				to carry out the internal operations of the Site or our business; or (d) we reasonably believe that they are subject
+				to law, binding scheme or contract which upholds principles for fair handling and adequate level of protection of
+				Personal Data.</p>
+			<h2>Quality</h2>
+			<p>We undertake to take reasonable steps to ensure that the Personal Data we collect from you is accurate, complete and
+				up to date. However, you are under the obligation to provide only Personal Data which is accurate, complete and up
+				to date at the time of the collection. Should you establish later on that Personal Data held by us is not accurate,
+				complete and up to date, we will – upon your written notice – take reasonable steps to correct the Personal Data.</p>
+			<h2>Security</h2>
+			<p>While <a href="http://bambuser.com/about">Bambuser AB</a> can’t guarantee that unauthorised access will never occur,
+				rest assured that <a href="http://bambuser.com/about">Bambuser AB</a> takes great care in maintaining the security
+				of your Personal Data and in preventing unauthorised access to it through the use of appropriate technology and
+				internal procedures.</p>
+			<h2>Contact information</h2>
+			<p>Should you have eventual any inquiries concerning Personal Data held by us or our policy, please send an email to
+				<a href="mailto:support@bambuser.com">support@bambuser.com</a></p>
+		</div>
+	</div>
+	<div id="footer">
+	<p>
+		<a href="/">Social live</a>
+		<a href="/support">Support</a>
+		<a href="/tou">Terms of Use</a>
+		<a href="/privacy">Privacy Policy</a>
+	</p>
+</div></div>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-2765745-14']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</body>
+
+</html>

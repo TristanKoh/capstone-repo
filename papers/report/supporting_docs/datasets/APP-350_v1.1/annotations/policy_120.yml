@@ -1,0 +1,128 @@
+policy_id: 120
+policy_name: Bestcoolfungames
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy Last Updated: February 23, 2017.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Collecting information. As you may know, by creating your account
+    and start using our Mobile Applications ("Apps") 1 , in addition to collecting
+    the data you deliberately send to us, we also collect and store other information.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As you may know, by creating your account and start using our Mobile
+      Applications ("Apps"), in addition to collecting the data you deliberately send
+      to us, we also collect and store other information.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Collecting information.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: For instance, whenever you access and start to interact with our Apps,
+    we are able to identify your IP address, system configuration, browser type and
+    other sorts of information arising from your device.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For instance, whenever you access and start to interact with our
+      Apps, we are able to identify your IP address, system configuration, browser
+      type and other sorts of information arising from your device.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: We may aggregate that data in order to improve our Apps and other
+    services we provide, but we will not exploit it commercially or disclose it without
+    your consent, except for third-party service providers in order to enable the
+    existence of our Apps and the provision of our services. Also, we may be forced
+    by governmental bodies to disclose that data, but we will not provide any information
+    unless we shall be required to do so by any applicable law or administrative procedure.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We are compliant with and respect all consumer and privacy rights
+    and we act accordingly to the best practices of data protection. By force of the
+    Children's Online Privacy Protection Rule (COPPA), if we collect information that
+    establishes that you are under 13 years old, we may disclose it to your parents
+    if we are required to do so and restrict your access to our Apps unless we get
+    verifiable consent from any of your parents.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We also take reasonable measures to protect the data we store, receive
+    or send for you, although we are unable to assure you that we are armored against
+    cyber-attacks and other illegal practices. Consequently, while sharing information
+    with us, you consent that you are doing it at your own risk.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Your data is stored on Amazon Web Services, which is ISO-27001 certified
+    and PCI compliant. We apply strict access permissions to our employees and adhere
+    to security best practices. In addition to that and many other security best practices,
+    we conduct frequent reviews to our security policies in an attempt to keep them
+    up-to-date with industry's best practices.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Finally, we note that our Apps are hosted in the United States, but
+    our tech team resides outside of that country, which means that information you
+    share with us shall be transferred to other countries. Please be aware of the
+    privacy protection standards of your country and tell us immediately if you think
+    that the data you share with us may breach the laws of your country.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Miscellaneous. We cannot assure you that the device you use to access
+    our Apps are free of viruses, spams and other kinds of cyber-attacks. Therefore,
+    we are not responsible for the safety of the information you share with external
+    links, web sites and other third parties.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: This privacy policy may occasionally be updated by us with prior notice,
+    so be aware about its content and tell us if you have any doubts. Every portion
+    of our Apps, including, but not limited to logos, layouts, texts and features,
+    belong to us, so be aware that we may file a judicial claim against you if you
+    breach any intellectual property rules or international standards (mainly Agreement
+    on Trade-Related Aspects of Intellectual Property Rights).
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: For the purposes of this document, every data stored by us is automatically
+    shared with our partners, workers and other people placed at our headquarters,
+    who therefore commit themselves to follow the same confidentiality rules to which
+    we are subject.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 1 [Found at https://play.google.com/store/apps/developer?id=Best+Cool+and+Fun+Games,
+    https://itunes.apple.com/us/developer/best-free-games-top-apps/id793349881, https://itunes.apple.com/us/developer/gustavo-schvartsman/id487704296]
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Collecting information. As you may know, we do not collect the data
+    you deliberately send to us, and we also do not collect and store other information.
+    For instance, whenever you access and start to interact with our Apps, we are
+    not able to identify your IP address, system configuration, browser type or other
+    sorts of information arising from your device.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Collecting information. As you may know, we do not collect the
+      data you deliberately send to us, and we also do not collect and store other
+      information. For instance, whenever you access and start to interact with our
+      Apps, we are not able to identify your IP address, system configuration, browser
+      type or other sorts of information arising from your device.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED

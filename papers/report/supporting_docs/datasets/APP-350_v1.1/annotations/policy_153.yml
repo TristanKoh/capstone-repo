@@ -1,0 +1,294 @@
+policy_id: 153
+policy_name: com.crazyapps.mobilelocationtracker
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy CRAZY SOFTECH APPS ("Service", "CRAZY SOFTECH", "we,"
+    "us," or "our") collects information from you in order to provide better service
+    and a better user experience. Your privacy is a top priority to us, and this Privacy
+    Policy explains how we collect, use, and protect your information. What information
+    we use and how we use it: Read phone status and identity'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: This permission allows CRAZY SOFTECH APPS to recognize an incoming
+    / outgoing call and to switch between the User System interface and call interface
+    or announces / shows the caller name while some one is calling, you will identify
+    it without looking to your smart phone. Read your text messages (SMS or MMS)
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We do not save or upload your messages. We use this permission to
+    read your text messages when you search messages in search bar or announce the
+    sender name while some one is send you a message, you will identify it without
+    looking to your smart phone. Take pictures and videos
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: This permission allows CRAZY SOFTECH APPS to use your device's camera
+    to take photos / videos and turn ON/OFF Camera Flash. We do not save or upload
+    your photos/videos. Approximate location (network-based)
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: This permission allows CRAZY SOFTECH APPS to identify and display
+    your location on map or apps installed by anonymous surrounding users and to recommend
+    popular apps based on users' location. This information is untraceable. Read your
+    contacts
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Approximate location (network-based) This permission allows CRAZY
+      SOFTECH APPS to identify and display your location on map or apps installed
+      by anonymous surrounding users and to recommend popular apps based on users'
+      location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: CRAZY SOFTECH APPS does not save or upload your contacts. Permission
+    to access contact information is used when you search contacts in CRAZY SOFTECH
+    APPS search bar. Read calendar events plus confidential information
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: CRAZY SOFTECH APPS does not save or upload your contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Permission to access contact information is used when you search
+      contacts in CRAZY SOFTECH APPS search bar.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Read calendar events plus confidential information
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: This information is used only in the CRAZY SOFTECH APPS to remind
+    you of your latest calendar events. We do not save or upload any of your calendar
+    information. Modify or delete the contents of your USB storage
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: This permission allows CRAZY SOFTECH APPS to delete app data(image,
+    text, audio etc..) stored on their SD card. Read the contents of your USB storage
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: This permission allows CRAZY SOFTECH APPS to view app data(image,
+    text, audio etc..) stored on their SD card. Set an alarm
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: This permission allows users to access the device's alarm through
+    CRAZY SOFTECH APPS clock widget. Find accounts on the devices
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: CRAZY SOFTECH APPS does not recognize or save your account information
+    for any programs. CRAZY SOFTECH APPS only detects whether users have a Google
+    account linked with the device which helps us confirm the state of Google Service
+    and provide users with appropriate application download and update methods. Read
+    Google service configuration
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: This information is used to acquire advertising ID. CRAZY SOFTECH
+    APPS provide users with better advertising service by using such anonymous ID.
+    Change network connectivity
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: CRAZY SOFTECH APPS provide users with better advertising service
+      by using such anonymous ID.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: This information is used to acquire advertising ID.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: This permission is used in CRAZY SOFTECH APPS settings and notification
+    toolbar, in order to change/check network connectivity. Connect and disconnect
+    from Wi-Fi
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: This permission is used in CRAZY SOFTECH APPS settings and notification
+    toolbar in order to connect and disconnect from Wi-Fi. Full network access
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: This permission is used to access the device's network for certain
+    functions including receiving update notifications or accessing app classification
+    labels. View network connections
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: This permission is used in CRAZY SOFTECH APPS settings and notification
+    toolbar, in order to view network connections. View Wi-Fi connections
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: TThis permission is used in CRAZY SOFTECH APPS settings and notification
+    toolbar, in order to view Wi-Fi connections. Access Bluetooth settings
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: This permission is used in CRAZY SOFTECH APPS settings, in order to
+    turn on and off the Bluetooth. Pair with Bluetooth devices
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: This permission is used in CRAZY SOFTECH APPS settings, in order to
+    pair with Bluetooth devices. Close other apps
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: This permission is used in CRAZY SOFTECH APPS Boost in order to turn
+    off the back-end apps and make the phone run faster. Retrieve running apps
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: This permission is used in CRAZY SOFTECH APPS Boost in order to view
+    the running apps. Run as startup
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: CRAZY SOFTECH will run as startup to provide users with a launcher
+    service. Draw over other apps
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: This permission allows the CRAZY SOFTECH APPS Free Swipe tab to be
+    displayed as a floating window on other apps. Control vibration
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: This permission allows CRAZY SOFTECH APPS to make the phone vibrate
+    once after users set the device on vibrate, confirming the setting has been turned
+    on. Adjust your wallpaper size
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: This permission allows users to crop CRAZY SOFTECH APPS wallpaper
+    to the desired size. Set wallpaper
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: This permission allows users to set a selected CRAZY SOFTECH APPS
+    image as their wallpaper. Read sync settings
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: This permission is used in CRAZY SOFTECH APPS power's save mode, and
+    allows CRAZY SOFTECH APPS to recognize whether sync settings are turned on or
+    off. Toggle sync on and off
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: This permission is used in CRAZY SOFTECH APPS power's save mode, and
+    allows CRAZY SOFTECH APPS to synchronize with the user's sync settings. Expand/collapse
+    status bar
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: This permission is used for the gesture feature of CRAZY SOFTECH APPS
+    User System to expand and collapse the status bar. Install shortcuts
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: This permission is used to install shortcuts on other launchers, so
+    users can continue to use CRAZY SOFTECH APPS related functions. Measure app storage
+    space
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: This permission is used to acquire the amount of storage space used
+    by an application. Modify system settings
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: This permission is used in CRAZY SOFTECH APPS settings, in order to
+    switch or adjust ringtone, vibration and brightness level of the screen. Read
+    Home settings and shortcuts
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: This permission is used to acquire the user's Home settings and shortcuts,
+    in order to maintain user preferences. Uninstall shortcuts
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "This permission allows CRAZY SOFTECH APPS to delete the shortcuts\
+    \ created by CRAZY SOFTECH APPS in other Android launchers. Photos\u2044Media\u2044\
+    Files"
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: Modify or delete the contents of your USB storage Test access to protected
+    storage When user recommends friends to download CRAZY SOFTECH APPS by sharing
+    to social network, we need to save an introduction picture to be shared on SD
+    card. We won't access other file on SD card. Device & app history
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Retrieve running apps We use this information to boost your Android
+    phone effectively, clean your device's RAM and make your phone speed up in depth.
+    How we protect your information
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: We have implemented commercially reasonable technical and organizational
+    measures to protect your personal information from accidental loss and from loss,
+    misuse and unauthorized access, disclosure, alteration and destruction. However,
+    please note that although we take reasonable measures to protect your information,
+    no app, website, Internet transmission, computer system or wireless connection
+    is completely secure. How we share your information
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: We may retain third parties to perform services on our behalf and
+    we may collaborate with third parties with respect to particular products or services.
+    These third parties may be provided with access to the information needed to perform
+    their functions, as long as they agree to keep the information confidential. We
+    reserve the right to disclose your information as required by law, when we believe
+    disclosure is necessary to comply with a regulatory requirement, judicial proceeding,
+    court order, or legal process served on us, or to protect the safety, rights,
+    or property of our users, the public or CRAZY SOFTECH. Children's Privacy
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: We are committed to protecting the privacy of children. We do not
+    knowingly collect personal information from children under the age of 13. Changes
+    to the Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: CRAZY SOFTECH may, in its sole discretion, change this Privacy Policy
+    from time to time, any and all changes will be reflected here and the date new
+    versions are posted will be stated at the top of this Privacy Policy, so please
+    review it periodically. Contact us
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: "If you have any suggestions, feedback or requests, please contact\
+    \ us on our Facebook page: www.fb.com/CrazySoftech or email us at privacy@crazysoftech.com\
+    \ \xA9 2014-2017 All Rights Reserved | CRAZY SOFTECH"
+  annotations: []
+  sentences: []

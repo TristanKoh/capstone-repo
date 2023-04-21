@@ -1,0 +1,461 @@
+policy_id: 1
+policy_name: 6677G
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: PRIVACY POLICY This privacy policy (hereafter referred to as the "Privacy
+    Policy") is applicable to our websites, apps and to all games and other activities(hereafter
+    referred to as the "our products") that are offered by us on or through our products.
+    Tiny Piece, having its registered office at Ajeltake Road, Ajeltake Island, Majuro,
+    Republic of the Marshall Island MH 96960 (hereafter referred to as "6677g"). 6677g
+    may use affiliates' or reputable third parties' services for the processing of
+    personal data collected on or through our products. By using or accessing our
+    products, you are accepting the practices described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 1. ABOUT OUR PRODUCTS 1.1 Our products offer a diverse, current, and
+    exciting mix of games created by 6677g, as well as games created by independent
+    developers and 6677g partners. Players can access our products to play games without
+    registering; however, they may choose to register to create a public or semi-public
+    profile and to save games, high scores, and comments on this profile. Also, visitors
+    to our products will be able to rate games and browse for the newly added, top-rated,
+    and most-popular games.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: '2. THE INFORMATION WE COLLECT The information that our products collect
+    includes (among others) the following: A) IP ADDRESS, COOKIES, AND WEB BEACONS
+    2.1 When you visit our products, our servers automatically save your computer''s
+    IP address. IP addresses will be collected, along with information about the actual
+    web pages that you visit on our products. If you arrive at our products via a
+    link from another product, the URL of the linking product and the URL of any product
+    that you link to next will also be collected.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: IP ADDRESS, COOKIES, AND WEB BEACONS
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: IP addresses will be collected, along with information about the
+      actual web pages that you visit on our products.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'The information that our products collect includes (among others)
+      the following:'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you visit our products, our servers automatically save your
+      computer's IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: '2.2 In addition, we store certain information from your browser,
+    using "cookies." A cookie is a piece of data stored on the user''s computer and
+    is tied to information about the user. 6677g may use cookies, web beacons (web
+    bugs), or similar technologies to enhance and personalize your experience on our
+    products, including the following: (a) to operate and improve offerings on our
+    products; (b) to help authenticate you when you are on our products;'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '6677g may use cookies, web beacons (web bugs), or similar technologies
+      to enhance and personalize your experience on our products, including the following:
+      (a) to operate and improve offerings on our products; (b) to help authenticate
+      you when you are on our products;'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: A cookie is a piece of data stored on the user's computer and is
+      tied to information about the user.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition, we store certain information from your browser, using
+      "cookies."
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: (c) to remember your preferences and registration information, as
+    applicable;
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: (d) to present and help measure and research the effectiveness of
+    6677g offerings, advertisements, and email communications; and
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: (e) to customize the content and advertisements provided to you through
+    our products.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 2.3 6677g may also use ad network providers to help present advertisements
+    on our products. These ad network providers use cookies, web beacons, or similar
+    technologies to help the presenting, better targeting, and measuring of the effectiveness
+    of their advertisements, using data gathered over time and across their networks
+    of web pages to determine or predict the characteristics and preferences of their
+    audiences. 6677g offers some services in connection with other products. Personal
+    information that you provide to those sites may be sent to 6677g in order to deliver
+    these services. 6677g processes such information in accordance with this Privacy
+    Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 6677g may also use ad network providers to help present advertisements
+      on our products.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 6677g offers some services in connection with other products.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 6677g processes such information in accordance with this Privacy
+      Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Personal information that you provide to those sites may be sent
+      to 6677g in order to deliver these services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These ad network providers use cookies, web beacons, or similar
+      technologies to help the presenting, better targeting, and measuring of the
+      effectiveness of their advertisements, using data gathered over time and across
+      their networks of web pages to determine or predict the characteristics and
+      preferences of their audiences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 2.4 6677g may also use third-party payment service providers ("PSP"),
+    offering payment transaction services to 6677g in order to sell a product or service
+    through our products. Whenever you buy something from our products (e.g., a virtual
+    game item or a subscription for a game download), the information that you provide
+    to the PSP is subject to their privacy policies, not ours. You explicitly consent
+    that 6677g may provide personal information collected from you to a PSP for the
+    purpose of the offering of the payment-transaction service whenever you buy something
+    from the Website(s) and that such PSP may use such data for (statistical) analysis
+    of payment transactions. 6677g shall be allowed to notify a PSP regarding a user
+    that engages in (or who a party believes has engaged in) any activity that is
+    illegal, that violates any person's rights, or that led to such user's suspension
+    or termination of use of our products.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 2.5 6677g may share demographic information (certain anonymous information
+    about you as a user, such as age and country) with certain ad network providers
+    to help them deliver more relevant advertisements through their ad networks. The
+    use of cookies, web beacons, or similar technologies by such third parties as
+    ad network providers is subject to their own privacy policies, not this Privacy
+    Policy.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 6677g may share demographic information (certain anonymous information
+      about you as a user, such as age and country) with certain ad network providers
+      to help them deliver more relevant advertisements through their ad networks.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 2.6 Most browsers are initially set to accept cookies, but you can
+    (re)set your browser to refuse all cookies or to indicate when a cookie is being
+    sent. You can opt out of receiving cookies from certain third-party advertising
+    networks by resetting your browser. You may also use the following link to the
+    Network Advertising Initiatives cookie opt-out page, which can be found here.
+    However, some features and services may not function properly if cookies are disabled.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, some features and services may not function properly if
+      cookies are disabled.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Most browsers are initially set to accept cookies, but you can
+      (re)set your browser to refuse all cookies or to indicate when a cookie is being
+      sent.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can opt out of receiving cookies from certain third-party advertising
+      networks by resetting your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You may also use the following link to the Network Advertising
+      Initiatives cookie opt-out page, which can be found here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: 'B) PERSONAL DATA, INCLUDING YOUR E-MAIL ADDRESS 2.7 You may choose
+    to register with us for a better game experience and/or to create a public or
+    semi-public profile for participating in our social gaming network. This includes,
+    for example: overviews of high scores, achievements listings, and individual game
+    recommendations on our products. When you register with us, you provide us with
+    certain personal information, such as a username, date and month of birth, and
+    your email address. The information you disclose in that respect may also become
+    publicly accessible. We provide you with privacy settings that restrict other
+    users from accessing your information; namely, our network architecture and your
+    privacy settings allow you to make informed choices about who has access to your
+    information. We allow you to choose the information you provide to friends and
+    networks through our products. When your privacy settings permit it, other users
+    may be able to see and supplement your profile (e.g., by posting comments).'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you register with us, you provide us with certain personal
+      information, such as a username, date and month of birth, and your email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: 2.8 If you decide to disclose information in a public venue or in
+    games, we will consider that information as part of the public domain. This information
+    will be accessible to any person who uses our products.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: '2.9 We only collect email addresses that were provided to us directly
+    by you. Your email address will only be used for the following purposes: (i) the
+    promotion of (new) games; (ii) service emails (on updates, new design, new features,
+    etc.);'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We only collect email addresses that were provided to us directly
+      by you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: (iii) administrative purposes, such as notification of violation of
+    our Terms of Use;
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: (iv) delivering messages you have allowed us to pass on (e.g., from
+    other people in your social network).
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: '2.10 Without your approval, we will not: (a) make your email address
+    visible on our products; (b) use your email address for purposes other than those
+    described in article 2.9 hereof;'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Without your approval, we will not: (a) make your email address
+      visible on our products; (b) use your email address for purposes other than
+      those described in article 2.9 hereof;'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: (c) transfer your email address or other personal information to third
+    parties, except in those limited cases as described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: C) COMBINATION OF PERSONAL DATA 2.11 For optimizing our services and
+    our products, and for the purposes mentioned in this article 2, we are entitled
+    to combine your personal data (including your email address, as applicable) with
+    other information about you collected by or provided to us.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: COMBINATION OF PERSONAL DATA 2.11 For optimizing our services and
+      our products, and for the purposes mentioned in this article 2, we are entitled
+      to combine your personal data (including your email address, as applicable)
+      with other information about you collected by or provided to us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: 3. TO WHOM DOES 6677G PROVIDE THIS INFORMATION? 3.1 6677g may provide
+    information to any party whose services it engages for the purposes of its normal
+    operations (for example, those partners who assist us by providing technical or
+    operational facilities for our products and so forth). We may also supply information
+    to other parties if we are required to do so by law or by a ruling handed down
+    by a court of law. 6677g does not provide personal details to other parties for
+    commercial, advertising, or marketing purposes, except if you explicitly give
+    us permission to do so, or if doing so is part of a specific program or operation
+    for which you have registered. In such case, you may withdraw your permission
+    at any time.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 4. WHY DO WE COLLECT INFORMATION? 4.1 We use personal details and
+    other information to maintain the general and personified content and functionality
+    of our products. In addition, we use personal details to make it possible to accommodate
+    your requests, and so that we are able to provide you with service when using
+    (one of) our products and for the purposes set out elsewhere in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 5. ACCESS TO THE INFORMATION WE HAVE COLLECTED ABOUT YOU
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 5.1 Your personal data will be stored by 6677g.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 5.2 Users with a personal profile on our products may review, update,
+    or delete personal data collected by us by clicking on the appropriate link in
+    the personal profile.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 5.3 In general, if you wish to have access to your personal data to
+    correct or delete the information that we have collected about you, please send
+    a written request to Tiny Piece, Ajeltake Road, Ajeltake Island, Majuro, Republic
+    of the Marshall Island MH 96960, detailing your request and the data you have
+    provided to us along with a copy of your passport (to prevent misuse of requests
+    for information), or send an email with all such information to [email protected]
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: '5.4 Parents of users under the age of 16: If you wish to have access
+    to your child''s personal data to view, correct, or delete the information that
+    we have collected about your child, please send a written request to Tiny Piece,
+    Ajeltake Road, Ajeltake Island, Majuro, Republic of the Marshall Island MH 96960,
+    detailing your request along with a copy of your passport (to prevent misuse of
+    requests for information), or send an email with all such information to [email
+    protected]'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '5.4 Parents of users under the age of 16: If you wish to have
+      access to your child''s personal data to view, correct, or delete the information
+      that we have collected about your child, please send a written request to Tiny
+      Piece, Ajeltake Road, Ajeltake Island, Majuro, Republic of the Marshall Island
+      MH 96960, detailing your request along with a copy of your passport (to prevent
+      misuse of requests for information), or send an email with all such information
+      to [email protected]'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: 6. SECURITY 6.1 You post personal data and any other content on our
+    products at your own risk and in accordance with article 7 ("Your Responsibilities")
+    of the Terms of Use. Although we allow you to set privacy options that limit access
+    to such personal data and other content, please be aware that no security measures
+    are perfect or impenetrable. We cannot control the actions of other users with
+    whom you choose to share your profile and information. Therefore, we cannot and
+    do not guarantee that any content you post on our products will not be viewed
+    by unauthorized persons. We are not responsible for circumvention of any privacy
+    settings or security measures contained on our products. You understand and acknowledge
+    that, even after removal, copies of personal data or content may remain viewable
+    in cached and archived pages, or if other users have copied or stored your personal
+    data or content.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 6.2 We have implemented appropriate measures to safeguard and help
+    prevent unauthorized access, to maintain data security, and to correctly use the
+    information we collect online. Your personal data visible on our products (such
+    as any public comments posted by you and/or any data in your profile) are accessible
+    to third parties, and you acknowledge and agree that such third parties are able
+    to copy such information to their own products or other locations.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 6.3 Your personal data will only be stored for a period necessary
+    for your uses of our products for the purposes as described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 7. MISCELLANEOUS 7.1 We reserve the right to amend our Privacy Policy.
+    Amendments will be effective as of the moment of publication on our products.
+    You should check our products regularly for amendments.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 7.2 The Internet is a global environment, and using the Internet necessarily
+    involves the collection and processing of personal data on an international basis.
+    Therefore, by using (one or more of) our products, you acknowledge and agree to
+    our processing of personal data in this way.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 7.3 Our products may contain links to other products. We are not responsible
+    for the privacy practices of other products. We encourage users to be aware when
+    they leave our site to read the privacy statements of each and every website that
+    collects personally identifiable information. This Privacy Policy applies solely
+    to information collected by us.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 7.4 In the event of a transfer of (one of our) products to a third
+    party, we may transfer to such third party all personal information that we collected
+    about you in accordance with this Privacy Policy. In such an event, users who
+    have provided email addresses to us will be notified when information about those
+    users is transferred and becomes subject to a different privacy policy.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In such an event, users who have provided email addresses to us
+      will be notified when information about those users is transferred and becomes
+      subject to a different privacy policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: In the event of a transfer of (one of our) products to a third
+      party, we may transfer to such third party all personal information that we
+      collected about you in accordance with this Privacy Policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: 7.5 We also have Terms of Use that are applicable to your use of our
+    products. In the case of a contradiction between the Terms of Use and this Privacy
+    Policy, this Privacy Policy prevails.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 7.6 This Privacy Policy shall be governed by the laws of the Netherlands
+    and submitted to the exclusive jurisdiction of the courts in the Netherlands.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: If you have any additional questions or requests, you may send an
+    email to [email protected]
+  annotations: []
+  sentences: []

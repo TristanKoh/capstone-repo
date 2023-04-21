@@ -1,0 +1,199 @@
+policy_id: 311
+policy_name: smalltech
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "English Deutsch Fran\xE7ais Espa\xF1ol Italiano Portug\xFBes \u0420\
+    \u0443\u0441\u0441\u043A\u0438\u0439 \u65E5\u672C\u8A9E \uD55C\uAD6D\uC5B4 ..............\
+    \ Arabic Bulgarian Czech Danish Dutch Greek Finnish Hebrew Hindi Hungarian Indonesian\
+    \ Norwegian Polish Romanian Slovak Serbian Swedish Thai Turkish Ukrainian Vietnamese\
+    \ \u6B63\u9AD4\u5B57 applications blog support"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Preamble I wrote a simpler "human" privacy policy, which you can read
+    to understand my true feelings. What follows is a lawyer-friendly version as required
+    by app stores to publish our apps.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "Privacy Policy for Flashlight HD Last updated: February 02, 2017\
+    \ smalltech s\xE0rl (\"us\", \"we\", or \"our\") operates the Flashlight HD mobile\
+    \ application (the \"Service\")."
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: This page informs you of our policies regarding the collection, use
+    and disclosure of Personal Information when you use our Service.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We will not use or share your information with anyone except as described
+    in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We use your Personal Information for providing and improving the Service.
+    By using the Service, you agree to the collection and use of information in accordance
+    with this policy. Unless otherwise defined in this Privacy Policy, terms used
+    in this Privacy Policy have the same meanings as in our Terms and Conditions.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Android permissions This application requires a specific privacy
+    policy because it uses the "Camera" permission. It is important to note that the
+    app DOES NOT TAKE PICTURES OR RECORD VIDEOS. So why do we require the permission
+    ? The answer is: to be able to turn on the LED light. There are thousands of different
+    android devices which have either outdated systems or bugs that make it impossible
+    to turn on the LED light with the operating system''s dedicated functions. So
+    in order to achieve the main functionality of the app (turn on the LED) on the
+    vast majority on devices, we use various workarounds just to achieve this goal.
+    Some tricks use the Autofocus feature (which requires the camera permission) and
+    others tricks like the "PREVIEW" mode (which you can see in our test tool in the
+    app) launches a camera capture process in order to turn on the LED. Even in this
+    mode all camera input is immediately discarded. It is never saved anywhere.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Information Collection And Use While using our Service, we may ask
+    you to provide us with certain personally identifiable information that can be
+    used to contact or identify you.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Log Data When you access the Service by or through a mobile device,
+    we may collect certain technical information automatically and anonymously, including,
+    but not limited to, the type of mobile device you use, your mobile device unique
+    ID, the IP address of your mobile device, your mobile operating system, the type
+    of mobile Internet browser you use and other statistics ("Log Data").
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you access the Service by or through a mobile device, we may
+      collect certain technical information automatically and anonymously, including,
+      but not limited to, the type of mobile device you use, your mobile device unique
+      ID, the IP address of your mobile device, your mobile operating system, the
+      type of mobile Internet browser you use and other statistics ("Log Data").
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: In addition, we may use third party services such as Google Analytics
+    that collect, monitor and analyze this type of information in order to increase
+    our Service's functionality. These third party service providers have their own
+    privacy policies addressing how they use such information.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Compliance With Laws We will disclose your Personal Information where
+    required to do so by law or subpoena or if we believe that such action is necessary
+    to comply with the law and the reasonable requests of law enforcement or to protect
+    the security or integrity of our Service.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "Business Transaction If smalltech s\xE0rl is involved in a merger,\
+    \ acquisition or asset sale, your Personal Information may be transferred. We\
+    \ will provide notice before your Personal Information is transferred and becomes\
+    \ subject to a different Privacy Policy."
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Security The security of your Personal Information is important to
+    us, but remember that no method of transmission over the Internet, or method of
+    electronic storage is 100% secure. While we strive to use commercially acceptable
+    means to protect your Personal Information, we cannot guarantee its absolute security.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: International Transfer Your information, including Personal Information,
+    may be transferred to - and maintained on - computers located outside of your
+    state, province, country or other governmental jurisdiction where the data protection
+    laws may differ than those from your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: If you are located outside Switzerland and choose to provide information
+    to us, please note that we transfer the information, including Personal Information,
+    to Switzerland and process it there.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Your consent to this Privacy Policy followed by your submission of
+    such information represents your agreement to that transfer.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Links To Other Sites Our Service may contain links to other sites
+    that are not operated by us. If you click on a third party link, you will be directed
+    to that third party's site. We strongly advise you to review the Privacy Policy
+    of every site you visit.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We have no control over, and assume no responsibility for the content,
+    privacy policies or practices of any third party sites or services.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Children's Privacy Our Service does not address anyone under the age
+    of 13 ("Children").
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: We do not knowingly collect personally identifiable information from
+    children under 13. If you are a parent or guardian and you are aware that your
+    Children has provided us with Personal Information, please contact us. If we become
+    aware that we have collected Personal Information from a children under age 13
+    without verification of parental consent, we take steps to remove that information
+    from our servers.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Changes To This Privacy Policy We may update our Privacy Policy from
+    time to time. We will notify you of any changes by posting the new Privacy Policy
+    on this page.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: You are advised to review this Privacy Policy periodically for any
+    changes. Changes to this Privacy Policy are effective when they are posted on
+    this page.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Contact Us If you have any questions about this Privacy Policy, please
+    contact us.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "Copyright \xA9 2008-2017 smallte.ch - All rights reserved smalltech\
+    \ S\xE0rl. | Privacy Policy"
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: When you access the Service by or through a mobile device, we do not
+    collect the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use or other statistics.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you access the Service by or through a mobile device, we do
+      not collect the type of mobile device you use, your mobile device unique ID,
+      the IP address of your mobile device, your mobile operating system, the type
+      of mobile Internet browser you use or other statistics.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED

@@ -1,0 +1,113 @@
+policy_id: 186
+policy_name: com.nix.game.pinball.free
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy What information do we collect ? We collect information
+    from you when subscribe to our newsletter.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'When ordering or registering on our application, as appropriate,
+    you may be asked to enter your : name, e-mail address or mailing address. You
+    may, however, visit our application anonymously.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'When ordering or registering on our application, as appropriate,
+      you may be asked to enter your : name, e-mail address or mailing address.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: 'What do we use your information for ? Any of the information we collect
+    from you may be used in one of the following ways : 1 - To personalize your experience
+    (your information helps us to better respond to your individual needs)'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 2 - To improve customer service (your information helps us to more
+    effectively respond to your customer service requests and support needs)
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Do we use cookies ? On our websites : We use cookies to personalise
+    content and ads, to provide social media features and to analyse our traffic.
+    We also share information about your use of our site with our social media, advertising
+    and analytics partners.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use cookies to personalise content and ads, to provide social
+      media features and to analyse our traffic.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'In our apps : We use device identifiers to personalise content and
+    ads, to provide social media features and to analyse our traffic. We also share
+    such identifiers and other information from your device with our social media,
+    advertising and analytics partners.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also share such identifiers and other information from your
+      device with our social media, advertising and analytics partners.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use device identifiers to personalise content and ads, to provide
+      social media features and to analyse our traffic.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Do we disclose any information to outside parties ? We do not sell,
+    trade, or otherwise transfer to outside parties your personally identifiable information.
+    This does not include trusted third parties who assist us in operating our applications,
+    conducting our business, or servicing you, so long as those parties agree to keep
+    this information confidential. We may also release your information when we believe
+    release is appropriate to comply with the law, enforce our application policies,
+    or protect ours or others rights, property, or safety. However, non-personally
+    identifiable visitor information may be provided to other parties for marketing,
+    advertising, or other uses.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Your Consent By using our application, you consent to our privacy
+    policy.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Magma Mobile reserves the right to amend and update its Privacy Policy
+    without notice.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Amended October 22, 2015.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Contacting us If there are any questions regarding this privacy policy
+    you may contact us using the information below.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Magma Mobile 22, rue de la voie des bans Argenteuil, Ile de France
+    95100 supportapp@magmamobile.com Android Games iOS Games Windows Phone Games
+  annotations: []
+  sentences: []

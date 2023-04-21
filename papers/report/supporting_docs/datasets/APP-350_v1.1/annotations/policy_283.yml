@@ -1,0 +1,117 @@
+policy_id: 283
+policy_name: NordcurrentCookingFever
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: All MAC iPad iPhone Android Windows Kindle Online
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Congratulations! You have subscribed to our newsletter.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Get free newsletter: Results found for "": Cooking Fever Terms PRIVACY
+    POLICY Nordcurrent is committed to provide enjoyable and fun games and applications
+    (Services) across the wide variety of devices, such as smartphones, tablets, personal
+    computers and videogame consoles. Nordcurrent games are not targeted to users
+    under the age 13. For those users that use our games and services, however, we
+    take personal data protection very seriously. Nordcurrent follows the generally
+    accepted industry personal information protection standards. However, no method
+    of transmission over the Internet, or method of electronic storage, is 100% secure.
+    Therefore, while our goal is to use commercially acceptable ways to protect your
+    personal information, we cannot guarantee it is absolutely secure. Please keep
+    it in mind before submitting any information about yourself. Please note that
+    information that you voluntarily make public in your user profile, or which you
+    disclose by posting comments will be publicly available and viewable by others.
+    We do not hold any liability for any information that you voluntarily choose to
+    be public through such and/or other explicit actions.'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: By using the Services you agree to observe and be bound by this Privacy
+    Policy and you consent to the processing, collection, use and disclosure of your
+    information and data in accordance with its terms. Please do not use the Services
+    if you do not agree to this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'When you use our Services, we collect the following information:
+    information about your device (including device model, OS version and operator''s
+    name), time and date of the connection to the game and/or service, IP or MAC address,
+    International Mobile Equipment ID (IMEI), Android ID, device MAC address, cookie
+    information. We also from time-to-time use services provided by third party companies
+    that might collect information from you, and you can opt-out from this. Follow
+    the directions provided by our other third party analytics provider located at
+    http://www.flurry.com/user-opt-out.html, https://help.chartboost.com/legal/privacy,
+    http://privacy.adcolony.com/, http://info.tapjoy.com/about-tapjoy/privacy-policy/,
+    http://sponsorpay.com/. If you "opt out" with our third party analytics providers,
+    that action is specific to the information we collect specifically for that provider,
+    and does not limit our ability to collect information from you, under the terms
+    of this privacy policy, for other third parties.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'When you use our Services, we collect the following information:
+      information about your device (including device model, OS version and operator''s
+      name), time and date of the connection to the game and/or service, IP or MAC
+      address, International Mobile Equipment ID (IMEI), Android ID, device MAC address,
+      cookie information.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Generally, the Service automatically collects usage information, such
+    as the numbers and frequency of visitors to our Service and how they use the various
+    components of the Service. CMC (Computer-mediated communication) only uses this
+    data in aggregate form, that is, as a statistical measure, and not in a manner
+    that would identify you personally. This type of aggregate data enables us to
+    figure out how users actually use parts of the Service so that we can make them
+    appealing to as many users as possible, and improve those Services. As part of
+    this use of information, we may provide aggregate information to our partners
+    about how our customers, collectively, use our Services. We may share this type
+    of statistical data so that our partners also understand how people use the Services,
+    so that they, too, may provide you with an optimal user experience. Again, CMC
+    never discloses information to a partner in a manner that would identify you personally.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Your information with limited access rights (including personal information)
+    can only be accessed by our authorized employees or consultants or the concerned
+    group entities, third party service providers, that need to have access to this
+    data in order to be able to fulfill their given duties. However, we shall take
+    appropriate organizational and technical measures to protect your personal data.
+    We reserve the right to disclose your personally identifiable information as required
+    by any law and also when we believe that disclosure is necessary to protect our
+    rights and/or to comply with judicial proceedings, court orders, or legal process.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'You agree that Nordcurrent may change this Privacy Policy at any
+    time. Our current Privacy Policy will be posted here: http://www.nordcurrent.com/privacy.
+    Our contact email for questions is: support@nordcurrent.com. About Jobs Contact
+    Us Support Privacy / Terms & Conditions'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "Follow us on: \xA9 All Rights reserved, Nordcurrent, 2017"
+  annotations: []
+  sentences: []

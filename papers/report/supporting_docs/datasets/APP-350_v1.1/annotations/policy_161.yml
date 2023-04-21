@@ -1,0 +1,688 @@
+policy_id: 161
+policy_name: com.doubleugames.DoubleUCasino
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: ABOUT HOW TO PLAY PREMIUM BOOSTER/VIP CLUB LOADING PROBLEMS FAQ DoubleU
+    Casino DoubleU Mobile Terms of service Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy Effective Date: April 10, 2015 DoubleUGames, Inc.("We")
+    recognizes that privacy is important to the visitors, users, customers and other
+    parties (collectively or individually "Users"), who use our games, applications,
+    forums and/or websites (collectively, the "Services"). This Privacy Policy details
+    important information regarding the use and disclosure of User''s information
+    collected through the Services. This Privacy Policy is incorporated into and is
+    subject to our Terms of Service. Your use of the Services and any personal information
+    you provide on the Services remain subject to the terms of this Privacy Policy
+    and our Terms of Service. Please read this Privacy Policy carefully, and if you
+    have any questions, feel free to contact us at Help Center.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: By using the Services, you consent to the collection and use of your
+    personal information as outlined in this Privacy Policy, as such policy may be
+    amended from time to time. We may amend the Privacy Policy from time to time,
+    and we encourage you to consult the Privacy Policy regularly for changes.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Why We Collect Information Our primary goals in collecting information
+    are to improve our Services by providing a richer, more engaging experience, and
+    to effectively administer your participation.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: What We Collect When you register with us on one of the Services we
+    may ask you for personally identifiable information that can be used to contact
+    or identify you. We also collect the other information that you provide as part
+    of registration and the administration and personalization of your account. Please
+    note that because a third party site manages the purchases of virtual goods offered
+    by the Service, we do not have access to your credit card details or billing information.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Other than names and email addresses provided at your discretion,
+    we don't generally collect any "Personally Identifying Information" about our
+    users (such as social security number, telephone number, street address, drivers
+    license number, etc.). We may offer you the opportunity to submit other information
+    about yourself (such as gender, age, occupation, hobbies, interests, zip code,
+    language, area code, location, the time zone where a Service is used, mobile device,
+    software, incident data, and network Media Access Control (MAC) address and connection,
+    information about the hardware you may own, your favorite websites, friend information
+    and fan pages), or we may be able to collect that information from social networking
+    systems ("SNS") on which you have used the Services (in accordance with the terms
+    of use of those systems), which would then also be covered by this Privacy Policy.
+    In addition to information about yourself, you may choose to share information
+    about yourself in other content such as in games ("Content"). Any action you perform
+    with other players is considered public, and at your own discretion.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Personally Identifying Information" about our users (such as
+      social security number, telephone number, street address, drivers license number,
+      etc.'
+    annotations:
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: Other than names and email addresses provided at your discretion,
+      we don't generally collect any "Personally Identifying Information" about our
+      users (such as social security number, telephone number, street address, drivers
+      license number, etc.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We may offer you the opportunity to submit other information about
+      yourself (such as gender, age, occupation, hobbies, interests, zip code, language,
+      area code, location, the time zone where a Service is used, mobile device, software,
+      incident data, and network Media Access Control (MAC) address and connection,
+      information about the hardware you may own, your favorite websites, friend information
+      and fan pages), or we may be able to collect that information from social networking
+      systems ("SNS") on which you have used the Services (in accordance with the
+      terms of use of those systems), which would then also be covered by this Privacy
+      Policy.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: If non-Personal Information is collected for an activity that also
+    requires personal information, we may combine your non-personal information with
+    your personal information in an attempt to provide you with a better user experience,
+    to improve the value and quality of the Services and to analyze how its Services
+    are used. The Service may also record game play information such as your game
+    session duration or your high scores.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: When you use an SNS App on your social network page or use an SNS
+    App on someone else's page, we may record information regarding the use of that
+    SNS App, and we may collect other information that is visible on your social network
+    page in accordance with the relevant terms of use associated with that page.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use an SNS App on your social network page or use an SNS
+      App on someone else's page, we may record information regarding the use of that
+      SNS App, and we may collect other information that is visible on your social
+      network page in accordance with the relevant terms of use associated with that
+      page.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Note that since our most Services are served through social and mobile
+    platform, it is your responsibility to read and accept their Terms of Use, as
+    well as their Privacy Policy prior to continuing. When you invite new members
+    into your network or send messages through the Services, we collect and maintain
+    on secure servers the information associated with those messages.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Note that since our most Services are served through social and
+      mobile platform, it is your responsibility to read and accept their Terms of
+      Use, as well as their Privacy Policy prior to continuing.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: When you invite new members into your network or send messages
+      through the Services, we collect and maintain on secure servers the information
+      associated with those messages.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: We are not responsible for the privacy practices of other web sites.
+    We encourage our users to be aware when they leave our site to read the privacy
+    statements of each and every web site that collects personally identifiable information.
+    This Privacy Policy applies solely to information collected by us.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Finally, in order to provide the best possible service and to allow
+    us to make certain internal reports and make recommendations, we collect aggregate
+    information about the use of the Services, including information about users accessing
+    the Services on other sites, such as internet protocol addresses, browser type,
+    browser language, referring / exit pages and URLs, other browser history, platform
+    type, number of clicks, domain names, landing pages, pages viewed and the order
+    of those pages, the amount of time spent on particular pages, and the date and
+    time ("Activity Information"). By using the Services, you consent to our retaining
+    all the above-described information in anonymous form as long as we see fit.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using the Services, you consent to our retaining all the above-described
+      information in anonymous form as long as we see fit.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Finally, in order to provide the best possible service and to allow
+      us to make certain internal reports and make recommendations, we collect aggregate
+      information about the use of the Services, including information about users
+      accessing the Services on other sites, such as internet protocol addresses,
+      browser type, browser language, referring / exit pages and URLs, other browser
+      history, platform type, number of clicks, domain names, landing pages, pages
+      viewed and the order of those pages, the amount of time spent on particular
+      pages, and the date and time ("Activity Information").
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: By accessing the Service through a social network, mobile device or
+    other third party platform or service or by connecting to such a third party network,
+    platform or service via a Service, you are authorizing us to collect, store, and
+    use in accordance with this Privacy Policy any and all information that you agreed
+    the social network, mobile device or other third party platform could provide
+    to us through the social network/mobile device/third party platform Application
+    Programming Interface (API) based on your settings on the third party social network,
+    mobile device or platform. Your agreement takes place when you connect with the
+    third party network, platform or service via the Service, and/or when you connect
+    with a Service, or "accept" or "allow" (or similar terms) a Service to access
+    your information through a social network, mobile device or other third party
+    platform or service.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By accessing the Service through a social network, mobile device
+      or other third party platform or service or by connecting to such a third party
+      network, platform or service via a Service, you are authorizing us to collect,
+      store, and use in accordance with this Privacy Policy any and all information
+      that you agreed the social network, mobile device or other third party platform
+      could provide to us through the social network/mobile device/third party platform
+      Application Programming Interface (API) based on your settings on the third
+      party social network, mobile device or platform.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Your agreement takes place when you connect with the third party
+      network, platform or service via the Service, and/or when you connect with a
+      Service, or "accept" or "allow" (or similar terms) a Service to access your
+      information through a social network, mobile device or other third party platform
+      or service.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Third Party Service Providers We may employ third party companies
+    and individuals to facilitate its Services, to provide the Services on its behalf,
+    to perform tasks (e.g., without limitation, maintenance services, database management,
+    web analytics and improvement of the Services) or to assist us in analyzing how
+    its Services are used.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: To improve your game experience, we basically collect a series of
+    data regarding your in-game activities, including but not limited to your activity
+    logs, IP addresses, and browser info, and so forth. If you don't want us to do
+    so, please let us know through our Help Center(http://apps.facebook.com/doubleucasino/?action=helpdesk),
+    or via our support e-mail(support@doubleucasino.com) and we will stop collecting
+    the data above.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To improve your game experience, we basically collect a series
+      of data regarding your in-game activities, including but not limited to your
+      activity logs, IP addresses, and browser info, and so forth.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: If you would like us to delete your record in its system, please contact
+    us and we will attempt to accommodate your request if it is not legally obligated
+    to retain the record.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'If you have granted our access to your Account Information through
+    a Service, you may request that we delete your Account Information by sending
+    an email to: support@doubleucasino.com. You can request deletion of your Account
+    Information by dissociating or removing our application from your social network
+    or third party service account in accordance with the instructions provided by
+    the social network or third party service.'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Children Under The Age Of 13 We do not knowingly collect or solicit
+    personal information from anyone under the age of 13 or knowingly allow such persons
+    to register. If you are under 13, please do not attempt to register for any Services
+    or send any information about yourself to us, including your name, address, telephone
+    number, or email address. No one under age 13 may provide any personal information
+    to or on any Services. In the event that we learn that we have collected personal
+    information from a child under age 13 we will delete that information as quickly
+    as possible. If you believe that we might have any information from or about a
+    child under 13, please contact us at Help Center.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you are under 13, please do not attempt to register for any
+      Services or send any information about yourself to us, including your name,
+      address, telephone number, or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not knowingly collect or solicit personal information from
+      anyone under the age of 13 or knowingly allow such persons to register.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Children Between The Ages of 13 and 18 We recommend that minors over
+    the age of 13 ask their parents for permission before sending any information
+    about themselves to anyone over the Internet.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'How We Use Your Information We use your information to fulfill your
+    specific requests, purchase orders and to send you purchase confirmation and other
+    account-related information. In addition, the personal information you provide
+    will allow us to send you messages regarding, among other things, new products,
+    features, enhancements, special offers, upgrade opportunities, contests and events
+    of interest. You may also later opt out of certain of these communications. You
+    may opt out of all communications from us by sending an e-mail to: support@doubleucasino.com'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: We may also use personal and non-personal information, both individually
+    and combined together, to better understand the behavior and preferences of its
+    customers, to troubleshoot technical problems, to serve static and dynamic advertising,
+    to enforce its Terms of Service, to ensure proper functioning of its products
+    and services as well as to help improve Services and their content. In addition,
+    we may combine non-personal information with personal information, such as an
+    email address, to administer loyalty programs, tailor its offerings, web pages
+    or game play experience to you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, we may combine non-personal information with personal
+      information, such as an email address, to administer loyalty programs, tailor
+      its offerings, web pages or game play experience to you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also use personal and non-personal information, both individually
+      and combined together, to better understand the behavior and preferences of
+      its customers, to troubleshoot technical problems, to serve static and dynamic
+      advertising, to enforce its Terms of Service, to ensure proper functioning of
+      its products and services as well as to help improve Services and their content.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: We may, however, use certain information about you that is not personally
+    identifiable. We use public information collected to determine the kinds of content
+    that you would like to view and to assist any advertisers in targeting their advertising.
+    We also use your name, email address and other information on our system to notify
+    you of new product releases, service notifications, and to solicit your feedback
+    and input. Those emails will contain links for preference management and where
+    appropriate, unsubscribe links should you decide you do not want to receive further
+    emails.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also use your name, email address and other information on our
+      system to notify you of new product releases, service notifications, and to
+      solicit your feedback and input.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: You understand and agree that we may access, preserve, and disclose
+    any information we may have about you and the contents of your account if required
+    to do so by law or in a good faith belief that such access, preservation or disclosure
+    is reasonably necessary to avoid liability, to comply with legal process, such
+    as a search warrant, subpoena, statute, or court order, or to protect our rights
+    and property, or that of our affiliates or the public. We are not required to
+    question or contest the validity of any search warrant, subpoena or other similar
+    governmental request that we receive.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We may maintain copies of your Content indefinitely, or delete certain
+    Content in whole or in part if we determine, in its sole discretion, that such
+    Content constitutes an "Infringing Posting" or a "Prohibited Posting" as defined
+    in our Terms of Use or for any or no reason. We also use non-Personally Identifiable
+    Information and certain technical information about your computer and your access
+    of the Services (including your internet protocol address) in order to operate,
+    maintain and manage the Services. We may disclose information about you to its
+    partners in order to provide the Services, resolve service problems and correct
+    errors in the Services, to communicate with you about the Services, to provide
+    you with advertising and promotional information in connection with the Services,
+    and to enhance your experience on the Services. However, we do not give our partners
+    an independent right to share this information. Due to our contractual obligations
+    with these third parties and the need to share information to deliver and support
+    the Service, we cannot provide you with the opportunity to opt-out of sharing
+    information (whether Personally Identifiable Information or other information)
+    with these third parties.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also use non-Personally Identifiable Information and certain
+      technical information about your computer and your access of the Services (including
+      your internet protocol address) in order to operate, maintain and manage the
+      Services.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: We, certain of its partners, and each of their contractors and employees
+    may view the Content that you transmit to the service to provide the Service and
+    otherwise perform the tasks set forth in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: If you enter into a sweepstake, contest, or similar promotion, we
+    may use the information you provide to administer those programs. Your participation
+    in tournaments or other online game events is conditional upon you granting us
+    permission to collect, use, store, transmit and display publicly statistical data,
+    such as your scores, rankings and achievements, generated through your participation.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Controlling Your Personal Information Be advised that if you send
+    messages or post material containing personal information, that information may
+    be collected and used by others.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Note that certain information you post and communicate through a Service
+    or a third party site or service is public information for which you have no expectation
+    of privacy. You may choose to disclose information about yourself in the course
+    of contributing user generated content to our sites or Services or in its chat
+    rooms, blogs, message boards, user "profiles" for public view or in similar forums
+    on its sites through mobile services and/or through third party sites or services.
+    Information that you disclose in any of these forums is public information, and
+    there is no expectation of privacy or confidentiality.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: You should be aware that any personally identifiable information you
+    submit in the course of these public activities can be read, collected, or used
+    by other users of these forums, and could be used to send you unsolicited messages.
+    We are not responsible for the personally identifiable information you choose
+    to make public in any of these forums. If you post a video, image or photo through
+    a Service for public view, you should be aware that these may be viewed, collected,
+    copied and/or used by other users without your consent. We are not responsible
+    for the videos, images or photos that you choose to post through a Service.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Disclosure of Your Personal Information We may also disclose information
+    about you if it determines that such disclosure is reasonably necessary to enforce
+    the terms and conditions of the Service or to protect its operations or users.
+    Additionally, we may sell, transfer or otherwise share some or all of its assets,
+    including your Personal Information, in connection with a merger, acquisition,
+    reorganization or sale of assets or in the event of bankruptcy.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Cookies Like many websites, we use "cookies" to collect information.
+    A cookie is a small data file that we transfer to your computer's hard disk for
+    record-keeping purposes. We use cookies for two purposes. We utilize session ID
+    cookies to enable certain features of the Services, to better understand how you
+    interact with the Services and to monitor aggregate usage by Users and web traffic
+    routing on the Services. Unlike persistent cookies, session cookies are deleted
+    from your computer when you log off from the Services and then close your browser.
+    Third party advertisers on the Services may also place or read cookies on your
+    browser. You can instruct your browser, by changing its options, to stop accepting
+    cookies or to prompt you before accepting a cookie from the websites you visit.
+    If you do not accept cookies, however, you may not be able to use all portions
+    or functionalities of the Services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Like many websites, we use "cookies" to collect information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third party advertisers on the Services may also place or read
+      cookies on your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: Links The Service may contain links to other websites or applications.
+    The fact that the Service links to a website or application or presents a banner
+    ad or other type of advertisement does not mean that we endorse or authorize that
+    third party, nor is it a representation of any affiliation with that third party.
+    If you click on a link to a third party site or application, including on an advertisement,
+    you will leave the our site you are visiting or application you are running and
+    will go to the site or application linked to. These third party websites and applications
+    may place their own cookies or other files on your computer or mobile device,
+    and may collect data or solicit personal information from you. Other sites and
+    applications follow different rules regarding the use or disclosure of the personal
+    information you submit to them. Because we cannot control the activities of third
+    parties, it cannot accept responsibility for any use of your personal information
+    by such third parties, and it cannot guarantee that they will adhere to the same
+    privacy and security practices as we do. You are therefore encouraged to read
+    the privacy policies or statements of other websites and applications you visit
+    before providing any personal information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Because we cannot control the activities of third parties, it cannot
+      accept responsibility for any use of your personal information by such third
+      parties, and it cannot guarantee that they will adhere to the same privacy and
+      security practices as we do.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: If you click on a link to a third party site or application, including
+      on an advertisement, you will leave the our site you are visiting or application
+      you are running and will go to the site or application linked to.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Links The Service may contain links to other websites or applications.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Other sites and applications follow different rules regarding the
+      use or disclosure of the personal information you submit to them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: The fact that the Service links to a website or application or
+      presents a banner ad or other type of advertisement does not mean that we endorse
+      or authorize that third party, nor is it a representation of any affiliation
+      with that third party.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third party websites and applications may place their own
+      cookies or other files on your computer or mobile device, and may collect data
+      or solicit personal information from you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You are therefore encouraged to read the privacy policies or statements
+      of other websites and applications you visit before providing any personal information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: Third-Party Advertising Companies We may use third-party advertising
+    companies to serve ads on the Services. Our system and the third-party advertising
+    technology uses information derived from Users' activity, our cookies on your
+    hard drive, your visits to our site, and the Services you use, to target advertising
+    within the Services. In addition, our advertisers may use other third-party advertising
+    technology to target advertising on our site and other sites. In the course of
+    advertisements being served to you, a unique third-party cookie or cookies may
+    be placed on your computer. Similarly, third-party advertising companies may provide
+    us with pixel tags (also called "clear gifs" or "beacons") to help manage and
+    optimize our online advertising. Beacons enable us to recognize a browser's cookie
+    when a browser visits the site on which the beacon is located, and to learn which
+    banner ads bring users to a given site.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Beacons enable us to recognize a browser's cookie when a browser
+      visits the site on which the beacon is located, and to learn which banner ads
+      bring users to a given site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: In addition, our advertisers may use other third-party advertising
+      technology to target advertising on our site and other sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: In the course of advertisements being served to you, a unique third-party
+      cookie or cookies may be placed on your computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Similarly, third-party advertising companies may provide us with
+      pixel tags (also called "clear gifs" or "beacons") to help manage and optimize
+      our online advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 32
+  segment_text: We do not provide any Personally Identifiable Information to third-party
+    advertising companies. Note, however, that if an advertiser asks us to show an
+    advertisement to users with certain characteristics (for example, women ages 18-24)
+    or a segment of that group (for example, women ages 18-24 who have viewed certain
+    categories of content) and you respond to that advertisement, the third-party
+    advertising company may conclude that you have the characteristics of the audience
+    that they are trying to reach.
+  annotations:
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Note, however, that if an advertiser asks us to show an advertisement
+      to users with certain characteristics (for example, women ages 18-24) or a segment
+      of that group (for example, women ages 18-24 who have viewed certain categories
+      of content) and you respond to that advertisement, the third-party advertising
+      company may conclude that you have the characteristics of the audience that
+      they are trying to reach.
+    annotations:
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+  - sentence_text: We do not provide any Personally Identifiable Information to third-party
+      advertising companies.
+    annotations:
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 33
+  segment_text: Security We are very concerned with safeguarding your information.
+    Your account information is located on a secured server behind a firewall. When
+    you enter sensitive, we encrypt that information using with our best efforts.
+    Because email and instant messaging are not recognized as secure communications,
+    we request that you not send private information to us by email or instant messaging
+    services.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Because email and instant messaging are not recognized as secure
+      communications, we request that you not send private information to us by email
+      or instant messaging services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you enter sensitive, we encrypt that information using with
+      our best efforts.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: However, we cannot guarantee that unauthorized third parties will
+    never be able to overcome those measures or use your personal information for
+    improper purposes.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Additional Questions Again, feel free to contact us by visiting our
+    Help Center, if you have further questions about this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: "Copyright \xA9 2012, DoubleU Games, Inc."
+  annotations: []
+  sentences: []

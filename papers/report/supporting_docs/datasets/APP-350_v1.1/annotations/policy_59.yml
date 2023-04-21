@@ -1,0 +1,1900 @@
+policy_id: 59
+policy_name: King
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home About Team Press Site Jobs Contact Play our games on king.com
+    Consumer terms Privacy policy
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Consumer Terms Send by email Please enter your email address below
+    to receive our consumer terms via email.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Consumer Terms Send by email Please enter your email address below
+      to receive our consumer terms via email.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: "Email Address:* Send Please check your inbox\u2026 Thank you for\
+    \ requesting our Consumer Terms. A copy has been sent to your email inbox."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A copy has been sent to your email inbox.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Email Address:* Send Please check your inbox
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Thank you for requesting our Consumer Terms.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: "Choose a language English \u010Ce\u0161tina Dansk Deutsch Espa\xF1\
+    ol Fran\xE7ais Hrvatski Italiano Magyar Nederlands Norsk Polski Portugu\xEAs do\
+    \ Brasil \u0420\u0443\u0441\u0441\u043A\u0438\u0439 Rom\xE2n\u0103 Sloven\u0161\
+    \u010Dina Suomi Svenska T\xFCrk\xE7e \u7B80\u4F53\u4E2D\u6587 \u7E41\u9AD4\u4E2D\
+    \u6587 \u65E5\u672C\u8A9E \uD55C\uAD6D\uC5B4 King Games - Terms of Use 1 About\
+    \ these terms 1.1 These terms apply to your download, access and/or use of King\
+    \ games, whether on your computer, on a mobile device, on our website www.king.com\
+    \ (the \"Website\") or any other website, device or platform (each a \"Game\"\
+    \ and together the \"Games\"). These terms also apply to any other services that\
+    \ we may provide in relation to the Games or the Website, such as customer support,\
+    \ social media, community channels and other websites that we may operate from\
+    \ time to time such as candycrushsaga.com (we refer to all our Games and other\
+    \ services collectively as the \"Services\" in these terms). These terms are a\
+    \ legal agreement and contain important information about your rights and obligations\
+    \ in relation to our Services."
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 1.2 If you do not agree to these terms or any future updated version
+    of them then you must not access and/or use, and must cease all access and/or
+    use of, any of our Services. If we require that any future update to these terms
+    requires any action from you in order to accept the updated terms, then you may
+    not be able to continue to use the Services until you have taken such action.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: '1.3 FOR RESIDENTS IN THE USA: If you are a resident of the United
+    States of America, then these terms represent a legal agreement between you and
+    King.com (US) LLC a Delaware Limited Liability Company whose correspondence address
+    is 3100 Ocean Park Boulevard, Santa Monica, CA 90405-3032. IMPORTANT NOTICE: THIS
+    AGREEMENT IS SUBJECT TO BINDING ARBITRATION AND A WAIVER OF CLASS ACTION RIGHTS
+    AS DETAILED BELOW IN PARAGRAPH 21.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: '1.4 FOR RESIDENTS OUTSIDE THE USA: If you are resident outside of
+    the United States of America, these terms represent a legal agreement between
+    you and King.com Limited, a Maltese company with registered office address at
+    Aragon Business Centre Level 4, Dragonara Road, St Julian''s STJ3140, Malta, (company
+    registration number C42504 and VAT number MT1862-2630).'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 1.5 In these terms references to "King", "we", "us" and "our" are
+    references to either King.com Limited or King.com (US) LLC depending on which
+    company your legal agreement is with as specified in paragraphs 1.3 and 1.4 above.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 1.6 These terms are made available via the app store or platform that
+    you download our Games from (such as the Apple App Store, Google Play Store, Amazon
+    App Store or Windows Phone Store), on any website or platform where you can play
+    our Games such as www.facebook.com, and on our website at www.king.com (the "Website").
+    You agree that by accessing and/or using our Services, you are agreeing to these
+    terms and our Privacy Policy (see paragraph 13 below).
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 1.7 You agree that you are at least 13 years old and that if you are
+    between 13 years and 18 years old, your legal guardian has reviewed and agrees
+    to these terms and is happy for you to access and/or use our Services.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 1.8 You can access the latest version of these terms at any time at
+    about.king.com/consumer-terms. We can make changes to these terms at any time
+    in accordance with paragraph 17 below and, except in relation to any amendment
+    to paragraph 21 (Binding Arbitration and Class Action waiver) below, your continued
+    use of our Services after the terms have been updated shall confirm your acceptance
+    of the updated terms.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 2 About accessing and using our Services 2.1 The specific game rules,
+    scoring rules, controls and guidelines for each Game can be found within the Game
+    itself. Such rules, scoring rules, controls and guidelines form part of these
+    terms and you agree that you shall comply with them in respect of each individual
+    Game which you choose to access and/or play.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 2.2 You are responsible for the internet connection and/or mobile
+    charges that you may incur for accessing and/or using our Services. You should
+    ask your mobile operator or internet service provider if you are unsure what these
+    charges will be, before you access and/or use our Services.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 2.3 There may be times when our Services or any part of them are not
+    available for technical or maintenance related reasons, whether on a scheduled
+    or unscheduled basis.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 3 Accounts 3.1 When using our Services you may choose to, and in some
+    instances you will be required to, create an account with us. If you do create
+    an account with us, you agree that you shall take all steps necessary to protect
+    your log in details and keep them secret.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 3.2 You agree that you shall not give your log in details to anyone
+    else or allow anyone else to use your log in details or account.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 3.3 In these terms, references to "log in details" or "account" include
+    your log in details and account for any social network or platform that you may
+    allow our Services to interact with.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 3.4 We will be entitled to assume that anyone logging into your account
+    using your log in details is either you or someone logging in with your permission.
+    If you fail to keep your login details secret, or if you share your login details
+    or account with someone else (whether intentionally or unintentionally), you accept
+    full responsibility for the consequences of this (including any unauthorized purchases)
+    and agree to fully compensate us for any losses or harm that may result.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 3.5 We will not be responsible to you for any loss that you suffer
+    as a result of an unauthorised person accessing your account and/or using our
+    Services and we accept no responsibility for any losses or harm resulting from
+    its unauthorised use, whether fraudulently or otherwise.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 3.6 We reserve the right to delete your account if no activity is
+    conducted by you in relation to the account for 180 or more days. In such event,
+    you may no longer be able to access and/or use any Virtual Money and/or Virtual
+    Goods (as defined below) associated with that account and no refund will be offered
+    to you in relation to the same.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 3.7 You understand that if you delete your account, or if we delete
+    your account in accordance with these terms, you may lose access to any data previously
+    associated with your account (including, without limitation, your progress through
+    our Games and/or the level or score you have reached in our Games and any Virtual
+    Money or Virtual Goods associated with your account).
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 3.8 YOU ACKNOWLEDGE AND AGREE THAT YOU SHALL HAVE NO OWNERSHIP OR
+    OTHER PROPERTY INTEREST IN ANY ACCOUNT THAT YOU CREATE USING ANY OF OUR SERVICES.
+    WE MAY SUSPEND, TERMINATE, MODIFY OR DELETE ANY OF THESE ACCOUNTS AT ANY TIME
+    FOR ANY REASON OR NO REASON, WITH OR WITHOUT NOTICE TO YOU.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 3.9 Your account is personal to you and you are not entitled to transfer
+    your account to any other person.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 4 Virtual Goods and Virtual Money 4.1 Our Games may include virtual
+    currencies such as gold bars and gems ("Virtual Money") or items or services for
+    use with our Games ("Virtual Goods"). You agree that once purchased Virtual Money
+    and Virtual Goods have no monetary value and can never be exchanged for real money,
+    real goods or real services from us or anyone else. You agree that Virtual Money
+    and/or Virtual Goods are not transferrable to anyone else and you will not transfer
+    or attempt to transfer any Virtual Money and/or Virtual Goods to anyone else.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 4.2 You do not own Virtual Goods and/or Virtual Money but instead
+    you purchase a limited personal revocable licence to use them - any balance of
+    Virtual Goods and/or Virtual Money does not reflect any stored value.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 4.3 You agree that all sales by us to you of Virtual Money and/or
+    Virtual Goods are final and that we will not refund any transaction once it has
+    been made. If you live in the European Union you have certain rights to withdraw
+    from distance purchases; however, please note that when you purchase a licence
+    to use Virtual Goods or Virtual Money from us, you acknowledge and agree that
+    we will begin the provision of the Virtual Goods or Virtual Money to you promptly
+    once your purchase is complete and therefore your right of withdrawal is lost
+    at this point. For the purposes of this paragraph 4.3, a "purchase" is complete
+    at the time our servers validate your purchase and the applicable Virtual Goods
+    and/or Virtual Money are successfully credited to your account on our servers.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: '4.4 If you do not connect your game play on a device to an account
+    that is linked to either your social network account or a King account, we will
+    not be able to restore any Virtual Money or other data associated with your Game
+    play to a different device if you lose that device or it is damaged. Accordingly,
+    on a device which is not connected in this way: any risk of loss of Virtual Money
+    which you purchase from us is transferred to you upon completion of the purchase
+    as described in paragraph 4.3 above; any risk of loss of Virtual Money that you
+    receive from us without making a purchase is transferred to you at the time the
+    Virtual Money is successfully credited to your account on our servers; and any
+    risk of loss of other data associated with your Game play (including, without
+    limitation, your progress through the Game, or the level or score you have reached
+    in our Games) is transferred to you immediately at the time such Game play data
+    is generated.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 4.5 The data associated with Virtual Goods, whether purchased by you
+    using Virtual Money or otherwise credited or awarded to you, is stored locally
+    on your device and so is not synced between different devices even if you have
+    connected your game play on a device to an account that is linked to either your
+    social network account or King account. Accordingly, any risk of loss of this
+    data is transferred to you (i) in the case of Virtual Goods which you purchase
+    from us, upon completion of the purchase as described in paragraph 4.3 above;
+    and/or (ii) in other cases, at the the time the Virtual Goods are credited or
+    awarded to you.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 4.6 If you live in the European Union, we will provide you with a
+    VAT invoice where we are required to do so by law or where requested by you. You
+    agree that these invoices may be electronic in format.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 4.7 We reserve the right to control, regulate, change or remove any
+    Virtual Money or Virtual Goods without any liability to you.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 4.8 We may revise the pricing for Virtual Goods and Virtual Money
+    offered through the Services at any time. We may limit the total amount of Virtual
+    Goods or Virtual Money that may be purchased at any one time, and/or limit the
+    total amount of Virtual Money or Virtual Goods that may be held in your account
+    in the aggregate. You are only allowed to obtain Virtual Money and Virtual Goods
+    from us or our authorized partners through the Services, and not in any other
+    way.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 4.9 Depending on your platform, any Virtual Goods or Virtual Money
+    purchased is purchased from your platform provider and such purchase will be subject
+    to its terms of service and user agreement. Usage rights for each purchase may
+    differ from item to item. If you are unsure about usage rights you should check
+    with your platform before making a purchase. Unless otherwise shown, content available
+    in any in-game store has the same age rating as the game.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 4.10 Without limiting paragraphs 3.7, 4.4 or 7.1 if we suspend or
+    terminate your account in accordance with these terms you may lose any Virtual
+    Money and Virtual Goods that you may have and we will not compensate you for this
+    loss or make any refund to you.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 4.11 The charge for any individual item you can purchase via our Website
+    shall be as stated on our Website at the time you place the order, except in the
+    case of obvious error. The charge is inclusive of all sales taxes and other charges.
+    Depending on which bank you use, additional charges may be issued by your bank;
+    we have no control over this and accept no liability in relation to the same.
+    If you are unsure whether you will be subject to such additional charges then
+    you should check with your bank before making a purchase via our Website. We accept
+    payment via our payment processing partners by credit card, debit card, carrier
+    billing and Paypal only. Our payment processing partners may have their own terms
+    and conditions and you should ensure you are in agreement with these prior to
+    making any payment. If your transaction with our payment processing partners is
+    not successful then your purchase will not be fulfilled. Upon the completion of
+    a successful payment transaction then your purchase will be fulfilled to you as
+    soon as possible - we will endeavor to fulfill your order immediately at the point
+    of purchase.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 5 User conduct and content 5.1 You must comply with the laws that
+    apply to you in the location that you access our Services from. If any laws applicable
+    to you restrict or prohibit you from using our Services, you must comply with
+    those legal restrictions or, if applicable, stop accessing and/or using our Services.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 5.2 You promise that all the information you provide to us on accessing
+    and/or using our Services is and shall remain true, accurate and complete at all
+    times.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 5.3 Information, data, software, sound, photographs, graphics, video,
+    tags, or other materials may be sent, uploaded, communicated, transmitted or otherwise
+    made available via our Services by you or another user ("Content"). You understand
+    and agree that all Content that you may be sent when using our Services, whether
+    publicly posted or privately sent, is the sole responsibility of the person that
+    sent the Content. This means that you, not us, are entirely responsible for all
+    Content that you may upload, communicate, transmit or otherwise make available
+    via our Services.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: '5.4 You agree not to upload, communicate, transmit or otherwise make
+    available any Content: that is or could reasonably be viewed as unlawful, harmful,
+    harassing, defamatory, libellous, obscene or otherwise objectionable; that is
+    or could reasonably be viewed as invasive of another''s privacy; that is likely
+    to, or could reasonably be viewed as likely to incite violence or racial or ethnic
+    hatred; which you do not have a right to make available lawfully (such as inside
+    information, information which belongs to someone else or confidential information);
+    which infringes any intellectual property right or other proprietary right of
+    others; which consists of any unsolicited or unauthorised advertising, promotional
+    materials, ''junk mail'', ''spam'', ''chain letters'', ''pyramid schemes'' or
+    any other form of solicitation; or which contains software viruses or any other
+    computer code, files or programs designed to interrupt, destroy or limit the functionality
+    of any computer software or hardware or telecommunications equipment.'
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: '5.5 You agree that you will not: use our Services to harm anyone
+    or to cause offence to or harass any person; create more than one account per
+    platform to access our Services; use another person or entity''s email address
+    in order to sign up to use our Services; use our Services for fraudulent or abusive
+    purposes (including, without limitation, by using our Services to impersonate
+    any person or entity, or otherwise misrepresent your affiliation with a person,
+    entity or our Services); disguise, anonymise or hide your IP address or the source
+    of any Content that you may upload; use our Services for any commercial or business
+    purpose or for the benefit of any third party or to send unsolicited communications;
+    remove or amend any proprietary notices or other ownership information from our
+    Games or any other part of our Services; interfere with or disrupt our Services
+    or servers or networks that provide our Services; attempt to decompile, reverse
+    engineer, disassemble or hack any of our Services, or to defeat or overcome any
+    of our encryption technologies or security measures or data transmitted, processed
+    or stored by us; ''harvest'', ''scrape'' or collect any information about or regarding
+    other people that use our Services, including, but not limited to any personal
+    data or information (including by uploading anything that collects information
+    including but not limited to ''pixel tags'' cookies, graphics interchange formats
+    (''gifs'') or similar items that are sometimes also referred to as ''spyware''
+    or ''pcms'' (passive collection mechanisms); sell, transfer or try to sell or
+    transfer an account with us or any part of an account, Virtual Money and/or Virtual
+    Goods; disrupt the normal flow of a Game or otherwise act in a manner that is
+    likely to negatively affect other players'' ability to compete fairly when playing
+    our Games or engaging in real time exchanges; disobey any requirements or regulations
+    of any network connected to our Services; use our Services in violation of any
+    applicable law or regulation; use our Services to cheat or design or assist in
+    cheating (for example, by using automated means or third party software to play),
+    or to otherwise circumvent technological measures designed to control access to,
+    or elements of, our Services, or to do anything else that a reasonable person
+    is likely to believe is not within the spirit of fair play or these terms; or
+    use our Services in any other way not permitted by these terms.'
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 'If you are concerned that someone else is not complying with any
+    part of these terms, please contact us here: reportabuse@support.king.com.'
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 5.6 We do not control Content posted on our Services by other people
+    and therefore we do not guarantee the accuracy, integrity or quality of that Content.
+    You understand that when using our Services, you may be exposed to Content that
+    you may consider offensive, indecent or objectionable. Under no circumstances
+    will we be liable in any way for any Content, including, but not limited to, any
+    errors or omissions in any Content, or any losses or harm of any kind resulting
+    from the use of any Content posted, emailed, transmitted or otherwise made available
+    via our Services.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 5.7 We have the right to remove uploaded Content from our Services
+    if we decide in our sole discretion that it results in or from a breach of any
+    part of these terms, or that it may bring us or our Services into disrepute. However,
+    you acknowledge that we do not actively monitor Content that is contributed by
+    people that use our Services and we make no undertaking to do so.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 5.8 You are solely responsible for your interactions with other users
+    of our Services.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: '6 Playing our Games with other users 6.1 Some of our Games allow
+    you to play against an opponent or to play socially with other users. You may
+    be able to: 6.1.1 choose to play against another user or to play socially with
+    another user whom King selects for you, or'
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 6.1.2 play against, or play socially with, one of your contacts on
+    a platform or social network which you have allowed our Games to interact with.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: play against, or play socially with, one of your contacts on a
+      platform or social network which you have allowed our Games to interact with.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 45
+  segment_text: Some of our Games may also allow you to search for your friends (for
+    example, by email address) in order to find them to play against or play socially
+    with. We may also display the display names of your past opponents so that you
+    can easily find them to play again.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some of our Games may also allow you to search for your friends
+      (for example, by email address) in order to find them to play against or play
+      socially with.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also display the display names of your past opponents so
+      that you can easily find them to play again.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: 6.2 Where King selects another user for you, we may either select
+    at random or use such criteria as we see fit to select your opponent (for example,
+    your past scores, your country, or the level you have reached in the Game or your
+    other gameplay activity).
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 6.3 By accessing and/or playing our Games you agree that your display
+    name, scores, avatar, country location, online/offline status and other related
+    details may be displayed to other users. You also understand and agree that other
+    users may find you by searching for you with your email address. Please note that
+    we will only show your display name publically, and not your email address; another
+    user must already know your email address themselves in order to search for you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By accessing and/or playing our Games you agree that your display
+      name, scores, avatar, country location, online/offline status and other related
+      details may be displayed to other users.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that we will only show your display name publically,
+      and not your email address; another user must already know your email address
+      themselves in order to search for you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You also understand and agree that other users may find you by
+      searching for you with your email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: '7 Your breach of these terms 7.1 Without limiting any other remedies
+    or any other paragraph of these terms, if we reasonably believe that you are in
+    material breach of these terms (including by repeated minor breaches), we reserve
+    the right to take any of the following actions, whether individually or in combination,
+    and either with or without notice to you: delete, suspend and/or modify your account
+    or parts of your account; otherwise suspend and/or terminate your access to our
+    Services; modify and/or remove any Virtual Money or Virtual Goods that may be
+    associated with your account; reset and/or modify any game progression or benefits
+    and privileges associated with your account, such as any level or score you have
+    reached in our Games.'
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: Without limitation, any breaches of paragraphs 4.1, 4.7, 5.4 or 5.5
+    are likely to be considered material breaches.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 7.2 You agree to compensate us, according to law, for all losses,
+    harm, claims and expenses that may arise from any breach of these terms by you.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: '8 Availability of the Services 8(A) For residents the United States:
+    We do not guarantee that any of our Services will be available at all times or
+    at any given time or that we will continue to offer all or any of our Services
+    for any particular length of time. We may change and update our Services without
+    notice to you. We make no warranty or representation regarding the availability
+    of our Services and reserve the right to modify or discontinue the Services in
+    our sole discretion without notice, including for example, ceasing a Game or other
+    Service for economic reasons due to a limited number of users continuing to make
+    use of that Game or other Service over time, for technical reasons (such as technical
+    difficulties experienced by us or on the internet) or to allow us to improve user
+    experience. NOTWITHSTANDING ANYTHING TO THE CONTRARY, YOU ACKNOWLEDGE AND AGREE
+    THAT ANY OR ALL OF OUR SERVICES MAY BE TERMINATED IN WHOLE OR IN PART AT OUR SOLE
+    DISCRETION WITHOUT NOTICE TO YOU. YOU ASSUME ANY AND ALL RISK OF LOSS ASSOCIATED
+    WITH THE TERMINATION OF OUR SERVICES.'
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: '8(B) For residents outside the United States: Subject to the next
+    sentence, we do not guarantee that any of our Services will be available or error-free
+    at all times or at any given time. We will provide our Services in accordance
+    with any legally required standards. In particular, in relation only to any Virtual
+    Money and/or Virtual Goods or any other part of our Services which have been paid-for
+    with real money, we warrant that they will substantially comply with the description
+    provided by it at the point of purchase and be of satisfactory quality (in addition
+    any related services provided through them will be provided with reasonable care
+    and skill). We may change and update our Services in whole or in part without
+    notice to you (provided always that any such changes do not result in material
+    degradation in the functionality of any part of the Services which has been paid-for
+    with real money). We make no warranty or representation regarding the availability
+    of the Services which are provided free of charge (i.e. not paid-for with real
+    money) and we reserve the right to modify or discontinue them in our sole discretion
+    without notice to you, including for example, for economic reasons due to a limited
+    number of users continuing to make use of them over time, for technical reasons
+    (such as technical difficulties experienced by us or on the internet) or to allow
+    us to improve user experience. We are not liable or responsible for any failure
+    to perform, or delay in performance of, any of our obligations that is caused
+    by events outside our reasonable control. If such circumstances result in material
+    degradation in the functionality of the Services then any obligation you may have
+    to make any payment to download, use or access them will be suspended for the
+    duration of such period. We are entitled to modify or discontinue the Services
+    or any part of them which are paid-for with real money in our sole discretion
+    upon reasonable notice to you.'
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 9 For residents in the United States - Limitation of Liability
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: WE SHALL NOT BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+    RESULTING FROM POSSESSION, USE, OR MALFUNCTION OF THE GAMES OR ANY OF OUR OTHER
+    SERVICES, INCLUDING DAMAGES TO PROPERTY, COMPUTER FAILURE OR MALFUNCTION AND,
+    TO THE EXTENT PERMITTED BY LAW, DAMAGES FOR PERSONAL INJURIES, EVEN IF WE HAVE
+    BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES. IN NO EVENT SHALL OUR LIABILITY
+    EXCEED THE ACTUAL PRICE PAID BY YOU (IF ANY) FOR THE LICENSE TO USE VIRTUAL GOODS
+    OR VIRTUAL MONEY OR ANY OTHER PART OF OUR GAMES OR SERVICES. SOME STATES DO NOT
+    ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS AND/OR THE EXCLUSION OR
+    LIMITATION OF DAMAGES, SO THE ABOVE LIMITATIONS AND/OR EXCLUSIONS MAY NOT APPLY
+    TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY HAVE OTHER
+    RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: 10 For residents outside the United States - Limitation of Liability
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: 10.1 We accept liability for death or personal injury resulting from
+    our negligence or that of our employees or agents, and for losses or harm caused
+    by fraud by us or our agents, or any other liability which may not by law be excluded.
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: '10.2 We are not responsible for: losses or harm not caused by our
+    breach of these terms or negligence;'
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: losses or harm which are not reasonably foreseeable by you and us
+    at the time of you agreeing to these terms and conditions including those losses
+    which happen as a side effect of foreseeable losses. This could include loss of
+    data, loss of opportunity, service interruption, computer or other device failure
+    or financial loss; any damage that may be caused to any device on which you access
+    or use any of our Games or other Services that is caused in any way by our Services
+    unless that damage is directly caused by our failure to exercise reasonable skill
+    and care in the provision of the applicable Games or other Services; any increase
+    in loss or damage resulting from breach by you of any of these terms and conditions;
+    or technical failures or the lack of availability of any of our Services where
+    these are not within our reasonable control.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: 10.3 For any losses or harm (other than those mentioned in paragraph
+    10.1 and subject to paragraph 10.2) in any period of twelve months, we will only
+    be responsible for losses or harm which are a reasonably foreseeable consequence
+    of our negligence or breach of these terms and conditions up to the value of the
+    amount that you have paid to us in the 100 day period ending on the date of your
+    claim. Losses and harm are foreseeable only where they could be contemplated by
+    you and us at the time of you agreeing to these terms and conditions.
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: 10.4 Subject to paragraph 10.5 below and unless otherwise specified
+    in these Terms, we do not give any warranty, express or implied, in relation to
+    our Services and you acknowledge that your only right with respect to any problems
+    or dissatisfaction with any of our Services is to discontinue your use of our
+    Services.
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: 10.5 Any additional legal rights which you may have as a consumer
+    remain unaffected by these terms.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: 11 Intellectual Property 11.1 You acknowledge that all copyright,
+    trade marks, and other intellectual property rights in and relating to our Services
+    (other than Content which is contributed and owned by players) is owned by or
+    licensed to us.
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: 11.2 Whilst you are in compliance with these terms, we grant you a
+    non-exclusive, non-transferable, personal, revocable limited licence to access
+    and/or use our Services (but not any related object and source code) for your
+    own personal private use, in each case provided that such use is in accordance
+    with these terms. You agree not to use our Services for anything else. These terms
+    also apply to any update or patches which we may release or make available for
+    any of the Services and any such update or patch shall be deemed part of the Services
+    for the purposes of these terms.
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: 11.3 YOU ACKNOWLEDGE AND AGREE THAT, OTHER THAN LICENSE GRANTED TO
+    YOU BY THESE TERMS, YOU SHALL HAVE NO OWNERSHIP OR PROPERTY INTEREST IN ANY OF
+    OUR SERVICES, INCLUDING WITHOUT LIMITATION ONLINE ACCOUNTS, ANY VIRTUAL MONEY
+    OR VIRTUAL GOODS. You must not copy, distribute, make available to the public
+    or create any derivative work from our Services or any part of our Services unless
+    we have first agreed to this in writing.
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: 11.4 In particular, and without limiting the application of paragraph
+    11.3, you must not make use or available any cheats or technological measures
+    designed to control access to, or elements of, our Services, including providing
+    access to any Virtual Money and/or Virtual Goods, whether on a free of charge
+    basis or otherwise.
+  annotations: []
+  sentences: []
+- segment_id: 66
+  segment_text: '11.5 By submitting Content (as defined in paragraph 5.3) via our
+    Services you: are representing that you are fully entitled to do so; grant us
+    and our group companies the right to edit, adapt, publish and use your entry and
+    any derivative works we may create from it, in any and all media (whether it exists
+    now or in the future), for any purpose, in perpetuity, without any payment to
+    you;'
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: acknowledge that you may have what are known as "moral rights" in
+    the Content, for example the right to be named as the creator of your entry and
+    the right not to have work subjected to derogatory treatment. You agree to waive
+    any such moral rights you may have in the Content; and agree that we have no obligation
+    to monitor or protect your rights in any Content that you may submit to us, but
+    you do give us the right to enforce your rights in that Content if we want to,
+    including but not limited to taking legal action (at our cost) on your behalf.
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: '11.6 You must not copy, distribute, make available to the public
+    or create any derivative work from any Content belonging to any other user of
+    our Services. If you believe that your intellectual property rights have been
+    infringed by someone else over the internet, you may contact us by emailing the
+    following information to ip-notice@king.com: a description of the intellectual
+    property rights and an explanation as to how they have been infringed; a description
+    of where the infringing material is located; your address, phone number and email
+    address; a statement by you, made under penalty of perjury, that (i) you have
+    a good-faith belief that the disputed use of material in which you own intellectual
+    property rights is not authorised, and (ii) the information that you are providing
+    is accurate, correct, and that you are authorised to act on behalf of the owner
+    of an exclusive right that is allegedly infringed; and a physical or electronic
+    signature of the person authorised to act on behalf of the owner of the exclusive
+    right that has allegedly been infringed.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'you may contact us by emailing the following information to ip-notice@king.com:
+      a description of the intellectual property rights and an explanation as to how
+      they have been infringed; a description of where the infringing material is
+      located; your address, phone number and email address'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 69
+  segment_text: '12 For residents the United States-- U.S. GOVERNMENT RESTRICTED RIGHTS:
+    Our Services have been developed entirely at private expense and are provided
+    as "Commercial Computer Software" or "restricted computer software." Use, duplication
+    or disclosure by the U.S. Government or a U.S. Government subcontractor is subject
+    to the restrictions set forth in subparagraph (c)(1)(ii) of the Rights in Technical
+    Data and Computer Software clauses in DFARS 252.227-7013 or as set forth in subparagraph
+    (c)(1) and (2) of the Commercial Computer Software Restricted Rights clauses at
+    FAR 52.227-19, as applicable. The Contractor/Manufacturer is King.com (US) LLC,
+    3100 Ocean Park Boulevard, Santa Monica, California 90405.'
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: 13 Privacy 13.1 Whether your contract is with King.com Limited or
+    with King.com (US) LLC, the data controller for all personally identifiable information
+    or personal data that we collect about you through or in relation to our Games
+    or other Services is King.com Limited. King.com Limited is registered with the
+    data protection authority in Malta.
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: 13.2 King.com Limited collect, process, use and share your personal
+    information in accordance with our Privacy Policy and as set out in these terms.
+    By downloading and/or accessing our Games or using our Services, you give your
+    consent to us collecting, processing, using and sharing your personal data in
+    this way. If you do not agree to our Privacy Policy you should not download or
+    access our Games or otherwise access and/or use our Services.
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: 13.3 Any personal information that we may collect may also be subject
+    to the policy of any social network that you may agree to link our Services to.
+    If you access our Games and you allow them to interact with a social network you
+    are giving us permission to use your email address and any other personal information
+    which that social network shares with us that will allow us to personally identify
+    you. You are also granting us permission to help your contacts on that network
+    find you so that you can play socially. This is intended to make our Games more
+    enjoyable for you and others that play our Games on that social network. If you
+    do not agree to these practices you should not allow our Games to interact with
+    your social network.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you access our Games and you allow them to interact with a social
+      network you are giving us permission to use your email address and any other
+      personal information which that social network shares with us that will allow
+      us to personally identify you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You are also granting us permission to help your contacts on that
+      network find you so that you can play socially.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 73
+  segment_text: 13.4 We may use cookies or similar technologies (such as HTML5 Local
+    Storage) to store certain types of information each time you use our Services.
+    They may for example be used to help us recognise your computer and to ensure
+    that your account is accessed by the person that inputs the correct username and
+    password for that account. You can find out more about how we use cookies and
+    other similar technologies by reading our Privacy Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: They may for example be used to help us recognise your computer
+      and to ensure that your account is accessed by the person that inputs the correct
+      username and password for that account.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use cookies or similar technologies (such as HTML5 Local
+      Storage) to store certain types of information each time you use our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can find out more about how we use cookies and other similar
+      technologies by reading our Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 74
+  segment_text: 13.5 This paragraph 13 shall not affect the provisions of paragraphs
+    20 and 21 which shall take precedence over this paragraph 13.
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: 14 Links 14.1 We may link to third party websites or services from
+    our Services. You understand that we make no promises regarding any content, goods
+    or services provided by such third parties and we do not endorse the same. We
+    are also not responsible to you in relation to any losses or harm caused by such
+    third parties. Any charges you incur in relation to those third parties are your
+    responsibility. You understand that when you provide data to such third parties
+    you are providing it in accordance with their privacy policy (if any) and our
+    own privacy policy does not apply in relation to that data.
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: 15 Transferring these terms 15.1 We may wish to transfer all or a
+    part of our rights or responsibilities under these terms to someone else without
+    obtaining your consent. You agree that we may do so provided that the transfer
+    does not significantly disadvantage you. You may not transfer any of the rights
+    we give you under these terms unless we first agree to this in writing.
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: 16 Entire agreement 16.1 These terms set out the entire agreement
+    between you and us concerning our Services (as defined in paragraph 1) and they
+    replace all earlier agreements and understandings between you and us.
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: 17 Changes to these terms 17.1 You can find these terms at any time
+    by visiting about.king.com/consumer-terms.
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: 17.2 Without affecting paragraph 21.8 below, we reserve the right
+    to update these terms from time to time by posting the updated version at that
+    address. We may do so for a number of reasons including without limitation because
+    we change the nature of our products or services, for technical or legal reasons,
+    or because the needs of our business have changed. You agree that if you do not
+    accept any amendment to our terms then you shall immediately stop accessing and/or
+    using our Services.
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: 18 Severability 18.1 If any part of these terms is held to be invalid
+    or unenforceable under any applicable local laws or by an applicable court, that
+    part shall be interpreted in a manner consistent with applicable law to reflect
+    as nearly as possible our original intentions and the remainder of these terms
+    shall remain valid and enforceable. If it is not possible to interpret an invalid
+    or unenforceable part of these terms in a manner consistent with applicable law,
+    then that part shall be deemed deleted from these terms without affecting the
+    remaining provisions of these terms.
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: 19 Waivers of our rights 19.1 Our failure to exercise or enforce any
+    of our rights under these terms does not waive our right to enforce such right.
+    Any waiver of such rights shall only be effective if it is in writing and signed
+    by us.
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: 20 Complaints and dispute resolution 20.1 Most concerns can be solved
+    quickly by contacting us at queries@support.king.com.
+  annotations: []
+  sentences: []
+- segment_id: 83
+  segment_text: 20.2 In the unlikely event that we cannot solve your concern and you
+    wish to bring legal action against us these terms shall be governed by and construed
+    in accordance with the laws of England.
+  annotations: []
+  sentences: []
+- segment_id: 84
+  segment_text: '21 For residents in the United States-- BINDING ARBITRATION AND CLASS
+    ACTION WAIVER: 21.1 These BINDING ARBITRATION AND CLASS ACTION WAIVER provisions
+    apply to you if you are domiciled in and/or access, download and use our Services
+    in the United States. These provisions may also apply to you if you are domiciled
+    in and/or download or use our Services from outside the United States. See JURISDICTION
+    AND APPLICABLE LAW below for details.'
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: '21.2 Initial Dispute Resolution: If you have any concerns or queries
+    regarding our Services, our customer support team can be reached through our King
+    Care portal (http://care.king.com). Most concerns are quickly resolved in this
+    manner to our customers'' satisfaction. The parties shall use their best efforts
+    to settle any dispute, claim, question, or disagreement directly through consultation
+    and good faith negotiations which shall be a precondition to either party initiating
+    a lawsuit or arbitration.'
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: '21.3 Binding Arbitration: If the parties do not reach a mutually
+    agreed solution within a period of 30 days from the time informal dispute resolution
+    is pursued pursuant to the paragraph above, then either party may initiate binding
+    arbitration as the sole means to formally resolve claims, subject to the terms
+    set forth below. Specifically, all claims arising out of or relating to these
+    terms and the Privacy Policy (including its interpretation, formation, performance
+    and breach), the parties'' relationship with each other and/or your use of any
+    of the Games or our other Services shall be finally settled by binding arbitration
+    administered by JAMS in accordance with the provisions of its Comprehensive Arbitration
+    Rules or Streamlined Arbitrations Rules, as appropriate, excluding any rules or
+    procedures governing or permitting class actions. This arbitration provision is
+    made pursuant to a transaction involving interstate commerce, and the Federal
+    Arbitration Act (the "FAA") shall apply to the interpretation, applicability,
+    enforceability and formation of these terms notwithstanding any other choice of
+    law provision contained in these terms. The arbitrator, and not any federal, state,
+    or local court or agency, shall have exclusive authority to resolve all disputes
+    arising out of or relating to the interpretation, applicability, enforceability,
+    or formation of these terms, including without limitation any claim that all or
+    any part of these terms or the Privacy Policy is void or voidable, or whether
+    a claim is subject to arbitration. The arbitrator shall be empowered to grant
+    whatever relief would be available in a court under law or in equity. The arbitrator''s
+    award shall be binding on the parties and may be entered as a judgment in any
+    court of competent jurisdiction. The JAMS Rules governing the arbitration may
+    be accessed at http://www.jamsadr.com/ or by calling JAMS at (800) 352-5267. Your
+    arbitration fees and your share of arbitrator compensation shall be governed by
+    the JAMS Comprehensive Arbitration Rules and, to the extent applicable, the Consumer
+    Minimum Standards, including the then-current limit on arbitration filing fees.
+    To the extent the filing fee for the arbitration exceeds the cost of filing a
+    lawsuit, we will pay the additional cost. The parties understand that, absent
+    this mandatory provision, they would have the right to sue in court and have a
+    jury trial. They further understand that, in some instances, the costs of arbitration
+    could exceed the costs of litigation and the right to discovery may be more limited
+    in arbitration than in court.'
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: '21.4 Location: If you are a resident of the United States, arbitration
+    will take place at any reasonable location within the United States convenient
+    for you. For residents outside the United States, arbitration shall be initiated
+    in Los Angeles County, California, and you and we agree to submit to the personal
+    jurisdiction of any federal or state court in Los Angeles County, California,
+    in order to compel arbitration, to stay proceedings pending arbitration, or to
+    confirm, modify, vacate, or enter judgment on the award entered by the arbitrator.'
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: '21.5 Class Action Waiver: The parties further agree that any arbitration
+    shall be conducted in their individual capacities only and not as a class action
+    or other representative action, and the parties expressly waive their right to
+    file a class action or seek relief on a class basis. YOU AND WE AGREE THAT EACH
+    MAY BRING CLAIMS AGAINST THE OTHER ARISING OUT OF OR IN CONNECTION WITH THESE
+    TERMS OR THE PRIVACY POLICY ONLY IN YOUR OR OUR INDIVIDUAL CAPACITY, AND NOT AS
+    A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.
+    If any court or arbitrator determines that the class action waiver set forth in
+    this paragraph is void or unenforceable for any reason or that an arbitration
+    can proceed on a class basis, then the arbitration provision set forth above shall
+    be deemed null and void in its entirety and the parties shall be deemed to have
+    not agreed to arbitrate disputes.'
+  annotations: []
+  sentences: []
+- segment_id: 89
+  segment_text: '21.6 Exception - Litigation of Intellectual Property and Small Claims
+    Court claims: Notwithstanding the parties'' decision to resolve all disputes through
+    arbitration, either party may bring an action in state or federal court that only
+    asserts claims for patent infringement or invalidity, copyright infringement,
+    moral rights violations, trademark infringement, and/or trade secret misappropriation,
+    but not, for clarity, claims related to the license granted to you for the Services
+    under these terms. Either party may also seek relief in a small claims court for
+    disputes or claims within the scope of that court''s jurisdiction.'
+  annotations: []
+  sentences: []
+- segment_id: 90
+  segment_text: '21.7 30 Day Right to Opt Out: You have the right to opt-out and not
+    be bound by the arbitration and class action waiver provisions set forth in the
+    "Binding Arbitration," "Location," and "Class Action Waiver" paragraphs above
+    by sending written notice of your decision to opt-out to the following address:
+    King.com (US) LLC, 3100 Ocean Park Boulevard, Santa Monica, CA 90405-3032, Attn:
+    King Legal. The notice must be sent within 30 days of the earlier of your first
+    download of the applicable Game or commencing use of our Services (or if no purchase
+    was made, then within 30 days of the earliest of the date on which you first download
+    the applicable Game or access or commence use the applicable Service); otherwise
+    you shall be bound to arbitrate disputes in accordance with the terms of those
+    paragraphs. If you opt-out of these arbitration provisions, we also will not be
+    bound by them.'
+  annotations: []
+  sentences: []
+- segment_id: 91
+  segment_text: '21.8 Changes to this section: We will provide 60-days'' notice of
+    any changes to this Section. Changes will become effective on the 60th day and
+    will apply prospectively only to any claims arising after the 60th day.'
+  annotations: []
+  sentences: []
+- segment_id: 92
+  segment_text: 22. JURISDICTION AND APPLICABLE LAW Our Games and other Services are
+    made available subject to these terms. This section explains which laws apply
+    to these terms.
+  annotations: []
+  sentences: []
+- segment_id: 93
+  segment_text: 22.1 For residents in the United States. If you are resident in the
+    United States then you are contracting with King.com (US) LLC, whose address is
+    3100 Ocean Park Boulevard, Santa Monica, CA 90405-3032 and any and all claims
+    arising out of or relating to these terms (including their interpretation, claims
+    for breach and all other claims (including consumer protection, unfair competition,
+    and tort claims)), the parties' relationship with each other and/or your use of
+    our Games or other Services will be subject to the laws of the State of Delaware,
+    without reference to conflict of laws principles. If any court or arbitrator determines
+    that the "Class Action Waiver" paragraph set forth above is void or unenforceable
+    for any reason or that an arbitration can proceed on a class basis, then any and
+    all claims arising out of these terms (including interpretation, claims for breach,
+    and all other claims (including consumer protection, unfair competition, and tort
+    claims)) shall be decided under the laws of the state where you were a citizen
+    at the time you downloaded, accessed or commenced use of the Service that was
+    subject to these terms. In addition, you and we irrevocably consent to the exclusive
+    jurisdiction and venue of state or federal courts in Los Angeles County, California
+    to resolve any claims that are subject to exceptions to the arbitration agreement
+    described in BINDING ARBITRATION AND CLASS ACTION WAIVER above, or otherwise determined
+    not to be arbitrable.
+  annotations: []
+  sentences: []
+- segment_id: 94
+  segment_text: 22.2 For residents in the Rest of the World. If you are resident outside
+    the United States, then you are contracting with King.com Limited whose address
+    is Aragon Business Centre Level 4, Dragonara Road, St Julian's STJ3140, Malta
+    and the laws of England shall govern the interpretation of these terms and apply
+    to claims for breach of it, without reference to conflict of laws principles.
+    All other claims, including claims regarding consumer protection laws, unfair
+    competition laws, and claims in negligence and tort, will be subject to the laws
+    of the country in which you are resident. If there is a dispute between us regarding
+    these Terms of Use, then that dispute will be subject to the jurisdiction of the
+    courts of England unless the law in your country of residence allows you to choose
+    the courts of that country for the dispute in question.
+  annotations: []
+  sentences: []
+- segment_id: 95
+  segment_text: 23 If you are resident outside the United States and you are entitled
+    to commence and/or participate in legal proceedings within the United States,
+    then you agree that you will be bound by the BINDING ARBITRATION AND CLASS ACTION
+    WAIVER provisions above.
+  annotations: []
+  sentences: []
+- segment_id: 96
+  segment_text: 24 Questions about these terms 24.1 If you have any questions about
+    these terms or our Services you may contact us by email at queries@support.king.com.
+  annotations: []
+  sentences: []
+- segment_id: 97
+  segment_text: These terms were last updated on 1 December 2016.
+  annotations: []
+  sentences: []
+- segment_id: 98
+  segment_text: "\xA9 King.com Limited. \"King\" is a registered trade mark of King.com\
+    \ Limited. All rights reserved."
+  annotations: []
+  sentences: []
+- segment_id: 99
+  segment_text: "English Svenska Espanol Francais Italiano Deutsch Dansk Nederlandse\
+    \ Norsk Brasileiro Turcke Suomi Korean Japanese Croatian Polish Czech Romanian\
+    \ Slovak Hungarian Traditional Chinese Simplified Chinese \u0420y\u0441\u0441\u043A\
+    \u0438\u0439 Privacy Policy This privacy policy is effective as at 16.12.2016."
+  annotations: []
+  sentences: []
+- segment_id: 100
+  segment_text: 1. About us and this policy Welcome to King's privacy policy! We are
+    a company called King.com Limited. We are registered in Malta, with registered
+    number C42504. Our registered office is Aragon Business Centre Level 4, Dragonara
+    Road, St Julians STJ3140, Malta.
+  annotations: []
+  sentences: []
+- segment_id: 101
+  segment_text: This policy describes how we and our other group companies (referred
+    to collectively in this policy as 'King' or 'we', us' and 'our') collect, use,
+    process and share information that King collects about you. Our business is constantly
+    evolving and so this document may change from time to time. Please come back to
+    this page every now and then to make sure you are familiar with the latest version.
+    Any new policy will be effective from the date it is published by us.
+  annotations: []
+  sentences: []
+- segment_id: 102
+  segment_text: This policy applies to all of our games, whether played on our website
+    www.king.com, on mobile devices, PC or on other platforms such as Facebook. It
+    also applies to our advertising activities on all platforms as described below
+    and other services that we may provide to you from time to time. In this policy
+    we refer to our games, websites, advertising activities and other services collectively
+    as our "Services". Certain of our websites, such as our Investor Relations website,
+    may have different privacy policies in relation to any information collected through
+    those sites. The privacy policies applicable to those sites will be available
+    on those sites.
+  annotations: []
+  sentences: []
+- segment_id: 103
+  segment_text: For information collected under this policy, the data controller is
+    King.com Limited. King.com Limited is registered with the Maltese Data Protection
+    Commissioner. Other companies within the King group may also collect or have access
+    to and use information about you for the purposes described in this policy.
+  annotations: []
+  sentences: []
+- segment_id: 104
+  segment_text: By downloading, accessing and/or playing our games, or interacting
+    with our websites or other Services, you agree to the use of your information
+    in accordance with this privacy policy. If you have any concerns about providing
+    information to us or it being used as described in this privacy policy you should
+    not use our games or other Services.
+  annotations: []
+  sentences: []
+- segment_id: 105
+  segment_text: As set out in the terms and conditions relating to our Services, you
+    must be at least 13 years old to access and/or use our Services. We do not knowingly
+    collect personal data about children under the age of 13.
+  annotations: []
+  sentences: []
+- segment_id: 106
+  segment_text: If you live in South Korea, a different privacy policy applies to
+    the data we collect about you. Please see http://about.king.com/consumer-terms/terms/ko#privacy.
+  annotations: []
+  sentences: []
+- segment_id: 107
+  segment_text: 2. What types of information do we collect We collect information
+    from a number of different sources, but most of it comes directly from you when
+    you play our games, or interact with our websites, advertising or other Services.
+    Broadly the information we collect about you relates to the type of device you
+    are using, how you play our games (such as levels attempted and purchases made),
+    other games or apps you use on your device and may include information that you
+    submit when creating an account with us or which you allow us to access when you
+    connect to your social network accounts through our games or Services. We may
+    also collect information from advertising platforms and partners and other third
+    parties such as information about purchases and interests.
+  annotations: []
+  sentences: []
+- segment_id: 108
+  segment_text: 'In more detail, depending on which of our Services you interact with
+    we may collect and process the following types of information: details about how
+    you use and interact with our games, advertising and other Services (for example,
+    information about how and when you play our games or visit our website(s), what
+    device you use to access our games and services or details regarding profile visits,
+    as set out in the section entitled "King Profile" in section 3, below); information
+    that you provide us with when you fill in forms, answer questions or complete
+    surveys when using any of our Services, when you create an account with us or
+    if you invite your friends to use our games and Services; the content of messages
+    sent using our chat and messaging systems; if you contact us, for instance through
+    our King Care customer service channels, or respond to messages and communications
+    that we send to you, we may keep a record of that correspondence; your interactions
+    with us on our social media channels; information we collect via cookies and other
+    similar technologies, as explained further below; information we collect from
+    you when you connect our games or Services to third party platforms or social
+    network services or use other social or player-to-player functionality; and'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In more detail, depending on which of our Services you interact
+      with we may collect and process the following types of information: details
+      about how you use and interact with our games, advertising and other Services
+      (for example, information about how and when you play our games or visit our
+      website(s), what device you use to access our games and services or details
+      regarding profile visits, as set out in the section entitled "King Profile"
+      in section 3, below); information that you provide us with when you fill in
+      forms, answer questions or complete surveys when using any of our Services,
+      when you create an account with us or if you invite your friends to use our
+      games and Services; the content of messages sent using our chat and messaging
+      systems; if you contact us, for instance through our King Care customer service
+      channels, or respond to messages and communications that we send to you, we
+      may keep a record of that correspondence; your interactions with us on our social
+      media channels; information we collect via cookies and other similar technologies,
+      as explained further below; information we collect from you when you connect
+      our games or Services to third party platforms or social network services or
+      use other social or player-to-player functionality; and'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 109
+  segment_text: information we collect about you from our other group companies or
+    other third party companies (including publishing partners, platforms, advertising
+    platforms and partners and data aggregators) which may include attributes about
+    you and your interests, as well as other games and services you use, demographic
+    and general location information. We will use this information as described in
+    this policy subject to any limitations in the privacy policy of the company that
+    collected the information from you.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We will use this information as described in this policy subject
+      to any limitations in the privacy policy of the company that collected the information
+      from you.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: information we collect about you from our other group companies
+      or other third party companies (including publishing partners, platforms, advertising
+      platforms and partners and data aggregators) which may include attributes about
+      you and your interests, as well as other games and services you use, demographic
+      and general location information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 110
+  segment_text: In some instances, when you make purchases on or through our website(s),
+    we may collect certain payment information from you on behalf of our payment service
+    providers, but this information is temporarily cached in a way that is unreadable
+    by King. We do not collect or retain credit card information. Our payment service
+    providers will provide us with information about your purchases so that we know
+    if a purchase has been successful. When you purchase items via our mobile apps
+    (such as those you can purchase in the App Store, on Facebook or on Google Play)
+    we do not collect or store any payment information from you.
+  annotations: []
+  sentences: []
+- segment_id: 111
+  segment_text: Finally, we may collect some of the information types referred to
+    above on an aggregated or anonymised basis, or we may use it or share it in an
+    aggregated or anonymised way, for research or analysis into the way our Services
+    operate and are used.
+  annotations: []
+  sentences: []
+- segment_id: 112
+  segment_text: 3. Creating a King Profile and playing our games socially
+  annotations: []
+  sentences: []
+- segment_id: 113
+  segment_text: King Profile When you play our games, we will give you a unique identifier
+    which we will associate with a King account known as a "King Profile". That King
+    Profile will be specific to the King games played on an individual platform or
+    device and will remain anonymous unless you choose to add your personal information
+    to that King Profile. Others players in a game may be able to see your progress
+    in the game and other information such as your game achievements, but no personally
+    identifying information will be visible to other players. You can choose to add
+    your personal information to your King Profile so that you can log in on multiple
+    devices and synchronise your progress in our games across multiple devices on
+    multiple platforms, and also so that you can play with your friends.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: King Profile When you play our games, we will give you a unique
+      identifier which we will associate with a King account known as a "King Profile".
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+  - sentence_text: Others players in a game may be able to see your progress in the
+      game and other information such as your game achievements, but no personally
+      identifying information will be visible to other players.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+  - sentence_text: That King Profile will be specific to the King games played on
+      an individual platform or device and will remain anonymous unless you choose
+      to add your personal information to that King Profile.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+  - sentence_text: You can choose to add your personal information to your King Profile
+      so that you can log in on multiple devices and synchronise your progress in
+      our games across multiple devices on multiple platforms, and also so that you
+      can play with your friends.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+- segment_id: 114
+  segment_text: Your King Profile and the information it contains, such as your game
+    achievements, will be visible to other users of our services. If you choose to
+    add personal information to your King Profile it will be visible to your friends
+    and other players anywhere in the world.
+  annotations: []
+  sentences: []
+- segment_id: 115
+  segment_text: If you choose to view another individual's profile, that individual
+    and other users of our Services will know that you have visited them because some
+    of your Social Data and a link to your King Profile will be displayed on that
+    individual's King Profile. They will also be able to visit your King Profile.
+    You will also be able to see which other players have viewed your King Profile.
+  annotations: []
+  sentences: []
+- segment_id: 116
+  segment_text: Connecting with third party social networks You can choose to log
+    into your King Profile using your Facebook account details. If you do this, you
+    will be able to use your Facebook account to log in on multiple devices and synchronise
+    progress across those devices. We will receive some of your Facebook account information
+    and exactly what information we receive will depend on your settings in your Facebook
+    account. We may use this information for the purposes described in this privacy
+    policy, including in order to advertise to you. Once connected in this way, you
+    will also be able to see which of your friends are playing the same game and their
+    progress through the games (and they will be able to see you and your progress).
+    This may also allow you to access other functionality in our games and other services,
+    such as inviting friends to play, asking other players for lives and 1-2-1 messaging.
+    Logging in with Facebook will not allow us to post anything to your Facebook page
+    without your permission.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you do this, you will be able to use your Facebook account to
+      log in on multiple devices and synchronise progress across those devices.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: We will receive some of your Facebook account information and exactly
+      what information we receive will depend on your settings in your Facebook account.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: You can choose to log into your King Profile using your Facebook
+      account details.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 117
+  segment_text: In the future we may also allow you to associate your King Profile
+    with other social network accounts and use your log in details for that account
+    to log into your King Profile. Where we do this, either we or your social network
+    service provider will let you know what information we will receive about you
+    from that social network.
+  annotations: []
+  sentences: []
+- segment_id: 118
+  segment_text: If you choose to play our games online on the desktop version of Facebook.com,
+    your basic Facebook account information will automatically be associated with
+    your King account. You can control how your Facebook information is used and shared
+    with your Facebook friends in your Facebook account settings.
+  annotations: []
+  sentences: []
+- segment_id: 119
+  segment_text: Where you connect or associate your King Profile with any third party
+    social network or platform, that social network applications or platform will
+    provide certain information about you to us. These social networks and platforms
+    are created and maintained by a third party which is not a part of, or controlled
+    by King. We may use this data for the purposes described in this privacy policy,
+    including in order to advertise to you. You should ensure that you read the third
+    party social network or platform's terms of service and privacy policies to understand
+    how they treat your data and what information they might share with us.
+  annotations: []
+  sentences: []
+- segment_id: 120
+  segment_text: You can make changes to what data a third party social network or
+    platform shares with us, or stop our Services interacting with that social network
+    or platform by adjusting your settings with that third party provider, however
+    you may find you are not able to enjoy all of the same features of our Services.
+  annotations: []
+  sentences: []
+- segment_id: 121
+  segment_text: 4. How do we use the information that we have about you?
+  annotations: []
+  sentences: []
+- segment_id: 122
+  segment_text: We, our suppliers and group companies may use the information we collect
+    about you for a number of purposes. These include providing our games and other
+    services to you, optimising the games and services we provide, enabling in-app
+    purchases, storing your progress through our games, enabling social network integration,
+    providing customer service support when you need it. We also use your information
+    in connection with our advertising purposes. For more information, see below.
+    We may also use your information for research or analysis. Finally, there may
+    also be other reasons why we need to use your information, such as maintaining
+    records or protecting our legal rights. A more detailed description of how we
+    use your information is set out below.
+  annotations: []
+  sentences: []
+- segment_id: 123
+  segment_text: Providing and optimising our Services We use your information to enable
+    us to provide our games, websites, advertising and other Services to you and to
+    optimise all of them so that we can make them the best they can be for you and
+    all our players. This will include use and analysis of aggregated data to make
+    sure that our games work properly on all devices and are as enjoyable as they
+    can be for all our players.
+  annotations: []
+  sentences: []
+- segment_id: 124
+  segment_text: 'Chat Some of our Services include player-to-player chat functionality.
+    Users of our chat service(s) can send messages to other registered players. Your
+    messages may be used and stored by us: (a) to convey your messages; and (b) to
+    enable you and your recipients to view your message history. We reserve the right
+    to review the content of your messages, including by using automatic filters,
+    to ensure that you are complying with our terms of service and we also reserve
+    the right to prevent your use of our chat service(s) or to block the sending of
+    any message for any reason. We will not use the content of your chat messages
+    for any other purpose.'
+  annotations: []
+  sentences: []
+- segment_id: 125
+  segment_text: Marketing and promotion We may use your information to send you direct
+    marketing and promotional materials relating to our Services or related products,
+    for example sending you communications (including by email) for these purposes
+    on our, or a third party's behalf. For example, we might send you information
+    about merchandise relating to our Services. If you do not want us to use your
+    information in this way please let us know by contacting us at privacy@support.king.com.
+  annotations: []
+  sentences: []
+- segment_id: 126
+  segment_text: Customer Services We use your information, including data that you
+    provide directly to us in communications, to provide you with support through
+    our customer service channels when you need it. We may also use it to contact
+    you, for example as part of customer service or to send you updates about our
+    games and services. Finally, we will use your data to manage your account and
+    relationship with us and improving your experience when you use our Services.
+  annotations: []
+  sentences: []
+- segment_id: 127
+  segment_text: Analytics and Research We use analytics tools, which may include third
+    party analytics tools, to collect information about how you play our games and
+    those tools may use cookies or other similar tracking technologies. We may use
+    your data to carry out research, surveys or to engage directly with you, for example
+    by sending you communications (including by email), for these purposes. We may
+    also create reports, analysis or similar services for use by us for the purposes
+    of research or business intelligence, for example to track potential problems
+    or trends with our Services, or to test out new game features and content.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use analytics tools, which may include third party analytics
+      tools, to collect information about how you play our games and those tools may
+      use cookies or other similar tracking technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 128
+  segment_text: Social and Community We have a number of social and community channels
+    which we use to communicate with our players. If you choose to interact with those
+    channels, we will receive your information and use it in connection with those
+    channels, including to engage with you, and we may also republish your posts to
+    those channels.
+  annotations: []
+  sentences: []
+- segment_id: 129
+  segment_text: Competitions From time to time we may run competitions, including
+    in games and via our community channels. Those competitions will have their own
+    specific terms and conditions, but we will use personal information that you provide
+    in relation to that competition for the purposes of running the competition.We
+    may also publish the names and entries of competition entrants.
+  annotations: []
+  sentences: []
+- segment_id: 130
+  segment_text: Cheating, crime and fraud prevention We may use personal data that
+    we hold to prevent cheating, crime or fraud. We may also need to pass your information
+    to fraud prevention agencies and other organisations involved in crime and fraud
+    prevention, such as the police.
+  annotations: []
+  sentences: []
+- segment_id: 131
+  segment_text: Legal uses We may use your data as required or permitted by any applicable
+    law. As a specific example, if you live in the European Union, this would include
+    for the purpose of providing VAT invoices where we are required to do so by law
+    or where requested by you.
+  annotations: []
+  sentences: []
+- segment_id: 132
+  segment_text: 5. Advertising and promotion What adverts you may see as a result
+    of playing our games or using our Services
+  annotations: []
+  sentences: []
+- segment_id: 133
+  segment_text: We promote our own games and services in a number of ways. That might
+    include cross promoting one of our games while you are playing a different game
+    of ours. It might also include advertising our games within websites and other
+    media published by others, or sending you marketing materials by email.
+  annotations: []
+  sentences: []
+- segment_id: 134
+  segment_text: Like many companies, we may use information about you in connection
+    with advertising. This includes using information that we have about you, such
+    as the games you play, to try to make sure you only see advertising that might
+    be of interest to you. For example, if we know you play Candy Crush Saga, we might
+    suggest that you continue the adventure in Candy Crush Soda Saga by showing you
+    an ad for Candy Crush Soda Saga. We may also use the information that we have
+    about you to help a third party deliver advertisements that are tailored to you
+    based on a determination of your characteristics or interests by us based on the
+    information that we have about you.
+  annotations: []
+  sentences: []
+- segment_id: 135
+  segment_text: As well as advertisements for our own goods and services, we may also
+    facilitate third parties to optimise their advertising of their own goods and
+    services by helping them to target those ads to those that might be most interested
+    in them. These advertisements may be shown within our games or within websites
+    and other media which are published by others and optimised by us or using our
+    information. This is done using anonymised information and we won't hand over
+    or sell any of your personal information to third party advertisers.
+  annotations: []
+  sentences: []
+- segment_id: 136
+  segment_text: We will also use information about your particular device in order
+    to show you adverts which work properly on that device, or to measure the effectiveness
+    of our ad campaigns and we may also retain information about how many times you
+    have seen a particular advertisement so we can stop you from seeing it too many
+    times.
+  annotations: []
+  sentences: []
+- segment_id: 137
+  segment_text: Advertising partners When we advertise our games in games or media
+    published by other companies, we may use various third party advertising partners,
+    including ad exchanges, ad networks and ad servers.
+  annotations: []
+  sentences: []
+- segment_id: 138
+  segment_text: Our advertising partners help us to serve advertisements to you. Some
+    of this technology also helps us to make decisions as to whether or not to show
+    a particular advert to you - for example, by informing us that you have shown
+    an interest in similar goods or services previously.
+  annotations: []
+  sentences: []
+- segment_id: 139
+  segment_text: Our advertising partners may collect information about you when you
+    use our services or the services of others. This Privacy Policy does not apply
+    to the collection of your information by our advertising partners, and we therefore
+    recommend that you review their privacy policies for more information. You can
+    find out more in "How to adjust your preferences" below.
+  annotations: []
+  sentences: []
+- segment_id: 140
+  segment_text: How do ad identifiers, cookies and similar technologies work? Advertisers
+    on mobile devices sometimes use advertising (or ad) identifiers to enable and
+    optimise their advertising. Ad identifiers are non-permanent, non-personal device
+    identifiers such as the Android advertising ID and/or Apple's ID for advertising,
+    or IDFA. See below for you can reset these identifiers or indicate your preference
+    that they should not be used for advertising purposes.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Ad identifiers are non-permanent, non-personal device identifiers
+      such as the Android advertising ID and/or Apple's ID for advertising, or IDFA.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: Advertisers on mobile devices sometimes use advertising (or ad)
+      identifiers to enable and optimise their advertising.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 141
+  segment_text: 'We and third parties who advertise on our Services may use cookies
+    or similar technologies such as tracking pixels in their advertising. These technologies
+    operate either by: (i) placing a small file which stores some information on your
+    computer or mobile device; and/or (ii) by accessing information on your device.
+    These technologies allow the collection of data, such as your device''s model,
+    operating system and screen size, the other applications installed on your device,
+    and information about how you use our services.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These technologies allow the collection of data, such as your device's
+      model, operating system and screen size, the other applications installed on
+      your device, and information about how you use our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'These technologies operate either by: (i) placing a small file
+      which stores some information on your computer or mobile device; and/or (ii)
+      by accessing information on your device.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We and third parties who advertise on our Services may use cookies
+      or similar technologies such as tracking pixels in their advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 142
+  segment_text: How to adjust your preferences You can choose to prevent your device's
+    ad identifier being used for interest based advertising, or you can reset your
+    device's ad identifier, by changing the settings of your device. Settings vary
+    from device to device but you will usually find the ad identifier settings under
+    "privacy" or "ads" in your device's settings.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How to adjust your preferences You can choose to prevent your device's
+      ad identifier being used for interest based advertising, or you can reset your
+      device's ad identifier, by changing the settings of your device.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Settings vary from device to device but you will usually find the
+      ad identifier settings under "privacy" or "ads" in your device's settings.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 143
+  segment_text: You can disable cookies through your web or phone browser settings.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You can disable cookies through your web or phone browser settings.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 144
+  segment_text: If you live in the USA, Europe or Canada, you can also opt-out from
+    the collection of your information by some or all of our advertising partners
+    who participate in the Digital Advertising Alliance by visiting http://www.aboutads.info/choices/
+    (for US users), http://www.youronlinechoices.com/ (for European users) or http://youradchoices.ca/choices
+    (for Canadian users). You can also click on the AdChoices logo within an advertisement
+    (where available).
+  annotations: []
+  sentences: []
+- segment_id: 145
+  segment_text: 'Although we and our advertising partners use ad identifiers, cookies
+    and similar technologies to enable us and third parties to provide more relevant
+    advertising to you, these technologies also: allow us to recognise you and your
+    device; allow our Services to interact with a third party social network or platform
+    (where you have chosen to allow such interaction); allow our payment processors
+    to process your payment instructions; and enable us and third parties to provide
+    you with more customized services, for example to provide our services in the
+    correct language.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Although we and our advertising partners use ad identifiers, cookies
+      and similar technologies to enable us and third parties to provide more relevant
+      advertising to you,
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 146
+  segment_text: As a result, if you choose to adjust your preferences in order to
+    prevent these technologies, you may find that you cannot enjoy the full use of
+    our services.
+  annotations: []
+  sentences: []
+- segment_id: 147
+  segment_text: Please note that adjusting your preferences as described in this section
+    does not mean you will no longer receive adverts, it only means the adverts you
+    do see will be less relevant to your interests.
+  annotations: []
+  sentences: []
+- segment_id: 148
+  segment_text: Alternatively, if you do not wish us to collect data as described
+    in this section, you should stop using our services.
+  annotations: []
+  sentences: []
+- segment_id: 149
+  segment_text: 6. Who else can see your information? In addition to the other disclosures
+    described in this privacy policy, we will also share your information as described
+    in this section.
+  annotations: []
+  sentences: []
+- segment_id: 150
+  segment_text: 'We will share your information: where we have your consent to do
+    so (including as set out in this Privacy Policy); as reasonably necessary in order
+    to provide the Services to you (for example, by providing your personal information
+    to suppliers we may use to fulfil the Services or to communicate with you); where
+    it is necessary to carry out your instructions (for example, to process a payment
+    instruction we must provide your personal information to our payment processors);
+    where your data is on an anonymous and aggregated basis, meaning you could not
+    be personally identified from it; when you submit information as part of a competition
+    or otherwise interact with our social media channels (for example, by providing
+    a testimonial about one of our Services) we may publish the information you submitted,
+    alongside your name and home country on our website(s) and social media channels;
+    as we reasonably believe is permitted by law or regulation or as is necessary
+    to comply with any legal obligation, or in order to enforce or apply our terms
+    and conditions and/or any other agreement with you; or to protect the rights,
+    property, or safety of King, our users, or others;'
+  annotations: []
+  sentences: []
+- segment_id: 151
+  segment_text: if there is a sale of the assets of King or corporate restructuring,
+    or as a result of a change of control of King or one of its group companies, or
+    in preparation of any of these events. Any third party to which King transfers
+    of sells King's assets will have the right to continue to use the personal and
+    other information that you provide to us in the manner set out in this Privacy
+    Policy.
+  annotations: []
+  sentences: []
+- segment_id: 152
+  segment_text: Our games and our websites include social features that enable you
+    to interact with other players. These features will enable other players to see
+    your username, your avatar and your progress through our games and other game
+    play related information such as high scores. Depending on your settings in your
+    social network or King account, other information in your profile may be shared
+    with other players. Also, other players will be able to see anything that you
+    post to any public page, forum or other similarly open feature in our games, websites,
+    community channels or other Services.
+  annotations: []
+  sentences: []
+- segment_id: 153
+  segment_text: We may share your information with our service providers if necessary
+    to enable them to provide services to us.
+  annotations: []
+  sentences: []
+- segment_id: 154
+  segment_text: 7. Your rights in relation to your information You have certain rights
+    in connection with your personal information and how we handle it. Details of
+    those rights and how to exercise them are contained in this section.
+  annotations: []
+  sentences: []
+- segment_id: 155
+  segment_text: 'You have certain rights in relation to the personal information that
+    we hold about you. Those rights include: Right of access. You have a right to
+    know what information we hold about you and in some cases to have the information
+    communicated to you. If you wish to exercise this right please contact us letting
+    us know that you wish to exercise your right of access and what information in
+    particular you would like to receive. We reserve the right to ask for reasonable
+    evidence to verify your identity before we provide you with any information, and
+    the law permits us to charge a fee for exercising this right of access. Please
+    note that we may not be able to provide all the information you ask for, for instance
+    if the information includes personal information about another person. Where we
+    are not able to provide you with information that you have asked for, we will
+    endeavour to tell you why. We will try to respond to any request for a right of
+    access as soon as possible, but we will always do so within 40 days of receipt
+    of your request, evidence of ID and any applicable fee.'
+  annotations: []
+  sentences: []
+- segment_id: 156
+  segment_text: Right to correct personal information. We try to keep the information
+    that we hold about you accurate and up to date. Should you realise that any of
+    the information that we hold about you is incorrect, please let us know at privacy@support.king.com
+    and we will correct it as soon as we can.
+  annotations: []
+  sentences: []
+- segment_id: 157
+  segment_text: Data deletion. In some circumstances you have a right to have some
+    of the personal information that we hold about you deleted. Should you wish to
+    have any information about you deleted, please contact us using the information
+    below. Please note that to ensure that we do not collect any further information
+    you should also delete our games from your mobile devices and clear our cookies
+    from any device where you have played our games in a web browser. Where we delete
+    personal information about you, we may still retain some or all of that information
+    for other purposes such as maintaining financial records, protecting or enforcing
+    legal rights, maintaining marketing suppression lists or for technical reasons
+    such as maintaining technical security or our database integrity. We may also
+    retain your information in an anonymised form.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that to ensure that we do not collect any further information
+      you should also delete our games from your mobile devices and clear our cookies
+      from any device where you have played our games in a web browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 158
+  segment_text: Account deactivation. If you have created an account with us, you
+    can ask us to deactivate that account by contacting us using the information below.
+    We may ask you for other information before we are able to deactivate your account.
+    That information might include information about your mobile device. Other steps
+    you should take should you wish to completely deactivate your account include
+    disassociating your Facebook account from our mobile games and deleting our games
+    from your mobile devices. Please note that if you completely deactivate your account
+    all your progress in our games and any unspent virtual items, such as Gold Bars
+    or Boosters will be lost and we may not be able to restore them in the future.
+  annotations: []
+  sentences: []
+- segment_id: 159
+  segment_text: Direct marketing opt out. If you have elected to receive direct marketing
+    communications from us, you can change your mind at any time by following the
+    opt out link in any marketing communication that is sent to you. If you have elected
+    to receive more than one type of marketing communications from us, you may need
+    to opt out of all of them individually. It may take a few days for us to update
+    our records before any opt out is effective.
+  annotations: []
+  sentences: []
+- segment_id: 160
+  segment_text: There are other ways in which you can control the personal information
+    that we collect about you. For instance, you could disconnect your Facebook or
+    other social network account from our games, or delete our games from your mobile
+    device. You could also reset your mobile advertising identifier or limit ad tracking
+    altogether using the settings in your phone. Finally, you could limit or prevent
+    the use of cookies in your web browsers.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Finally, you could limit or prevent the use of cookies in your
+      web browsers.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: For instance, you could disconnect your Facebook or other social
+      network account from our games, or delete our games from your mobile device.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: There are other ways in which you can control the personal information
+      that we collect about you.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You could also reset your mobile advertising identifier or limit
+      ad tracking altogether using the settings in your phone.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 161
+  segment_text: 8. How long do we keep your information and where do we store it?
+  annotations: []
+  sentences: []
+- segment_id: 162
+  segment_text: We will keep your information for as long as we consider necessary
+    for the purposes described above, or as long as the law allows. We store your
+    information on servers that we control which are primarily based in the European
+    Union. We may also use servers that are located outside the European Union and
+    we may engage partners outside the European Union who will also process and store
+    your information to provide services to us.
+  annotations: []
+  sentences: []
+- segment_id: 163
+  segment_text: 9. Links to third party websites and services We may provide links
+    to third party applications, services or websites from our Services (including
+    advertising that may link to a third party). You understand that when you click
+    on these links any data which you provide afterwards is subject to that third
+    party's privacy policy and not to ours. We can take no responsibility for the
+    content, safety, privacy or security of any third party application, service or
+    website.
+  annotations: []
+  sentences: []
+- segment_id: 164
+  segment_text: 10. Changes to the policy The privacy policy and this summary may
+    change over time. We will post the updated privacy policy on this page. Please
+    come back to this page every now and then to make sure you are familiar with the
+    latest version. Any new policy will be effective from the date it is published
+    by us.
+  annotations: []
+  sentences: []
+- segment_id: 165
+  segment_text: 11. Contact us If you want to contact us about any of the matters
+    in relation to this privacy policy, including to exercise any of your rights,
+    then please contact our customer services department by emailing privacy@support.king.com.
+  annotations: []
+  sentences: []
+- segment_id: 166
+  segment_text: "Back to top Play our games at King.com \xA9 2016 King.com Ltd."
+  annotations: []
+  sentences: []
+- segment_id: 167
+  segment_text: King, the King logo, the game names and related marks are trade marks
+    of King.com Ltd or related entities. Contact Partners Privacy policy Website terms
+    License attributions Contributor license - corporate Contributor license - individual
+    Consumer terms
+  annotations: []
+  sentences: []

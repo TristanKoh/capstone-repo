@@ -1,0 +1,166 @@
+policy_id: 345
+policy_name: xray.ruocco
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: GAMENCO PRIVACY POLICY Last updated on August 13, 2015.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: The terms in this Privacy Policy govern the manner in which Gamenco
+    collects and uses any information you (Users) provide in connection with any Gamenco
+    game or Application (Hereinafter, "Services"). This Privacy Policy applies to
+    all Services offered by Gamenco. By using our Services, Users agree to the collection
+    and use of your personal information as outlined in this Privacy Policy. Gamenco
+    may amend this Privacy Policy from time to time; therefore, Users are encouraged
+    to consult the Privacy Policy regularly.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'ACCESS, COLLECTION AND USE OF INFORMATION. Gamenco does NOT collect,
+    transmit or disclose any information that would identify you personally, such
+    as: your name, e-mail address, mobile phone number, etc. ("Personally Identifiable
+    Information"). We may collect and use your IP Address, Android advertising identifier
+    and other statistical and technical information, such as the version of your operating
+    system, your device code name, your current network connectivity status, and your
+    device manufacturer, in an aggregate anonymous manner. If you send an email to
+    our support center, we store your email in our database. In addition, we may use
+    all such information to improve the quality of our services and/or to add new
+    features, functionality.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ("Personally Identifiable Information").
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Gamenco does NOT collect, transmit or disclose any information
+      that would identify you personally, such as: your name, e-mail address, mobile
+      phone number, etc.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If you send an email to our support center, we store your email
+      in our database.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition, we may use all such information to improve the quality
+      of our services and/or to add new features, functionality.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect and use your IP Address, Android advertising identifier
+      and other statistical and technical information, such as the version of your
+      operating system, your device code name, your current network connectivity status,
+      and your device manufacturer, in an aggregate anonymous manner.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: SOCIAL SHARING FEATURES.The Services may offer social sharing features
+    and other integrated tools (such as the Facebook "Like" button, Google +1 button),
+    which let you share actions you take on our Services with other media, and vice
+    versa. The use of such features enables the sharing of information with your friends
+    or the public, depending on the settings you establish with the entity that provides
+    the social sharing feature. For more information about the purpose and scope of
+    data collection and processing in connection with social sharing features, please
+    visit the privacy policies of the entities that provide these features.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'ADVERTISEMENTS; THIRD PARTY CONTENT.Gamenco may include advertisements
+    that may be provided by third parties ("Third Party Content") or by us. We will
+    always require these third parties to take appropriate measures to protect your
+    information and to adhere to all applicable legislation. This Privacy Policy only
+    applies to advertisements and/or content provided by us and does not apply to
+    any Third Party Content and/or to any information collected by the providers of
+    Third Party Content. Such Third Party Content providers have their own privacy
+    policies and we advise you to read them carefully. You acknowledge and agree that
+    we shall have no liability whatsoever with respect to such Third Party Content
+    and your usage of it is made at your own risk. We may use the following Third
+    Party Content: MobileCore, you can read their privacy policy at: https://www.mobilecore.com/privacy-policy/
+    Third Party Content: AppNext Ltd, you can read their privacy policy at: https://www.appnext.com/policy.html'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: If we use additional Third Party Content in the future, we will update
+    this Privacy Policy to include the description of their services and any additional
+    pertinent information on them.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: CHILDREN'S PRIVACY.We are committed to protecting the privacy of children.
+    We do not knowingly collect personal information from children under the age of
+    13.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: CHANGE OR REMOVAL OF INFORMATION.We understand that there may come
+    a time that you may want to discontinue your use of our services. Therefore, if
+    you wish to have us delete any email correspondence between you and us with respect
+    to our services, please send us an email to appsupp@usa.com and we do so within
+    30 days.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: UPDATES.We reserve the right to update this Privacy Policy from time
+    to time, with or without notice to you. If we update this Privacy Policy, we will
+    post the revised Privacy Policy , and will update the "Effective Date" above.
+    You agree to review this Privacy Policy periodically so that you are aware of
+    any updates. Your continued use of our Services following an update to this Privacy
+    Policy indicates your consent to any changes and signifies your agreement to the
+    terms of our updated Privacy Policy. If you do not agree with any update or modification,
+    you should uninstall our services.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: ACCEPTANCE OF THE TERMS.By using our Services, you agree to the processing
+    of your data in accordance with this privacy policy. If you do not agree to this
+    privacy policy and the practices described herein, please do not access and /
+    or use the Services.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 'CONTACT US.For any questions about this Privacy Policy or any other
+    issue please contact Gamenco at: appsupp@usa.com'
+  annotations: []
+  sentences: []

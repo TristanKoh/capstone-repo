@@ -1,0 +1,229 @@
+policy_id: 5
+policy_name: BarcodeScanner
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Skip to content Features Explore Pricing This repository Sign in Sign
+    up Watch 1,302 Star 12,576 Fork 6,123
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: zxing/zxing Code Issues Pull requests Projects Wiki Pulse Graphs Frequently
+    Asked Questions Sean Owen edited this page Apr 2, 2015 3 revisions Pages 6 Barcode
+    Contents Frequently Asked Questions Getting Started Developing License Questions
+    Scanning From Web Pages Scanning Via Intent
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Clone this wiki locally Clone in Desktop Android / Barcode Scanner
+    Why does Barcode Scanner request permission to access ...
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Why does Barcode Scanner request permission to access
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: '... my contacts? QR Codes and Data Matrix codes can encode contact
+    information. Upon scanning such a code, you will be prompted to add the contact
+    information to your contacts list. In addition, Barcode Scanner can encode a contact
+    as a QR Code and present it on-screen, so that a friend can point their phone
+    at your screen to transfer that contact. This is why the app requests permission
+    to write and read contacts. They are not used in any other way.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This is why the app requests permission to write and read contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: '... my browser history and bookmarks? Just like contacts, you can
+    share a bookmark with a friend by encoding the URL as a QR Code. It is then shown
+    on screen for him or her to scan with their phone. That''s the only thing we use
+    them for.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: '... my SD card? You can use Barcode Scanner to email a generated
+    QR code or your scan history. To do this, the barcode image / history CSV file
+    must first be written to device storage, which is why the permission is needed.
+    As a bonus, this makes this output available for retrieval from your SD card directly.
+    It is not used for any other purpose.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: '... my wi-fi settings? QR codes can encode the user name, password,
+    etc. for a wi-fi network so that you don''t have to type them into your phone.
+    To do this, the application needs to be able to change wi-fi settings.'
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "QR codes can\_encode the user name, password, etc."
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: "for a wi-fi network\_so that you don't have to type them into\
+      \ your phone."
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 'It doesn''t focus or scan on my phone Most reports of things like
+    this are unfortunately traceable to camera driver problems. This can be true even
+    if other apps like the camera work. The problem is of the form: Barcode Scanner
+    app asks device if it supports feature X Devices reports it supports X Barcode
+    Scanner requests feature X Camera driver does not support it correctly, and fails
+    to initialize All initialization including light, focus and other settings fail,
+    making scanning hard or impossible'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: First, try disabling camera features in Settings. Look for "Device
+    Bug Workarounds". Usually, disabling one or more of these will work around the
+    issue.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: If not, only report an issue like this on the mailing list if you
+    can also supply log output from the app using
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: adb logcat or the aLogcat app. Find log messages from the time the
+    app first opens, especially including any apparent exceptions or error messages.
+    This is useful information even if it does not lead to a workaround. Ideally,
+    provide a proposed code change.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Barcode Scanner sets off a virus warning The Barcode Scanner app contains
+    no viruses or malware.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: To ensure you get the official copy from this project, only download
+    Barcode Scanner from Google Play.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: This is built and signed by us, and Google Play uses these signatures
+    to verify that the copy you get is from us. Other app stores, including Amazon,
+    may have a copy of the Barcode Scanner app, but these are not built or maintained
+    by us.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Worse still, because this is an open source project, it's easy for
+    a malicious person to add viruses or malware, build and distributed a look-alike
+    copy. For this reason, don't obtain copies from third-party app stores.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Can we distribute Barcode Scanner, or pre-install it on our Android
+    devices?
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Yes. The application is distributed under the terms of the Apache
+    License 2.0. Distributing the .apk files released by this project complies with
+    the terms of the license, with no further action required. There is no fee. These
+    are the only available license terms.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We strongly recommend distributing the project's release, rather than
+    building from source, for best user experience. It is signed with the project's
+    keys and so is the only copy that will be upgradeable to future releases via Google
+    Play.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: The project only maintains a release of Barcode Scanner on Google
+    Play and does not maintain releases elsewhere. Other app stores are however welcome
+    to maintain releases on their own.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Can we talk about monetizing Barcode Scanner using our ad network,
+    or paid promotion?
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: The app has always been ad-free and has not been monetized, and will
+    continue to be so. Barcode Scanner will not run ads or otherwise monetize. It
+    is the work of many owners and would be difficult to fairly allocate revenue.
+    It is open source and could be built without ads easily anyway.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: As a result there is no interest in advertising or paying to promote
+    the app either.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: I don't get prices from Barcode Scanner, or get very high prices,
+    for some products
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: This application does not maintain or provide any product information,
+    so these are not problems with Barcode Scanner itself. It links to Google Product
+    Search and Web Search; contact Google with suggestions.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Note that common household items are often available for purchase
+    online, but in bulk quantity. This is one reason that results for the product''s
+    price seem high: they are not for individual items. Again, this is not an issue
+    with Barcode Scanner itself.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: The app won't download or install These are functions of Google Play,
+    and outside the application's control. We do get some reports of stuck downloads
+    which can be fixed by rebooting the phone. If that doesn't help, please contact
+    the phone manufacturer or your carrier.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: I can't uninstall the Barcode Scanner application Some manufacturers
+    put Barcode Scanner into the "firmware" of the phone, which means it is not uninstallable.
+    This is an issue to take up with manufacturers or carriers. Sorry, we can't do
+    anything about this.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 'Does Barcode Scanner send messages to my contacts? No, absolutely
+    not. I have seen reports of user''s contacts receiving messages like: I''ve been
+    using Barcode Scanner and I think you might like it. Check it out from your Android
+    phone: http://market.android.com/search?q=pname:com.google.zxing.client.android
+    *Note: Tap the Market icon in the Complete action screen that appears after you
+    tap the link above.'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: These are not sent by Barcode Scanner. In fact, you can see instances
+    of this message pertaining to many other applications by searching Google.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: "One forum post suggests that these are being send by an HTC app called\
+    \ \"App Sharing\". Contact GitHub API Training Shop Blog About \xA9 2017 GitHub,\
+    \ Inc. Terms Privacy Security Status Help"
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: You can't perform that action at this time.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: You signed in with another tab or window. Reload to refresh your session.
+    You signed out in another tab or window. Reload to refresh your session.
+  annotations: []
+  sentences: []

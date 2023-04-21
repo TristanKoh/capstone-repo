@@ -1,0 +1,471 @@
+policy_id: 229
+policy_name: GameCircus
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Pages Menu Games Paplinko Help Careers About Life in Dallas Life at
+    GC Leadership Team Shop News Support
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Privacy Policy Home \xBB Privacy Policy Game Circus Privacy Policy\
+    \ Last Updated: October 2, 2014 This Privacy Policy explains how information about\
+    \ you is collected, used, and disclosed by Game Circus, LLC and any parent or\
+    \ subsidiary (collectively, \"Game Circus\") when you access or use Game Circus'\
+    \ websites, mobile applications, and other products and services (collectively,\
+    \ the \"Services\") or otherwise interact with Game Circus."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Collection of Information Information You Provide to Game Circus.
+    Game Circus collects information you provide directly to it, such as if you register
+    for a Service; participate in Game Circus' contests and special events; request
+    technical support; or send Game Circus an email or otherwise interact with it.
+    The types of information Game Circus may collect directly from you include your
+    name, e-mail address, and phone number.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The types of information Game Circus may collect directly from
+      you include your name, e-mail address, and phone number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 'Information Game Circus Collects Automatically. When you access the
+    Services, Game Circus automatically collects certain information, including: Log
+    Information:Game Circus logs information about your use of the Services, including
+    the type of browser you use, access times, pages viewed, your IP address and the
+    page you visited before navigating to its websites.'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Game Circus logs information about your use of the Services, including
+      the type of browser you use, access times, pages viewed, your IP address
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'Device Information: When you access or use the Services, Game Circus
+    collects information about (i) device properties, including, but not limited to
+    Media Access Control ("MAC") address, unique device identifier ("UDID"), or other
+    device identifiers; (ii) device software platform and firmware; (iii) mobile phone
+    carrier; (iv) geographical data such as zip code, area code and location; and
+    (v) game score and achievements. Game Circus may also collect other data as reasonably
+    required by Game Circus to provide, maintain and improve the Services.'
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you access or use the Services, Game Circus collects information
+      about
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: device properties, including, but not limited to Media Access Control
+      ("MAC") address, unique device identifier ("UDID"), or other device identifiers;
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: device software platform and firmware;
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: geographical data such as zip code, area code and location
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: mobile phone carrier;
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'Information Collected by Cookies and Other Tracking Technologies:
+    Game Circus may use cookies, web beacons, and other tracking technologies to collect
+    information about you and your interaction with the Services. We use this information
+    in one or more of the ways described in the "Use of Information" section below.
+    Game Circus may also collect information using web beacons or other tracking technologies
+    to help deliver cookies, count visits, and understand usage and campaign effectiveness.
+    For more information about cookies, please see "Your Privacy Choices" below.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For more information about cookies, please see "Your Privacy Choices"
+      below.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Game Circus may also collect information using web beacons or other
+      tracking technologies to help deliver cookies, count visits, and understand
+      usage and campaign effectiveness.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Information Collected by Cookies and Other Tracking Technologies:
+      Game Circus may use cookies, web beacons, and other tracking technologies to
+      collect information about you and your interaction with the Services.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use this information in one or more of the ways described in
+      the "Use of Information" section below.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Information Game Circus Collects from Other Sources. Game Circus may
+    receive information about you from other sources and combine or link that with
+    information it has about you. For example, when you authorize Game Circus to connect
+    to certain third-party social networking sites, Game Circus will access information
+    about you from those sites, such as your name, account information, friend lists,
+    and any other information you make publicly available. Game Circus collects this
+    information in accordance with the privacy policies and authorization procedures
+    determined by third-party social networking sites in addition to the privacy settings
+    you establish with those sites. For more information, please refer directly to
+    the privacy policies of the relevant third-party social networking sites.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, when you authorize Game Circus to connect to certain
+      third-party social networking sites, Game Circus will access information about
+      you from those sites, such as your name, account information, friend lists,
+      and any other information you make publicly available.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 'Use of Information Game Circus may use the information it collects
+    about you for a variety of purposes, including to: Provide, maintain, and improve
+    the Services and deliver the information and support you request, including technical
+    notices, security alerts, purchase confirmations, and support and administrative
+    messages; Personalize the Services and provide advertisements, content, or features
+    that are targeted toward your interests; Send you news and information about the
+    Services and communicate with you about products, services, contests, promotions,
+    incentives, and rewards offered by Game Circus and select partners; Track and
+    analyze trends and usage in connection with the Services; and Process and deliver
+    contest and promotion entries and rewards.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Game Circus is based in the United States and the information we collect
+    is governed by U.S. law. By accessing or using the Services or otherwise providing
+    information to us, you consent to the processing and transfer of information in
+    and to the U.S. and other countries.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'Sharing of Information Game Circus may share personal information
+    about you as follows: With third party vendors, consultants and other service
+    providers who work on Game Circus'' behalf and need access to such information;
+    With other players (for example, in connection with leaderboards); In connection
+    with, or during negotiations of, any merger, sale of company assets, financing
+    or acquisition of all or a portion of Game Circus'' business by another company;
+    If Game Circus has a good faith belief that disclosure is reasonably necessary
+    to comply with any applicable law, regulation, legal process or governmental request;
+    to enforce Game Circus'' agreements, policies and Terms of Service; and to protect
+    Game Circus, its users and others from harm; and With your consent or at your
+    direction.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Game Circus may also share aggregated or non-personally identifiable
+    information, which cannot reasonably be used to identify you.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Children Our Services are designed for users who are 13 or older.
+    If you are a parent or guardian of a child under 13 and believe that your child
+    might have provided personal information to Game Circus, please contact us at
+    support@gamecircus.com. If we become aware that a child under 13 has provided
+    us with personal information, we take steps to delete such information.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Security Game Circus takes reasonable measures, including administrative,
+    technical, and physical safeguards to help protect personal information from loss,
+    theft, misuse, and unauthorized access, disclosure, alteration, and destruction.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Third Party Analytics and Advertising Game Circus allows third parties
+    to provide analytics services, to serve advertisements through the Services, and
+    to collect data to use for purposes of serving ads targeted to your interests.
+    These third parties may use cookies, web beacons, and other technologies to collect
+    information about your use of the Services and other mobile applications, including
+    your IP address, device identifiers, MAC address, software and hardware information,
+    browser information, Internet and online usage information, and in-game information.
+    This Privacy Policy does not apply to, and Game Circus is not responsible for,
+    third party cookies, web beacons, or other tracking technologies and Game Circus
+    encourages you to check the privacy policies of these third parties to learn more
+    about their privacy practices.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Game Circus allows third parties to provide analytics services,
+      to serve advertisements through the Services, and to collect data to use for
+      purposes of serving ads targeted to your interests.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties may use cookies, web beacons, and other technologies
+      to collect information about your use of the Services and other mobile applications,
+      including your IP address, device identifiers, MAC address, software and hardware
+      information, browser information, Internet and online usage information, and
+      in-game information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: Your Privacy Choices Information About You. If you wish to have the
+    information Game Circus collects about you updated or deleted, please contact
+    support@gamecircus.com, but note that Game Circus may retain information about
+    you for legitimate business purposes or as required by law.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Location Information. You have the ability to turn location-based
+    services on and off by adjusting the settings of your mobile device or by following
+    the standard uninstall process and removing all Game Circus applications from
+    your mobile device.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Location Information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You have the ability to turn location-based services on and off
+      by adjusting the settings of your mobile device or by following the standard
+      uninstall process and removing all Game Circus applications from your mobile
+      device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Cookies. Most web browsers are set to accept cookies by default. If
+    you prefer, you can usually choose to set your browser to remove or reject cookies;
+    however, the Services may not function properly if you do so.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: If you prefer, you can usually choose to set your browser to remove
+      or reject cookies; however, the Services may not function properly if you do
+      so.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Most web browsers are set to accept cookies by default.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Advertising Opt Out. Most mobile devices provide the ability to opt
+    out of the collection and use of information from your device for purposes of
+    serving ads targeted to your interests. For more information, and to exercise
+    these choices, consult the settings on your device.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Changes to the Privacy Policy Game Circus may change this Privacy
+    Policy at any time. If Game Circus makes changes, it will notify you by revising
+    the "Last Updated" date above and, in some cases, it may provide you with more
+    prominent notice (such as adding a statement to its homepage or sending you a
+    push notification or email). Game Circus encourages you to review this Privacy
+    Policy frequently to stay informed about its information practices and your privacy
+    choices.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Contact Information If you have questions, comments, or concerns about
+    this Privacy Policy or Game Circus' privacy practices, please contact Game Circus
+    at support@gamecircus.com
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Privacy Policy | Terms of Service | Media Kit | Contact Us
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: "Copyright \xA9 2010 - 2017 Game Circus"
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: When you access or use the Services, third parties do not collect
+    information about device properties, such as Media Access Control ("MAC") address,
+    unique device identifier ("UDID"), or other device identifiers; device software
+    platform and firmware; mobile phone carrier; geographical data such as zip code,
+    area code and location.
+  annotations:
+  - practice: Contact_ZIP_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you access or use the Services, third parties do not collect
+      information about device properties, such as Media Access Control ("MAC") address,
+      unique device identifier ("UDID"), or other device identifiers; device software
+      platform and firmware; mobile phone carrier; geographical data such as zip code,
+      area code and location.
+    annotations:
+    - practice: Contact_ZIP_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 23
+  segment_text: Game Circus does not allow third parties to provide analytics services,
+    to serve advertisements through the Services, or to collect data to use for purposes
+    of serving ads targeted to your interests. These third parties may not use cookies,
+    web beacons, or other technologies to collect information about your use of the
+    Services and other mobile applications, including your IP address, device identifiers,
+    MAC address, software and hardware information, browser information, Internet
+    and online usage information, or in-game information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Game Circus does not allow third parties to provide analytics services,
+      to serve advertisements through the Services, or to collect data to use for
+      purposes of serving ads targeted to your interests. These third parties may
+      not use cookies, web beacons, or other technologies to collect information about
+      your use of the Services and other mobile applications, including your IP address,
+      device identifiers, MAC address, software and hardware information, browser
+      information, Internet and online usage information, or in-game information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 24
+  segment_text: Game Circus is not logging information about your use of the Services,
+    particularly, the type of browser you use, access times, pages viewed, your IP
+    address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Game Circus is not logging information about your use of the Services,
+      particularly, the type of browser you use, access times, pages viewed, your
+      IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 25
+  segment_text: The types of information Game Circus does not collect directly from
+    you are your name, e-mail address, and phone number.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The types of information Game Circus does not collect directly
+      from you are your name, e-mail address, and phone number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED

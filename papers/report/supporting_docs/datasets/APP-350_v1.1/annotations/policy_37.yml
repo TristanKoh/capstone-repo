@@ -1,0 +1,252 @@
+policy_id: 37
+policy_name: Duolingo
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy GENERAL At Duolingo, we know you care about your personal
+    information, so we have prepared this privacy policy (our "Privacy Policy") to
+    explain how we collect, use and share it. By using or accessing the Service, you
+    agree to the terms of this Privacy Policy. Capitalized terms not defined here
+    have the meanings set forth in the terms and conditions (the "Terms and Conditions"),
+    located at https://www.duolingo.com/terms. We may update our Privacy Policy to
+    reflect changes to our information practices. If we do this and the changes are
+    material, we will post a notice that we have made changes to this Privacy Policy
+    on the Website for at least 7 days after the changes are made, and we will indicate
+    the date these terms were last revised at the bottom of the Privacy Policy. Any
+    revisions to this Privacy Policy will become effective the earlier of (i) the
+    end of that 7-day period or (ii) the first time you access or use the Service
+    after any such changes.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'INFORMATION WE COLLECT When you use Duolingo you provide us with
+    two types of information: (i) information you submit via the Service and (ii)
+    information regarding your use of the Service collected by us as you interact
+    with the Service.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: When you enter the Website, we collect your browser type and your
+    IP address (a unique address that identifies your computer on the Internet). When
+    you use our mobile Application, we collect your device type, your device ID, and
+    your IP address. In addition, we store certain information from your browser using
+    "cookies." A cookie is a piece of data stored on the user's computer tied to information
+    about the user. We use session ID cookies to confirm that users are logged in.
+    If you do not want information collected through the use of cookies, there is
+    a simple procedure in most browsers that allows you to deny or accept the cookie
+    feature; however, you should note that cookies may be necessary to provide you
+    certain features available on the Website (e.g., customized delivery of information).
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you enter the Website, we collect your browser type and your
+      IP address (a unique address that identifies your computer on the Internet).
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use our mobile Application, we collect your device type,
+      your device ID, and your IP address.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Through the registration process you may provide us with your name
+    and email address, hometown, and other information that may be requested during
+    the registration process. If you register for the Duolingo English Test, each
+    time you take a test you must also provide a picture or scan of a current, valid
+    driver's license, passport or other government issued ID and a picture of your
+    face (a "Testing ID"). Your Testing ID will be stored for ninety (90) days after
+    validation to help resolve any disputes.
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Through the registration process you may provide us with your name
+      and email address, hometown, and other information that may be requested during
+      the registration process.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: When you use the Service you may submit information and content to
+    your profile, generate Activity Data through engaging in educational activities
+    on the Service, or send messages and otherwise transmit information to other users.
+    We store this information so that we can provide you the Service and offer personalized
+    features.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: When you use the Service to take an examination in the Duolingo English
+    Test you must provide access to your computer's webcam and microphone. We will
+    use them to record you during the entire examination period ("Testing Video").
+    We store this recording to validate that you took the examination without improper
+    assistance. While using the Duolingo English Test you will submit answers to questions
+    and other information as part of the testing and evaluation process. We will store
+    that information and use it to evaluate your performance on the test, to report
+    results and to evaluate the usefulness, accuracy and other aspects of the Duolingo
+    English Test.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We do not share your personal information with third-parties unless
+    it is necessary to offer the Service or required by law (see below for specifics).
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: USE OF INFORMATION OBTAINED BY DUOLINGO We may use your contact information
+    to send you notifications regarding new services offered by Duolingo that we think
+    you may find valuable. Duolingo may also send you service-related announcements
+    from time to time through the general operation of the Service. Generally, you
+    may opt out of such emails.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Duolingo may also send you service-related announcements from time
+      to time through the general operation of the Service.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: Generally, you may opt out of such emails.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use your contact information to send you notifications regarding
+      new services offered by Duolingo that we think you may find valuable.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Profile information is used by Duolingo to be presented back to and
+    edited by you when you access the Service and to be presented to other users.
+    In some cases, other users may be able to supplement your profile, including by
+    submitting comments (which can be deleted by you).
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Duolingo may use or share aggregate or anonymous data collected through
+    the Service, including Activity Data, for purposes such as understanding or improving
+    the service.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: When you take a test in the Duolingo English Test, Duolingo will use
+    your Testing ID, and other information available to Duolingo to validate your
+    actual identity so that we may provide accurate testing results to Score Recipients
+    (as defined below). During the test, we will use your PC's camera and microphone
+    throughout the test to collect a Testing Video. Your User Testing ID will be compared
+    to your Testing Video to ensure that the person who registered for the examination
+    (and whose identity Duolingo has validated) is the same person who took the examination.
+    Testing Video may also be used by our research team for examination validation
+    and improvement purposes.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'SHARING YOUR PERSONALLY-IDENTIFIABLE INFORMATION WITH THIRD PARTIES
+    Duolingo shares your personally-identifiable information only when it is reasonably
+    necessary to offer the Service, legally required, or permitted by you. For example:
+    We may provide personally-identifiable information to service providers who help
+    us bring you the Service, such as hosting the Service at a co-location facility
+    or sending email updates. In connection with these operations, our service providers
+    may have access to personally-identifiable information for a limited time. When
+    we utilize service providers for processing any personally-identifiable information,
+    we implement reasonable contractual protections limiting the use of that personally-identifiable
+    information to the provision of services to Duolingo.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We may be required to disclose personally-identifiable information
+    in response to lawful requests, such as subpoenas or court orders, or in compliance
+    with applicable laws. Additionally, we may share account or other personally-identifiable
+    information when we believe it is necessary to comply with law, to protect our
+    interests or property, to prevent fraud or other illegal activity perpetrated
+    through the Service or using the Duolingo name, or to prevent imminent harm. This
+    may include sharing personally-identifiable information with other companies,
+    lawyers, agents or government agencies.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Duolingo will share the complete and accurate results of Duolingo
+    English Tests with such institutions, including universities, potential employers,
+    or other third parties, (collectively, "Score Recipients") as you specify when
+    you finish an examination. We will never share examination results with any party
+    without your direction, except that anonymized examination results may be used
+    by Duolingo and its partners to improve the examination and for research and analysis.
+    We will not share your Testing ID with any Score Recipients, except with your
+    consent upon initiation of a dispute by a Score Recipient.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: If the ownership of all or substantially all of the Duolingo business,
+    or individual business units or assets owned by Duolingo that are related to the
+    Service, were to change, your personally-identifiable information may be transferred
+    to the new owner. In any such transfer of information, your personally-identifiable
+    information would remain subject to this section.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: UPDATING OR DELETING YOUR PERSONALLY-IDENTIFIABLE INFORMATION You
+    have at all times the right to delete your account with Duolingo by following
+    the instructions available through the Service. After your account is deleted
+    we will retain aggregate or anonymous data collected through the Service, including
+    Activity Data, which may be used by Duolingo and shared with third parties in
+    any manner. Information associated with the Duolingo English Test, including examination
+    results and your Testing Video, may be collectively deleted from your Duolingo
+    account, but anonymized examination data, including your examination results and
+    Testing Video, may be kept indefinitely by Duolingo to improve the examination
+    and for research and analysis.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: CALIFORNIA PRIVACY RIGHTS California Civil Code Section 1798.83 entitles
+    residents of the State of California to request from a business, with whom that
+    resident has an established business relationship, certain information regarding
+    the types of personal information the business shares with third parties for direct
+    marketing purposes by such third party and the identities of the third parties
+    with whom the business has shared such information during the immediately preceding
+    calendar year. If you would like to request a copy of this information disclosure
+    from Duolingo, please contact us at testcenter-support@duolingo.com.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: LINKS The Service may contain links to other websites. We are not
+    responsible for the privacy practices of other websites. We encourage users to
+    be aware when they leave the Service to read the privacy statements of other websites
+    that collect personally identifiable information. This Privacy Policy applies
+    only to information collected by Duolingo via the Service.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: INFORMATION SECURITY Duolingo has implemented administrative and technical
+    safeguards it believes are sufficient to protect the confidentiality, integrity
+    and availability of your Testing ID, User Photo, access credentials and Duolingo
+    English Test results. However, we believe that a determined attacker with sufficient
+    resources could defeat those safeguards and may, as a result, gain access to the
+    information we seek to protect.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: DO NOT TRACK The Service is not designed to respond to "do not track"
+    signals sent by some browsers.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: CONTACT US To understand more about our Privacy Policy, access your
+    information, or ask questions about our privacy practices or issue a complaint,
+    please contact us at privacy@duolingo.com
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Last revised on February 15, 2016.
+  annotations: []
+  sentences: []

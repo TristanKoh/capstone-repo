@@ -1,0 +1,111 @@
+policy_id: 270
+policy_name: Mobigame
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy Last updated April 22, 2013 This Privacy Policy, part
+    of our overall Terms of Service, describes how and when Mobigame collects, uses
+    and shares your information when you use our Service. We will ask for your consent
+    before collecting or using information for a purpose other than those that are
+    set out in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Information we collect Device information. We may collect device-specific
+    information, such as your hardware model and operating system version.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Application information. We may collect information about your installation,
+    such us the operating system type and application version number.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Information you give us. When you contact Mobigame, we may keep a
+    record of your communication to help solve any issues you might be facing. We
+    may use your email address to inform you about our services, such as letting you
+    know about upcoming changes or improvements.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may use your email address to inform you about our services,
+      such as letting you know about upcoming changes or improvements.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you contact Mobigame, we may keep a record of your communication
+      to help solve any issues you might be facing.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Third-party services. We may use third-party services to help us understand
+    the use of our Service, such as Google Analytics. These third-party service providers
+    may collect information sent by your browser as part of a web page request, such
+    as cookies or your IP address.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These third-party service providers may collect information sent
+      by your browser as part of a web page request, such as cookies or your IP address.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may use third-party services to help us understand the use of
+      our Service, such as Google Analytics.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Information we share We do not share or disclose your private personal
+    information unless necessary to comply with a law, regulation or legal request.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We may share or disclose your non-private, aggregated or otherwise
+    non-personal information, such as aggregate usage statistics.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Information security We will protect personal information by reasonable
+    security safeguards against loss or theft, as well as unauthorized access, disclosure,
+    copying, use or modification.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: We do not store your email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not store your email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 9
+  segment_text: We do not use third-party services, such as Google Analytics, and,
+    consequently, no third party collects information sent by your browser, such as
+    cookies or your IP address.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not use third-party services, such as Google Analytics, and,
+      consequently, no third party collects information sent by your browser, such
+      as cookies or your IP address.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED

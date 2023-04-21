@@ -1,0 +1,144 @@
+policy_id: 276
+policy_name: Munkee
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy Last Updated: June 12, 2015 THIS PRIVACY POLICY EXPLAINS
+    WHAT INFORMATION ABOUT YOU IS COLLECTED, HOW THIS IS DONE, WHAT IS IT USED FOR,
+    AND TO WHOM MUNKEE APPS, INC. ("Munkee") DISCLOSES THIS INFORMATION AND UNDER
+    WHAT CIRCUMSTANCES.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: This Privacy Policy may change from time to time. If changes are made,
+    you will be notified.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Information about You We collect information that you provide directly
+    to us. When you select certain advertisements within the app, additional information
+    is collected (i.e. device information, general location data, and preferences).
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you select certain advertisements within the app, additional
+      information is collected (i.e.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: device information, general location data, and preferences).
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Information Automatically Collected By using our software and its
+    associated services (collectively "Application"), we collect information about
+    you that includes, usage information, device information, and information collected
+    by cookies and other technologies such as web beacons and tracking pixels.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using our software and its associated services (collectively
+      "Application"), we collect information about you that includes, usage information,
+      device information, and information collected by cookies and other technologies
+      such as web beacons and tracking pixels.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Disclosure of Information This information is used to help improve
+    our products, services, advertising, and in development of features. Additionally,
+    we may use this information to provide and deliver products and services you request,
+    send messages, respond to comments you send Munkee, monitor and analyze trends,
+    investigate and/or prevent fraud or unauthorized or illegal activity.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Munkee is based in the United States and the information collected
+    is governed by U.S. law. By accessing and/or using the Application you consent
+    to the processing and transfer of information in and to the U.S. and other countries
+    for the purpose stated in the Terms of Use and Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Munkee discloses information collected when it is necessary by law,
+    legal process, litigation, and/or requests from public and governmental authorities
+    within or outside your country of residence. We may also disclose information
+    if Munkee determines that it is reasonably necessary to enforce our Terms of Use
+    or protect our operations or other users.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Munkee also discloses your information to those to whom you send messages,
+    strategic partners of Munkee, in connection with, or during negotiations of, any
+    merger, sale of company assets, financing or acquisition of all or a portion of
+    our business. Aggregated or de-identified information may be shared as Munkee
+    deems appropriate.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Security Munkee takes precautions - including administrative, technical,
+    and physical measures - to safeguard your personal information against loss, theft,
+    and misuse, as well as against unauthorized access, disclosure, alteration and
+    destruction.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'Android Users: Users of the Android operating system will also have
+    information collected regarding the installed applications on your device. This
+    information will be used to provide advertisements that are better suited to your
+    interests.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Children We do not knowingly collect personal information for users
+    under the age of thirteen.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'Contact To contact Munkee, please email us at: instasize@munkee.co'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: When you use our software and its associated services (collectively
+    "Application"), we do not receive information about you that includes, usage information,
+    device information, or information collected by cookies and other technologies
+    such as web beacons and tracking pixels.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you use our software and its associated services (collectively
+      "Application"), we do not receive information about you that includes, usage
+      information, device information, or information collected by cookies and other
+      technologies such as web beacons and tracking pixels.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 13
+  segment_text: When you select advertisements within the app, no information is collected
+    (i.e. no device information, general location data, or preferences).
+  annotations:
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you select advertisements within the app, no information is
+      collected (i.e. no device information, general location data, or preferences).
+    annotations:
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED

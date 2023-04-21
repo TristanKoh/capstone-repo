@@ -1,0 +1,188 @@
+policy_id: 212
+policy_name: DoMobile
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: DoMobile APPS Contact us Privacy Policy Released on Jun 22, 2016 DoMobile
+    values your privacy. When you use our services (including websites and mobile
+    applications), we may collect and use your related information. If the related
+    information was not provided, otherwise you may not register as our user to use
+    some of our services or we may not able to operate effectively and provide you
+    with the best experiences from our services. So we've developed a Privacy Policy
+    that covers aspects of how we collect, use, disclose, transfer, and store your
+    information. Please take a moment to familiarize yourself with our privacy practices
+    and let us know if you have any questions.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Collection and Use of Personal Information Personal Information is
+    what identifies you or another person, such as your first name and last name,
+    physical addresses, email addresses, telephone numbers, fax numbers and information
+    stored within your device.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal Information is what identifies you or another person,
+      such as your first name and last name, physical addresses, email addresses,
+      telephone numbers, fax numbers and information stored within your device.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 2
+  segment_text: We will not collect or store your Personal Information and we will
+    not use, transfer or disclose your Personal Information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will not collect or store your Personal Information and we will
+      not use, transfer or disclose your Personal Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: Collection and Use of Non-Personal Information We collect your non-personal
+    information when you are using our applications or visiting our website, including
+    your device information, operation system, logs. For example, we may collect IMEI
+    code when you try to reset password.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may collect IMEI code when you try to reset password.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect your non-personal information when you are using our
+      applications or visiting our website, including your device information, operation
+      system, logs.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: We may collect the information you provided to us. Please make sure
+    that you will not send us or disclose any sensitive information such as information
+    related to racial or ethnic origin, political opinions, religious or other beliefs,
+    health information, sexual orientation, criminal background or membership of past
+    organizations, including trade union memberships.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We will not sell, trade, or transfer your information to any third
+    party. We will not combine Non-Personal Information with Personal Information,
+    such as combining your unique User Device number with your name.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'We may use your Information for the following purposes: 1.to provide
+    our services to you; 2.to assure the safety of products and services we offer
+    via using your information on identification-check, customer services, security,
+    fraud-detection, archives and backups when we are providing you with our services;'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 3.to help us develop new services and improve our existing services;
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 4.to better understand how you access and use our services, for the
+    purposes of improving and personalizing our services to better respond your desires
+    and preferences, including language and location setting, personalized services,
+    help and instructions, or other responses to you and other customers on other
+    aspects of our services;
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 5.to evaluate the effect of advertisements and other marketing scheme
+    we put in our services and improve it;
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 6.to verify software or administer software upgrades; 7.to allow you
+    to participate in surveys about our products and services.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "8.It may be necessary \u2212 by law, legal process, litigation, and/or\
+    \ requests from public and governmental authorities within or outside your country\
+    \ of residence \u2212 for DoMobile to disclose your personal information. We may\
+    \ also disclose information about you if we determine that for purposes of national\
+    \ security, law enforcement, or other issues of public importance, disclosure\
+    \ is necessary or appropriate. We may also disclose information about you if we\
+    \ determine that disclosure is reasonably necessary to enforce our terms and conditions\
+    \ or protect our operations or users."
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Information Security DoMobile is very concerned about safeguarding
+    the confidentiality of your information. We will not collect Personal Information,
+    in the meanwhile we employ administrative, physical and electronic measures designed
+    to protect your Non-Personal Information from unauthorized access and use.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Children We understand the importance of taking extra precautions
+    to protect the privacy and safety of children during using DoMobile products and
+    services. We do not collect, use or disclose personal information from children.
+    If you are under 18, you may use our website with accompany of your parents or
+    guardians.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Privacy Questions If you have any questions or concerns about DoMobile's
+    Privacy Policy or data processing or if you would like to make a complaint about
+    a possible breach of local privacy laws, please contact us at support@domobile.com.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: DoMobile may update its Privacy Policy from time to time, which will
+    not reduce your rights under this Privacy Policy. When we change the policy in
+    a material way, a notice will be posted on our website along with the updated
+    Privacy Policy. If you do not agree to any modifications to this Policy, you could
+    immediately stop all use of all the Services. Your continued use of the Site following
+    the posting of any modifications to this Policy will constitute your acceptance
+    of the revised Policy.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: "Privacy Policy | Copyright \xA92017 DoMobile Ltd. All Rights Reserved"
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We do not collect your non-personal information when you are using
+    our applications or visiting our website, including your device information, operation
+    system, logs. For example, we do not collect IMEI code.
+  annotations:
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your non-personal information when you are using
+      our applications or visiting our website, including your device information,
+      operation system, logs. For example, we do not collect IMEI code.
+    annotations:
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED

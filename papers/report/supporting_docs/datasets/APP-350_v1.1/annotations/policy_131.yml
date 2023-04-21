@@ -1,0 +1,344 @@
+policy_id: 131
+policy_name: CheetahMobileSecurity
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Cheetah Mobile Clean Master CM Security PIANO TILES 2 LIVE.ME More
+    Products Clean Master CM Security Live.me WhatsCall Piano Tiles 2 PhotoGrid News
+    Republic Battery Doctor CM Launcher CM Browser CM Locker CM Backup CM Behavior
+    Cloud Clean Master for PC Business Cheetah Ad Platform Pegasi Libra Media Blog
+    Security Topics CEO Talks Press Release About Company Information Investor Relations
+    Promotion Policy Global Talent Contact Us Follow Us Facebook Twitter LinkedIn
+    Home / CM Security Privacy Policy CM Security Privacy Policy Modified on August
+    6, 2015.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Introduction Cheetah Mobile values your privacy. This Privacy Policy
+    informs you of your choices and our practices regarding any Information you provided
+    to us and we collect.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: The use of our services may collect and use of your Information on
+    our services (including our websites and mobile applications). IMPORTANT, you
+    should not install CM Security in the event that you do not consent with this
+    privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: "What Information We Collect? For providing our services, we may collect,\
+    \ store and use the following Information related to you: \"Collected Information\"\
+    : \u2022 Information about malicious applications, files and other potential threats\
+    \ on your tablet, mobile phone or other applicable device and their behaviors\
+    \ and origins; \u2022 Information about your device including device ID, apps\
+    \ of the third party installed on the device, manufacturer of the device, internet\
+    \ history and bookmarks, screen size and model of the device, the mobile network\
+    \ you use but not the phone number; \u2022 Information we collected as you use\
+    \ our services, such as certain Log Data and public information."
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For providing our services, we may collect, store and use the
+      following Information related to you:'
+    annotations:
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: 'For providing our services, we may collect, store and use the
+      following Information related to you: "Collected Information":'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: Information about your device including device ID, apps of the
+      third party installed on the device, manufacturer of the device, internet history
+      and bookmarks, screen size and model of the device, the mobile network you use
+      but not the phone number
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: What Information We Collect?
+    annotations:
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: "\u2022 Location. Upon your choose to use the locate family feature\
+    \ and you establish the contact with your family, you consent that with your family\
+    \ consent, we could collect the location of your family to let you know the above\
+    \ family location."
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Upon your choose to use the locate family feature and you establish
+      the contact with your family, you consent that with your family consent, we
+      could collect the location of your family to let you know the above family location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: "\"Log Data\" is technical information that is automatically collected\
+    \ by us when you use our services, including: \u2022 Error log and a DUMP file\
+    \ automatically generated when an unexpected error occurs or an application crashes;\
+    \ and We do not collect your personal identifiable information when you using\
+    \ our product, such as name, phone number, physical address."
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your personal identifiable information when you
+      using our product, such as name, phone number, physical address.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 6
+  segment_text: "\u2022 The number calling or called not including in the contact\
+    \ of the end user's device and the number marked as the spam or the merchant number\
+    \ submitted by the end user. Please note that we do not collect any contact information\
+    \ in your device and we only read the contact number in your device to specify\
+    \ the number not in your contact. \u2022 Call Log not including the private information."
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that we do not collect any contact information in your
+      device and we only read the contact number in your device to specify the number
+      not in your contact.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: The number calling or called not including in the contact of the
+      end user's device and the number marked as the spam or the merchant number submitted
+      by the end user.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: "\u2022 To provide weather information, you GPS information may be\
+    \ read by us. Please note that we will not store or transfer your GPS information\
+    \ nor do we use such information to specify you."
+  annotations:
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that we will not store or transfer your GPS information
+      nor do we use such information to specify you.
+    annotations:
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: To provide weather information, you GPS information may be read
+      by us.
+    annotations:
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: "How We Use Your Information We may use your Information for any of\
+    \ the following purposes: \u2022 to provide our services to you; \u2022 to find\
+    \ out the reason that the error occurred or app crashed and improve the quality\
+    \ of the product; \u2022 for customer service, security, fraud-detection, archival\
+    \ and backup purposes in connection with the provision of our services; \u2022\
+    \ to better understand how you access and use our services, for the purposes of\
+    \ trying to improve our services and to respond to customer desires and preferences,\
+    \ including language and location customisation, personalized help and instructions,\
+    \ or other responses to your and other customers' usage of our services; \u2022\
+    \ to help us develop our new services and improve our existing services; \u2022\
+    \ to assess the effectiveness of and improve advertising and other marketing and\
+    \ promotional activities on or in connection with our services; \u2022 for the\
+    \ purposes of software verification or administering software upgrades; \u2022\
+    \ for allow you to participate in surveys about our products and services. \u2022\
+    \ Provide the end user with the spam number or the merchant number notice."
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Sharing Of Your Information We do not sell, trade, or otherwise transfer
+    to outside parties your personally identifiable information.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 'We may disclose your Non-personal information: To trusted third parties
+    who assist us in operating our website, conducting our business, cooperation with
+    us or servicing you, so long as those parties agree to keep this information confidential.'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: We will access, use or disclose your information with other organizations
+    or entities for reasons that required by any applicable law, regulation, legal
+    process or enforceable governmental request;
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Detect, prevent, or otherwise fraud, security or technical issues;
+    Protect against harm to the rights, property or safety of Cheetah Mobile, our
+    users or the public as required or permitted by law.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Security Cheetah Mobile is very concerned about safeguarding the confidentiality
+    of your information. We do not collect Personal Information, and we employ administrative,
+    physical and electronic measures designed to protect your Non-Personal Information
+    from unauthorized access and use. Please be aware that no security measures that
+    we take to protect your information is absolutely guaranteed to avoid unauthorized
+    access or use of your Non-Personal Information which is impenetrable.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Sensitive Information We ask that you not send us, and you not disclose,
+    any sensitive Personal Information (e.g., information related to racial or ethnic
+    origin, political opinions, religion or other beliefs, health, sexual orientation,
+    criminal background or membership in past organizations, including trade union
+    memberships) on or through an Application, the Services or the Site or otherwise
+    to us.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: International Users Your Information collected by us may be stored
+    and processed in any country where we have facilities, and by using an Application,
+    the Services or the Site you consent to the transfer of your Information to countries,
+    including the United States, which may be outside of your country of residence
+    and may provide for different and less stringent data protection rules than in
+    your country. If you object to your Information being transferred or used as described
+    in this Policy, please do not use any Application, the Services or the Site and
+    immediately delete all Applications from your User Devices.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Children We do not provide service focus on Children. If you are under
+    13, you may use our website when you are with a parent or guardian.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Changes to our Privacy Policy Our Privacy Policy may change from time
+    to time, we will post any privacy policy changes on this page, so please review
+    it periodically. We may provide you additional forms of notice of modifications
+    or updates as appropriate under the circumstances.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Contact Us If you wish to contact us regarding this Privacy Policy
+    or any privacy-related matters, please contact our Privacy Officer via email at
+    support@cmcm.com
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: "Privacy Policy | Cheetah Mobile \xA9 2017 \xB7 EnglishEnglishEspa\xF1\
+    olFran\xE7aisP\u0443\u0441\u0441\u043A\u0438\u0439Portugu\xEAs\u65E5\u672C\u8A9E\
+    \uD55C\uAD6D\uC5B4\u7E41\u9AD4\u4E2D\u6587\u7B80\u4F53\u4E2D\u6587"
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'What Information We Collect? For providing our services, we do not
+    use the following Information related to you: ... The number calling or called
+    not including in the contact of the end user''s device and the number marked as
+    the spam or the merchant number submitted by the end user.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'What Information We Collect? For providing our services, we do
+      not use the following Information related to you: ... The number calling or
+      called not including in the contact of the end user''s device and the number
+      marked as the spam or the merchant number submitted by the end user.'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 21
+  segment_text: What Information We Collect? For providing our services, we do not
+    gather your GPS information. Please note that we will not store or transfer your
+    GPS information to advertisers nor do we use such information to specify you.
+  annotations:
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: What Information We Collect? For providing our services, we do
+      not gather your GPS information. Please note that we will not store or transfer
+      your GPS information to advertisers nor do we use such information to specify
+      you.
+    annotations:
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 22
+  segment_text: 'What Information We Collect? For providing our services, it is not
+    necessary for us or third parties to collect, store or use the following Information
+    related to you: ... GPS Location. We do not collect the location of your family.'
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'What Information We Collect? For providing our services, it is
+      not necessary for us or third parties to collect, store or use the following
+      Information related to you: ... GPS Location. We do not collect the location
+      of your family.'
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 23
+  segment_text: 'What Information We Collect? For providing our services, we are not
+    storing and using the following Information related to you: IMEI, SSID, and locations
+    of Bluetooth beacons.'
+  annotations:
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_SSID_BSSID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'What Information We Collect? For providing our services, we are
+      not storing and using the following Information related to you: IMEI, SSID,
+      and locations of Bluetooth beacons.'
+    annotations:
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_SSID_BSSID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED

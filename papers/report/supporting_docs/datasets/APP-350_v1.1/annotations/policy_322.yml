@@ -1,0 +1,2079 @@
+policy_id: 322
+policy_name: Tencent
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: WECHAT - PRIVACY POLICY INTRODUCTION Welcome to WeChat! Tencent International
+    Pte. Ltd. (" we", " our" or " us") values your privacy. This Privacy Policy informs
+    you of your choices and our practices regarding any Information (as defined in
+    the "The Information We Collect and How We Collect It" section below) you provide
+    to us.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: The use of WeChat (through the WeChat mobile app, http://www.wechat.com
+    or any third party platforms through which WeChat is provided) may involve the
+    collection and use of your Information. It is important for you to understand
+    how this happens and how you may control it, so please read this Privacy Policy
+    carefully.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: By using WeChat, you agree that we may collect, use and share your
+    Information in accordance with this Privacy Policy, as revised from time to time.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'If you wish to contact us regarding this Privacy Policy or any privacy-related
+    matters, please contact our Privacy Officer via email at feedback@wechat.com or
+    via postal mail at Level 29, Three Pacific Place, 1 Queen''s Road East, Wanchai,
+    Hong Kong (Attention: Privacy Officer, Legal Department).'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: SCOPE AND APPLICATION OF THIS PRIVACY POLICY This Privacy Policy applies
+    to WeChat, including any services associated with WeChat that incorporates this
+    Privacy Policy by reference (for example, the WeChat Official Account Admin Platform).
+    Those WeChat-related services may have further privacy-related terms that you
+    must agree to as part of your use of those services.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: This Privacy Policy is incorporated into and forms part of the WeChat
+    Terms of Service that you have agreed to in order to use WeChat. Any terms used
+    in this Privacy Policy will have the same meaning as the equivalent defined terms
+    in the WeChat Terms of Service, unless otherwise defined in this Privacy Policy
+    or the context requires otherwise.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Please also note that this Privacy Policy does not apply to Information
+    collected: (i) through third party services (including any third party websites)
+    that you may access through WeChat; or (ii) by other companies and organisations
+    who advertise their services on WeChat.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: CHANGES TO THIS PRIVACY POLICY We may from time to time revise or
+    add specific instructions, policies and terms to this Privacy Policy. These instructions,
+    policies and terms form part of this Privacy Policy. Where we consider that any
+    changes to this Privacy Policy are reasonably material, we will notify you via
+    WeChat (including via direct messaging or the WeChat website), other direct communication
+    to you, or other means prior to the change becoming effective.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: By continuing to use WeChat after any changes to this Privacy Policy,
+    with or without notice from us,you are agreeing to the revised Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'THE INFORMATION WE COLLECT AND HOW WE COLLECT IT In providing WeChat,
+    we collect, store and use the following Information relating to you: " Information"
+    is Personal Information and Non-Personal Information; " Personal Information"
+    is any information or combination of information that relates to you, and can
+    be used to identify you. Personal Information may include the following: information
+    you make available to us when you open a WeChat account, such as your name, telephone
+    number, email address and credit card information; any information included in
+    your publicly visible WeChat profile, which may include your profile ID, name
+    and photo; information you make available to us via your use of WeChat - for example,
+    via: WeChat Moments; your sharing of your contact list with WeChat in the "Recommended
+    Friends" function in order to connect with other WeChat users; or'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In providing WeChat, we collect, store and use the following Information
+      relating to you: "Information" is Personal Information and Non-Personal Information;
+      "Personal Information" is any information or combination of information that
+      relates to you, and can be used to identify you.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: "Personal Information may include the following: information you\
+      \ make available to us when you open a WeChat account, such as your name, telephone\
+      \ number, email address and credit card information; any information included\
+      \ in your publicly visible WeChat profile, which may include your profile ID,\
+      \ name and photo; information you make available to us via your use of WeChat\
+      \ \u2013 for example, via: WeChat Moments; your sharing of your contact list"
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: your sharing of your biometric information via WeChat - e.g. by using
+    your voice to authentic your identity and log into WeChat via Voiceprint. Please
+    note that we will always expressly ask for your consent prior to collecting any
+    biometric information about you; information made available by another user about
+    you via their use of WeChat - for example, any Shared Information that others
+    using WeChat make available about you via WeChat Moments and communications they
+    make to you and others using WeChat; and information we collect as you use WeChat,
+    such as certain Location Data and Log Data.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: and information we collect as you use WeChat, such as certain Location
+      Data and Log Data.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: for example, any Shared Information
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: information made available by another user
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: '" Location Data" is information that we collect regarding your location
+    (when you use a location-enabled service), including: the location of your device
+    when you use WeChat, such as from the GPS, WiFi, compass, accelerometer or other
+    sensors in your mobile device; the IP address of the device or internet service
+    you use to access WeChat; and other information made available by you or others
+    that gives an indication as to where you are or have been located, such as account
+    information that indicates where you are located, and Shared Information that
+    you or others post which indicates your location (for example, any geotag information
+    that is embedded in any photos you make available on WeChat or that is made available
+    to us when you use the WeChat "Shake" or "People Nearby" functions).'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '" Location Data" is information that we collect regarding your
+      location (when you use a location-enabled service), including: the location
+      of your device when you use WeChat, such as from the GPS, WiFi, compass, accelerometer
+      or other sensors in your mobile device; the IP address of the device or internet
+      service you use to access WeChat; and other information made available by you
+      or others that gives an indication as to where you are or have been located,
+      such as'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: geotag information that is embedded in any photos you make available
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: '" Log Data" is technical information that is automatically collected
+    by us when you use WeChat, whether through the use of cookies, web beacons, log
+    files, scripts and etags (as explained in more detail in the "Tracking Technologies"
+    section below) or otherwise, including: technical information, such as your mobile
+    carrier-related information, configuration information made available by your
+    web browser or other programs you use to access WeChat, your IP address and your
+    device''s version and identification number; information about what you have searched
+    for and looked at while using WeChat, such as web search terms used, social media
+    profiles visited and details of other information and content accessed or requested
+    by you in using WeChat; information about communications you have made using WeChat,
+    such as the people you''ve communicated with and the time, data and duration of
+    your communications; and metadata, which means information related to items you
+    have made available through WeChat, such as the date, time or location that a
+    shared photograph or video was taken or posted.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '" Log Data" is technical information that is automatically collected
+      by us when you use WeChat, whether through the use of cookies, web beacons,
+      log files, scripts and etags (as explained in more detail in the "Tracking Technologies"
+      section below) or otherwise, including:'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: date, time or location that a shared photograph or video was taken
+      or posted.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: technical information, such as your mobile carrier-related information,
+      configuration information made available by your web browser or other programs
+      you use to access WeChat, your IP address and your device's version and identification
+      number
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: the date, time or location that a shared photograph or video was
+      taken or posted.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+  - sentence_text: your IP address and your device's version and identification number;
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: '" Non-Personal Information" is any information that relates to you
+    but from which it is not practicable to directly or indirectly identify you, including
+    Personal Information in aggregated, anonymised or pseudonymised form.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '" Non-Personal Information" is any information that relates to
+      you but from which it is not practicable to directly or indirectly identify
+      you, including Personal Information in aggregated, anonymised or pseudonymised
+      form.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: '" Shared Information" is information about you or relating to you
+    that is voluntarily shared on WeChat. Shared Information may include postings
+    that you make on WeChat (including your public profile, the lists you create,
+    and photos, videos and voice recordings as accessed with your prior consent through
+    your device''s camera and/or microphone sensor), any postings from others that
+    you re-post and Location Data and Log Data associated with such postings. Shared
+    Information also includes information about you (including Location Data and Log
+    Data) that others who are using our services share about you.'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '" Shared Information" is information about you or relating to
+      you that is voluntarily shared on WeChat.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Location Data and Log Data associated with such postings.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Shared Information also includes information about you (including
+      Location Data and Log Data) that others who are using our services share about
+      you.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Shared Information may include
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: 'HOW WE USE YOUR INFORMATION We may use your Information for any of
+    the following purposes: to provide WeChat (and the features within WeChat) to
+    you - for example, to allow you to place VOIP calls within WeChat, to fulfil any
+    purchases you may make within WeChat, and to display content based on your location;
+    for customer service, security, fraud-detection, archival and backup purposes
+    in connection with the provision of WeChat; to provide you with advertising and
+    direct marketing that is more relevant to you (as discussed in more detail below
+    under the "Direct Marketing" section below); to better understand how you access
+    and use WeChat, in order for us to improve WeChat and respond to customer desires
+    and preferences, including for us to provide language and location customisation,
+    personalised help and instructions, or other responses to your and other customers''
+    usage of WeChat; to help us develop our new services and improve our existing
+    services; to assess the effectiveness of and improve advertising and other marketing
+    and promotional activities on or in connection with WeChat when your account is
+    subscribed to an official account; and'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'HOW WE USE YOUR INFORMATION We may use your Information for any
+      of the following purposes: to provide WeChat (and the features within WeChat)
+      to you - for example, to allow you to place VOIP calls within WeChat, to fulfil
+      any purchases you may make within WeChat, and to display content based on your
+      location; for customer service, security, fraud-detection, archival and backup
+      purposes in connection with the provision of WeChat; to provide you with advertising
+      and direct marketing that is more relevant to you (as discussed in more detail
+      below under the "Direct Marketing" section below); to better understand how
+      you access and use WeChat, in order for us to improve WeChat and respond to
+      customer desires and preferences, including for us to provide language and location
+      customisation, personalised help and instructions, or other responses to your
+      and other customers'' usage of WeChat; to help us develop our new services and
+      improve our existing services; to assess the effectiveness of and improve advertising
+      and other marketing and promotional activities on or in connection with WeChat
+      when your account is subscribed to an official account; and'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: to allow you to participate in voluntary surveys about our products
+    and services. If you choose to participate in a survey, we may request certain
+    Personal Information from you. We may use a third party service provider to conduct
+    these surveys; we will prohibit them from using your Personal Information for
+    any purpose other than to complete the survey.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Use of Personal Information on our other services In order to provide
+    our users across all of our services with a better experience, to improve WeChat
+    and our other services, or otherwise where you have consented, Personal Information
+    collected through WeChat may, subject to user privacy controls (where available),
+    be used by our other services (including in an aggregated or individualised manner).
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: For example, Personal Information collected during your use of WeChat
+    may be used to suggest particular content that can be made available to you on,
+    or be used to present more relevant advertising to you in, another Tencent service.
+    You may also ask us to migrate or export your Personal Information contained in
+    WeChat to another Tencent service, where such migration option is available.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Personal Information within Your Content If any of your Personal Information
+    comprises Your Content (as defined in the WeChat Terms of Service), we and our
+    affiliate companies may (subject to this Privacy Policy) use such Personal Information
+    in accordance with the "Your Content" section of the WeChat Terms of Service.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: DIRECT MARKETING We may also use your Information for the purpose
+    of sending you direct marketing (whether by messaging within our services, by
+    email or by other means) that offer or advertise our products and services and/or
+    the products and services of selected third parties.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'Such products and services (of ours or third parties) include the
+    following: our products and services and the products and services of our affiliate
+    and subsidiary companies and joint venture partners, including messaging services,
+    online media services, interactive entertainment services, social networking services,
+    payment services, internet search services, location and mapping services, application
+    software and services, data management software and services, on-line advertising
+    services and other social media, entertainment, e-commerce, information and communications
+    software and services (" Internet Services"); and third party providers of Internet
+    Services and products and services relating to dining, food and beverages, sports,
+    music, film, television, live performances and other arts and entertainment, books,
+    magazines and other publications, clothing and accessories, jewellery, cosmetics,
+    personal health and hygiene, electronics, collectibles, housewares, appliances,
+    home decoration and furnishings, pets, automobiles, hotels, transport and travel,
+    banking, insurance and financial services, loyalty and reward programs and other
+    products and services that we think may be relevant to you.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We will honour your request for us to not use your Personal Information
+    for the direct marketing purposes noted above. If you wish to make such a request,
+    please contact our Privacy Officer or follow the relevant instructions on our
+    marketing communications. Please note that following such request, you may still
+    receive advertisements that are not direct marketing.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Please note that we will not share your Personal Information with
+    advertisers unless you have given us your consent to do so. We do, however, share
+    Non-Personal Information with advertisers for the purposes of trying to offer
+    you advertising that is more relevant to you.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: SHARING OF YOUR PERSONAL INFORMATION By agreeing to this Privacy Policy,
+    you consent to the third party use, sharing and transfer of your Personal Information
+    (both inside and outside of your jurisdiction) as described in this section. Other
+    than as permitted under this Privacy Policy or as otherwise consented to by you,
+    we will not transfer your Personal Information to any other third parties for
+    their processing for any purposes.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By agreeing to this Privacy Policy , you consent to the third party
+      use, sharing and transfer of your Personal Information (both inside and outside
+      of your jurisdiction) as described in this section.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: 'Sharing for the provision of WeChat We and our affiliate companies
+    may share your Personal Information within our group of companies and with joint
+    venture partners and third party service providers, contractors and agents (such
+    as communication service providers who send emails or push notifications on our
+    behalf, and mapping services providers who assist us and you with location data),
+    in each case, for the following purposes: providing WeChat to you; assisting us
+    in carrying out the purposes set out under the "How We Use Your Information" section
+    above; carrying out our obligations and enforcing our rights under the WeChat
+    Terms of Service or this Privacy Policy; and/or helping us understand and improve
+    WeChat.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Sharing for marketing purposes In addition, we allow third party marketing
+    partners (such as WeChat official accounts, analytics providers and advertising
+    partners) to collect your Personal Information over time and across different
+    websites or online services when you use WeChat.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, we allow third party marketing partners (such as WeChat
+      official accounts, analytics providers and advertising partners) to collect
+      your Personal Information over time and across different websites or online
+      services when you use WeChat.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 27
+  segment_text: We also provide your Personal Information to third party marketing
+    partners where you have asked us to do so or where it is required in order for
+    us to provide WeChat to you.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Other terms relating to the sharing of your Personal Information
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: 'Where we or our affiliate companies do share your Personal Information
+    with any third parties, we will use reasonable efforts to ensure that such third
+    parties only use your Personal Information: (i) in compliance with this Privacy
+    Policy; and (ii) subject to any other instructions we give them, including any
+    appropriate confidentiality and security measures that we implement.'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: As we continue to develop our business, we or our affiliate companies
+    may be acquired by a third party or may re-organise our group structure. In these
+    circumstances, your Information may be transferred within our group and/or to
+    a third party who will continue to operate WeChat or similar services under either
+    this Privacy Policy or a different privacy policy which will be notified to you.
+    The party to which your Personal Information is transferred may be located, and
+    use your Information, outside of your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Any of the above-referenced third parties in this "Sharing of your
+    Personal Information" section may be located, and use and store your Personal
+    Information, outside of your jurisdiction for the above purposes, including in
+    jurisdictions where there may not be in place data protection laws that are substantially
+    similar to or serve the same purpose as the laws of your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: We may also be required to retain, preserve or disclose your Personal
+    Information under the circumstances set out in the "Period of use of your Personal
+    Information" section below.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: A WORD ABOUT SHARED INFORMATION WeChat enables Shared Information
+    to be shared publicly with your WeChat contacts, all users of WeChat and/or the
+    public, via features provided by either us or third parties, so that Shared Information
+    can be broadly and instantly transmitted. Shared Information will remain public
+    for as long as you do not delete it; and even after you delete Shared Information,
+    it may still be separately cached, copied, or stored by, or remain public through,
+    other users or third parties who are not affiliated with and not controlled by
+    us.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: In addition, we may also provide other WeChat-related features that
+    allow you to share Shared Information in public - for example, publicly accessible
+    blogs and forums, or certain social media features within WeChat - for example,
+    "plug-ins" (which create a direct link between two websites) and "widgets" (which
+    are interactive mini-programs that provide third party services within WeChat).
+    You should be aware that any information you provide within such features may
+    be read, collected and used by third parties who access them.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Please consider carefully what you post and communicate through WeChat.
+    In some instances, you may control what access the wider public has to your Shared
+    Information via the privacy settings in some of WeChat.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: UPDATING OR AMENDING YOUR PERSONAL INFORMATION If you would like to
+    update or amend your Personal Information within WeChat, you may do so at first
+    instance by logging into your account and making the appropriate changes. For
+    example, you may be able to delete certain Location Data that you have provided
+    us via your device settings or the "Clear Location" option within WeChat.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, you may be able to delete certain Location Data that
+      you have provided us via your device settings or the "Clear Location" option
+      within WeChat.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: UPDATING OR AMENDING YOUR PERSONAL INFORMATION If you would like
+      to update or amend your Personal Information within WeChat, you may do so at
+      first instance by logging into your account and making the appropriate changes.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: If you wish to make further changes to your Personal Information;
+    request access to, or deletion of, your Personal Information from WeChat; or to
+    request the removal of an unauthorised WeChat account, please contact our Privacy
+    Officer. We will respond to your request within a reasonable timeframe.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: In some cases, we may not be able to update, amend or remove your
+    Personal Information, in which case we will let you know why we are unable to
+    do so - for example, certain requests may require disproportionate technical effort
+    or extremely impractical (e.g. any requests that relate to our backup systems),
+    or are prohibited by law.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: COMMUNICATIONS FROM US Newsletters and other types of communications
+    When you use WeChat, we may use your Information to send you emails, messages,
+    newsletters or push notifications to your device. If you no longer wish to receive
+    these communications, you can do so by following the unsubscribe instructions
+    in the emails we send to you, opting out of notifications at the device level
+    (if available) or contacting our Privacy Officer.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Service-related announcements We may from time to time send you service-related
+    announcements when we consider it necessary to do so (such as when we temporarily
+    suspend WeChat for maintenance). You may not opt-out of these service-related
+    announcements, which are not promotional in nature.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: A WORD ABOUT SENSITIVE PERSONAL INFORMATION In some jurisdictions,
+    certain types of Personal Information, such as information about your race or
+    ethnic origin, religious or philosophical views or personal health, is characterised
+    as "sensitive" and is subject to stricter regulation than other types of Personal
+    Information. Please note that content and information that you input to WeChat,
+    such as photographs or information about your school or social activities, may
+    reveal your sensitive Personal Information to others.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Before communicating any Personal Information of a sensitive nature
+    within WeChat, please consider whether it is appropriate to do so.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: You consent to all processing of sensitive Personal Information for
+    the purposes and in the manner described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: Please note that we do not use your sensitive Personal Information
+    for the purpose of serving advertising to you.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 'THIRD PARTY SERVICES ON WECHAT WeChat may link you to social media
+    or other features or services (including websites, plug-ins and widgets) provided
+    by a third party. For example: you may share content on, or login to, WeChat using
+    services provided by third parties. These third party services will authenticate
+    your identity and provide you with the option to share certain Personal Information
+    with us. They may also give you the option to post information from your third
+    party service account to WeChat as Shared Information (or vice versa).'
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For example: you may share content on, or login to, WeChat using
+      services provided by third parties.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: These third party services will authenticate your identity and
+      provide you with the option to share certain Personal Information with us.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: WeChat may link you to social media or other features or services
+      (including websites, plug-ins and widgets) provided by a third party.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: you may link your WeChat contact list to your contact lists on your
+    device and/or in your account on third party services, in order to search for
+    and connect with contacts on those contact lists who also have a WeChat account.
+    In consenting to such linking, we will use your username and password for the
+    relevant third party service only for the purpose of such contact list linking
+    (and will delete such information immediately after such purpose is completed);
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In consenting to such linking, we will use your username and password
+      for the relevant third party service only for the purpose of such contact list
+      linking (and will delete such information immediately after such purpose is
+      completed); you may login to WeChat using other sign-in services such as an
+      Open ID provider.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: you may link your WeChat contact list to your contact lists on
+      your device and/or in your account on third party services, in order to search
+      for and connect with contacts on those contact lists who also have a WeChat
+      account.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 47
+  segment_text: you may login to WeChat using other sign-in services such as an Open
+    ID provider. These sign-in services will authenticate your identity and provide
+    you the option to share certain Personal Information with us for account registration
+    and login purposes, such as your name and email address; and
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These sign-in services will authenticate your identity and provide
+      you the option to share certain Personal Information with us for account registration
+      and login purposes, such as your name and email address;
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: we may (whether in advertisements or otherwise within WeChat) provide
+    you with links or features that allow you to access third party services or websites
+    (or access within WeChat content that is hosted on those third party services
+    or websites). For example, you may be able to access videos hosted by a third
+    party within WeChat.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: These third party social media or other services may be hosted by
+    the relevant third party or us. Please note that such third parties who provide
+    such services may be able to collect your Information and Personal Information
+    (including your Log Data), and may set cookies on your computer to enable such
+    features to function properly.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that such third parties who provide such services may
+      be able to collect your Information and Personal Information (including your
+      Log Data),
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: These third party social media or other services may be hosted
+      by the relevant third party or us.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 50
+  segment_text: Your use of any such third party services (whether social media services
+    or otherwise), including any Personal Information you provide to such third parties
+    and their collection and use of your Personal Information, are subject to the
+    relevant third party's own terms of services and privacy policies and not the
+    WeChat Terms of Service or this Privacy Policy, so please review those third party
+    terms carefully. This Privacy Policy only applies to any Information collected
+    by us, does not apply to any services offered by or information practices of any
+    third parties, and we bear no liability for any third party use of any Information
+    provided by you to them.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: AGE RESTRICTIONS Children under the age of 13 are not allowed to use
+    WeChat. We do not knowingly collect Personal Information from any children under
+    the age of 13. Please contact our Privacy Officer if you believe we have any Personal
+    Information from any children under the age of 13 - we will promptly investigate
+    (and remove) such Personal Information.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: TRANSFER, STORAGE AND SECURITY OF YOUR PERSONAL INFORMATION We operate
+    and may continue to operate servers in a number of jurisdictions around the world,
+    so the server on which your Personal Information is used and stored may not be
+    in your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: You consent to the transfer of your Personal Information (both inside
+    and outside of your jurisdiction) for the purposes described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: We use a variety of generally accepted security technologies and procedures
+    for the purpose of preventing loss, misuse, unauthorised access or disclosure
+    of Information.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: In WeChat, we use encryption technology (such as SSL) to protect certain
+    sensitive Information (such as Location Data) provided by you to us. Please be
+    aware that despite our efforts, no data security measures can guarantee 100% security
+    at all times. Our systems and the communications networks through which you access
+    WeChat may be subject to security breaches and failures which are due to circumstances
+    beyond our reasonable control. If you have any questions regarding the security
+    of your Personal Information, please contact our Privacy Officer.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you have any questions regarding the security of your Personal
+      Information, please contact our Privacy Officer.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: In WeChat, we use encryption technology (such as SSL) to protect
+      certain sensitive Information (such as Location Data) provided by you to us.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Our systems and the communications networks through which you access
+      WeChat may be subject to security breaches and failures which are due to circumstances
+      beyond our reasonable control.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Please be aware that despite our efforts, no data security measures
+      can guarantee 100% security at all times.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 56
+  segment_text: 'PERIOD OF USE OF YOUR PERSONAL INFORMATION We will generally only
+    retain your Personal Information for so long as is necessary to fulfil the purposes
+    for which it was collected, as set out under the "How We Use Your Information"
+    section above. However, in the following circumstances, we may be required to
+    retain, preserve or disclose your Personal Information for a longer period of
+    time: in order to comply with applicable laws or regulations; in order to comply
+    with a court order, subpoena or other legal process; in response to a request
+    by a government authority, law enforcement agency or similar body (whether situated
+    in your jurisdiction or elsewhere); where we believe it is reasonably necessary
+    to comply with applicable laws or regulations; or in order to enforce the WeChat
+    Terms of Service or this Privacy Policy, protect our rights, property or safety,
+    or the rights, property or safety of our affiliate companies or other users of
+    WeChat.'
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: Subject to applicable laws and regulations, you may have the right
+    to request to receive a copy of and make any corrections to your Personal Information
+    which we hold, and to request that we deactivate and not use any of your Personal
+    Information that is stored by us. You may direct such request to our Privacy Officer,
+    or where we offer this option in WeChat, you may also log into your account with
+    us and make the appropriate changes. We will use reasonable efforts to respond
+    to all such requests made to our Privacy Officer within 60 days.
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: Should your account be terminated by you or us for any reason, we
+    will (subject to the above paragraph) take steps to ensure that your Personal
+    Information is no longer available through WeChat, or otherwise used by us, within
+    a reasonable period of time (subject to technical limitations) after such account
+    termination. However, it is important to note that communications made by you
+    using WeChat may put your Personal Information in the hands of third parties that
+    we cannot control.
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: TRACKING TECHNOLOGIES We may, from time to time, use cookies, log
+    files, web beacons, scripts, tags and other tracking technologies to collect,
+    use and store Information about you or relating to you. This section describes
+    how we use such tracking technologies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: TRACKING TECHNOLOGIES We may, from time to time, use cookies, log
+      files, web beacons, scripts, tags and other tracking technologies to collect,
+      use and store Information about you or relating to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This section describes how we use such tracking technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 60
+  segment_text: Why do we use tracking technologies? To help us better understand
+    and provide WeChat to you and our users
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To help us better understand and provide WeChat to you and our
+      users
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Why do we use tracking technologies?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 61
+  segment_text: 'Tracking technologies enable us to better understand and provide
+    WeChat to you - for example, tracking technologies help us collect the following
+    Information: we require your authentication information in order to provide WeChat
+    to you; our mapping and location-based services (such as "Shake" and "People Nearby")
+    may require Information about your location; our translation services may require
+    Information about your language preferences; and we require certain other Information
+    about our users in order to provide WeChat and to develop new features for WeChat.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Tracking technologies enable us to better understand and provide
+      WeChat to you - for example, tracking technologies help us collect the following
+      Information: we require your authentication information in order to provide
+      WeChat to you; our mapping and location-based services (such as "Shake" and
+      "People Nearby") may require Information about your location; our translation
+      services may require Information about your language preferences; and we require
+      certain other Information about our users in order to provide WeChat and to
+      develop new features for WeChat.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 62
+  segment_text: To help us deliver relevant and safe advertising to you
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: 'Advertising helps keep WeChat and many of our other services free
+    of charge and useful to you. Tracking technologies help make our advertising:
+    more effective for advertisers - for example, by delivering them further information
+    regarding who has viewed their advertisements; more safe for you - for example,
+    by ensuring that you do not receive repeated or fraudulent advertisements or prohibited
+    content within such advertisements; and more relevant to you - for example, by
+    delivering advertisements based on which official WeChat channels you may have
+    followed or based on your location.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertising helps keep WeChat and many of our other services free
+      of charge and useful to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Tracking technologies help make our advertising: more effective
+      for advertisers - for example, by delivering them further information regarding
+      who has viewed their advertisements; more safe for you - for example, by ensuring
+      that you do not receive repeated or fraudulent advertisements or prohibited
+      content within such advertisements; and more relevant to you - for example,
+      by delivering advertisements based on which official WeChat channels you may
+      have followed or based on your location.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 64
+  segment_text: 'What are tracking technologies? The "tracking technologies" that
+    we use within WeChat include the following: A cookie is a small file containing
+    a string of characters that is placed on your computer, mobile phone or other
+    device when you access a website or other web content. Web beacons are electronic
+    image files or other technologies that may be embedded within websites or emails
+    that may be used to keep count of visitors, record when and if an email or website
+    is viewed, or access certain cookies.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The "tracking technologies" that we use within WeChat include
+      the following: A cookie is a small file containing a string of characters that
+      is placed on your computer, mobile phone or other device when you access a website
+      or other web content.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Web beacons are electronic image files or other technologies that
+      may be embedded within websites or emails that may be used to keep count of
+      visitors, record when and if an email or website is viewed, or access certain
+      cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: What are tracking technologies?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 65
+  segment_text: Certain information is automatically gathered and stored in log files.
+    This information includes internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and clickstream data.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain information is automatically gathered and stored in log
+      files.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: This information includes internet protocol (IP) addresses, browser
+      type, internet service provider (ISP), referring/exit pages, operating system,
+      date/time stamp, and clickstream data.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: An entity tag (or ETag) are HTTP headers that are sent-behind-the-scenes
+    between a web browser and a web server. They can be used to track unique users
+    in place of cookies, and allow us to better understand and improve WeChat.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: An entity tag (or ETag) are HTTP headers that are sent-behind-the-scenes
+      between a web browser and a web server.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They can be used to track unique users in place of cookies, and
+      allow us to better understand and improve WeChat.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 67
+  segment_text: JavaScript is a scripting language used to produce more interactive
+    and dynamic websites. JavaScript can create cookies, read cookies, and delete
+    cookies. Anonymous identifiers are used to deliver advertisements in services
+    where cookies may not be available (for example, in mobile applications).
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Anonymous identifiers are used to deliver advertisements in services
+      where cookies may not be available (for example, in mobile applications).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: JavaScript can create cookies, read cookies, and delete cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: JavaScript is a scripting language used to produce more interactive
+      and dynamic websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 68
+  segment_text: 'How do we use tracking technologies? Tracking technologies used in
+    partnership with third parties We, our affiliate companies and our third party
+    partners may from time to time use tracking technologies to collect and use certain
+    Information. These third party partners who assist us in such collection and use
+    include the following: Our analytics partners helps us better understand WeChat
+    generally - for example, to collect website and app usage statistics and to gather
+    demographic information about our user base as a whole, as well as to analyse
+    any relevant trends. Our marketing partners (including analytics partners, advertisers
+    and WeChat official account partners) help us deliver better and more relevant
+    advertising to you. Our customer support service partners help us deliver better
+    responses to any queries from you and to deliver a better WeChat experience to
+    our users. Our service partners help us administer and deliver certain features
+    within WeChat - for instance, hosting, language translation and mapping services.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How do we use tracking technologies?
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Our customer support service partners help us deliver better responses
+      to any queries from you and to deliver a better WeChat experience to our users.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Our marketing partners (including analytics partners, advertisers
+      and WeChat official account partners) help us deliver better and more relevant
+      advertising to you.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Our service partners help us administer and deliver certain features
+      within WeChat - for instance, hosting, language translation and mapping services.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'These third party partners who assist us in such collection and
+      use include the following: Our analytics partners helps us better understand
+      WeChat generally - for example, to collect website and app usage statistics
+      and to gather demographic information about our user base as a whole, as well
+      as to analyse any relevant trends.'
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Tracking technologies used in partnership with third parties We,
+      our affiliate companies and our third party partners may from time to time use
+      tracking technologies to collect and use certain Information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 69
+  segment_text: We may receive reports based on the use of tracking technologies by
+    these partners on an individual as well as aggregated basis.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may receive reports based on the use of tracking technologies
+      by these partners on an individual as well as aggregated basis.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 70
+  segment_text: 'Our own tracking technologies In addition, we also use our own tracking
+    technologies to personalise your experience on WeChat and for various other purposes,
+    including: remembering you. For example, cookies and web beacons can help us identify
+    you as a registered user of our services or keep the preferences or information
+    that you have previously provided; and'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, cookies and web beacons can help us identify you as
+      a registered user of our services or keep the preferences or information that
+      you have previously provided; and
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Our own tracking technologies In addition, we also use our own
+      tracking technologies to personalise your experience on WeChat and for various
+      other purposes, including: remembering you.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 71
+  segment_text: analysing how you use our services. We can use tracking technologies
+    to understand what users are doing on our services, or which pages or sections
+    are most popular.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We can use tracking technologies to understand what users are doing
+      on our services, or which pages or sections are most popular.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: analysing how you use our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 72
+  segment_text: Please note that we use our tracking technologies for these purposes,
+    but may make certain aggregated Non-Personal Information obtained through these
+    tracking technologies available to advertisers and other partners to analyse how
+    you and others use our services and to serve advertising.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that we use our tracking technologies for these purposes,
+      but may make certain aggregated Non-Personal Information obtained through these
+      tracking technologies available to advertisers and other partners to analyse
+      how you and others use our services and to serve advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 73
+  segment_text: General terms in relation to tracking technologies It is important
+    to note that third party tracking technologies are subject to the relevant third
+    party's own privacy policies and not our Privacy Policy. We are not responsible
+    for any tracking technologies used by third parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: General terms in relation to tracking technologies It is important
+      to note that third party tracking technologies are subject to the relevant third
+      party's own privacy policies and not our Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We are not responsible for any tracking technologies used by third
+      parties.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 74
+  segment_text: If you do not wish to have Non-Personal Information used for the purpose
+    of serving you targeted advertisements on your device, you may opt-out by clicking
+    here. Please note this does not opt you out of being served advertising. You will
+    continue to receive generic advertisements.
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: We may combine Information collected via tracking technologies with
+    other Information we collect about you. For example, where you install and register
+    for WeChat via a third party online advertisement, we and/or our third partner
+    may use tracking technologies to inform us regarding where you had discovered
+    WeChat. We may also use tracking technologies to collect Information that, when
+    combined with other Information, enables us to deliver relevant advertisements
+    directly to you.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, where you install and register for WeChat via a third
+      party online advertisement, we and/or our third partner may use tracking technologies
+      to inform us regarding where you had discovered WeChat.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may also use tracking technologies to collect Information that,
+      when combined with other Information, enables us to deliver relevant advertisements
+      directly to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may combine Information collected via tracking technologies
+      with other Information we collect about you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 76
+  segment_text: How you can control tracking technologies You may be able to block
+    or manage certain types of tracking technologies via your browser settings (such
+    as cookies or web beacons) or your mobile device. However, please remember that
+    if you block tracking technologies, we may not be able to provide you with the
+    optimal WeChat experience and some or all of WeChat's features may not function
+    properly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: How you can control tracking technologies You may be able to block
+      or manage certain types of tracking technologies via your browser settings (such
+      as cookies or web beacons) or your mobile device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: However, please remember that if you block tracking technologies,
+      we may not be able to provide you with the optimal WeChat experience and some
+      or all of WeChat's features may not function properly.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 77
+  segment_text: You may also control what tracking technologies-collected Information
+    we receive by certain settings within WeChat - for instance, by using the "Clear
+    Location" option within WeChat.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You may also control what tracking technologies-collected Information
+      we receive by certain settings within WeChat - for instance, by using the "Clear
+      Location" option within WeChat.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 78
+  segment_text: Specific types of cookies We further describe how we use specific
+    types of cookies below. Some or all of such cookies may be stored in your browser.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some or all of such cookies may be stored in your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Specific types of cookies We further describe how we use specific
+      types of cookies below.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 79
+  segment_text: Category of cookies use Description Authentication These cookies notify
+    us when you access our services, so to enable us to provide suitable services
+    and experience to you. These cookies will also remember certain Information about
+    your personal preferences - for instance, your preferred language and region.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Category of cookies use Description Authentication These cookies
+      notify us when you access our services, so to enable us to provide suitable
+      services and experience to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These cookies will also remember certain Information about your
+      personal preferences - for instance, your preferred language and region.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 80
+  segment_text: Security We use such cookies to ensure the security of your Information
+    and our services, and to prevent fraudulent, criminal or other suspect activities.
+    In particular, security cookies help us to prevent fraudulent logins and your
+    user data.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In particular, security cookies help us to prevent fraudulent logins
+      and your user data.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Security We use such cookies to ensure the security of your Information
+      and our services, and to prevent fraudulent, criminal or other suspect activities.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 81
+  segment_text: Functionality We use such cookies to perform and improve the functions
+    of our services. In particular, we use these cookies to help us collect information
+    about how our users are interacting with WeChat - for example, your most recent
+    searches and the profiles that you most frequently visit on WeChat.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Functionality We use such cookies to perform and improve the functions
+      of our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: In particular, we use these cookies to help us collect information
+      about how our users are interacting with WeChat - for example, your most recent
+      searches and the profiles that you most frequently visit on WeChat.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 82
+  segment_text: Analysis and Research We use such cookies to follow up and improve
+    our services and provide us with reference data for research and development of
+    new services or functions. For example, these cookies helps us better understand
+    the demographics of the WeChat user base, which in turn helps us consider what
+    new WeChat features may be the most relevant for our users.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analysis and Research We use such cookies to follow up and improve
+      our services and provide us with reference data for research and development
+      of new services or functions.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, these cookies helps us better understand the demographics
+      of the WeChat user base, which in turn helps us consider what new WeChat features
+      may be the most relevant for our users.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 83
+  segment_text: 'Advertising We use cookies to: deliver advertising on WeChat,with
+    the aim of delivering more relevant advertising to all of our users-for example,you
+    may receive advertisements based on your general location derived from your IP
+    address or from your previous WeChat searches;and to help us and advertisers collect
+    statistics regarding the delivered advertisements,such as how many users have
+    viewed,clicked on and/or made purchases through such advertisements.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Advertising We use cookies to: deliver advertising on WeChat,with
+      the aim of delivering more relevant advertising to all of our users-for example,you
+      may receive advertisements based on your general location derived from your
+      IP address or from your previous WeChat searches;and to help us and advertisers
+      collect statistics regarding the delivered advertisements,such as how many users
+      have viewed,clicked on and/or made purchases through such advertisements.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 84
+  segment_text: TRUSTE AND TENCENT Tencent has received TRUSTe's Privacy Seal signifying
+    that this Privacy Policy and our practices have been reviewed for compliance with
+    the TRUSTe program viewable on the validation page available by clicking the TRUSTe
+    seal. If you have questions or complaints regarding our Privacy Policy or privacy
+    practices, please contact our Privacy Officer. If you have an unresolved privacy
+    or data use concern that we have not addressed satisfactorily, please contact
+    TRUSTe online or via postal mail or fax. TRUSTe's Dispute Resolution Process is
+    only available in English.
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: 'The TRUSTe program and certification covers only Information that
+    is collected through the WeChat website: (www.wechat.com) and mobile application:
+    WeChat, and does not cover information collected through other Tencent websites,
+    mobile applications or downloadable software.'
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: 'Last modified: 2015-11-13 Getting Started What''s New Help Center
+    Source Code'
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: "Support Platform \u7B80\u4F53\u4E2D\u6587 English \u7E41\u9AD4\u4E2D\
+    \u6587 \u0E20\u0E32\u0E29\u0E32\u0E44\u0E17\u0E22 Bahasa Indonesia Ti\u1EBFng\
+    \ Vi\u1EC7t Bahasa Melayu \u65E5\u672C\u8A9E \uD55C\uAD6D\uC5B4 Portugu\xEAs Espa\xF1\
+    ol Polski Italiano \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0939\u093F\u0928\
+    \u094D\u0926\u0940 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u05D0\u05E0\u05D2\
+    \u05DC\u05D9\u05EA T\xFCrk\xE7e"
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: "English Copyright \xA9 1998-2017 Tencent Inc. All Rights Reserved."
+  annotations: []
+  sentences: []
+- segment_id: 89
+  segment_text: Terms of Service| Privacy Policy| Acceptable Use Policy
+  annotations: []
+  sentences: []

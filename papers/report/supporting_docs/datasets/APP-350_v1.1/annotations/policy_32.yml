@@ -1,0 +1,139 @@
+policy_id: 32
+policy_name: com.x3m.tx4
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: "About us Games Contact us \xA92015 Deemedya M.S. Ltd. | All rights\
+    \ reserved DeeMedya Privacy Policy DeeMedya inc (\"DeeMedya\") respects your privacy\
+    \ and is fully committed to protect the personal information that you share with\
+    \ it. DeeMedya believes that its users (the \"Users\") have a full right to know\
+    \ its policies and practices regarding the information DeeMedya collects while\
+    \ using its software application (the \"Software\")."
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Consent By using the software and/or by installing the software on
+    your mobile phone you indicate your acceptance of the practices described in this
+    privacy policy (the "privacy policy").
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Personal identification information We may collect personal identification
+    information from Users in different ways in connection with activities, services,
+    features or resources we make available on our Software. We will collect personal
+    identification information from Users only if they voluntarily submit such information
+    to us. Users can always refuse to supply personally identification information,
+    except that it may prevent them from engaging in certain activities.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Non-personal identification information We may collect non-personal
+    identification information about Users whenever they interact with our Software.
+    Non-personal identification information may include but no limited to the browser
+    name, the type of hardware and technical information about Users means of connection
+    to our Software, such as the operating system and the Internet service providers
+    utilized and other similar information.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Automatic Data Collection and Advertising We may work with analytics
+    companies to help us understand how the Software is being used, such as the frequency
+    and duration of usage. We work with advertisers and third party advertising networks,
+    who need to know how you interact with advertising provided in the Software which
+    helps us keep the cost of acquisition of the Software free. Advertisers and advertising
+    networks use some of the information collected by the Software, including, but
+    not limited to, the unique identification ID of your mobile device. To protect
+    the anonymity of this information, we use an encryption technology to help ensure
+    that these third parties can't identify you personally. These third parties may
+    also obtain anonymous information about non- precise location information in order
+    to help analyze and serve anonymous targeted advertising on the Application and
+    elsewhere.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertisers and advertising networks use some of the information
+      collected by the Software, including, but not limited to, the unique identification
+      ID of your mobile device.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties may also obtain anonymous information about
+      non- precise location information in order to help analyze and serve anonymous
+      targeted advertising on the Application and elsewhere.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: "\u200BSecurity DeeMedya takes great care in implementing and maintaining\
+    \ the security of User's Personal Information. DeeMedya employs industry standard\
+    \ procedures and policies to ensure the safety of its Users information, and prevent\
+    \ unauthorized use of any such information. Among other measures, DeeMedya protects\
+    \ User's Personal Information through the use ,However, DeeMedya does not guarantee\
+    \ that unauthorized access will never occur."
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Third parties Some of the data collected from you in connection with
+    your use of this add-on/extension/app, as applicable, is shared or otherwise made
+    available to third parties with whom we are affiliated, and is collected, stored
+    and used in accordance with the third-party privacy policies set forth at https://www.facebook.com/policy.php,
+    http://www.gameofwhales.com/#/privacy-policy,http://www.dmprivacy-policy.com
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'Your opt-out rights Opt-out of all information collection by uninstalling
+    the Software: You can stop all collection of information by the Software easily
+    by uninstalling the Software. You may use the standard uninstall processes as
+    may be available as part of your mobile device or via the mobile application marketplace
+    or network.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Changes This Privacy Policy may be updated from time to time for any
+    or no reason . We shall notify the changes in our Privacy Policy by posting the
+    new Privacy Policy here. You are advised to check this Privacy Policy on a regular
+    basis for any changes, as continued use is deemed approval of all changes.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'Subscription: - Payment will be charged to iTunes Account at confirmation
+    of purchase'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: '- Subscription automatically renews unless auto-renew is turned off
+    at least 24-hours before the end of the current period'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: '- Account will be charged for renewal within 24-hours prior to the
+    end of the current period, and identify the cost of the renewal'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '- Subscriptions may be managed by the user and auto-renewal may be
+    turned off by going to the user''s Account Settings after purchase'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: '- Any unused portion of a free trial period, if offered, will be
+    forfeited when the user purchases a subscription to that publication, where applicable'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Contact us If you have any questions regarding privacy while using
+    our Software, please contact us via email at support@deemedya.com
+  annotations: []
+  sentences: []

@@ -1,0 +1,806 @@
+policy_id: 287
+policy_name: OmniSwipe
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Omni Swipe Terms of Service and Privacy Policy Omni Swipe requests
+    certain permissions from your Android device and collects certain information
+    from you as a user to provide specific functionalities and conveniences. We understand
+    your privacy is important to you and this document explains why Omni Swipe needs
+    the permissions it requests and how we collect, use, and protect your information.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'I. Permissions Requested Below is an explanation of the various permission
+    types requested and used by Omni Swipe: 1.Directly call Used in the "Interact"
+    tab so you can tap the phone icon for a contact immediately call them in one step
+    instead of two.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 2.Contacts and notifications Used for showing contact information
+    and notifications.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 2.Contacts and notifications Used for showing contact information
+      and notifications.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 3.Network and WiFi Used for turning on/off your network and internet
+    connection in the Toolbox tab.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 4.Bluetooth Used for turning on/off your Bluetooth connection in the
+    Toolbox tab.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 5.Camera Used for launching the camera application in the Toolbox
+    tab.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 6.Flashlight Used for turning on/off the flashlight application in
+    the Toolbox tab.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 7.Wake and Lock Used to allow the flashlight to persist when turned
+    on from the Toolbox tab.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 8.Get tasks Used for showing your most recently-used applications
+    in the Recents tab.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 9.Kill background processes Used for the Booster feature in the Toolbox
+    tab.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 10.Phone state Used to prevent Omni Swipe from being activated in
+    the calling interface.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 11.SMS Used to show text message content in the Interact tab.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 12.Receive boot completed Used to automatically launch Omni Swipe
+    upon boot. If Omni Swipe does not work after restarting your phone, please check
+    that this permission is enabled.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 13.System alert window Used to turn on floating window support required
+    for Omni Swipe's functionality. At present, only MI and Huawei devices need this
+    to be manually enabled, which we provide guides for. If your phone also needs
+    this permission to be manually set, please contact us immediately.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 14.Settings Used to modify various mobile device settings in the Toolbox
+    tab, such as Volume, Brightness, etc.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'II. Information We Collect In providing our services, we collect,
+    store and use the following Information relating to you: "Information" is Personal
+    Information and Non-Personal Information; "Personal Information" is any information
+    or combination of information that relates to you, and can be used to identify
+    you. Personal Information may include the following: information you make available
+    to us when you open an account or use our services, such as your name, telephone
+    number and email address; information which you make available to our services
+    as you use them, including Shared Information you make available to others through
+    our services and information you store using our services; Shared Information
+    that others using our services make available about you, such as information contained
+    in posts they make and communications they make to you and others using our services;
+    and information we collect as you use our services, such as certain Location Data
+    and Log Data.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Personal Information may include the following:'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Personal Information may include the following: information you
+      make available to us when you open an account or use our services, such as your
+      name, telephone number and email address;'
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+  - sentence_text: information we collect as you use our services, such as certain
+      Location Data and Log Data.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: '"Location Data" is information that we collect regarding your location
+    (when you use a location-enabled service), including: the location of your device
+    when you use our services, such as from the GPS, WiFi, compass, accelerometer
+    or other sensors in your mobile device; the IP address of the device or internet
+    service you use to access our services, other information made available by you
+    or others that gives an indication as to where you are or have been located, such
+    as account information that indicates where you are located and Shared Information
+    you or others post indicating your location, such as any geotag information that
+    is embedded in any photos you make available to us; and if you have provided us
+    with your location data previously and would like us to delete such existing location
+    data, you may be able to do so via our services.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Location Data" is information that we collect regarding your
+      location (when you use a location-enabled service), including: the location
+      of your device when you use our services, such as from the GPS, WiFi, compass,
+      accelerometer or other sensors in your mobile device; the IP address of the
+      device or internet service you use to access our services, other information
+      made available by you or others that gives an indication as to where you are
+      or have been located, such as account information that indicates where you are
+      located and Shared Information you or others post indicating your location,
+      such as any geotag information that is embedded in any photos you make available
+      to us'
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: '"Log Data" is technical information that is automatically collected
+    by us when you use our services, whether through the use of cookies, web beacons
+    and log files (as explained in more detail in the "Cookies, Web Beacons and Log
+    Files" section below) or otherwise, including: technical information such as your
+    mobile carrier, configuration information made available by your web browser or
+    other programs you use to access our services, your IP address and your device''s
+    version and identification number, information about what you have searched for
+    and looked at while using our services, such as web search terms used, social
+    media profiles visited and details of other information and content accessed or
+    requested by you in using our services; information about communications you have
+    made using our services, such as the people you''ve communicated with and the
+    time, data and duration of your communications; and metadata, which means information
+    related to items you have made available through our services, such as the date,
+    time or location that a shared photograph or video was taken or posted.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Log Data" is technical information that is automatically collected
+      by us when you use our services, whether through the use of cookies, web beacons
+      and log files (as explained in more detail in the "Cookies, Web Beacons and
+      Log Files" section below) or otherwise, including:'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: '"Log Data" is technical information that is automatically collected
+      by us when you use our services, whether through the use of cookies, web beacons
+      and log files (as explained in more detail in the "Cookies, Web Beacons and
+      Log Files" section below) or otherwise, including: technical information such
+      as your mobile carrier, configuration information made available by your web
+      browser or other programs you use to access our services, your IP address and
+      your device''s version and identification number,'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: '"Log Data" is technical information that is automatically collected
+      by us when you use our services, whether through the use of cookies, web beacons
+      and log files (as explained in more detail in the "Cookies, Web Beacons and
+      Log Files" section below) or otherwise, including: technical information such
+      as your mobile carrier, configuration information made available by your web
+      browser or other programs you use to access our services, your IP address and
+      your device''s version and identification number, information about communications
+      you have made using our services, such as the people you''ve communicated with
+      and the time, data and duration of your communications; and metadata, which
+      means information related to items you have made available through our services,
+      such as the date, time or location that a shared photograph or video was taken
+      or posted.'
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+  - sentence_text: information about communications you have made using our services,
+      such as the people you've communicated with and the time, data and duration
+      of your communications; and metadata, which means information related to items
+      you have made available through our services, such as the date, time or location
+      that a shared photograph or video was taken or posted.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: '"Non-Personal Information" is any information that relates to you
+    but from which it is not practicable to directly or indirectly identify you, including
+    Personal Information in aggregated, anonymized or pseudonymized form.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: '"Shared Information" is information about you or relating to you
+    that is voluntarily shared on our services, including postings that you make on
+    our services (including your public profile, the lists you create), any postings
+    from others that you re-post and including Location Data and Log Data associated
+    with these postings. Shared Information also includes information about you (including
+    Location Data and Log Data) that others who are using our services share about
+    you.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Shared Information" is information about you or relating to you
+      that is voluntarily shared on our services, including postings that you make
+      on our services (including your public profile, the lists you create), any postings
+      from others that you re-post and including Location Data and Log Data associated
+      with these postings.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Shared Information also includes information about you (including
+      Location Data and Log Data) that others who are using our services share about
+      you.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: 'III. How We Use Your Information We may use your Information for
+    any of the following purposes: to provide our services to you; for customer service,
+    security, fraud-detection, archival and backup purposes in connection with the
+    provision of our services; to provide you with advertising and direct marketing
+    that is more relevant to you (as discussed in more detail below under the "Direct
+    Marketing" section below); to better understand how you access and use our services,
+    for the purposes of trying to improve our services and to respond to customer
+    desires and preferences, including language and location customization, personalized
+    help and instructions, or other responses to your and other customers'' usage
+    of our services; to help us develop our new services and improve our existing
+    services; to assess the effectiveness of and improve advertising and other marketing
+    and promotional activities on or in connection with our services when your account
+    is subscribed to an official account; and'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'How We Use Your Information We may use your Information for any
+      of the following purposes: to provide our services to you; for customer service,
+      security, fraud-detection, archival and backup purposes in connection with the
+      provision of our services; to provide you with advertising and direct marketing
+      that is more relevant to you (as discussed in more detail below under the "Direct
+      Marketing" section below); to better understand how you access and use our services,
+      for the purposes of trying to improve our services and to respond to customer
+      desires and preferences, including language and location customization, personalized
+      help and instructions, or other responses to your and other customers'' usage
+      of our services; to help us develop our new services and improve our existing
+      services; to assess the effectiveness of and improve advertising and other marketing
+      and promotional activities on or in connection with our services when your account
+      is subscribed to an official account; and'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: to allow you to participate in surveys about our products and services.
+    If you participate in a survey, we may request certain personally identifiable
+    information from you. Participation in these surveys is voluntary and you therefore
+    have a choice whether or not to disclose this information. We use may use a third
+    party service provider to conduct these surveys and such third party service provider
+    will be prohibited from using your personally identifiable information for any
+    other purpose.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Please note that for the purposes of seeking to provide our users
+    with a better experience, to improve our services or otherwise where you have
+    consented, Personal Information collected through our site or service may, subject
+    to user privacy controls (where available), be used by our other services (including
+    in an aggregated or individualized manner).
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: For example, Personal Information collected during your use of one
+    of our services may be used to suggest particular content that can be made available
+    to you on another service or be used to try to present more relevant advertising
+    to you in another service. You may also from time to time ask us to migrate or
+    export your Personal Information contained in one of our services to another of
+    our services, where such migration option is available.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: IV. Sharing of Your Personal Information Other than as permitted under
+    this Privacy Policy or as otherwise consented to by you, we will not transfer
+    your Personal Information to any other third parties for their processing for
+    any purposes.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'We and our affiliate companies may share your Personal Information
+    within our group of companies and with joint venture partners and third party
+    service providers, contractors and agents (such as communication service providers
+    who send emails or push notifications on our behalf, and mapping services providers
+    who assists us and you with location data), in each case, for the purposes of:
+    (i) providing our services to you; (ii) assisting us in carrying out the purposes
+    set out under the "How We Use Your Information" section above; (iii) carrying
+    out our obligations and enforcing our rights under this Privacy Policy; and/or
+    (iv) help understand and improve our services. These third parties may be located,
+    and use and store your Personal Information, outside of your jurisdiction for
+    these purposes.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These third parties may be located, and use and store your Personal
+      Information, outside of your jurisdiction for these purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'We and our affiliate companies may share your Personal Information
+      within our group of companies and with joint venture partners and third party
+      service providers, contractors and agents (such as communication service providers
+      who send emails or push notifications on our behalf, and mapping services providers
+      who assists us and you with location data), in each case, for the purposes of:
+      (i) providing our services to you; (ii) assisting us in carrying out the purposes
+      set out under the "How We Use Your Information" section above; (iii) carrying
+      out our obligations and enforcing our rights under this Privacy Policy; and/or
+      (iv) help understand and improve our services.'
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: 'Where we or our affiliate companies do share your Personal Information
+    with any third parties, we will use reasonable efforts to ensure that such third
+    parties only use your Personal Information: (i) in compliance with this Privacy
+    Policy; and (ii) subject to any other instructions we give them, including any
+    appropriate confidentiality and security measures that we implement.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: You consent to the third party use, sharing and transfer of your Personal
+    Information (both inside and outside of your jurisdiction) as described in this
+    section. These third parties will use Personal Information to provide services
+    to us and for their own internal use, including analytics use. We allow third
+    parties such as analytics providers and advertising partners to collect your Personal
+    Information over time and across different websites or online services when you
+    use our services.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_3rdParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We allow third parties such as analytics providers and advertising
+      partners to collect your Personal Information over time and across different
+      websites or online services when you use our services.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_3rdParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: As we continue to develop our business, we or our affiliate companies
+    may be acquired by a third party or re-organize our group structure. In these
+    circumstances, it may be the case that your Information is transferred within
+    our group and/or transferred to a third party who will continue to operate our
+    services or similar services under either this Privacy Policy or a different privacy
+    policy which will be notified to you. The party to which your Personal Information
+    is transferred may be located, and use your Information, outside of your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: "You agree that we or our affiliate companies may be required to retain,\
+    \ preserve or disclose your Personal Information: (i) in order to comply with\
+    \ applicable laws or regulations; (ii) in order to comply with a court order,\
+    \ subpoena or other legal process; (iii) in response to a request by a government\
+    \ authority, law enforcement agency or similar body (whether situated in your\
+    \ jurisdiction or elsewhere); or (iv) where we believe it is reasonably necessary\
+    \ to comply with applicable laws or regulations; and (\u2174) We can get the device\
+    \ information of your mobile. You also agree that we or our affiliate companies\
+    \ may need to disclose your Personal Information in order to enforce this Privacy\
+    \ Policy, protect our rights, property or safety, or the rights, property or safety\
+    \ of our affiliate companies or other users of our services."
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: V. A Word About Shared Information Our service enables Shared Information
+    to be shared publicly with all users of that service and not just your contacts.
+    Our social media services in particular are primarily designed to help you share
+    Shared Information with the world via features either provided by us or third
+    parties, so Shared Information can be broadly and instantly transmitted and will
+    remain public for as long as you do not delete it (and even after you delete Shared
+    Information, it may still be separately cached, copied, or stored by, or remain
+    public through, other users or third parties who are not affiliated with and not
+    controlled by us).
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Please consider carefully what you post and communicate through our
+    services. In some instances, you may control what access the wider public has
+    to your Shared Information via the privacy settings in some of our services. If
+    you would like to update or amend your Personal Information you may do so by logging
+    into your account and making the appropriate changes. To request removal of your
+    Personal Information from our services, or to request the removal of an unauthorized
+    account, please contact us. In some cases, we may not be able to update, amend
+    or remove your Personal Information, in which case we will let you know why we
+    are unable to do so.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 'VI. Third-Party Services on Our Services Our service may link you
+    to, social media or other services (including websites) provided by a third party.
+    For example: you may be able to share content on, or login to, our services using
+    services provided by third parties. The third parties who provide such services
+    may be able to collect your Information and Personal Information (including your
+    Log Data), and may set cookies on your computer to enable such feature to function
+    properly; and we may (whether in advertisements or otherwise within our services)
+    provide you with links that allow you to access third party services or websites.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For example: you may be able to share content on, or login to,
+      our services using services provided by third parties.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: The third parties who provide such services may be able to collect
+      your Information and Personal Information (including your Log Data), and may
+      set cookies on your computer to enable such feature to function properly; and
+      we may (whether in advertisements or otherwise within our services) provide
+      you with links that allow you to access third party services or websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Third-Party Services on Our Services Our service may link you to,
+      social media or other services (including websites) provided by a third party.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: These third party social media or other services may be hosted by
+    the relevant third party or us. Your use of any such third party services (whether
+    social media services or otherwise), including any Personal Information you provide
+    to such third parties, are subject to the relevant third party's own terms of
+    services and privacy policies and not this Privacy Policy, so please review their
+    terms carefully. This Privacy Policy only applies to any Information collected
+    by us, does not apply to any services offered by or information practices of any
+    third parties, and we bear no liability for any third party use of any Information
+    provided by you to them.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: VII. Transfer, Storage, and Security of Your Personal Information
+    We operate and may continue to operate servers in a number of jurisdictions around
+    the world, so the server on which your Personal Information is used and stored
+    may not be in your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: You consent to the transfer of your Personal Information (both inside
+    and outside of your jurisdiction) for the purposes described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: We use a variety of security technologies and procedures for the purpose
+    of preventing loss, misuse, unauthorized access or disclosure of Information.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: In our service, we will use encryption technology (such as SSL) to
+    protect certain sensitive Information (such as location data) provided by you
+    to us. Please be aware that despite our efforts, no data security measures can
+    guarantee 100% security at all times. Our systems and the communications networks
+    through which you access our services may be subject to security breaches and
+    failures which are due to circumstances beyond our reasonable control. If you
+    have any questions regarding the security of your Personal Information, please
+    contact us.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you have any questions regarding the security of your Personal
+      Information, please contact us.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: In our service, we will use encryption technology (such as SSL)
+      to protect certain sensitive Information (such as location data) provided by
+      you to us.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Our systems and the communications networks through which you access
+      our services may be subject to security breaches and failures which are due
+      to circumstances beyond our reasonable control.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Please be aware that despite our efforts, no data security measures
+      can guarantee 100% security at all times.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: VIII. Policy Changes and Amendments Our Privacy Policy may change
+    from time to time. We will post any changes on this page, so please review it
+    periodically. If you do not agree to this policy or any modifications made to
+    it hereafter, please immediately stop use of our application or related services.
+    Your continued use constitutes your acceptance of our policy and any revisions
+    made to it. Please note that none of our employees or agents have the authority
+    to vary the applicability of our policies.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 'If you should have any questions, please contact us directly at:
+    omniswipe@holaverse.com'
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: AdChoices
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Personal Information is not received by us when you open an account
+    or use our services, such as your name, telephone number and email address;
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal Information is not received by us when you open an account
+      or use our services, such as your name, telephone number and email address;
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 42
+  segment_text: 'Technical information is based on cookies, web beacons and log files
+    (as explained in more detail in the "Cookies, Web Beacons and Log Files" section
+    below) or otherwise, including: technical information such as mobile carrier,
+    your IP address and your device''s version and identification number. We do not
+    collect technical information.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Technical information is based on cookies, web beacons and log
+      files (as explained in more detail in the "Cookies, Web Beacons and Log Files"
+      section below) or otherwise, including: technical information such as mobile
+      carrier, your IP address and your device''s version and identification number.
+      We do not collect technical information.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 43
+  segment_text: 'Personal Information may include the following: "Location Data" is
+    information from the GPS, WiFi, compass, accelerometer or other sensors in your
+    mobile device; the IP address of the device or internet service you use to access
+    our services, other information made available by you or others that gives an
+    indication as to where you are or have been located. We do not collect Location
+    Data.'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Personal Information may include the following: "Location Data"
+      is information from the GPS, WiFi, compass, accelerometer or other sensors in
+      your mobile device; the IP address of the device or internet service you use
+      to access our services, other information made available by you or others that
+      gives an indication as to where you are or have been located. We do not collect
+      Location Data.'
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED

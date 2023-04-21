@@ -1,0 +1,307 @@
+policy_id: 316
+policy_name: SoundHound
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Houndify Hound SoundHound Download Houndify Hound SoundHound Download
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Hound Privacy Policy SoundHound Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Privacy Statement for the SoundHound Web Site and Mobile Applications
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: This privacy policy governs your use of SoundHound mobile apps and
+    the SoundHound website. SoundHound values the privacy of our users. We encourage
+    you to become familiar with how we collect, use, and share information gathered
+    through our web site and applications.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: What Information Do We Collect and How Do We Use It?
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Usage Information As you use the SoundHound web site and applications,
+    we collect information such as your search and browsing history ("usage information").
+    Your browser supplies various information, including cookies and an IP address.
+    Cookies may include third party cookies, such as Google Analytics cookies (used
+    to gather statistics about the use of the web site and applications) and advertiser
+    cookies (used to improve the relevance of advertisements displayed on the web
+    site and in the applications), as well as SoundHound cookies. Your device and
+    browser should provide means to block cookies. However, if you block cookies,
+    the web site and applications may not function correctly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies may include third party cookies, such as Google Analytics
+      cookies (used to gather statistics about the use of the web site and applications)
+      and advertiser cookies (used to improve the relevance of advertisements displayed
+      on the web site and in the applications), as well as SoundHound cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Your browser supplies various information, including cookies and
+      an IP address.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Unique Device IDs and Location Information When you use the SoundHound
+    applications, your mobile device supplies a unique identifier, which we use to
+    associate search results, your bookmarks, and other information with your device.
+    We improve the relevance of information provided in the applications using location
+    information provided by your device, which you can choose to turn off. If your
+    browser supplies location information (as determined by your browser settings),
+    we may use that information to improve the relevance of information provided by
+    the web site and applications. Content provided by advertisers and other third
+    parties may be personalized in a similar manner.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We improve the relevance of information provided in the applications
+      using location information provided by your device, which you can choose to
+      turn off.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use the SoundHound applications, your mobile device supplies
+      a unique identifier, which we use to associate search results, your bookmarks,
+      and other information with your device.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Information We Collect When You Register with Us If you register with
+    SoundHound, we collect your name, email address, zip code, gender and year of
+    birth. The information you supply about yourself may be used by SoundHound to
+    communicate with you and to provide better service to you. If you connect a SoundHound
+    application to your social networks (or other third party services or applications),
+    we collect your public profile information (such as your name, gender, age, locale,
+    e-mail address and profile picture). If you give SoundHound permission to access
+    any other profile information, SoundHound may also store and use that information
+    to communicate with you, to update your status on your networks, to send messages
+    on your behalf to your networks, and to provide other features and services to
+    you.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you connect a SoundHound application to your social networks
+      (or other third party services or applications), we collect your public profile
+      information (such as your name, gender, age, locale, e-mail address and profile
+      picture).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: If you register with SoundHound, we collect your name, email address,
+      zip code, gender and year of birth.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Information Sharing with Third Parties SoundHound will not share your
+    name, email address, or other personally identifying information with other companies,
+    except as needed for SoundHound to supply its services or communicate with you.
+    We may share de-identified or other non-identifying information with our vendors,
+    suppliers, advertisers, analytics companies and others to improve our service
+    and the relevance of the content provided by those third parties.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: SoundHound will not share your name, email address, or other personally
+      identifying information with other companies, except as needed for SoundHound
+      to supply its services or communicate with you.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may share de-identified or other non-identifying information
+      with our vendors, suppliers, advertisers, analytics companies and others to
+      improve our service and the relevance of the content provided by those third
+      parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Exceptions. SoundHound may disclose your information: in response
+    to legal process, or as otherwise required to comply with the law; to protect
+    the rights or property of SoundHound or our customers; when SoundHound has a good
+    faith belief that disclosure is necessary to protect the personal safety of any
+    person; or to a successor in interest to SoundHound, the SoundHound web site,
+    applications, or related business assets.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We're Sorry, but SoundHound is NOT for Kids 13 and Under
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Unfortunately, our website and apps are not for kids 13 and under.
+    Consistent with the federal Children's Online Privacy Protection Act (COPPA),
+    we will never knowingly request personally identifiable information from anyone
+    under the age of thirteen (13) without requiring parental consent. Any person
+    who provides their personal information to SoundHound through the web site or
+    applications represents that they are 13 years of age or older. If a parent or
+    guardian becomes aware that his or her child has provided us with information
+    without their consent, he or she should contact us at privacy@soundhound.com.
+    SoundHound will shut down accounts if it determines that they have been opened
+    in violation of this policy and will delete personally-identifying information
+    from such accounts within a reasonable period of time.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Links to Third Party Websites This Privacy Statement does not apply
+    to links you follow from the SoundHound web site and applications to other sites,
+    services, applications, or online stores. For example, if you use the Sharing
+    features to send a tweet or to post on a social network, the information you send
+    will be visible to others. To understand how other sites, services, applications,
+    and online stores handle your information, please refer to their respective privacy
+    policies. Your usage of midomi.com is governed by a different Privacy Statement.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Changes to this Policy SoundHound may revise this policy at any time,
+    and the changed policy will be made available on our website before the effective
+    date of the updated policy. If the changes are material, we will provide you additional,
+    prominent notice as appropriate under the circumstances. By using our web site
+    or applications, you signify your acceptance of the revised policy. We encourage
+    you to periodically review this policy so you know how we are protecting your
+    information.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Your Consent The SoundHound web site, applications, and related services
+    are operated from the United States of America. If you reside outside the U.S.
+    your information will be transferred to the U.S. and processed and stored there.
+    By using our web site or applications, you consent to the application of U.S.
+    law to your information and to the practices described in this privacy statement
+    and as the statement may be amended by us over time.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: If you have any questions, comments, or concerns about this Privacy
+    Statement, please email us at privacy@soundhound.com.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'Last Update: July 31, 2013 Top About SoundHound Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "Careers Advertising Contact Us Download midomi.com Terms of Service\
+    \ Privacy Policy Copyright \xA9 2017 SoundHound Inc. - All rights reserved | 3979\
+    \ Freedom Cir, Suite 400, Santa Clara, CA 95054"
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: We do not obtain your browser's cookies and IP addresses. We also
+    do not use third party cookies, such as Google Analytics cookies (used to gather
+    statistics about the use of the web site and applications) and advertiser cookies
+    (used to improve the relevance of advertisements displayed on the web site and
+    in the applications).
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not obtain your browser's cookies and IP addresses. We also
+      do not use third party cookies, such as Google Analytics cookies (used to gather
+      statistics about the use of the web site and applications) and advertiser cookies
+      (used to improve the relevance of advertisements displayed on the web site and
+      in the applications).
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 19
+  segment_text: We are not using location information from your device.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We are not using location information from your device.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 20
+  segment_text: No sharing of your name, email address, or other personally identifying
+    information with advertising networks occurs on SoundHound.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No sharing of your name, email address, or other personally identifying
+      information with advertising networks occurs on SoundHound.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 21
+  segment_text: When you use the SoundHound applications, we do not obtain your unique
+    mobile device identifier.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you use the SoundHound applications, we do not obtain your
+      unique mobile device identifier.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 22
+  segment_text: We do not collect your gender.
+  annotations:
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your gender.
+    annotations:
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED

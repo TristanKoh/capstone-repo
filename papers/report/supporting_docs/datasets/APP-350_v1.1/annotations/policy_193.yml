@@ -1,0 +1,637 @@
+policy_id: 193
+policy_name: com.retale.android
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Retale Privacy Policy - Your Privacy Rights Effective Date : October
+    7th, 2013 (last updated February 15th, 2017)'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: This Privacy Policy applies to the platforms where it appears.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: This Policy describes how we treat personal information on the websites
+    where it is located. This includes www.retale.com. It also applies to our mobile
+    sites and apps where the Policy is located. In this Policy, we refer to our websites,
+    mobile sites and apps as our platforms. Sometimes third parties may collect information
+    on our platforms. This Policy does not describe their practices unless we have
+    specifically said so in this Policy.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We collect information from and about you.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: '- We collect contact information. For example, we might collect your
+    email address if you sign up for our alerts or create an account. We may also
+    collect your username and password. We may also collect your name and phone number
+    if you contact us.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we might collect your email address if you sign up
+      for our alerts or create an account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect your name and phone number if you contact us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect your username and password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: '- We collect account information. For example, we may collect your
+    username and password if you create an account on our sites and apps.'
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may collect your username and password if you create
+      an account on our sites and apps.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: '- We collect loyalty program information. As part of our services
+    you can track your loyalty rewards with many popular retailers. To do this, we
+    permit you to provide us with your loyalty account information with those retailers.
+    For example, we may collect your phone number or email address if you provide
+    them as your loyalty program account numbers or IDs.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may collect your phone number or email address
+      if you provide them as your loyalty program account numbers or IDs.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: '- We collect information about your interactions with the app. For
+    example, we collect the searches you run on the app. We also collect information
+    about the circulars and content you view in the app.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: '- We collect information you submit or post. For example, we collect
+    the information you post in a public space on our platform. This may include comments
+    you post to our platform. We also collect information if you respond to a survey.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: '- We collect location information. We may collect information about
+    the location from which you are using our services. This might include stores
+    you visit. We may also collect your ZIP code. We may collect location information
+    using different technologies. These technologies may include the location services
+    of your operating system and browser as well as sensor data from your device.
+    We may also collect and use Wi-Fi and GPS information and information on nearby
+    Wi-Fi access points and cell towers. We might collect location information in
+    the background, including when you are not directly interacting with our app.
+    We may also collect location information from third party providers. Third party
+    providers may also collect location information on our platforms.'
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These technologies may include the location services of your operating
+      system and browser as well as sensor data from your device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Third party providers may also collect location information on
+      our platforms.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may also collect and use Wi-Fi and GPS information and information
+      on nearby Wi-Fi access points and cell towers.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect your ZIP code.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect information about the location from which you are
+      using our services.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect location information using different technologies.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: '- We collect demographic information. We may collect information
+    like your gender and age. We may collect your zip code to help you find sales
+    relevant to you. We might collect this when you use our platforms.'
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We collect demographic information.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect information like your gender and age.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: We may collect your zip code to help you find sales relevant to
+      you.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: '- We collect device and other information. We may collect information
+    about your IP address or other device identifier and the browser you''re using.
+    This might include device and advertising identifiers. This might also include
+    device usage information like battery usage. We might also look at what site you
+    came from, or what site you visit when you leave us. We might look at how often
+    you use the app and where you downloaded it. We or third parties may collect this
+    information and share it with us. If you use our app, we might collect this information
+    in the background, including when the app is not running. To learn more, please
+    read here.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This might include device and advertising identifiers.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We collect device and other information.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may collect information about your IP address or other device
+      identifier and the browser you're using.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We or third parties may collect this information and share it with
+      us.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: We collect information in different ways.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: '- We collect information directly from you. For example, if you contact
+    us, or sign up for alerts.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: '- We collect information from you passively. We use tracking tools
+    like browser cookies and web beacons to collect information from you. We also
+    use passive tracking technologies to gather information about your device and
+    usage. We collect information about users over time when you use this platform.
+    We may have third parties collect personal information this way. We also collect
+    information from our mobile apps. Learn more about these tools, and how you can
+    control them, here.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also collect information from our mobile apps.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We also use passive tracking technologies to gather information
+      about your device and usage.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We collect information about users over time when you use this
+      platform.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may have third parties collect personal information this way.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use tracking tools like browser cookies and web beacons to collect
+      information from you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: '- We get information about you from third parties. For example, our
+    business partners may give us information about you. Social media platforms may
+    also give us information about you.'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: '- We combine information. For example, we may combine information
+    that we have collected offline with information we collect online. We may also
+    combine information we have collected through our other platforms. Or we may combine
+    information we get from a third party with information we already have.'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We use information as disclosed and described here.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: '- We use information to respond to your requests or questions. For
+    example, we might use your information to respond to your comments or questions.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: '- We use information to improve our products and services. We may
+    use your information to make our platforms and products better. We might use your
+    information to customize your experience with us. We may combine information we
+    get from you with information about you we get from third parties. We also use
+    your information for analytics purposes.'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: '- We use information for security purposes. We may use information
+    to protect our company and our customers. We also use information to protect our
+    platforms.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: '- We use information for marketing purposes. For example, we might
+    send you information about special offers. We might also use your information
+    to serve you ads about products and offers. This may include using your location
+    information to tailor our services to your current location, including to inform
+    you about special offers for retailers near your location. These might be third
+    party offers or products we think you might find interesting. We might tell you
+    about new features or updates. To learn about your choices for these communications,
+    read the "Choices" section below.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we might send you information about special offers.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: These might be third party offers or products we think you might
+      find interesting.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This may include using your location information to tailor our
+      services to your current location, including to inform you about special offers
+      for retailers near your location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: To learn about your choices for these communications, read the
+      "Choices" section below.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We might also use your information to serve you ads about products
+      and offers.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We might tell you about new features or updates.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We use information for marketing purposes.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: '- We use information to communicate with you. We may contact you
+    about your account or our relationship. We may contact you about your feedback
+    and comments. We might also contact you about this Policy or our platform Terms.'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: '- We may also use push notifications on our mobile apps. For example,
+    we may send you push notifications about offers and deals based on your preferences.'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: '- We use information as otherwise permitted by law.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: We may share information with third parties.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: '- We will share information within the Bonial family of companies.
+    This includes future subsidiaries or affiliates.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: '- We will share information with third parties who perform services
+    on our behalf. For example, we share information with vendors who send emails
+    for us. We may also share information with third parties who operate our "find
+    ads near me" feature. We may also share information with companies that operate
+    our platforms.'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: '- We will share information with our business partners. For example,
+    we may share information with our retail partners. This might include those whose
+    circulars and ads appear on our platforms. We may also share information with
+    third parties including social media platforms or apps that provide joint services
+    with us. Information we share may include contact information and location information.
+    It may also include other information we know about you. We may also share information
+    with third parties who co-sponsor a promotion. These third parties will use information
+    in accordance with their own privacy policies.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: '- We will share information with third parties for marketing purposes.
+    These third parties may include our retail partners. It may also include third
+    parties in whose products or services we believe you may be interested. These
+    third parties may also share your information with others. These third parties
+    may use the information for their own marketing purposes or the marketing purposes
+    of others. This may include the delivery of interest based advertising. These
+    third parties will use information in accordance with their own privacy policies.'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: '- We will share information if we think we have to in order to comply
+    with the law or to protect ourselves. For example, we will share information to
+    respond to a court order or subpoena. We may share it if a government agency or
+    investigatory body requests. We might share information when we are investigating
+    potential fraud.'
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: '- We may share information with any successor to all or part of our
+    business. For example, if part of our business was sold we may give our customer
+    list as part of that transaction.'
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: '- We may share information for other reasons we may describe to you.'
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: You have certain choices about how we use your information.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: You can opt out of receiving our marketing emails. To stop receiving
+    our promotional emails, follow the instructions in any promotional message you
+    get from us. Don't worry - even if you opt out of getting marketing messages,
+    we will still send you transactional messages. These include responses to your
+    questions or information about your account.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: You can control cookies and tracking tools. To learn how to manage
+    how we - and our vendors - use cookies and other tracking tools, and to read our
+    Do Not Track policy, please click here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To learn how to manage how we - and our vendors - use cookies and
+      other tracking tools, and to read our Do Not Track policy, please click here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can control cookies and tracking tools.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: You can control tools on your mobile devices. For example, you can
+    turn off the GPS locator, your Wi-Fi connection, or push notifications on your
+    phone.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, you can turn off the GPS locator, your Wi-Fi connection,
+      or push notifications on your phone.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: You can control tools on your mobile devices.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: Your California Privacy Rights If you reside in California, you have
+    the right to ask us one time each year if we have shared personal information
+    with third parties for their direct marketing purposes. To make a request, please
+    send us an email, or write to us at the address listed below. Indicate in your
+    letter that you are a California resident making a "Shine the Light" inquiry.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: These platforms are not intended for children.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Our platforms are meant for adults. We do not knowingly collect personally
+    identifiable information from children under 13 without permission from a parent
+    or guardian. If you are a parent or legal guardian and think your child under
+    13 has given us information, you can email us. You can also write to us at the
+    address listed at the end of this Policy. Please mark your inquiries "COPPA Information
+    Request." Parents, you can learn more about how to protect children's privacy
+    on-line here.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: We use standard security measures.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: The Internet is not 100% secure. We cannot promise that your use of
+    our platforms will be completely safe. We encourage you to use caution when using
+    the Internet. This includes not sharing your passwords. We keep personal information
+    as long as it is necessary or relevant for the practices described in this Policy.
+    We also keep information as otherwise required by law.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: We may store information in and outside of the United States.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: If you live outside of the United States, you understand and agree
+    that we may transfer your information to the United States. This platforms is
+    subject to U.S. laws, which may not afford the same level of protection as those
+    in your country.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: We may link to other sites or apps or have third party services on
+    our platforms we don't control.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: If you click on a third party link, you will be taken to a platform
+    we do not control. This includes social media sites. This Policy does not apply
+    to the privacy practices of that website or platform. Read the privacy policy
+    of other websites carefully. We are not responsible for these third party practices.
+    Our platform may also link to and/or serve third party ads or other content that
+    contains their own cookies or tracking technologies. To learn more, click here.
+    We do not control the use of those technologies.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: Feel free to contact us if you have more questions.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: 'If you have any questions about this Policy, please email us at privacy@retale.com.
+    You can also write to us or call at: Retale Consumer Relations 525 W Monroe St.
+    Chicago, IL 60661, USA Phone: 312-258-8800 We may update this Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: From time to time we may change our privacy policies. We will notify
+    you of any material changes to our Policy as required by law. We will also post
+    an updated copy on our platform. Please check our platform periodically for updates.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: "\xA9 2016 Bonial Enterprises North America, Inc. All rights reserved."
+  annotations: []
+  sentences: []

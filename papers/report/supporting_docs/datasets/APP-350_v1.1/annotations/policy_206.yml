@@ -1,0 +1,228 @@
+policy_id: 206
+policy_name: ContextLogic
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: You need to enable JavaScript to use this awesome site!
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Sign In ContextLogic Privacy Policy Privacy Policy Scope This Privacy
+    Policy identifies and describes the way ContextLogic uses and protects the information
+    we collect about users. All use of ContextLogic's products and services, as well
+    as visits to our websites, are subject to this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: The Information We Collect, How We Collect It, And How We Use It.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We may collect different types of personal and other information based
+    on your use of our products and services.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect different types of personal and other information
+      based on your use of our products and services.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'Some examples include: Contact Information that allows us to communicate
+    with you -- including your name, address, and e-mail address; Equipment, Performance,
+    ContextLogic Websites Usage, Viewing and other Technical Information about your
+    use of our network, services, products or websites.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Some examples include: Contact Information that allows us to communicate
+      with you -- including your name, address, and e-mail address;'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'We collect information in two primary ways: You give it to us when
+    you login with your Facebook credential; We collect it automatically when you
+    visit our websites or use our products and services.'
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We collect information in two primary ways: You give it to us
+      when you login with your Facebook credential;'
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 'We may use the information we collect in a variety of ways, including:
+    Providing you with the best user experience possible; Providing the services you
+    use, and to respond to your questions; Communicating with you regarding service
+    updates, offers, and promotions; Delivering customized content that may be of
+    interest to you; Addressing network integrity and security issues; Investigating,
+    preventing or taking action regarding illegal activities, violations of our Terms
+    of Service or Acceptable Use Policies.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Online Activity Tracking We collect information about your activity
+    on ContextLogic websites for a number of purposes using technologies such as cookies,
+    user behavior, and server log files. We use that information to help tailor the
+    content you see on our site.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Online Activity Tracking We collect information about your activity
+      on ContextLogic websites for a number of purposes using technologies such as
+      cookies, user behavior, and server log files.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use that information to help tailor the content you see on our
+      site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 'Information Sharing With ContextLogic Products: Subject to applicable
+    legal restrictions, ContextLogic products may share your Personal Information
+    with each other to make sure your experience: Is as seamless as possible; Benefits
+    fully from what ContextLogic has to offer.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'In Other Circumstances: We may provide Personal Information to non-ContextLogic
+    companies or other third parties for purposes such as: Responding to 911 calls
+    and other emergencies; Complying with court orders and other legal process; To
+    assist with identity verification, and to prevent fraud and identity theft; Enforcing
+    our agreements and property rights.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Additionally, when you complete a purchase with ContextLogic's Wish
+    service, we share your submitted shipping address and phone number for shipping
+    purposes only. This information is shared with the entities fulfilling and shipping
+    your order, such as the merchant and the shipping provider.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Anonymous & Aggregate Information We collect some information on an
+    anonymous basis. We also may anonymize the personal information we collect about
+    you. We obtain aggregate data by combining anonymous data that meet certain criteria
+    into groups. We may share aggregate or anonymous information in various formats
+    with trusted non-ContextLogic entities, and may work with those entities to do
+    research and provide products and services.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'Safeguarding Your Information: Our Policy on Data Protection and
+    Security'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We do not sell your Personal Information to anyone for any purpose.
+    Period. We maintain information about you in our business records while you are
+    a user, or until it is no longer needed for business, tax, or legal purposes.
+    We have implemented encryption or other appropriate security controls to protect
+    Personal Information when stored or transmitted by ContextLogic.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: We require non-ContextLogic companies acting on our behalf to protect
+    any Personal Information they may receive in a manner consistent with this Policy.
+    We do not allow them to use such information for any other purpose.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Links to/from Other Web Sites ContextLogic is not responsible for
+    the practices employed by websites linked to or from our website, nor the information
+    or content contained therein. Please remember that when you use a link to go from
+    our website to another website, our Privacy Policy is no longer in effect. Your
+    browsing and interaction on any other website, including those that have a link
+    on our website, is subject to that website's own rules and policies. Please read
+    over those rules and policies before proceeding
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Changes to Our Privacy Policy If we change our privacy policies and
+    procedures, we will post those changes on our website to keep you aware of what
+    information we collect, how we use it and under what circumstances we may disclose
+    it. Changes to this Privacy Policy are effective when they are posted on this
+    page.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Your California Privacy Rights California Civil Code Section 1798.83
+    entitles California customers to request information concerning whether a business
+    has disclosed Personal Information to any third parties for the third parties'
+    direct marketing purposes. As stated in this Privacy Policy, ContextLogic will
+    not sell or share your Personal Information with non-ContextLogic companies for
+    their direct marketing purposes without your consent. California customers who
+    wish to request further information about our compliance with this law or have
+    questions or concerns about our privacy practices and policies may contact us
+    at privacy@ContextLogic.com or write to us at ContextLogic Privacy Policy, 1 Sansome
+    St. 40th Floor, San Francisco, CA 94104.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'Last Updated: Dec 1, 2011 Mobile Apps Help Contact Us Company Careers
+    Privacy Policy Terms of Service Return Policy Suppliers'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Need Help? Contact Careers Engineering Privacy Policy Terms of Service
+    Return Policy Suppliers Trademark Protection
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: We do not offer the option to log in with your Facebook credentials.
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not offer the option to log in with your Facebook credentials.
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+- segment_id: 21
+  segment_text: No personal and other information based on your use of our products
+    and services is collected, in particular, not contact Information -- including
+    your name, address, and e-mail address.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No personal and other information based on your use of our products
+      and services is collected, in particular, not contact Information -- including
+      your name, address, and e-mail address.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED

@@ -1,0 +1,100 @@
+policy_id: 167
+policy_name: com.geekslab.qrbarcodescanner.pro
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: "Privacy Policy of Geeks.Lab.2015 Apps 2016\u5E7412\u67083\u65E5\u661F\
+    \u671F\u516D Privacy Policy of Geeks.Lab.2015 Apps INTRODUCTION Geeks.Lab.2015\
+    \ ( \"us\" or \"we\") has created this Policy to explain our privacy practices\
+    \ so that you will understand what information about you is collected, used and\
+    \ disclosed with respect to the Applications, the Services and the Site."
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: WHAT KIND OF INFORMATION AND PERMISSIONS WE USE All of apps we provide
+    are free apps, we only use your information when you interact with our apps in
+    your devices, we never post these to the server.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We guarantee that we do not collect personal information, such as
+    e-mail address, phone number, credit card number, fax, SSN and so on. Also, we
+    do never collect your wifi name or password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_SSID_BSSID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Also, we do never collect your wifi name or password.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_SSID_BSSID_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We guarantee that we do not collect personal information, such
+      as e-mail address, phone number, credit card number, fax, SSN and so on.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: We may require some permissions when you interact with our apps, so
+    that you can use the function which our apps provide.We may use some Non-personal
+    identification information may include the type of your phone and technical information
+    about Users means of connection to our apps, such as the versions of phone model
+    and other similar information.All of these are for serving you better.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: HOW WE USE INFORMATION OR PERMISSIONS We use the information and permissions
+    in th apps to improve our product, for serving you better.We may require some
+    permissions when you interact with our apps, so that you can use the function
+    which our apps provide.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: SECURITY Geeks.Lab.2015 is very concerned about safeguarding the confidentiality
+    of your information. Please be aware that no security measures that we take to
+    protect your information is absolutely guaranteed to avoid unauthorized access
+    or use of your Non-Personal Information which is impenetrable.We do not collect
+    Personal Information, and we employ administrative, physical and electronic measures
+    designed to protect your Non-Personal Information from unauthorized access and
+    use.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: CHANGES TO OUR PRIVACY POLICY We reserve the right, at our sole discretion,
+    to change, modify or otherwise alter this Policy at any time. we will post any
+    privacy policy changes on this page, so please review it periodically. We may
+    provide you additional forms of notice of modifications or updates as appropriate
+    under the circumstances.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: CONTACT US If you wish to contact us regarding this Privacy Policy
+    or any privacy-related matters, please contact our Privacy Officer via email at
+    geeks.lab.2015@gmail.com
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "\u53D1\u5E16\u8005 geeks.lab.2015 \u65F6\u95F4\uFF1A \u4E0A\u5348\
+    7:02 \u6CA1\u6709\u8BC4\u8BBA: \u901A\u8FC7\u7535\u5B50\u90AE\u4EF6\u53D1\u9001\
+    BlogThis!\u5171\u4EAB\u7ED9 Twitter\u5171\u4EAB\u7ED9 Facebook\u5206\u4EAB\u5230\
+    Pinterest \u8BA2\u9605\uFF1A \u5E16\u5B50 (Atom) \u6211\u7684\u7B80\u4ECB geeks.lab.2015\
+    \ \u67E5\u770B\u6211\u7684\u5B8C\u6574\u4E2A\u4EBA\u8D44\u6599 \u535A\u5BA2\u5F52\
+    \u6863 \u25BC 2016(1) \u25BC \u5341\u4E8C\u6708(1) Privacy Policy of Geeks.Lab.2015\
+    \ Apps"
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: "\"\u7B80\u5355\"\u4E3B\u9898\u80CC\u666F. \u7531 Blogger \u63D0\u4F9B\
+    \u652F\u6301."
+  annotations: []
+  sentences: []

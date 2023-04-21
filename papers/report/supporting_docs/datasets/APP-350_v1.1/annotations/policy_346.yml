@@ -1,0 +1,147 @@
+policy_id: 346
+policy_name: Yahoo
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "\u2302Home Mail Search News Sports Finance Celebrity Weather Answers\
+    \ Flickr Mobile More\u22C1 Politics Movies Music Groups Style Beauty Tech Shopping\
+    \ Install the new Firefox \xBB"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Yahoo \U0001F464 Sign in \u2709 Mail \u2699 Help Account Info Help\
+    \ Terms Privacy Center Topics Products Controls Intellectual Property Counterfeit\
+    \ Goods Counter Notice Process Repeat Infringer Policy Trademarks Permissions\
+    \ Closed Captioning Guidelines"
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Yahoo Mail Yahoo Mail is a free web-based email service. In order
+    to use Yahoo Mail, you must be a registered Yahoo user. You may also purchase
+    premium services such as Mail Plus for a fee. This Privacy Policy applies to the
+    newest version of Yahoo Mail.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Premium Services Premium services, such as Mail Plus, are available
+    for a fee.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: When you sign up for premium services, you will be asked to enter
+    your credit card information. Yahoo takes your security seriously and takes reasonable
+    steps to protect your information. We use industry-standard SSL (Secure Socket
+    Layer) to encrypt the transmission of your credit card and other information used
+    when ordering premium services. Billing
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: To view, edit or cancel Yahoo premium services you have ordered, please
+    visit Yahoo Premium Services Account Information. It includes information about
+    services you currently subscribe to, payment scheduling and payment history.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Information Collection and Use Practices Yahoo's automated systems
+    analyze all communications content (such as Mail and Messenger content including
+    instant messages and SMS messages) to, without limitation, provide personally
+    relevant product features and content, to match and serve targeted advertising
+    and for spam and malware detection and abuse protection. This analysis occurs
+    on all communications content as it is sent, received, and when it is stored,
+    including communications content from services synced with your Yahoo account.
+    For certain use cases, Yahoo runs automated algorithms on commercial communications
+    to create generic templates of such documents (e.g., using common language to
+    identify the elements of an airline receipt). These templates do not include the
+    recipient's personal data. Yahoo template editors may review the templates to
+    improve our services and our personalization of your experience. Please read our
+    FAQ to learn more.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: This information may also be used for interest-based advertising.
+    To learn more, you can visit Yahoo's control tool for interest-based advertising.
+    Yahoo may share keywords, package tracking and product identification numbers
+    with third parties in order to enhance your user experience and provide targeted
+    ads.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Yahoo Mail may include interactive mail features from 3rd parties
+    as well. Your personally identifiable information is not directly shared with
+    the 3rd party without your consent.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Message Search and Access Yahoo Mail and Yahoo Messenger now share
+    a common search platform. You may now elect to archive Yahoo instant messages
+    along with Yahoo Mail messages and search them together (including Voice Mail,
+    SMS, and more). Messages stored on Yahoo servers in this manner are accessible
+    from any computer system or device able to access Yahoo Mail or the latest versions
+    of Yahoo Messenger. Yahoo may analyze instant messages you elect to archive in
+    order to provide personally relevant product features, content, and advertising,
+    and spam and malware detection.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Information Sharing and Disclosure Practices Yahoo Mail includes IP
+    addresses in outgoing mail message headers, as specified by standard Internet
+    protocol.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Yahoo Mail includes\_IP addresses\_in outgoing mail message headers,\
+      \ as specified by standard Internet protocol."
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: When users click on the Spam and Not Spam buttons, information is
+    sent to Yahoo's anti-spam team or other spam compliance service providers for
+    review, and aspects of these messages may be shared with the sender to reduce
+    spam. See our spam FAQ for more information.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Practices Regarding Your Ability to Update or Delete Information You
+    can modify your settings and preferences in your Yahoo Mail account by accessing
+    "Account Information".
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Other When you use Yahoo Mail, you are subject to the Yahoo Terms
+    of Service. Please see Yahoo Mail Help if you have questions about this service.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: This page describes current Yahoo practices with respect to this particular
+    service. This information may change as Yahoo revises this service by adding or
+    removing features or using different service providers. To find out how Yahoo
+    treats your personal information, please visit our Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Yahoo Privacy To find out how Yahoo treats your personal information,
+    please visit our Privacy Policy. This page describes current Yahoo practices with
+    respect to this product or topic. Information on this page may change as Yahoo
+    adds or removes features.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Personalized Experience By bringing content and advertising to you
+    that is relevant and tailored to your interests, Yahoo provides a more compelling
+    online experience. Update your content or search preferences, manage your advertising
+    choices, or learn more about relevant advertising.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: No IP addresses are collected.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No IP addresses are collected.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED

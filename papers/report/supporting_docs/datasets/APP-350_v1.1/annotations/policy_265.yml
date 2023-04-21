@@ -1,0 +1,78 @@
+policy_id: 265
+policy_name: MBFG
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home FAQ Terms of Service Privacy Policy Contact
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Warning MBFG may periodically update this policy. We
+    will notify you about significant changes in the way we treat personal information
+    by sending a notice to the primary email address specified in your primary account
+    holder account or by placing a prominent notice on our site.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We will notify you about significant changes in the way we treat
+      personal information by sending a notice to the primary email address specified
+      in your primary account holder account or by placing a prominent notice on our
+      site.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: Privacy Policy Your privacy is very important to us. Accordingly,
+    we have developed this Policy in order for you to understand how we collect, use,
+    communicate and disclose and make use of personal information. The following outlines
+    our privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Before or at the time of collecting personal information, we will
+    identify the purposes for which information is being collected. We will collect
+    and use of personal information solely with the objective of fulfilling those
+    purposes specified by us and for other compatible purposes, unless we obtain the
+    consent of the individual concerned or as required by law.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We will only retain personal information as long as necessary for
+    the fulfillment of those purposes.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We will collect personal information by lawful and fair means and,
+    where appropriate, with the knowledge or consent of the individual concerned.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Personal data should be relevant to the purposes for which it is to
+    be used, and, to the extent necessary for those purposes, should be accurate,
+    complete, and up-to-date. We will protect personal information by reasonable security
+    safeguards against loss or theft, as well as unauthorized access, disclosure,
+    copying, use or modification.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We will make readily available to customers information about our
+    policies and practices relating to the management of personal information.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: We are committed to conducting our business in accordance with these
+    principles in order to ensure that the confidentiality of personal information
+    is protected and maintained.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Any questions about this Privacy Policy should be addressed to support@avd-app.com
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: "Free download FAQ - Terms of Service - Privacy Policy - Email us\
+    \ | avd-app.com \xA9 2017"
+  annotations: []
+  sentences: []

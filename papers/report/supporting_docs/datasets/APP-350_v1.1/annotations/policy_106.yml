@@ -1,0 +1,741 @@
+policy_id: 106
+policy_name: Amazon
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Amazon Try Prime All All Departments Alexa Skills Amazon Video Amazon
+    Warehouse Deals Appliances Apps & Games Arts, Crafts & Sewing Automotive Parts
+    & Accessories Baby Beauty & Personal Care Books CDs & Vinyl Cell Phones & Accessories
+    Clothing, Shoes & Jewelry Women Men Girls Boys Baby Collectibles & Fine Art Computers
+    Courses Credit and Payment Cards Digital Music Electronics Gift Cards Grocery
+    & Gourmet Food Handmade Health, Household & Baby Care Home & Business Services
+    Home & Kitchen Industrial & Scientific Kindle Store Luggage & Travel Gear Luxury
+    Beauty Magazine Subscriptions Movies & TV Musical Instruments Office Products
+    Patio, Lawn & Garden Pet Supplies Prime Pantry Software Sports & Outdoors Tools
+    & Home Improvement Toys & Games Vehicles Video Games Wine Departments PrimeVideoMusic
+    Hello. Sign inAccount & ListsSign inAccount & ListsCart0 OrdersYour Amazon.comDealsGift
+    Cards & RegistrySellHelpClick to call our Disability Customer Support line, or
+    reach us directly at 1-888-283-1678
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Help & Customer Service Security & Privacy \u203A Legal Policies\u203A\
+    \ Amazon Privacy Notice Last updated: September 30, 2016. To see what has changed,\
+    \ click here."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Amazon.com knows that you care how information about you is used and
+    shared, and we appreciate your trust that we will do so carefully and sensibly.
+    This notice describes our privacy policy. By visiting Amazon.com, you are accepting
+    the practices described in this Privacy Notice. What Personal Information About
+    Customers Does Amazon.com Gather? What About Cookies? Does Amazon.com Share the
+    Information It Receives? How Secure Is Information About Me? What About Third-Party
+    Advertisers and Links to Other Websites? Which Information Can I Access? What
+    Choices Do I Have? Are Children Allowed to Use Amazon.com? EU-US Privacy Shield
+    Conditions of Use, Notices, and Revisions Examples of Information Collected
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: What About Cookies?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: What Personal Information About Customers Does Amazon.com Gather?
+    The information we learn from customers helps us personalize and continually improve
+    your Amazon experience. Here are the types of information we gather.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Information You Give Us: We receive and store any information you
+    enter on our Web site or give us in any other way. Click here to see examples
+    of what we collect. You can choose not to provide certain information, but then
+    you might not be able to take advantage of many of our features. We use the information
+    that you provide for such purposes as responding to your requests, customizing
+    future shopping for you, improving our stores, and communicating with you.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'Automatic Information: We receive and store certain types of information
+    whenever you interact with us. For example, like many Web sites, we use "cookies,"
+    and we obtain certain types of information when your Web browser accesses Amazon.com
+    or advertisements and other content served by or on behalf of Amazon.com on other
+    Web sites. Click here to see examples of the information we receive.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Automatic Information: We receive and store certain types of information
+      whenever you interact with us.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, like many Web sites, we use "cookies," and we obtain
+      certain types of information when your Web browser accesses Amazon.com or advertisements
+      and other content served by or on behalf of Amazon.com on other Web sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 'Mobile: When you download or use apps created by Amazon or our subsidiaries,
+    we may receive information about your location and your mobile device, including
+    a unique identifier for your device. We may use this information to provide you
+    with location-based services, such as advertising, search results, and other personalized
+    content. Most mobile devices allow you to turn off location services. For more
+    information about how to do this,click here.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "When you download or use\_apps created by Amazon\_or our subsidiaries,\
+      \ we may receive information about your location and your mobile device, including\
+      \ a unique identifier for your device."
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 'E-mail Communications: To help us make e-mails more useful and interesting,
+    we often receive a confirmation when you open e-mail from Amazon.com if your computer
+    supports such capabilities. We also compare our customer list to lists received
+    from other companies, in an effort to avoid sending unnecessary messages to our
+    customers. If you do not want to receive e-mail or other mail from us, please
+    adjust your Customer Communication Preferences .'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Information from Other Sources: We might receive information about
+    you from other sources and add it to our account information. Click here to see
+    examples of the information we receive.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: What About Cookies? Cookies are unique identifiers that we transfer
+    to your device to enable our systems to recognize your device and to provide features
+    such as 1-Click purchasing, Recommended for You , personalized advertisements
+    on other Web sites (e.g., Amazon Associates with content served by Amazon.com
+    and Web sites using Checkout by Amazon payment service), and storage of items
+    in your Shopping Cart between visits.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are unique identifiers that we transfer to your device
+      to enable our systems to recognize your device and to provide features such
+      as 1-Click purchasing, Recommended for You , personalized advertisements on
+      other Web sites (e.g., Amazon Associates with content served by Amazon.com and
+      Web sites using Checkout by Amazon payment service), and storage of items in
+      your Shopping Cart between visits.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: What About Cookies?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: The Help feature on most browsers will tell you how to prevent your
+    browser from accepting new cookies, how to have the browser notify you when you
+    receive a new cookie, or how to disable cookies altogether. Additionally, you
+    can disable or delete similar data used by browser add-ons, such as Flash cookies,
+    by changing the add-on's settings or visiting the Web site of its manufacturer.
+    Because cookies allow you to take advantage of some of Amazon.com's essential
+    features, we recommend that you leave them turned on. For instance, if you block
+    or otherwise reject our cookies, you will not be able to add items to your Shopping
+    Cart, proceed to Checkout, or use any Amazon.com products and services that require
+    you to Sign in.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, you can disable or delete similar data used by browser
+      add-ons, such as Flash cookies, by changing the add-on's settings or visiting
+      the Web site of its manufacturer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Because cookies allow you to take advantage of some of Amazon.com's
+      essential features, we recommend that you leave them turned on.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For instance, if you block or otherwise reject our cookies, you
+      will not be able to add items to your Shopping Cart, proceed to Checkout, or
+      use any Amazon.com products and services that require you to Sign in.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The Help feature on most browsers will tell you how to prevent
+      your browser from accepting new cookies, how to have the browser notify you
+      when you receive a new cookie, or how to disable cookies altogether.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Does Amazon.com Share the Information It Receives? Information about
+    our customers is an important part of our business, and we are not in the business
+    of selling it to others. We share customer information only as described below
+    and with subsidiaries Amazon.com, Inc. controls that either are subject to this
+    Privacy Notice or follow practices at least as protective as those described in
+    this Privacy Notice.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'Affiliated Businesses We Do Not Control: We work closely with affiliated
+    businesses. In some cases, such as Marketplace sellers, these businesses operate
+    stores at Amazon.com or sell offerings to you at Amazon.com. In other cases, we
+    operate stores, provide services, or sell product lines jointly with these businesses.
+    Click here for some examples of co-branded and joint offerings. You can tell when
+    a third party is involved in your transactions, and we share customer information
+    related to those transactions with that third party.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Third-Party Service Providers: We employ other companies and individuals
+    to perform functions on our behalf. Examples include fulfilling orders, delivering
+    packages, sending postal mail and e-mail, removing repetitive information from
+    customer lists, analyzing data, providing marketing assistance, providing search
+    results and links (including paid listings and links), processing credit card
+    payments, and providing customer service. They have access to personal information
+    needed to perform their functions, but may not use it for other purposes.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Promotional Offers: Sometimes we send offers to selected groups of
+    Amazon.com customers on behalf of other businesses. When we do this, we do not
+    give that business your name and address. If you do not want to receive such offers,
+    please adjust your Customer Communication Preferences .'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'Business Transfers: As we continue to develop our business, we might
+    sell or buy stores, subsidiaries, or business units. In such transactions, customer
+    information generally is one of the transferred business assets but remains subject
+    to the promises made in any pre-existing Privacy Notice (unless, of course, the
+    customer consents otherwise). Also, in the unlikely event that Amazon.com, Inc.,
+    or substantially all of its assets are acquired, customer information will of
+    course be one of the transferred assets.'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'Protection of Amazon.com and Others: We release account and other
+    personal information when we believe release is appropriate to comply with the
+    law; enforce or apply our Conditions of Use and other agreements; or protect the
+    rights, property, or safety of Amazon.com, our users, or others. This includes
+    exchanging information with other companies and organizations for fraud protection
+    and credit risk reduction. Obviously, however, this does not include selling,
+    renting, sharing, or otherwise disclosing personally identifiable information
+    from customers for commercial purposes in violation of the commitments set forth
+    in this Privacy Notice. With Your Consent: Other than as set out above, you will
+    receive notice when information about you might go to third parties, and you will
+    have an opportunity to choose not to share the information.'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: How Secure Is Information About Me? We work to protect the security
+    of your information during transmission by using Secure Sockets Layer (SSL) software,
+    which encrypts information you input.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: We reveal only the last four digits of your credit card numbers when
+    confirming an order. Of course, we transmit the entire credit card number to the
+    appropriate credit card company during order processing.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: It is important for you to protect against unauthorized access to
+    your password and to your computer. Be sure to sign off when finished using a
+    shared computer. Click here for more information on how to sign off.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: What About Third-Party Advertisers and Links to Other Websites? Our
+    site includes third-party advertising and links to other Web sites. For more information
+    about third-party advertising at Amazon.com, including personalized or interest-based
+    ads, please read our Interest-Based Ads policy.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Which Information Can I Access? Amazon.com gives you access to a broad
+    range of information about your account and your interactions with Amazon.com
+    for the limited purpose of viewing and, in certain cases, updating that information.
+    Click here to see some examples, the list of which will change as our Web site
+    evolves.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: What Choices Do I Have? As discussed above, you can always choose
+    not to provide information, even though it might be needed to make a purchase
+    or to take advantage of such Amazon.com features as Your Profile, Wish Lists ,
+    Customer Reviews, and Amazon Prime.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: You can add or update certain information on pages such as those referenced
+    in the Which Information Can I Access? section. When you update information, we
+    usually keep a copy of the prior version for our records.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: If you do not want to receive e-mail or other mail from us, please
+    adjust your Customer Communication Preferences . (If you do not want to receive
+    Conditions of Use and other legal notices from us, such as this Privacy Notice,
+    those notices will still govern your use of Amazon.com, and it is your responsibility
+    to review them for changes.) If you do not want us to use personal information
+    that we gather to allow third parties to personalize advertisements we display
+    to you, please adjust your Advertising Preferences .
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Are Children Allowed to Use Amazon.com? Amazon.com does not sell products
+    for purchase by children. We sell children's products for purchase by adults.
+    If you are under 18, you may use Amazon.com only with the involvement of a parent
+    or guardian.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: EU-US Privacy Shield Amazon.com, Inc. participates in the EU-US Privacy
+    Shield framework. Click here to learn more.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Conditions of Use, Notices, and Revisions If you choose to visit Amazon.com,
+    your visit and any dispute over privacy is subject to this Notice and our Conditions
+    of Use, including limitations on damages, resolution of disputes, and application
+    of the law of the state of Washington. If you have any concern about privacy at
+    Amazon.com, please contact us with a thorough description, and we will try to
+    resolve it. Our business changes constantly, and our Privacy Notice and the Conditions
+    of Use will change also. We may e-mail periodic reminders of our notices and conditions,
+    but you should check our Web site frequently to see recent changes. Unless stated
+    otherwise, our current Privacy Notice applies to all information that we have
+    about you and your account. We stand behind the promises we make, however, and
+    will never materially change our policies and practices to make them less protective
+    of customer information collected in the past without the consent of affected
+    customers.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Related Practices and Information Conditions of Use Discussion Boards
+    Community Rules Help department Most Recent Purchases Your Profile and Community
+    Guidelines
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Examples of Information Collected Information You Give Us You provide
+    most such information when you search, buy, post, participate in a contest or
+    questionnaire, or communicate with customer service. For example, you provide
+    information when you search for a product; place an order through Amazon.com or
+    one of our third-party sellers; provide information in Your Account (and you might
+    have more than one if you have used more than one e-mail address when shopping
+    with us) or Your Profile ; communicate with us by phone, e-mail, or otherwise;
+    complete a questionnaire or a contest entry form; use our services such as Amazon
+    Instant Video; compile Wish Lists or other gift registries; participate in Discussion
+    Boards or other community features; provide and rate Reviews; and employ Product
+    Availability Alerts, such as Available to Order Notifications. As a result of
+    those actions, you might supply us with such information as your name, address,
+    and phone numbers; credit card information; people to whom purchases have been
+    shipped, including addresses and phone number; people (with addresses and phone
+    numbers) listed in 1-Click settings; e-mail addresses of your friends and other
+    people; content of reviews and e-mails to us; personal description and photograph
+    in Your Profile ; and financial information, including Social Security and driver's
+    license numbers.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As a result of those actions, you might supply us with such information
+      as
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: As a result of those actions, you might supply us with such information
+      as your name, address, and phone numbers; credit card information; people to
+      whom purchases have been shipped, including addresses and phone number;
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: e-mail addresses of your friends and other people;
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: Automatic Information Examples of the information we collect and analyze
+    include the Internet protocol (IP) address used to connect your computer to the
+    Internet; login; e-mail address; password; computer and connection information
+    such as browser type, version, and time zone setting, browser plug-in types and
+    versions, operating system, and platform; purchase history, which we sometimes
+    aggregate with similar information from other customers to create features like
+    Top Sellers ; the full Uniform Resource Locator (URL) clickstream to, through,
+    and from our Web site, including date and time; cookie number; products you viewed
+    or searched for; and the phone number you used to call our 800 number. We may
+    also use browser data such as cookies, Flash cookies (also known as Flash Local
+    Shared Objects), or similar data on certain parts of our Web site for fraud prevention
+    and other purposes. During some visits we may use software tools such as JavaScript
+    to measure and collect session information, including page response times, download
+    errors, length of visits to certain pages, page interaction information (such
+    as scrolling, clicks, and mouse-overs), and methods used to browse away from the
+    page. We may also collect technical information to help us identify your device
+    for fraud prevention and diagnostic purposes.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Examples of the information we collect and analyze include the\
+      \ Internet protocol (IP) address used to connect your computer to the Internet;\
+      \ login; e-mail address; password; computer and connection information such\
+      \ as browser type, version, and time zone setting, browser plug-in types and\
+      \ versions, operating system, and platform; purchase history, which we sometimes\
+      \ aggregate with similar information from other customers to create features\
+      \ like\_Top Sellers; the full Uniform Resource Locator (URL) clickstream to,\
+      \ through, and from our Web site, including date and time; cookie number; products\
+      \ you viewed or searched for; and the phone number you used to call our 800\
+      \ number."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: Mobile Most mobile devices provide users with the ability to disable
+    location services. Most likely, these controls are located in the device's settings
+    menu. For information about specific devices, click here. If you have questions
+    about how to disable your device's location services, we recommend you contact
+    your mobile service carrier or your device manufacturer.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For information about specific devices, click here.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: If you have questions about how to disable your device's location
+      services, we recommend you contact your mobile service carrier or your device
+      manufacturer.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Most likely, these controls are located in the device's settings
+      menu.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Most mobile devices provide users with the ability to disable location
+      services.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 32
+  segment_text: Information from Other Sources Examples of information we receive
+    from other sources include updated delivery and address information from our carriers
+    or other third parties, which we use to correct our records and deliver your next
+    purchase or communication more easily; account information, purchase or redemption
+    information, and page-view information from some merchants with which we operate
+    co-branded businesses or for which we provide technical, fulfillment, advertising,
+    or other services; search term and search result information from some searches
+    conducted through the Web search features offered by our subsidiary, Alexa Internet;
+    search results and links, including paid listings (such as Sponsored Links); and
+    credit history information from credit bureaus, which we use to help prevent and
+    detect fraud and to offer certain credit or financial services to some customers.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Co-branded and Joint Offerings Examples of businesses with which we
+    offer joint or co-branded products and other offerings include Starbucks, OfficeMax,
+    Verizon Wireless, Sprint, T-Mobile, AT&T, J&R Electronics, Eddie Bauer and Northern
+    Tool + Equipment.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: Information You Can Access Examples of information you can access
+    easily at Amazon.com include up-to-date information regarding recent orders; personally
+    identifiable information (including name, e-mail, password, communications and
+    personalized advertising preferences, address book, and 1-Click settings); payment
+    settings (including credit card information and promotional certificate and gift
+    card balances); e-mail notification settings (including Product Availability Alerts,
+    Delivers, and newsletters); Recommendations (including Recommended for You and
+    Improve Your Recommendations); shopping lists and gift registries (including Wish
+    Lists and Baby and Wedding Registries); Seller accounts; and Your Profile (including
+    your product Reviews, Recommendations, Listmania lists, Reminders, personal profile,
+    and Wish List).
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information You Can Access Examples of information you can access
+      easily at Amazon.com include up-to-date information regarding recent orders;
+      personally identifiable information (including name, e-mail, password, communications
+      and personalized advertising preferences, address book, and 1-Click settings);
+      payment settings (including credit card information and promotional certificate
+      and gift card balances); e-mail notification settings (including Product Availability
+      Alerts, Delivers, and newsletters); Recommendations (including Recommended for
+      You and Improve Your Recommendations); shopping lists and gift registries (including
+      Wish Lists and Baby and Wedding Registries); Seller accounts; and Your Profile
+      (including your product Reviews, Recommendations, Listmania lists, Reminders,
+      personal profile, and Wish List).
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: EU-US Privacy Shield Amazon.com, Inc. and certain of its controlled
+    US affiliates (together, the Amazon Group Companies, or "We") participate in the
+    EU-US Privacy Shield Framework regarding the collection, use, and retention of
+    personal information from European Union member countries. We have certified with
+    the Department of Commerce that we adhere to the Privacy Shield Principles. To
+    learn more about the Privacy Shield Principles, click here.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 'If you have any inquiries or complaints about our handling of your
+    personal data under Privacy Shield, or about our privacy practices generally,
+    please contact us at: privacyshield@amazon.com. We will respond to your inquiry
+    promptly. If we are unable to satisfactorily resolve any complaint relating to
+    the Privacy Shield, or if we fail to acknowledge your complaint in a timely fashion,
+    you can submit your complaint to TRUSTe, which provides an independent third-party
+    dispute resolution service based in the United States. TRUSTe has committed to
+    respond to complaints and to provide appropriate recourse at no cost to you. To
+    learn more about TRUSTe''s dispute resolution services or to refer a complaint
+    to TRUSTe, visit here. If neither Amazon nor TRUSTe resolves your complaint, you
+    may pursue binding arbitration through the Privacy Shield Panel. To learn more
+    about the Privacy Shield Panel, click here.'
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: As explained here we sometimes provide personal information to third
+    parties to perform services on our behalf. If we transfer personal information
+    received under the Privacy Shield to a third party, the third party's access,
+    use, and disclosure of the personal data must also be in compliance with our Privacy
+    Shield obligations, and we will remain liable under the Privacy Shield for any
+    failure to do so by the third party unless we prove we are not responsible for
+    the event giving rise to the damage.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: You can review our Privacy Shield registration here. The Amazon Group
+    Companies are subject to the investigatory and enforcement powers of the Federal
+    Trade Commission (FTC). We may be required to disclose personal information that
+    we handle under the Privacy Shield in response to lawful requests by public authorities,
+    including to meet national security or law enforcement requirements.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 'Amazon Group Companies As of September 30, 2016, the following entities
+    are included in Amazon.com, Inc.''s Privacy Shield Certification: Amazon.com,
+    Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Amazon Media Group LLC Amazon Web Services, Inc.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Audible, Inc.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Was this information helpful? Yes Thank you for your feedback.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 'Please select what best describes the information: This information
+    is confusing or wrong This isn''t the information I was looking for I don''t like
+    this policy Submit Thanks! While we''re unable to respond directly to your feedback,
+    we''ll use this information to improve our online Help.'
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 'All Help Topics Legal Policies Conditions of Use Amazon.com Privacy
+    Notice Supported Browsers About Identifying Whether an E-mail is from Amazon Report
+    a Security Issue Supply Chain Standards Public PGP Key Non-Exhaustive List of
+    Applicable Amazon Patents and Applicable Licensed Patents Non-Exhaustive List
+    of Amazon Trademarks Guidelines: Uploading Your Own Content to an electronic Amazon.com
+    Gift Card or Other Electronic Message'
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: Quick solutions Your Orders Track or cancel orders Your Orders Track
+    or cancel orders Returns & Refunds Exchange or return items Returns & Refunds
+    Exchange or return items Manage Prime Cancel or view benefits Manage Prime Cancel
+    or view benefits Payment Settings Add or edit payment methods Payment Settings
+    Add or edit payment methods Carrier Info Shipping carrier information Carrier
+    Info Shipping carrier information Account Settings Change email or password Account
+    Settings Change email or password Ask the Kindle Help Community Contact Us Back
+    to top Get to Know Us Careers About Amazon Investor Relations Amazon Devices
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: "Make Money with Us Sell on Amazon Sell Your Services on Amazon Sell\
+    \ on Amazon Business Sell Your Apps on Amazon Become an Affiliate Advertise Your\
+    \ Products Self-Publish with Us Become an Amazon Vendor \u203ASee all"
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Amazon Payment Products Amazon Rewards Visa Signature Cards Amazon.com
+    Store Card Amazon.com Corporate Credit Line Shop with Points Credit Card Marketplace
+    Reload Your Balance Amazon Currency Converter
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Let Us Help You Your Account Your Orders Shipping Rates & Policies
+    Amazon Prime Returns & Replacements Manage Your Content and Devices Amazon Assistant
+    Help Australia Brazil Canada China France Germany India Italy Japan Mexico Netherlands
+    Spain United Kingdom
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: "Amazon Drive Unlimited Cloud Storage From Amazon 6pm Score deals\
+    \ on fashion brands AbeBooks Books, art & collectibles ACX Audiobook Publishing\
+    \ Made Easy Alexa Actionable Analytics for the Web Amazon Business Everything\
+    \ For Your Business AmazonFresh Groceries & More Right To Your Door AmazonGlobal\
+    \ Ship Orders Internationally Home Services Handpicked Pros Happiness Guarantee\
+    \ Amazon Inspire Free Digital Educational Resources Amazon Rapids Fun stories\
+    \ for kids on the go Amazon Restaurants Food delivery from local restaurants Amazon\
+    \ Video Direct Video Distribution Made Easy Amazon Web Services Scalable Cloud\
+    \ Computing Services Audible Download Audio Books BeautyBar.com Prestige Beauty\
+    \ Delivered Book Depository Books With Free Delivery Worldwide Box Office Mojo\
+    \ Find Movie Box Office Data Casa.com Kitchen, Storage & Everything Home ComiXology\
+    \ Thousands of Digital Comics CreateSpace Indie Print Publishing Made Easy Diapers.com\
+    \ Everything But The Baby DPReview Digital Photography East Dane Designer Men's\
+    \ Fashion Fabric Sewing, Quilting & Knitting Goodreads Book reviews & recommendations\
+    \ IMDb Movies, TV & Celebrities IMDbPro Get Info Entertainment Professionals Need\
+    \ Junglee.com Shop Online in India Kindle Direct Publishing Indie Digital Publishing\
+    \ Made Easy Prime Now FREE 2-Hour Delivery on Everyday Items Shopbop Designer\
+    \ Fashion Brands Soap.com Health, Beauty & Home Essentials TenMarks.com Math Activities\
+    \ for Kids & Schools Wag.com Everything For Your Pet Warehouse Deals Open-Box\
+    \ Discounts Whispercast Discover & Distribute Digital Content Withoutabox Submit\
+    \ to Film Festivals Woot! Deals and Shenanigans Yoyo.com A Happy Place To Shop\
+    \ For Toys Zappos Shoes & Clothing Conditions of Use Privacy Notice Interest-Based\
+    \ Ads \xA9 1996-2017, Amazon.com, Inc. or its affiliates"
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: There's a problem loading this menu right now.
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: Learn more about Amazon Prime.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: Get fast, free shipping with Amazon Prime Prime members enjoy FREE
+    Two-Day Shipping and exclusive access to music, movies, TV shows, original audio
+    series, and Kindle books.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: Get started
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: "When you download or use\_apps created by Amazon\_or our subsidiaries,\
+    \ we do not receive information about your location and your mobile device, that\
+    \ is, the unique identifier for your device."
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "When you download or use\_apps created by Amazon\_or our subsidiaries,\
+      \ we do not receive information about your location and your mobile device,\
+      \ that is, the unique identifier for your device."
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 55
+  segment_text: "Examples of the information we do not collect include the Internet\
+    \ protocol (IP) address used to connect your computer to the Internet; login;\
+    \ e-mail address; password; computer and connection information such as browser\
+    \ type, version, and time zone setting, browser plug-in types and versions, operating\
+    \ system, and platform; purchase history, which we sometimes aggregate with similar\
+    \ information from other customers to create features like\_Top Sellers; the full\
+    \ Uniform Resource Locator (URL) clickstream to, through, and from our Web site,\
+    \ including date and time; cookie number; products you viewed or searched for;\
+    \ and the phone number you used to call our 800 number."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "Examples of the information we do not collect include the Internet\
+      \ protocol (IP) address used to connect your computer to the Internet; login;\
+      \ e-mail address; password; computer and connection information such as browser\
+      \ type, version, and time zone setting, browser plug-in types and versions,\
+      \ operating system, and platform; purchase history, which we sometimes aggregate\
+      \ with similar information from other customers to create features like\_Top\
+      \ Sellers; the full Uniform Resource Locator (URL) clickstream to, through,\
+      \ and from our Web site, including date and time; cookie number; products you\
+      \ viewed or searched for; and the phone number you used to call our 800 number."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 56
+  segment_text: As a result of those actions, we do not collect such information as
+    your name, address, and phone numbers; credit card information; people to whom
+    purchases have been shipped, including addresses and phone number; ...
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: As a result of those actions, we do not collect such information
+      as your name, address, and phone numbers; credit card information; people to
+      whom purchases have been shipped, including addresses and phone number; ...
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED

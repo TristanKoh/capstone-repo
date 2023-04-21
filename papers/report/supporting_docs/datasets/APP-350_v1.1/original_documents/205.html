@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title> COM2US </title>
+
+<!-- 기타 추가 JS  -->
+<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
+
+<style type="text/css">
+
+@charset "utf-8";
+
+/* Com2us HIVE Team. Author : Choi Hyunsun 2014-03-11. Edit : Choi Hyunsun 2014-08-12 */
+
+html	{-webkit-text-size-adjust:none;}
+body		{margin:0;padding:0;font-family:sans-serif;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section	{display:block;}
+img	{vertical-align:top;border:0;}
+a	{text-decoration:none;}
+*:lang(ja){font-family:'lucida grande',tahoma,verdana,arial,'hiragino kaku gothic pro',meiryo,'ms pgothic',sans-serif;}
+input:lang(ja){font-family:'lucida grande',tahoma,verdana,arial,'hiragino kaku gothic pro',meiryo,'ms pgothic',sans-serif;}
+textarea:lang(ja){font-family:'lucida grande',tahoma,verdana,arial,'hiragino kaku gothic pro',meiryo,'ms pgothic',sans-serif;}
+*:lang(zh){font-family:Times New Roman;}
+input:lang(zh){font-family:Times New Roman;}
+textarea:lang(zh){font-family:Times New Roman;}
+
+/* policy */
+#C2Snav	{width:100%;position:fixed;top:0;left:0;display:table;table-layout:fixed;margin:0;padding:15px 0;border-bottom:1px solid #bdbdbd;background-color:#444;}
+#C2Snav a	{height:29px;display:table-cell;vertical-align:middle;text-align:center;color:#999;line-height:130%;font-size:10px;border-left:1px solid #666;}
+#C2Snav a:first-child	{border-left:0;}
+#C2Snav a.on	{color:#fefefe;}
+
+#C2Spolicy	{padding:74px 12px 15px;color:#666;line-height:160%;font-size:10px;}
+#C2Spolicy .head	{margin-bottom:25px;text-align:right;color:#999;}
+#C2Spolicy .head select	{margin-left:6px;color:#666;font-size:10px;}
+
+.contents * {margin:0;padding:0;list-style:none;}
+.contents h1	{margin-bottom:18px;font-size:12px;color:#000;font-weight:normal;}
+.contents h2	{font-size:11px;color:#000;font-weight:normal;}
+.contents h3, .contents strong, .contents .point	{color:#000;font-weight:normal;}
+.contents a	{color:#1b62ab;text-decoration:underline;}
+.contents .index	{padding:15px;margin-bottom:18px;border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+.contents .index a	{text-decoration:none;color:#666;}
+.contents p, .contents dl, .contents ol, .contents ul	{margin-bottom:18px;}
+.contents ol ol, .contents ul ul, .contents li p	{margin-bottom:0;}
+
+@media only screen and (min-width:768px)	{
+body, select	{font-family:'나눔고딕', NanumGothic, 'ng', sans-serif;}
+#C2Snav	{padding:30px 0;border-bottom:2px solid #bdbdbd;}
+#C2Snav a	{height:58px;font-size:20px;border-left:2px solid #666;}
+
+#C2Spolicy	{padding:148px 24px 30px;line-height:160%;font-size:20px;}
+#C2Spolicy .head	{margin-bottom:50px;}
+#C2Spolicy .head select	{margin-left:12px;font-size:20px;}
+
+.contents h1	{margin-bottom:36px;font-size:24px;}
+.contents h2	{font-size:22px;}
+.contents .index	{padding:30px;margin-bottom:36px;border-top:2px solid #d9d9d9;border-bottom:2px solid #d9d9d9;}
+.contents p, .contents dl, .contents ol, .contents ul	{margin-bottom:36px;}
+}
+
+</style>
+<script type="text/javascript">
+
+    function chgStartdate()
+    {
+        document.getElementById("start_date").value = document.getElementById("C2Sselect").value;
+        document.getElementById("form").submit(); 
+        // $("#start_date").val($("#C2Sselect").val());
+        // $('form').submit();
+    }
+    
+    function chgMaincode(main_code)
+    {
+        document.getElementById("main_code").value = main_code;
+        document.getElementById("sub_code").value = "";
+        document.getElementById("start_date").value = "";
+        document.getElementById("form").submit();
+        // $("#main_code").val(main_code);
+        // $("#sub_code").val("");
+        // $("#start_date").val("");
+        // $('form').submit();
+    }
+
+</script>
+</head>
+
+<body>
+<nav id="C2Snav">
+
+<a href="#" class="on"  onclick="chgMaincode('T1')" >Terms of Service</a><a href="#" class=""  onclick="chgMaincode('T3')" >Privacy Policy</a><a href="#" class=""  onclick="chgMaincode('T5')" >Management Policy</a>
+
+</nav>
+<section id="C2Spolicy">
+	<div class="head">
+		<label for="C2Sselect">View Previous Terms</label>
+		<select id="C2Sselect"  onchange = "chgStartdate();">
+		<option value="2014-10-31 00:00:00" selected="selected">2014-10-31</option><option value="2014-06-24 00:00:00" >2014-06-24</option>		</select>
+	</div>
+	<section class="contents">
+		<div>
+	1. Introduction&nbsp;</div>
+<div>
+	If you reside outside of the Republic of Korea, the terms of this agreement (the &ldquo;Terms of Service&rdquo;) govern the relationship between you(&ldquo;user&rdquo; or &ldquo;you&rdquo;) and Com2uS Corporation and/or its affiliates ( &ldquo;Com2uS,&rdquo; &ldquo;we,&rdquo; or &ldquo;us&rdquo;) regarding your use of Com2uS&rsquo;s mobile games (&ldquo;Com2uS Games&rdquo;) and related services, including, without limitation, the use of Com2uS Games, participation in an online community for Com2uS Games or social network services offered via the HIVE Platform or Com2uS branded websites (collectively, the &ldquo;Com2uS Service&rdquo;).&nbsp;</div>
+<div>
+	For your reference, the HIVE Platform means the social network platform jointly developed and operated by Com2uS Corp. and GAMEVIL Inc., which provides users with various social network services and information for enjoyment of their games. For the avoidance of doubt, we assume no responsibility, obligation, or liability for (a) your use of GAMEVIL Inc.&rsquo;s and/or its affiliate&rsquo;s games provided via the HIVE Platform (&ldquo;GAMEVIL&rsquo;s Games&rdquo;) or (b) services of the HIVE Platform in connection with such games.</div>
+<div>
+	Use of the Com2uS Service is also governed by the Com2uS&rsquo;s Privacy Policy as well as the HIVE Community Standards, which are incorporated herein by reference. We may collect and use your content and information in accordance with this Privacy Policy.</div>
+<div>
+	By downloading Com2uS Games, accessing and/or using the Com2uS Service, and/or creating a HIVE Account, you accept and agree to be bound by the Terms of Service, the Com2uS Privacy Policy, and the HIVE Community Standards (collectively, the &ldquo;Com2uS Policy&rdquo;).&nbsp;</div>
+<div>
+	Com2uS may amend, at our discretion, any portion of the Com2uS Policy at any time by posting or displaying the amended Com2uS Policy within and/or on Com2uS Games, Com2uS branded website, or the HIVE Platform. You will be deemed to have accepted such amendments by continuing to use the Com2uS Service. Except as otherwise stated, any such amendments will be automatically effective after they are initially posted.</div>
+<div>
+	By agreeing with the Com2uS Policy, you represent that you are thirteen (13) years of age or older. If you are between the ages of 13 and 18, you represent that your legal guardian has reviewed and agrees to the Com2uS Policy.</div>
+<div>
+	If you do not agree with any portion of the Com2uS Policy, your only remedy is to discontinue your use of the Com2uS Service and cancel the accounts you have made through the Com2uS Service. If you violate any of the Terms of Service, Com2uS reserves the right to issue you a warning regarding the violation or immediately terminate or suspend, without notice, any or all accounts you have created using the Com2uS Service.</div>
+<div>
+	&nbsp;</div>
+<div>
+	2.<span class="Apple-tab-span" style="white-space:pre"> </span>License</div>
+<div>
+	2.1.<span class="Apple-tab-span" style="white-space:pre"> </span> Ownership of Com2uS</div>
+<div>
+	Com2uS owns, has licensed, or otherwise has the right to use all of the content and materials that appear in the Com2us Service, including, without limitation, designs, text, graphics, pictures, video, information, applications, software, music, sound, other files, a user account, virtual items and virtual currencies, and their selection and arrangement, which are all protected by law from unauthorized use. The entire contents and materials of the Com2uS Service are copyrighted under the United States copyright laws and/or similar laws of other jurisdictions.</div>
+<div>
+	By using the Com2uS Service, you agree that no content or materials that appear Com2uS Service may be modified, copied, distributed, framed, reproduced, republished, downloaded, scraped, displayed, posted, transmitted, or sold in any form or by any means, in whole or in part, or otherwise exploited, without the express prior written permission of Com2uS, expect that the foregoing does not apply to your own User Content (as defined in Section 4.1) that you legally post on the Com2uS Service.</div>
+<div>
+	All other uses of copyrighted content and materials, including any derivative use, requires express prior written permission from Com2uS. Any reproduction or redistribution of the content and materials not in accordance with the Terms of Service is expressly prohibited and may result in severe civil and criminal penalties. Com2uS and/or its licensors remain the owners of right, title, and interest, including, but not limited to, copyrights and other intellectual property rights, in and to all content and materials posted on the Com2uS Service by Com2uS.</div>
+<div>
+	By using the Com2uS Service, or by accessing any materials posted on the Com2uS Service by Com2uS, or derivative works thereof, you acknowledge that you do not acquire any ownership rights.</div>
+<div>
+	YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE NO OWNERSHIP OR OTHER PROPERTY INTEREST IN A GUEST OR HIVE ACCOUNT (COLLECTIVELY, &ldquo;GAME ACCOUNTS&rdquo;), AND YOU FURTHER ACKNOWLEDGE AND AGREE THAT ALL RIGHTS IN AND TO A GAME ACCOUNT ARE AND SHALL FOREVER BE OWNED BY AND INURE TO THE BENEFIT OF COM2US.</div>
+<div>
+	2.2. Limited License</div>
+<div>
+	Com2uS hereby grants you a personal, non-exclusive, non-transferable, and revocable limited license to use the Com2uS Service subject to the terms of the Com2uS Policy. You understand that virtual items and virtual currencies are provided solely for your entertainment use, and that you have a limited license to use them under the Com2us Policy, not the ownership interest in them. Any &ldquo;virtual currency&rdquo; balance shown in your account does not constitute a real-world balance or reflect any stored value, but instead constitutes a measurement of the extent of your license.</div>
+<div>
+	2.3.<span class="Apple-tab-span" style="white-space:pre"> </span> Trades of Virtual Items and Virtual Currency</div>
+<div>
+	Com2uS prohibits and does not recognize any purported transfers of virtual items or virtual currency effectuated outside of the Com2uS Service, or the purported sale, gift or trade in the &ldquo;real world&rdquo; of anything that appears or originates in the Com2us Service, unless expressly authorized by Com2uS. Any such transfer or attempted transfer is prohibited and void, and may subject your account to termination.</div>
+<div>
+	&nbsp;</div>
+<div>
+	3. Game Account</div>
+<div>
+	3.1. Guest Account</div>
+<div>
+	If you use the Com2uS Service without creating a HIVE Account, we will create and assign to your device an identifier that is similar to an account number (&ldquo;Guest Account&rdquo;). We will use the Guest Account information for providing customer support to any users who have not created a HIVE Account.&nbsp;</div>
+<div>
+	PLEASE KEEP IN MIND THAT YOU MAY NOT RECEIVE CUSTOMER SUPPORT OR MAY NOT USE VIRTUAL ITEMS OR VIRTUAL CURRENCY FOR WHICH YOU HAVE PAID IF YOU CHANGE YOUR MOBILE DEVICE WITHOUT CREATING A HIVE ACCOUNT.</div>
+<div>
+	3.2. HIVE Account.</div>
+<div>
+	We strongly encourage you to create a HIVE Account because such an account:</div>
+<div>
+	(a)<span class="Apple-tab-span" style="white-space:pre"> </span>enables us to contact you for customer support purposes even when you change your mobile device;&nbsp;</div>
+<div>
+	(b)<span class="Apple-tab-span" style="white-space:pre"> </span>enables us to offer you various social network services from the HIVE Platform; and</div>
+<div>
+	(c)<span class="Apple-tab-span" style="white-space:pre"> </span>enables you to log-in and use the HIVE Platform when you are playing Com2uS Games without creating further account.</div>
+<div>
+	When creating a HIVE Account, you may be required to provide Com2uS with certain personal information. This information will be held and used in accordance with our Privacy Policy.</div>
+<div>
+	3.3. Deactivating Your HIVE Account</div>
+<div>
+	You may freely delete your HIVE Account at any time by logging into the HIVE Account and clicking &ldquo;Delete Account&rdquo; button. You may also request us to delete your HIVE Account by contacting our customer support team. We will use commercially reasonable efforts to respond to your request.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	4.<span class="Apple-tab-span" style="white-space:pre"> </span>User Content</div>
+<div>
+	4.1. Your Representations and Warranties</div>
+<div>
+	&ldquo;User Content&rdquo; means any communications, images, sounds, and all the material, data, and information that you or other users upload, submit, or transmit through the Com2uS Service.</div>
+<div>
+	By transmitting, submitting, or posting any User Content while using the Com2uS Service, you affirm, represent and warrant that such transmission or submission are (a) accurate and not confidential; (b) not in violation of any applicable laws, contractual restrictions or other third party rights, and that you have permission from any third party whose personal information or intellectual property is comprised in the User Content; and (c) free of viruses, adware, spyware, worms or other malicious code.</div>
+<div>
+	You acknowledge and agree that you are solely responsible for all User Content you post or otherwise transmit via the Com2uS Service. Com2uS assumes no responsibility for illegal contents or the conduct of any user submitting any User Content or for the failure of monitoring any User Contents that may be inappropriate under the Com2uS Policy.</div>
+<div>
+	You further acknowledge and agree that any of your personal information within such content will at all times be processed by Com2uS in accordance with its Privacy Policy.</div>
+<div>
+	4.2. License to Use User Content</div>
+<div>
+	You hereby grant Com2uS a worldwide, royalty-free, non-exclusive, and unlimited license to use any User Content that you upload, submit, or transmit through the Com2uS Service, including, without limitation, the right to sublicense and assign to third parties, and right to copy, reproduce, fix, adapt, modify, improve, translate, reformat, create derivative works from, manufacture, introduce into circulation, commercialize, publish, distribute, sell, license, sublicense, transfer, rent, lease, transmit, publicly display, and publicly perform. To the extent permitted by applicable laws, you hereby waive any moral rights you may have in any User Content. You may revoke such a license by giving a written notice to us at any time. In such a case, Com2uS will cease any use of the User Content within 3 months after receiving such a notice from you.</div>
+<div>
+	4.3.<span class="Apple-tab-span" style="white-space:pre"> </span> Content Screening</div>
+<div>
+	You acknowledge and agree that Com2uS may reject, refuse to post, delete, or edit any User Content for any reason at its sole discretion.</div>
+<div>
+	&nbsp;</div>
+<div>
+	5.<span class="Apple-tab-span" style="white-space:pre"> </span>Fees and Purchase Terms</div>
+<div>
+	Some of Com2uS Games may be described as a &ldquo;free game&rdquo; within the description page of App marketplaces. YOU MAY DOWNLOAD AND PLAY SUCH GAMES FREE OF CHARGE, BUT THEY MAY CHARGE REAL MONEY FOR ADDITIONAL GAME CONTENT.</div>
+<div>
+	YOU AGREE AND ACKNOWLEDGE THAT COM2US IS NOT REQUIRED TO PROVIDE A REFUND FOR ANY REASON, AND THAT YOU WILL NOT RECEIVE MONEY OR OTHER COMPENSATION FOR UNUSED VIRTUAL ITEMS WHEN A GAME ACCOUNT IS CLOSED, WHETHER SUCH CLOSURE WAS VOLUNTARY OR INVOLUNTARY.</div>
+<div>
+	YOUR PURCHASE OF VIRTUAL CURRENCY IS FINAL AND IS NOT REFUNDABLE, EXCHANGEABLE AND TRANSFERABLE, EXCEPT IN OUR SOLE DISCRETION.</div>
+<div>
+	You agree to pay all fees and applicable taxes incurred by you. Com2uS may revise the pricing for the goods and services it licenses to you through the Com2uS Service at any time.&nbsp;</div>
+<div>
+	Notwithstanding the foregoing, if you verify in a reasonable way that you reside in the European Union and you have purchased virtual items or currencies from Com2uS, you may have the right to withdraw from a purchase within seven (7) calendar days, commencing on the day after the date of purchase (the &ldquo;Cooling Off Period&rdquo;). However, you lose your right of withdrawal if the performance of our services begins before the end of the Cooling Off Period. You acknowledge and agree that the performance of our service is deemed to begin once you use any portion of virtual currencies or virtual items in playing Com2uS Games, which results in losing your right of withdrawal.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		6.<span class="Apple-tab-span" style="white-space: pre;"> </span>Your Responsibility in Using Service</div>
+	<div>
+		You agree that, while using the Com2uS Service, you will not, under any circumstances:&nbsp;</div>
+	<div>
+		&bull; send, post, transmit or make available any material or information that may be abusive, threatening obscene, defamatory, libelous, or racially, sexually, religiously, or otherwise objectionable or offensive;&nbsp;</div>
+	<div>
+		&bull; stalk, harass, threaten, or defraud other Com2uS Service users or any members of Com2uS support personnel;</div>
+	<div>
+		&bull; use, develop, or distribute any robot, spider, unauthorized script, unauthorized scraper or offline reader, or any other cheat, mod, hack or the like, or any unauthorized third-party software designed to modify or interfere with or provide automated access to or use of the Com2uS Service;</div>
+	<div>
+		&bull; interfere with or disable any security-related features of the Com2uS Service, or any part thereof;&nbsp;</div>
+	<div>
+		&bull; damage, disable, overburden, or impair the Com2uS Service, including, without limitation, by (a) sending, posting, transmitting or distributing anything that contains a virus, spyware, or other harmful material intended to damage or interfere with the Com2uS Service or (b) attempting to disrupt servers that relate to the Com2uS Service;&nbsp;</div>
+	<div>
+		&bull; make improper use of Com2uS&rsquo;s support services, including, without limitation, by submitting false abuse reports;</div>
+	<div>
+		&bull; misrepresent the source, identity, or content of information sent, posted, transmitted or made available via the Com2uS Service;&nbsp;</div>
+	<div>
+		&bull; create a false identity or impersonate another person or entity, including, without limitation, identities falsely indicating that you are a Com2uS official or representative, message board or community board moderator, another user or host, or that you are a celebrity or public figure;&nbsp;</div>
+	<div>
+		&bull; decipher, decompile, disassemble, reverse engineer or otherwise attempt to derive any code or underlying ideas or algorithms of any part of the Com2uS Service;&nbsp;</div>
+	<div>
+		&bull; modify any part of the Com2uS Service without Com2uS&rsquo;s prior written consent;&nbsp;</div>
+	<div>
+		&bull; send, post, transmit or make available any content or information that may infringe any person or entity&rsquo;s intellectual property rights or other property or personal rights, including rights of privacy and publicity;</div>
+	<div>
+		&bull; buy, sell, trade, or advertise to sell any virtual currency or items or Game Account for commercial purposes;</div>
+	<div>
+		&bull; send, post, transmit or make available any unsolicited or inappropriate content or other unsolicited or unauthorized commercial or promotional content, information, or communications without Com2uS&rsquo;s prior written consent</div>
+	<div>
+		&bull; develop, distribute, or publicly inform other members of &ldquo;auto&rdquo; software programs, &ldquo;macro&rdquo; software programs, or other &ldquo;cheat utility&rdquo; software programs or applications in violation of the applicable License Agreements;</div>
+	<div>
+		&bull; exploit, distribute, or publicly inform other members of any game error, miscue, or bug which gives an unintended advantage;</div>
+	<div>
+		&bull; attempt to collect any personal information about any users or to disclose such information;</div>
+	<div>
+		&bull; share the password of the HIVE Account or other information that let anyone else access your Game Account.&nbsp;</div>
+	<div>
+		&bull; access another Com2us Service user&rsquo;s Game Account without permission;</div>
+	<div>
+		&bull; assist, permit or encourage any party in engaging in any of the activities described in the above listing; and</div>
+	<div>
+		&bull; use the Com2uS Service in any manner that may violate any applicable laws or regulations or is prohibited by the Com2uS Policy.</div>
+	<div>
+		&nbsp;</div>
+</div>
+<div>
+	7.<span class="Apple-tab-span" style="white-space:pre"> </span>Third Party Advertising</div>
+<div>
+	Com2uS may feature advertisements from third parties or provide links on the Com2uS Service to third party websites or vendors who may invite you to participate in a promotional offer in return for receiving an optional component of the Com2uS Service and/or benefits (such as virtual items or virtual currency). Any charges or obligations you incur in your dealings with these third parties are your sole responsibility. Com2uS makes no representation or warranty regarding any content, goods and/or services provided by any third party, and will not be liable for any claim relating to any third party content, goods and/or services. The linked sites are not under the control of Com2uS and may collect data or solicit personal information from you. Com2uS is not responsible for their content, business practices or privacy policies, or for the collection, use or disclosure of any information those sites may collect.</div>
+<div>
+	&nbsp;</div>
+<div>
+	8.<span class="Apple-tab-span" style="white-space:pre"> </span>SMS Notifications, Push Notifications &amp; Local Notifications, E-Mail Notification</div>
+<div>
+	We may send local or push notifications to your mobile device to make you aware of game updates, promotional events, new game information and other relevant messages regarding the game service. You can manage push notifications from the &ldquo;options&rdquo; or &ldquo;settings&rdquo; page within the relevant game. You may also be able to manage them from your device&rsquo;s settings page for the relevant game.&nbsp;</div>
+<div>
+	Also, we may send e-mail to your e-mail account to make you aware of game updates, promotional events, new game information, and other relevant messages regarding the game service. If you do not want receive our e-mail notification, please contact us.</div>
+<div>
+	We will not send any SMS notification to your mobile device unless we obtain affirmative express consent from you in compliance with any applicable laws or regulations.</div>
+<div>
+	&nbsp;</div>
+<div>
+	9.<span class="Apple-tab-span" style="white-space:pre"> </span>Copyright Notice</div>
+<div>
+	9.1. Infringement Notification</div>
+<div>
+	The Digital Millennium Copyright Act (&ldquo;DMCA&rdquo;) provides recourse for copyright owners who believe that their rights under the United States Copyright Act have been infringed by acts of third parties over the Internet.</div>
+<div>
+	If you believe in good faith that any materials in Com2uS Games, the HIVE Platform, or Com2uS branded websites may infringe your copyright-protected work under applicable copyright laws, you may provide an infringement notice to Com2uS&rsquo;s designated agent set forth below. For your notice to be effective, it must include the following information:</div>
+<div>
+	(a)<span class="Apple-tab-span" style="white-space:pre"> </span>Reasonably sufficient details to enable us to identify the work claimed to be infringed as well as the material claimed to be infringing;</div>
+<div>
+	(b)<span class="Apple-tab-span" style="white-space:pre"> </span>Your contact information, including your address and email address;</div>
+<div>
+	(c)<span class="Apple-tab-span" style="white-space:pre"> </span>A statement that you have a good faith belief that the disputed is not authorized by the copyright owner, its agent, or the law;</div>
+<div>
+	(d)<span class="Apple-tab-span" style="white-space:pre"> </span>A statement, under penalty of perjury, that the information in the notification is accurate and that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; and</div>
+<div>
+	(e)<span class="Apple-tab-span" style="white-space:pre"> </span>Your physical or electronic signature.</div>
+<div>
+	The contact information of Com2uS&rsquo;s designated agent is as follows:</div>
+<div>
+	Com2uS Corporation.&nbsp;</div>
+<div>
+	Attn: Legal Affair Department Agent</div>
+<div>
+	12F, A-dong, BYC Highcity B/D, 131 GasanDigital 1-ro, Geumcheon-gu</div>
+<div>
+	Seoul, the Republic of Korea</div>
+<div>
+	Email:legal@com2us.com</div>
+<div>
+	9.2. Counter Notification</div>
+<div>
+	If your User Content or other information has been taken down by the above-infringement notification, you may send Com2uS&rsquo;s designated agent a counter-notification that contains the following information:</div>
+<div>
+	(a)<span class="Apple-tab-span" style="white-space:pre"> </span>Identification of the material that has been removed or to which has been disabled and the location at which the material appeared before it was removed or disabled;</div>
+<div>
+	(b)<span class="Apple-tab-span" style="white-space:pre"> </span>A statement, under penalty of perjury, that you have a good faith belief that the material was removed or disabled as a result of mistake or misidentification of the material in question;</div>
+<div>
+	(c)<span class="Apple-tab-span" style="white-space:pre"> </span>Your name, address, and email address; and</div>
+<div>
+	(d)<span class="Apple-tab-span" style="white-space:pre"> </span>Your physical or electronic signature.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Please bear in mind that you will be liable for damages (including costs and attorney&rsquo;s fees) if you materially misrepresent that your User Content or your activity is not infringing the copyrights of others.</div>
+<div>
+	&nbsp;</div>
+<div>
+	10.<span class="Apple-tab-span" style="white-space:pre"> </span>User Interactions</div>
+<div>
+	10.1. Member Disputes&nbsp;</div>
+<div>
+	You are solely responsible for your interactions with other users of the Com2uS Service. We may, at our sole discretion, attempt to mediate disputes between users, but are not obliged to become involved in any way with such disputes.</div>
+<div>
+	10.2. Release &nbsp;</div>
+<div>
+	If you have a dispute with any users of the Com2uS Service, you release us (and our officers, directors, agents, subsidiaries, and employees) from claims, demands and damages (actual and consequential) arising out of or in any way connected with such disputes, including damages for loss of profits, goodwill, use or data. If you are a California resident, you waive California Civil Code &sect;1542, which provides: &ldquo;A general release does not extend to claims which the creditor does not know or suspect to exist in his or her favor at the time of executing the release, which if known by him or her must have materially affected his settlement with the debtor.&rdquo;</div>
+<div>
+	&nbsp;</div>
+<div>
+	11. Suspension &amp; Termination of Com2uS Service</div>
+<div>
+	COM2US MAY LIMIT, SUSPEND, OR TERMINATE YOUR USE OF THE COM2US SERVICE AND/OR GAME ACCOUNT IF WE HAVE A REASONABLE BELIEF THAT YOU FAIL TO COMPLY WITH ANY PORTION OF THE COM2US POLICY IN ACCORDANCE WITH THE HIVE COMMUNITY STANDARDS. For the avoidance of doubt, the HIVE Community Standards apply to all users of the Com2uS Service, including any users who do not have a HIVE Account.</div>
+<div>
+	Com2uS reserves the right to stop providing or supporting any part of the Com2uS Service or a particular game at any time either permanently or temporarily, at which point your license to use the Com2uS Service or a part thereof will be automatically terminated or suspended. In such an event, Com2uS is not required to provide refunds, benefits or other compensation to users in connection with such discontinued elements of the Com2uS Service.</div>
+<div>
+	&nbsp;</div>
+<div>
+	12. Disclaimers &amp; Indemnifications</div>
+<div>
+	12.1. Disclaimer of Warranties</div>
+<div>
+	YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE COM2US SERVICE IS AT YOUR SOLE RISK AND IS PROVIDED ON AN &ldquo;AS IS&rdquo; BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE OR IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</div>
+<div>
+	WITHOUT LIMITING THE GENERALITY OF FOREGOING, NEITHER COM2US NOR ANY OF THEIR DIRECTORS, EMPLOYEES, AGENTS, THIRD-PARTY CONTENT PROVIDERS, COOPERATORS OF THE HIVE PLATFORM, DISTRIBUTORS, LICENSEES OR LICENSORS (COLLECTIVELY, &ldquo;COM2US PARTIES&rdquo;) ASSUME LIABILITY OR RESPONSIBILITY FOR ANY (a) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (b) PERSONAL INJURY OR PROPERTY DAMAGE OF ANY NATURE WHATSOEVER RESULTING FROM YOUR ACCESS TO AND USE OF THE COM2US SERVICE, (c) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (d) INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE COM2US SERVICE, (e) BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH THE COM2US SERVICE BY ANY THIRD PARTY, AND/OR (f) ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE COM2US SERVICE.</div>
+<div>
+	12.2. Disclaimers of Liability</div>
+<div>
+	YOU ACKNOWLEDGE AND AGREE THAT, TO THE FULLEST EXTENT PERMITTED BY ANY APPLICABLE LAW, THE DISCLAIMERS OF LIABILITY CONTAINED HEREIN APPLY TO ANY AND ALL DAMAGES OR INJURY WHATSOEVER CAUSED BY OR RELATED TO USE OF, OR INABILITY TO USE, THE SERVICE UNDER ANY CAUSE OR ACTION WHATSOEVER OF ANY JURISDICTION, INCLUDING, WITHOUT LIMITATION, ACTIONS FOR BREACH OF WARRANTY, BREACH OF CONTRACT OR TORT (INCLUDING NEGLIGENCE) AND THAT COM2US PARTIES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING FOR LOSS OF PROFITS, GOODWILL OR DATA, IN ANY WAY WHATSOEVER ARISING OUT OF THE USE OF, OR INABILITY TO USE, THE SERVICE.</div>
+<div>
+	YOU FURTHER ACKNOWLEDGE AND AGREE THAT COM2US PARTIES, ITS DIRECTORS, OFFICERS, AGENTS, CONTRACTORS, PARTNERS, AND EMPLOYEES ARE NOT LIABLE, AND YOU AGREE NOT TO SEEK TO HOLD COM2US PARTIES LIABLE, FOR THE CONDUCT OF THIRD PARTIES, INCLUDING OTHER USERS OF THE SERVICE AND OPERATORS OF EXTERNAL SITES, AND THAT THE RISK OF THE SERVICE AND EXTERNAL SITES AND OF INJURY FROM THE FOREGOING RESTS ENTIRELY WITH YOU.</div>
+<div>
+	TO THE EXTENT PERMISSIBLE UNDER APPLICABLE LAWS, UNDER NO CIRCUMSTANCES WILL COM2US PARTIES BE LIABLE TO YOU FOR MORE THAN THE AMOUNT YOU HAVE PAID TO COM2US IN THE ONE HUNDRED AND EIGHTY DAYS (180) DAYS IMMEDIATELY PRECEDING THE DATE ON WHICH YOU FIRST ASSERT ANY SUCH CLAIM.</div>
+<div>
+	12.3. Indemnification</div>
+<div>
+	You agree to indemnify and hold harmless Com2uS Parties from any claims, losses, damages, liabilities, including legal fees and expenses, arising out of (a) your use or misuse of the Com2uS Service, (b) any violation by you of the Com2uS Policy, or (c) any breach of the representations, warranties, and covenants made by you herein.</div>
+<div>
+	Com2uS may assume the defense of any matter for which you are required to indemnify Com2uS by sending notice of such an intention to you. You shall use best efforts to cooperate with Com2uS&rsquo;s defense of these claims.</div>
+<div>
+	&nbsp;</div>
+<div>
+	13. General Provision</div>
+<div>
+	13.1.<span class="Apple-tab-span" style="white-space:pre"> </span> Governing Law&nbsp;</div>
+<div>
+	The laws of the State of California (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to the Com2uS Policy, including, without limitation, its validity, interpretation, construction, performance, and enforcement.</div>
+<div>
+	13.2.<span class="Apple-tab-span" style="white-space:pre"> </span> Dispute Resolution</div>
+<div>
+	If you have any claim arising out of this Agreement against us, we strongly encourage you to contact our customer support team to seek a resolution. If both parties fail to reach a settlement within thirty (30) calendar days after the first contact occurs, either party may refer such a dispute in Seoul administered by the Korean Commercial Arbitration Board in accordance with the Arbitration Rules of the Korean Commercial Arbitration Board. The arbitration is to be conducted before a single arbitrator whom the parties jointly select. If the parties are unable to agree upon the arbitrator, either party may request the Korean Arbitration Association to select the arbitrator.</div>
+<div>
+	All claims filed or brought contrary to Section 13.2. will be considered improperly filed. If you file a claim improperly, Com2uS will be entitled to recover attorney fees and costs up to $1,000, provided that Com2uS has notified you in writing of the improperly filed claim and you have failed to promptly withdraw the claim.</div>
+<div>
+	13.3.<span class="Apple-tab-span" style="white-space:pre"> </span> Entire Agreement</div>
+<div>
+	The Com2uS Policy is complete and exclusive understanding of you and Com2uS relating to your use of the Com2uS Service, and supersede all prior understandings of the parties hereto.</div>
+<div>
+	13.4.<span class="Apple-tab-span" style="white-space:pre"> </span> Language</div>
+<div>
+	The translation of the English language version of the Com2uS Policy is provided for informational purposes only and does not modify the English language version of the Com2us Policy. If there is a conflict between the English language version of the Com2us Policy and its translation, the English language version of the Com2uS Policy will control.</div>
+<div>
+	13.5.<span class="Apple-tab-span" style="white-space:pre"> </span> No Waiver</div>
+<div>
+	The failure of Com2uS to require or enforce strict performance by you of any provision of the Com2uS Policy or failure to exercise any right hereunder will not be considered a waiver or relinquishment of Com2uS&rsquo;s right to assert or rely upon any such provision or right in that or any other instance. An express waiver made by Com2uS in one occasion is effective only in that instance and only for the purpose that it is given and is not to be construed as a waiver on any future occasion or against any other person.</div>
+<div>
+	13.6.<span class="Apple-tab-span" style="white-space:pre"> </span> Force Majeure</div>
+<div>
+	Com2uS will not be liable for any delay or failure to perform resulting from any cause outside the reasonable control of Com2uS, including, without limitation, any failure to perform under the Com2us Policy due to unforeseen cause beyond Com2uS&rsquo;s control, such as acts of God, war, terrorism, riots, embargoes, acts of civil or military authorities, change of law or administrative rules, fire, floods, network infrastructure failures, cyber crimes, strikes, or shortages of transportation facilities, fuel, energy, labor or materials</div>
+<div>
+	13.7.<span class="Apple-tab-span" style="white-space:pre"> </span> Severability</div>
+<div>
+	If any portion of the Com2uS Policy is determined to be invalid, illegal or unenforceable by any court of competent jurisdiction, the remaining provisions of the Com2uS Policy remain in full force and effect.</div>
+<div>
+	&nbsp;</div>
+	</section>
+</section>
+
+<form method="post" name="form" id="form">
+<input type="hidden" name="main_code" id="main_code"  value="T1" />
+<input type="hidden" name="sub_code" id="sub_code"  value="S26" />
+<input type="hidden" name="start_date"  id="start_date" value="2014-10-31 00:00:00" />
+</form>
+</body>
+</html>

@@ -1,0 +1,153 @@
+policy_id: 81
+policy_name: SoloLauncher
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Solo Launcher Privacy Policy and Terms of Service This Privacy Notice
+    describes the types of personal information we collect about our users and how
+    we may use the information.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: We want to emphasize that the only purpose of accessing this information
+    is to make the functions listed below work, and any information besides basic
+    anonymous Solo Launcher usage data will always keep in your cellphone.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Device & App History Read sensitive log data Retrieve running apps
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We use this information to improve the basic quality of the Solo Launcher
+    to ensure that it is fast, stable in users' phones. For example, by constantly
+    analyzing this information, we have reduced the crash rate to only 0.07%.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Identity Find accounts on the device
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Identity
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: We do not recognize and save your account. We only detect whether
+    you have a Google account in the phone or not. This helps us to confirm the state
+    of Google Service and provide users with appropriate application update methods.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Contacts & Phone Directly call phone numbers Read your contact
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Contacts & Phone Directly call phone numbers Read your contact
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: The permission is for creating shortcut on the home screen, and users
+    can check and dial easily which will save their time and unnecessary clicks.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "Photos \u2044 Media \u2044 Files Modify or delete the contents of\
+    \ your USB storage Test access to protected storage"
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: We use this permission to launch the apps installed in the SD card
+    and store the wallpaper. They are basic features for an android launcher app.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Approximate location (network-based) The permission is for Solo Weather
+    widget to locate your city and provide the accurate weather information for you.
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Approximate location (network-based) The permission is for Solo
+      Weather widget to locate your city and provide the accurate weather information
+      for you.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Camera Take pictures and videos
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Torch is a popular feature in Solo Launcher. We developed it by controlling
+    the camera flashlight of phone. This requires the camera permission. Solo Launcher
+    does not take photos or videos by itself.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Wi-Fi connection information View Wi-Fi connections
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: The permission is for controlling Wi-Fi switch, so that you can easily
+    turn on and off the WLAN.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Device ID & call information Read phone status and identity
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Device ID & call information Read phone status and identity
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: We use this information to evaluate the effects of our various promotion
+    methods and improve our service. E.g. determine which language should be supported
+    in Solo Launcher.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Other adjust your wallpaper size read Home settings and shortcuts
+    receive data from Internet set wallpaper control vibration expand/collapse status
+    bar full network access view network connections close other apps disable your
+    screen lock connect and disconnect from Wi-Fi prevent device from sleeping modify
+    system settings pair with Bluetooth devices access Bluetooth settings send sticky
+    broadcast install shortcuts set an alarm control flashlight run at startup draw
+    over other apps change network connectivity
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Sensitive Information We ask that you not send us, and you not disclose,
+    any sensitive Personal Information (e.g., information related to racial or ethnic
+    origin, political opinions, religion or other beliefs, health, sexual orientation,
+    criminal background or membership in past organizations, including trade union
+    memberships) on or through an Application, the Services or the Site or otherwise
+    to us.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: "For any suggestion, feedback or request, please head over to our\
+    \ Facebook page: http://www.facebook.com/sololauncheror email us at:Solo.launcher.dev@gmail.com\
+    \ \xA9 2016 NewBornTown. ALL Rights Reserved"
+  annotations: []
+  sentences: []

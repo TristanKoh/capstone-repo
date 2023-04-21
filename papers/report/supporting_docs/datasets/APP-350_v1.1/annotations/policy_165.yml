@@ -1,0 +1,181 @@
+policy_id: 165
+policy_name: com.eightelements.aduduattackfree
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY By downloading and/or
+    using the Content or Services provided by 8elements you confirm that you have
+    read and understood and agree with the full terms and conditions.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: These terms and conditions complement the Terms of Use displayed on
+    our WAP sites and govern the downloading and use by all users of the content offered
+    by 8 Elements Ltd or any of its subsidiaries via an 8elements or otherwise branded
+    or powered portal that you have accessed ("Site"). You will need to initiate a
+    WAP session in order to browse and select and download Content or to enjoy our
+    Services. Your mobile service provider may charge you for such access and you
+    are responsible for all such charges. Please refer to your service provider's
+    terms and conditions for further details.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: In this Agreement "Content" shall mean any 8elements content offered
+    for download on the Site and "Service" shall mean any Content-related Services
+    offered.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1. Intellectual Property Rights 8elements grants you a non-exclusive,
+    non-transferable licence (subject and conditional upon your continued compliance
+    with this Agreement) to download the Content, and use the Content solely on the
+    mobile handset ("Device") to which it is initially downloaded. You are allowed
+    to use the Content for your own personal use only and not for any commercial purposes.
+    All content and all intellectual property (including but not limited to trademarks
+    and tradenames) and other third party rights in the Content are owned by 8elements
+    and/or its licensors.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 2. Price and Payment The charges for any Content downloaded or accessed
+    and any Services used are displayed on the Site. The relevant charges will be
+    deducted from your available credit if you are a pre-paid customer or should appear
+    on your next invoice from your service provider if you are a contract customer.
+    Other payment options may be offered to you on the Site and used by you to purchase
+    the Content or Services.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: The relevant charges for the Content and Services may include VAT
+    or any other applicable sales tax. Please note that you must ask permission from
+    the bill payer before downloading the Content or using the Service. You must notify
+    8elements of any faults in the downloaded Content and accessed Service within
+    a reasonable time of completing the download. 8elements shall, in its sole discretion,
+    either replace or refund the purchase price for any Content downloaded that contains
+    faults directly attributable to us and not attributable to you or the Device.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 3. Support If you experience problems ordering and/or downloading
+    the Content or Service, you should contact support@8elements.net and tell us your
+    mobile phone number, device model, error message as well as day/time of your attempt
+    to access the service/download the content.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 4. Restrictions To the maximum extent permitted by law, you agree
+    not to, and not to attempt to, copy, modify, forward, distribute, reformat, display,
+    transmit, perform, publish, transfer, reverse engineer or decompile, sell, assign,
+    license, exploit transfer or otherwise make available the Content or any part
+    thereof, or any rights in the same. You are responsible for any misuse of the
+    Content on your Device.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Your ability to download or access the Content may be restricted or
+    impaired when on a roaming network abroad, and in some instances the call waiting
+    feature on your Device may be affected by downloading the Content. There are limits
+    on the volume of the Contents that can be stored on your Device at any time. For
+    further information please refer to the manufacturer of your Device. Differences
+    in handset features mean that not all handsets are compatible with all Content.
+    You are advised to check your particular Device's compatibility before downloading
+    or accessing the Content.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: The downloading and accessibility of Content is subject to availability
+    and may be affected by the volume of users from time to time or by congestion
+    on the telecommunications network of your service provider. Your standard network
+    terms and conditions continue to apply in parallel with the terms and conditions
+    of this Agreement.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Screenshots displayed on the Site may not be representative for each
+    device to which the Content may be downloaded.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 5. Right of Withdrawl Your right to withdraw from this Agreement expires
+    when you initiate downloading of the Content and/or using the Service.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 6. Warranties The Services and Contents are provided to you "As Is".
+    8elements and its licensors disclaim any and all warranties regarding the Content
+    whether express or implied.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 7. Limitations of Liability In no event shall 8elements or its licensors
+    be liable for any losses or damages arising out of or in connection with your
+    use of the Content or your access to the Site. 8elements aggregate liability is
+    limited to the full amount of the content price and/or fees for the Service only.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 8. General Rules 8elements may vary the terms and conditions of this
+    Agreement or withdraw any or all of the Content without notice from time to time.
+    Any alteration or addition to this Agreement shall take effect immediately once
+    posted on the Site. You are responsible for checking the Site for any such amendments.
+    8elements reserves the right to change the charges for each download or service
+    of the Content from time to time. Any alteration or addition to the charges shall
+    take effect immediately once posted on the Site.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: If any of the terms and conditions in this Agreement are determined
+    to be illegal or unenforceable by any court of competent jurisdiction such provision
+    shall be deemed to have been deleted without affecting the remaining provisions
+    of this Agreement. Breach of these terms by you will entitle 8elements to terminate
+    your use of the Content.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 9. Messages and Communication By downloading content from our Sites
+    or subscribing to our Services you agree to receive information and marketing
+    messages from 8elements.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 10. Provider 8elements respects and protects your privacy. We provide
+    access to our Site via your mobile network service provider and do not use any
+    cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We provide access to our Site via your mobile network service provider
+      and do not use any cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 18
+  segment_text: 'Our address in HongKong: Room 509, Stag Building, 148-150 Queen''s
+    Road, Central, Hong Kong'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: "Represented by its Managing Director: Mr. Joerg Tente Company Registration\
+    \ number: 856229 HongKong Company Registry Our address in Australia: 14 Charles\
+    \ Street South Melbourne, Victoria, Australia, 3205 Our address in Singapore:\
+    \ 10 Anson Road, #16-03 International Plaza Singapore, 079903 Our address in Kuala\
+    \ Lumpur: No.24-5-1, Jalan 4/50, Diamond Square, Off Jalan Gombak 53000 Kuala\
+    \ Lumpur, Malaysia Our address in Jakarta: Menara Cakrawala, 12th floor, Jalan\
+    \ Thamrin No. 9 Central Jakarta 10340, Indonesia 11. Copyright Copyrights \xA9\
+    \ 2010 8 Elements Ltd. All Rights Reserved. Proprietary and confidential. Texts,\
+    \ images, graphics, sounds, animation files and videos on this website are all\
+    \ subject to copyright and other intellectual property protection. These objects\
+    \ may not be copied for commercial use or distribution, nor may they be modified\
+    \ or reposted to other sites. 8elements websites also contain material that is\
+    \ subject to the intellectual property rights of their providers. All 8elements\
+    \ trademarks, names and logos are the proprietary marks of 8 Elements Ltd and\
+    \ those identifying third parties are owned by those third parties."
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: "all content \xA9 copyright 2011 8elements.net all rights reserved\
+    \ Terms and Conditions"
+  annotations: []
+  sentences: []

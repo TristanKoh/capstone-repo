@@ -1,0 +1,674 @@
+policy_id: 200
+policy_name: com.wevideo.mobile.android
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Toggle navigation for Work for Schools for Life Plans Support Sign
+    up Log in
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'WeVideo Privacy Policy For WeVideo for Education Privacy Policy,
+    please click here Last Modified: August 9, 2016 Your privacy is very important
+    to us. This Privacy Policy explains how WeVideo, Inc., ("we" or "WeVideo") use
+    protect, and disclose the information we collect when you use the WeVideo services
+    (the "Services") through our website www.wevideo.com ("Site"), applications on
+    Devices ("Apps"), through APIs, and through third parties. A "Device" is any computer
+    used to access the Services, including without limitation a desktop, laptop, smartphone,
+    tablet, or other consumer electronic device.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We reserve the right to modify this Privacy Policy effective immediately
+    following posting of the modified version on the Site. Your use of our Services
+    following posting will constitute your acceptance of the modified version. IF
+    YOU DO NOT ACCEPT THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT USE THE SERVICES.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: THE INFORMATION WE COLLECT AND STORE WeVideo may collect and store
+    the following information when running our Services.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Information You Provide Depending on how you use the Services, you
+    may be required to provide certain personally identifiable information ("Personal
+    Information"), which may include, but is not limited to, your: Name Email address
+    Mailing address Username for social media accounts you wish to connect to your
+    account Your image and likeness if you include it in any media content that you
+    upload or include in videos that you create with our Services (these type of files
+    are referred to as your "User Content")'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Depending on how you use the Services, you may be required to
+      provide certain personally identifiable information ("Personal Information"),
+      which may include, but is not limited to, your: Name Email address Mailing address'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: In some of our applications, we provide the ability to use the application
+    as a guest ("Guest User"). This option allows usage of the application without
+    providing any personal information.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: You may choose not to provide your Personal Information; however,
+    if you do not provide your Personal Information you may not be able to use all
+    the functions offered by the Services.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Our Services offer publicly accessible community services such as
+    blogs, forums, and public video pages. You should be aware that any information
+    you provide in these areas might be read, collected, and used by others who access
+    them. Your posts may remain even after you cancel your account. For questions
+    about your Personal Information on our Services, please contact info@wevideo.com.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Refer a Friend When you invite others to join WeVideo or share your
+    User Content via email, you will need to provide us with email addresses for each
+    person that you wish to send your User Content or an invite to.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you invite others to join WeVideo or share your User Content
+      via email, you will need to provide us with email addresses for each person
+      that you wish to send your User Content or an invite to.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Usage Data In addition, when you use our Services, the following
+    types of information may all be logged automatically ("Usage Information"): Your
+    Device''s Internet Protocol ("IP") address, Type of mobile device you use, Operating
+    system of your mobile device, Browser type,'
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In addition, when you use our Services, the following types of
+      information may all be logged automatically ("Usage Information"): Your Device''s
+      Internet Protocol ("IP") address,'
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Non-precise geographic location (e.g. zip code and city) Technical
+    information about your device, system and App software, and peripherals date and
+    time stamps associated with transactions, system configuration information, and
+    metadata concerning your User Content, and other interactions with our Services.
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Non-precise geographic location (e.g.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: zip code and city)
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Cookies and Web beacons WeVideo also uses "cookies" to collect information
+    and improve our Services. A cookie is a small data file that we transfer to your
+    Device. We may use "persistent cookies" to save your registration ID and login
+    password for future logins to our Services. We may use "session ID cookies" to
+    enable certain features of our Services, to better understand how you interact
+    with our Services and to monitor aggregate usage and web traffic routing on our
+    Services. You can instruct your browser, by changing its options, to stop accepting
+    cookies or to prompt you before accepting a cookie from the websites you visit.
+    If you do not accept cookies, however, you may not be able to use all aspects
+    of our Services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A cookie is a small data file that we transfer to your Device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use "persistent cookies" to save your registration ID and
+      login password for future logins to our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use "session ID cookies" to enable certain features of our
+      Services, to better understand how you interact with our Services and to monitor
+      aggregate usage and web traffic routing on our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: WeVideo also uses "cookies" to collect information and improve
+      our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: We also use Web beacons, also called web bugs to collect information
+    and improve our Services. A Web beacon is typically a transparent graphic image
+    (usually 1 pixel x 1 pixel) that is placed on a site or in an email.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A Web beacon is typically a transparent graphic image (usually
+      1 pixel x 1 pixel) that is placed on a site or in an email.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We also use Web beacons, also called web bugs to collect information
+      and improve our Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: We do not use cookies or Web beacons to collect Personal Information
+    nor do we collect precise geographic location. However, some Devices automatically
+    log location information in photos and videos recorded by that Device. If you
+    upload any User Content from a Device that does so, .you agree that we may use
+    this information to optimize your experience. If you do not wish to share User
+    Content embedded with your geo-location information with us, please do not upload
+    them. If you don't want to store location data in your User Content, please consult
+    the documentation for your Device to turn off that feature.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: However, some Devices automatically log location information in
+      photos and videos recorded by that Device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: If you do not wish to share User Content embedded with your geo-location
+      information with us, please do not upload them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: If you don't want to store location data in your User Content,
+      please consult the documentation for your Device to turn off that feature.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: If you upload any User Content from a Device that does so, .you
+      agree that we may use this information to optimize your experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do not use cookies or Web beacons to collect Personal Information
+      nor do we collect precise geographic location.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 14
+  segment_text: Analytics WeVideo also collects some information (ourselves or using
+    third party services) using logging and cookies, such as IP address, which can
+    sometimes be correlated with Personal Information. We use this information for
+    the above purposes and to monitor and analyze use of our Services, for the Service's
+    technical administration, to increase our Service's functionality and user-friendliness,
+    and to verify users have the authorization needed for our Services to process
+    their requests. As of the date this policy went into effect, we use Google Analytics.
+    The Privacy Policy of Google Analytics are available online, and information on
+    how to opt out of that service.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: WeVideo also collects some information (ourselves or using third
+      party services) using logging and cookies, such as IP address, which can sometimes
+      be correlated with Personal Information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: 'HOW WE USE YOUR INFORMATION We use your information: to provide and
+    improve our Services, to administer your use of our Services, to better understand
+    your needs and interests, to personalize and improve your experience, and to provide
+    or offer software updates and product announcements. to enhance current and develop
+    new products and services'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: If you submit Personal Information to us, we will only use it for
+    the purpose you requested or for which it is collected or for any purpose you
+    subsequently authorize.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: You grant WeVideo an irrevocable, perpetual, royalty-free right and
+    license to use the anonymous information we collect in any way.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: WeVideo does not access your contact information or address book within
+    your mobile device. Nor does WeVideo have any access to any of the personal information
+    or credit card information that you have provided to Apple or Google to register
+    for their services.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: WeVideo does not access your contact information or address book
+      within your mobile device.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 19
+  segment_text: SPECIAL CONSIDERATION FOR PAYMENT INFORMATION If you provide credit
+    card or debit card information to complete a purchase, it is our policy to use
+    third-party payment processing systems that comply with the Payment Card Industry
+    Data Security Standard (PCI-DSS), which is an industry wide security standard
+    designed to protect the confidentiality and security of your credit card information,
+    by encryption using secure socket layer technology (SSL) and storage with AES-256
+    encryption. Currently, we use Zuora, Inc., but we reserve the right to change
+    this service provider at any time for any reason. Although no method of transmission
+    over the Internet or electronic storage is 100% secure, we follow all PCI-DSS
+    requirements and implement additional generally accepted industry standards. Your
+    credit card information will also be subject to our payment processor's privacy
+    policy in addition to ours. PLEASE READ THE PRIVACY POLICY ON THE WEBSITE OF ANY
+    PAYMENT PROCESSOR THAT YOU ARE DIRECTED TO REGARDING THE USE, STORAGE AND PROTECTION
+    OF YOUR CREDIT CARD INFORMATION BEFORE SUBMITTING ANY CREDIT CARD INFORMATION.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: All information that you provide to us or our third party payment
+    processor must be accurate, current and complete. In the event of a dispute, we
+    may issue you with a provisional credit to your card until the dispute is resolved.
+    If we issue a provisional credit and the dispute is resolved and the charges were
+    correct, we shall recharge your debit or credit card to reverse this provisional
+    credit. You expressly consent to this reversal if you falsely or incorrectly dispute
+    a charge. If you wish to dispute a charge by mail or telephone please contact
+    us at info@wevideo.com. If we elect at any time to charge any convenience fee
+    for making a payment via a debit card, credit card, or electronic check, these
+    fees will be stated at the time of payment before you finalize your charge. In
+    the event of an unauthorized charge using a debit card or electronic check, please
+    consult your bank's rules regarding refunds and reversals. WeVideo complies with
+    all legal requirements of your State's applicable laws regarding providing refunds
+    for unauthorized charges. When you make a charge, we shall display a completed
+    charge screen. This is your electronic receipt. You should print or save this
+    electronic receipt for your records. YOU REPRESENT AND WARRANT THAT YOU HAVE THE
+    LEGAL RIGHT TO USE ANY CREDIT CARDS, DEBIT CARDS OR OTHER PAYMENT MEANS USED TO
+    INITIATE ANY TRANSACTION.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: INFORMATION SHARING AND DISCLOSURE Further, you agree that WeVideo
+    may transfer the anonymous information we collect in the event of any corporate
+    restructuring or any sale, assignment or transfer of substantially all of its
+    rights in the Apps.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We may disclose information about you if we become subject to a subpoena
+    or court order, or if we are otherwise legally required to disclose information.
+    We may also use and disclose information about you to establish or exercise our
+    legal rights, to enforce the Terms of Use, to assert and defend against legal
+    claims, or if we believe such disclosure is necessary to investigate, prevent,
+    or take other action regarding actual or suspected illegal or fraudulent activities
+    or potential threats to the physical safety or well-being of any person. If we
+    are involved in a merger, acquisition, or sale of all or a portion of our assets,
+    your information may be transferred as part of that transaction, but we will notify
+    you (for example, via email and/or a prominent notice on our website) of any change
+    in control or use of your Personal Information or User Content, or if either become
+    subject to a different Privacy Policy. We will also notify you of choices you
+    may have regarding the information.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: WeVideo will display your Personal Information in your profile page
+    and elsewhere on our Services according to the preferences you set in your account.
+    Any information you choose to provide should reflect how much you want others
+    to know about you. Please consider carefully what information you disclose in
+    your profile page and your desired level of anonymity. You can review and revise
+    your profile information at any time. We do not sell your personal information
+    to third parties. We may also share or disclose your information with your consent,
+    for example if you use a third party application to access your account. Through
+    certain features of our Services, you may also have the ability to make some of
+    your information public. Public information may be broadly and quickly disseminated.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also share or disclose your information with your consent,
+      for example if you use a third party application to access your account.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: 'Service Providers, Business Partners and Others. WeVideo may use
+    certain trusted third party companies and individuals to help us provide, analyze,
+    and improve our Services (including but not limited to data storage, maintenance
+    services, database management, web analytics, email communication, payment processing,
+    and improvement of the Service''s features). These third parties may have access
+    to your information only for purposes of performing these tasks on our behalf
+    and under obligations similar to those in this Privacy Policy. As of the date
+    this policy went into effect, we use: Amazon''s S3 storage service to store some
+    of your information (for example, your User Content) HubSpot''s marketing platform
+    to perform personalized email communication Zuora''s subscription platform to
+    handle subscription management, billing and payment transactions Google Analytics
+    to collect and report usage data'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Third-Party Applications. WeVideo may share your Information with
+    a third party application with your consent, for example when you choose to access
+    our Services through such an application. We are not responsible for what those
+    parties do with your information, so you should make sure you trust the application
+    and that it has a privacy policy acceptable to you.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: WeVideo may share your Information with a third party application
+      with your consent, for example when you choose to access our Services through
+      such an application.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: Non-private or Non-Personal Information. WeVideo may disclose your
+    non-private, aggregated, or otherwise non-personal information, such as usage
+    statistics of our Services. However, in such cases, your usage data is aggregated
+    with the usage data of others and does not identify you individually.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: CHANGING OR DELETING YOUR INFORMATION If you are a registered user,
+    you may review, update, correct or delete the Personal Information provided in
+    your registration or account profile by changing your "account settings." If your
+    Personal Information changes, or if you cancel your use of our Services, you may
+    update or delete it by making the change on your account settings.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'WEVIDEO ENTERPRISE ACCOUNT If you have a WeVideo Enterprise account,
+    your Administrator may be able to: access information in and about your WeVideo
+    Enterprise account; disclose, restrict, or access information that you have provided
+    or that is made available to you when using your WeVideo Enterprise account; and
+    control how your WeVideo Enterprise account may be accessed or deleted.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Please refer to your organization's policies if you have questions
+    about your Administrator's rights.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: LINKED SITES Our Services may contain links to other Web sites whose
+    privacy practices may differ from those of WeVideo. If you submit personal Information
+    to any of those sites, your Information is governed by their privacy statements.
+    We encourage you to carefully read the privacy statement of any Web site you visit.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: SECURITY WeVideo takes reasonable steps to help protect Information
+    against loss, misuse, unauthorized access or disclosure. WeVideo expressly disclaims
+    any representation or warranty, whether express or implied, with respect to offering
+    any definitive promise of security in connection with The anonymous information
+    we collect.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: OUR POLICY TOWARD CHILDREN WeVideo is committed to protecting the
+    privacy of students and are proud to say that our product is fully compliant with
+    the FERPA and COPPA rules and guidelines. In compliance with the Children's Online
+    Privacy Protection Act (COPPA) of 1998, the Services are not intended for use
+    if you are under 13 years of age unless you have the consent of your parent or
+    legal guardian or when available use the application as a Guest User. As a Guest
+    User the application can be used without providing any Personal Information. Guest
+    User mode is only available in some of the applications and is designed to allow
+    usage of the application without providing any Personal Information. If you are
+    not over 13 years of age and are not using the application as a Guest User, you
+    will need to have the consent of your parent or guardian.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "We may use any of the following methods to verify that you have your\
+    \ parents' consent: \xB7 At registration, we will require that you provide your\
+    \ first name and a parent's valid email address. We will send your parent a notification\
+    \ email stating that you have requested to create an account on our Website and\
+    \ receive our e-newsletters on an ongoing basis and describing the information\
+    \ you provided at registration and contact information for your parent to respond\
+    \ and request that we stop sending you any emails, cancel your account, and/or\
+    \ delete, modify or edit your information. We will also use your parent's email\
+    \ address to let your parent know about any changes to our Privacy Policy. Your\
+    \ parents may at any time review, change and/or delete any information that we\
+    \ have collected about you by emailing support@wevideo.com."
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: At registration, we will require that you provide your first name
+      and a parent's valid email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We will also use your parent's email address to let your parent
+      know about any changes to our Privacy Policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We will send your parent a notification email stating that you
+      have requested to create an account on our Website and receive our e-newsletters
+      on an ongoing basis and describing the information you provided at registration
+      and contact information for your parent to respond and request that we stop
+      sending you any emails, cancel your account, and/or delete, modify or edit your
+      information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Your parents may at any time review, change and/or delete any information
+      that we have collected about you by emailing support@wevideo.com.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: "\xB7 If your account is being created by a teacher, your teacher\
+    \ must first obtain your parent's consent. If your teacher creates a student account\
+    \ for you without your parent first signing a consent form, please inform your\
+    \ parent immediately so that they can instruct us to remove your information from\
+    \ our files."
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 'WARNING: any personal information (e.g., name, email address, personal
+    photographs) that you voluntarily disclose in any video may be collected and used
+    by parties other than us and may result in unsolicited messages from other parties.
+    If you believe that any child under the age of 13 has posted any personal information
+    anywhere on our website, please contact us immediately at support@wevideo.com
+    and provide as much information as you can to help us locate and delete the personal
+    information. If you post personal information in any video, we have no control
+    over this use of your personal information and, as such, cannot be responsible
+    for it. We reserve the right, but not the obligation, to: (a) delete any personal
+    information we discover or which is brought to our attention, at any time, for
+    any reason whatsoever; (b) immediately terminate your account and/or (c) contact
+    your parents regarding the video.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you believe that any child under the age of 13 has posted any
+      personal information anywhere on our website, please contact us immediately
+      at support@wevideo.com and provide as much information as you can to help us
+      locate and delete the personal information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If you post personal information in any video, we have no control
+      over this use of your personal information and, as such, cannot be responsible
+      for it.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We reserve the right, but not the obligation, to: (a) delete any
+      personal information we discover or which is brought to our attention, at any
+      time, for any reason whatsoever; (b) immediately terminate your account and/or
+      (c) contact your parents regarding the video.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: any personal information (e.g., name, email address, personal photographs)
+      that you voluntarily disclose in any video may be collected and used by parties
+      other than us and may result in unsolicited messages from other parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: YOUR CONSENT If you reside outside the U.S., the anonymous information
+    we collect will be transferred to the U.S. and processed and stored there under
+    U.S. privacy standards. By using the Services and providing Information to WeVideo,
+    you consent to the use, transfer and processing of the anonymous information we
+    collect as set forth in this Privacy Policy, all of which activities will take
+    place in the U.S.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: CONTACTING US If you have any questions about this Privacy Policy,
+    please contact us at info@wevideo.com.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: Solutions Personal Business Education Higher Education Nonprofits
+    Media iOS Android
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Buzz About us News Events Press Room Blog Contact
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Work with us Careers Developers Team
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Support Support and FAQs WeVideo Academy Inspiration for educators
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: "\xA9 2017 WeVideo, Inc. Terms of Use Privacy Policy"
+  annotations: []
+  sentences: []

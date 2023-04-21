@@ -1,0 +1,331 @@
+policy_id: 183
+policy_name: com.newsdog
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'NewsDog Privacy Policy Date of Last Revision: July 12, 2016 This
+    Privacy Policy applies to NewsDog. ("We","Us", or "Our"). The collection, use,
+    disclosure, and protection of information gathered through NewsDog''s Web sites
+    (hereinafter "Web sites" or "Sites") and through NewsDog mobile applications (hereinafter
+    "Apps") is defined under the terms of this policy. NewsDog is committed to protecting
+    the confidentiality and security of information it collects through its Web sites
+    and Apps. Please read the following carefully. Your use of the Web sites and Apps
+    is governed by this Privacy Policy, along with NewsDog''s Terms of Service (available
+    here: http://newsdog.today/terms).'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: PERSONAL INFORMATION - NO COLLECTION, USE, OR DISCLOSURE OF PERSONAL
+    INFORMATION
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: '"Personal Information" refers to information that identifies you
+    individually, such as your name, address, email address, phone number, financial
+    account number, social security number, or driver''s license number.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: '"Personal Information" refers to information that identifies you
+      individually, such as your name, address, email address, phone number, financial
+      account number, social security number, or driver''s license number.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: Currently, Web sites and Apps do not collect Personal Information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Currently, Web sites and Apps do not collect Personal Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 4
+  segment_text: NON-PERSONAL INFORMATION We collect Non-Personal Information, which,
+    alone, cannot be used to identify you. Examples of Non-Personal Information include
+    page views, unique views, average time on the Web site or using Apps, browsers,
+    and operating systems.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'Non-Personal Information is passively collected, which means that
+    it is collected without you having to do anything, using the following tracking
+    technologies: Cookies * "Cookies" are small text files that are placed on your
+    browser, either for the duration of your Web site session (called "session" cookies)
+    or more permanently (called "persistent" cookies). Anonymous identifiers are sometimes
+    used in place of cookies on mobile devices which may not support cookie technology.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Anonymous identifiers are sometimes used in place of cookies on
+      mobile devices which may not support cookie technology.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Non-Personal Information is passively collected, which means that
+      it is collected without you having to do anything, using the following tracking
+      technologies: Cookies Cookies" are small text files that are placed on your
+      browser, either for the duration of your Web site session (called "session"
+      cookies) or more permanently (called "persistent" cookies).'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: '* You may opt to enable a feature on your browser that will erase
+    cookies, block all cookies, or warn you before cookies are stored or exchanged.
+    Please be aware, however, that some parts of the Web sites may no longer function
+    properly if cookies are disabled.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please be aware, however, that some parts of the Web sites may
+      no longer function properly if cookies are disabled.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You may opt to enable a feature on your browser that will erase
+      cookies, block all cookies, or warn you before cookies are stored or exchanged.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Pixel Tags/Web Beacons and Web Logs * Pixel tags, also known as web
+    beacons, function similarly to cookies. A pixel tag is an invisible, one pixel-sized
+    piece of code which transmits certain information to Our servers. They are placed
+    on key pages, tools, and areas of the Web sites and Apps. When a visitor requests,
+    visits, and/or clicks on anything that includes a pixel tag, the information about
+    the visitor's action is recorded in a web log.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Pixel Tags/Web Beacons and Web Logs
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Pixel tags, also known as web beacons, function similarly to cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: 'We will use your Non-Personal Information in one or more of the following
+    ways: * To fulfill a request or provide you with services;'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: '* In the aggregate to help us evaluate and modify existing services
+    and to help us develop additional services that are likely to be of interest to
+    our users;'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: '* As necessary for the Web sites or Apps to function properly;'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: '* To understand how people are using the Web sites or Apps;'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '* To improve user experience; * To recognize repeat visitors and
+    facilitate ongoing access to the Web sites or Apps.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: MOBILE APPS When you download or purchase an App you do so through
+    a third party mobile application online store. You may be required to register
+    with the mobile app store and be logged on before you can download or purchase
+    an App. When downloading an App the app provider will typically collect certain
+    device and app-related information.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Our Apps sometimes send push notifications, or notices of interest
+    sent out to in the absence of a specific request, to your mobile device. In the
+    event a NewsDog App uses push notifications, you are provided an opportunity to
+    opt into receiving those push notifications. If you decline to accept push notifications,
+    you will not receive push notifications, which means you may not receive the most
+    current updates and features of the App.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Our Apps will collect precise information about the location of your
+    mobile device,but you can opt-out by changing the settings on your mobile device.
+    If you decline to share your location with the App, you may not receive the most
+    accurate recommendations.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you decline to share your location with the App, you may not
+      receive the most accurate recommendations.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Apps will collect precise information about the location of
+      your mobile device,but you can opt-out by changing the settings on your mobile
+      device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Our Apps do not collect the unique identification number assigned
+    to your device by your operating system (sometimes called a UDID), or your contact
+    list or address book, and do not collect any information on the contacts stored
+    in your mobile device. This information will only be collected if it is necessary
+    for the functioning of an App and will be disclosed to you prior to downloading
+    the App.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our Apps do not collect the unique identification number assigned
+      to your device by your operating system (sometimes called a UDID), or your contact
+      list or address book, and do not collect any information on the contacts stored
+      in your mobile device.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 17
+  segment_text: 'You have the right of election when it comes to how Apps function
+    on your mobile device. You may be able to: * manage push notifications by using
+    your built-in mobile device settings and controls;'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: '* manage location information by using your built-in mobile device
+    settings and controls;'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: manage location information by using your built-in mobile device
+      settings and controls;
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: '* manage/restrict in-app purchases by using your built-in mobile
+    device settings and controls;'
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: '* block navigation to the web by turning off network access on the
+    device or turning off the browser.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Access to or availability of controls may vary depending on your device.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Social Network Log-In You may use your Facebook log-in details to
+    log-in to Our Apps. Facebook will share with Us, based on the Facebook privacy
+    policy, the information available on your Facebook account, including, without
+    limitation, your profile information, friends' names, photos, privacy settings
+    and certain other information that will be explained to you (and authorized by
+    you) during the App's log-in process. Please refer to the Facebook privacy policy
+    and your privacy settings for more information. If you do not consent to this
+    sharing, please do not log-in through Facebook.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Facebook will share with Us, based on the Facebook privacy policy,
+      the information available on your Facebook account, including, without limitation,
+      your profile information, friends' names, photos, privacy settings and certain
+      other information that will be explained to you (and authorized by you) during
+      the App's log-in process.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: Social Network Log-In You may use your Facebook log-in details
+      to log-in to Our Apps.
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: CHILDREN'S PRIVACY The Web sites and Apps offered are not directed
+    at children who are under 18 years of age. It is NewsDog's policy to require that
+    individuals using the Web sites or downloading the App be 18 years of age or older.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: DO NOT TRACK AND ONLINE BEHAVIORAL ADVERTISING NewsDog does not engage
+    in online behavioral advertising or tracking that tailors ads to you based on
+    your visits to Our Web sites or your use of Our Apps. NewsDog does not respond
+    to a browser's Do Not Track signal.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: LINKS TO THIRD PARTY WEBSITES Our Web sites and Apps may contain links
+    to other websites and services.Any information that you provide on or to a third-party
+    website or service is provided directly to the owner of the website or service
+    and is subject to that party's privacy policy. Our Privacy Policy does not apply
+    to such websites or services and we're not responsible for the content, privacy
+    or security practices and policies of those websites or services. To protect your
+    information we recommend that you carefully review the privacy policies of other
+    websites and services that you access.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: SECURITY We take reasonable measures to protect the information that
+    we collect from or about you from unauthorized access, use or disclosure. Please
+    be aware, however, that no method of transmitting information over the Internet
+    or storing information is completely secure. Accordingly, we cannot guarantee
+    the absolute security of any information.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: CHANGES TO PRIVACY POLICY AND QUESTIONS NewsDog reserves the right
+    to modify, add or remove portions of this Privacy Policy at its sole discretion.
+    If we decide to change this Privacy Policy, we will post those changes at this
+    Site. Continued use of our Sites following any changes in our Privacy Policy indicates
+    your consent to the use of newly submitted information in accordance with the
+    amended Privacy Policy.
+  annotations: []
+  sentences: []

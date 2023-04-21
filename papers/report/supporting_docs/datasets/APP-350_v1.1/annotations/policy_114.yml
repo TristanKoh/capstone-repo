@@ -1,0 +1,253 @@
+policy_id: 114
+policy_name: AxesInMotion
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "Axes In Motion Buscar en este sitio P\xE1gina principal"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "P\xE1gina principal Axes In Motion - Contact Politica de Privacidad.\
+    \ Privacy Policy Deprecated policies Mapa del sitio Politica de Privacidad. Privacy\
+    \ Policy Privacy Policy / Contents AxesInMotion published applications: Through\
+    \ our privacy policy and content to make him aware of the proper conditions of\
+    \ use of this application."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: The use of these implies full and unreserved acceptance of each and
+    every one of the provisions included in this posting, so if you do not agree with
+    any of the conditions set forth herein shall not use and / or access this application.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We reserve the right to modify this Privacy Statement at any time.
+    Your continued use of any portion of this application following notification or
+    posting of such modifications will constitute your acceptance of such changes.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Policy on Personal Data Protection: As a general principle, this
+    application does not share or disclose information except when authorized by you
+    or in the following cases: a) when requested by a competent authority and after
+    fulfilling the corresponding legal proceedings and b) Whenever in the opinion
+    of this application is necessary to enforce the terms of use and other terms on
+    this page, or to safeguard the integrity of others users or the site.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: You should be aware that if you voluntarily disclose personal information
+    online in a public area, that information may be collected and used by others.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Use of information: This app may show advertisements. If that is
+    the case, it might use and advertisement ID provided by your device in order to
+    show ads which are relevant to you. This advertisement ID is anonymous and it
+    might be reset by yourself. For more information about Advertisement ID and/or
+    resetting it if possible, please refer to the privacy policy of the operating
+    system of your device.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If that is the case, it might use and advertisement ID provided
+      by your device in order to show ads which are relevant to you.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: This app may show advertisements.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: This app may store in your device or storage unit some data related
+    to advertisements or other data in order to provide a better user experience.
+    To learn how to delete these data form your device please refer to the device
+    manual and/or privacy policy of your device.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Third-party actions: Also, you will find within this application,
+    pages, promotions and microsites, online stores,,, publicists, and / or business
+    partners and services, along with other shared services, own or third parties
+    ("Sites Contributors") that may request information, which this application may
+    disclose information provided by you.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: The information provided on these sites is subject to Contributors
+    privacy policies or legends of information that are deployed in these sites and
+    is not subject to this privacy policy. As strongly recommend to users carefully
+    review the privacy policies detailed in participating sites and can be found below.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 'Privacy Policy on Advertising Provided by participating sites in
+    this application: Google products privacy policies AdColony privacy policies Amazon
+    privacy policies'
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "Nosotros estudiamos las preferencias de nuestros usuarios, sus caracter\xED\
+    sticas demogr\xE1ficas, sus patrones de tr\xE1fico, y otra informaci\xF3n en conjunto\
+    \ para comprender mejor qui\xE9nes constituyen nuestra audiencia y qu\xE9 es lo\
+    \ que usted necesita. El rastreo de las preferencias de nuestros usuarios tambi\xE9\
+    n nos ayuda a servirle a usted los avisos publicitarios m\xE1s relevantes."
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'Contents of applications: All images posted on our applications have
+    been obtained legally through image banks and are possessors of their respective
+    licenses, except those which are public domain or copyright lacking allocated.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Responsible: All information provided must be truthful. For these
+    purposes, you guarantee the authenticity of all data communicated as a result
+    of completing the forms necessary for the subscription of the Services, access
+    to content or restricted areas of the site. In any case you will be solely responsible
+    for any false or inaccurate statements made and the damage caused to this application
+    or others for the information provided.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: You agree to act responsibly in this application and to treat other
+    visitors with respect.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'Contact: If you have any questions about this Policy or to inquire
+    about licensing our images, please contact us at any time via the contact form
+    available on Google Play or via email axesinmotion@gmail.com'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: "(Privacy Policy CC licensed) AxesInMotion \xA9 2014 Pol\xEDtica de\
+    \ Privacidad/Contenidos de las aplicaciones publicadas por AxesInMotion: Por medio\
+    \ de nuestra pol\xEDtica de privacidad y contenidos le ponemos al tanto de las\
+    \ debidas condiciones de uso de esta aplicaci\xF3n."
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "La utilizaci\xF3n de estos implica su aceptaci\xF3n plena y sin reservas\
+    \ a todas y cada una de las disposiciones incluidas en este Aviso Legal, por lo\
+    \ que si usted no est\xE1 de acuerdo con cualquiera de las condiciones aqu\xED\
+    \ establecidas, no deber\xE1 usar u/o acceder a esta aplicaci\xF3n."
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: "Nos reservamos el derecho a modificar esta Declaraci\xF3n de Privacidad\
+    \ en cualquier momento. Su uso continuo de cualquier porci\xF3n de esta aplicaci\xF3\
+    n tras la notificaci\xF3n o anuncio de tales modificaciones constituir\xE1 su\
+    \ aceptaci\xF3n de tales cambios."
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: "Pol\xEDtica de Protecci\xF3n de Datos Personales: C\xF3mo principio\
+    \ general, esta aplicaci\xF3n no comparte ni revela informaci\xF3n obtenida, excepto\
+    \ cuando haya sido autorizada por usted, o en los siguientes casos: a) Cuando\
+    \ le sea requerido por una autoridad competente y previo el cumplimiento del tr\xE1\
+    mite legal correspondiente y b) Cuando a juicio de esta aplicaci\xF3n sea necesario\
+    \ para hacer cumplir las condiciones de uso y dem\xE1s t\xE9rminos de esta p\xE1\
+    gina, o para salvaguardar la integridad de los dem\xE1s usuarios o del sitio."
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: "Deber\xE1 estar consciente de que si usted voluntariamente revela\
+    \ informaci\xF3n personal en l\xEDnea en un \xE1rea p\xFAblica, esa informaci\xF3\
+    n puede ser recogida y usada por otros."
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: "Uso de informaci\xF3n: Esta aplicaci\xF3n puede mostrar publicidad.\
+    \ En ese caso, es posible que se haga uso de un ID de publicidad an\xF3nimo proporcionado\
+    \ por su dispositivo, con el prop\xF3sito de mostrarle los anuncios que son m\xE1\
+    s relevantes para usted. Este ID de publicidad es an\xF3nimo y es posible que\
+    \ pueda ser restablecido en cualquier momento por usted mismo. Si desea obtener\
+    \ m\xE1s informaci\xF3n sobre el ID de publicidad as\xED como aprender a restablecerlo\
+    \ en caso de que fuese posible consulte el manual de usuario y/o la pol\xEDtica\
+    \ de privacidad del sistema operativo de su dispositivo."
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: "Es posbile que esta aplicaci\xF3n almacene en su dispositivo o unidad\
+    \ de almacenamiento datos no personales relativos a los anuncios que se muestran\
+    \ u otros datos, con el fin de mejorar la experiencia de usuario. Para aprender\
+    \ c\xF3mo eliminar estos datos de su dispositivo consulte el manual de usuario\
+    \ y/o la pol\xEDtica de privacidad del sistema operativo de su dispositivo."
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "Acciones de Terceros: As\xED mismo, usted encontrar\xE1 dentro de\
+    \ esta aplicaci\xF3n, p\xE1ginas, promociones, micrositios, tiendas virtuales,\
+    \ publicistas, y/o socios y servicios comerciales, en conjunto con otros servicios\
+    \ compartidos, propios o de terceros (\"Sitios Colaboradores\") que le podr\xE1\
+    n solicitar Informaci\xF3n, los cuales esta aplicaci\xF3n le podr\xE1 revelar\
+    \ informaci\xF3n proporcionada por usted."
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: "La Informaci\xF3n que se proporcione en estos Sitios Colaboradores\
+    \ esta sujeta a las pol\xEDticas de privacidad o leyendas de responsabilidad de\
+    \ Informaci\xF3n que se desplieguen en dichos Sitios y no estar\xE1 sujeta a esta\
+    \ pol\xEDtica de privacidad. Por lo que recomendamos ampliamente a los Usuarios\
+    \ a revisar detalladamente las pol\xEDticas de privacidad que se detallan en los\
+    \ Sitios Colaboradores y que podr\xE1n encontrar a continuaci\xF3n."
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "Pol\xEDticas de Privacidad sobre la publicidad proporcionada por\
+    \ los Sitios Colaboradores en esta aplicaci\xF3n: Pol\xEDtica de privacidad de\
+    \ los productos de Google Pol\xEDtica de privacidad de AdColony Pol\xEDtica de\
+    \ privacidad de Amazon"
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: "Contenidos de las aplicaciones: Todas las im\xE1genes publicadas\
+    \ en nuestras aplicaciones han sido obtenidas legalmente mediante bancos de im\xE1\
+    genes y somos poseedores de sus respectivas licencias de uso, exceptuando las\
+    \ que sean de dominio p\xFAblico o carezcan de derechos de autor atribuidos."
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: "Conducta Responsable: Toda la informaci\xF3n que facilite deber\xE1\
+    \ ser veraz. A estos efectos, usted garantiza la autenticidad de todos aquellos\
+    \ datos que comunique como consecuencia de la cumplimentaci\xF3n de los formularios\
+    \ necesarios para la suscripci\xF3n de los Servicios, acceso a contenidos o \xE1\
+    reas restringidas del sitio. En todo caso usted ser\xE1 el \xFAnico responsable\
+    \ de las manifestaciones falsas o inexactas que realice y de los perjuicios que\
+    \ cause a esta aplicaci\xF3n o a terceros por la informaci\xF3n que facilite."
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: "Usted se compromete a actuar en forma responsable en esta aplicaci\xF3\
+    n y a tratar a otros visitantes con respeto."
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: "Contacto: Si tiene alguna duda sobre esta Pol\xEDtica o desea consultar\
+    \ nuestras licencias sobre las im\xE1genes, no dude en contactar en cualquier\
+    \ momento a trav\xE9s del formulario de contacto disponible en Google Play o por\
+    \ medio del correo electr\xF3nico axesinmotion@gmail.com"
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: "(Pol\xEDtica de Privacidad bajo licencia CC) AxesInMotion\xA9 2014\
+    \ Subp\xE1ginas (1): Deprecated policies Comments Sign in|Recent Site Activity|Report\
+    \ Abuse|Print Page|Powered By Google Sites"
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: This app does not show advertisements. It does not use the advertisement
+    ID provided by your device in order to show ads which are relevant to you.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: This app does not show advertisements. It does not use the advertisement
+      ID provided by your device in order to show ads which are relevant to you.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: NOT_PERFORMED

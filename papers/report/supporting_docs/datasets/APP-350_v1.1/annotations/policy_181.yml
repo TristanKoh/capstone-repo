@@ -1,0 +1,649 @@
+policy_id: 181
+policy_name: com.neowizgames.Rio2016
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Information we collect How we use information we collect Sharing your
+    information with Third Parties.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Data Transfers, Storage and Processing Globally Data Security and
+    Integrity Third Party Sites.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Children Accessing and updating your personal information Enforcement
+    Changes to this Privacy Policy Contact Information Privacy Policy Last Modified
+    : March 28, 2017 NEOWIZ Corporation("NW") respect the privacy rights of consumers
+    and recognize the importance of protecting the information collected about you.
+    So we''ve developed a Privacy Policy that covers how we collect, use, disclose,
+    transfer, and store your information. As you use our services, we want you to
+    be clear how we''re using information and the ways in which you can protect your
+    privacy. IF YOU DO NOT AGREE TO THIS POLICY, PLEASE DO NOT USE ANY NWG SITE, ONLINE
+    OR MOBILE PRODUCT OR SERVICE.'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Information we collect We collect information to provide services
+    to all of our users in two ways. Information you give us.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Many of our services require you to sign up for a Pmang(http://www.pmang.com)
+    Account. When you do, we'll ask for personal information, like your name, email
+    address, telephone number. If you want to take full advantage of the sharing features
+    we offer, we might also ask you to create a publicly visible Profile, which may
+    include your name and photo. Information we get from your use of our services.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Many of our services require you to sign up for a Pmang(http://www.pmang.com)
+      Account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: When you do, we'll ask for personal information, like your name,
+      email address, telephone number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'We may collect information about the services that you use. This
+    information includes:'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: -. Device information We may collect device-specific information,
+    such as your hardware model, operating system version, mobile unique device ID(If
+    applicable), and mobile network information including phone number.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect device-specific information, such as your hardware
+      model, operating system version, mobile unique device ID(If applicable), and
+      mobile network information including phone number.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: -. Log information
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "When you use our services, we may automatically collect and store\
+    \ certain information in server logs. This may include: \uF0A7 details of how\
+    \ you used our service, such as your search queries. \uF0A7 Internet protocol\
+    \ address. \uF0A7 device event information such as crashes, system activity, hardware\
+    \ settings, language. \uF0A7 cookies that may uniquely identify your Pmang Account."
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Internet protocol address.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This may include: details of how you used our service, such as
+      your search queries.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use our services, we may automatically collect and store
+      certain information in server logs.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: cookies that may uniquely identify your Pmang Account.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: device event information such as crashes, system activity, hardware
+      settings, language.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: -. Location information
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: When you use a location-enabled service, we may collect and process
+    information about your actual location, like GPS signals sent by a mobile device.
+    We may also use various technologies to determine location, such as sensor data
+    from your device that may, for example, provide information on nearby Wi-Fi access
+    points and cell towers.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may also use various technologies to determine location, such
+      as sensor data from your device that may, for example, provide information on
+      nearby Wi-Fi access points and cell towers.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use a location-enabled service, we may collect and process
+      information about your actual location, like GPS signals sent by a mobile device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: -. Unique application numbers
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Certain services include a unique application number. This number
+    and information about your installation (for example, the operating system type
+    and application version number) may be sent to us when you install or uninstall
+    that service or when that service periodically contacts our servers, such as for
+    automatic updates.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: -. Cookies
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Cookies are pieces of information that a website places on the hard
+    drive of your computer when you visit the website. Cookies may involve the transmission
+    of information from us to you and from you directly to us, to another party on
+    our behalf, or to another party in accordance with its privacy policy. We may
+    use cookies to bring together information we collect about you. You can choose
+    to have your computer warn you each time a cookie is being sent, or you can choose
+    to turn off all cookies. You do this through your browser settings. Each browser
+    is a little different, so look at your browser Help menu to learn the correct
+    way to modify your cookies. If you turn cookies off, you won't have access to
+    many features that make your guest experience more efficient and some of our services
+    will not function properly. Information provided to NWG by Third Parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are pieces of information that a website places on the
+      hard drive of your computer when you visit the website.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies may involve the transmission of information from us to
+      you and from you directly to us, to another party on our behalf, or to another
+      party in accordance with its privacy policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may use cookies to bring together information we collect about
+      you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: We may also receive other information from third parties, including
+    in connection with the operation and distribution of our products and services
+    as well as market and demographic studies that we use to supplement personal and
+    anonymous information collected or provided directly by you. Some third party
+    services such as Twitter and Facebook may also provide us with information from
+    your accounts there with your permission.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some third party services such as Twitter and Facebook may also
+      provide us with information from your accounts there with your permission.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may also receive other information from third parties, including
+      in connection with the operation and distribution of our products and services
+      as well as market and demographic studies that we use to supplement personal
+      and anonymous information collected or provided directly by you.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: By playing an NWG game through a social network or other third party
+    platform or service or by connecting to such a third party network, platform or
+    service via one of our products and/or services, you are authorizing NWG to collect,
+    store, and use in accordance with this Privacy Policy any and all information
+    that you agreed the social network or other third party platform could provide
+    to NWG through the social network/third party platform Application Programming
+    Interface (API) based on your settings on the third party social network or platform.
+    Your agreement takes place when you connect with the third party network, platform
+    or service via our products and/or services, and/or when you connect with, "accept"
+    or "allow" (or similar terms) one of our applications through a social network,
+    or other third party platform or service.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By playing an NWG game through a social network or other third
+      party platform or service or by connecting to such a third party network, platform
+      or service via one of our products and/or services, you are authorizing NWG
+      to collect, store, and use in accordance with this Privacy Policy any and all
+      information that you agreed the social network or other third party platform
+      could provide to NWG through the social network/third party platform Application
+      Programming Interface (API) based on your settings on the third party social
+      network or platform.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Your agreement takes place when you connect with the third party
+      network, platform or service via our products and/or services, and/or when you
+      connect with, "accept" or "allow" (or similar terms) one of our applications
+      through a social network, or other third party platform or service.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: We may also collect or receive information about you from other NWG
+    users who choose to upload their email and other contacts. This information will
+    be stored by us and used primarily to help you and your friends connect. We may
+    also receive information from third parties in connection with market and demographic
+    studies and/or other data that we use to supplement personal information provided
+    directly by you.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information will be stored by us and used primarily to help
+      you and your friends connect.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect or receive information about you from other
+      NWG users who choose to upload their email and other contacts.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also receive information from third parties in connection
+      with market and demographic studies and/or other data that we use to supplement
+      personal information provided directly by you.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: How we use information we collect We use the information we collect
+    from all of our services to provide, maintain, protect and improve them, to develop
+    new ones, and to protect NWG and our users.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: From time to time, we may use your personal information to send important
+    notices, such as communications about purchases and changes to our terms, conditions,
+    and policies. Because this information is important to your interaction with NWG,
+    you may not opt out of receiving these communications.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: We may also use personal information for internal purposes such as
+    auditing, data analysis, and research to improve NWG's products, services, and
+    customer communications
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: If you enter into a sweepstake, contest, or similar promotion we may
+    use the information you provide to administer those programs.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: By use of friend finder tools in our online and mobile products and
+    services, you acknowledge that use of these friend finder tools will help you
+    find your contacts and will also allow your contacts to associate your Pmang Account
+    (and related gaming entitlements, including games played on PC and mobile platforms)
+    with your social networking profile and/or email address. Your resulting friends'
+    list will be subject to this privacy policy.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By use of friend finder tools in our online and mobile products
+      and services, you acknowledge that use of these friend finder tools will help
+      you find your contacts and will also allow your contacts to associate your Pmang
+      Account (and related gaming entitlements, including games played on PC and mobile
+      platforms) with your social networking profile and/or email address.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Your resulting friends' list will be subject to this privacy policy.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: If you choose to use our referral service to "Tell a Friend" about
+    an NWG product or site, we will ask you for your friend's email address or telephone
+    number. We will send your friend an email or SMS(short message service) on your
+    behalf inviting him or her to visit the site or check out our product.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to use our referral service to "Tell a Friend" about
+      an NWG product or site, we will ask you for your friend's email address or telephone
+      number.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: We will ask for your consent before using information for a purpose
+    other than those that are set out in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Sharing your information with Third Parties.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: We will never share your personally identifiable information with
+    third parties without your consent. We may, however, share non-personally identifiable,
+    aggregated and/or public information with third parties.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: From time to time, we employs third party contractors to collect personal
+    information on our behalf to provide email delivery, product, prize or promotional
+    fulfillment, contest administration, credit card processing, shipping or other
+    services on our sites. When requesting these services, you may be asked to supply
+    your name, mailing address, telephone number and email address to our contractors.
+    When our third party agents or service providers collect and/or have access any
+    information other than non-personal, anonymous and/or aggregated data, we requires
+    that they use data consistently with our stated privacy policy. These third parties
+    are prohibited from using your personal information for any other purpose without
+    your specific consent.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: From time to time, we employs third party contractors to collect
+      personal information on our behalf to provide email delivery, product, prize
+      or promotional fulfillment, contest administration, credit card processing,
+      shipping or other services on our sites.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties are prohibited from using your personal information
+      for any other purpose without your specific consent.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: When our third party agents or service providers collect and/or
+      have access any information other than non-personal, anonymous and/or aggregated
+      data, we requires that they use data consistently with our stated privacy policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: When requesting these services, you may be asked to supply your
+      name, mailing address, telephone number and email address to our contractors.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: As above, our policy is not to disclose personal information collected
+    online to a third party for direct marketing purposes without your approval. If
+    you choose to opt-out at any time after granting approval, email privacy@help.pmang.com
+    or write to Privacy Policy Administrator, NEOWIZ PANGYO TOWER, 14, Daewangpangyo-ro
+    645beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, 463-400, Korea.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: We may also access and disclose personal information, including personal
+    communications, in connection with report abuse functions in our products and
+    services, to enforce legal rights and comply with the law, or to comply with an
+    order from a government entity or other competent authority, or when we have reason
+    to believe that a disclosure is necessary to address potential or actual injury
+    or interference with our rights, property, operations, users or others who may
+    be harmed or may suffer loss or damage, or when we believe that disclosure is
+    necessary to protect our rights, combat fraud and/or comply with a judicial proceeding,
+    court order, or legal process served on NWG.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: In the event of a merger, acquisition, or the unlikely event of bankruptcy,
+    management of NWG customer information may be transferred to its successor or
+    assign.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Data Transfers, Storage and Processing Globally the computer systems
+    on which NWG collects, stores, and uses the information it collects or receives
+    are based in the Republic of Korea. Your information may be transferred to, used,
+    processed or held by NWG in other countries, including countries outside your
+    country of residence both in and outside the United States, the European Union
+    and Asia, and used for the purposes set out in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: Data Security and Integrity The security, integrity and confidentiality
+    of your information are extremely important to us. We have implemented technical,
+    administrative and physical security measures that are designed to protect information
+    from unauthorized access, disclosure, use and modification. No method of transmission
+    over the Internet, or method of electronic storage, is 100% secure, however. We
+    cannot guarantee that your information will not be accessed, disclosed, altered,
+    or destroyed by breach of any of our physical, technical, or managerial safeguards.
+    We cannot assume responsibility or liability for unauthorized access to our servers
+    and systems. we will make reasonable efforts consistently to protect your information
+    and ensure the security of our systems.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Third Party Sites.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: Our website and mobile products may contain advertising or services
+    which link to other websites such as Twitter, Facebook and YouTube. The fact that
+    we link to a website is not an endorsement, authorization or representation of
+    our affiliation with that third party. If you click on a link to a third party
+    site, including on an advertisement, you will leave the NWG site or mobile products
+    you are visiting(or using) and go to the site you selected. Because we cannot
+    control the activities of third parties, we cannot accept responsibility for any
+    use of your personal information by such third parties, and we cannot guarantee
+    that they will adhere to the same privacy and security practices as NWG. We encourage
+    you to review the privacy policies of any other service provider from whom you
+    request services. If you visit a third party website that is linked to an NWG
+    site, you should consult that site's privacy policy before providing any personal
+    information.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Children Many NWG online or mobile products and services are intended
+    for general audiences and do not knowingly collect any personal information from
+    children. When an NWG online or mobile product or service does request age information,
+    and users identify themselves as under 13, the product or service will either
+    block such users from providing personal information, or we will ensure consent
+    is obtained from parents for the collection, use and sharing of their children's
+    personal information. At that time, we will provide a description of the information
+    that the child may make publically available, how we will use the information
+    and other practices. We will not knowingly ask children under the age of 13 to
+    provide more information than is reasonably necessary to provide our services.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Please note that if you grant consent for your child to use NWG's
+    online or mobile products and services, this may include such general audience
+    communication services as email, instant messaging, and online groups, and your
+    child will be able to communicate with, and disclose personal information to,
+    other users of all ages. Parents can review, edit, request the deletion, or prevent
+    further collection or use of their children's personal information or make inquiries
+    regarding this policy by sending an email to privacy@help.pmang.com
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: If we change this privacy statement in a way that expands the collection,
+    use or disclosure of children's personal information to which a parent has previously
+    consented, the parent will be notified and we will be required to obtain the parent's
+    additional consent.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: We encourage you to talk with your children about communicating with
+    strangers and disclosing personal information online. You and your child should
+    review our Online Safety web page for additional information about using the Internet
+    safely.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Information collected is secured in a manner consistent with this
+    privacy policy. If we change how we handle your child's information, we will notify
+    you in a manner consistent with this policy.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Under no circumstances do we condition a child's participation in
+    an activity-like contests-on the child's disclosure of more personal information
+    than is reasonably necessary to participate in the activity. On certain sites
+    or services, we may not permit children to participate at all regardless of consent.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Accessing and updating your personal information Whenever you use
+    our services, we aim to provide you with access to your personal information.
+    If that information is wrong, we strive to give you ways to update it quickly
+    or to delete it - unless we have to keep that information for legitimate business
+    or legal purposes. When updating your personal information, we may ask you to
+    verify your identity before we can act on your request.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: We may reject requests that are unreasonably repetitive, require disproportionate
+    technical effort (for example, developing a new system or fundamentally changing
+    an existing practice), risk the privacy of others, or would be extremely impractical
+    (for instance, requests concerning information residing on backup tapes).
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Where we can provide information access and correction, we will do
+    so for free, except where it would require a disproportionate effort. We aim to
+    maintain our services in a manner that protects information from accidental or
+    malicious destruction. Because of this, after you delete information from our
+    services, we may not immediately delete residual copies from our active servers
+    and may not remove information from our backup systems.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: Enforcement We regularly review our compliance with our Privacy Policy.
+    We also adhere to several self regulatory frameworks. To make sure your personal
+    information is secure, we communicate our privacy and security guidelines to NWG
+    employees and strictly enforce privacy safeguards within the company.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: When we receive formal written complaints, we will contact the person
+    who made the complaint to follow up. We work with the appropriate regulatory authorities,
+    including local data protection authorities, to resolve any complaints regarding
+    the transfer of personal data that we cannot resolve with our users directly.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: Changes to this Privacy Policy From time to time, we may change this
+    privacy policy to accommodate new technologies, industry practices, regulatory
+    requirements or for other purposes. We will provide notice to you if these changes
+    are material and, where required by applicable law, we will obtain your consent.
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Contact Information If you have questions or concerns regarding this
+    statement, please send an email to Privacy Policy Administrator, privacy@help.pmang.com,
+    or write to Privacy Policy Administrator, NEOWIZ PANGYO TOWER, 14, Daewangpangyo-ro
+    645beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, 463-400, Korea.
+  annotations: []
+  sentences: []

@@ -1,0 +1,302 @@
+policy_id: 318
+policy_name: Surpax
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy Surpax Inc. ("Surpax" or "we") respect your preferences
+    concerning the treatment of Information that we may collect. This Privacy Policy
+    explains what kind of information we collect, use, share and the security of your
+    information in relation to our mobile applications ("Applications" or "Apps")
+    and mobile services ("Services"). Please take a moment to familiarize yourself
+    with our privacy practices.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'BY INSTALLING THE APPS ON YOUR MOBILE DEVICE, ENTERING INTO, CONNECTING
+    TO, ACCESSING AND/OR USING THE APPS, YOU AGREE TO THE TERMS AND CONDITIONS SET
+    FORTH IN THIS PRIVACY POLICY, INCLUDING TO THE POSSIBLE COLLECTION AND PROCESSING
+    OF YOUR INFORMATION AND YOU ARE CONSENTING TO THE USE OF COOKIES AND OTHER TRACKING
+    TECHNOLOGIES ON YOUR DEVICE. PLEASE NOTE: IF YOU OR, AS APPLICABLE, YOUR LEGAL
+    GUARDIAN, DISAGREE TO ANY TERM PROVIDED HEREIN, YOU MAY NOT INSTALL, ACCESS AND/OR
+    USE THE APPS AND YOU ARE REQUESTED TO PROMPTLY ERASE THEM, AND ANY PART THEREOF,
+    FROM YOUR MOBILE DEVICE.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: BY INSTALLING THE APPS ON YOUR MOBILE DEVICE, ENTERING INTO, CONNECTING
+      TO, ACCESSING AND/OR USING THE APPS, YOU AGREE TO THE TERMS AND CONDITIONS SET
+      FORTH IN THIS PRIVACY POLICY, INCLUDING TO THE POSSIBLE COLLECTION AND PROCESSING
+      OF YOUR INFORMATION AND YOU ARE CONSENTING TO THE USE OF COOKIES AND OTHER TRACKING
+      TECHNOLOGIES ON YOUR DEVICE.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'PLEASE NOTE: IF YOU OR, AS APPLICABLE, YOUR LEGAL GUARDIAN, DISAGREE
+      TO ANY TERM PROVIDED HEREIN, YOU MAY NOT INSTALL, ACCESS AND/OR USE THE APPS
+      AND YOU ARE REQUESTED TO PROMPTLY ERASE THEM, AND ANY PART THEREOF, FROM YOUR
+      MOBILE DEVICE.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: What information we collect Our primary purpose in collecting information
+    is to provide you with a safe, efficient and customized experience and to provide
+    you with Services and features that better meet your needs or requests.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1. Personal Information We do NOT collect any Personal Information
+    about you. "Personal Information" means personally identifiable information, such
+    as your name, email address, physical address, calendar entries, contact entries,
+    files, photos, etc.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: '"Personal Information" means personally identifiable information,
+      such as your name, email address, physical address, calendar entries, contact
+      entries, files, photos, etc.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do NOT collect any Personal Information about you.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 4
+  segment_text: 2. Non-Personal Information We collect non-personal information about
+    your use of our Apps and aggregated information regarding the usages of the Apps.
+    "Non-Personal Information" means information that is of an anonymous nature, such
+    as the type of mobile device you use, your mobile devices unique device ID, the
+    IP address of your mobile device, your mobile operating system, and information
+    about the way you use the Applications.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Non-Personal Information" means information that is of an anonymous
+      nature, such as the type of mobile device you use, your mobile devices unique
+      device ID, the IP address of your mobile device, your mobile operating system,
+      and information about the way you use the Applications.'
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect non-personal information about your use of our Apps
+      and aggregated information regarding the usages of the Apps.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: How we use your information we collect 1. Personal Information.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: We do NOT collect and use Personal Information in any way.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 2. Non-personal Information.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Generally non-personal information is used internally to monitor and
+    improve the Services, to perform analyses of the behavior of our users, to measure
+    user demographics and interests, to describe our services to third parties such
+    as advertisers and to analyze how and where best to use our resources. We do not
+    combine Non-Personal Information with Personal Information.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Generally non-personal information is used internally to monitor
+      and improve the Services, to perform analyses of the behavior of our users,
+      to measure user demographics and interests, to describe our services to third
+      parties such as advertisers and to analyze how and where best to use our resources.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: How we share the information we collect 1. Personal Information.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We do NOT collect and share Personal Information in any way.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 2. Non-personal information.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We accept advertisements from Third Parties ad networks which may
+    be displayed in our Apps. We may share certain information with third-party advertisers,
+    ad networks and ad platforms ("Advertising Entities") to develop and deliver targeted
+    advertising in the Apps. We may also allow Advertising Entities to collect non-personal
+    information within the Services which they may share with us, including your device
+    identifier, device type, device brand, device model, network type, device language,
+    and IP address. Advertising entities may also collect non-personal information
+    related to the performance of the advertisements, such as how many times an advertisement
+    is shown, how long an advertisement is viewed, and any click-throughs of an advertisement.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We accept advertisements from Third Parties ad networks which may
+      be displayed in our Apps.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: "We may also allow Advertising Entities to collect non-personal\
+      \ information within the Services which they may share with us, including\_\
+      your device identifier, device type, device brand, device model, network type,\
+      \ device language, and IP address."
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: "We may share certain information with third-party advertisers,\
+      \ ad networks and ad platforms (\"Advertising\_Entities\") to develop and deliver\
+      \ targeted advertising in the Apps."
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Links to third-party websites and services The Apps may contain links
+    to other websites and online services, including third-party advertisements. If
+    you choose to click through to one of these other websites or online services,
+    please note that any information you may provide will be subject to the privacy
+    policy and other terms and conditions of that websites or service, and not to
+    this Privacy Policy. We do not control third-party websites or services, and the
+    fact that a link to such a website or service appears in the Apps does not mean
+    that we endorse them or have approved their policies or practices relating to
+    user information. Before providing any information to any third-party website
+    or service, we encourage you to review the privacy policy and other terms and
+    conditions of that website or service. You agree that Surpax will have no liability
+    for any matters relating to a third-party website or service that you provide
+    information to, including their collection and handling of that information.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Compliance with laws and law enforcement Surpax reserves the right
+    to share your information with third parties if we believe such action is necessary
+    in order to: (1) conform with the requirements of the law or to comply with legal
+    process served upon us; (2) protect or defend our legal rights or property (3)
+    investigate, prevent or take action regarding illegal activities, suspected fraud,
+    situations involving potential threats to the physical safety of any person or
+    violations of the terms and conditions of using our Apps and Services.'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Changes to our Privacy Policy This Privacy Policy may be updated from
+    time to time for any reason. We will notify you of any changes to our Privacy
+    Policy by posting the new Privacy Policy on http://www.surpax.net/privacy.html.
+    Your continued use of the Apps and Services following the posting of changes will
+    mean you accept those changes.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Contact us If you have any questions regarding privacy while using
+    the Apps, or have questions about our practices, please contact us via email at
+    privacy@surpax.net
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We won't collect non-personal information about your use of our Apps
+    or aggregated information regarding the usages of the Apps. "Non-Personal Information"
+    means information that is of an anonymous nature, such as the type of mobile device
+    you use, your mobile devices unique device ID, the IP address of your mobile device,
+    your mobile operating system, and information about the way you use the Applications.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We won't collect non-personal information about your use of our
+      Apps or aggregated information regarding the usages of the Apps. "Non-Personal
+      Information" means information that is of an anonymous nature, such as the type
+      of mobile device you use, your mobile devices unique device ID, the IP address
+      of your mobile device, your mobile operating system, and information about the
+      way you use the Applications.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 18
+  segment_text: We do NOT collect any Personal Information about you, which means
+    personally identifiable information, such as your name, email address, physical
+    address, calendar entries, contact entries, files, photos, etc.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do NOT collect any Personal Information about you, which means
+      personally identifiable information, such as your name, email address, physical
+      address, calendar entries, contact entries, files, photos, etc.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 19
+  segment_text: "We accept advertisements from Third Parties ad networks which may\
+    \ be displayed in our Apps. We do not share information with third-party advertisers,\
+    \ ad networks and ad platforms (\"Advertising\_Entities\"). We do not allow Advertising\
+    \ Entities to collect non-personal information within the Services, including\_\
+    your device identifier, device type, device brand, device model, network type,\
+    \ device language, and IP address."
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "We accept advertisements from Third Parties ad networks which\
+      \ may be displayed in our Apps. We do not share information with third-party\
+      \ advertisers, ad networks and ad platforms (\"Advertising\_Entities\"). We\
+      \ do not allow Advertising Entities to collect non-personal information within\
+      \ the Services, including\_your device identifier, device type, device brand,\
+      \ device model, network type, device language, and IP address."
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED

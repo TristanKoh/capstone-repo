@@ -1,0 +1,315 @@
+policy_id: 286
+policy_name: OGQ
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Privacy policy of OGQ Backgrounds OGQ Corporation (Hereinafter referred
+    to as 'Company') is handling the personal information of the OGQ Backgrounds service
+    users as follows;
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 1. Personal information to be collected and method of collection
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Personal information to be collected During linkage process to the
+    membership, the company collects personal information such as names, sex, profile
+    images, locations, email addresses, nationality and language settings of mobile
+    devices for registration purposes, convenient customer service and other various
+    services. Friends list also can be collected optionally. Contact information,
+    shipping information, and/or payment information can be collected in the process
+    of customer service and giveaway events. Automatically generated IP address, usage
+    record, illegal usage record, device information can be collected.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Automatically generated IP address, usage record, illegal usage
+      record, device information can be collected.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Contact information, shipping information, and/or payment information
+      can be collected in the process of customer service and giveaway events.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: During linkage process to the membership, the company collects
+      personal information such as names, sex, profile images, locations, email addresses,
+      nationality and language settings of mobile devices for registration purposes,
+      convenient customer service and other various services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Method of collecting personal information Company will collect personal
+    information to provide the services in the following methods; Collecting in the
+    course of processing or using OGQ Backgrounds services Provided by the affiliates
+    Collecting through the gathering tool of generated information
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 2. Purposes of collecting and using personal information Company will
+    use the collected personal information for the following purposes. To help to
+    facilitate the user access to the service To identify the user and prevent the
+    unauthorized usage of service To create the statistical data regarding the use
+    of service To survey and analyze for the improvement of services To raffle in
+    the campaign and events and send the gifts To proceed with the personal certification
+    and respond to the inquiry when the user inquires
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: To post the important notices etc. if necessary To deliver advertising
+    information and events To make billing and claim the purchased good and the use
+    of the paid services
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 3. Sharing and provision of personal information Company will not
+    provide the user's personal information to third parties.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: However, the exceptions are as follows; In case that the users agree
+    previously In accordance with the laws and regulations
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Our third parties and contractors may have access to your information,
+    but only to perform services including database management, service maintenance,
+    analysis, marketing, data handling and sending email or texts for company. These
+    third parties may access to your personal information only when we have your consent
+    to do so and to perform the services listed above. Google Analytics: Data handling
+    and analysing for the service run Crashlytics : Data handling and analysing for
+    the service run'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Google Analytics: Data handling and analysing for the service
+      run Crashlytics : Data handling and analysing for the service run'
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Our third parties and contractors may have access to your information,
+      but only to perform services including database management, service maintenance,
+      analysis, marketing, data handling and sending email or texts for company.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties may access to your personal information only
+      when we have your consent to do so and to perform the services listed above.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 4. Period of possession and use of personal information Company shall
+    in principle destroy the user's personal information immediately when the purpose
+    of the collection and use of personal information is achieved. However, in the
+    case that needs to be kept pursuant to the relevant laws and regulations, the
+    personal information may be stored for a period of time.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 5. Destruction of personal information Company will immediately destroy
+    the user's personal information once the purpose of the collection and use of
+    personal information is achieved. The personal information outputted in soft copies
+    will be shredded, the personal information stored in the form of electronic file
+    will be deleted by using the technical measures not to allow to replay the record.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 6. Rights and how to exercise them by the user and the legal representative
+    of the user
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Personal information registered in order to use the service may be
+    able to be viewed, modified and deleted whenever the user wants.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Personal information of a child under the age of 14 may be able to
+    be viewed, modified and deleted by the legal representative on behalf of the child.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: In the case that user requests to correct the errors of personal information,
+    the concerned personal information will not be used or provided until the correction
+    is completed. Also, in the case that such wrong information has been already provided
+    to the third party, the correction result will be notified to the third party
+    without delay, and the correction will be ensured to be made.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Company handles the un-subscribed or deleted personal information
+    by the user or the user's legal representative in accordance the above "4. Period
+    of possession and use of personal information" and also processes not to be viewed
+    and used for the other purposes.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 7. Matters about the installation/operation and refusal of the automatic
+    collection device of personal information
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Purpose of the use of cookie In case of PC based service, for the
+    purposes to provide the users to optimize services by identifying the user's history
+    of usage and visiting websites, and the user's form of usage and scale, the cookies
+    may be able to be used.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Purpose of the use of cookie In case of PC based service, for the
+      purposes to provide the users to optimize services by identifying the user's
+      history of usage and visiting websites, and the user's form of usage and scale,
+      the cookies may be able to be used.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: Installation/operation and refusal of cookie The user may reserve
+    the right to choose the installation of cookie. The user may allow or refuse to
+    the storage of cookie in the options provided by browser and OS. However, if the
+    user refuses to the installation of cookie, there might be difficulties in using
+    a part of services required of login.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, if the user refuses to the installation of cookie, there
+      might be difficulties in using a part of services required of login.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Installation/operation and refusal of cookie The user may reserve
+      the right to choose the installation of cookie.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The user may allow or refuse to the storage of cookie in the options
+      provided by browser and OS.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: 8. Technical/administrative measures to protect personal information
+    Company takes the following technical/administrative measures in handling the
+    user's personal information to secure the safety from loss, theft, leakage, tampering
+    or damage. Company stores and manages personal information in accordance with
+    the relevant laws, regulations and internal policies. Company is to back up the
+    data to confront with the damages of personal information from time to time, and
+    to prevent form the leakage or damages of the user's personal information or data
+    by using the latest version of anti-virus software, and to transfer the personal
+    information safely in the network through the encrypted communications etc. Company
+    also controls the unauthorized accesses from outside by using a firewall, and
+    tries to be equipped with all kinds of technical devices to secure the security
+    in other available systems. The staff in charge with personal information in the
+    company is limited to the personnel in charge and through the any-time training
+    to the personnel in charge, it is always emphasized for the compliance of the
+    OGQ Private Policy. Through the exclusive department of this privacy policy in
+    the company, the implementation and compliance checkups of this privacy policy
+    is being conducted and, once a problem found, we are trying to correct it immediately.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 9. Contact the privacy policy department If you have any questions/complaints/contents
+    to be consulted regarding this Private Policy, you can consult with the exclusive
+    department for the Private Policy.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 10. Scope of application The third parties' personal information treatments
+    by such the websites linked within OGQ Backgrounds services are not applicable
+    by this Private Policy.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 11. The revision of Private Policy In the case there's any addition,
+    deletion, correction occurred in this private policy, the details of the revision
+    will be posted in the company's homepage, 'Notice' in the service or by an easy
+    way to be recognized at least before 7 days of such case. However, in the event
+    that there any change occurred in the important content of the user's right or
+    responsibility, it will be noticed at least before 30 days of such event.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: The document written in English is for user understanding, and the
+    document written in Korean takes priority when there is mistranslation.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Regulation date : Oct 1st 2015 Personal Information Protection manager
+    Position: CEO Name: I.T Shin Contact: privacy@ogqcorp.com'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Contact information, shipping addresses, and/or payment information
+    is not collected in the process of customer service and giveaway events.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Contact information, shipping addresses, and/or payment information
+      is not collected in the process of customer service and giveaway events.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 26
+  segment_text: Our third parties and contractors do not have access to your information.
+    These third parties may not access your e-mail address.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our third parties and contractors do not have access to your information.
+      These third parties may not access your e-mail address.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 27
+  segment_text: The company does not collect personal information such as names, sex,
+    profile images, locations, email addresses, nationality and language settings
+    of mobile devices for registration purposes.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The company does not collect personal information such as names,
+      sex, profile images, locations, email addresses, nationality and language settings
+      of mobile devices for registration purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED

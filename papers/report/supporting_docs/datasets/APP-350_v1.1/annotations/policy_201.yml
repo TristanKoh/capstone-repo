@@ -1,0 +1,140 @@
+policy_id: 201
+policy_name: com.whatsapplock
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Messenger and Chat Lock Privacy Policy This Privacy Policy is an agreement
+    regarding how your information is collected, used and shared when you use this
+    application and related services. By downloading, installing and using our application,
+    you consent to the privacy practices described in this policy.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Personal Information Personal Information is what identifies you or
+    another person, such as your first name and last name, physical addresses, email
+    addresses, telephone numbers, fax numbers and information stored within your device.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal Information is what identifies you or another person,
+      such as your first name and last name, physical addresses, email addresses,
+      telephone numbers, fax numbers and information stored within your device.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 2
+  segment_text: We DO NOT collect, store or use any personal information while you
+    visit, download or upgrade our products.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We DO NOT collect, store or use any personal information while
+      you visit, download or upgrade our products.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: 'Collection and Use of Non-Personal Information We may collect and
+    use non-personal information in the following circumstances: To have a better
+    understanding in user''s behavior, solve problems in products and services, improve
+    our products, services and advertising, we may collect non-personal information
+    such as your hardware model, operating system version, unique device identifiers,
+    installed application name and package name, the data of install, frequency of
+    use, country, equipment and channel. We do not collect the phone number and will
+    not share this information with third parties. Apps of the third party installed
+    on the device: We may access your apps of third party installed on your device
+    (only including the package name) to help us learn the applications you use and
+    recommend you what kind of application need to be locked for your privacy. Storage:
+    We may collect and store information (including images taken by the app) locally
+    on your device using mechanisms such as application data caches.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We do not collect the phone number and will not share this information
+      with third parties.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: we may collect non-personal information such as your hardware model,
+      operating system version, unique device identifiers
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'Camera: If you use the "Capture intruder" feature, we may access
+    to your camera permission for grab the photos of snoopers. We do not utilize your
+    camera for any other purpose and all the pictures taken are kept locally in the
+    device.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'How We Use Your Information We may use your Information for any of
+    the following purposes: to provide our services to you; to find out the reason
+    that the error occurred or app crashed and improve the quality of the product;
+    to assess the effectiveness of and improve advertising and other marketing and
+    promotional activities on or in connection with our services;'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Sharing Of Your Information We do not sell, trade, or otherwise transfer
+    to outside parties your personally identifiable information.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'We may disclose your Non-personal information: To trusted third parties
+    who assist us in operating our website, conducting our business, cooperation with
+    us or servicing you, so long as those parties agree to keep this information confidential.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: We will access, use or disclose your information with other organizations
+    or entities for reasons that required by any applicable law, regulation, legal
+    process or enforceable governmental request;
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Information Security We are concerned about safeguarding the confidentiality
+    of your information. We provide physical, electronic, and procedural safeguards
+    to protect information we process and maintain. For example, we limit access to
+    this information to authorized employees and contractors who need to know that
+    information in order to operate, develop or improve our Application. Please be
+    aware that, although we endeavor provide reasonable security for information we
+    process and maintain, no security system can prevent all potential security breaches.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Changes Our Privacy Policy may change which will not reduce your rights
+    under this Privacy Policy from time to time, we will post any privacy policy changes
+    on this page, so please review it periodically. If you do not agree to any modifications
+    to this Policy, you could immediately stop all use of all the Services. Your continued
+    use of the Site following the posting of any modifications to this Policy will
+    constitute your acceptance of the revised Policy.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Contact Us If you have any questions about this Policy, or to report
+    any violations of the Policy, please contact us at 2bunnylabs@gmail.com
+  annotations: []
+  sentences: []

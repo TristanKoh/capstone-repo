@@ -1,0 +1,428 @@
+policy_id: 273
+policy_name: MobilityWare
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: MobilityWare License Agreement and Privacy Disclosure Introduction
+    Thank you for downloading this App. This License Agreement and Privacy Disclosure
+    sets forth the terms for your use of this App and the information we collect and
+    how it is used. By using or installing this app you agree to the terms of this
+    License Agreement and Privacy Disclosure. If you disagree with these terms, don't
+    use this app. If this is a free version of the app, it is Ad supported. The Privacy
+    Disclosure has important information regarding Third Party Ad serving.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'End User License Agreement MobilityWare grants you a personal, non-exclusive,
+    non-transferable, revocable limited License subject to the following: Use of this
+    App is solely for your own personal use.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: You agree not to play this App while driving a car, flying an airplane,
+    or any other use where the excitement and distraction of playing could create
+    a hazard to you or others around you.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Use of the Licensed App is on any Android based smartphone or tablet
+    that you own or control as permitted by the Usage rules set forth in the Google
+    Play or Amazon Appstore Terms of Use.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: You may not copy, distribute, modify, disassemble, or create derivative
+    works based upon this App.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: MobilityWare owns and retains all right, title, and interest in and
+    to the Software, including patents, trademarks, copyrights, trade secrets and
+    other intellectual property rights embodied or contained therein.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MOBILITYWARE DISCLAIMS
+    ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED
+    WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT
+    WITH RESPECT TO THE SOFTWARE. MOBILITYWARE MAKES NO WARRANTY THAT THE SOFTWARE
+    WILL BE ERROR FREE OR FREE FROM INTERRUPTION OR FAILURE.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
+    MOBILITYWARE BE LIABLE FOR ANY DAMAGES WHATSOEVER ARISING OUT OF THE USE OR INABILITY
+    TO USE THE SOFTWARE.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: We reserve the right to modify this License at any time; see www.mobilityware.com/androideulaprivacy.php
+    for changes. Your continued use of this App signifies your acceptance of the changes
+    to this License.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Terms of Use and Service User Generated Content If you post, upload,
+    chat, or make available any text, images, videos, game levels, solutions, or other
+    content and information from within this App, you have created "User Generated
+    Content" or "UGC". Any UGC you create is your property, and you hereby grant us
+    a royalty free, irrevocable, perpetual, worldwide, sub-licensable, and transferable
+    right to copy, adapt, modify and use the UGC in any way we see fit, including
+    making the content available for others to use and making derivative works. You
+    grant us these rights without the need for us to get further permission from you
+    or having to pay you for it. In addition, MobilityWare is not responsible for
+    enforcing any rights you may have with respect to your UGC against other users.
+    If you have a dispute with another user of your UGC, you are responsible for contacting
+    the other user directly.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: You warrant that any UGC shall be your own original work and you shall
+    not infringe the intellectual property rights of any third party. Furthermore,
+    you warrant that you will not use or contribute UGC that is unlawful, tortious,
+    defamatory, obscene, invasive of the privacy of another person, threatening, harassing,
+    abusive, hateful, racist, is an advertisement or solicitation of business, or
+    otherwise objectionable or inappropriate. You will indemnify and hold harmless
+    MobilityWare, Inc. for all damages, costs and expenses incurred for your breach
+    of these warranties.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: To the extent that the App allows you to message or communicate with
+    other App users, then you must take care in the type of information you wish to
+    share. For example, you should only share personal information or your contact
+    details with people you trust.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: You also agree that we are not responsible or liable for UGC submitted
+    or posted by you or by others. You acknowledge that we may or may not pre-screen
+    UGC, and that we have the right and sole discretion, to move, remove, block, edit,
+    or refuse any UGC for any reason without prior notice, but we assume no obligation
+    to do so and we are not responsible for any failure or delay in doing so. We do
+    not promise the accuracy, integrity, or quality of the UGC and do not endorse
+    it in any manner. All UGC provided on or via the App or Services is the sole responsibility
+    of the person who provided it. In addition, as a consumer of the UGC of others,
+    you agree to hold us harmless for any real or perceived injury that results from
+    that use.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: You may bring User Content that you believe violates these Terms of
+    Use, violates any copyrights or other intellectual property rights, or is otherwise
+    objectionable to MobilityWare's attention by emailing support@mobilityware.com.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: User Account This App may support a persistent user account based
+    on your e-mail address or social network login. If you supply your e-mail address
+    in the Account set up, we only use it to communicate with the account holder and
+    for end user verification. You agree to provide true, accurate, and complete information
+    about yourself. If you do not provide information that is true, accurate, and
+    complete, MobilityWare has the right to suspend or terminate your account. You
+    shall not use the App and your Account to engage in any illegal or offensive conduct.
+    You are responsible for anything that happens through your Account, and you shall
+    not share the Account and login information. You may not share, trade or sell
+    your Account to any other party. You agree to notify MobilityWare of any unauthorized
+    use or your password or Account.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you do not provide information that is true, accurate, and complete,
+      MobilityWare has the right to suspend or terminate your account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: If you supply your e-mail address in the Account set up, we only
+      use it to communicate with the account holder and for end user verification.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: User Account This App may support a persistent user account based
+      on your e-mail address or social network login.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You agree to notify MobilityWare of any unauthorized use or your
+      password or Account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You agree to provide true, accurate, and complete information about
+      yourself.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You are responsible for anything that happens through your Account,
+      and you shall not share the Account and login information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You may not share, trade or sell your Account to any other party.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: You shall not use the App and your Account to engage in any illegal
+      or offensive conduct.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: You warrant that you are of age 13 or older when establishing the
+    account. MobilityWare reserves the right in its sole discretion and without prior
+    notice to suspend or terminate your account or to remove or reclaim any user name.
+    The App is not directed to children under the age of 13. MobilityWare does not
+    knowingly collect or solicit personally identifiable information from children
+    under 13. If you are under 13, please do not attempt to register for an Account
+    or send any information about yourself to MobilityWare. If MobilityWare becomes
+    aware that a child under 13 has provided us with personal information, we shall
+    delete any such information.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Notice MobilityWare makes no representation that the App and/or the
+    User Account will be available in perpetuity. The App may no longer be supported
+    and/or shut down by MobilityWare at its sole discretion.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Virtual Items This App may provide you with the option to license
+    a variety of virtual items such as virtual currency, virtual goods, additional
+    levels and content packs ("Virtual Items") that can be used for game play. You
+    agree you have no property interest in any Virtual Items. Any purchase or obtaining
+    of Virtual Items, by paying a fee or earned through game play, are purchases of
+    a limited, personal, non-transferable, non-sublicensable, revocable license to
+    use those Virtual Items within the App. Virtual Items may not be transferred or
+    resold for commercial gain in any manner, including, without limitation, by means
+    of any direct sale or auction service. Virtual Items may not be purchased or sold
+    from any individual or other company via cash, barter or any other transaction.
+    Virtual Items have no monetary value, and cannot be used to purchase or use products
+    or services other than within the App. Initiation and/or effectuation of any transfer
+    of Virtual Items between User Accounts for consideration exchanged outside the
+    App is a breach of the license for the App granted to the you by this Agreement,
+    and your User Account may be immediately suspended or terminated at MobilityWare's
+    discretion, among other things. Further, acceptance by you of any Virtual Item(s)
+    exchanged during such a transaction constitutes both (1) a breach of the license
+    for the App granted to the you by this Agreement, and (2) use of the received
+    Virtual Item(s) without any license to the Virtual Item(s). All sales of Virtual
+    Items are final. Virtual items cannot be refunded or exchanged for cash or any
+    other tangible value.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: MobilityWare may manage, regulate, control, modify or eliminate your
+    virtual items in our sole discretion, and MobilityWare will have no liability
+    to you or anyone for exercising these rights. In addition, all virtual items are
+    unconditionally forfeited if your game account is terminated or suspended for
+    any reason, in MobilityWare's sole discretion, or if the App is discontinued.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: MobilityWare has no liability for hacking or loss of your virtual
+    items. MobilityWare has no obligation to, and will not, reimburse you for any
+    virtual items lost due to your violation of these Terms of Use. MobilityWare reserves
+    the right, without prior notification, to limit the order quantity on any virtual
+    item and/or to refuse to provide you with any virtual items. Price and availability
+    of virtual items are subject to change without notice.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Privacy Disclosure Personally Identifiable Information MobilityWare
+    does not collect personally identifiable information such as names, social security
+    numbers, addresses, e-mail addresses, gender identity, affiliations, age, height,
+    weight, id photos, etc. If you choose to send us e-mail for customer support reasons,
+    your e-mail address will be used only to communicate with you to solve your problem.
+    If you voluntarily give us any personal information for other promotions or contests,
+    we do not share or sell this to other third parties.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to send us e-mail for customer support reasons, your
+      e-mail address will be used only to communicate with you to solve your problem.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: If you voluntarily give us any personal information for other promotions
+      or contests, we do not share or sell this to other third parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: MobilityWare does not collect personally identifiable information
+      such as names, social security numbers, addresses, e-mail addresses, gender
+      identity, affiliations, age, height, weight, id photos, etc.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: Third Party Ad Serving Third party Ad networks supply ads for display
+    in this app so that we can offer it to you for free. These networks may collect
+    and use your device GAID, and/or IP addresses, in native or hashed forms, for
+    purposes of controlling how often you see the ad, delivering ads of interest,
+    and measuring the effectiveness of the ads.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These networks may collect and use your device GAID, and/or IP
+      addresses, in native or hashed forms, for purposes of controlling how often
+      you see the ad, delivering ads of interest, and measuring the effectiveness
+      of the ads.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third party Ad networks supply ads for display in this app so that
+      we can offer it to you for free.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: See Appendix A below for the current list of Ad Networks and other
+    Third party technologies or services we use, their Privacy Policy links, and if
+    applicable, Opt out links for ad tracking.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: This privacy policy is located at www.mobilityware.com/androideulaprivacy.php,
+    and it will contain the latest disclosures. You agree to examine this from time
+    to time and that updates to that document are incorporated herein by reference.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Aggregated Usage and App Statistics We collect anonymous aggregated
+    usage statistics of game play and configuration options. We use this information
+    to determine how users play the App, how often certain features are used, etc.
+    This information is used in aggregate form to help us improve the entertainment
+    value of the App and to set priorities for future features.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'Contact Information Should you have any questions concerning this
+    Agreement and Disclosure, or if you desire to contact MobilityWare for any reason,
+    please email support@mobilityware.com, call 949-788-9900, fax 949-453-2001, or
+    write: MobilityWare, 440 Exchange, Suite 100, Irvine, CA 92602.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Indemnification You agree to indemnify, defend and hold MobilityWare
+    Inc., its subsidiaries, officers, and employees harmless from and against any
+    and all claims, liabilities, damages, losses, costs, expenses, fees (including
+    reasonable attorneys' fees and court costs) made by a third party due to or arising
+    from (1) information in your Account and any information you (or anyone accessing
+    the Service using your password) submit, post or transmit through the App, (2)
+    your (or anyone accessing the App using your password) use of the App, (3) your
+    (or anyone accessing the App using your password) violation of these Terms of
+    Use or any applicable Additional Terms of Use or Third Party Agreements, and (4)
+    your (or anyone accessing the App using your password) violation of any rights
+    of any other person or entity.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Governing Law and Remedies These Terms of Use and any action related
+    thereto or to the App will be governed by the laws of the State of California
+    without regard to its conflict of laws provisions. The exclusive jurisdiction
+    and venue of any action with respect to the subject matter of these Terms of Use
+    will be the state and federal courts located in the Southern District of California,
+    and each of the parties hereto waives any objection to jurisdiction and venue
+    in such courts. The parties specifically disclaim application of the United Nations
+    Convention on Contracts for the International Sale of Goods. You acknowledge that
+    the rights granted and obligations made to MobilityWare under these Terms of Use
+    are of a unique and irreplaceable nature, the loss of which may result in immediate
+    and irreparable harm to MobilityWare for which remedies at law are inadequate.
+    MobilityWare shall therefore be entitled to seek injunctive or other equitable
+    relief (without the obligation to post any bond or surety) in the event of any
+    breach or anticipatory breach by you. You irrevocably waive all rights to seek
+    injunctive or other equitable relief.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'Appendix A: Ad Partner Privacy Policies Amazon/A9 Privacy Policy
+    http://www.a9.com/privacy/ Opt out http://www.a9.com/privacy/ AdColony Privacy
+    Policy http://privacy.adcolony.com/ Opt out http://privacy.adcolony.com/ AdMob
+    Privacy Policy https://www.google.com/intl/en/policies/privacy/ Opt out https://www.google.com/intl/en/policies/privacy/
+    Apple iAd Privacy Policy http://www.apple.com/privacy/ Opt out http://oo.apple.com
+    AppLovin Privacy Policy http://www.applovin.com/privacy/ Opt out http://www.applovin.com/privacy/
+    BrightRoll Privacy Policy http://www.brightroll.com/privacy/ Opt out http://www.brightroll.com/opt-out/
+    Chartboost Privacy Policy https://help.chartboost.com/legal/privacy Opt out https://help.chartboost.com/legal/privacy
+    Conversant Media Privacy Policy http://www.conversantmedia.com/legal/privacy/
+    Opt out http://www.conversantmedia.com/legal/privacy/ Drawbridge Privacy Policy
+    http://www.drawbrid.ge/privacy Opt out http://www.drawbrid.ge/privacy Facebook
+    Privacy Policy https://www.facebook.com/about/privacy/ Opt out https://www.facebook.com/about/privacy/
+    Flurry Privacy Policy http://www.flurry.com/resources/privacy.html Opt out http://www.flurry.com/resources/privacy.html
+    Google Privacy Policy http://www.google.com/policies/privacy/ads/ Opt out http://www.google.com/policies/privacy/ads/
+    HyprMX Privacy Policy http://jungroup.com/pp.html Opt out http://jungroup.com/pp.html
+    Ironsource/mobilecore Privacy Policy https://www.mobilecore.com/privacy-policy/
+    Opt out https://www.mobilecore.com/privacy-policy/ Lifestreet Privacy Policy http://www.lifestreet.com/privacy/
+    Opt out http://www.lifestreet.com/privacy/ Manage Privacy Policy http://www.manage.com/privacy
+    Opt out http://www.manage.com/privacy mNectar Privacy Policy http://www.mnectar.com/index.php/privacy-policy/
+    Opt out http://www.mnectar.com/index.php/privacy-policy/ MoPub/Twitter Privacy
+    Policy http://www.mopub.com/legal/ Opt out http://www.mopub.com/legal/ Rhythm
+    New Media Privacy Policy http://rhythmnewmedia.com/privacy-policy/ Opt out http://rhythmnewmedia.com/privacy-policy/
+    Supersonic Privacy Policy https://www.supersonic.com/privacy-policy/ Opt out https://www.supersonic.com/privacy-policy/
+    TapSense Privacy Policy http://tapsense.com/company/privacy-policy/ Opt out http://tapsense.com/company/privacy-policy/
+    Unity Ads Privacy Policy http://unity3d.com/legal/privacy-policy Opt out http://unity3d.com/legal/privacy-policy
+    Tremor Video Privacy Policy http://www.tremorvideo.com/about-us/privacy/ Opt out
+    http://www.tremorvideo.com/about-us/privacy/ Vungle Privacy Policy http://www.vungle.com/privacy/
+    Opt out http://www.vungle.com/privacy/'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Your e-mail address will not be stored.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Your e-mail address will not be stored.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED

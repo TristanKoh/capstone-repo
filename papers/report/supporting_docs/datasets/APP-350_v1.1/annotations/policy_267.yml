@@ -1,0 +1,269 @@
+policy_id: 267
+policy_name: Metago
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy At Metago Inc. ("Metago" or "we") we recognize that
+    privacy is important. This Privacy Policy applies to all of Metago's products,
+    software, services or web sites (together, the "Metago Services"). We may update
+    the Privacy Policy in the future, and you will be able to find the most current
+    version of this policy at www.Metago.net.If you have any questions about this
+    Privacy Policy, please feel free to contact us by email at legal@Metago.net.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'INFORMATION WE COLLECT AND HOW WE USE IT We offer a number of services
+    that do not require you to register for an account or provide any personal information
+    to us, such as ASTRO File Manager. In order to provide our full range of services,
+    we may collect the following types of information: INFORMATION YOU PROVIDE When
+    you sign up for a Metago Account or other Metago service or promotion that requires
+    registration, we ask you for personal information (such as your name, email address,
+    your mobile phone number and an account password). We may combine the information
+    you submit under your account with information from other Metago services or third
+    parties in order to provide you with a better experience and to improve the quality
+    of our services. For certain services, we may give you the opportunity to opt
+    out of combining such information.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you sign up for a Metago Account or other Metago service or
+      promotion that requires registration, we ask you for personal information (such
+      as your name, email address, your mobile phone number and an account password).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: LOG INFORMATION When you access or connect to Metago Services, our
+    servers automatically record information that your client sends. These server
+    logs may include information such as your service request, Internet Protocol address,
+    platform or browser type, client version ID, client language, device ID, the date
+    and time of your request and session identifiers that may uniquely identify your
+    client.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These server logs may include information such as your service
+      request, Internet Protocol address, platform or browser type, client version
+      ID, client language, device ID, the date and time of your request and session
+      identifiers that may uniquely identify your client.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you access or connect to Metago Services, our servers automatically
+      record information that your client sends.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: USER COMMUNICATIONS When you send email or other communications to
+    Metago, we may retain those communications in order to process your inquiries,
+    respond to your requests and improve our services.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: AFFILIATED METAGO SERVICES ON OTHER SITES We offer some of our services
+    on or through other websites or through third-party service providers (e.g., technical
+    support). Personal information that you provide to those sites may be sent to
+    Metago in order to deliver the service. We process such information under this
+    Privacy Policy. The affiliated sites and providers through which our services
+    are offered may have different privacy practices and we encourage you to read
+    their privacy policies.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: LINKS Metago may present links in a format that enables us to keep
+    track of whether these links have been followed. We use this information to improve
+    the quality of our search technology, customized content and advertising.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: OTHER SITES This Privacy Policy applies to Metago Services only. We
+    do not exercise control over the sites displayed as search results, sites that
+    include Metago applications, products or services, or links from within our various
+    services. These other sites may place their own session identifiers or other files
+    on your computer, collect data or solicit personal information from you.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'Metago only processes personal information for the purposes described
+    in this Privacy Policy and/or the supplementary privacy notices for specific services.
+    In addition to the above, such purposes include: Providing our services, including
+    the display of customized content and advertising Auditing, research and analysis
+    in order to maintain, protect and improve our services Ensuring the technical
+    functioning of our network Protecting the rights or property of Metago or our
+    users and Developing new services.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Metago processes personal information on our servers in the United
+    States of America and in other countries. In some cases, we process personal information
+    on a server outside your own country. We may process personal information to provide
+    the Metago Services. In some cases, we may process personal information on behalf
+    of and according to the instructions of a third party, such as our service provider
+    partners. Your use of the Metago Services authorizes us to transfer, process,
+    and store your information in the United States of America or in any other country.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'ONWARD TRANSFER Metago only shares personal information with other
+    companies or individuals outside of Metago in the following limited circumstances:
+    We have your consent. We require opt-in consent for the sharing of any personal
+    information.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We provide such information to our subsidiaries or affiliated companies
+    for the purpose of processing personal information on our behalf.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: We have a good faith belief that access, use, preservation or disclosure
+    of such information is reasonably necessary to (a) satisfy any applicable law,
+    regulation, legal process or enforceable governmental request, (b) enforce applicable
+    Terms of Service or Privacy Policies, including investigation of potential violations
+    thereof, (c) detect, prevent, or otherwise address fraud, security or technical
+    issues, or (d) protect against harm to the rights, property or safety of Metago,
+    its users or the public as required or permitted by law.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: If Metago becomes involved in a merger, acquisition, or any form of
+    sale of some or all of its assets, we will ensure the confidentiality of any personal
+    information involved in such transactions.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We may share with third parties certain pieces of aggregated, non-personally
+    identifiable information, such as the number of users who installed a particular
+    application on their mobile, for example, or how often a particular piece of music
+    was played. Such information does not identify you individually.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Please contact us at the address below for any additional questions
+    about the management or use of personal data.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: SECURITY We take reasonable security measures to protect against unauthorized
+    access to, or unauthorized alteration, disclosure or destruction of, data.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: DATA INTEGRITY Metago processes personal information in accordance
+    with this Privacy Policy. We review our data collection, storage and processing
+    practices to ensure that we only collect, store and process the personal information
+    needed to provide or improve our services or as otherwise permitted under this
+    Privacy Policy. We take reasonable steps to ensure that the personal information
+    we process is accurate, complete, and current, but we depend on our users to update
+    or correct their personal information whenever necessary.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: ACCESS When you use Metago Services, we make good faith efforts to
+    provide you with access to your personal information and either to correct this
+    data if it is inaccurate or to delete such data at your request if it is not otherwise
+    required to be retained by law or for legitimate business purposes. We ask individual
+    users to identify themselves and the information requested to be accessed, corrected
+    or removed before processing such requests, and we may decline to process requests
+    that are unreasonably repetitive or systematic, require disproportionate technical
+    effort, jeopardize the privacy of others, or would be extremely impractical (for
+    instance, requests concerning information residing on backup tapes), or for which
+    access is not otherwise required. In any case where we provide information access
+    and correction, we perform this service free of charge, except if doing so would
+    require a disproportionate effort.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: ENFORCEMENT Metago utilizes the self-assessment approach to assure
+    its compliance with this Privacy Policy. Metago periodically verifies that this
+    Privacy Policy is accurate, comprehensive for the information intended to be covered
+    and prominently displayed. Please feel free to direct any questions or concerns
+    regarding this Privacy Policy or Metago's treatment of personal information by
+    contacting us by email at legal@Metago.net.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: When we receive formal written complaints at this address, it is Metago's
+    policy to contact the complaining user regarding his or her concerns. We will
+    cooperate with the appropriate regulatory authorities, including local data protection
+    authorities, to resolve any complaints regarding the transfer of personal data
+    that cannot be resolved between Metago and an individual.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: CHANGES TO THIS PRIVACY POLICY Please note that this Privacy Policy
+    may change from time to time. By continuing to use the Metago Services after any
+    changes to this Privacy Policy have been made, you acknowledge and consent to
+    the changes. Each version of this Privacy Policy will be identified at the bottom
+    of the page by its effective date.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: If you have any additional questions or concerns about this Privacy
+    Policy, please feel free to contact us by email at info@Metago.net
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 'Last Updated: December 27, 2016'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: We do not ask you for personal information (such as your name, email
+    address, your mobile phone number or account password).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not ask you for personal information (such as your name,
+      email address, your mobile phone number or account password).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 24
+  segment_text: When you access or connect to Metago Services, our servers do not
+    record information that your client sends, such as Internet Protocol address,
+    platform or browser type, client version ID, client language, device ID, the date
+    and time of your request or session identifiers that may uniquely identify your
+    client.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you access or connect to Metago Services, our servers do not
+      record information that your client sends, such as Internet Protocol address,
+      platform or browser type, client version ID, client language, device ID, the
+      date and time of your request or session identifiers that may uniquely identify
+      your client.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED

@@ -1,0 +1,290 @@
+policy_id: 214
+policy_name: DroidLa
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Features Get QR Droid QR Code Generator Resources
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy Home / Terms and Conditions / Privacy Policy Privacy
+    Policy Last Updated: July 10, 2012 This privacy statement ("Privacy Policy") explains
+    how information is collected and utilized by DroidLa Limited ("Droid.La" or "we",
+    "us", "our") its subsidiaries and affiliated companies. This Privacy Policy applies
+    to the QR Droid Zapper Scanner website at www.zapper.com, www.qrdroid.com(the
+    "Site"), the QR Droid and Zapper Scanner applications for various platforms (the
+    "App") and QR Droid''s and Zapper Scanner''s other online or mobile services.
+    If you have any concerns about privacy on the Site/App, please send an email to
+    info@droid.la and we shall respond accordingly.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Personal Identifiable Information Collection Droid.La uses the term
+    Personal Identifiable Information (PII) in this policy, referring to information
+    that specifically identifies an individual (such as an individual's name, address,
+    telephone number or e-mail address), and information about that individual or
+    such individual's activities or preferences when such information is directly
+    linked to personal information. Droid.La does not collect PII with the exception
+    of Customer Support contacts from users of its Site, App, and related online and
+    mobile services. PII does not include aggregate information, which is data we
+    collect about the characteristics and activities of users of the Site, the App,
+    and Droid.La's other online or mobile services, from which any personal information
+    has been removed. This privacy policy in no way limits or restricts our collection
+    of aggregate information or of non-personal information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Droid.La does not collect PII with the exception of Customer Support
+      contacts from users of its Site, App, and related online and mobile services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Personal Identifiable Information Collection Droid.La uses the
+      term Personal Identifiable Information (PII) in this policy, referring to information
+      that specifically identifies an individual (such as an individual's name, address,
+      telephone number or e-mail address), and information about that individual or
+      such individual's activities or preferences when such information is directly
+      linked to personal information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 'Droid.La collects the following types of information from its Site
+    and related services: Cookies: We may utilize cookies or other technologies of
+    similar purposes to automatically collect information about visitors to our Site/App.
+    Cookies are alphanumeric identifiers that reside within your browser to enable
+    our computer systems to recognize your browser and to tell our systems how and
+    when pages within our Site are visited and by how many people. The cookies from
+    our Site do not collect PII.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Droid.La collects the following types of information from its
+      Site and related services:'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'Information That You Provide Us: We receive and store personal information
+    you provide us in any way, such as by telephone or by electronic mail. This information
+    may include your name, address, e-mail address, telephone number, and mobile device
+    information.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Information That You Provide Us: We receive and store personal
+      information you provide us in any way, such as by telephone or by electronic
+      mail.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: This information may include your name, address, e-mail address,
+      telephone number, and mobile device information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: We may automatically receive and store certain other types of information
+    whenever you interact with us. For example, our servers might track the type of
+    mobile phone or Web browser you are using, where you travel within the Site/App,
+    and the page to which you link from the Site. This type of collective data enables
+    us to figure out how often our customers use parts of the Site/App, so we can
+    make improvements and changes to the Site and App so that it may best serve as
+    many customers as possible.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'How Your Information is Used ("Purposes") We use the information
+    we collect to provide our services and to better understand what products and
+    services are of interest to our users. For example, we may utilize your information
+    to: Allow us to provide you with mobile services Operate and improve our Site,
+    App and services Process any of your requests for information Provide and deliver
+    products and services and communicate to you related information, including but
+    not limited to: technical notices, updates, security alerts, and support and administrative
+    messages Support any of the intended purposes specifically stated at the time
+    at which you provided the PII Protect the rights or property of Droid.La or our
+    users Provide customer service, and Communicate in App promotions, upcoming events,
+    and other news about products and services offered by Droid.La and our partners.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'To Whom Your Information is Disclosed ("Recipients") Your PII is
+    NEVER shared except as approved by YOU or as described below: Agents, Service
+    Providers and Third Parties: To any agent, service provider and third parties
+    which provide services to us in order to allow or enable us to provide you with
+    online and mobile services on the Site and App.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Protection: We release account and other personal information when
+    we believe that release is appropriate to comply with the law; enforce or apply
+    our user Agreement; or protect the rights, property, or safety of Droid.La, our
+    users, or others. This includes exchanging information with other companies and
+    organizations for fraud protection and credit risk reduction. Aggregate Information:
+    Droid.La may share aggregate information about you with advertisers, publishers,
+    business partners, sponsors, and other third parties. Corporate Dealings: Droid.La
+    may share your personal information in connection with any merger, sale of Droid.La
+    assets, or a financing or acquisition of all or a portion of our business to another
+    company. Your Consent: when you agree to our sharing your information with other
+    third parties for their own marketing purposes subject to their separate privacy
+    policies.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Any processing performed by any Recipients will, where required by
+    law, be governed by a data processing agreement in the form required by law, preserving
+    any and all of your statutory data protection rights and obligating the Recipients
+    to respect the PII and handle it in accordance with the relevant laws.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We ensure that your information will not be disclosed to government
+    institutions or authorities except if required by law.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Your Choice - Direct Marketing Out of respect for your right to privacy
+    we are happy to provide you with an easy means to decline receiving email offers
+    from us or from any other companies within the Company Group. At any time, you
+    may request to discontinue receiving these offers by sending a blank message with
+    the word "Unsubscribe" in the subject area to info@droid.la. If you would like
+    to stop receiving our mail or telemarketing offers, please call [+1-855-433-4343]
+    or write to DroidLa Limited, Clinch's House, Lord Street, Douglas, Isle of Man
+    IM99 1RZ.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Your Rights in Relation to your PII You can write to us at any time
+    to obtain a copy of your PII and to have any inaccuracies corrected. Where appropriate,
+    you may have your PII rectified, amended or completed. Please email info@droid.la.
+    We may levy a small charge to cover the cost of administration.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Security We have implemented suitable security policies, rules and
+    technical measures to protect and safeguard all the PII under our control from
+    unauthorized access, improper use or disclosure, unauthorized modification, unlawful
+    destruction or accidental loss. All our employees and data processors that have
+    access to, and are associated with the processing of your PII, are obliged to
+    respect your privacy.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Retention Your PII will not be stored for any longer period than is
+    necessary for the purposes for which it was collected.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Changes We may change this Privacy Policy at any time, at our sole
+    discretion. Use of information we collect now is subject to the Privacy Policy
+    in effect at the time such information is used. If we make changes to the Privacy
+    Policy, we will notify you by posting an announcement on the Site so you are always
+    aware of what information we collect, how we use it, and under what circumstances
+    if any, it is disclosed. If we make any changes to this Policy, we will change
+    the "Last Updated" date above.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Information About Us DroidLa Limited, PO Box 146, Trident Chambers,
+    Road Town, Tortola, British Virgin Islands. Download About Us Contact Us Blog
+    Terms and Conditions
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "\xA9 2014 Droidla Limited. All rights reserved."
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Personal Identifiable Information Collection Droid.La uses the term
+    Personal Identifiable Information (PII) in this policy, referring to information
+    that specifically identifies an individual (such as an individual's contact information,
+    address, telephone number or e-mail address), and information about that individual
+    or such individual's activities or preferences when such information is directly
+    linked to personal information. Droid.La does not collect PII from users of its
+    Site, App, and related online and mobile services.
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Personal Identifiable Information Collection Droid.La uses the
+      term Personal Identifiable Information (PII) in this policy, referring to information
+      that specifically identifies an individual (such as an individual's contact
+      information, address, telephone number or e-mail address), and information about
+      that individual or such individual's activities or preferences when such information
+      is directly linked to personal information. Droid.La does not collect PII from
+      users of its Site, App, and related online and mobile services.
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 19
+  segment_text: 'Droid.La does not collect the following types of information from
+    its Site and related services: Information That You Do Not Provide Us: We do not
+    receive or store your name, address, e-mail address, telephone number, and mobile
+    device information.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: 'Droid.La does not collect the following types of information from
+      its Site and related services: Information That You Do Not Provide Us: We do
+      not receive or store your name, address, e-mail address, telephone number, and
+      mobile device information.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED

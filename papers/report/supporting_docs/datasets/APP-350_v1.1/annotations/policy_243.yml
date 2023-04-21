@@ -1,0 +1,137 @@
+policy_id: 243
+policy_name: io.utk.android
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: UTK.io Maps Mods Seeds Servers Skins Texture Packs More Contact us
+    Terms of Use Privacy Policy DMCA/Abuse Download UTK.io Skin Creator Texture Pack
+    Creator Tuner for MCPE All apps
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy We here at UTK.io greatly respect your privacy and
+    we hope that our users feel that the information they share with us is 100% secure
+    and private. Here are the guidelines we follow at UTK.io to ensure your privacy
+    and our integrity: Email We will never share your email with third parties. It
+    will only be used for account activation & occasional UTK.io important news &
+    announcements which you can opt out of.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Passwords The UTK.io staff will NEVER ask for your password. If someone
+    does ask for your password or other info, please immediately notify us.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The UTK.io staff will NEVER ask for your password.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: Log Files We use IP addresses to analyse trends, administer the site,
+    track user's movement, and gather broad demographic information for aggregate
+    use. IP addresses are not linked to personally identifiable information.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: IP addresses are not linked to personally identifiable information.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use IP addresses to analyse trends, administer the site, track
+      user's movement, and gather broad demographic information for aggregate use.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Links This web site contains links to other sites. Please be aware
+    that UTK.io is not responsible for the privacy practices of such other sites.
+    We encourage our users to be aware when they leave our site and to read the privacy
+    statements of each and every web site that collects personally identifiable information.
+    This privacy statement applies solely to information collected by this website.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Advertising We use third-party advertising companies to serve ads
+    when you visit our Website. These companies may use information (not including
+    your name, address email address or telephone number) about your visits to this
+    and other Web sites in order to provide advertisements about goods and services
+    of interest to you. If you would like more information about this practice and
+    to know your choices about not having this information used by these companies,
+    click here.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: These companies may use information (not including your name, address
+      email address or telephone number) about your visits to this and other Web sites
+      in order to provide advertisements about goods and services of interest to you.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: We use third-party advertising companies to serve ads when you
+      visit our Website.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 6
+  segment_text: Notification of Changes If we decide to change our privacy policy,
+    we will post those changes on the news so our users are always aware of what information
+    we collect, how we use it, and under circumstances, if any, we disclose it. If
+    at any point we decide to use personally identifiable information in a manner
+    different from that stated at the time it was collected, we will notify users
+    by way of an e-mail. Users will have a choice as to whether or not we use their
+    information in this different manner. We will use information in accordance with
+    the privacy policy under which the information was collected.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Final Notes UTK.io will never, under any circumstances give away or
+    display your IP address to third parties. Additionally, UTK.io will never sell
+    or transmit e-mail addresses or any other personal identifiers to 3rd parties.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Additionally, UTK.io will never sell or transmit e-mail addresses
+      or any other personal identifiers to 3rd parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: UTK.io will never, under any circumstances give away or display
+      your IP address to third parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 8
+  segment_text: If you have any questions regarding our privacy policy, please do
+    not hesitate to Contact Us! Thank you for your cooperation.
+  annotations: []
+  sentences: []

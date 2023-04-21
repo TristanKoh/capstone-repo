@@ -1,0 +1,145 @@
+policy_id: 126
+policy_name: bzing
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Scope We appreciate the interest you have shown in our products.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: This Privacy Policy outlines our guidelines for the information we
+    collect when You interact with our apps.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: '"Personal Information" is information about You that is personally
+    identifiable to You like Your name, address, e-mail address, or phone number.
+    "Anonymised Information" means information that is not associated with or linked
+    to Your Personal Information. Anonymised Information does not permit identification
+    of You. Anonymised Information, such as basic usage statistics regarding Your
+    use of our products and services, does not by itself identify You, though such
+    information may be unique or consist of or contain information that You consider
+    personal.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: '"Anonymised Information" means information that is not associated
+      with or linked to Your Personal Information.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: '"Personal Information" is information about You that is personally
+      identifiable to You like Your name, address, e-mail address, or phone number.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: Anonymised Information does not permit identification of You.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: Anonymised Information, such as basic usage statistics regarding
+      Your use of our products and services, does not by itself identify You, though
+      such information may be unique or consist of or contain information that You
+      consider personal.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 3
+  segment_text: Collection of Information We do not gather any Personal information
+    from You. We just collect anonymised information, that helps us learn about our
+    users and customers. We use this information to provide You with our products
+    and services and the products and services of our carefully selected partners,
+    to develop new products and services, to better tailor the features, performance
+    and support of our products and services, and to offer You additional information
+    and opportunities. We may collect Anonymised Information passively or actively.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not gather any Personal information from You.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+  - sentence_text: We just collect anonymised information
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 4
+  segment_text: Information Collected Via Technology As You use our apps, certain
+    Anonymised Information may also be collected passively. This Anonymised Information
+    includes location information (information about Your location), information on
+    how long it took You to travel certain routes, traffic patterns and on any technical
+    glitches You may have encountered. The nature of the Anonymised Information that
+    Your device transmits to us will not enable us to trace it back to an identifiable
+    person. Privacy Policy Updates This Privacy Policy is subject to occasional revision,
+    and if we make any substantial changes in the way we use the Anonymised Information,
+    we will post a notice on this page. If You object to any such changes, You must
+    cease using our products and services where Anonymised Information is collected.
+    Continued use of our products and services following notice of any such changes
+    will indicate Your acknowledgement of the changes and agreement to be bound by
+    the new terms and conditions.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As You use our apps, certain Anonymised Information may also be
+      collected passively.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: This Anonymised Information includes location information (information
+      about Your location), information on how long it took You to travel certain
+      routes, traffic patterns and on any technical glitches You may have encountered.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: As You use our apps, no Anonymised Information is collected passively.
+    This Anonymised Information includes location information (information about Your
+    location), information on how long it took You to travel certain routes, traffic
+    patterns and on any technical glitches You may have encountered.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: As You use our apps, no Anonymised Information is collected passively.
+      This Anonymised Information includes location information (information about
+      Your location), information on how long it took You to travel certain routes,
+      traffic patterns and on any technical glitches You may have encountered.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED

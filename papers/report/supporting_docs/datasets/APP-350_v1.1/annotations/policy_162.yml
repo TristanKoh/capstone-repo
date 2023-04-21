@@ -1,0 +1,270 @@
+policy_id: 162
+policy_name: com.driftwood.galaxybowl.free
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: "Home Blog Themes Games \xBB Galaxy Bowling 3D Flight Theory 2 in\
+    \ 1 Longbow - Realsense Flight Theory League Star Football Longbow - Archery 3D\
+    \ About Account Support"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Overview We respect your privacy. We don't actively
+    collect or store personal information. Any information collected is used for the
+    sole purpose of processing orders or registrations initiated by you. Feel free
+    to read through the finer details below. Thank you!
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: What information do we collect? We collect information from you when
+    you register on our site, place an order or register in our apps.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: When registering in our applications, your email address is stored
+    for password retrieval purposes. This information is not public and not disclosed
+    to 3rd parties.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When registering in our applications, your email address is stored
+      for password retrieval purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'When ordering or registering on our site, as appropriate, you may
+    be asked to enter your: name or e-mail address. You may, however, visit our site
+    anonymously.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'When ordering or registering on our site, as appropriate, you
+      may be asked to enter your: name or e-mail address.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'What do we use your information for? Any of the information we collect
+    from you may be used in one of the following ways: To personalize your experience:
+    (your information helps us to better respond to your individual needs)'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'To improve our website: (we continually strive to improve our website
+    offerings based on the information and feedback we receive from you)'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 'To process transactions: Your information, whether public or private,
+    will not be sold, exchanged, transferred, or given to any other company for any
+    reason whatsoever, without your consent, other than for the express purpose of
+    delivering the purchased product or service requested.'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'To send periodic emails: The email address you provide for order
+    processing, will only be used to send you information and updates pertaining to
+    your order or information related to End Permian (only if you opt-in.)'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'To send periodic emails: The email address you provide for order
+      processing, will only be used to send you information and updates pertaining
+      to your order or information related to End Permian (only if you opt-in.)'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Note: If at any time you would like to unsubscribe from receiving
+    future emails, we include detailed unsubscribe instructions at the bottom of each
+    email.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: To allow you to reset your password.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Google Analytics Google Analytics is a web analysis service provided
+    by Google. Google utilizes the data collected to track and examine the use of
+    endpermian.com and mobile apps, to prepare reports on its activities and share
+    them with other Google services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Google Analytics Google Analytics is a web analysis service provided
+      by Google.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Google utilizes the data collected to track and examine the use
+      of endpermian.com and mobile apps, to prepare reports on its activities and
+      share them with other Google services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Google may use the data collected to contextualize and personalize
+    the ads of its own advertising network.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Google may use the data collected to contextualize and personalize
+      the ads of its own advertising network.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: 'Personal data collected: Cookie and Usage Data. Place of processing:
+    USA. Find Google''s privacy policy here.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Find Google's privacy policy here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Personal data collected: Cookie and Usage Data.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Place of processing: USA.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: Cookies Cookies are files with small amount of data, which may include
+    an anonymous unique identifier.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are files with small amount of data, which may include
+      an anonymous unique identifier.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: Cookies are sent to your browser from a web site and stored on your
+    computer's hard drive.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are sent to your browser from a web site and stored on
+      your computer's hard drive.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Like many sites, we use "cookies" to collect information. You can
+    instruct your browser to refuse all cookies or to indicate when a cookie is being
+    sent.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Like many sites, we use "cookies" to collect information.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can instruct your browser to refuse all cookies or to indicate
+      when a cookie is being sent.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: Log Data Like many site operators, we collect information that your
+    browser sends whenever you visit our
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Like many site operators, we collect information that your browser
+      sends whenever you visit our site.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: site. This data may include information such as your computer's Internet
+    Protocol ("IP") address, browser type, browser version, the pages of our Site
+    that you visit, the time and date of your visit, the time spent on those pages
+    and other statistics.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This data may include information such as your computer's Internet
+      Protocol ("IP") address, browser type, browser version, the pages of our Site
+      that you visit, the time and date of your visit, the time spent on those pages
+      and other statistics.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Third party links Occasionally, at our discretion, we may include
+    or offer third party products or services on our website or apps. These third
+    party sites have separate and independent privacy policies. We therefore have
+    no responsibility or liability for the content and activities of these linked
+    sites.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Changes To This Privacy Policy Winterlight Pty. Ltd. may update this
+    Privacy Policy from time to time. We will notify
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: you of any changes by posting the new Privacy Policy on the Site.
+    You are advised to review this
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Privacy Policy periodically for any changes.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Your Consent By using our site, you consent to our websites privacy
+    policy.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: This policy was last modified on August 8th, 2015.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Contacting Us If there are any questions regarding this privacy policy
+    you may contact us using the information below.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: "contact@endpermian.com \xA9 2017 End Permian - Android and iPhone\
+    \ games and themes. All Rights Reserved."
+  annotations: []
+  sentences: []

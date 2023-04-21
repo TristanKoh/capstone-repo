@@ -1,0 +1,246 @@
+policy_id: 42
+policy_name: FastFreeGames
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: fast free games best free android games Menu Skip to content About
+    Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Search for: Privacy Policy This Privacy Policy governs the manner
+    in which Fast Free Games collects, uses, maintains and discloses information collected
+    from users (each, a "User") of the Services offered by Fast Free Games. This privacy
+    policy applies to the mobile games, Facebook app, other products and services
+    offered by Fast Free Games.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Personal identification information We may collect personal identification
+    information from Users in a variety of ways in connection with activities, services,
+    features or resources we make available on our Services. We will collect personal
+    identification information from Users only if they voluntarily submit such information
+    to us. Users can always refuse to supply personally identification information,
+    except that it may prevent them from engaging in certain activities.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Non-personal identification information We may collect non-personal
+    identification information about Users whenever they interact with our Services.
+    Non-personal identification information may include the browser name, the type
+    of computer and technical information about Users means of connection to our Services,
+    such as the operating system and the Internet service providers utilized and other
+    similar information.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Web browser cookies Our Services may use "cookies" to enhance User
+    experience. User's web browser places cookies on their hard drive for record-keeping
+    purposes and sometimes to track information about them. User may choose to set
+    their web browser to refuse cookies, or to alert you when cookies are being sent.
+    If they do so, note that some parts of our Services may not function properly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If they do so, note that some parts of our Services may not function
+      properly.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Services may use "cookies" to enhance User experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: User may choose to set their web browser to refuse cookies, or
+      to alert you when cookies are being sent.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: User's web browser places cookies on their hard drive for record-keeping
+      purposes and sometimes to track information about them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'How we use collected information Fast Free Games may collect and
+    use Users personal information for the following purposes: - To improve customer
+    service Information you provide helps us respond to your customer service requests
+    and support needs more efficiently.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: '- To improve our Site We may use feedback you provide to improve
+    our products and services.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: '- To send periodic emails We may use the email address to send User
+    information and updates pertaining to their order. It may also be used to respond
+    to their inquiries, questions, and/or other requests. If User decides to opt-in
+    to our mailing list, they will receive emails that may include company news, updates,
+    related product or service information, etc.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may use the email address to send User information and updates
+      pertaining to their order.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Sharing your personal information We do not sell, trade, or rent Users
+    personal identification information to others. We may share generic aggregated
+    demographic information not linked to any personal identification information
+    regarding visitors and users with our business partners, trusted affiliates and
+    advertisers for the purposes outlined above.
+  annotations:
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may share generic aggregated demographic information not linked
+      to any personal identification information regarding visitors and users with
+      our business partners, trusted affiliates and advertisers for the purposes outlined
+      above.
+    annotations:
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Third party websites Users may find advertising or other content on
+    our Services that link to the sites and services of our partners, suppliers, advertisers,
+    sponsors, licensors and other third parties. We do not control the content or
+    links that appear on these sites and are not responsible for the practices employed
+    by websites linked to or from our Services. In addition, these sites or services,
+    including their content and links, may be constantly changing. These sites and
+    services may have their own privacy policies and customer service policies. Browsing
+    and interaction on any other website, including websites which have a link to
+    our Services, is subject to that website's own terms and policies.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Advertising Ads appearing on our services may be delivered to Users
+    by advertising partners, who may set cookies. These cookies allow the ad server
+    to recognize your computer each time they send you an online advertisement to
+    compile non personal identification information about you or others who use your
+    computer. This information allows ad networks to, among other things, deliver
+    targeted advertisements that they believe will be of most interest to you. This
+    privacy policy does not cover the use of cookies by any advertisers.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Ads appearing on our services may be delivered to Users by advertising
+      partners, who may set cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These cookies allow the ad server to recognize your computer each
+      time they send you an online advertisement to compile non personal identification
+      information about you or others who use your computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: This information allows ad networks to, among other things, deliver
+      targeted advertisements that they believe will be of most interest to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: This privacy policy does not cover the use of cookies by any advertisers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Google Adsense Some of the ads may be served by Google. Google's use
+    of the DART cookie enables it to serve ads to Users based on their visit to our
+    Site and other sites on the Internet. DART uses "non personally identifiable information"
+    and does NOT track personal information about you, such as your name, email address,
+    physical address, etc. You may opt out of the use of the DART cookie by visiting
+    the Google ad and content network privacy policy at <a href="http://www.google.com/privacy_ads.html&#8221;
+    target="_blank">http://www.google.com/privacy_<wbr />ads.html</a>
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: DART uses "non personally identifiable information" and does NOT
+      track personal information about you, such as your name, email address, physical
+      address, etc.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: "Google\u2019s use of the DART cookie enables it to serve ads to\
+      \ Users based on their visit to our Site and other sites on the Internet."
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You may opt out of the use of the DART cookie by visiting the Google
+      ad and content network privacy policy
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Changes to this privacy policy Fast Free Games has the discretion
+    to update this privacy policy at any time. When we do, we will revise the updated
+    date at the bottom of this page. We encourage Users to frequently check this page
+    for any changes to stay informed about how we are helping to protect the personal
+    information we collect. You acknowledge and agree that it is your responsibility
+    to review this privacy policy periodically and become aware of modifications.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Your acceptance of these terms By using our Services, you signify
+    your acceptance of this policy. If you do not agree to this policy, please do
+    not use our Services. Your continued use of our Services following the posting
+    of changes to this policy will be deemed your acceptance of those changes.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Contacting us If you have any questions about this Privacy Policy,
+    the practices of our Services, or your dealings with our Services, please contact
+    us at: Fast Free Games http://www.fastfreegames.wordpress.com dzkdes@gmail.com
+    This document was last updated on November 27, 2013 Share this: Twitter Facebook
+    Google'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'Like this: Like Loading...'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Leave a Reply Cancel reply Enter your comment here...
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 'Fill in your details below or click an icon to log in: Email (required)
+    (Address never made public) Name (required) Website You are commenting using your
+    WordPress.com account. ( Log Out / Change ) You are commenting using your Twitter
+    account. ( Log Out / Change ) You are commenting using your Facebook account.
+    ( Log Out / Change ) You are commenting using your Google+ account. ( Log Out
+    / Change ) Cancel Connecting to %s Notify me of new comments via email.'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Create a free website or blog at WordPress.com.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: '%d bloggers like this:'
+  annotations: []
+  sentences: []

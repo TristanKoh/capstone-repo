@@ -1,0 +1,662 @@
+policy_id: 115
+policy_name: BackflipStudios
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Navigation Home Games Jobs Help About
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy Children's Privacy Policy Japanese Privacy Policy Backflip
+    Studios Privacy Policy Backflip Studios, LLC. ("Backflip") is committed to protecting
+    your privacy. We have prepared this Privacy Policy to describe our practices regarding
+    the Personal Data we collect via any Backflip application (each, an "App") and
+    our websites, including www.backflipstudios.com each, a "Site"). This Privacy
+    Policy generally applies to all users of Backflip's Apps who are age 13 or older.
+    For users under age 13, please refer to our Children's Privacy Policy here .
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Types of Data We Collect Information You Provide We collect information
+    about you in various ways when you use our Site and Apps. We collect personal
+    information you provide to us. For example, we collect your name, email address
+    or other address you provide, and any other information you provide us when you
+    contact us for support or provide feedback. We may also collect any information
+    you provide us, such as your name, postal address, zip code, country of origin,
+    and email, when you: (i) respond to one of our surveys, (ii) participate in a
+    contest, sweepstakes or other promotion, (iii) sign up for one of our newsletters,
+    or (iv) sign up to one of our pre-registration sites. We may also obtain information
+    from other sources and combine that with information we collect on our Apps.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we collect your name, email address or other address
+      you provide, and any other information you provide us when you contact us for
+      support or provide feedback.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect personal information you provide to us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect any information you provide us, such as your
+      name, postal address, zip code, country of origin, and email
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: We may request that you provide your age information, including your
+    date of birth to customize our App's content and other features. If your child
+    identifies himself or herself as under the age of 13, please see our Children's
+    Privacy Policy here [http://www.backflipstudios.com/help/privacy-policy-children]
+    for a description of how we collect, use and share information we collect from
+    children under the age of 13.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may request that you provide your age information, including
+      your date of birth to customize our App's content and other features.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: We may also collect personal information at other points on the App
+    that state that personal information is being collected.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Information Automatically Collected Via Technology When you use one
+    of our Apps, some information is automatically collected. For example, we collect
+    a unique identifier for the device on which you install an App ("DID", which may
+    be your Apple Game Center ID (if you have signed up to Game Center and we have
+    access to that ID)) and develop a profile about you keyed to that DID. We may
+    store your DID with your contact information (like your email address) when you
+    contact us for support, but otherwise we do not associate your DID with Personal
+    Data we collect about you.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Apple Game Center ID (if you have signed up to Game Center and
+      we have access to that ID)) and develop a profile about you keyed to that DID.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, we collect a unique identifier for the device on which
+      you install an App
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Information Automatically Collected Via Technology When you use
+      one of our Apps, some information is automatically collected.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: We may store your DID with your contact information (like your
+      email address) when you contact us for support, but otherwise we do not associate
+      your DID with Personal Data we collect about you.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Our servers (which may be hosted by a third party service provider)
+    also collect information from you, including your browser type, device type, operating
+    system, application software, Internet Protocol (IP) address (a number that is
+    automatically assigned to your computer when you use the Internet, which may vary
+    from session to session), MAC address, Open Device Identification Number (ODIN),
+    domain name, date/time stamps for your use of the App, and your DID.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our servers (which may be hosted by a third party service provider)
+      also collect information from you, including your browser type, device type,
+      operating system, application software, Internet Protocol (IP) address (a number
+      that is automatically assigned to your computer when you use the Internet, which
+      may vary from session to session), MAC address, Open Device Identification Number
+      (ODIN), domain name, date/time stamps for your use of the App, and your DID.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Our Apps may also allow you to make "in-App" purchases. If you make
+    an "in-App" purchase we will automatically collect information related to your
+    purchase, or may receive such information from the platform provider (e.g. Apple
+    or Google), including the item purchased, the name of the game you are playing,
+    billing information and other information about your purchase.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Our Apps may also automatically receive age information, including
+    date of birth, from the platform provider or which is associated with your DID.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our Apps may also automatically receive age information, including
+      date of birth, from the platform provider or which is associated with your DID.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Our Apps may periodically examine the contents of your device to determine
+    the presence of other Backflip Apps on the device. The App will transmit the results
+    of that examination to Backflip and our advertising service providers to be used
+    in targeting advertisements to your device. For example, if you have PaperToss
+    and Ninjump installed on your device, when you play PaperToss, we will not send
+    you ads for Ninjump and will instead send you other more relevant ads. When you
+    start or stop an App, it may display an ad and during gameplay, a rotating banner
+    ad may be displayed.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We may also automatically collect information related to the overall
+    effectiveness of our advertising campaigns via our advertisements delivered on
+    third party web sites, apps and services ("Our Ads"). For example, we may collect
+    information related to the number of people who click on Our Ads, and the number
+    of people who download one of our Apps or other products via Our Ads. We may combine
+    the information we collect via Our Ads with other information we collect via our
+    Apps.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Third Parties Who Collect Information On Our Site and Apps
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: (a) Social Networking Sites. If you use one of our Apps in connection
+    with a social networking site (such as Facebook, Twitter, Google+, or LinkedIn)
+    ("Social Networking Site"), we may receive information about you from such Social
+    Networking Site, in accordance with such Social Networking Site's terms of use
+    and privacy policy ("SNS Terms"). For instance, if you associate your App with
+    your Facebook account, Facebook will provide the App the applicable information
+    (which may include your name, profile picture, gender, networks, user ID, list
+    of friends, your email address, location, birthday and publishing stream, and
+    other information you store on Facebook. This Social Networking Site information
+    is not sent to the Backflip servers, but is stored on the App. We may add this
+    information to the information we have already collected from you via the App.
+    If you elect to share your information with these Social Networking Sites, we
+    will share information with them in accordance with your election. The SNS Terms
+    will apply to the information we disclose to them.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '12: (a) Social Networking Sites.'
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: For instance, if you associate your App with your Facebook account,
+      Facebook will provide the App the applicable information (which may include
+      your name, profile picture, gender, networks, user ID, list of friends, your
+      email address, location, birthday and publishing stream, and other information
+      you store on Facebook.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: If you elect to share your information with these Social Networking
+      Sites, we will share information with them in accordance with your election.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: If you use one of our Apps in connection with a social networking
+      site (such as Facebook, Twitter, Google+, or LinkedIn) ("Social Networking Site"),
+      we may receive information about you from such Social Networking Site, in accordance
+      with such Social Networking Site's terms of use and privacy policy ("SNS Terms").
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: The SNS Terms will apply to the information we disclose to them.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: This Social Networking Site information is not sent to the Backflip
+      servers, but is stored on the App.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We may add this information to the information we have already
+      collected from you via the App.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: '(b) Analytics. We may share your DID or other information with companies
+    that perform analytics regarding our Apps (or enable such companies to collect
+    your DID or other information): to analyze the use of the Apps for us; and for
+    advertising about Backflip and other companies. These companies may combine data
+    we provide to them or allow them to collect from or about you with data they collect
+    in connection with other websites or applications.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: (c) Third Party Offers. Our Apps may provide you access to third party
+    services that offer in App rewards in exchange for your participation in the third
+    party's offer or activity (each an "Activity"). If you click on or otherwise participate
+    in any Activity, the third party(ies) providing the Activity may automatically
+    collect certain information about you and your participation in the Activity.
+    Backflip is not responsible for any third party providing any Activity on its
+    App, or the information collected by such third parties.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'Third Party Advertisements We may also use third parties to serve
+    ads on the Apps. Certain third parties may automatically collect information about
+    your visits to this and other websites, your IP address, your ISP, your DID, the
+    browser you use to visit our Site (but not your name, address, email address,
+    or telephone number). They do this using cookies, clear gifs, or other technologies.
+    Information collected may be used, among other things, to deliver advertising
+    targeted to your interests and to better understand the usage and visitation of
+    our Site and the other sites tracked by these third parties. This policy does
+    not apply to, and we are not responsible for, cookies or clear gifs in third party
+    ads, and we encourage you to check the privacy policies of advertisers and/or
+    ad services to learn about their use of cookies and other technology. If you would
+    like more information about this practice and to know your choices about not having
+    this information used by these companies, click here: http://www.networkadvertising.org.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain third parties may automatically collect information about
+      your visits to this and other websites, your IP address, your ISP, your DID,
+      the browser you use to visit our Site (but not your name, address, email address,
+      or telephone number).
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Information collected may be used, among other things, to deliver
+      advertising targeted to your interests and to better understand the usage and
+      visitation of our Site and the other sites tracked by these third parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: They do this using cookies, clear gifs, or other technologies.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: 'Use of Your Data We use personal information collected through our
+    Site and Apps for purposes described in this Policy or disclosed to you on the
+    Site, in our Apps, or in connection with our services. For example, we may use
+    your information to: operate and improve our Apps, products, and services; understand
+    you and your preferences to enhance your experience and enjoyment using our Site,
+    Apps, products, and services; process and deliver contest entries and rewards;
+    to send you push notifications; respond to your comments and questions and provide
+    customer service; to track (via your DID) your in-App currency, to send relevant
+    ads to you, to save your scores, and to provide the services you request; to send
+    you related information, including confirmations, invoices, technical notices,
+    updates, security alerts, and support and administrative messages; communicate
+    with you about new contests, promotions, rewards, upcoming events, and other news
+    about products and services offered by Backflip and our selected partners; and
+    link or combine it with other personal information we get from third parties,
+    to help understand your needs and provide you with better service.'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We may also create anonymous and/or deidentified data records from
+    your personal data by excluding information (such as your name) that make the
+    data personally identifiable to you. We may use such anonymous/deidentified information
+    to back up App-related data, high scores, levels completed, in-game currency earned
+    or purchased, and improve our products and services.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'Sharing Of Personal Information We do not share your personal information
+    with third parties other than as follows: with your consent, for example, when
+    you agree to our sharing your information with other third parties for their own
+    marketing purposes subject to their separate privacy policies; with third party
+    vendors, consultants and other service providers who work for us and need access
+    to your information to do that work; to (i) comply with laws or to respond to
+    lawful requests and legal process, (ii) to protect the rights and property of
+    Backflip our agents, customers, members, and others including to enforce our agreements,
+    policies and terms of use or (iii) in an emergency to protect the personal safety
+    of Backflip, its customers, or any person ; in connection with or during negotiation
+    of any merger, financing, acquisition, or dissolution, transaction or proceeding
+    involving sale, transfer, divestiture, or disclosure of all or a portion of our
+    business or assets to another company.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: We may also share aggregated or deidentified information in our sole
+    discretion.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'Our Apps may enable you to post content to Social Networking Sites.
+    If you choose to do this, we will provide information to such Social Networking
+    Sites in accordance with your elections. You acknowledge and agree that you are
+    solely responsible for your use of those websites and that it is your responsibility
+    to review the terms of use and privacy policy of the third party provider of such
+    Social Networking Sites. We will not be responsible or liable for: (i) the availability
+    or accuracy of such Social Networking Sites; (ii) the content, products or services
+    on or availability of such Social Networking Sites; or (iii) your use of any such
+    Social Networking Sites.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Security of Your Personal Data Backflip is committed to protecting
+    the security of your Personal Data. We use a variety of industry-standard security
+    technologies and procedures to help protect your Personal Data from unauthorized
+    access, use, or disclosure. While Backflip uses reasonable efforts to protect
+    your Personal Data, Backflip cannot guarantee its absolute security.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Your Choices Regarding Your Personal Data You can stop all collection
+    of information by an App by uninstalling the App. You may use the standard uninstall
+    process as may be available as part of your mobile device or via the mobile application
+    marketplace or network.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: A Note to Users Outside of the United States If you are a non U.S.
+    user of an App, by using such App and providing us with data, you acknowledge
+    and agree that your personal information may be processed for the purposes identified
+    in the Privacy Policy. In addition, your personal information may be processed
+    in the country in which it was collected and in other countries, including the
+    United States, where laws regarding processing of personal information may be
+    less stringent than the laws in your country. By providing your data, you acknowledge
+    such transfer.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Contact Information Backflip welcomes your comments or questions
+    regarding this Privacy Policy. Please contact us at the following: support@backflipstudios.com'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Changes to This Privacy Policy This Privacy Policy is subject to occasional
+    revision, and if we make any material changes in the way we use your personal
+    information, we will notify you by prominently posting notice of the changes on
+    our Site. Any changes to this Privacy Policy will be effective thirty (30) calendar
+    days following our posting of notice of the changes on our Site. These changes
+    will be effective immediately for new users of our Site or App. Changes to this
+    Privacy Policy may affect our use of personal data that you provided us prior
+    to our notification to you of the changes. If you do not wish to permit changes
+    in our use of your personal data, you must notify us prior to the effective date
+    of the changes. Continued use of our Site or App, following notice of such changes
+    shall indicate your acknowledgement of such changes and agreement to be bound
+    by the terms and conditions of such changes.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: "Last Revised: May 2016 Follow Us: Twitter Facebook Youtube BACKFLIP\
+    \ STUDIOS \xB7 Copyright \xA9 2014 \xB7 Terms of Service \xB7 Privacy Policy"
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: We will never ask that you provide your age or other demographic information,
+    including your date of birth.
+  annotations:
+  - practice: Demographic_1stParty
+    modality: NOT_PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will never ask that you provide your age or other demographic
+      information, including your date of birth.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: NOT_PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 28
+  segment_text: Information is not Automatically Collected Via Technology When you
+    use one of our Apps, information is not automatically collected. For example,
+    we are not collecting any unique identifiers for the device on which you install
+    our App ...
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Information is not Automatically Collected Via Technology When
+      you use one of our Apps, information is not automatically collected. For example,
+      we are not collecting any unique identifiers for the device on which you install
+      our App ...
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 29
+  segment_text: We are not sharing your device identifiers or other information with
+    companies that perform analytics regarding our Apps (nor do we enable such companies
+    to collect your device identifiers or other information).
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We are not sharing your device identifiers or other information
+      with companies that perform analytics regarding our Apps (nor do we enable such
+      companies to collect your device identifiers or other information).
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 30
+  segment_text: "We do not transfer personal information to analytics companies.\_\
+    For example, we do not share your name, email address or other address, and any\
+    \ other information when you contact us for support or provide feedback.\_We also\
+    \ do not let third parties collect any information, such as your name, postal\
+    \ address, zip code, country of origin, and email"
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_ZIP_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "We do not transfer personal information to analytics companies.\_\
+      For example, we do not share your name, email address or other address, and\
+      \ any other information when you contact us for support or provide feedback.\_\
+      We also do not let third parties collect any information, such as your name,\
+      \ postal address, zip code, country of origin, and email"
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_ZIP_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 31
+  segment_text: No server (which may be hosted by a third party service provider)
+    collects information from you, such as your browser type, device type, operating
+    system, application software, Internet Protocol (IP) address (a number that is
+    automatically assigned to your computer when you use the Internet, which may vary
+    from session to session), MAC address, Open Device Identification Number (ODIN),
+    domain name, date/time stamps for your use of the App, nor your DID.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No server (which may be hosted by a third party service provider)
+      collects information from you, such as your browser type, device type, operating
+      system, application software, Internet Protocol (IP) address (a number that
+      is automatically assigned to your computer when you use the Internet, which
+      may vary from session to session), MAC address, Open Device Identification Number
+      (ODIN), domain name, date/time stamps for your use of the App, nor your DID.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 32
+  segment_text: Our Apps do not automatically receive age information, including date
+    of birth, from the platform provider or which is associated with your DID.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our Apps do not automatically receive age information, including
+      date of birth, from the platform provider or which is associated with your DID.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: NOT_PERFORMED

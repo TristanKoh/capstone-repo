@@ -1,0 +1,327 @@
+policy_id: 347
+policy_name: YouVersion
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Videos Sign in Sign up
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Home Read Plans Videos More Sign in Sign up YouVersion Privacy Policy
+    Last revised on 7/16/2012 YouVersion, a Website and Application owned and operated
+    by Life.Church, knows you care how information about you is used and shared. We
+    hope the following statements will help you understand how YouVersion will collect,
+    use and protect the information you provide to us on our site or app.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: What we collect and how we use it Information you provide When you
+    sign up for a YouVersion account, or another Life.Church service or promotion
+    that requires registration, we ask you for personal information (such as your
+    name, email address and an account password). We may combine the information you
+    submit under your account, with information from other Life.Church services or
+    third parties to provide you with a better experience and to improve the quality
+    of our services. For certain services, we may allow you to opt out of combining
+    such information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you sign up for a YouVersion account, or another Life.Church
+      service or promotion that requires registration, we ask you for personal information
+      (such as your name, email address and an account password).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Unique Device ID and GPS location When you access the YouVersion Bible
+    Application, we may collect your Unique Device ID ('UDID') and/or IP address and/or
+    GPS location. We use this information to provide a tailored experience for you.
+    The information is collected in order to determine the aggregate number of unique
+    devices using our service or parts of our service, to track total usage, analyze
+    data, and communicate with you more effectively. We may combine this information
+    with information from third parties to provide you with a better experience and
+    to improve the quality of our service. We do not share any personally identifiable
+    information with third parties in association with your UDID or GPS location without
+    your explicit permission.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you access the YouVersion Bible Application, we may collect
+      your Unique Device ID ('UDID') and/or IP address and/or GPS location.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Life.Church cookies When you visit www.bible.com, we may send one
+    or more cookies to your computer, so that we may uniquely identify your browser.
+    (A cookie is simply a tiny text file containing a string of characters.) Accepting
+    our cookies allows you to keep your user preferences from session to session.
+    Although most browsers accept cookies by default, you can set your browser to
+    refuse all cookies, or to tell you when you're being sent a cookie. Some YouVersion
+    features and services may not function properly if you have cookies disabled.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: (A cookie is simply a tiny text file containing a string of characters.)
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Accepting our cookies allows you to keep your user preferences
+      from session to session.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Although most browsers accept cookies by default, you can set your
+      browser to refuse all cookies, or to tell you when you're being sent a cookie.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Life.Church cookies When you visit www.bible.com, we may send one
+      or more cookies to your computer, so that we may uniquely identify your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Some YouVersion features and services may not function properly
+      if you have cookies disabled.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Log information When you use YouVersion, our servers automatically
+    record information that your browser sends when you visit one of our websites.
+    These server logs may include information such as your web request, Internet Protocol
+    address, browser type, browser language, the date and time of your request, and
+    one or more cookies that may uniquely identify your browser.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These server logs may include information such as your web request,
+      Internet Protocol address, browser type, browser language, the date and time
+      of your request, and one or more cookies that may uniquely identify your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use YouVersion, our servers automatically record information
+      that your browser sends when you visit one of our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: User communications Personal information or requests that you submit
+    via www.bible.com/live will be sent to the group administrator. The group administrator
+    and/or one of their members will have access to this information. When you send
+    email or other communication to any Life.Church owned website, we may retain those
+    communications to process your inquiries, respond to your requests and improve
+    our services.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Third party sites This Privacy Policy applies only to sites and apps
+    that are owned and operated by Life.Church. Life.Church cannot regulate other
+    sites linked from within our various web sites and services. These other sites
+    may place their own cookies or other files on your computer, collect data or solicit
+    personal information from you. You should familiarize yourself with their unique
+    Privacy Policies, should you choose to visit their sites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Life.Church cannot regulate other sites linked from within our
+      various web sites and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These other sites may place their own cookies or other files on
+      your computer, collect data or solicit personal information from you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third party sites This Privacy Policy applies only to sites and
+      apps that are owned and operated by Life.Church.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You should familiarize yourself with their unique Privacy Policies,
+      should you choose to visit their sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: How do we use your information? When you sign up for a particular
+    service that requires registration, we ask you to provide personal information.
+    If Life.Church would like to use this information in a manner different than the
+    purpose for which it was collected, then we will ask for your consent prior to
+    such use. You may decline to submit personal information to any of our services,
+    in which case we may not be able to provide those services to you.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: How do we protect your information? Life.Church does not share your
+    personal information with other institutions outside of Life.Church without your
+    explicit consent. Life.Church may share your personal information only if it has
+    a good faith belief that access, use, preservation or disclosure of such information
+    is reasonably necessary to (a) satisfy any applicable law, regulation, legal process
+    or enforceable governmental request, (b) enforce applicable Terms Of Use, including
+    investigation of potential violations thereof, (c) detect, prevent, or otherwise
+    address fraud, security or technical issues, or (d) protect against imminent harm
+    to the rights, property or safety of Life.Church, its users or the public as required
+    or permitted by law. Life.Church takes appropriate security measures to protect
+    against unauthorized access to or unauthorized alteration, disclosure or destruction
+    of data. including internal reviews of our data collection, storage and processing
+    practices and security measures, as well as physical security measures to guard
+    against unauthorized access to systems where we store personal data. Unless explicit
+    permission is obtained from you, Life.Church restricts access to personal information
+    to its employees, contractors and agents who need to know that information to
+    operate, develop or improve our services. These individuals are bound by confidentiality
+    obligations and may be subject to discipline, including termination and criminal
+    prosecution, if they fail to meet these obligations.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Data Integrity Life.Church reviews our data collection, storage and
+    processing practices to ensure that we only collect, store and process the personal
+    information needed to provide or improve our services. We take reasonable steps
+    to ensure that the personal information we process is accurate, complete, and
+    current, but we depend on our users to update or correct their personal information
+    whenever necessary.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Accessing and updating personal information When you use any Life.Church
+    service, we make good faith efforts to provide you with access to your personal
+    information and either to correct this data if it is inaccurate or to delete such
+    data at your request if it is not otherwise required to be retained by law or
+    for legitimate service purposes. We ask individual users to identify themselves
+    and the information requested to be accessed, corrected or removed before processing
+    such requests, and we may decline to process requests that are unreasonably repetitive
+    or systematic, require disproportionate technical effort, jeopardize the privacy
+    of others, or would be extremely impractical (for instance, requests concerning
+    information residing on backup tapes), or for which access is not otherwise required.
+    In any case where we provide information access and correction, we perform this
+    service free of charge, except if doing so would require a disproportionate effort.
+    Some of our services have different procedures to access, correct or delete users'
+    personal information.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Enforcement Life.Church periodically reviews its compliance with this
+    Privacy Policy. When we receive formal written complaints regarding privacy issues,
+    it is our policy to contact the complaining user regarding his or her concerns.
+    We will cooperate with the appropriate regulatory authorities, including local
+    data protection authorities, to resolve any complaints regarding the transfer
+    of personal data that cannot be resolved between Life.Church and an individual.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Questions Any questions about the privacy policy can be directed
+    to: legal@youversion.com MOBILE APPS LANGUAGE'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: "Choose Your Language: English Afrikaans Bahasa Indonesia Bahasa Melayu\
+    \ British English Catal\xE0 Cymraeg Dansk Deutsch English Espa\xF1ol (Espa\xF1\
+    a) Espa\xF1ol (Latinoam\xE9rica) Filipino Fran\xE7ais Hrvatski Italiano Kiswahili\
+    \ Latvie\u0161u Magyar Nederlands Norsk Polski Portugu\xEAs (Brasil) Portugu\xEA\
+    s (Portugal) Rom\xE2n\u0103 Shqip Sloven\u010Dina Suomi Svenska Ti\u1EBFng Vi\u1EC7\
+    t T\xFCrk\xE7e \u010Ce\u0161tina (Czech) \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\
+    \u03AC (Greek) \u0411\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438 (Bulgarian)\
+    \ \u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438 (Macedonian) \u041C\
+    \u043E\u043D\u0433\u043E\u043B (Mongolian) \u0420\u0443\u0441\u0441\u043A\u0438\
+    \u0439 (Russian) \u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430\
+    \ (Ukrainian) \u0627\u0644\u0639\u0631\u0628\u064A\u0629 (Arabic) \u0641\u0627\
+    \u0631\u0633\u06CC (Farsi) \u0939\u093F\u0928\u094D\u0926\u0940 (Hindi) \u0BA4\
+    \u0BAE\u0BBF\u0BB4\u0BCD (Tamil) \u0E20\u0E32\u0E29\u0E32\u0E44\u0E17\u0E22 (Thai)\
+    \ \u1019\u103C\u1014\u103A\u1019\u102C (Myanmar Burmese) \u1797\u17B6\u179F\u17B6\
+    \u200B\u1781\u17D2\u1798\u17C2\u179A (Khmer) \u65E5\u672C\u8A9E (Japanese) \u7B80\
+    \u4F53\u4E2D\u6587 (Simplified Chinese) \u7E41\u9AD4\u4E2D\u6587 (Traditional\
+    \ Chinese) \uD55C\uAD6D\uC5B4 (Korean) MORE Versions Languages Help Events Blog\
+    \ Donate Facebook Twitter Instagram Pinterest YouTube About Jobs Volunteer Press\
+    \ Privacy Policy Terms"
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: sm <640 phone md 641 < 1024 tablet lg 1025 < 1440 desktop x-lg 1440
+    < 1920 x-large xx-lg > 1920 xx-large
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: No Unique Device ID ('UDID') or IP address or GPS location are collected
+    by our app.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No Unique Device ID ('UDID') or IP address or GPS location are
+      collected by our app.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 17
+  segment_text: When you sign up for a YouVersion account, or another Life.Church
+    service or promotion that requires registration, we do not ask you for personal
+    information (such as your name, email address or account password).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you sign up for a YouVersion account, or another Life.Church
+      service or promotion that requires registration, we do not ask you for personal
+      information (such as your name, email address or account password).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 18
+  segment_text: We don't share any personally identifiable information with social
+    media companies, such as Facebook, in association with your UDID or GPS location.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We don't share any personally identifiable information with social
+      media companies, such as Facebook, in association with your UDID or GPS location.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED

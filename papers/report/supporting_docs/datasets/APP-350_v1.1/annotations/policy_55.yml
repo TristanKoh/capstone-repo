@@ -1,0 +1,520 @@
+policy_id: 55
+policy_name: imo
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy Last updated: February 2, 2016 Welcome to imo! imo
+    makes communication easier between you and the people you care about. imo messaging,
+    voice and video chat make it fast and easy to share experiences with your family
+    and friends, wherever they are.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: imo takes your privacy seriously, and we are committed to maintaining
+    the privacy of the personal information that you provide to us. By using imo you
+    acknowledge that the terms and conditions in this Privacy Policy will apply to
+    you, as well as to any information that you give us. Please take the time to read
+    through this Privacy Policy to get acquainted with our practices.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We sometimes use capitalized terms in this Privacy Policy; if they're
+    not defined here, they're defined in our Terms of Service. PageBites, Inc. is
+    the legal name for imo, however, we will use imo throughout this Privacy Policy
+    when referring to the imo service and Mobile Applications (the "Service") that
+    we provide on the web at www.imo.im and on various mobile operating systems.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1. Information We Collect, and How We Use It.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'We collect different types of information through the Service, including:
+    information that you provide us directly; information about you that we automatically
+    collect from log data, IP addresses, and aggregated user data; cookies; information
+    that you give us about your friends; and your chat histories. We may use this
+    information in different ways.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We collect different types of information through the Service,
+      including:'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: information about you that we automatically collect from log data,
+      IP addresses, and aggregated user data; cookies; information that you give us
+      about your friends; and your chat histories.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: A. Information that you provide us directly What is it? Information
+    you give us when you register an account with the Service (this might include
+    your first and last name, username, phone number, email address, password, date
+    of birth/age, and other personal information); Information that you post on your
+    imo user profile (this might include profile pictures, location, bio, and other
+    information); All other content that you post/share on any part of the Service
+    (this might include photos, videos, and any other content that you post, or associate
+    with your account); Information you give us during any communications you have
+    with us (this might include information you give us in emails you send us, chats
+    you have with us, anything you send us in the mail, and any other information
+    you might send us); Interactions that you have with other users or content on
+    the Service; and When you give us authorization, contact information of your friends
+    from your mobile or tablet devices to connect your contacts and address book information
+    with your imo account.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information you give us when you register an account with the Service
+      (this might include your first and last name, username, phone number, email
+      address, password, date of birth/age, and other personal information); Information
+      that you post on your imo user profile (this might include profile pictures,
+      location, bio, and other information);
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: When you give us authorization, contact information of your friends
+      from your mobile or tablet devices to connect your contacts and address book
+      information with your imo account.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: How do we use it? To enable you to access and use the Service;
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: To list your profile in the imo directory of users so that other imo
+    users can find you. Please note the information you list about yourself in your
+    profile will be viewable to other imo users; To enforce our Terms of Service;
+    To respond to your comments and questions; To customize your experience, to test
+    and introduce new features and products, and to improve and monitor the effectiveness
+    of our Service; To carry out contests, surveys, evaluations, and other events
+    or activities that you choose to participate in; For any other purposes that we
+    specifically communicate to you when we collect that information; To communicate
+    with you regarding your use of the Service, and to advise you of changes to the
+    Service; To find and connect you with your friends and contacts who are imo users
+    and to find and invite your contacts to connect with you on imo; and
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: To use your email address or other contact information to send you
+    articles, news, updates, newsletters, marketing materials, or any other information
+    related to the Service. You can opt out from receiving certain notifications by
+    following the instructions in each email or communication from imo to "unsubscribe."
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To use your email address or other contact information to send
+      you articles, news, updates, newsletters, marketing materials, or any other
+      information related to the Service.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Other things you should know: We may remove, at our sole discretion,
+    any information that you provide when you register for or use the Service (such
+    as usernames, profile pictures, names, etc.), if we believe it is inappropriate
+    or violates any of the policies posted on our Policies page at www.imo.im/policies,
+    including, but not limited to, our Terms of Service.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 'B. Information that we automatically collect: What is it? We automatically
+    collect information about your computer, mobile device, tablet, and other devices
+    when you use our Service. Among other things, we collect session data, IP addresses,
+    web browser software information, and mobile device identifiers such as your device''s
+    UDID. We may also collect and/or aggregate information about your online activities,
+    including but not limited to, content you view, demographic patterns, elements
+    of the Service that you use, and pages you visit.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Among other things, we collect session data, IP addresses, web
+      browser software information, and mobile device identifiers such as your device's
+      UDID.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect and/or aggregate information about your online
+      activities, including but not limited to, content you view, demographic patterns,
+      elements of the Service that you use, and pages you visit.
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: How do we use it? We may analyze, evaluate, and/or aggregate this
+    information to help us understand your interests and the interests of our other
+    users, to analyze trends, to optimize your user experience and improve the Service.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'Other things you should know: We may share aggregated information
+    about the Service and our users, without seeking additional consent, with third
+    parties (including, without limitation, advertisers, media, and actual or potential
+    partners or investors) for informational, marketing, and/or promotional purposes.
+    If we do share that information, we will only share it on an aggregated basis
+    and in a manner that does not reveal any personally identifiable information about
+    any individual user.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: C. Cookies and other technologies What are they? "Cookies" and similar
+    technologies, such as web beacons and locally stored objects, are small data files
+    that we transfer to your computer that collect information such as the pages visited,
+    the date and the time of a visit and other information about your use of the Services.
+    Cookies in and of themselves don't personally identify you, although they do identify
+    your computer, your accounts, your browser, and your session.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Cookies" and similar technologies, such as web beacons and locally
+      stored objects, are small data files that we transfer to your computer that
+      collect information such as the pages visited, the date and the time of a visit
+      and other information about your use of the Services.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: C. Cookies and other technologies What are they?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies in and of themselves don't personally identify you, although
+      they do identify your computer, your accounts, your browser, and your session.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: How do we use them? To optimize your experience of the Service, such
+    as allowing you to log in to the Service on your computer without re-entering
+    your password each time you visit the Service; To deliver faster and more consistent
+    Service; To help us better understand how you interact with the Service; and To
+    measure the effectiveness of the Service, its features, offerings, advertisements,
+    and other communications.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'Other things you should know: Third party advertisers on the Service
+    can place or read cookies on your browser. You can change your browser''s options
+    to stop accepting cookies, or to prompt you before you accept a cookie on a website
+    that you visit; however, you should know that if you don''t accept cookies, you
+    might not be able to use all the features of our Service.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Other things you should know: Third party advertisers on the Service
+      can place or read cookies on your browser.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can change your browser's options to stop accepting cookies,
+      or to prompt you before you accept a cookie on a website that you visit; however,
+      you should know that if you don't accept cookies, you might not be able to use
+      all the features of our Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: D. Information you give us about your friends What is it? If you choose
+    to use the Service to tell a friend about us, we will ask you for and store your
+    friend's email address and/or phone number. We also might ask you to access your
+    phonebook, Facebook, Twitter, Google+, or other social media sites contacts for
+    this purpose.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: D. Information you give us about your friends What is it?
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: If you choose to use the Service to tell a friend about us, we
+      will ask you for and store your friend's email address and/or phone number.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: We also might ask you to access your phonebook, Facebook, Twitter,
+      Google+, or other social media sites contacts for this purpose.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: How do we use it? If you choose to use the Service to invite one of
+    your contacts to use the Service, we will send your friend an email or SMS inviting
+    them to visit the Service. We use this information solely to send these emails
+    or SMS messages, to help your friends register with the Service, and to track
+    the success of our invitation program. Your friend can contact us at privacy@imo.im
+    anytime to ask us to remove this information from our database.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose to use the Service to invite one of your contacts
+      to use the Service, we will send your friend an email or SMS inviting them to
+      visit the Service.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use this information solely to send these emails or SMS messages,
+      to help your friends register with the Service, and to track the success of
+      our invitation program.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Your friend can contact us at privacy@imo.im anytime to ask us
+      to remove this information from our database.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: E. Location Information What is it? When you use our Mobile App, we
+    may collect and store information about your location by converting your IP address
+    into a rough geo-location or by accessing your mobile device's GPS coordinates
+    or coarse location if you enable location services on your device.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use our Mobile App, we may collect and store information
+      about your location by converting your IP address into a rough geo-location
+      or by accessing your mobile device's GPS coordinates or coarse location if you
+      enable location services on your device.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: How do we use it? To improve and personalize our Services, including,
+    without limitation, to identify nearby Business Users with whom users can communicate.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: F. Your Chat History What is it? We will collect, save and store all
+    information contained in your imo chat history. You can permanently delete your
+    imo chat history at anytime.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: How do we use it? To allow you to access and search your chat history
+    for your own purposes.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: If you are a Business User or if you communicate with a Business User,
+    we may, review, scan, or analyze any communications via the Services involving
+    a Business User for fraud prevention, risk assessment, and customer support purposes.
+    We will not review, scan, or analyze your communications for sending third party
+    marketing messages to you. We will also not sell these reviews or analyses of
+    communications to third parties. We will also use automated methods to carry out
+    these reviews or analyses where reasonably possible. However, from time to time
+    we may have to manually review some communications.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: To collect aggregated data from your chat history. We use the data
+    to build language models which help us improve the Service. We will only collect
+    this data on an aggregated basis, and in a manner which does not reveal any personally
+    identifiable information about any individual user. We will use this data to help
+    us understand our users' interests, analyze trends, and customize the user experience.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 2. Sharing Your Information.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'In addition to using your information for the purposes described
+    above, we may share your information with parties other than imo or its users
+    (the "Third Parties"). In some cases we may request your permission before we
+    share that information, but we reserve the right to share your information with
+    Third Parties without prior notification or without soliciting additional permission:
+    We discuss below situations where we may share your information without requesting
+    your further permission: We share certain information about you (including information
+    which could be used to personally identify you) with the companies we engage to
+    facilitate our Service, perform Service-related functions, and/or provide the
+    Service on our behalf, such as Internet Service Providers and hosting service
+    providers. We require these companies to maintain your information in confidence,
+    and they are prohibited from using your information in any way other than performing
+    services for or on behalf of imo. We may disclose your information (including
+    information which could be used to personally identify you) when we have a good
+    faith belief that disclosure is necessary: (i) to respond to subpoenas, court
+    orders, or other compulsory legal process; (ii) to protect our property rights
+    and investigate and defend against legal claims (iii) to enforce or apply our
+    Privacy Policy, our Terms of Service or our other policies or agreements; (iv)
+    when we believe disclosure is necessary to protect others from death or serious
+    bodily injury; and (v) as otherwise required by law. Transfer your information
+    in the event that imo is involved in a merger, acquisition, divestiture, consolidation,
+    reorganization, asset sale, or bankruptcy.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 3. Controlling Your Information.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: A. Posting in Chat Groups When you post or make content available
+    in Chat Groups, that content will be visible to everyone who is a member of that
+    Chat Group.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: B. Communicating with Business Users When you communicate with or
+    make content available to a Business User that content is provided directly to
+    the Business User and is subject to the Business User's privacy or security practices
+    and policies.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: C. Accessing and Changing your Account Information; Deleting your
+    Account You can edit, update, or delete your account at any time.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: If you delete your account, you won't be able to sign in, use the
+    Service, or access any of your information. If you delete your account, we may
+    retain certain information associated with your account, for analytical purposes
+    and recordkeeping. If you delete your account with us, please be aware that we
+    may retain any content you have previously posted on the Service, including, without
+    limitation, any other data or posted content.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: D. Opting out of Receiving Communications You can opt out of receiving
+    communications from us by clicking the "unsubscribe" link (or similarly labeled
+    link) at the bottom of a particular communication. Note that you won't be able
+    to opt out of service-related communications like service announcements, administrative
+    notices, and the like.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 4. Security Your account, registration information, and password are
+    protected so that only you (or any third parties that you allow to access your
+    login credentials) can access your account. All personally identifiable information
+    that we collect about you is stored in limited-access servers. The Service has
+    technical, administrative, and physical security measures in place to protect
+    against the loss, misuse and alteration of the information which is under our
+    control. While we are committed to implementing reasonable and appropriate safeguards
+    to protect your information against foreseeable risks, no computer system or information
+    can ever be fully protected against any possible risk, and we cannot guarantee
+    that unauthorized third parties will not be able to circumvent those safeguards,
+    or access and/or use your personal information for improper purposes.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 5. International Transfer imo is a U.S. company and stores its data
+    in the United States. This data is subject to U.S. laws. Thus, your information
+    may be transferred to - and maintained on - computers located outside of your
+    state, province, country, or other governmental jurisdiction where the privacy
+    laws may not be as protective as those in your jurisdiction. If you are located
+    outside the United States and choose to provide information to us, imo transfers
+    that information to the United States and processes it there. By using the Service,
+    you understand and consent that your information may be transferred to our facilities
+    and those third parties with whom we share it as described in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 6. Changes to our Privacy Policy We may modify our Privacy Policy
+    from time to time. When we make changes, we will notify you by making the revised
+    version available on this webpage, and will indicate at the top the date of the
+    latest revision. You should check this Privacy Policy on a regular basis, since
+    revised versions will be binding on you. Any such modifications will be effective
+    when we post the updated Privacy Policy. You understand and agree that your continued
+    access to our Service after any posted modification to the Privacy Policy indicates
+    your acceptance of those modifications.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: '7. Contact Us If you have any questions about this Privacy Policy,
+    please contact us online at privacy@imo.im, or by mail at: Pagebites, Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 555 Bryant St.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: P.O. Box 819 Palo Alto, CA 94301 United States
+  annotations: []
+  sentences: []

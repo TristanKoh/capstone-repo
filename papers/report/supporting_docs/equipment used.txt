@@ -1,0 +1,1 @@
+Python 3.7.5 was used to run all the analysis and produce the visualisations. The dependencies are in the requirements.txt file.

@@ -1,0 +1,407 @@
+policy_id: 259
+policy_name: LINECamera
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Japan Privacy Policy NAVER Japan Privacy Center Glossary Privacy Policy
+    Our Effort to Protect Your Privacy Personal Information Protection Policies for
+    Respective Services Policy for Personal Information Protection
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy We, at the LINE Corporation (hereinafter referred to
+    as the 'Company') handle all personal information in relation to the services
+    offered under NAVER as follows.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Scope of Application This Privacy Policy applies to all of NAVER's
+    services (hereinafter referred to as the 'Service' or 'Services' depending upon
+    context). For some of the Services requiring the collection of user information,
+    the Company will provide further details of its privacy protection in a separate
+    document entitled, 'Personal Information Protection Policies for Respective Services'.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: If there are any discrepancies between the 'Privacy Policy for Respective
+    Services' and this Privacy Policy, the 'Privacy Policy for Respective Services'
+    shall take precedence. This Privacy Policy does not apply to collections of personal
+    information by third parties such as those of websites linked to the Services.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Collection and Use of Information The Company will collect and use
+    the following information within its Services.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Registration Information The Company will collect the user's information
+    including email address, user name, and password. The user's password is encoded
+    in a manner that makes it impossible to decode, and is securely managed. Email
+    addresses will be used to send newsletters to those users who want to subscribe
+    to Company newsletters, or when sending notices concerning other services. The
+    Company may collect the user's real name, physical address, phone number etc.,
+    in order to courier gifts etc., to users.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The Company may collect the user's real name, physical address,
+      phone number etc., in order to courier gifts etc., to users.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: The Company will collect the user's information including email
+      address, user name, and password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Cookies Cookies are used to improve user convenience such as filling
+    in email addresses automatically upon login, and for security purposes such as
+    maintaining and protecting a session. Furthermore, the Service also uses Behavioral
+    Targeting Advertising as an efficient and effective way to deliver advertisements
+    of companies which are in cooperation with the Company. Information, guidelines
+    and procedures regarding Behavioral Targeting Advertising systems and the way
+    cookies are used by the advertising companies are available. A full listing is
+    available here.(Japanese Only)
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: (Japanese Only)
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: A full listing is available here.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies Cookies are used to improve user convenience such as filling
+      in email addresses automatically upon login, and for security purposes such
+      as maintaining and protecting a session.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Furthermore, the Service also uses Behavioral Targeting Advertising
+      as an efficient and effective way to deliver advertisements of companies which
+      are in cooperation with the Company.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Information, guidelines and procedures regarding Behavioral Targeting
+      Advertising systems and the way cookies are used by the advertising companies
+      are available.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Logs Logs are created automatically when a user visits NAVER's web
+    page and information such as IP address, browser type, and browser language are
+    stored. Such information will be used to analyze user environment, thereby enabling
+    the Company to provide a better service and prevent fraudulent acts that lead
+    to obstruction of normal services. Search records will be stored and managed in
+    a manner so that individuals cannot be identified and this information will be
+    used to aggregate statistical data.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Logs are created automatically when a user visits NAVER's web page
+      and information such as IP address, browser type, and browser language are stored.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Help The help function collects the user's email address, real name,
+    user name, PC hardware information etc. Such information may be utilized for investigating
+    and answering user inquiries, and to confirm the identity of the user.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The help function collects the user's email address, real name,
+      user name, PC hardware information etc.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Location Information Some of the Services may use location information
+    transmitted from users' mobile phones/devices. The Company only uses such information
+    within the scope that is necessary in order to provide the designated service.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some of the Services may use location information transmitted from
+      users' mobile phones/devices.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Device Information There may be times where the serial numbers etc.,
+    of devices are collected. Such information will be utilized for the provision
+    of a better service and to prevent fraudulent acts that may lead to the obstruction
+    of normal services.
+  annotations:
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: There may be times where the serial numbers etc., of devices are
+      collected.
+    annotations:
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Furthermore, such information will not include any information which
+    will identify the individual user.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'Purpose of Information The Company will use the information collected
+    for the following purposes: to enable the user to utilize the Services smoothly
+    and without difficulty to aggregate statistical data regarding the use of the
+    Services to conduct research aimed at reviewing and improving Services to respond
+    to user inquiries to provide information regarding the Service etc., as well as
+    advertising information from our partner businesses to provide new proposals regarding
+    future Services to draw winners for promotional events and courier gifts etc.,
+    to those winners to perform identity checks when a user makes an inquiry etc.
+    to notify users of any other important information regarding the Service and to
+    contact users where necessary'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'Provision of Information The company will never provide user information
+    to any third parties expect under the following circumstances: when the user personally
+    agrees to such provisions in advance when the law requires the Company to do so
+    when the Company finds sufficient enough reasons to believe that the user is violating
+    the Terms of Service and the Company is forced to disclose the user''s personal
+    information in order to protect the Company''s rights, properties, and/or services
+    when it is necessary for the protection of a person''s life, body, or property,
+    and at such a time, when obtaining the user''s prior consent is difficult when
+    it is especially necessary for the improvement of public health or to promote
+    the sound growth of children, and at such a time, when obtaining the user''s prior
+    consent is difficult when the Company is required to cooperate with a state institution,
+    a local government, or an individual or a business operator entrusted by one in
+    executing the affairs prescribed by laws and regulations, and at such a time,
+    when obtaining the users prior consent could impede the aims of the authorities
+    in circumstances where the user''s personal information is revealed as a result
+    of the succession of the Company''s business in a merger, demerger, or business
+    transfer, etc.'
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Information Delegation The Company may entrust, to the extent the
+    Company considers necessary to achieve the intended purpose concerning the use
+    of Services, the handling of personal information collected from users, in whole
+    or in part, to a trustee. In such circumstances, the Company will adequately assess
+    the eligibility of the trustee, impose a confidentiality agreement upon the trustee,
+    and establish an appropriate information administration system.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Shared Use of Information The Company may share the user's personal
+    information with a business partner, when a business partner's cooperation is
+    needed in order to keep providing the Services to the user. In such circumstances,
+    the Company will inform the user regarding the purpose of information sharing,
+    the name of the business partner and information manager, and the type of shared
+    information before sharing the user's personal information with such a business
+    partner.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'User Rights Users may, at any time, confirm or correct their registered
+    personal information such as email address and/or password on the Service website.
+    Users can also delete their accounts.<> Users may, through the procedures determined
+    by the Company, send the Company a request for the disclosure of personal information
+    which the users cannot confirm/access via the Service website. The Company, in
+    turn shall disclose such information except under the following conditions: when
+    the disclosure is likely to harm the life, body, property or other rights or interests
+    of the user or any other third party when the disclosure is likely to severely
+    interfere with the Company''s proper operations when disclosure itself would constitute
+    a violation of laws and/or regulations when the Company is unable to verify the
+    user''s ownership of the personal information requested for disclosure.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The Company, in turn shall disclose such information except under
+      the following conditions: when the disclosure is likely to harm the life, body,
+      property or other rights or interests of the user or any other third party when
+      the disclosure is likely to severely interfere with the Company''s proper operations
+      when disclosure itself would constitute a violation of laws and/or regulations
+      when the Company is unable to verify the user''s ownership of the personal information
+      requested for disclosure.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: User Rights Users may, at any time, confirm or correct their registered
+      personal information such as email address and/or password on the Service website.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: Users can also delete their accounts.<> Users may, through the
+      procedures determined by the Company, send the Company a request for the disclosure
+      of personal information which the users cannot confirm/access via the Service
+      website.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: After the disclosure, users may, through the procedures determined
+    by the Company, send the Company a request to correct, add or delete the user's
+    personal information, if the users find personal information registered with the
+    Company to be incorrect. Under such circumstances, the Company shall swiftly investigate
+    the request to achieve the desired user intention and correct, add or delete the
+    personal information on the basis of the Company's findings.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: When users request the disclosure by the Company of their personal
+    information that is unable to be confirmed/accessed though the Service website,
+    the Company may charge users a certain fee for the disclosure procedures. The
+    users can choose freely whether or not they will provide the Company with their
+    personal information, however the users may be unable to use a part of the Service
+    until they have provided the Company with the necessary information.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Withdrawal from the Services Upon withdrawing from the Company's Services,
+    when a user account is deleted, all user information will be disposed of in the
+    correct manner in accordance with the law and Company regulations.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Personal Information of Children Users younger than 15 years of age
+    must obtain consent from their parents or legal representatives before they provide
+    any personal information in order to use the Service.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Modifications to this Privacy Policy This Privacy Policy may be revised
+    periodically. Users will be notified of important changes in a recognizable manner.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Inquiries If users have any uncertainty about this Privacy Policy
+    or questions, complaints, or comments on the handling of personal information
+    related to the Services, users are asked to contact us via this form.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: This Privacy Policy was originally produced in Japanese. If there
+    are any discrepancies between this Privacy Policy and the original, the Japanese
+    version shall take precedence.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'This Privacy Policy was created on 5 June 2009 Second revision: November
+    11, 2010 Third revision: June 23, 2011 Forth revision: January 1, 2012 Fifth revision:
+    February 21, 2012 Sixth revision: august 15, 2012 Seventh revision: April 1, 2013
+    Eighth revision:October 4,2013 Back to Top NAVER Link Company Profile About NAVER
+    Terms of Use Privacy Policy Support'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: "\xA9 LINE Corporation"
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: The Services do not use location information transmitted from users'
+    mobile phones/devices.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The Services do not use location information transmitted from users'
+      mobile phones/devices.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 27
+  segment_text: The Company does not collect the user's real name, physical address,
+    phone number etc.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The Company does not collect the user's real name, physical address,
+      phone number etc.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 28
+  segment_text: The serial numbers etc., of devices are not collected.
+  annotations:
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The serial numbers etc., of devices are not collected.
+    annotations:
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 29
+  segment_text: Logs are created automatically when a user visits NAVER's web page,
+    however, information such as IP address, browser type, and browser language are
+    not stored.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Logs are created automatically when a user visits NAVER's web page,
+      however, information such as IP address, browser type, and browser language
+      are not stored.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 30
+  segment_text: The Company will not collect the user's email address, user name,
+    or password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The Company will not collect the user's email address, user name,
+      or password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED

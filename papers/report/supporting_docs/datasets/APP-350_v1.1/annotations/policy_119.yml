@@ -1,0 +1,115 @@
+policy_id: 119
+policy_name: BeautyPlus
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Privacy Policy BeautyPlus knows that you take your right to privacy
+    very seriously, and so do we! We are committed to protecting your privacy. Any
+    information provided to us, including the collection, use, and maintaining of
+    personal information by BeautyPlus, will never be released to others without your
+    prior consent. The information that is collected will be exclusively used to enhance
+    your experience while using BeautyPlus.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Information Gathered When using BeautyPlus, we may utilize the use
+    of cookies to collect general information to enhance your experience. These cookies
+    create a small text file sent by your device each time you visit our webpage.
+    The use of such cookies is to store certain information like language preferences
+    for easier accessibility at next login, speedup login time, and evaluate users
+    overall experience to improve content on our site. You may use BeautyPlus without
+    providing allowing cookies. If you choose not accept cookies, you may not be able
+    to use certain services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you choose not accept cookies, you may not be able to use certain
+      services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Information Gathered When using BeautyPlus, we may utilize the
+      use of cookies to collect general information to enhance your experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The use of such cookies is to store certain information like language
+      preferences for easier accessibility at next login, speedup login time, and
+      evaluate users overall experience to improve content on our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These cookies create a small text file sent by your device each
+      time you visit our webpage.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You may use BeautyPlus without providing allowing cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: Personal Information No one likes a cat burglar; photos uploaded maintain
+    the same copyright as before using BeautyPlus! We do not, and will not store your
+    photos anywhere. BeautyPlus will never use any user's photos unless a user explicitly
+    gives us permission to do so.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: BeautyPlus may save certain information provided on Facebook to be
+    solely used to keep our users informed of updates and new features. This information
+    will not be shared by us with any 3rd parties. Other information such as user
+    names, social networking information, or emails may be saved to follow up on user's
+    requests.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Other information such as user names, social networking information,
+      or emails may be saved to follow up on user's requests.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Policy Updates This policy may change from time to time, but if it
+    does, we will post any changes up on this page. If there are any significant changes,
+    we will provide a more prominent notice on our site.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: If you have any questions or concerns about this Privacy Policy please
+    do not hesitate to contact us.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: "About Terms of Service Privacy Contact Us \xA9 Commsource"
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: BeautyPlus does not provide a Facebook Connect or other social network
+    login.
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: BeautyPlus does not provide a Facebook Connect or other social
+      network login.
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED
+- segment_id: 8
+  segment_text: No social networking information or emails are saved.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No social networking information or emails are saved.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED

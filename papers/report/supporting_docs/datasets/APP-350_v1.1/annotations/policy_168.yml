@@ -1,0 +1,998 @@
+policy_id: 168
+policy_name: com.handmark.expressweather
+policy_type: VALIDATION
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Last Updated September 3, 2015 PRIVACY PRACTICES FOR THE APPLICATION
+    This privacy policy, along with the OneLouder Privacy Policy (available at www.onelouder.com/privacy),
+    governs our data practices in connection with your use of the 1Weather application
+    on your mobile device. 1Weather is created by OneLouder Apps Inc., a subsidiary
+    of Pinsight Media +, Inc. ("OneLouder", "we", "us" or "our"). Pinsight Media +,
+    Inc. is a subsidiary of Sprint Corporation.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: What information does the Application obtain and how is it used?
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: We collect personal information about you in various ways. We may
+    also get information from other sources and may combine it with information we
+    collect about you. Personal information includes information that is used to identify
+    you, and does not include aggregate or anonymous information.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: With your consent, in addition to information collected by the application
+    to provide relevant weather-related information, we also collect certain information
+    from users, including location information, data connection status and success/failure
+    of connection. This information does not identify you personally and may be used
+    to improve our services and for network analysis.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: With your consent, in addition to information collected by the
+      application to provide relevant weather-related information, we also collect
+      certain information from users, including location information, data connection
+      status and success/failure of connection.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'User Provided Information - The Application obtains the information
+    you provide when you download and use the Application. We may ask that you provide:
+    (a) your name, email address, age, user name, password and other registration
+    information; (b) transaction-related information, such as when you make purchases,
+    respond to any offers, or download or use applications from us; (c) information
+    you provide us when you contact us for help; and (d) information you enter into
+    our system when using the Application, such as contact information and project
+    management information. We may also use the information you provided us to contact
+    your from time to time to provide you with important information, required notices
+    and marketing promotions.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may ask that you provide
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: information you enter into our system when using the Application,
+      such as contact information and project management information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: information you provide us when you contact us for help; and
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+  - sentence_text: your name, email address, age, user name, password and other registration
+      information
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+  - sentence_text: your name, email address, age, user name, password and other registration
+      information;
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: 'Automatically Collected Information - In addition, the Application
+    may collect certain information automatically, such as: the type of mobile device
+    you use, mobile device identifiers, such as the resettable advertising identifier
+    assigned to your device,, the IP address of your mobile device, the location of
+    your device, your mobile operating system, Wi-Fi mac address in your area, the
+    type of mobile Internet browsers you use, and information about the way you use
+    the Application. See "Automatic Data Collection and Advertising" section for examples.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Automatically Collected Information - In addition, the Application
+      may collect certain information automatically, such as: the type of mobile device
+      you use, mobile device identifiers, such as the resettable advertising identifier
+      assigned to your device, the IP address of your mobile device, the location
+      of your device, your mobile operating system, Wi-Fi mac address in your area,
+      the type of mobile Internet browsers you use, and information about the way
+      you use the Application.'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Automatically Collected Information - In addition, the Application
+      may collect certain information automatically, such as: the type of mobile device
+      you use, mobile device identifiers, such as the resettable advertising identifier
+      assigned to your device,, the IP address of your mobile device, the location
+      of your device, your mobile operating system, Wi-Fi mac address in your area,
+      the type of mobile Internet browsers you use, and information about the way
+      you use the Application.'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Does the Application collect precise real time location information
+    of the device?
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Yes. This application does collect information about the location
+    of your device. We collect location information using network triangulation, GPS
+    and Wi-Fi IP address to determine your general device location.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This application does collect information about the location of
+      your device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect location information using network triangulation, GPS
+      and Wi-Fi IP address to determine your general device location.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: We use your location information to provide you with weather forecasts
+    and other weather information for your area, nearby weather related tweets from
+    Twitter and pertinent localized advertising to you within the application.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We use your location information to provide you with weather forecasts
+      and other weather information for your area, nearby weather related tweets from
+      Twitter and pertinent localized advertising to you within the application.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: We also may collect location information and other diagnostic information
+    through the Application for network analytics and troubleshooting purposes. This
+    data is not associated with personally identifiable information. We may share
+    this data with service providers and affiliates.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This data is not associated with personally identifiable information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We also may collect location information and other diagnostic information
+      through the Application for network analytics and troubleshooting purposes.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We may share this data with service providers and affiliates.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 'You may at any time opt-out from further allowing the Application
+    to have access to your location data by: deactivating Location in Settings on
+    your Android device. deleting the application from your device.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'You may at any time opt-out from further allowing the Application
+      to have access to your location data by: deactivating Location in Settings on
+      your Android device.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: deleting the application from your device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Do third parties see and/or have access to information obtained by
+    the Application?
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Do third parties see and/or have access to information obtained
+      by the Application?
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: 'Yes. We may share your information with third parties generally in
+    the ways that are described in this privacy statement. We may disclose User Provided
+    and Automatically Collected Information: as required by law, such as to comply
+    with a subpoena, or similar legal process; when we believe in good faith that
+    disclosure is necessary to protect our rights, protect your safety or the safety
+    of others, investigate fraud, or respond to a government request; with our trusted
+    services providers who work on our behalf, do not have an independent use of the
+    information we disclose to them, and have agreed to adhere to the rules set forth
+    in this privacy statement. with third party advertising networks and analytics
+    companies as described below under the Section entitled Automatic Data Collection
+    and Advertising. with affiliated companies.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We may disclose User Provided and Automatically Collected Information:'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may share your information with third parties generally in the
+      ways that are described in this privacy statement.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: with third party advertising networks and analytics companies as
+      described below under the Section entitled Automatic Data Collection and Advertising.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: 'Automatic Data Collection and Advertising We may use tools or third
+    party analytical software to collect and use certain non-personal data that does
+    not enable us to identify you. The types of non-personal data we may collect and
+    use include, but are not limited to: (i) mobile device identifiers, such as the
+    resettable advertising identifier assigned to your device; (ii) mobile device
+    type and device properties; (iii) mobile device software platform and firmware;
+    (iv) mobile phone carrier; (v) geographical data; and (vi) other non-personal
+    data as reasonably required by us to enhance our services.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The types of non-personal data we may collect and use include,
+      but are not limited to:'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may use tools or third party analytical software to collect
+      and use certain non-personal data that does not enable us to identify you.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: geographical data
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: mobile device identifiers, such as the resettable advertising identifier
+      assigned to your device;
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: mobile phone carrier;
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: We reserve the right to use and disclose the collected non-personal
+    data in an anonymized and obfuscated way for purposes of advertisement by us or
+    our partners. We do not pass any personally identifiable information to ad networks
+    or advertisers.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: We may work with analytics companies to help us understand how the
+    Application is being used, such as the frequency and duration of usage. We also
+    work with advertisers and third party advertising companies that collect information
+    about how you interact with advertising and content provided in the Application,
+    which helps us keep the cost of the Application free. Advertisers and advertising
+    companies use some of the information collected by the Application, including
+    the advertising identifier assigned to your mobile device to serve advertisements
+    that are targeted to your interests in the Application. These third parties may
+    also obtain anonymous information about other applications you've downloaded to
+    your mobile device, the mobile websites and applications you visit, and your location
+    in order to help analyze user behavior and serve targeted advertising on the Application
+    and on other applications and websites. To learn how to opt out of the use of
+    information collected from this Application for targeted advertising purposes,
+    please see the "Managing Your Informatin" section of this policy. If you have
+    allowed us to collect information about your location, we may share it with our
+    ad network partners in order to tailor the ads we display. The paid "Pro" versions
+    of this app do not contain advertising and will not use your data in this way.
+    The advertising SDK (software development kit) will still collect the information
+    but will not use it to serve you targeted advertisements. If you have questions
+    or concerns about this, please contact privacy@onelouder.com.
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertisers and advertising companies use some of the information
+      collected by the Application, including the advertising identifier assigned
+      to your mobile device to serve advertisements that are targeted to your interests
+      in the Application.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: If you have allowed us to collect information about your location,
+      we may share it with our ad network partners in order to tailor the ads we display.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: The advertising SDK (software development kit) will still collect
+      the information but will not use it to serve you targeted advertisements.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: The paid "Pro" versions of this app do not contain advertising
+      and will not use your data in this way.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: These third parties may also obtain anonymous information about
+      other applications you've downloaded to your mobile device, the mobile websites
+      and applications you visit, and your location in order to help analyze user
+      behavior and serve targeted advertising on the Application and on other applications
+      and websites.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: If you'd like to opt-out from third party use of this type of information
+    to help serve targeted advertising, please visit the section entitled "Managing
+    Your Information" below.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Managing Your Information You may at any time opt-out from further
+    allowing us to have access to your location data by; deactivating Location in
+    Settings on your Android device
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Managing Your Information You may at any time opt-out from further
+      allowing us to have access to your location data by; deactivating Location in
+      Settings on your Android devic
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: You can stop all collection of information by the Application easily
+    by uninstalling the Application. You may use the standard uninstall processes
+    as may be available as part of your mobile device or via the mobile application
+    marketplace or network.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: In the event you have uninstalled the Application and want us to stop
+    using your User Provided Information, please submit a thorough description at
+    privacy@onelouder.com and we will respond to your request in a reasonable period
+    of time. We only retain User Provided Information as described in our Retention
+    Policy below.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: To opt out of the use of information collected by our advertising
+    partners across different applications to serve ads that are targeted to your
+    interests, please consult the settings available on your device ("Opt out of interest-based
+    ads" on your Android device or "Limit Ad Tracking" on your iPhone or iPad). To
+    learn more about interest-based advertising based on web browsing activity and
+    to opt out of advertising based on your web browsing activities by companies that
+    participate in the Digital Advertising Alliance, please visit aboutads.info.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Business Transfers Personal information about you may be disclosed
+    as part of any merger, acquisition, or sale of company assets. In the unlikely
+    event of an insolvency, bankruptcy or receivership, personal information may also
+    be transferred as a business asset.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Children We do not use the Application to knowingly solicit data from
+    or market to children under the age of 13. If a parent or guardian becomes aware
+    that his or her child has provided us with information without their consent,
+    he or she should contact us at privacy@onelouder.com. We will delete such information
+    from our files within a reasonable time.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Security We are concerned about safeguarding the confidentiality of
+    your personal information. We provide physical, electronic, and procedural safeguards
+    to protect information we process and maintain. For example, we limit access to
+    this information to authorized employees and contractors who need to know that
+    information in order to operate, develop or improve our Application. Please be
+    aware that, although we endeavor to provide reasonable security for personal information
+    we process and maintain, no security system can prevent all potential security
+    breaches.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Data Retention Policy We will retain User Provided data for as long
+    as you use the Application and for a reasonable time thereafter. We will retain
+    Automatically Collected information for up to 12 months and thereafter may store
+    it in aggregate. If you'd like us to delete User Provided Data that you have provided
+    via the Application, please contact us at privacy@onelouder.com and we will respond
+    in a reasonable time. Please note that some or all of the User Provided Data may
+    be required in order for the Application to function properly.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'Changes This Privacy Policy may be updated from time to time for
+    any reason. We will notify you of any changes to our Privacy Policy by posting
+    the new Privacy Policy here: http://1weatherapp.com/privacy and as applicable,
+    if the application obtains email and/or phone number, informing you via email
+    or text message. You are advised to consult this Privacy Policy regularly for
+    any changes.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Changes This Privacy Policy may be updated from time to time for
+      any reason.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We will notify you of any changes to our Privacy Policy by posting
+      the new Privacy Policy here: http://1weatherapp.com/privacy and as applicable,
+      if the application obtains email and/or phone number, informing you via email
+      or text message.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: You are advised to consult this Privacy Policy regularly for any
+      changes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: Your Consent By using the Services, you are consenting to our processing
+    of User Provided and Automatically Collection information as set forth in this
+    Privacy Policy now and as amended by us. "Processing," means using cookies on
+    a computer/hand held device or using or touching information in any way, including,
+    but not limited to, collecting, storing, deleting, using, combining and disclosing
+    information. If you reside outside the U.S. your information will be transferred
+    to the U.S., and processed and stored there under U.S. privacy standards. By using
+    the Application and providing information to us, you consent to such transfer
+    to, and processing in, the US.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Processing," means using cookies on a computer/hand held device
+      or using or touching information in any way, including, but not limited to,
+      collecting, storing, deleting, using, combining and disclosing information.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 27
+  segment_text: Contact Us - If you have any questions regarding privacy while using
+    the Application, or have questions about our practices, please submit a thorough
+    description at privacy@onelouder.com.
+  annotations: []
+  sentences: []

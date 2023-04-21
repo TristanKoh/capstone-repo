@@ -1,0 +1,365 @@
+policy_id: 34
+policy_name: DoctorWeb
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: '[ERROR] JavaScript support is required for our site to be fully operational
+    in your browser. Home'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: E-licenses Dr.Web Security Space Anti-virus for Windows Dr.Web KATANA
+    Anti-virus for OS X Anti-virus for Linux Mobile protection OEM products Compare
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Anti-virus as a service Subscribe Dr.Web Premium Dr.Web Classic
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Services My Dr.Web Portal Buy online Renew/Upgrade Register Serial
+    number recovery License manager Update Dr.Web anti-virus to version 11.0 Demo
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Dr.Web CureIt! free for home License certificate Business
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Products Dr.Web Enterprise Security Suite Control center Desktop protection
+    Server protection E-mail protection Gateway protection Mobile protection Licensing
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: For IT service providers Dr.Web AV-Desk
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: SMB bundles Dr.Web Universal (5-50 PC) Dr.Web for schools (10-200
+    PC)
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Curing utilities Dr.Web CureNet! Dr.Web CureIt!
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: For banks Dr.Web ATM Shield
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: For equipment manufacturers Dr.Web Mail Security Suite Dr.Web Gateway
+    Security Suite
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "For \u041EEM suppliers Dr.Web \u041E\u0415\u041C Universal Dr.Web\
+    \ \u041E\u0415\u041C Mobile Dr.Web \u041E\u0415\u041C Server"
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Licenses&Certificates Services for users Buy Renew/Upgrade Register
+    Serial number recovery License manager Online license certificate generation service
+    Download
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Ask for free trial For home Dr.Web KATANA For business Protection
+    of mobile devices Dr.Web bundles Curing utilities Dr.Web LiveDemo for business
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Download For home For business
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Free services Dr.Web for Android
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: System administrator emergency kit Curing utilities Dr.Web CureNet!
+    Dr.Web CureIt! Dr.Web LiveDisk
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: LinkChecker for IE for Mozilla for Opera for Safari for Google Chrome
+    Documentation Localizations
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: News Dr.Web products Sign up RSS-feeds eStore
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: For new customers eStore Buy with mobile Buy from partners
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Discounts Migration for business Edu and Health
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: For returning customers Renew license Upgrade license
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Dr.Web AV-Desk Find a provider
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: News Promotions Dr.Web products Sign up RSS-feeds Support
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Support services Submit a request Forums
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Free for Dr.Web customers Registration Restoration of key Serial number
+    recovery Registration email address change "My Dr.Web" log in Get a license certificate
+    Protection for mobiles Dr.Web CureNet! Dr.Web CureIt!
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Free for Dr.Web customers Registration Restoration of key Serial
+      number recovery Registration email address change "My Dr.Web" log in Get a license
+      certificate Protection for mobiles Dr.Web CureNet!
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: Self-support License manager FAQ Upgrade to v.11 Presentations Unlock
+    anti-theft
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Knowledge base Legal section Classification of viruses Types of viruses
+    Phishing
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: AV lab services Decryption (Encoder) Send a file for analysis Report
+    a malicious URL
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Free for all Unlocking of Windows (Winlock) Anti-Flashback Online
+    scanners
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Dr.Web CureIt! (for home) Dr.Web LiveDemo Dr.Web Link Checker Training
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: For users Courses Register for exam
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: For IT specialists and students Courses and certification Register
+    for exam
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: For partners and retailers Courses and certification Register for
+    exam External training cabinet
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: News Sign up RSS-feeds Partners
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Find partner All partners E-stores Locate a distributor
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Partnership offerings For distributors For web site owners
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: Partners area Partner access Restore password
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: Training for partners Courses and certification Register for exam
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: About Doctor Web Company profile Company history They were the pioneers
+    Licenses and certificates Privacy policy
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Contacts Headquarters Regional offices
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Press center Booklets Gallery Infographics
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Buy Buy from partners Anti-virus As a Service Buy online Buy renewal
+    License wizard
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Resources Virus library Virus reviews Dr.Web AV-Desk statistics
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: News On Dr.Web products Sign up RSS feeds
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: Privacy Policy The terms and conditions of this Privacy Policy (the
+    "Policy") apply to any information that Doctor Web, Ltd. (the "Right Holder")
+    receives and/or may receive about physical/legal entities or individual business
+    persons constituting the users/visitors (the "User") of any of the websites, services,
+    subscriptions, computer programs and their components, or other products of Doctor
+    Web, Ltd. (the "Services") during the course of the User using (or in connection
+    with the User using) the Services.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 'The User unconditionally and entirely accepts the terms and conditions
+    of the Policy as soon as he or she starts using the Services. If the User disagrees
+    with the Policy or with any of its terms and conditions, he or she has no right
+    to use the Services. Information about Users that the Right Holder receives and/or
+    may receive and process:'
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Information and data provided by the User (e.g., when registering/creating
+    a user account or while using the Services), including but not limited to the
+    User's personal data and comments he or she has made while using the Services.
+    The Right Holder assumes that the User is providing reliable information.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: 'Information that, while the User is using the Services, is automatically
+    transmitted to the Right Holder by the User''s devices through the software installed
+    on those devices. Such information includes but is not limited to: the User''s
+    IP address, the User''s browser and OS, the IP address requested by the User while
+    using an Internet resource, and the time of that request. The Right Holder''s
+    reasons for receiving (collecting) and processing the information mentioned in
+    clauses 2.1 and 2.2 of this Policy (the "Information"):'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information that, while the User is using the Services, is automatically
+      transmitted to the Right Holder by the User's devices through the software installed
+      on those devices.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Such information includes but is not limited to: the User''s IP
+      address, the User''s browser and OS, the IP address requested by the User while
+      using an Internet resource, and the time of that request.'
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 49
+  segment_text: The Right Holder receives and processes the Information needed in
+    order to provide the Services, develop and improve products and/or Services, and
+    execute agreements and contracts. The Information is also used to interact with
+    the User during consultations with the Right Holder's technical support, and also
+    during other interactions with the User. The Right Holder may also ask the User
+    to provide information about his or her computer and operating system configuration.
+    Such information is needed to more accurately pinpoint the problem the User has
+    experienced as a result of using the Services and to develop the most effective
+    recommendations for eliminating the problem.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: The Information is also used to analyse the composition of the audience
+    visiting the Right Holder's Services, and for communicating with the User, which
+    includes but is not limited to sending letters, notices, requests and proposals,
+    and processing User requests and proposals. The Information may also be used to
+    ensure the security of the Services and to monitor compliance with the licensing
+    regulations of the Right Holder's Services, and conduct statistical and other
+    studies. To make it easier to work with some Services, cookies are placed on User
+    computers, which streamlines navigation through the Services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To make it easier to work with some Services, cookies are placed
+      on User computers, which streamlines navigation through the Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 51
+  segment_text: 'The User understands and accepts that when using the Services to
+    upload files for online antivirus scanning, the full path to the uploaded files
+    on the User''s device is revealed to the Right Holder. The Right Holder does not
+    store, nor does it distribute to third parties, any files uploaded by the User
+    for online antivirus scanning; such files are destroyed by the Right Holder immediately
+    after online antivirus scanning. The User also understands and accepts that despite
+    the fact that the Right Holder uses secure protocols for receiving/transmitting
+    data, the content of the files uploaded for online antivirus scanning may be intercepted
+    and read by third parties at the moment such files are uploaded (before the Right
+    Holder receives the files) without the User''s and/or the Right Holder''s knowledge.
+    Therefore, the Right Holder is not liable for the safety of the information contained
+    in files uploaded for online antivirus scanning. Conditions for processing the
+    Information and distributing it to third parties. The Right Holder stores and
+    processes the User''s Information according to its internal regulations and current
+    legislation of the Russian Federation. The Right Holder has the right to transfer
+    the Information to third parties in the cases specified below: The User has granted
+    his or her consent for such actions;'
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: The transfer is needed within the scope of a particular Service used
+    by the User or to provide services to the User. This includes but is not limited
+    to investigating potential User violations; The transfer is stipulated by Russian
+    or other applicable legislation under procedures established by the legislation.
+    The User understands and accepts that the Right Holder has the right to use the
+    Information in the Services and to use any comments posted by the User via the
+    Services in the Right Holder's official social media groups, communities, and
+    websites. User changes to personal information. The User can at any time change,
+    update, or supplement the personal information (in full or in part) that he or
+    she has provided, and also change the extent to which the information is confidential
+    by applying in writing to the Right Holder. Measures taken to protect the Information.
+    The Right Holder takes all necessary and sufficient organisational and technical
+    measures within its control to protect the Information from unauthorized or accidental
+    access, destruction, modification, blocking, copying, distribution, and other
+    illegal actions on the part of third parties. Other conditions.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 'The Right Holder has the right to change the Policy without giving
+    prior notice to the User. A new version of the Policy comes into force as soon
+    as it is published, unless stated otherwise by the new version of the Policy.
+    The most current version of the Policy is always located at company.drweb.com/policy.
+    The laws of the Russian Federation apply to this Policy and the relationship that
+    arises between the User and the Right Holder as a result of this Policy being
+    applied. The Right Holder''s address: 125040, Russia, Moscow, 3rd street Yamskogo
+    polya 2-12A.'
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: "BUY from our partners online with mobile Add to the library Company\
+    \ News&Events Send a virus Online scanner Privacy policy Site map \xA9 Doctor\
+    \ Web 2003 - 2017 Doctor Web is the Russian developer of Dr.Web anti-virus software.\
+    \ We have been developing our products since 1992. The company is a key player\
+    \ on the Russian market for software that meets the fundamental need of any business\
+    \ - information security. Doctor Web is one of the few anti-virus vendors in the\
+    \ world to have its own technologies to detect and cure malware. Our anti-virus\
+    \ protection system allows the information systems of our customers to be protected\
+    \ from any threats, even those still unknown. Doctor Web was the first company\
+    \ to offer an anti-virus as a service and, to this day, is still the undisputed\
+    \ Russian market leader in Internet security services for service providers. Doctor\
+    \ Web has received state certificates and awards; our satisfied customers spanning\
+    \ the globe are clear evidence of the high quality of the products created by\
+    \ our talented Russian programmers."
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: www.drweb.com | estore.drweb.com | curenet.drweb.com | www.av-desk.com
+    | free.drweb.com
+  annotations: []
+  sentences: []

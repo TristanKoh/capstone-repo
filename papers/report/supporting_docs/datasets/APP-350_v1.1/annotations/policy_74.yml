@@ -1,0 +1,291 @@
+policy_id: 74
+policy_name: RobTopGames
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: This Privacy Policy governs the manner in which RobTop Games AB collects,
+    uses, maintains and discloses information collected from users (each, a "User")
+    of the http://www.robtopgames.com website, http://www.boomlings.com website, http://www.geometrydash.com
+    website or the iOS and Android and Windows Phone Apps Geometry Dash, Geometry
+    Dash Lite, Geometry Dash Meltdown, Geometry Dash World ("Site"). This privacy
+    policy applies to the Site and all products and services offered by RobTop Games
+    AB.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "Personal identi\uFB01cation information We may collect personal identi\uFB01\
+    cation information from Users in a variety of ways, including, but not limited\
+    \ to, when Users visit our site, register on the site, and in connection with\
+    \ other activities, services, features or resources we make available on our Site.\
+    \ Users may be asked for, as appropriate, name. Users may, however, visit our\
+    \ Site anonymously. We will collect personal identi\uFB01cation information from\
+    \ Users only if they voluntarily submit such information to us. Users can always\
+    \ refuse to supply personally identi\uFB01cation information, except that it may\
+    \ prevent them from engaging in certain Site related activities."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "Non-personal identi\uFB01cation information We may collect non-personal\
+    \ identi\uFB01cation information about Users whenever they interact with our Site.\
+    \ Non-personal identi\uFB01cation information may include the browser name, the\
+    \ type of computer and technical information about Users means of connection to\
+    \ our Site, such as the operating system and the Internet service providers utilized\
+    \ and other similar information."
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Web browser cookies Our Site may use "cookies" to enhance User experience.
+    User's web browser places cookies on their hard drive for record-keeping purposes
+    and sometimes to track information about them. User may choose to set their web
+    browser to refuse cookies, or to alert you when cookies are being sent. If they
+    do so, note that some parts of the Site may not function properly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If they do so, note that some parts of the Site may not function
+      properly.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Site may use "cookies" to enhance User experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: User may choose to set their web browser to refuse cookies, or
+      to alert you when cookies are being sent.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: User's web browser places cookies on their hard drive for record-keeping
+      purposes and sometimes to track information about them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 'How we use collected information RobTop Games AB may collect and
+    use Users personal information for the following purposes: * To run and operate
+    our Site * To improve customer service We may need your information display content
+    on the Site correctly.'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Information you provide helps us respond to your customer service
+    requests and support
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: "needs more ef\uFB01ciently."
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: '* To personalize user experience We may use information in the aggregate
+    to understand how our Users as a group use the'
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: services and resources provided on our Site.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: '* To improve our Site * To process payments We may use feedback you
+    provide to improve our products and services.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: We may use the information Users provide about themselves when placing
+    an order only to
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: provide service to that order. We do not share this information with
+    outside parties except to the extent necessary to provide the service.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: '* To manage product reviews and ratings We may use third party service
+    providers to help us manage product reviews and ratings'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: left by Users.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: How we protect your information We adopt appropriate data collection,
+    storage and processing practices and security measures to protect against unauthorized
+    access, alteration, disclosure or destruction of your personal information, username,
+    password, transaction information and data stored on our Site.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: "Sharing your personal information We do not sell, trade, or rent\
+    \ Users personal identi\uFB01cation information to others. We may share generic\
+    \ aggregated demographic information not linked to any personal identi\uFB01cation\
+    \ information"
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: "regarding visitors and users with our business partners, trusted\
+    \ af\uFB01liates and advertisers for the purposes outlined above."
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: "Third party websites Users may \uFB01nd advertising or other content\
+    \ on our Site that link to the sites and services of our partners, suppliers,\
+    \ advertisers, sponsors, licensors and other third parties. We do not control\
+    \ the content or links that appear on these sites and are not responsible for\
+    \ the practices employed by websites linked to or from our Site. In addition,\
+    \ these sites or services, including their content and links, may be constantly\
+    \ changing. These sites and services may have their own privacy policies and customer\
+    \ service policies. Browsing and interaction on any other website, including websites\
+    \ which have a link to our Site, is subject to that website's own terms and policies."
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: "Advertising Ads appearing on our site may be delivered to Users by\
+    \ advertising partners, who may set cookies. These cookies allow the ad server\
+    \ to recognize your computer each time they send you an online advertisement to\
+    \ compile non personal identi\uFB01cation information about you or others who\
+    \ use your computer. This information allows ad networks to, among other things,\
+    \ deliver targeted advertisements that they believe will be of most interest to\
+    \ you. This privacy policy does not cover the use of cookies by any advertisers."
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Advertising Ads appearing on our site may be delivered to Users
+      by advertising partners, who may set cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: "These cookies allow the ad server to recognize your computer each\
+      \ time they send you an online advertisement to compile non personal identi\uFB01\
+      cation information about you or others who use your computer."
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: This information allows ad networks to, among other things, deliver
+      targeted advertisements that they believe will be of most interest to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: This privacy policy does not cover the use of cookies by any advertisers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: "Google Adsense Some of the ads may be served by Google. Google's\
+    \ use of the DART cookie enables it to serve ads to Users based on their visit\
+    \ to our Site and other sites on the Internet. DART uses \"non personally identi\uFB01\
+    able information\" and does NOT track personal information about you, such as\
+    \ your name, email address, physical address, etc. You may opt out of the use\
+    \ of the DART cookie by visiting the Google ad and content network privacy policy\
+    \ at http://www.google.com/ privacy_ads.html Third Party, Services, Ads and Analytics\
+    \ Ad companies may use and collect anonymous data about your interests to customize\
+    \ content and advertising here and in other sites and applications. Interest and\
+    \ location data may be linked to your device, but is not linked to your identity."
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "DART uses \"non personally identi\uFB01able information\" and\
+      \ does NOT track personal information about you, such as your name, email address,\
+      \ physical address, etc."
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Google's use of the DART cookie enables it to serve ads to Users
+      based on their visit to our Site and other sites on the Internet.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Interest and location data may be linked to your device, but is
+      not linked to your identity.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You may opt out of the use of the DART cookie by visiting the Google
+      ad and content network privacy policy
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: Analytics companies may access anonymous data (such as your IP address
+    or device ID) to help us understand how our services are used. They use this data
+    solely on our behalf. They do not share it except in aggregate form; no data is
+    shared as to any individual user.
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytics companies may access anonymous data (such as your IP
+      address or device ID) to help us understand how our services are used.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: "In order to serve you, we may share your anonymous information with\
+    \ other companies, including vendors and contractors. Their use of information\
+    \ is limited to these purposes, and subject to agreements that require them to\
+    \ keep the information con\uFB01dential. Our vendors provide assurance that they\
+    \ take reasonable steps to safeguard the data they hold on our behalf, although\
+    \ data security cannot be guaranteed."
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: Compliance with children's online privacy protection act Protecting
+    the privacy of the very young is especially important. For that reason, we never
+    collect or maintain information at our Site from those we actually know are under
+    13, and no part of our website is structured to attract anyone under 13.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "Changes to this privacy policy RobTop Games AB has the discretion\
+    \ to update this privacy policy at any time. When we do, we will post a noti\uFB01\
+    cation on the main page of our Site. We encourage Users to frequently check this\
+    \ page for any changes to stay informed about how we are helping to protect the\
+    \ personal information we collect. You acknowledge and agree that it is your responsibility\
+    \ to review this privacy policy periodically and become aware of modi\uFB01cations."
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Your acceptance of these terms By using this Site, you signify your
+    acceptance of this policy. If you do not agree to this policy, please do not use
+    our Site. Your continued use of the Site following the posting of changes to this
+    policy will be deemed your acceptance of those changes.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Contacting us If you have any questions about this Privacy Policy,
+    the practices of this site, or your dealings with this site, please contact us.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: RobTop Games AB support@robtopgames.com This document was last updated
+    on December 31, 2016
+  annotations: []
+  sentences: []

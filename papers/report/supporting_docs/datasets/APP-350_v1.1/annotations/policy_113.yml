@@ -1,0 +1,820 @@
+policy_id: 113
+policy_name: AVG
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Log in to AVG MyAccount MENU Skip to content Close PC The Best AVG
+    Ultimate Protection AVG AntiVirus FREE AVG Internet Security Performance AVG TuneUp
+    AVG Driver Updater AVG Web TuneUp Privacy
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: HMA! Pro VPN NEW
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "All Products Mac AVG Cleaner for Mac \xAE AVG AntiVirus for Mac \xAE"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: "All products Android Android Apps for Mobile and Tablet AVG AntiVirus\
+    \ for Android\u2122 AVG Cleaner\u2122 for Android\u2122"
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: "All Products Partners Products AVG Managed Workplace \xAE AVG CloudCare\u2122\
+    \ AVG Secure Sign On AVG Business Security Products Why Partner With AVG Business\
+    \ Find a Partner Become a Partner Partner Portal Reseller Center Programs Partner\
+    \ Certification Program Webinars & Events Mobile Global Alliances Business AVG\
+    \ Internet Security Business Edition AVG AntiVirus Business Edition AVG File Server\
+    \ Business Edition AVG PC TuneUp Business Edition AVG AntiVirus for Android\u2122\
+    \ - Business AVG Business AntiVirus for Mac \xAE Compare products Services Premium\
+    \ Tech Support Hardware Service Plan NEW PC-to-PC Transfer Remote Virus Removal\
+    \ Express Install Support Home product support Product downloads & updates FREE\
+    \ support for AVG home products Remote Tech Support Support for partner products\
+    \ Contact us for partner support Support for business products Contact us for\
+    \ business support"
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Log in to AVG MyAccount English Privacy Policy App Specific Cookies
+    Privacy archive
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: AVG Privacy Policy Why do you collect my data? We use data to improve
+    our products and services; send notifications, offer and promotions; and to make
+    money from our free offerings with non-personal data. More
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: How do you collect my data? When you provide it to us directly, use
+    our products or website, and through cookies and tracking beacons. More
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you provide it to us directly, use our products or website,
+      and through cookies and tracking beacons.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: What do you collect that can identify me? We may collect your name,
+    address, email, phone and SIM number, IP address, Device ID, location, and if
+    you buy our products, payment informantion. More
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect your name, address, email, phone and SIM number,
+      IP address, Device ID, location, and if you buy our products, payment informantion.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: What do you collect that cannot identify me? We collect data that
+    is not personal to you like your device's brand, language and setup, apps that
+    may be used, etc. More
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Do you share my data? We do not share your personal data with 3rd
+    parties unless you provide your consent except in limited circumstances. More
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: What rights do I have over my data? You may ask us how we process
+    your data, to correct or delete your personal data, and may opt of email messaging
+    and certain data collection and use. More
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: We're serious about your privacy Our Privacy Policy We (AVG Technologies
+    NV and our affiliates) last changed our privacy policy on October 15th, 2015.
+    If you're interested to see what changed, please click here.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Why do you collect my data? It's simple. We provide products and services
+    to help you secure your data, devices, and personal privacy. We use data to improve
+    those products and services; provide support; send notifications, offers, and
+    promotions; and to make money from our free offerings so that we can continue
+    to offer them for free.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'We use data that can identify you, called personal data, to: Enable
+    you to purchase and download products, obtain access to services and engage in
+    offered activities; Provide you information about virus alerts, new and upgraded
+    products and services, and other information you have requested; Provide you with
+    service messages to your device; Alert you if we determine that your files, applications
+    or emails are potentially malicious; Send you newsletters, informative emails
+    or other information regarding AVG; and Provide you special opportunities, including
+    offers relating to third-party products and services'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: We use data that does not identify you, called non-personal data,
+    for lots of purposes, including to improve our products and services and to help
+    keep our free offerings free. In particular, we may use non-personal data to build
+    anonymous data profiles and provide segmented marketing, generate aggregate statistical
+    information, and to improve and administer our current products and create new
+    products.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: You can be assured that we protect the information we collect. By
+    using our products or services, you agree to the collection, use and sharing of
+    your data in accordance with this Privacy Policy. Unless the specific product
+    states otherwise, all AVG products and services are included under this Privacy
+    Policy.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: If you are really interested in this privacy stuff, we've put together
+    a few videos and to help explain what we do, why we do it, and how.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'Back to overview How do you collect my data? We collect information
+    in three ways: when you provide us information, automatically, when you use our
+    website or products, and when provided to us by third parties. Much of our automatic
+    collection is done through the use of things like cookies and tracking beacons.
+    If you are curious what is meant by a cookie or a tracking beacon, please click
+    here. You can find comprehensive information on how we use cookies and third-party
+    tracking and analytics services here. Additionally, if you have the option enabled,
+    we may scan web traffic (including encrypted traffic) for known virus threats.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, if you have the option enabled, we may scan web traffic
+      (including encrypted traffic) for known virus threats.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: If you are curious what is meant by a cookie or a tracking beacon,
+      please click here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Much of our automatic collection is done through the use of things
+      like cookies and tracking beacons.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'We collect information in three ways: when you provide us information,
+      automatically, when you use our website or products, and when provided to us
+      by third parties.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can find comprehensive information on how we use cookies and
+      third-party tracking and analytics services here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Back to overview What do you collect that can identify me? Like many
+    companies, some of the information we collect, known as personal data, can identify
+    you. An example of personal data might be your name or email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: An example of personal data might be your name or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Like many companies, some of the information we collect, known
+      as personal data, can identify you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: 'Some personal data we collect only when you provide it to us. This
+    information may include your name, address, email address, telephone number, and
+    if you pay by credit card, your payment information. This may happen when you:
+    Create a user account, place an order, or register a product; Request product
+    support or other services; Request information about products; or Participate
+    in surveys.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some personal data we collect only when you provide it to us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: This information may include your name, address, email address,
+      telephone number, and if you pay by credit card, your payment information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: 'Some personal data we collect automatically when you use our website
+    or products. This information may include some or all of the following types of
+    information: Your Internet Protocol ("IP") address; User and account names and
+    related data; Phone number; SIM (Subscriber Identification Module) card number;
+    Device ID numbers, including Machine ID, IMEI and/or MEID; AVG product license
+    and identification numbers; and Geographic location based on GPS/Wi -Fi/communications
+    network local information.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Some personal data we collect automatically when you use our website
+      or products.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This information may include some or all of the following types
+      of information: Your Internet Protocol ("IP") address; User and account names
+      and related data; Phone number; SIM (Subscriber Identification Module) card
+      number; Device ID numbers, including Machine ID, IMEI and/or MEID; AVG product
+      license and identification numbers; and Geographic location based on GPS/Wi-Fi/communications
+      network local information.'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Unless we need the data to retain its personally identifiable characteristics,
+    we anonymize the data we collect and store it in a manner that does not identify
+    you. For instance, when we collect your IP address, we may anonymize your IP address
+    by obfuscating the last group of digits (e.g., changing 192.168.1.1 to 192.168.1.XXX).
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For instance, when we collect your IP address, we may anonymize
+      your IP address by obfuscating the last group of digits (e.g., changing 192.168.1.1
+      to 192.168.1.XXX).
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Unless we need the data to retain its personally identifiable characteristics,
+      we anonymize the data we collect and store it in a manner that does not identify
+      you.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: Back to overview What do you collect that cannot identify me? We collect
+    many types of data, called non-personal data that does not personally identify
+    you. While we cannot list out each and every type of non-personal data that we
+    collect, we've tried below to give you a general understanding of what types of
+    non-personal data we collect and examples to help you see what we mean.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'We collect non-personal data to improve our products and services,
+    including: data concerning potential malware threats to your device and the target
+    of those threats, including copies of files or emails marked as potential malware,
+    file names, cryptographic hash, vendor, size, date stamps, associated registry
+    keys, etc.;'
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We collect non-personal data to improve our products and services,
+      including:'
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: information about how you use our products and their features, including
+    information about your particular device, installation and uninstallation rates,
+    language, technical parameters and manufacturer of a device, device security information
+    (password attributes, encryption level), etc.; and information about where our
+    products and services are used, including approximate location, zip code, area
+    code, time zone, and the URL you came from to reach our products.
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: information about where our products and services are used, including
+      approximate location, zip code, area code, time zone, and the URL you came from
+      to reach our products.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: 'We collect non-personal data to make money from our free offerings
+    so we can keep them free, including: Advertising ID associated with your device;
+    Browsing and search history, including meta data; Internet service provider or
+    mobile network you use to connect to our products; and Information regarding other
+    applications you may have on your device and how they are used.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We collect non-personal data to make money from our free offerings
+      so we can keep them free, including: Advertising ID associated with your device;
+      Browsing and search history, including meta data; Internet service provider
+      or mobile network you use to connect to our products; and Information regarding
+      other applications you may have on your device and how they are used.'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 27
+  segment_text: Sometimes browsing history or search history contains terms that might
+    identify you. If we become aware that part of your browsing history might identify
+    you, we will treat that portion of your history as personal data, and will anonymize
+    this information. We may also aggregate and/or anonymize personal data we collect
+    about you. For instance, although we would consider your precise location to be
+    personal data if stored separately, if we combined the locations of our users
+    into a data set that could only tell us how many users were located in a particular
+    country, we would not consider this aggregated information to be personally identifiable.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For instance, although we would consider your precise location
+      to be personal data if stored separately, if we combined the locations of our
+      users into a data set that could only tell us how many users were located in
+      a particular country, we would not consider this aggregated information to be
+      personally identifiable.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: If we become aware that part of your browsing history might identify
+      you, we will treat that portion of your history as personal data, and will anonymize
+      this information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Sometimes browsing history or search history contains terms that
+      might identify you.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also aggregate and/or anonymize personal data we collect
+      about you.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: Back to overview Do you share my data? Yes, though when and how we
+    share it depends on whether it is personal data or non-personal data. AVG may
+    share non-personal data with third parties and may publicly display aggregate
+    or anonymous information.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: We do not sell or rent your personal data to third parties.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: 'We may share certain personal data (as described below) with: Any
+    of our affiliated AVG companies;'
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: AVG is a global company, comprising many companies in many offices
+    around the world. In order to do business around the globe, we may share your
+    personal data across our offices and companies which may be in countries with
+    different laws regarding the collection and use of personal data than the country
+    we collected it from. Search providers;
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: Certain of our search providers may require us to share your full
+    IP address with them in order to fulfill your search requests. Please note that
+    the search providers have their own privacy policies that govern the privacy of
+    these requests. We encourage you to read these privacy policies before deciding
+    to use these services. Selected AVG resellers, distributors and other partners
+    performing services on our behalf.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: We may share some of your personal data, such as your email address,
+    with certain selected resellers, distributors and other partners to enable them
+    to contact you on our behalf about products, services or offers we believe are
+    important to you or your business, to fulfill any terms under your licensing and
+    service relationship with AVG, or to provide you local technical and customer
+    support.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 'Lastly, we may share your personal data: when necessary to deliver
+    the product or service you require such as with a payment card provider who we
+    use to process your credit card transaction; when authorized by law or necessary
+    to comply with a valid legal process; when required to protect and defend the
+    rights or property of AVG, including the security of our products and services;
+    when necessary to protect the personal safety, property or other rights of the
+    public, AVG or its customers or employees; or in connection with a sale of all
+    or part of our business.'
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: If we are legally compelled to disclose your personal data to a third
+    party, we will use commercially reasonable efforts to notify you in advance of
+    a disclosure unless legally prohibited. If we are involved in a merger, acquisition
+    or asset sale, we will abide by this Privacy Policy, and any affected users will
+    be informed if we transfer any personal data to a third party or if personal data
+    becomes subject to a different privacy policy as a result.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Back to overview What rights do I have over my data? You have the
+    right to ask us about the personal data we process about you, the purpose and
+    nature of the processing, and to provide information on who we share it with.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: You have the right to request that we update, correct, or delete (assuming
+    that this does not impact the services we are providing to you) your personal
+    data at any time. Please note that we may reject requests which risk the privacy
+    of others or are unreasonable or repetitive, or would require disproportionate
+    effort. Unless you request us to delete your data, please note that we may keep
+    your personal data for one year after you stop being a customer (but we typically
+    keep your personal data no longer than is reasonably necessary given the purposes
+    for which the data was collected).
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: You have the right to opt out of the use or collection of certain
+    data by us or by third parties, including personal data and non-personal data,
+    by following the instructions here.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: You have the right to opt-out of receiving our email newsletters,
+    bulletins, or other information at any time by following the instructions here
+    or the relevant unsubscribe process outlined in the applicable email or newsletter.
+    Please be aware that our emails may include important or useful information about
+    your AVG Products, including information about your license number or the status
+    of your orders or accounts.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 'You have the right to expect us to protect your personal data and
+    keep it safe. We work hard to protect AVG and our users from unauthorized access
+    to or unauthorized alteration, disclosure or destruction of the information we
+    hold. In particular: We abide by this Privacy Policy at all times with respect
+    to all data that we collect from you; We limit the use and disclosure of your
+    personal data, and work to ensure that anyone with whom we share such information
+    treats that information with the privacy and security it deserves; and We have
+    put in place industry-accepted physical, technical and administrative practices
+    to safeguard and secure the information we collect.'
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Back to overview What changes have you recently made? We reserve the
+    right to change this Privacy Policy at any time, and will indicate the date the
+    Privacy Policy was most recently updated. If there have been significant changes,
+    we will highlight any such changes, and will attempt to directly alert you when
+    possible. We will also keep prior versions of this Privacy Policy in an archive
+    for your review.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 'Changes to our privacy policy since the latest version include: We''ve
+    changed how we present our privacy policy to make it easier to understand and
+    read.'
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: Follow this link to download the current privacy policy or access
+    previous versions of the AVG Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 'Back to overview How can I contact you? If have any questions about
+    this policy or any of the above, please email us at privacy@avg.com or see instructions
+    in the product or service you are using. You may contact us by mail at: AVG Netherlands
+    BV Gatwickstraat 9-39, 1043GL Amsterdam The Netherlands Back to overview Is there
+    anything else I need to know? Periodically, our site or products may contain links
+    to and from websites or other external destinations managed by third parties.
+    If you follow a link to any of these destinations (like offers on mobile app stores
+    etc.), please note that those sites have their own privacy policy. When you are
+    on those sites you are subject to those policies, and should therefore read and
+    understand them before you submit any personal data to those sites.'
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: We may also link to co-branded websites or products that are maintained
+    by AVG Technologies and one or more of our business partners. Please note that
+    these co-branded websites and products may have their own privacy policy, which
+    we encourage you to read and understand.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: Back to overview About AVG Profile Media Center Policies Reseller
+    Locator Contact Us
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: Home Products Downloads Antivirus Software Mobile Security Free Mac
+    Antivirus PC Performance Virus Scanning & Malware Removal Free Antivirus Download
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: Customer Area Renew or Upgrade Register Your License Anti-Theft Login
+    Home Product Support Security & Performance Tips
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: "Partners & Business Business Antivirus Software Partners & Resellers\
+    \ Reseller Center AVG CloudCare\u2122 AVG Managed Workplace AVG Secure Sign On\
+    \ Partner Support Business Support Affiliates"
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: Connect with AVG Facebook Twitter RSS Google+ LinkedIn YouTube
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: "English Log in to AVG MyAccount Privacy | Cookies | All third party\
+    \ trademarks are the property of their respective owners. | \xA9 2017 AVG Technologies.\
+    \ All rights reserved."
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: "Skip to content Skip to menu Change language Global Website: Espa\xF1\
+    ol / English Australia: English Brasil: Portugu\xEAs do Brasil Canada: English\
+    \ \u010Cesk\xE1 republika: \u010Ce\u0161tina Deutschland: Deutsch Espa\xF1a: Espa\xF1\
+    ol France: Fran\xE7ais India: English Indonesia: Bahasa Indonesia Italia: Italiano\
+    \ Malaysia: Bahasa Melayu Nederland: Nederlands Norge: Norsk Polska: Polski Portugal:\
+    \ Portugu\xEAs \u0420\u043E\u0441\u0441\u0438\u044F: \u0420\u0443\u0441\u0441\u043A\
+    \u0438\u0439 Slovensko: Sloven\u010Dina T\xFCrkiye: T\xFCrk\xE7e United Kingdom:\
+    \ English United States: English \u81FA\u7063: \u7E41\u9AD4\u4E2D\u6587 \u65E5\
+    \u672C: \u65E5\u672C\u8A9E \uB300\uD55C\uBBFC\uAD6D: \uD55C\uAD6D\uC5B4"
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: "Global Website: Espa\xF1ol / English"
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: When you use our website or products third parties do not obtain your
+    personal information, such as your Internet Protocol ("IP") address; User and
+    account names and related data; Phone number; SIM (Subscriber Identification Module)
+    card number; Device ID numbers, including Machine ID, IMEI and/or MEID; AVG product
+    license and identification numbers; and Geographic location based on GPS/Wi-Fi/communications
+    network local information.
+  annotations:
+  - practice: Contact_Phone_Number_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_SIM_Serial_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you use our website or products third parties do not obtain
+      your personal information, such as your Internet Protocol ("IP") address; User
+      and account names and related data; Phone number; SIM (Subscriber Identification
+      Module) card number; Device ID numbers, including Machine ID, IMEI and/or MEID;
+      AVG product license and identification numbers; and Geographic location based
+      on GPS/Wi-Fi/communications network local information.
+    annotations:
+    - practice: Contact_Phone_Number_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_SIM_Serial_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 55
+  segment_text: We do not collect any non-personal data, for example, information
+    about where our products and services are used, including approximate location,
+    zip code, area code, time zone, and the URL you came from to reach our products.
+  annotations:
+  - practice: Contact_ZIP_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect any non-personal data, for example, information
+      about where our products and services are used, including approximate location,
+      zip code, area code, time zone, and the URL you came from to reach our products.
+    annotations:
+    - practice: Contact_ZIP_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 56
+  segment_text: Some personal data can identify you. An example of personal data might
+    be your name or email address. However, we do not collect personal data from you,
+    such as your name, address, email address, telephone number, and if you pay by
+    credit card, your payment information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Some personal data can identify you. An example of personal data
+      might be your name or email address. However, we do not collect personal data
+      from you, such as your name, address, email address, telephone number, and if
+      you pay by credit card, your payment information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED

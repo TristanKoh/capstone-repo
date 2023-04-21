@@ -1,0 +1,196 @@
+policy_id: 209
+policy_name: DevexpertNET
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Devexpert.NET Mobile Apps Privacy Policy This site uses cookies to
+    provide you with a more responsive and personalized service. By using this site
+    you agree to our use of cookies. Please read our Privacy Policy for more information.
+    Close Get Apps |Contact us PRIVACY POLICY Your privacy is important to Devexpert.NET
+    and we are committed to protecting your privacy. Therefore, we have developed
+    a Privacy Policy. Please take a moment to familiarize yourself with our privacy
+    practices and contact us at support@devexpert.net you have any questions.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using this site you agree to our use of cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Close Get Apps |Contact us PRIVACY POLICY Your privacy is important
+      to Devexpert.NET and we are committed to protecting your privacy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Devexpert.NET Mobile Apps Privacy Policy This site uses cookies
+      to provide you with a more responsive and personalized service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please read our Privacy Policy for more information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please take a moment to familiarize yourself with our privacy practices
+      and contact us at support@devexpert.net you have any questions.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Therefore, we have developed a Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 1
+  segment_text: PEROSNAL INFORMATION DO NOT collect, store or use any personal information
+    while you visit, download or upgrade our website or our products, excepting the
+    personal information that you submit to us when you create a user account, send
+    an error report or participate in online surveys and other activities.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Only for the following purposes that we may use personal information
+    submitted by you: help us develop, deliver, and improve our products and services
+    and supply higher quality service; manage online surveys and other activities
+    you have participated in.'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'In the following circumstances, we may disclose your personal information
+    according to your wish or regulations by law: (1) Your prior permission; (2) By
+    the applicable law within or outside your country of residence, legal process,
+    litigation requests; (3) By requests from public and governmental authorities;
+    (4) To protect our legal rights and interests.'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: NON-PERSONAL INFORMATION Non-personal information is data in a form
+    that does not permit direct association with any specific individual, such as
+    your CPN model, memory size, your phone IMEI number, phone model, install, uninstall,
+    frequency of use, etc.
+  annotations:
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Non-personal information is data in a form that does not permit
+      direct association with any specific individual, such as your CPN model, memory
+      size, your phone IMEI number, phone model, install, uninstall, frequency of
+      use, etc.
+    annotations:
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: We may collect and use non-personal information in the following circumstances.
+    To have a better understanding in user's behavior, solve problems in products
+    and services, improve our products, services and advertising, we may collect non-personal
+    information such as the data of install, frequency of use, country, equipment
+    and channel.
+  annotations:
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect and use non-personal information in the following
+      circumstances.
+    annotations:
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: If non-personal information is combined with personal information,
+    we treat the combined information as personal information for the purposes of
+    this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: PROTECTION OF PERSONAL INFORMATION We take precautions - including
+    administrative, technical, and physical measures - to safeguard your personal
+    information against loss, theft, and misuse, as well as against unauthorized access,
+    disclosure, alteration, and destruction.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: When you use some products, services, or post your comments, the personal
+    information you share is visible to other users and can be read, collected, or
+    used by them. You are responsible for the personal information you choose to submit
+    in these instances. Please take care when using these features.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: OUR COMPANYWIDE COMMITMENT TO YOUR PRIVACY To make sure your personal
+    information is secure; we communicate our privacy and security guidelines to all
+    employees and strictly enforce privacy safeguards within the company.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: PRIVACY QUESTIONS If you have any questions or concerns about our
+    Privacy Policy or data processing, please contact us at support@devexpert.net
+    We may update Privacy Policy from time to time. When we change the policy in a
+    material way, a notice will be posted on our website along with the updated Privacy
+    Policy.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Log information, cookies, and web beacons This site collects standard
+    internet log information including your IP address, browser type and language,
+    access times, and referring website addresses. To ensure that this Website is
+    well managed and to facilitate improved navigation, we or our service providers
+    may also use cookies (small text files stored in a user's browser) or Web beacons
+    (electronic images that allow this Website to count visitors who have accessed
+    a particular page and to access certain cookies) to collect aggregate data. Additional
+    information on how we use cookies and other tracking technologies and how you
+    can control these can be found in our cookie notice.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additional information on how we use cookies and other tracking
+      technologies and how you can control these can be found in our cookie notice.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Log information, cookies, and web beacons This site collects standard
+      internet log information including your IP address, browser type and language,
+      access times, and referring website addresses.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: To ensure that this Website is well managed and to facilitate improved
+      navigation, we or our service providers may also use cookies (small text files
+      stored in a user's browser) or Web beacons (electronic images that allow this
+      Website to count visitors who have accessed a particular page and to access
+      certain cookies) to collect aggregate data.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: Non-personal information is data in a form that does not permit direct
+    association with any specific individual, such as your CPN model, memory size,
+    your phone IMEI number, phone model, install, uninstall, frequency of use, etc.
+    We are not collecting non-personal information.
+  annotations:
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Non-personal information is data in a form that does not permit
+      direct association with any specific individual, such as your CPN model, memory
+      size, your phone IMEI number, phone model, install, uninstall, frequency of
+      use, etc. We are not collecting non-personal information.
+    annotations:
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED

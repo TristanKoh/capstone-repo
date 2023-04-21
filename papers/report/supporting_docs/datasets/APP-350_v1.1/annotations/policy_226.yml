@@ -1,0 +1,132 @@
+policy_id: 226
+policy_name: FortafyGames
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: FORTAFY GAMES PRIVACY POLICY By Privacy Policy, we mean the way we
+    collect, use and disclose any information we collect from our users. The following
+    Privacy Policy applies to all our mobile games, application, game browser, website
+    and any other service we offer. Non-personal identification information We may
+    collect non-personal identification information from our users. This kind of information
+    in mainly technical (Such as the browser's brand, the type of device, the Internet
+    provider ...) and does not include personal details. Personal identification information
+    We may collect and use personal identification information from our users, whenever
+    they connect to our services. Web browser cookies We may use "cookies" to enhance
+    our users' experience. Also, this allow us to track some information and keep
+    some record of it on the users' browsers. Users always have the choice to set
+    up their device in order to refuse cookies. The information collected, as described
+    above, is used to improve our customer service. Indeed, our users' information
+    is needed to improve our response to the customers' requests. Also, our users'
+    information is required to boost our services. We do not sell, trade, or rent
+    our users' personal identification information to third parties. The only part
+    of our users' data we may share is the one related to technical information, and
+    will not allow any party to access private data such as names.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ) and does not include personal details.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Also, our users' information is required to boost our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Also, this allow us to track some information and keep some record
+      of it on the users' browsers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: FORTAFY GAMES PRIVACY POLICY By Privacy Policy, we mean the way
+      we collect, use and disclose any information we collect from our users.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Indeed, our users' information is needed to improve our response
+      to the customers' requests.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Non-personal identification information We may collect non-personal
+      identification information from our users.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Personal identification information We may collect and use personal
+      identification information from our users, whenever they connect to our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The following Privacy Policy applies to all our mobile games, application,
+      game browser, website and any other service we offer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The information collected, as described above, is used to improve
+      our customer service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The only part of our users' data we may share is the one related
+      to technical information, and will not allow any party to access private data
+      such as names.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This kind of information in mainly technical (Such as the browser's
+      brand, the type of device, the Internet provider
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Users always have the choice to set up their device in order to
+      refuse cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not sell, trade, or rent our users' personal identification
+      information to third parties.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Web browser cookies We may use "cookies" to enhance our users'
+      experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 1
+  segment_text: Users may find advertising or other content on our services that link
+    to some random sites and services of third parties, which may be our partners
+    or may be fully independent. Therefore, whenever you use a third party service,
+    please note you depend on their own Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: This apply to ads, delivered by our advertising partners, appearing
+    on our services.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We reserve the rights to update this privacy policy at any time. Feel
+    free to check the update date at the bottom of this page.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: By using our services, you signify your acceptance of this Privacy
+    Policy. In the eventuality you would not agree to this policy, please do not use
+    our services.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Your continued use of our services following any update to this policy
+    will be deemed your acceptance of said changes.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: "If you have any questions about this Privacy Policy, please contact\
+    \ us at contact@fortafygames.com This document was last updated on March 8, 2016\
+    \ Copyright \xA9 2015 Fortafy Games - All rights reserved - Follow us on Twitter\
+    \ - Facebook page - Youtube page - Contact us"
+  annotations: []
+  sentences: []

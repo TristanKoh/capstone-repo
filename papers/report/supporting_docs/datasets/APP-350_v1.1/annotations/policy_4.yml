@@ -1,0 +1,978 @@
+policy_id: 4
+policy_name: BandaiNamco
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'MOBILE APPLICATION PRIVACY POLICY Effective Date: August 12th, 2016
+    Last Updated: August 12th, 2016 Welcome to BANDAI NAMCO Entertainment America
+    Inc.! BANDAI NAMCO Entertainment America Inc. ("BANDAI NAMCO") respects the privacy
+    rights of BANDAI NAMCO''s users and recognize the importance of protecting all
+    information that you may choose to share with us. To further this commitment,
+    BANDAI NAMCO adopted this Mobile Application Privacy Policy ("Privacy Policy").
+    By using BANDAI NAMCO''s mobile applications to which this Privacy Policy has
+    been attached (collectively, "mobile application(s)"), you consent to our collection,
+    storage, use, and disclosure of your personal information as described in this
+    Privacy Policy. This privacy policy applies to the mobile applications listed
+    here: PAC-MAN Pop! Fortress Legends Digimon Heroes! PAC-MAN Ms. PAC-MAN PAC-MAN
+    Championship Edition PAC-MAN Championship Edition DX PAC-MAN Friends Brain Exercise
+    More Brain Exercise Jewel Fight: Heroes of Legend Puzzle Quest 2 Ridge Racer Slipstream
+    Outcast Odyssey If you have questions or concerns regarding BANDAI NAMCO''s Privacy
+    Policy or practices, please contact us at privacy@bandainnamcoent.com. If you
+    have an unresolved privacy or data use concern that BANDAI NAMCO has not addressed
+    satisfactorily, please contact our U.S. based third party dispute resolution provider
+    (free of charge) at https://feedback-form.truste.com/watchdog/request.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'TABLE OF CONTENTS Q1. Why does BANDAI NAMCO have this Privacy Policy?
+    Q2. What information does this Privacy Policy cover? Q3: Does BANDAI NAMCO collect
+    information from or about children?'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Q4: How does BANDAI NAMCO collect information from you? Q5: How does
+    BANDAI NAMCO use your information? Q6: With whom does BANDAI NAMCO share your
+    information? Q7: Will third parties collect information through BANDAI NAMCO''s
+    mobile applications? Q8: What kinds of security measures does BANDAI NAMCO take
+    to safeguard your PII? Q9: How can you update or change information you''ve provided
+    to BANDAI NAMCO or that BANDAI NAMCO has collected from you? Q10: How can you
+    ask questions, or send BANDAI NAMCO comments, about this Privacy Policy? Q11:
+    How will you know if BANDAI NAMCO changes this Privacy Policy? Q12: If you are
+    a resident of California, what does this Privacy Policy mean for you?'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Q1. Why does BANDAI NAMCO have this Privacy Policy? A1: BANDAI NAMCO''s
+    mission is to inspire people around the world, to help them enjoy their time to
+    the fullest, and to create "more fun for everyone." Allowing you to have confidence
+    in BANDAI NAMCO''s products and online practices is essential to BANDAI NAMCO''s
+    aspirations and success. To demonstrate BANDAI NAMCO''s concern for your privacy,
+    BANDAI NAMCO has developed this Privacy Policy, which tells you - in simple, plain
+    language - how BANDAI NAMCO collects, stores, uses, and discloses the PII and
+    Non-PII you provide or that may be collected from you.'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Q2: What information does this Privacy Policy cover? A2: This Privacy
+    Policy covers all information that may be voluntarily provided to BANDAI NAMCO
+    or collected from you by BANDAI NAMCO, through your use of a BANDAI NAMCO mobile
+    application, which may include certain "personally identifiable information" or
+    "PII" as defined below. The information you may provide or that may be collected
+    from you through BANDAI NAMCO''s mobile applications will generally fall into
+    one of the following categories (please carefully read and understand the definitions
+    of the terms below, as these terms may be used elsewhere in this Privacy Policy):
+    Personally Identifiable Information ("PII"): PII may include your name, mailing
+    address, e-mail address, phone number, credit card information (including billing
+    and shipping information), or other information that may enable the recipient
+    of such PII to personally identify or contact you online or off. However, certain
+    information that might otherwise meet the above criteria will not be treated as
+    PII under this Privacy Policy if it is shared or collected as follows: Information
+    shared in an open forum or format (e.g., on a social network, in user-generated
+    content elements of BANDAI NAMCO''s mobile applications, etc.);'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'The information you may provide or that may be collected from
+      you through BANDAI NAMCO''s mobile applications will generally fall into one
+      of the following categories (please carefully read and understand the definitions
+      of the terms below, as these terms may be used elsewhere in this Privacy Policy):
+      Personally Identifiable Information ("PII"): PII may include your name, mailing
+      address, e-mail address, phone number, credit card information (including billing
+      and shipping information), or other information that may enable the recipient
+      of such PII to personally identify or contact you online or off.'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: This Privacy Policy covers all information that may be voluntarily
+      provided to BANDAI NAMCO or collected from you by BANDAI NAMCO, through your
+      use of a BANDAI NAMCO mobile application, which may include certain "personally
+      identifiable information" or "PII" as defined below.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Information collected by BANDAI NAMCO through any means other than
+    through the mobile applications to which this Privacy Policy applies (e.g., information
+    collected in paper form, or shared with a third party service provider, etc.);
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Information that cannot be used to personally identify or contact
+    you, including information that has been aggregated, anonymized, or "hashed,"
+    before being provided to or collected by BANDAI NAMCO, unless that information
+    is later combined with other information that would allow it to be used to personally
+    identify or contact you; or
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Information contained in materials you may share for a business purpose
+    other than your use of a BANDAI NAMCO mobile application (e.g., resumes, event
+    sponsorship, business inquiries or proposals, etc.).
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'Information other than PII ("Non-PII"): Some of BANDAI NAMCO''s mobile
+    applications may enable you to voluntarily provide to BANDAI NAMCO, or its third
+    party service providers, other types of information, which does not generally
+    constitute PII, unless it is linked to other PII provided by or collected from
+    you, as described in this Privacy Policy: Demographic Information: Some of BANDAI
+    NAMCO''s mobile applications may enable you to voluntarily provide to BANDAI NAMCO
+    or its third party service providers certain Demographic Information, such as
+    your age or date of birth.'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Some of BANDAI NAMCO''s mobile applications may enable you to
+      voluntarily provide to BANDAI NAMCO, or its third party service providers, other
+      types of information, which does not generally constitute PII, unless it is
+      linked to other PII provided by or collected from you, as described in this
+      Privacy Policy: Demographic Information: Some of BANDAI NAMCO''s mobile applications
+      may enable you to voluntarily provide to BANDAI NAMCO or its third party service
+      providers certain Demographic Information, such as your age or date of birth.'
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Login Information: Some of BANDAI NAMCO''s mobile applications may
+    require you to provide to BANDAI NAMCO or its third party service providers certain
+    login information, such as a username (for mobile applications which allow for
+    the creation of user accounts), your Google Play or Apple Game Center account
+    information, secret answers to certain security questions, and other similar information.
+    This login information may be used to uniquely identify your user account, to
+    authenticate your identity before giving you access to your account information,
+    or to enable you to engage in certain online activities, such as multiplayer features
+    available in certain mobile applications. Certain login information, such as your
+    username, may, itself, be PII (such as an e-mail address that contains your first
+    and last name).'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain login information, such as your username, may, itself,
+      be PII (such as an e-mail address that contains your first and last name).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Some of BANDAI NAMCO's mobile applications may require you to provide
+      to BANDAI NAMCO or its third party service providers certain login information,
+      such as a username (for mobile applications which allow for the creation of
+      user accounts), your Google Play or Apple Game Center account information, secret
+      answers to certain security questions, and other similar information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: This login information may be used to uniquely identify your user
+      account, to authenticate your identity before giving you access to your account
+      information, or to enable you to engage in certain online activities, such as
+      multiplayer features available in certain mobile applications.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: '"Device Information": When using some of BANDAI NAMCO''s mobile applications,
+    BANDAI NAMCO and/or certain third party service providers may collect certain
+    Device Information from the mobile device on which you are using that mobile application,
+    including: (i) the mobile device type, manufacturer, and model; (ii) the device''s
+    unique device identifier (UDID), Google Advertising ID (GAID), Android ID, ID
+    for Advertisers (IDFA), ID for Vendors (IDFV), MAC address, International Mobile
+    Equipment Identity (IMEI), or other unique device identifiers; (iii) device operating
+    system (e.g., Android, iOS) and version, mobile browser type (e.g. Safari, Chrome,
+    etc.) and version; (iv) network connection type (such as WiFi) and status, network
+    provider ID, carrier user ID (a number uniquely allocated to you by your network
+    provider); (v) the title and version of the mobile application in use by you,
+    and any associated API keys; (vi) and a list of other applications installed or
+    running on the mobile device; and (vii) other similar device and performance information.'
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '"Device Information": When using some of BANDAI NAMCO''s mobile
+      applications, BANDAI NAMCO and/or certain third party service providers may
+      collect certain Device Information from the mobile device on which you are using
+      that mobile application, including: (i) the mobile device type, manufacturer,
+      and model; (ii) the device''s unique device identifier (UDID), Google Advertising
+      ID (GAID), Android ID, ID for Advertisers (IDFA), ID for Vendors (IDFV), MAC
+      address, International Mobile Equipment Identity (IMEI), or other unique device
+      identifiers; (iii) device operating system (e.g., Android, iOS) and version,
+      mobile browser type (e.g.'
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+  - sentence_text: Safari, Chrome, etc.)
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+  - sentence_text: and version; (iv) network connection type (such as WiFi) and status,
+      network provider ID, carrier user ID (a number uniquely allocated to you by
+      your network provider);
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: 'Location Information: When using some of BANDAI NAMCO''s mobile applications
+    BANDAI NAMCO and/or certain third party service providers, may collect location
+    information from your device for the purpose of determining where you are playing
+    the mobile application. BANDAI NAMCO will only share this information for the
+    sole purpose of providing you with services relating to the mobile application
+    on your device, such as directing your device to a server hosting online features
+    for that mobile application. You may opt-out of location-based services at any
+    time by changing certain settings on your mobile device as described in Section
+    A9, below.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When using some of BANDAI NAMCO's mobile applications BANDAI NAMCO
+      and/or certain third party service providers, may collect location information
+      from your device for the purpose of determining where you are playing the mobile
+      application.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: 'Usage Information: When using some of BANDAI NAMCO''s mobile applications
+    BANDAI NAMCO and/or certain third party service providers may collect certain
+    Usage Information about your use and the performance of the mobile application
+    on your device, including: (i) how you use, browse, or view content and advertisements
+    in the mobile application; (ii) how you perform and progress in the mobile application;
+    and (iii) the occurrence of an error or failure of the mobile application on your
+    mobile device.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Information you provide that constitutes PII will be collected, stored,
+    used and disclosed, only as set forth in this Privacy Policy and, in the event
+    any Non-PII provided by or collected from you is combined with your PII, BANDAI
+    NAMCO will also treat such Non-PII as PII. Also, if you are located in the European
+    Union, BANDAI NAMCO will obtain your affirmative consent to the terms of this
+    Privacy Policy before collecting any PII from you and transferring, storing, or
+    using such PII outside of the European Union.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Q3: Does BANDAI NAMCO collect information from or about children?'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'A3: In order to comply with the Children''s Online Privacy Protection
+    Act (COPPA) BANDAI NAMCO does not knowingly collect PII from children under 13.
+    BANDAI NAMCO takes kids'' privacy seriously, and encourages parents to play an
+    active role in their children''s online experience at all times. Children under
+    the age of 13 should not use BANDAI NAMCO''s mobile applications at any time.
+    In the event that BANDAI NAMCO learn that BANDAI NAMCO have inadvertently gathered
+    PII from children under the age of 13, BANDAI NAMCO will take reasonable steps
+    to promptly erase such information from BANDAI NAMCO''s records.'
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 'Q4: How does BANDAI NAMCO collect information from you? A4: As described
+    further below, BANDAI NAMCO''s mobile applications may allow you to voluntarily
+    provide or may automatically collect information from your mobile device, as follows:
+    Voluntarily Provided Information: Some of BANDAI NAMCO''s mobile applications
+    may enable you to voluntarily provide to BANDAI NAMCO, or to its third party service
+    providers, PII and Non-PII, including by: Creating or or logging into a user account
+    through a BANDAI NAMCO mobile application;'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Granting permission to a BANDAI NAMCO mobile application to access
+    various features, other applications, or information stored on your mobile device;
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Allowing a BANDAI NAMCO mobile application to deliver push notifications
+    to you through your mobile device;
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Participating in polls, surveys, questionnaires, contests, sweepstakes,
+    or other promotions offered through a BANDAI NAMCO mobile application; or
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Submitting a request for customer support for a BANDAI NAMCO mobile
+    application.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Some of BANDAI NAMCO's mobile applications may not be accessible to
+    you unless you provide certain requested information, such as your age or date
+    of birth. In some cases, particular features of some BANDAI NAMCO mobile applications
+    may not be accessible or may not function properly unless permitted to access
+    various features, other applications, or information stored on your mobile device,
+    such as your device's GPS, camera, phone, stored images files, microphone or WiFi
+    connection. If you prefer not to provide information or access requested by a
+    BANDAI NAMCO mobile application, you may not be able to enjoy certain features
+    of that mobile application, or to access that mobile application at all.
+  annotations:
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In some cases, particular features of some BANDAI NAMCO mobile
+      applications may not be accessible or may not function properly unless permitted
+      to access various features, other applications, or information stored on your
+      mobile device, such as your device's GPS, camera, phone, stored images files,
+      microphone or WiFi connection.
+    annotations:
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+  - sentence_text: Some of BANDAI NAMCO's mobile applications may not be accessible
+      to you unless you provide certain requested information, such as your age or
+      date of birth.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: 'Automatically Collected Information: BANDAI NAMCO and its third party
+    service providers may use mobile analytics software to collect Non-PII about your
+    usage and the performance of BANDAI NAMCO''s mobile application on your mobile
+    device, which may log and transmit information such as how often you use the mobile
+    application, events that occur within the mobile application, aggregated usage,
+    and where the mobile application was downloaded from. Such Non-PII collected from
+    your device through mobile analytics software is not linked to any PII provided
+    or collected through the mobile application, but may be linked to collected Device
+    Information.'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'Tracking Technologies: In addition to the above information collection
+    activities, BANDAI NAMCO''s mobile applications may also use various technologies,
+    including cookies, web beacons, pixel tags, and log files, to passively or automatically
+    collect information from or about you, your mobile device, and your interactions
+    with various features and functions of BANDAI NAMCO''s mobile applications. Please
+    note that these technologies, once placed on your mobile device or associated
+    with Device Information about your mobile device may be used to persistently identify
+    your mobile device unless removed or reset. Please see the instructions in Section
+    A9, below, about removing or resetting these technologies.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition to the above information collection activities, BANDAI
+      NAMCO's mobile applications may also use various technologies, including cookies,
+      web beacons, pixel tags, and log files, to passively or automatically collect
+      information from or about you, your mobile device, and your interactions with
+      various features and functions of BANDAI NAMCO's mobile applications.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that these technologies, once placed on your mobile
+      device or associated with Device Information about your mobile device may be
+      used to persistently identify your mobile device unless removed or reset.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please see the instructions in Section A9, below, about removing
+      or resetting these technologies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: 'Information Received from Third Parties: BANDAI NAMCO may also be
+    given access to information by third parties that has been collected from or provided
+    by you, through you use of their websites or application, to the extent permitted
+    by such third parties'' applicable privacy policies. Please note that BANDAI NAMCO
+    cannot prevent third party advertisers from obtaining publicly available information
+    about you from your online profiles or other public sources or from linking such
+    information with other information you have provided to them or that they have
+    collected from you other than through BANDAI NAMCO''s mobile applications.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'Q5: How does BANDAI NAMCO use your information? A5: BANDAI NAMCO
+    may use the PII and Non-PII it collects or receives from you in the following
+    ways: To personalize and enhance your experience and to allow BANDAI NAMCO to
+    deliver the type of content and offerings that may be of interest to you;'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: To deliver, provide, update, and maintain the mobile applications;
+    To send you push notifications such as welcome letters, purchase confirmations,
+    or other similar transactional or administrative notices;
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: To establish and maintain customer accounts and billing records; To
+    monitor mobile application performance and statistics; To establish an online
+    account and authenticate you during log-in;
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: To quickly process your requests for information and questions; To
+    administer contests, promotions, surveys, questionnaires, or other feature offered
+    to you;
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: To send you promotional materials; To track the source of your referral
+    to a BANDAI NAMCO mobile application; or
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: For any other compatible or related contemplated by this Privacy Policy,
+    to the extent permitted by applicable law.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 'Q6: With whom does BANDAI NAMCO share your information? A6: BANDAI
+    NAMCO may disclose your information to others, including (in some cases) your
+    PII, in the following situations: To third party service providers, engaged by
+    BANDAI NAMCO to perform services on BANDAI NAMCO''s behalf, such as fulfillment
+    of a contest or sweepstakes, administration of surveys, processing of online transactions,
+    execution and optimization of marketing/advertising campaigns, and management
+    and enhancement of consumer data. These service providers are required to keep
+    confidential and secure any PII disclosed to them and are prohibited from disclosing
+    or using such PII other than to perform a specific task for which they''ve been
+    engaged by BANDAI NAMCO.'
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: To BANDAI NAMCO's affiliated companies, including BANDAI NAMCO's subsidiaries,
+    parent company, or other foreign affiliates. This allows BANDAI NAMCO to get a
+    better understanding of who BANDAI NAMCO's consumers are worldwide, improve BANDAI
+    NAMCO's products based on global needs and interests, and market BANDAI NAMCO's
+    products using local resources and based on local interests.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 'To third party advertisers, to show you BANDAI NAMCO banner ads when
+    you visit other, third party applications. To do this more efficiently, the third
+    party advertiser may use and place on your device certain web technologies, such
+    as web beacons or mobile analytics, to collect from you Non-PII (in most cases,
+    certain Device Information) while you use BANDAI NAMCO''s mobile applications
+    or other applications participating in the same third party advertiser''s ad network.
+    This information is then used to display advertisements about goods and services
+    (whether offered by BANDAI NAMCO or other companies) more likely to be of interest
+    to you when you visit other applications or websites participating in the same
+    advertising network. If you would like to learn more about this practice or how
+    you can opt out from allowing third party advertisers to gather this information
+    from you or use it to provide you tailored ads on other sites, please visit the
+    Network Advertising Initiative (NAI)''s website at: http://networkadvertising.org/consumer/opt_out.asp.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To do this more efficiently, the third party advertiser may use
+      and place on your device certain web technologies, such as web beacons or mobile
+      analytics, to collect from you Non-PII (in most cases, certain Device Information)
+      while you use BANDAI NAMCO's mobile applications or other applications participating
+      in the same third party advertiser's ad network.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 34
+  segment_text: To a successor or acquiring company, if BANDAI NAMCO is bought or
+    acquired by another company (either fully or partially), merged with another company,
+    or experiences a reorganization, bankruptcy, or other similar event. If any of
+    these events occur, your information may be shared with BANDAI NAMCO's successor
+    or assign (i.e., the new company or the company that takes over), subject to the
+    notification procedures set forth in Section A11, below.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 'To a court, agency, or litigant, only as permitted or required by
+    law, or when BANDAI NAMCO believes in good faith that it is necessary: (i) to
+    protect the safety or security of you, BANDAI NAMCO, BANDAI NAMCO''s employees
+    or contractors, BANDAI NAMCO''s users, or the property of any of the foregoing;
+    or (ii) to enforce BANDAI NAMCO''s end user license agreement, terms of use, rules
+    (such as contest, sweepstakes, promotions, or game rules), or its agreements with
+    third parties.'
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Subject to the exclusions identified above, BANDAI NAMCO will not
+    actively share your PII with third party advertisers for their direct marketing
+    purposes without your consent, which may given by your acceptance of the end user
+    license agreement for a particular BANDAI NAMCO mobile application, provided that
+    the sharing of your PII for such purpose is expressly set forth in such end user
+    license agreement. BANDAI NAMCO may use and share Non-PII provided by or collected
+    from you with third parties, as permitted by the terms of this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 'Q7: Will third parties collect information through BANDAI NAMCO''s
+    mobile applications?'
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 'A7: BANDAI NAMCO may, from time to time, give certain third party
+    service providers limited amounts of "real estate" in BANDAI NAMCO''s mobile applications,
+    which may enable them interact with and collect information from you directly.
+    These situations include the integration of social networking functions, the appearance
+    of third party advertising, and the use of application performance monitoring,
+    customer support and user retention tracking tools, in BANDAI NAMCO''s mobile
+    applications, as described below: Social Networking: BANDAI NAMCO may provide
+    access to operators of certain third party social networks (which may include
+    Facebook, Twitter, and others) to enable you to share information about BANDAI
+    NAMCO''s mobile applications with other members of those social networks, to generate
+    interest about BANDAI NAMCO''s mobile applications with other members of those
+    social networks and to allow you to get a sense for which of BANDAI NAMCO''s mobile
+    applications you and your friends may have a shared interest. The use of any functionality
+    made available to you by a third party social network may result in information
+    being collected about you by BANDAI NAMCO or by the operator of the third party
+    social network. Information collected by BANDAI NAMCO through any such functionality
+    will be treated in accordance with this Privacy Policy, but any third party''s
+    collection or use of that information may be subject to its own privacy policy,
+    which may contain restrictions and allow uses that differ from those described
+    in this Privacy Policy. BANDAI NAMCO is unable to make any promises or guarantees
+    regarding the use or security of any information shared with the operator of a
+    third party social network and recommends reviewing all applicable policies of
+    such third parties before sharing such information.'
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: BANDAI NAMCO may, from time to time, give certain third party service
+      providers limited amounts of "real estate" in BANDAI NAMCO's mobile applications,
+      which may enable them interact with and collect information from you directly.
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: 'These situations include the integration of social networking
+      functions, the appearance of third party advertising, and the use of application
+      performance monitoring, customer support and user retention tracking tools,
+      in BANDAI NAMCO''s mobile applications, as described below:'
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: 'Third Party Advertising: BANDAI NAMCO''s mobile applications may
+    also include third party advertising such as interstitial, static, and video advertisements,
+    as well as "offer walls." Certain third party advertisers listed in Section A9,
+    below, may collect certain Device Information (such as your device''s unique device
+    identifier (UDID), Google Advertising ID (GAID), Android ID, ID for Advertisers
+    (IDFA), ID for Vendors (IDFV), MAC address, International Mobile Equipment Identity
+    (IMEI) or your IP address) to analyze your interest in advertisements displayed
+    to you and to serve other advertisements more likely to appeal to your interests.
+    If you have previously interacted with advertisements displayed by the same third
+    party advertisers through other applications or websites, they may link your Device
+    Information to other Non-PII they''ve previously collected from or been provided
+    with by you. BANDAI NAMCO is unable to make any promises or guarantees regarding
+    such third party''s use or the security of any Device Information collected or
+    used by a third party advertiser in this manner, but prohibits such third parties
+    from using Device Information collected through your interactions with a BANDAI
+    NAMCO mobile application for the benefit of any third party. Please refer to the
+    instructions provided in Section A9, below, if you would prefer to "opt out" from
+    having these third party advertisers use your Device Information to serve interest-based
+    advertisements to you, or if you would like to reset your certain Device Information
+    they may have collected from you for that purpose. Advertisements displayed in
+    BANDAI NAMCO''s mobile applications may also contain links to third party websites
+    and applications and your interaction with such advertisements may take you outside
+    of BANDAI NAMCO''s mobile applications and may result in information being collected
+    about you by BANDAI NAMCO, by the third party serving such advertisements, by
+    the advertiser, or by the distributor of any advertised applications. Once you
+    interact with an advertisement, whether or not you interacting with features outside
+    of BANDAI NAMCO''s mobile application, this Privacy Policy will no longer apply
+    to any information collected by or provided to such the third party advertiser
+    through such interactions. Information shared with or collected by BANDAI NAMCO
+    through such interactions will be treated in accordance with this Privacy Policy,
+    but any third party''s collection or use of that information may be subject to
+    its own privacy policy, which may contain restrictions and allow uses that differ
+    from those described in this Privacy Policy. BANDAI NAMCO is unable to make any
+    promises or guarantees regarding the use or security of any information shared
+    with or collected by a third party through your interaction with any advertisements
+    in BANDAI NAMCO''s mobile applications and recommends reviewing all applicable
+    policies of such third parties before interacting with any advertisements they
+    display.'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain third party advertisers listed in Section A9, below, may
+      collect certain Device Information (such as your device's unique device identifier
+      (UDID), Google Advertising ID (GAID), Android ID, ID for Advertisers (IDFA),
+      ID for Vendors (IDFV), MAC address, International Mobile Equipment Identity
+      (IMEI) or your IP address) to analyze your interest in advertisements displayed
+      to you and to serve other advertisements more likely to appeal to your interests.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_3rdParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: 'Application Performance Monitoring, Customer Support, and User Retention
+    Tracking: BANDAI NAMCO''s mobile applications may also include third party tools
+    that enable BANDAI NAMCO or its third party service providers to monitor the performance
+    of such mobile applications on your device, track the frequency and nature of
+    your use of such mobile applications, and provide you with access to customer
+    support for such mobile applications. When using a BANDAI NAMCO mobile application
+    that provides integrated access to third party customer support service, any information
+    you share with the operator of such third party customer support service may be
+    subject to the privacy policy of the operator of such service, which may contain
+    restrictions and allow uses that differ from those described in this Privacy Policy.
+    Information shared with or collected by BANDAI NAMCO through such other third
+    party tools will be treated in accordance with this Privacy Policy, but any third
+    party''s collection or use of that information may be subject to its own privacy
+    policy, which may contain restrictions and allow uses that differ from those described
+    in this Privacy Policy. BANDAI NAMCO is unable to make any promises or guarantees
+    regarding the use or security of any information shared with or collected by a
+    third party through such tools in BANDAI NAMCO''s mobile applications and recommends
+    reviewing all applicable policies of such third parties.'
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 'Q8: What kinds of security measures does BANDAI NAMCO take to safeguard
+    your PII?'
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 'A8: The security of your PII is important to us. BANDAI NAMCO generally
+    follows accepted standards to protect the PII submitted to us, both during transmission
+    and after it is received. If you have any questions about the security of your
+    PII, you can contact BANDAI NAMCO at the email address listed below.'
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 'Q9: How can you update or change information you''ve provided to
+    BANDAI NAMCO or that BANDAI NAMCO has collected from you?'
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 'A9: If you are using a BANDAI NAMCO mobile application that allows
+    you to create a user account, the information you shared with BANDAI NAMCO when
+    creating your account can be accessed or updated by logging into your user account
+    through such mobile application (for example, these areas may be labeled as "My
+    Account," "Edit Profile," "Settings," or other similar names). With certain mobile
+    applications, BANDAI NAMCO may give you the ability to access certain information
+    that''s been associated with your user account. If you are using a BANDAI NAMCO
+    mobile application that does not allow you to create a user account, does not
+    provide access to information associated with your user account, or does not allow
+    you to modify information provided to or collected from you, the following additional
+    options are available to you: Opting out from push notifications: BANDAI NAMCO
+    may send you push notifications through certain BANDAI NAMCO mobile applications.
+    If you no longer wish to receive these types of notifications you may opt-out
+    at any time by turning them off at the device level.'
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: 'Opting out from interest-based advertisements served by certain third
+    party advertisers: Please refer to the instructions at the following URLs to opt
+    out of interest-based advertisements that may be served by the following third
+    party advertisers: AdColony: http://www.adcolony.com/privacy-policy/opt-out/ AdMob:
+    https://www.google.com/ads/preferences/html/mobile-about.html Chartboost: https://answers.chartboost.com/hc/en-us/articles/200780269-Privacy-Policy
+    Fiksu: https://www.fiksu.com/end-user-opt-out Yahoo! / Flurry: https://dev.flurry.com/secure/optOut.do
+    Fyber: https://www.fyber.com/privacypolicy-en.html HeyZap: http://www.heyzap.com/legal/privacy
+    InMobi: http://www.inmobi.com/page/opt-out/ Millennial Media: http://www.millennialmedia.com/privacy-policy/opt-out
+    Ogury: http://www.ogury.co/privacy.html Tapjoy: https://home.tapjoy.com/info/third-party-opt-out/
+    Unity: https://unity3d.com/legal/privacy-policy Upsight: http://www.upsight.com/pricing/terms-of-service/
+    Tune: https://www.optoutmobile.com Resetting your device''s mobile advertising
+    ID: Please follow these instructions to opt out of interest-based advertising
+    or to reset the advertising identifier on your mobile device: For iOS devices:
+    To opt-out or change the settings, on your iOS device, open the Settings app,
+    select the "Privacy" category, and tap the "Advertising" option at the bottom
+    of the screen. Activate the "Limit Ad Tracking" option to disable interest-based
+    ads or tap "Reset Advertising Identifier" if you''d like to continue seeing interest-based
+    ads in the future but wipe your existing profile.'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: '/ Flurry: https://dev.flurry.com/secure/optOut.do Fyber: https://www.fyber.com/privacypolicy-en.html
+      HeyZap: http://www.heyzap.com/legal/privacy InMobi: http://www.inmobi.com/page/opt-out/
+      Millennial Media: http://www.millennialmedia.com/privacy-policy/opt-out Ogury:
+      http://www.ogury.co/privacy.html Tapjoy: https://home.tapjoy.com/info/third-party-opt-out/
+      Unity: https://unity3d.com/legal/privacy-policy Upsight: http://www.upsight.com/pricing/terms-of-service/
+      Tune: https://www.optoutmobile.com Resetting your device''s mobile advertising
+      ID: Please follow these instructions to opt out of interest-based advertising
+      or to reset the advertising identifier on your mobile device: For iOS devices:
+      To opt-out or change the settings, on your iOS device, open the Settings app,
+      select the "Privacy" category, and tap the "Advertising" option at the bottom
+      of the screen.'
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: Activate the "Limit Ad Tracking" option to disable interest-based
+      ads or tap "Reset Advertising Identifier" if you'd like to continue seeing interest-based
+      ads in the future but wipe your existing profile.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Opting out from interest-based advertisements served by certain
+      third party advertisers: Please refer to the instructions at the following URLs
+      to opt out of interest-based advertisements that may be served by the following
+      third party advertisers: AdColony: http://www.adcolony.com/privacy-policy/opt-out/
+      AdMob: https://www.google.com/ads/preferences/html/mobile-about.html Chartboost:
+      https://answers.chartboost.com/hc/en-us/articles/200780269-Privacy-Policy Fiksu:
+      https://www.fiksu.com/end-user-opt-out Yahoo!'
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: To disable location-based ads open the "Settings" screen, select the
+    "Privacy" category, and tap "Location Services." Tap the "System Services" option
+    at the bottom of the list and disable "Location-based iAds."
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Tap the "System Services" option at the bottom of the list and
+      disable "Location-based iAds."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: To disable location-based ads open the "Settings" screen, select
+      the "Privacy" category, and tap "Location Services."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 47
+  segment_text: 'For Android devices: Go to your Google Setting app. Tap "Ads" under
+    Services and enable the "Opt out of interest-based ads" option. You can also reset
+    your advertising ID from that menu by tapping "Reset advertising ID."'
+  annotations:
+  - practice: Identifier_Ad_ID_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For Android devices: Go to your Google Setting app.'
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: Tap "Ads" under Services and enable the "Opt out of interest-based
+      ads" option.
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can also reset your advertising ID from that menu by tapping
+      "Reset advertising ID."
+    annotations:
+    - practice: Identifier_Ad_ID_3rdParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: 'Contacting BANDAI NAMCO: For additional help with questions, requests
+    or concerns regarding information collected from or provided by you through any
+    of BANDAI NAMCO''s mobile applications, you can always email BANDAI NAMCO at:
+    privacy@bandainamcoent.com. BANDAI NAMCO will respond to all requests received
+    within a reasonable timeframe. Please note that exercising the above options,
+    such as "opting out" of interest-based advertisements, will not stop ads from
+    appearing in BANDAI NAMCO''s mobile applications, will not necessarily prevent
+    third parties from serving personalized ads to you in other contexts, such as
+    through other devices or applications. Nonetheless, while BANDAI NAMCO cannot
+    guarantee that all third party advertisers will diligently honor any opt out request
+    you submit, we invite you to contact us at the above email address, if you feel
+    that any third party advertiser has continued serving interest-based advertisements
+    to you after you''ve submitted such a request.'
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 'Q10: How can you ask questions, or send BANDAI NAMCO comments, about
+    this Privacy Policy?'
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 'A10: If you have questions or wish to send BANDAI NAMCO comments
+    about this Privacy Policy, please e-mail or contact BANDAI NAMCO at: BANDAI NAMCO
+    Entertainment America Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: 'Attn.: Privacy Policy Administrator 2051 Mission College Boulevard
+    Santa Clara, CA 95054 (408) 235-2000 privacy@bandainamcoent.com Any PII you provide
+    to the above e-mail and postal mail addresses will not be used to send you promotional
+    materials, unless you request it.'
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 'Q11: How will you know if BANDAI NAMCO changes this Privacy Policy?'
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 'A11: BANDAI NAMCO may amend this Privacy Policy at any time. If BANDAI
+    NAMCO make any material changes in how BANDAI NAMCO collect, use, or share your
+    PII, BANDAI NAMCO will prominently post notice of the changes within the mobile
+    applications covered by this Privacy Policy or contact you by email (at the e-mail
+    address tied to your account). Any material changes to this Privacy Policy will
+    be effective 30 days following BANDAI NAMCO''s posting of notice of the changes
+    within the mobile applications covered by this Privacy Policy. Please note that
+    it is your responsibility to keep your BANDAI NAMCO account information (including
+    your email address) current and accurate, and to notify BANDAI NAMCO if your email
+    account ever changes or is terminated. BANDAI NAMCO assumes no responsibility
+    for misdirected messages (i.e., messages sent to an email account which you no
+    longer own). Misdirected messages could reveal PII about you to unintended third
+    parties.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Any material changes to this Privacy Policy will be effective 30
+      days following BANDAI NAMCO's posting of notice of the changes within the mobile
+      applications covered by this Privacy Policy.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: BANDAI NAMCO assumes no responsibility for misdirected messages
+      (i.e., messages sent to an email account which you no longer own).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: BANDAI NAMCO may amend this Privacy Policy at any time.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If BANDAI NAMCO make any material changes in how BANDAI NAMCO collect,
+      use, or share your PII, BANDAI NAMCO will prominently post notice of the changes
+      within the mobile applications covered by this Privacy Policy or contact you
+      by email (at the e-mail address tied to your account).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that it is your responsibility to keep your BANDAI
+      NAMCO account information (including your email address) current and accurate,
+      and to notify BANDAI NAMCO if your email account ever changes or is terminated.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 54
+  segment_text: 'Q12: I am a resident of California. What does that mean for me?'
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: 'A12: California Residents: Your California Privacy Rights: Subject
+    to the terms of this Privacy Policy, BANDAI NAMCO does not share PII with third
+    parties for their direct marketing purposes unless you affirmatively agree to
+    such disclosure, typically by "opting in" to receive information from a third
+    party that is participating in a sweepstakes or other promotion on one of BANDAI
+    NAMCO''s mobile applications. If you opt in to having BANDAI NAMCO share your
+    PII with a third party for its marketing purposes, BANDAI NAMCO will only share
+    information in connection with that specific promotion. To prevent disclosure
+    of your PII for use in direct marketing by a third party, do not opt in to such
+    use when you provide PII on one of BANDAI NAMCO''s mobile applications.'
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: If you are a California resident, you may have the right to request
+    and receive certain information about BANDAI NAMCO's disclosure of your PII to
+    third parties for their direct marketing purposes, and your choices with respect
+    to such disclosures. Because it is BANDAI NAMCO's policy not to share your PII
+    with third parties unless you are first given the opportunity to at least opt-out
+    from such sharing (though in many cases BANDAI NAMCO will ask for your opt-in
+    for such sharing, as described in this Privacy Policy), BANDAI NAMCO are exempt
+    from having to meet this requirement. If you still wish to learn more about BANDAI
+    NAMCO's compliance with this requirement, please contact BANDAI NAMCO using the
+    contact information provided above.
+  annotations: []
+  sentences: []

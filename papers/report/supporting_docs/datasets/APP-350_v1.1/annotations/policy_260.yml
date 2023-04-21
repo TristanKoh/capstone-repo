@@ -1,0 +1,2115 @@
+policy_id: 260
+policy_name: Lookout
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: Products Mobile Endpoint Security App Security Personal Threat Intelligence
+    See All Products arrow_forward Services Lookout App Security Assessment Lookout
+    Threat Advisory See Lookout Services arrow_forward Why Lookout? Insights Blogs
+    Customers Events See All Resources arrow_forward About Life at Lookout Careers
+    Leadership Partners Privacy & Security Foundation Contact Us About Us arrow_forward
+    Log In Personal Enterprise Partners Log In
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Lookout Privacy Policy Effective Date: November 15, 2016 A lot of
+    companies say they care about your privacy - we say it and mean it!'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: This document is our Privacy Policy, which describes what information
+    we collect from you and how we use it. It is part of the Lookout Terms of Service
+    (available at www.lookout.com/legal/terms). Our Privacy Policy applies to our
+    websites (including at www.lookout.com and our mobile websites), our mobile application,
+    and all other Lookout Services (as that term is defined in our Terms of Service).
+    It covers personal information, which is information we can link to you personally.
+    Personal Information ("PI") includes data like your name, email address, phone
+    number, or mobile device's unique identifier, among other things.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: It covers personal information, which is information we can link
+      to you personally.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: It is part of the Lookout Terms of Service (available at www.lookout.com/legal/terms).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Our Privacy Policy applies to our websites (including at www.lookout.com
+      and our mobile websites), our mobile application, and all other Lookout Services
+      (as that term is defined in our Terms of Service).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Personal Information ("PI") includes data like your name, email
+      address, phone number, or mobile device's unique identifier, among other things.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: This document is our Privacy Policy, which describes what information
+      we collect from you and how we use it.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: Lookout reserves the right to change this Privacy Policy to reflect
+    changes in the law, our data collection and use practices, the features of our
+    services, or advances in technology. Please check this page periodically for changes.
+    By continuing to use our services, you accept those changes and agree to be bound
+    by the updated policy. Please contact us at privacy@lookout.com if you have any
+    questions about this Privacy Policy. We Collect Information From You to Provide
+    You with a Service Information Lookout Collects What You Should Know About Specific
+    Products Cookie Policy How We Use the Information We Collect Your Choices Data
+    Retention Policy Information Posted to Our Blog and Community Forum Is Public
+    We Take Security Seriously You Are Responsible for Maintaining the Accuracy and
+    Confidentiality of Your Email Address and Password Notice to California Users
+    International Visitors and the Privacy Shield Users Under 13 We Are Not Responsible
+    for Content on Third-Party Websites This Privacy Policy Will Apply Upon Change
+    in Control We Post Updates on Our Website Whenever This Policy Changes Contact
+    Us if You Have Any Questions or Concerns
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You Are Responsible for Maintaining the Accuracy and Confidentiality
+      of Your Email Address and Password
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: 1. We Collect Information to Provide You with Lookout Services
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We are committed to only collecting the information necessary to provide
+    and improve Lookout Services. When we do collect your information, we store it
+    and associate it with your account unless otherwise noted. We take your privacy
+    very seriously and will only use and disclose this information as described in
+    this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Note that some of our products are standalone products, collect only
+    limited information or no information at all. Not every section of this Privacy
+    Policy will apply to these products.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: 2. Information Lookout Collects a. Registration Information To create
+    an account, you must provide your email address and a password. You may also enter
+    your mobile phone number on our website to initiate a text message with directions
+    on how to download the app and register.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To create an account, you must provide your email address and a
+      password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: You may also enter your mobile phone number
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: b. Credit Card Information If you purchase a Lookout Service subscription
+    directly from us, we collect your credit card number, expiration date, security
+    code and other applicable billing information. We use this information to bill
+    you for services. Lookout uses third-party payment processors and therefore has
+    only limited information about your payment transactions.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: c. Device Information When you use Lookout Services, our servers automatically
+    record certain information about your mobile device. This information may include
+    an equipment identifier (e.g., IMEI, UDID), subscriber identifier (e.g., IMSI),
+    device name, mobile phone number, device type and manufacturer, operating system
+    type and version, wireless carrier/operator, network type, country of origin,
+    Internet Protocol ("IP") address, and the dates and times of your requests. We
+    use this information to provide our services, and support if needed, and to create
+    de-identified or aggregate information about our users. For example, collecting
+    your device's phone number allows the service to contact your phone via SMS when
+    you locate your phone from the Lookout web application.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMSI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information may include an equipment identifier (e.g., IMEI,
+      UDID), subscriber identifier (e.g., IMSI), device name, mobile phone number,
+      device type and manufacturer, operating system type and version, wireless carrier/operator,
+      network type, country of origin, Internet Protocol ("IP") address, and the dates
+      and times of your requests.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use Lookout Services, our servers automatically record
+      certain information about your mobile device.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: d. Employment Application Information If you wish to fill out our
+    employment application form, we will ask for information, including your name,
+    email address, phone number, and allow you to upload your resume and cover letter.
+    We use this information to determine if you are an eligible candidate for an available
+    position, to contact you to set up an interview if appropriate and to follow up
+    with you about your application experience.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you wish to fill out our employment application form, we will
+      ask for information, including your name, email address, phone number, and allow
+      you to upload your resume and cover letter.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: e. Social Media Features Our website includes social media Features
+    ("Features"), like the Facebook recommend button or interactive mini-programs
+    that run on our site. If you use these Features, they will collect your IP address,
+    which page you are visiting on our site, and set a cookie to enable the Feature
+    to function properly. Features may be hosted by a third party or hosted directly
+    on our site. Your interactions with these Features are governed by the privacy
+    policy of the company providing the Feature, not by Lookout's Privacy Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you use these Features, they will collect your IP address, which
+      page you are visiting on our site, and set a cookie to enable the Feature to
+      function properly.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Our website includes social media Features ("Features"), like the
+      Facebook recommend button or interactive mini-programs that run on our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: f. Information About Your Use of Lookout Services on Your Phone
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We use analytics software so that we can improve the features and
+    usability of our products. This software may analyze information such as how often
+    you use the application, the events that occur within the application, and where
+    the application was downloaded. We may also use such information to show you relevant
+    content and suggest new features, products and services that can enhance your
+    use of the Lookout Service. We do not link the information we store within the
+    analytics software to any personally identifiable information you submit within
+    the mobile app.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: g. Information About Your Use of Lookout's Websites (including Mobile
+    Websites) and Emails
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: We use analytics services to measure how people use our website and
+    emails so that we can improve our products and services and provide more relevant
+    content to you. Analytics services may work by embedding invisible images that
+    are associated with unique identifiers on our site, by using cookies or other
+    local device storage or by using web beacons, web bugs, clear gifs, and similar
+    tracking technologies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytics services may work by embedding invisible images that
+      are associated with unique identifiers on our site,
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use analytics services to measure how people use our website
+      and emails so that we can improve our products and services and provide more
+      relevant content to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: h. Premium Content & Promotions We may ask for your email address
+    and other contact information in order to access various Lookout content, such
+    as whitepapers, videos, or other research materials, to participate in surveys,
+    contests, promotions, or sweepstakes, or to obtain additional information about
+    Lookout services and products. This information will be used to provide you with
+    additional information on products and services from Lookout or our business partners,
+    which might be of interest to you. You can choose not to receive such marketing
+    communications by clicking on the unsubscribe link in our emails, as further described
+    below.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: This information will be used to provide you with additional information
+      on products and services from Lookout or our business partners, which might
+      be of interest to you.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You can choose not to receive such marketing communications by
+      clicking on the unsubscribe link in our emails, as further described below.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: h. Premium Content & Promotions We may ask for your email address
+      and other contact information in order to access various Lookout content, such
+      as whitepapers, videos, or other research materials, to participate in surveys,
+      contests, promotions, or sweepstakes, or to obtain additional information about
+      Lookout services and products.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: i. Location Information Some features we offer work better if we know
+    what area you are in. Lookout may collect location information in two ways. We
+    may receive it directly from your mobile device, or, in some situations, we may
+    receive location data from cell tower or Wi-Fi hotspot information. We may use
+    third-party service providers to translate that information into usable location
+    information.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Lookout may collect location information in two ways.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Some features we offer work better if we know what area you are
+      in.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: We may receive it directly from your mobile device, or, in some
+      situations, we may receive location data from cell tower or Wi-Fi hotspot information.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: j. Other Information You Provide to Us To the extent you use our products
+    or services to voluntarily provide us with any other information, we may collect
+    such information and use it for the purposes for which you provided such information,
+    or as otherwise provided in this Privacy Policy. We also collect information described
+    in the following section.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: 3. What You Should Know About Specific Products This section provides
+    additional information about specific services and features that are part of the
+    Lookout Services. The information is used as described in this section and in
+    the section entitled "How We Use the Information We Collect" below.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: a. Security and Anti-Virus Lookouts Security features, which are available
+    on different platforms, help protect your device from malware and spyware. They
+    scan files and applications after you install Lookout Security and as new applications
+    are installed or accessed to detect any threats to you and your mobile device.
+    They also automatically scan your entire device periodically, and regularly update
+    your threat definitions. In order to perform these functions, we need to collect
+    information about the applications and files present on your device, the results
+    of any scans performed by our services, and actions you take as a result of scanning.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 'What types of information does Lookout Security collect: Information
+    about the type of device you are using and the operating system you are running
+    Lookout''s Security features collect information about the type of device and
+    operating system you are running so that we can both improve our products and
+    also give you more accurate information about malware and spyware that might affect
+    you and your device(s). Information about scans and scan results.'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We collect information about the applications on your device in order
+    to conduct scans and to download copies of scanned files. This may include downloading
+    a copy of part or entire copies of application files on your device if we encounter
+    an application that we have not previously analyzed. We may also collect information
+    about how applications behave on your device (e.g., whether an application is
+    sending premium-rate text messages that charge money to your phone bill) and the
+    network services with which your applications communicate, in order to determine
+    if any applications are behaving maliciously (e.g., whether an application is
+    talking to a server known to host phishing websites). Each time Lookout performs
+    a scan, we collect information that describes what files and applications are
+    identified by the scan as potentially undesirable and your choice for remediation
+    of those files (e.g., uninstall or ignore).
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'How the information collected by Lookout Security is used: Our purpose
+    in collecting application data and security scan data is to provide you with protections
+    to help keep you and your data safe and to optimize and improve our Lookout Services.'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: We may aggregate your data with other customers' data in non-personally
+    identifiable, aggregated, and de-identified form to better understand current
+    malware and spyware threats and to improve the Lookout Security features and service.
+    We may also share this de-identified aggregated data publicly, in order to help
+    others understand mobile threats and gain insights into particular mobile applications.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: b. Backup Lookout Backup stores copies of data that you choose to
+    back up from your phone.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: 'What types of information Backup collects: Backup Data.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Lookout Backup transmits a copy of the data you choose to back up
+    to on your device to a server using an encrypted protocol. The data may include
+    your contacts, call history, pictures, and other data. Lookout Backup automatically
+    backs up your data weekly or daily, based on your settings, can enable a data
+    to transfer to a new or existing phone, and allows you to retrieve your data any
+    time from Lookout.com.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Lookout Backup automatically backs up your data weekly or daily,
+      based on your settings, can enable a data to transfer to a new or existing phone,
+      and allows you to retrieve your data any time from Lookout.com.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: Lookout Backup transmits a copy of the data you choose to back
+      up to on your device to a server using an encrypted protocol.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+  - sentence_text: The data may include your contacts, call history, pictures, and
+      other data.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 28
+  segment_text: 'How the information that Backup collects is used: If you use Lookout
+    Backup, we will use the data you provide to deliver the Lookout Backup service.
+    In order to notify you in the case of malicious behavior on your phone, Lookout
+    may also scan both the data that is stored on your phone and backed up to our
+    servers.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: c. Missing Device Lookout's Missing Device service helps you find
+    and secure your lost or stolen phone or tablet. You can locate your phone on a
+    map using location information provided by your phone, activate a loud siren even
+    if your volume is muted so that you can find a phone lost nearby, wipe your phone,
+    or lock your phone. Features and settings are controlled through our website at
+    Lookout.com.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Features and settings are controlled through our website at Lookout.com.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You can locate your phone on a map using location information provided
+      by your phone, activate a loud siren even if your volume is muted so that you
+      can find a phone lost nearby, wipe your phone, or lock your phone.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: c. Missing Device Lookout's Missing Device service helps you find
+      and secure your lost or stolen phone or tablet.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: 'What types of information Missing Device collects: We collect location
+    data from your device in order to provide this service to you.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'What types of information Missing Device collects: We collect
+      location data from your device in order to provide this service to you.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: 'How the information that Missing Device collects is used: Our purpose
+    in collecting this information is to provide you with the location of your device
+    when you request it. If you activate the locate feature in Missing Device, your
+    browser will send location information to third-party map providers (e.g. Google
+    Maps) in order to display a map of the location within your Lookout account webpage.
+    When activating this feature, we track the device''s location for several minutes
+    in order to provide an accurate location for you. This information is retained
+    in your account history so you can use it to help find your device.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When activating this feature, we track the device's location for
+      several minutes in order to provide an accurate location for you.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 32
+  segment_text: d. Signal Flare Signal Flare collects and stores information in the
+    same way as Missing Device (see above). If you have enabled Signal Flare, it collects
+    location information and sends it back to Lookout when your battery is running
+    low. After which, we save the phone's location at the time we received the low
+    battery alert to Lookout.com. This feature will help you locate your phone near
+    its last known location if you lose it and its battery dies.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you have enabled Signal Flare, it collects location information
+      and sends it back to Lookout when your battery is running low.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 33
+  segment_text: e. Safe Browsing Safe Browsing is a feature available when using the
+    Android default browser, the Chrome browser and other supported browsers. Safe
+    Browsing is designed to identify and warn you of unsafe websites so that you can
+    choose to avoid visiting them. It scans URLs that you visit on supported browsers
+    and may also scan URLs you receive on your phone (e.g. via SMS).
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 'What types of information Safe Browsing collects: URLs.'
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: To provide the Safe Browsing service, we may transmit the URLs you
+    receive or visit on your phone to a Lookout-provided or third-party service to
+    determine if those URLs are unsafe (e.g., if the URLs contain phishing attacks,
+    malwares, or exploits). If a URL you visit is determined to be unsafe, we store
+    a record of the unsafe URL.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 'How the information that Safe Browsing collects is used: We use the
+    record of unsafe URLs you visit (1) to provide you with notice that you attempted
+    to reach an unsafe site (e.g., when you log in to the Lookout website or via email)
+    and (2) to improve our product and conduct analysis. If you do not want us to
+    record the unsafe URLs you visit, you may turn Safe Browsing off; all other Lookout
+    features will continue to function.'
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 'f. Theft Alerts Lookout''s Theft Alerts feature uses your device''s
+    camera and location features to help you figure out where your device might be
+    (and who might have it) in the event that your device is lost or stolen. If Theft
+    Alerts is activated, the application monitors certain device behaviors to trigger
+    user alerts, which may include: Incorrect password entries on your device or Lookout
+    mobile application''s lock screen; Removal or change of SIM cards; Enablement
+    of airplane mode; Disablement of Lookout device administrator capabilities (via
+    device settings or through the mobile application); and Powering down the device
+    (not through a battery event).'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'If Theft Alerts is activated, the application monitors certain
+      device behaviors to trigger user alerts, which may include: Incorrect password
+      entries on your device or Lookout mobile application''s lock screen; Removal
+      or change of SIM cards; Enablement of airplane mode; Disablement of Lookout
+      device administrator capabilities (via device settings or through the mobile
+      application); and Powering down the device (not through a battery event).'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Theft Alerts Lookout's Theft Alerts feature uses your device's
+      camera and location features to help you figure out where your device might
+      be (and who might have it) in the event that your device is lost or stolen.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: Theft Alerts starts Backup and activates your device's camera remotely,
+    without sound or other notification, and sends the resulting picture and its GPS
+    coordinates to the email address associated with your account. For example, if
+    someone steals your phone and fails to enter your correct password within three
+    attempts, removes your SIM card, or powers off your device, Theft Alerts could
+    allow you to see what they look like and figure out where they are without alerting
+    them.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Theft Alerts starts Backup and activates your device's camera remotely,
+      without sound or other notification, and sends the resulting picture and its
+      GPS coordinates to the email address associated with your account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: "What types of information does Theft Alerts collect, if activated:\
+    \ Passcode entry attempts and other technical device data. \u2022 In addition\
+    \ to the photographic and location information described above, the application\
+    \ keeps track of the device behaviors that trigger Theft Alerts."
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'What types of information does Theft Alerts collect, if activated:
+      Passcode entry attempts and other technical device data.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: "\u2022 In addition to the photographic and location information\
+      \ described above, the application keeps track of the device behaviors that\
+      \ trigger Theft Alerts."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 40
+  segment_text: 'How the information that Theft Alerts collects is used: When Theft
+    Alerts is activated and a photo is taken, the picture and location data are stored
+    briefly on our servers so we can send you an email with the picture and a map
+    of your device''s location. The picture is then deleted from our server. We send
+    the email to the address associated with your account (or for Group Plans, to
+    the address associated with the device that took the photo), so remember to keep
+    your email address up to date in your account settings. We use technical information
+    about Theft Alert''s activities on your device to study, optimize, and troubleshoot
+    our products.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When Theft Alerts is activated and a photo is taken, the picture
+      and location data are stored briefly on our servers so we can send you an email
+      with the picture and a map of your device's location.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 41
+  segment_text: g. Group Plans Group Plans link multiple devices to one master account
+    that controls the Group Plan owner's device as well as certain features of devices
+    associated with the Group Plan. Users of the additional devices on the plan retain
+    their own unique accounts, but Group Plan owners have control over some functions
+    of Group Plan members' devices, as described below.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 'What types of information Group Plans collect: Lookout does not collect
+    any additional information from users in Group Plans.'
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 'How the information that Group Plans collects is used: In a Group
+    Plan, such as a Family Plan, one master user has authority to perform certain
+    functions on devices belonging to other members of the group. For example, in
+    a Family Plan, a parent device may be able to lock, wipe, or locate a child''s
+    device. The latter feature would allow a parent to access data about the child''s
+    device in the section on "Missing Device." A parent device having authority over
+    other Group Plan users, generally does not have access to the data on a child''s
+    device unless, for example, the data on the device is downloaded and transferred
+    to another device to which the parent phone has access.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A parent device having authority over other Group Plan users, generally
+      does not have access to the data on a child's device unless, for example, the
+      data on the device is downloaded and transferred to another device to which
+      the parent phone has access.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, in a Family Plan, a parent device may be able to lock,
+      wipe, or locate a child's device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'How the information that Group Plans collects is used: In a Group
+      Plan, such as a Family Plan, one master user has authority to perform certain
+      functions on devices belonging to other members of the group.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: The latter feature would allow a parent to access data about the
+      child's device in the section on "Missing Device."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 44
+  segment_text: Users must agree to give the "parent" this functionality. You can
+    determine if your device is part of a Group Plan by checking the settings on your
+    device.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: h. Customer Care Web Application If your mobile operator participates
+    in our Customer Care Web Application program, you can call your mobile operator
+    to find and secure your phone or tablet if it is lost or stolen.
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: 'What types of user information does the Customer Care Web Application
+    collect: Your phone number, if available, and information about the type of device
+    and operating system you are using to ensure that customer service representatives
+    accurately identify and manage the remote functions on your device.'
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'What types of user information does the Customer Care Web Application
+      collect: Your phone number, if available, and information about the type of
+      device and operating system you are using to ensure that customer service representatives
+      accurately identify and manage the remote functions on your device.'
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 47
+  segment_text: "How the information is used: Customer Care Web Application enables\
+    \ mobile operators and their customer service representatives to perform remote\
+    \ functions on your device at your request, including: Locating the device, Locking\
+    \ the device, Wiping the device, or Activating a loud siren (Scream\uF8E8)."
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "How the information is used: Customer Care Web Application enables\
+      \ mobile operators and their customer service representatives to perform remote\
+      \ functions on your device at your request, including: Locating the device,\
+      \ Locking the device, Wiping the device, or Activating a loud siren (Scream\uF8E8\
+      )."
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 48
+  segment_text: Customer service representatives may perform such functions only at
+    your request and with your consent. To protect users' privacy, whenever a customer
+    service representative executes any of the above functions, Lookout immediately
+    notifies the user via email. Customer service representatives do not have access
+    to nor control over any user data backed up via Lookout's mobile application.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: 'i. Identity Protection Services Our optional Identity Protection
+    Services offer certain services to help reduce the risk and damage associated
+    with identity theft. These optional services may include: (a) a breach report
+    service that may alert you when a company or service you use has experienced a
+    data breach; (b) an identity monitoring service, where we will monitor the Internet
+    for certain information about you and alert you when we discover that information
+    exposed online; (c) a social media monitoring service designed to monitor your
+    social media accounts and alert you if it discovers your personal information
+    being publicly shared or the use of offensive language on your account; (d) a
+    social security trace service designed to obtain and provide you with reports
+    on names, addresses and aliases associated with your social security number and
+    alert you of changes; and (e) identity restoration services that allow you to
+    contact customer service specialists to help you if your identity is stolen.'
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 'What types of information do the Identity Protection Services collect:
+    Contact information (such as name, address, phone number, and e-mail address);
+    private information (such as driver''s license number, social security number,
+    passport number, or other identification number); financial information (such
+    as bank account, debit and credit card numbers); medical insurance number; and
+    other personal information about you (or other people you enroll in the service)
+    that you provide to us in connection with your enrollment in our identity protection
+    products.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'What types of information do the Identity Protection Services
+      collect: Contact information (such as name, address, phone number, and e-mail
+      address);'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 51
+  segment_text: Information regarding the types of companies or services that may
+    have access to information about you, such as the names of your financial institutions.
+    You may provide us with this information directly. We may also scan the apps on
+    your device to understand other companies or services that may have access to
+    information about you and provide you with breach alerts. Information regarding
+    any actual or suspected identity theft involving you, such as the circumstances
+    of the identity theft and any losses suffered by you as a result of the identity
+    theft. Other information you provide us in connection with these services. Information
+    in reports that we collect to provide you with the service.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: 'How the information above is used: The information we collect will
+    depend on the types of identity protection products you enroll in. This information
+    is required in order to verify your identity, charge you the agreed upon fees,
+    and provide you with the Identity Protection Services, including by communicating
+    with third parties (such as identification verification companies, consumer reporting
+    agencies, credit bureaus, payment validation companies, law enforcement agencies,
+    and others) in order to provide those services to you. We may provide this information
+    to our third-party service providers who assist us in providing you with identity
+    protection services, or allow these service providers to collect certain information
+    directly from you. These service providers may in turn provide your data to third
+    parties for purposes of providing you with the services requested. We and/or our
+    service providers may also provide you with monitoring and alerts and obtain information
+    and reports about you (or about others that you have enrolled) in order to provide
+    the Identity Protection Services, including address history, name, alias and other
+    reports. We require that our service providers use data collected from you only
+    for purposes of providing services to Lookout. If you upgrade to a Premium Subscription
+    that includes identity theft insurance, we will use your information to provide
+    you with assistance and applicable insurance coverage if your identity is compromised.'
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 4. Cookie Policy Types of Cookies Like many online services, we use
+    cookies and other tools to collect and analyze information about you and your
+    usage of our products and services. We also use these technologies to deliver
+    content for relevant Lookout products and services. Cookies are small data files
+    that we store on your computers or device. For details, see aboutcookies.org.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookie Policy Types of Cookies Like many online services, we use
+      cookies and other tools to collect and analyze information about you and your
+      usage of our products and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies are small data files that we store on your computers or
+      device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For details, see aboutcookies.org.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We also use these technologies to deliver content for relevant
+      Lookout products and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 54
+  segment_text: How We Use Cookies We use "session" cookies to keep you logged in
+    while you use our services, to better understand how you interact with our services,
+    and to monitor aggregate usage and web traffic information on our services. Session
+    cookies disappear when you log out and close your browser. We also use "persistent"
+    cookies to recognize you when you return to our services. Persistent cookies can
+    stay on your computer for a longer period of time than session cookies do. We
+    also use "analytical" cookies. They allow us to recognize and count the number
+    of visitors and to see how visitors move around our services and how they're using
+    them. This helps us to improve the way our website works, for example by making
+    sure users are finding what they need easily. Finally, we may use other standard
+    technologies, such as web beacons, web bugs, clear gifs, and local storage, to
+    analyze, collect and aggregate data about your use of our products and services.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Finally, we may use other standard technologies, such as web beacons,
+      web bugs, clear gifs, and local storage, to analyze, collect and aggregate data
+      about your use of our products and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: How We Use Cookies We use "session" cookies to keep you logged
+      in while you use our services, to better understand how you interact with our
+      services, and to monitor aggregate usage and web traffic information on our
+      services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Persistent cookies can stay on your computer for a longer period
+      of time than session cookies do.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Session cookies disappear when you log out and close your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They allow us to recognize and count the number of visitors and
+      to see how visitors move around our services and how they're using them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This helps us to improve the way our website works, for example
+      by making sure users are finding what they need easily.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We also use "analytical" cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We also use "persistent" cookies to recognize you when you return
+      to our services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 55
+  segment_text: Cookies From Third-Parties We believe it is important for you to know
+    exactly what third-party cookies we use on our website and services. Here is a
+    list of the third-party cookies that we currently use. As we develop and improve
+    our services, we may use other third parties that are not listed below.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As we develop and improve our services, we may use other third
+      parties that are not listed below.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies From Third-Parties We believe it is important for you to
+      know exactly what third-party cookies we use on our website and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Here is a list of the third-party cookies that we currently use.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 56
+  segment_text: Google Analytics - These cookies allow us to see how you use our website
+    and mobile application so that we can improve your experience. We encourage you
+    to read the Google Privacy Policy. If you don't want data reported by Google Analytics,
+    Google permits you to opt out by installing the Google Analytics Opt-out Browser
+    Add-on.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Google Analytics - These cookies allow us to see how you use our
+      website and mobile application so that we can improve your experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: If you don't want data reported by Google Analytics, Google permits
+      you to opt out by installing the Google Analytics Opt-out Browser Add-on.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We encourage you to read the Google Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: Google AdWords - These cookies allow our vendors to serve ads based
+    on your past visits to our sites and for remarketing purposes. Google may use
+    this cookie and other tracking technology to show you our ads across the internet.
+    Google permits you to opt out of Google's use of these cookies by visiting Google's
+    Ads Settings.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Google AdWords - These cookies allow our vendors to serve ads based
+      on your past visits to our sites and for remarketing purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Google may use this cookie and other tracking technology to show
+      you our ads across the internet.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Google permits you to opt out of Google's use of these cookies
+      by visiting Google's Ads Settings.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 58
+  segment_text: Optimizely - These cookies allow us to optimize the look, feel and
+    messaging of our website based upon how you use it. You can read the Optimizely
+    Privacy Policy here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Optimizely - These cookies allow us to optimize the look, feel
+      and messaging of our website based upon how you use it.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can read the Optimizely Privacy Policy here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 59
+  segment_text: Greenhouse - These cookies are used to provide you with a personalized
+    user experience when you apply for a job with us. You can read the Greenhouse
+    Privacy Policy here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Greenhouse - These cookies are used to provide you with a personalized
+      user experience when you apply for a job with us.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can read the Greenhouse Privacy Policy here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 60
+  segment_text: Marketo - These cookies help us track your visits to our website and
+    enable us to create an engaging marketing experience for you. We also use Marketo
+    cookies to understand your interaction with the emails we send you, and to ensure
+    we're sending you relevant information. For example, Marketo cookies let us know
+    whether our emails have been opened, and which links are clicked. You can read
+    the Marketo Privacy Policy here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, Marketo cookies let us know whether our emails have
+      been opened, and which links are clicked.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Marketo - These cookies help us track your visits to our website
+      and enable us to create an engaging marketing experience for you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We also use Marketo cookies to understand your interaction with
+      the emails we send you, and to ensure we're sending you relevant information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can read the Marketo Privacy Policy here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 61
+  segment_text: LinkedIn Insights - These cookies help us track your visits and your
+    interactions on our website so that we can provide with you an engaging marketing
+    experience. They also enable us to deliver more relevant services and content
+    on lookout.com and on LinkedIn's partner sites. You can read the LinkedIn Privacy
+    Policy here.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: LinkedIn Insights - These cookies help us track your visits and
+      your interactions on our website so that we can provide with you an engaging
+      marketing experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: They also enable us to deliver more relevant services and content
+      on lookout.com and on LinkedIn's partner sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You can read the LinkedIn Privacy Policy here.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 62
+  segment_text: Social Media Features - Our website includes social media features,
+    like the Facebook recommend button or interactive mini-programs that run on our
+    site. If you use these Features, they will collect your IP address, which page
+    you are visiting on our site, and set a cookie to enable the feature to function
+    properly. Features may be hosted by a third party or hosted directly on our site.
+    Your interactions with these features are governed by the privacy policy of the
+    company providing the feature, not by Lookout's Privacy Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you use these Features, they will collect your IP address, which
+      page you are visiting on our site, and set a cookie to enable the feature to
+      function properly.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: Social Media Features - Our website includes social media features,
+      like the Facebook recommend button or interactive mini-programs that run on
+      our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 63
+  segment_text: Mixpanel, Appboy and mParticle - These cookies allow us analyze and
+    aggregate data regarding your use our mobile application. We encourage you to
+    read the MixPanel Privacy Policy, Appboy Privacy Policy and mParticle Privacy
+    Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Mixpanel, Appboy and mParticle - These cookies allow us analyze
+      and aggregate data regarding your use our mobile application.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We encourage you to read the MixPanel Privacy Policy, Appboy Privacy
+      Policy and mParticle Privacy Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 64
+  segment_text: '5. How We Use the Information We Collect In addition to the specific
+    uses described above, we also use your information in the following manner: a.
+    We Use Your Information to Provide, Improve, and Promote our Services.'
+  annotations: []
+  sentences: []
+- segment_id: 65
+  segment_text: 'We use your information to provide you with a better service, to
+    improve our products and services, to promote our services and to develop new
+    services. For example: If you fill out a survey or email Lookout for support,
+    we may retain that information in order to provide you with support and to improve
+    our services. Where available, Lookout may use client device information to let
+    you know you need to update your operating system. We may send text messages to
+    your phone to communicate with your device. We may use your email address or mobile
+    number to send privacy or security related notices and notify you of major Lookout
+    services changes. We may use your email address or mobile phone number to communicate
+    about product announcements and special promotions from Lookout or our business
+    partners, or to administer participation in special events, surveys, contests
+    and sweepstakes. We may use your information to conduct market research and engage
+    in joint promotional activities with companies that have products that can add
+    value to Lookout products or services (for example, with mobile operators).'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may use your email address or mobile number to send privacy
+      or security related notices and notify you of major Lookout services changes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use your email address or mobile phone number to communicate
+      about product announcements and special promotions from Lookout or our business
+      partners, or to administer participation in special events, surveys, contests
+      and sweepstakes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: b. We May Disclose Your Information in Accordance with the Law.
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: 'Like other companies, we may disclose your information consistent
+    with the law to, for example: (i) comply with a law, regulation, or legal process
+    (including to meet national security or law enforcement requirements); (ii) protect
+    the safety or security of any person, entity or facility; (iii) address potential
+    violations of our Privacy Policy or Terms of Service; (iv) investigate fraud,
+    security, or technical issues; or (v) protect Lookout''s or a third party''s rights
+    or property, our employees, users and the public.'
+  annotations: []
+  sentences: []
+- segment_id: 68
+  segment_text: We strongly believe that you have a right to know if we are required
+    by law to disclose your information. As such, before we disclose your Information
+    in response to a law enforcement request (for example, a subpoena or court order),
+    we will notify you at the email listed in your account, unless (a) we are prohibited
+    from doing so or (b) in emergency cases where notice could create a risk of injury
+    or death, or the case involves potential harm to minors. Furthermore, nothing
+    in this Privacy Policy is meant to limit any legal defenses or objections that
+    you may have to a third party's, including the government's, request to disclose
+    your information.
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: c. We Share Your Information to Provide or Improve Our Services
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: "We share your information with third parties to provide or improve\
+    \ our services. For example: We may share your information with third party service\
+    \ providers of products and services integrated with our software that need to\
+    \ know your information to fulfill your product or service requests (for example,\
+    \ to map your location, send you an SMS or provide you with identity protection\
+    \ services), support our products and services, or analyze data for product performance\
+    \ and product improvement purposes. We may share your information with mobile\
+    \ operators who participate in our Customer Care Web Application program to enable\
+    \ them to assist you directly with Lookout Missing Device features, such as remote\
+    \ locate, lock, wipe, or Scream\uF8E8 through our Customer Care Web Application,\
+    \ at your request. We may share your information to perform accounting, auditing,\
+    \ billing reconciliation, and collection activities. We may share your information\
+    \ with our affiliates, resellers or other third party service providers that are\
+    \ working with Lookout (for example, mobile operators and MDM providers) to ensure\
+    \ proper delivery of your purchase and related support services, perform business-related\
+    \ functions, and provide you with information about products and services."
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: d. We Share Your Information to Avoid Unnecessary Marketing In order
+    to prevent you from receiving duplicate or unnecessary marketing about Lookout
+    products or service, we may share your information or your status as a current
+    Lookout customer with our partners or service providers.
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: e. We Share Data That is Aggregated and De-Identified We share de-identified
+    or aggregated data publicly and with our partners and other third-parties. For
+    example, we may share the number of devices that have ever encountered a particular
+    piece of malware in our security reports.
+  annotations: []
+  sentences: []
+- segment_id: 73
+  segment_text: f. We May Disclose Your Information With Your Consent We may also
+    share your personal information with third parties when we have your consent to
+    do so.
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: 6. Your Choices a. You Can Access and Update Your Settings Your Lookout
+    Account on our website and/or the Lookout 'Settings' page on our mobile application
+    allow you to update or modify certain settings that affect what data is shared
+    with us (for example, by disabling backups of certain types of data). To protect
+    your privacy and security, we require your username and password in order to verify
+    your identity before granting you account access or making changes. If you wish
+    to correct or delete inaccuracies within your personal information, or to request
+    access to any personal information we obtain about you, please contact us at privacy@lookout.com.
+    We will respond to your request to access within 30 days. In certain situations,
+    however, Lookout may not be able to provide access to or delete all of the personal
+    information that it holds about you.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you wish to correct or delete inaccuracies within your personal
+      information, or to request access to any personal information we obtain about
+      you, please contact us at privacy@lookout.com.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: In certain situations, however, Lookout may not be able to provide
+      access to or delete all of the personal information that it holds about you.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: To protect your privacy and security, we require your username
+      and password in order to verify your identity before granting you account access
+      or making changes.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: We will respond to your request to access within 30 days.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: You Can Access and Update Your Settings Your Lookout Account on
+      our website and/or the Lookout 'Settings' page on our mobile application allow
+      you to update or modify certain settings that affect what data is shared with
+      us (for example, by disabling backups of certain types of data).
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: Your Choices a.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 75
+  segment_text: b. Email Opt-Outs You may opt out of receiving promotional communications
+    from Lookout by using the unsubscribe link within each email. Although opt-out
+    requests are usually processed immediately, please allow ten (10) business days
+    for a removal request to be processed. Even after you opt out from receiving promotional
+    messages from us, you will continue to receive transactional and product-related
+    messages from us regarding Lookout Services. You can opt-out of some of these
+    notification messages in your account settings.
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: c. Personalized Advertisements You may be able to opt out of receiving
+    certain personalized advertisements from companies who are members of the Network
+    Advertising Initiative or who subscribe to the Digital Advertising Alliance's
+    Self-Regulatory Principles for Online Behavioral Advertising. Please visit the
+    Network Advertising Initiative Consumer Opt-Out Page or the Digital Advertising
+    Alliance Opt-Out Page to opt out directly from providers who participate in those
+    programs. Lookout does not control or operate these tools or the choices that
+    advertisers and others provide through these tools.
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: d. Cookies Most Internet browsers automatically accept cookies, but
+    some browsers may permit you to change your settings or use third-party tools
+    to disable cookies or to prompt you before accepting cookies from the websites
+    you visit. These browsers or other third party tools may also permit you to delete
+    cookies you already have. Please be aware that some parts of our services may
+    not work for you if you delete or disable cookies. For other options regarding
+    cookies, please visit our Cookie Policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For other options regarding cookies, please visit our Cookie Policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please be aware that some parts of our services may not work for
+      you if you delete or disable cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These browsers or other third party tools may also permit you to
+      delete cookies you already have.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: d. Cookies Most Internet browsers automatically accept cookies,
+      but some browsers may permit you to change your settings or use third-party
+      tools to disable cookies or to prompt you before accepting cookies from the
+      websites you visit.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 78
+  segment_text: e. Location When you delete location data through your account dashboard
+    on Lookout.com, it is no longer linked to your account and is de-identified on
+    our application production systems.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: e. Location When you delete location data through your account
+      dashboard on Lookout.com, it is no longer linked to your account and is de-identified
+      on our application production systems.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 79
+  segment_text: '7. Data Retention Policy Our policy is to retain personally identifiable
+    information only as long as reasonably necessary to provide our products and services
+    to you and others or as otherwise required for legal compliance purposes. We may
+    delete your data if your account is inactive and as otherwise provided in our
+    Terms of Service. Currently for Lookout Backup, our policy is to delete: (i) all
+    Backup Data if you have not accessed our services for 90 consecutive days, or
+    (ii) pictures and call history from your Backup Data if you have not upgraded
+    to a Premium Subscription within 90-days after your Premium trial or if you have
+    discontinued your Premium Subscription for 90 consecutive days. We will generally
+    notify you via the email address associated with your account before deleting
+    your Backup Data. We may change that policy from time to time.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Currently for Lookout Backup, our policy is to delete: (i) all
+      Backup Data if you have not accessed our services for 90 consecutive days, or
+      (ii) pictures and call history from your Backup Data if you have not upgraded
+      to a Premium Subscription within 90-days after your Premium trial or if you
+      have discontinued your Premium Subscription for 90 consecutive days.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Data Retention Policy Our policy is to retain personally identifiable
+      information only as long as reasonably necessary to provide our products and
+      services to you and others or as otherwise required for legal compliance purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may change that policy from time to time.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may delete your data if your account is inactive and as otherwise
+      provided in our Terms of Service.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We will generally notify you via the email address associated with
+      your account before deleting your Backup Data.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 80
+  segment_text: 8. Information Posted to Our Blog and Community Forum Is Public
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: If you comment on our blog or other public forums, you should be aware
+    that any information you submit there can be read, collected, or used by other
+    users of those blogs, and could be used to send you unsolicited messages. We are
+    not responsible for the information you choose to submit in these blogs or for
+    any content you receive as a result of sharing such information.
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: To request removal of your personal information from our blog or community
+    forum, contact us at privacy@lookout.com. If we are not able to remove your personal
+    information, we will let you know why.
+  annotations: []
+  sentences: []
+- segment_id: 83
+  segment_text: 9. We Take Security Seriously Lookout is a security company, and securing
+    your data is important to us. Lookout uses commercially reasonable physical, managerial,
+    and technical safeguards. For example, we use a combination of firewalls, authentication,
+    physical security, and other safeguards to protect your account and your data.
+    When you enter sensitive information (such as credit card number or location based
+    information) on our website, within the Lookout app, or in our order forms, we
+    encrypt the transmission of that information using secure socket layer technology
+    (SSL). We also perform third-party penetration tests to harden our systems from
+    attack.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you enter sensitive information (such as credit card number
+      or location based information) on our website, within the Lookout app, or in
+      our order forms, we encrypt the transmission of that information using secure
+      socket layer technology (SSL).
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 84
+  segment_text: Because no method of transmission over the Internet or method of electronic
+    storage is 100% secure, we cannot ensure or warrant the security of any information,
+    data or content that Lookout receives on your behalf to operate the Lookout services,
+    or that you transmit to Lookout. All such receipt or transmission of your information
+    is at your own risk. We cannot guarantee that such information will not be accessed,
+    disclosed, altered, or destroyed by breach of any of our physical, technical,
+    or managerial safeguards.
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: If Lookout learns of a security breach, we may attempt to notify you
+    electronically so that you can take appropriate protective steps. Lookout may
+    also post a notice on the Lookout services if a security breach occurs. Depending
+    on where you live, you may have a legal right to receive notice of a security
+    breach in writing.
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: 10. You Are Responsible for Maintaining the Accuracy and Confidentiality
+    of Your Email Address and Password
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You Are Responsible for Maintaining the Accuracy and Confidentiality
+      of Your Email Address and Password
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 87
+  segment_text: You are responsible for maintaining the secrecy of your password at
+    all times. We recommend a strong password that you do not use with other services.
+    If you believe your password has been compromised, please change your password
+    immediately via the Lookout website, or contact us at support@lookout.com for
+    assistance. You are responsible for ensuring that the email address associated
+    with your account is accurate. We use that email to contact you about service
+    updates, changes to our policies, and account activities such as requests for
+    your information or locate attempts on your device. Lookout is not responsible
+    for personal data transmitted to a third party as a result of a user's providing
+    an incorrect email address.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you believe your password has been compromised, please change
+      your password immediately via the Lookout website, or contact us at support@lookout.com
+      for assistance.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Lookout is not responsible for personal data transmitted to a third
+      party as a result of a user's providing an incorrect email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We recommend a strong password that you do not use with other services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use that email to contact you about service updates, changes
+      to our policies, and account activities such as requests for your information
+      or locate attempts on your device.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You are responsible for ensuring that the email address associated
+      with your account is accurate.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You are responsible for maintaining the secrecy of your password
+      at all times.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 88
+  segment_text: 11. Notice to California Users Do Not Track Do Not Track is a privacy
+    preference that users can set in their web browsers. When a user turns on the
+    Do Not Track signal, the browser sends a message to websites requesting them not
+    to track the user. For information about Do Not Track, visit www.allaboutdnt.org.
+    At this time, we do not respond to Do Not Track browser settings or signals. In
+    addition, some of our third-party services providers may use standard technology,
+    such as cookies, pixel tags and web beacons, to collect information about your
+    internet activities. You may be able to disable certain third-party cross-site
+    tracking as described in the "Your Choices" section above.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: At this time, we do not respond to Do Not Track browser settings
+      or signals.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: For information about Do Not Track, visit www.allaboutdnt.org.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: In addition, some of our third-party services providers may use
+      standard technology, such as cookies, pixel tags and web beacons, to collect
+      information about your internet activities.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Notice to California Users Do Not Track Do Not Track is a privacy
+      preference that users can set in their web browsers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: When a user turns on the Do Not Track signal, the browser sends
+      a message to websites requesting them not to track the user.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: You may be able to disable certain third-party cross-site tracking
+      as described in the "Your Choices" section above.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 89
+  segment_text: 12. International Visitors and the Privacy Shield Lookout is a San
+    Francisco-based company with servers housed in the United States. Personal information
+    collected from users outside the United States is transferred to the United States.
+    Lookout has certified with the U.S. - Swiss Safe Harbor framework as set forth
+    by the U.S. Department of Commerce regarding the collection, use, and retention
+    of personal data from Switzerland. Lookout may process some personal data from
+    individuals or companies in Switzerland via other compliance mechanisms, including
+    data processing agreements based on the EU Standard Contractual Clauses. To learn
+    more about the U.S.-Swiss Safe Harbor program, and to view Lookout's certification,
+    please visit http://export.gov/safeharbor.
+  annotations: []
+  sentences: []
+- segment_id: 90
+  segment_text: Lookout has further certified with the Privacy Shield as set forth
+    by the U.S. Department of Commerce regarding the collection, use, and retention
+    of "personal data" (as defined under the Privacy Shield principles) from applicable
+    European Union member countries. Lookout has certified that it adheres to the
+    Privacy Shield Principles of notice, choice, onward transfer, security, data integrity,
+    access, and enforcement for such personal data. To learn more about the Privacy
+    Shield, view a list of entities who have current certifications under Privacy
+    Shield, or view Lookout's certification, please visit http://www.privacyshield.gov.
+    As required under the principles, when Lookout receives information under the
+    Privacy Shield and then transfers it to a third-party service provider acting
+    as an agent on Lookout's behalf, Lookout has certain liability under the Privacy
+    Shield if both (i) the agent processes the information in a manner inconsistent
+    with the Privacy Shield and (ii) Lookout is responsible for the event giving rise
+    to the damage.
+  annotations: []
+  sentences: []
+- segment_id: 91
+  segment_text: If you have any questions or complaints about Lookout's privacy practices,
+    including questions related to the Privacy Shield, you may contact us at the email
+    address or mailing address set forth under "Contact Us if You Have Any Questions
+    or Concerns." We will work with you to resolve your issue.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you have any questions or complaints about Lookout's privacy
+      practices, including questions related to the Privacy Shield, you may contact
+      us at the email address or mailing address set forth under "Contact Us if You
+      Have Any Questions or Concerns."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 92
+  segment_text: If you are a resident of the European Union and are dissatisfied with
+    the manner in which we have addressed your concerns about our privacy practices,
+    you may seek further assistance, at no cost to you, from our designated Privacy
+    Shield independent recourse mechanism, which you can learn more about by visiting
+    https://www.jamsadr.com/eu-us-privacy-shield.
+  annotations: []
+  sentences: []
+- segment_id: 93
+  segment_text: 'Residents of the European Union may elect to arbitrate unresolved
+    complaints but prior to initiating such arbitration, you must: (1) contact Lookout
+    and afford us the opportunity to resolve the issue; (2) seek assistance from Lookout''s
+    designated independent recourse mechanism above; and (3) contact the U.S. Department
+    of Commerce (either directly or through a European Data Protection Authority)
+    and afford the Department of Commerce time to attempt to resolve the issue. Each
+    party shall be responsible for its own attorney''s fees. Please be advised that,
+    pursuant to the Privacy Shield, the arbitrator(s) may only impose individual-specific,
+    non-monetary, equitable relief necessary to remedy any violation of the Privacy
+    Shield Principles with respect to the individual. Lookout is subject to the investigatory
+    and enforcement powers of the U.S. Federal Trade Commission (FTC).'
+  annotations: []
+  sentences: []
+- segment_id: 94
+  segment_text: In addition to the rights granted under the section above entitled,
+    "You Can Access and Update Your Privacy Settings," some international users (including
+    those whose information we collect under the Privacy Shield) have certain legal
+    rights to access certain information we hold about them and to obtain its deletion.
+    To exercise those rights, these users may contact us at privacy@lookout.com with
+    their request.
+  annotations: []
+  sentences: []
+- segment_id: 95
+  segment_text: 13. Users Under 13 Lookout does not knowingly collect or store any
+    personal information about children under the age of 13. If you believe a child
+    is using this service without parental consent, please contact us at privacy@lookout.com.
+  annotations: []
+  sentences: []
+- segment_id: 96
+  segment_text: 14. We Are Not Responsible for Content on Third-Party Websites
+  annotations: []
+  sentences: []
+- segment_id: 97
+  segment_text: Our site contains links to other websites. When you click on one of
+    these links, you leave Lookout's website and go elsewhere. Lookout does not accept
+    liability for misuse of any information by any website controller to which we
+    may link. We encourage you to read the privacy statements of these linked sites,
+    which may differ from ours. In addition, if you take advantage of an offer from
+    one of our partners, you may be providing information directly to that partner.
+    We encourage you to review the privacy statements of these partners, as we are
+    not responsible for the privacy practices of any partners or linked sites.
+  annotations: []
+  sentences: []
+- segment_id: 98
+  segment_text: 15. This Privacy Policy Will Apply Upon Change in Control
+  annotations: []
+  sentences: []
+- segment_id: 99
+  segment_text: In the event that Lookout is involved in a bankruptcy, merger, acquisition,
+    reorganization, or sale of assets, your information may be sold or transferred
+    as part of that transaction.
+  annotations: []
+  sentences: []
+- segment_id: 100
+  segment_text: 16. We Post Updates on Our Website Whenever This Policy Changes
+  annotations: []
+  sentences: []
+- segment_id: 101
+  segment_text: This Privacy Policy may be revised to keep pace with changes in our
+    products and services and laws applicable to Lookout and you. If we make material
+    changes to this policy, then we will notify you in our application, here on this
+    website, by email, or by means of a notice on the Lookout home page. Please note
+    that your continued use of our services means that you agree with, and consent
+    to be bound by, the new Privacy Policy. If you do not wish your information to
+    be subject to the revised Privacy Policy, you will need to close your account.
+  annotations: []
+  sentences: []
+- segment_id: 102
+  segment_text: 17. Contact Us if You Have Any Questions or Concerns
+  annotations: []
+  sentences: []
+- segment_id: 103
+  segment_text: 'Please contact our privacy manager at privacy@lookout.com, or by
+    postal mail at Lookout, Inc., Attn: Privacy Officer, One Front Street, Suite 2700,
+    San Francisco, CA 94111, with any questions or comments about this privacy policy.'
+  annotations: []
+  sentences: []
+- segment_id: 104
+  segment_text: Effective November 15, 2016. Updated to (i) add information on new
+    types of information collected, including for the identity protection services;
+    (ii) clarify how information is collected and how Lookout uses and shares personal
+    information; and (iii) add terms regarding Privacy Shield.
+  annotations: []
+  sentences: []
+- segment_id: 105
+  segment_text: Effective as of June 25, 2015. Updated to (i) include additional cookies,
+    (ii) remove sections on Lookout for Business and Lookout Enterprise Security,
+    and (iii) clarify how Lookout uses and shares personal information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Effective as of June 25, 2015.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Updated to (i) include additional cookies, (ii) remove sections
+      on Lookout for Business and Lookout Enterprise Security, and (iii) clarify how
+      Lookout uses and shares personal information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 106
+  segment_text: Effective as of June 2, 2015. Updated to include Marketo to cookie
+    policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Effective as of June 2, 2015.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Updated to include Marketo to cookie policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 107
+  segment_text: Effective as of October 15, 2014. Updated to include a section on
+    Lookout Enterprise Security.
+  annotations: []
+  sentences: []
+- segment_id: 108
+  segment_text: Effective as of August 4, 2014. Updated to include a section explaining
+    the Customer Care Web Application and to clarify our data retention policy.
+  annotations: []
+  sentences: []
+- segment_id: 109
+  segment_text: Effective as of May 15, 2014. Updated to include a section on Theft
+    Alerts.
+  annotations: []
+  sentences: []
+- segment_id: 110
+  segment_text: Effective as of January 10, 2013. Updated to clarify how we respond
+    to Do Not Track browser settings.
+  annotations: []
+  sentences: []
+- segment_id: 111
+  segment_text: Effective as of November 18, 2013. Updated to (1) include a section
+    explaining information collection and use as it relates to the "Lookout For Business"
+    product, (2) assure that, unless prohibited by law or there is an emergency creating
+    risk of injury or death, Lookout will notify users of a request for information
+    before disclosure or preservation, (3) clarify Backup data feature, and (4) include
+    Greenhouse, MixPanel, and Olark privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 112
+  segment_text: Effective as of May 21, 2013. Updated to (1) include that information
+    submitted with an employment application is a type of PII that we collect, (2)
+    include a section on Social Media Features, (3) inform that Lookout may share
+    PII in to prevent its customers from receiving unnecessary marketing, (4) include
+    a section explaining information collection and use as it relates to the "Signal
+    Flare" feature, (5) clarify use of cookies, (6) assure that, unless we are legally
+    prohibited from doing so, Lookout will notify users of a request for information,
+    (7) clarify data storage, and (8) assure that the Privacy Policy will continue
+    to control information if Lookout ever experiences a change in control.
+  annotations: []
+  sentences: []
+- segment_id: 113
+  segment_text: Effective as of December 13, 2012. Updated to include section on Lock
+    Cam.
+  annotations: []
+  sentences: []
+- segment_id: 114
+  segment_text: Effective as of October 1, 2012. Updated to (1) include section on
+    Group Plans, (2) clarify use of cookies, and (3) permit use by children with parent's
+    consent as part of Group Plan.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Effective as of October 1, 2012.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Updated to (1) include section on Group Plans, (2) clarify use
+      of cookies, and (3) permit use by children with parent's consent as part of
+      Group Plan.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 115
+  segment_text: Effective January 12, 2012. Updated to clarify that unique device
+    identifier (UDID) is a subset of equipment identifier that may be recorded on
+    our servers when you use the Lookout Services, and to clarify our policy regarding
+    the removal of personal information from blogs and community forums.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Effective January 12, 2012.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: Updated to clarify that unique device identifier (UDID) is a subset
+      of equipment identifier that may be recorded on our servers when you use the
+      Lookout Services, and to clarify our policy regarding the removal of personal
+      information from blogs and community forums.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 116
+  segment_text: Effective as of June 15, 2011. Updated to include Safe Browsing and
+    Lookout Security. Original policy effective as of May 8, 2009.
+  annotations: []
+  sentences: []
+- segment_id: 117
+  segment_text: Request A Demo Support Enterprise Support Programs Personal Support
+    & FAQs
+  annotations: []
+  sentences: []
+- segment_id: 118
+  segment_text: Partners Become a Partner Partner Login
+  annotations: []
+  sentences: []
+- segment_id: 119
+  segment_text: News Press Releases
+  annotations: []
+  sentences: []
+- segment_id: 120
+  segment_text: "United States (English) keyboard_arrow_down United States (English)\
+    \ United Kingdom (English) Espa\xF1a (Espa\xF1ol) Deutschland (Deutsch) France\
+    \ (Fran\xE7ais) \u65E5\u672C (\u65E5\u672C\u8A9E) Polska (Polski) Brasil (Portugu\xEA\
+    s) \u0420\u043E\u0441\u0441\u0438\u044F (\u0420\u0443\u0441\u0441\u043A\u0438\u0439\
+    ) \u4E2D\u56FD (\u4E2D\u6587) \u4E2D\u570B (\u6F22\u8A9E) \uD55C\uAD6D (\uD55C\
+    \uAD6D\uC5B4)"
+  annotations: []
+  sentences: []
+- segment_id: 121
+  segment_text: "Legal Privacy Policy Cookie Policy Transparency Report \xA9 2017\
+    \ Lookout, Inc. Lookout, the Shield Logo, and Everything is OK are registered\
+    \ trademarks of Lookout, Inc."
+  annotations: []
+  sentences: []
+- segment_id: 122
+  segment_text: Android is a trademark of Google Inc.
+  annotations: []
+  sentences: []
+- segment_id: 123
+  segment_text: Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered
+    in the U.S. and other countries. App Store is a service mark of Apple Inc. Products
+    Mobile Endpoint Security App Security Personal Threat Intelligence See All Products
+    Services Lookout App Security Assessment Lookout Threat Advisory See Lookout Services
+    Why Lookout? Insights Blogs Customers Events See All Resources About Life at Lookout
+    Careers Leadership Partners Privacy & Security Foundation Contact Us About Us
+  annotations: []
+  sentences: []
+- segment_id: 124
+  segment_text: Log In Personal Enterprise Partners
+  annotations: []
+  sentences: []
+- segment_id: 125
+  segment_text: clear
+  annotations: []
+  sentences: []
+- segment_id: 126
+  segment_text: If you have enabled Signal Flare, it will not collect location information.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: If you have enabled Signal Flare, it will not collect location
+      information.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 127
+  segment_text: "Your mobile phone number\_is not collected."
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "Your mobile phone number\_is not collected."
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 128
+  segment_text: Theft Alerts starts Backup and activates your device's camera remotely,
+    without sound or other notification. It does not collect GPS coordinates and email
+    addresses, though.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Theft Alerts starts Backup and activates your device's camera remotely,
+      without sound or other notification. It does not collect GPS coordinates and
+      email addresses, though.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 129
+  segment_text: Our website does not include social media Features ("Features"), like
+    the Facebook recommend button or interactive mini-programs. Third parties will
+    not collect your IP address and do not set cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our website does not include social media Features ("Features"),
+      like the Facebook recommend button or interactive mini-programs. Third parties
+      will not collect your IP address and do not set cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 130
+  segment_text: We do not receive your email address and password.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not receive your email address and password.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 131
+  segment_text: The Identity Protection Services are not collecting contact information
+    (such as name, address, phone number, and e-mail address);
+  annotations:
+  - practice: Contact_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: The Identity Protection Services are not collecting contact information
+      (such as name, address, phone number, and e-mail address);
+    annotations:
+    - practice: Contact_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 132
+  segment_text: When Theft Alerts is activated and a photo is taken, the picture and
+    location data are not stored on our servers.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When Theft Alerts is activated and a photo is taken, the picture
+      and location data are not stored on our servers.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 133
+  segment_text: When activating this feature, we do not track the device's location.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When activating this feature, we do not track the device's location.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 134
+  segment_text: Some features we offer work better if we know what area you are in.
+    However, Lookout does not collect location information. We do not receive it from
+    your mobile device, cell towers, or Wi-Fi hotspots.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Some features we offer work better if we know what area you are
+      in. However, Lookout does not collect location information. We do not receive
+      it from your mobile device, cell towers, or Wi-Fi hotspots.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 135
+  segment_text: When you use Lookout Services, our servers do not record information
+    about your mobile device, such as equipment identifiers (e.g., IMEI, UDID), subscriber
+    identifiers (e.g., IMSI), device names, mobile phone numbers, device types and
+    manufacturers, operating system types and versions, wireless carriers/operators,
+    network types, countries of origin, Internet Protocol ("IP") addresses, or the
+    dates and times of your requests.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IMSI_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: When you use Lookout Services, our servers do not record information
+      about your mobile device, such as equipment identifiers (e.g., IMEI, UDID),
+      subscriber identifiers (e.g., IMSI), device names, mobile phone numbers, device
+      types and manufacturers, operating system types and versions, wireless carriers/operators,
+      network types, countries of origin, Internet Protocol ("IP") addresses, or the
+      dates and times of your requests.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IMSI_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: NOT_PERFORMED

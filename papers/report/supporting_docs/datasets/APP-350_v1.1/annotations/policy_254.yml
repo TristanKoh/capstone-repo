@@ -1,0 +1,289 @@
+policy_id: 254
+policy_name: kr.sira.compass
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Android boy's Lab Smart Tools' manual, video and news.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: April 5, 2013 Privacy Policy Privacy Policy for Mobile Applications
+    Smart Tools corporation("We", "Our", "Us") has developed this Privacy Policy to
+    help you understand how we collect, use and protect the information. We encourage
+    you to read this Privacy Policy carefully so that you can make informed decisions
+    about your use of our mobile applications("the apps").
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: By installing and using the apps, you agree to this privacy policy
+    and give an explicit and informed consent to the processing. If you do not agree,
+    please do not install and use the apps.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1. Non-personal Data Non-personal data means information that, by
+    itself, does not personally identify you. We may collect Non-personal data such
+    as your device model number, operating system version, country code and other
+    properties for purposes of managing the apps and communicating with you.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect Non-personal data such as your device model number,
+      operating system version, country code and other properties for purposes of
+      managing the apps and communicating with you.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: '2. Ad serving Technology We may disclose Non-personal data to third
+    parties and/or allow third parties to collect Non-personal data through their
+    own embedded technology. In order to deliver ads to you, the third-party advertising
+    companies may place or recognize unique cookies, anonymous identifiers or similar
+    technology for non-personally identifiable information. If you would like more
+    information, please follow the link below: AdMob - https://www.google.com/policies/privacy/
+    3. Location Data Some of the apps may request your Location data for a functional
+    purpose. We may use various technologies to determine location, such as GPS, Wi-Fi
+    or other network-based data such as IP address. Your GPS geo-location is not accessed
+    without your consent. We do NOT provide your Location data for advertising networks
+    and third parties.'
+  annotations:
+  - practice: Identifier_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_3rdParty
+    modality: NOT_PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: In order to deliver ads to you, the third-party advertising companies
+      may place or recognize unique cookies, anonymous identifiers or similar technology
+      for non-personally identifiable information.
+    annotations:
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some of the apps may request your Location data for a functional
+      purpose.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: We do NOT provide your Location data for advertising networks and
+      third parties.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: We may disclose Non-personal data to third parties and/or allow
+      third parties to collect Non-personal data through their own embedded technology.
+    annotations:
+    - practice: Identifier_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may use various technologies to determine location, such as
+      GPS, Wi-Fi or other network-based data such as IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: Your GPS geo-location is not accessed without your consent.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_3rdParty
+      modality: NOT_PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 5
+  segment_text: 4. Personal Data Personal data means personally identifiable information
+    that specifically identifies you as an individual (e.g. your name, email address).
+    We collect and store Personal data only with your consent. We may use your Personal
+    data to send emails to you with informative content about the apps, such as new
+    features and services, special offers, order issues and updated information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Personal data means personally identifiable information that specifically
+      identifies you as an individual (e.g.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect and store Personal data only with your consent.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: your name, email address).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: '5. Third party terms and conditions Please note that your access
+    to and use of the apps may be subject to certain third-party terms and conditions
+    and privacy policies. You recognize and agree that we is not liable for any such
+    third-party terms and conditions and any third party''s use of your Personal data.
+    Here are links to the privacy policies of a few of the distributors we use: Google
+    - http://www.google.com/intl/en/policies/privacy/ Amazon - http://www.amazon.com/gp/help/customer/display.html?nodeId=468496
+    Galaxy Apps - https://account.samsung.com/membership/pp 6. Disclosure and Transfer
+    of Personal Data We disclose information to respond to subpoenas, court orders
+    and other legal processes as well as to establish/exercise our legal rights or
+    defend against legal claims. We will share Personal data and Non-personal data
+    in order to investigate, prevent or take action against illegal activities, suspected
+    fraud, potential threats to the physical safety of any person, violations of our
+    Terms of Use or as otherwise required by law.'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: "If you have any questions about this Privacy Policy, please contact\
+    \ us at androidboy \uFF20 naver.com"
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "============= Last Update: July 22, 2016 * \u500B\u4EBA\u60C5\u5831\
+    \u4FDD\u8B77\u65B9\u91DD (\u65E5\u672C) Writer: Android Boy Time : 5:47 PM Email\
+    \ ThisBlogThis!Share to TwitterShare to FacebookShare to Pinterest Newer Post\
+    \ Older Post Home Translate Select Language Smart Tools fans 3,801,233 Search\
+    \ this blog Most visited Smart Compass (v1.7) manual Hello. I'm Android Boy. Smart\
+    \ Compass is a tool to search bearings (direction, azimuth) using a magnetic sensor\
+    \ that is combined in yo..."
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Metal Detector (v1.4) manual Hello. I'm Android Boy. This app is a
+    tool to measure Magnetic Field Levels using a magnetic sensor (magnetometer).
+    Many users are usi...
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: "The instructions on Google's License issue [ English ] [ espa\xF1\
+    ol ] [ \u65E5\u672C\u8A9E ] [ portugu\xEAs ] [ \u0440\u0443\u0441\u0441\u043A\u0438\
+    \u0439 ] [ fran\xE7ais ] [ italiano ] [ English ] Hello. I'm..."
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Smart Measure (v1.6) manual Hello. I'm Android boy, the chief developer
+    of Smart Tools co,. Do you know the height of the Statue of Liberty or Tour Eiffel?
+    How do...
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Sound Meter (v1.6) manual Hello. I'm chief developer of Smart tools
+    co., This app is a tool to measure sound (noise) level around you. It is using
+    your built-in...
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Unit & Currency Converter (v1.3) manual Hello. I'm android boy, the
+    chief of developing team of Smart Tools co., Google Play store already has a lot
+    of Unit Converter apps. B...
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Speed Gun (v1.4) manual Hi. I'm Android Boy, the chief developer of
+    Smart Tools co,. Speed Gun (Smart Speed) can measure the speed of a moving object
+    by to...
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Smart Magnifier (v1.3) manual Hi. I'm Android Boy. I developed this
+    magnifier app to add into Smart Tools package. It is using camera zoom and LED
+    light. Some use...
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: "FAQ of Smart Tools\xAE apps ******************************* Common\
+    \ Questions ******************************* Q. License problem. \"not licensed...\"\
+    \ or &q..."
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Vibration Meter (v1.5) manual Hello. I'm chief developer of Smart
+    tools co., Vibration Meter is in the 4th set of Smart Tools collection. It is
+    using your built-in ...
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: "Copyright \u24D2 2010 Android Boy. All Rights Reserved. Simple theme.\
+    \ Powered by Blogger."
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Original text Contribute a better translation
+  annotations: []
+  sentences: []

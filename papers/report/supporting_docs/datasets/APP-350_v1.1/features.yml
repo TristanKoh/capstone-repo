@@ -1,0 +1,703 @@
+# We manually crafted this list of features based on the annotated policies in
+# the training and validation sets (not the test set).
+#
+# For more details, see our paper:
+# Natural Language Processing for Mobile App Privacy Compliance. Peter Story, Sebastian Zimmeck, Abhilasha Ravichander, Daniel Smullen, Ziqi Wang, Joel Reidenberg, N. Cameron Russell, and Norman Sadeh. AAAI Spring Symposium on Privacy Enhancing AI and Language Technologies (PAL 2019), Mar 2019.
+#
+# These features are made available for research, teaching, and scholarship
+# purposes only, with further parameters in the spirit of a Creative Commons
+# Attribution-NonCommercial License. Contact Prof. Norman Sadeh with any
+# questions.
+#
+# If you use these features as part of a publication, you must cite our paper.
+data_types:
+  - practices:
+      - Contact_1stParty
+      - Contact_3rdParty
+    features:
+      - contact info
+      - contact details
+      - contact data
+      - e.g., your name
+      - contact you
+      - your contact
+      - identify, contact
+      - identifying information
+      - your name, address, and e-mail address
+      - including e-mail
+  - practices:
+      - Contact_Address_Book_1stParty
+      - Contact_Address_Book_3rdParty
+    features:
+      - phone book
+      - phonebook
+      - contact information in your device
+      - address book
+      - contacts
+      - contact names
+      - contact list
+      - contacts list
+      - phone contacts
+      - contact entries
+      - import contacts
+      - friend list
+      - friends list
+  - practices:
+      - Contact_City_1stParty
+      - Contact_City_3rdParty
+    features:
+      - city
+      - hometown
+  - practices:
+      - Contact_E_Mail_Address_1stParty
+      - Contact_E_Mail_Address_3rdParty
+    features:
+      - e-mail address
+      - email address
+      - e-mail and mailing address
+      - email and mailing address
+      - e-mail or mailing address
+      - email or mailing address
+  - practices:
+      - Contact_Password_1stParty
+      - Contact_Password_3rdParty
+    features:
+      - password
+      - authentication process
+      - credential
+      - authentication token
+  - practices:
+      - Contact_Phone_Number_1stParty
+      - Contact_Phone_Number_3rdParty
+    features:
+      - phone
+      - number call
+  - practices:
+      - Contact_Postal_Address_1stParty
+      - Contact_Postal_Address_3rdParty
+    features:
+      - mailing address
+      - street address
+      - ' address,'
+      - ' address '
+      - postal address
+      - billing address
+      - shipping address
+      - home or work address
+      - other address
+      - physical address
+      - your address
+      - home address
+      - residential address
+  - practices:
+      - Contact_ZIP_1stParty
+      - Contact_ZIP_3rdParty
+    features:
+      - area code
+      - zip code
+      - zip-code
+      - postal code
+      - zip/postal code
+      - postcode
+      - post code
+  - practices:
+      - Demographic_1stParty
+      - Demographic_3rdParty
+    features:
+      - demographic
+  - practices:
+      - Demographic_Age_1stParty
+      - Demographic_Age_3rdParty
+    features:
+      - ' age '
+      - birth
+  - practices:
+      - Demographic_Gender_1stParty
+      - Demographic_Gender_3rdParty
+    features:
+      - gender
+      - male
+      - sex
+  - practices:
+      - SSO
+      - Facebook_SSO
+    features:
+      - login credentials from one of your accounts
+      - application authentication options
+      - receives your information from an SNS
+      - accessed on a third party platform or social network
+      - register using your User credentials to certain social media sites
+      - allow us to access and/or collect certain information from your Third Party Platform profile/account
+      - logging in to the Application using Third Party Social Network
+      - accessing the Services through a social network
+      - when you choose to connect with those services
+      - if you choose to register your App account via such social media providers
+      - third party platform
+  - practices:
+      - Identifier_1stParty
+      - Identifier_3rdParty
+    features:
+      - identifier
+      - unique id
+  - practices:
+      - Identifier_Ad_ID_1stParty
+      - Identifier_Ad_ID_3rdParty
+    features:
+      - adid
+      - ad id
+      - advertising id
+      - idfa
+      - identifier for advertis
+      - identifiers for advertis
+      - advertisement id
+      - gaid
+      - id for advertis
+      - ids for advertis
+      - aaid
+  - practices:
+      - Identifier_Cookie_or_similar_Tech_1stParty
+      - Identifier_Cookie_or_similar_Tech_3rdParty
+    features:
+      - cookie
+      - web beacon
+      - flash cookie
+      - local shared object
+      - pixel tag
+      - local storage
+      - tracking technolog
+      - tracing technolog
+      - tracking pixel
+      - similar technolog
+      - invisible image
+  - practices:
+      - Identifier_Device_ID_1stParty
+      - Identifier_Device_ID_3rdParty
+    features:
+      - device id
+      - android id
+      - udid
+      - iphone id
+      - android id
+      - identifier associated with your device
+      - identifiers associated with your device
+      - id associated with your device
+      - ids associated with your device
+      - mobile id
+      - device and application id
+      - identifier for your device
+      - identifiers for your device
+      - id for your device
+      - ids for your device
+      - id of your device
+      - ids of your device
+      - identifier of your device
+      - identifiers of your device
+      - id of your mobile device
+      - ids of your mobile device
+      - identifier of your mobile device
+      - identifiers of your mobile device
+      - id for vendors
+      - ids for vendors
+      - identifier for vendors
+      - identifiers for vendors
+      - idvf
+      - odin
+      - device model number
+  - practices:
+      - Identifier_IMEI_1stParty
+      - Identifier_IMEI_3rdParty
+    features:
+      - imei
+      - international mobile equipment
+      - equipment id
+  - practices:
+      - Identifier_IMSI_1stParty
+      - Identifier_IMSI_3rdParty
+    features:
+      - imsi
+      - international mobile subscriber
+  - practices:
+      - Identifier_IP_Address_1stParty
+      - Identifier_IP_Address_3rdParty
+    features:
+      - internet protocol
+      - ip address
+      - (ip) address
+      - number that is automatically assigned to your computer when you use the Internet
+  - practices:
+      - Identifier_MAC_1stParty
+      - Identifier_MAC_3rdParty
+    features:
+      - ' mac '
+      - media access control
+      - machine id
+      - hardware id
+      - hardware or device id
+      - hardware-based id
+      - hardware based id
+  - practices:
+      - Identifier_Mobile_Carrier_1stParty
+      - Identifier_Mobile_Carrier_3rdParty
+    features:
+      - mobile network
+      - mobile carrier
+      - mobile operator
+      - device carrier
+      - carrier provider
+      - wireless carrier/operator
+      - wireless carrier
+      - phone carrier
+      - mobile service provider
+      - mobile or internet carrier
+      - carrier detail
+  - practices:
+      - Identifier_SIM_Serial_1stParty
+      - Identifier_SIM_Serial_3rdParty
+    features:
+      - serial number
+      - ' sim '
+      - subscriber identification module
+      - iccid
+      - serial no
+  - practices:
+      - Identifier_SSID_BSSID_1stParty
+      - Identifier_SSID_BSSID_3rdParty
+    features:
+      - wifi name
+      - wi-fi name
+      - names of wifi
+      - names of wi-fi
+      - name of wifi
+      - name of wi-fi
+      - names of connected wifi
+      - names of connected wi-fi
+      - name of connected wifi
+      - name of connected wi-fi
+      - names of your wifi
+      - names of your wi-fi
+      - name of your wifi
+      - name of your wi-fi
+      - wifi networks used
+      - wi-fi networks used
+      - wifi network used
+      - wi-fi network used
+      - ' bssid'
+      - ' ssid'
+      - service set Id
+  - practices:
+      - Location_1stParty
+      - Location_3rdParty
+    features:
+      - locat
+      - ' geo'
+  - practices:
+      - Location_Bluetooth_1stParty
+      - Location_Bluetooth_3rdParty
+    features:
+      - devices beacon
+      - device beacon
+      - bluethooth
+      - ' precise location'
+      - ' precise geo'
+      - ' precise device location'
+      - ' precise device geo'
+      - ' specific location'
+      - ' specific geo'
+      - ' specific device location'
+      - ' specific device geo'
+      - ' exact location'
+      - ' exact geo'
+      - ' exact device location'
+      - ' exact device geo'
+      - detailed location
+      - detailed geo
+      - detailed device location
+      - detailed device geo
+      - accurate location
+      - accurate geo
+      - accurate device location
+      - accurate device geo
+      - ' precise information about the location'
+      - ' precise information about the geo'
+      - ' precise information about the device location'
+      - ' precise information about the device geo'
+  - practices:
+      - Location_Cell_Tower_1stParty
+      - Location_Cell_Tower_3rdParty
+    features:
+      - base station
+      - cell tower
+      - cell id
+      - network-based
+      - network based
+      - cellular network location
+      - approximate location
+      - approximate geo
+      - approximate device location
+      - approximate device geo
+      - approximate a location
+      - coarse location
+      - coarse geo
+      - coarse device location
+      - coarse device geo
+      - rough location
+      - rough geo
+      - rough device location
+      - rough device geo
+      - imprecise location
+      - imprecise geo
+      - imprecise device location
+      - imprecise device geo
+      - located with less precision
+      - non-precise location
+      - non-precise geo
+      - non-precise device location
+      - non-precise device geo
+      - non-specific location
+      - non-specific geo
+      - non-specific device location
+      - not-specific device geo
+      - not-specific location
+      - not-specific geo
+      - not-specific device location
+      - not-specific device geo
+      - general location
+      - general geo
+      - general device location
+      - general device geo
+      - generally where you are located
+      - based on proximity
+  - practices:
+      - Location_GPS_1stParty
+      - Location_GPS_3rdParty
+    features:
+      - gps
+      - global position
+      - latitud
+      - longitud
+      - ' precise location'
+      - ' precise geo'
+      - ' precise device location'
+      - ' precise device geo'
+      - ' specific location'
+      - ' specific geo'
+      - ' specific device location'
+      - ' specific device geo'
+      - ' exact location'
+      - ' exact geo'
+      - ' exact device location'
+      - ' exact device geo'
+      - detailed location
+      - detailed geo
+      - detailed device location
+      - detailed device geo
+      - accurate location
+      - accurate geo
+      - accurate device location
+      - accurate device geo
+      - ' precise information about the location'
+      - ' precise information about the geo'
+      - ' precise information about the device location'
+      - ' precise information about the device geo'
+  - practices:
+      - Location_IP_Address_1stParty
+      - Location_IP_Address_3rdParty
+    features:
+      - internet protocol
+      - ip address
+      - (ip) address
+      - number that is automatically assigned to your computer when you use the Internet
+      - approximate location
+      - approximate geo
+      - approximate device location
+      - approximate device geo
+      - approximate a location
+      - coarse location
+      - coarse geo
+      - coarse device location
+      - coarse device geo
+      - rough location
+      - rough geo
+      - rough device location
+      - rough device geo
+      - imprecise location
+      - imprecise geo
+      - imprecise device location
+      - imprecise device geo
+      - located with less precision
+      - non-precise location
+      - non-precise geo
+      - non-precise device location
+      - non-precise device geo
+      - non-specific location
+      - non-specific geo
+      - non-specific device location
+      - not-specific device geo
+      - not-specific location
+      - not-specific geo
+      - not-specific device location
+      - not-specific device geo
+      - general location
+      - general geo
+      - general device location
+      - general device geo
+      - generally where you are located
+      - based on proximity
+  - practices:
+      - Location_WiFi_1stParty
+      - Location_WiFi_3rdParty
+    features:
+      - wifi signal
+      - wifi access point
+      - wifi location
+      - wifi geo
+      - location based on gps/wifi/communications
+      - wi-fi signal
+      - wi-fi access point
+      - wi-fi location
+      - wi-fi geo
+      - location based on gps/wi-fi/communications
+      - ' precise location'
+      - ' precise geo'
+      - ' precise device location'
+      - ' precise device geo'
+      - ' specific location'
+      - ' specific geo'
+      - ' specific device location'
+      - ' specific device geo'
+      - ' exact location'
+      - ' exact geo'
+      - ' exact device location'
+      - ' exact device geo'
+      - detailed location
+      - detailed geo
+      - detailed device location
+      - detailed device geo
+      - accurate location
+      - accurate geo
+      - accurate device location
+      - accurate device geo
+      - ' precise information about the location'
+      - ' precise information about the geo'
+      - ' precise information about the device location'
+      - ' precise information about the device geo'
+modalities:
+  PERFORMED:
+    - consent
+    - permission
+    - ' opt'
+    - collect
+    - access
+    - gather
+    - obtain
+    - require
+    - use
+    - receive
+    - share
+    - store
+    - save
+    - disclose
+    - automatically
+    - give
+    - sell
+    - allow
+    - process
+    - track
+    - possible
+    - offer
+    - employ
+    - read
+    - have
+    - record
+    - acquire
+    - get
+    - view
+    - locate
+    - ask
+    - utilize
+    - tell
+    - request
+    - be transmitted
+    - be communicated
+  NOT_PERFORMED:
+    - not collect
+    - no longer collect
+    - not access
+    - not gather
+    - not obtain
+    - not require
+    - not use
+    - not receive
+    - not share
+    - not store
+    - not save
+    - not disclose
+    - not automatically
+    - not give
+    - not sell
+    - not allow
+    - not process
+    - not track
+    - not possible
+    - not offer
+    - not employ
+    - not read
+    - not have
+    - not record
+    - not acquire
+    - not get
+    - not view
+    - not locate
+    - not ask
+    - not utilize
+    - not tell
+    - not request
+    - not communicate
+    - not transmit
+    - not be transmitted
+    - not be communicated
+    - not provide
+    - not have to
+    - n't
+    - not
+    - never
+    - no longer
+    - will not
+    - n't collect
+    - n't access
+    - n't gather
+    - n't obtain
+    - n't require
+    - n't use
+    - n't receive
+    - n't share
+    - n't store
+    - n't save
+    - n't disclose
+    - n't automatically
+    - n't give
+    - n't sell
+    - n't allow
+    - n't process
+    - n't track
+    - n't possible
+    - n't offer
+    - n't employ
+    - n't read
+    - n't have
+    - n't record
+    - n't acquire
+    - n't get
+    - n't view
+    - n't locate
+    - n't ask
+    - n't utilize
+    - n't tell
+    - n't request
+    - n't be transmitted
+    - n't be communicated
+    - never collect
+    - never access
+    - never gather
+    - never obtain
+    - never require
+    - never use
+    - never receive
+    - never share
+    - never store
+    - never save
+    - never disclose
+    - never automatically
+    - never give
+    - never sell
+    - never allow
+    - never process
+    - never track
+    - never possible
+    - never offer
+    - never employ
+    - never read
+    - never have
+    - never record
+    - never acquire
+    - never get
+    - never view
+    - never locate
+    - never ask
+    - never utilize
+    - never tell
+    - never request
+    - never transmit
+    - never communicate
+    - never be collected
+    - never be accessed
+    - never be gathered
+    - never be obtained
+    - never be required
+    - never be used
+    - never be received
+    - never be shared
+    - never be stored
+    - never be saved
+    - never be disclosed
+    - never be automatically
+    - never be given
+    - never be sold
+    - never be allowed
+    - never be processed
+    - never be tracked
+    - never be offered
+    - never be employed
+    - never be read
+    - never be recorded
+    - never be acquired
+    - never be viewed
+    - never be located
+    - never be asked
+    - never be utilized
+    - never be requested
+    - never be transmitted
+    - never be communicated
+    - nor do we collect
+    - does not tell us
+parties:
+  FirstParty:
+    - ' we '
+    - ' you '
+    - ' us '
+    - ' our '
+    - the app
+    - the software
+  ThirdParty:
+    - partner
+    - third part
+    - third-part
+    - service provider
+    - contractor
+    - vendor
+    - provider
+    - supplier
+    - analytics compan
+    - advertising compan
+    - advertiser
+    - brand owner
+    - sponsor
+    - advertising network
+    - trusted affiliate
+    - ad serv
+    - facebook
+    - ad network
+    - social
+    - google
+    - our behalf
+    - ad compan
+    - flurry
+    - these providers
+    - these entities
+    - ad server
+    - crosswise
+    - tapad
+    - agent
+    - share
+    - shari
+    - collect

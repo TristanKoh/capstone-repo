@@ -1,0 +1,497 @@
+policy_id: 241
+policy_name: IMDb
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: IMDb More All Titles TV Episodes Names Companies Keywords Characters
+    Quotes Bios Plots Movies, & Showtimes MOVIES In Theaters Showtimes & Tickets Latest
+    Trailers Coming Soon Release Calendar Top Rated Movies Top Rated Indian Movies
+    Most Popular Movies
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: CHARTS & TRENDS Box Office Oscar Winners Most Popular by Genre
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: TV & VIDEO IMDb TV On Tonight Top Rated TV Shows Most Popular TV Shows
+    Watch Now on Amazon DVD & Blu-Ray
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: SPECIAL FEATURES IMDb Picks Scary Good Amazon Originals Star Wars
+    on IMDb
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Celebs, Events & Photos CELEBS Born Today Celebrity News Most Popular
+    Celebs
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: PHOTOS Latest Stills Latest Posters Photos We Love
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: EVENTS Awards Central Oscars Golden Globes Sundance Cannes Comic-Con
+    Emmy Awards Venice Film Festival Toronto Film Festival Festival Central Tribeca
+    All Events
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: News & Community LATEST HEADLINES Kate McKinnon, Mila Kunis In Talks
+    For Lionsgate's 'The Spy Who Dumped Me' 1 hours ago Obama White House Workplace
+    Comedy In Development (Exclusive) 2 hours ago 'Stranger Things' Composers Tease
+    the Role of the Upside-Down in Season 2 2 hours ago
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: NEWS Top News Movie News TV News Celebrity News Indie News
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: COMMUNITY Contributor Zone Polls
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Watchlist YOUR WATCHLIST The leading information resource for the
+    entertainment industry Find industry contacts & talent representation Manage your
+    photos, credits, and more Showcase yourself on IMDb & Amazon Go to IMDbPro Help
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Sign in with Facebook Other Sign in options IMDb Privacy Notice Last
+    Updated, November 29, 2016. To see what has changed click here.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: IMDb knows that you care how information about you is used and shared,
+    and we appreciate your trust that we will do so carefully and sensibly. By visiting
+    IMDb, or by visiting other properties operated by IMDb such as DPReview.com, you
+    are accepting the practices described in this Privacy Notice.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: What Personal Information About Users Does IMDb Gather? The information
+    we learn from users helps us personalize and continually improve your experience
+    at IMDb. Here are the types of information we gather.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 'Information You Give Us: We receive and store any information you
+    enter on our Web site or give us in any other way. Click here to see examples
+    of what we collect. You can choose not to provide certain information, but then
+    you might not be able to take advantage of many of our features. We use the information
+    that you provide for such purposes as responding to your requests, customizing
+    future browsing for you, improving our site, and communicating with you.'
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: 'Automatic Information: We receive and store certain types of information
+    whenever you interact with us. For example, like many Web sites, we use "cookies,"
+    and we obtain certain types of information when your Web browser accesses IMDb
+    or advertisements and other content served by or on behalf of IMDb on other Web
+    sites. Click here to see examples of the information we receive.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Automatic Information: We receive and store certain types of information
+      whenever you interact with us.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For example, like many Web sites, we use "cookies," and we obtain
+      certain types of information when your Web browser accesses IMDb or advertisements
+      and other content served by or on behalf of IMDb on other Web sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: 'E-mail Communications: To help us make e-mails more useful and interesting,
+    we often receive a confirmation when you open e-mail from IMDb if your computer
+    supports such capabilities. We also compare our user list to lists received from
+    other companies, in an effort to avoid sending unnecessary messages to our users.
+    If you do not want to receive e-mail or other mail from us, please use our User
+    Administration pages to adjust your preferences.'
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 'Mobile: When you download or use apps created by IMDb, we may receive
+    information about your location and your mobile device, including a unique identifier
+    for your device. We may use this information to provide you with location-based
+    services, such as advertising, local show times, search results, and other personalized
+    content. Most mobile devices allow you to turn off location services. For more
+    information about how to do this, click here.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "When you download or use\_apps created by IMDb, we may receive\
+      \ information about your location and your mobile device, including a unique\
+      \ identifier for your device."
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: 'Information from Other Sources: We might receive information about
+    you from other sources and add it to our account information. Click here to see
+    examples of the information we receive.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: What About Cookies? Cookies are alphanumeric identifiers that we transfer
+    to your computer's hard drive through your Web browser to enable our systems to
+    recognize your browser and to provide features such as My Movies, local show times,
+    and browsing preferences.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are alphanumeric identifiers that we transfer to your computer's
+      hard drive through your Web browser to enable our systems to recognize your
+      browser and to provide features such as My Movies, local show times, and browsing
+      preferences.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: What About Cookies?
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: The "help" portion of the toolbar on most browsers will tell you how
+    to prevent your browser from accepting new cookies, how to have the browser notify
+    you when you receive a new cookie, or how to disable cookies altogether. Additionally,
+    you can disable or delete similar data used by browser add-ons, such as Flash
+    cookies, by changing the add-on's settings or visiting the Web site of its manufacturer.
+    However, because cookies allow you to take full advantage of some of IMDb's essential
+    features, we recommend that you leave them turned on.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, you can disable or delete similar data used by browser
+      add-ons, such as Flash cookies, by changing the add-on's settings or visiting
+      the Web site of its manufacturer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: However, because cookies allow you to take full advantage of some
+      of IMDb's essential features, we recommend that you leave them turned on.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The "help" portion of the toolbar on most browsers will tell you
+      how to prevent your browser from accepting new cookies, how to have the browser
+      notify you when you receive a new cookie, or how to disable cookies altogether.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: We use web beacons (also known as "action tags" or "single-pixel gifs")
+    and other technologies to measure the effectiveness of certain site features and
+    to conduct research and analysis. We also allow third parties to place web beacons
+    and other technologies on our site to conduct research and analysis, but we do
+    not provide personal information to such third parties.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also allow third parties to place web beacons and other technologies
+      on our site to conduct research and analysis, but we do not provide personal
+      information to such third parties.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use web beacons (also known as "action tags" or "single-pixel
+      gifs") and other technologies to measure the effectiveness of certain site features
+      and to conduct research and analysis.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 22
+  segment_text: Does IMDb Share the Information It Receives? Information about our
+    users is an important part of our business, and we are not in the business of
+    selling it to others. We share user information with our parent corporation (Amazon.com,
+    Inc.), the subsidiaries it controls, and as described below.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: 'Affiliated Businesses We Do Not Control: We work closely with our
+    affiliated businesses. In some cases, we will include offerings from these businesses
+    on IMDb. In other cases, we may include joint offerings from IMDb and these businesses
+    on IMDb. You can tell when another business is involved in the offering, and we
+    share user information related to those offerings with that business.'
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 'Agents: We employ other companies and individuals to perform functions
+    on our behalf. Examples include sending e-mail, removing repetitive information
+    from user lists, analyzing data, and providing marketing assistance. They have
+    access to personal information needed to perform their functions, but may not
+    use it for other purposes.'
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'Promotional Offers: Sometimes we send offers to selected groups of
+    IMDb users on behalf of other businesses. When we do this, we do not give that
+    business your name and e-mail address. If you do not want to receive such offers,
+    please use our User Administration pages to adjust your preferences.'
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: If you do not want to receive such offers, please use our User
+      Administration pages to adjust your preferences.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: 'Promotional Offers: Sometimes we send offers to selected groups
+      of IMDb users on behalf of other businesses.'
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: When we do this, we do not give that business your name and e-mail
+      address.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 26
+  segment_text: 'Business Transfers: As we continue to develop our business, we might
+    sell or buy additional services or business units. In such transactions, user
+    information generally is transferred along with the rest of the service or business
+    unit. Also, in the event that IMDb.com, Inc., or substantially all of its assets
+    are acquired, user information will of course be included in the transaction.'
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 'Protection of IMDb and Others: We release account and other personal
+    information when we believe release is appropriate to comply with law; enforce
+    or apply our Terms and Conditions of Use and other agreements; or protect the
+    rights, property, or safety of IMDb, our users, or others. This includes exchanging
+    information with other companies and organizations for fraud protection and credit
+    risk reduction. Obviously, however, this does not include selling, renting, sharing,
+    or otherwise disclosing personally identifiable information from customers for
+    commercial purposes in violation of the commitments set forth in this Privacy
+    Notice. With Your Consent: Other than as set out above, you will always receive
+    notice when information about you might go to third parties, and you will have
+    an opportunity to choose not to share the information.'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: What About Third-Party Advertisers? Our site includes third-party
+    advertising and links to other websites. We do not provide any personally identifiable
+    customer information to these advertisers or third-party websites.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: These third-party websites and advertisers, or Internet advertising
+    companies working on their behalf, sometimes use technology to send (or "serve")
+    the advertisements that appear on our website directly to your browser. They automatically
+    receive your IP address when this happens. They may also use cookies, JavaScript,
+    web beacons (also known as action tags or single-pixel gifs), and other technologies
+    to measure the effectiveness of their ads and to personalize advertising content.
+    We do not have access to or control over cookies or other features that they may
+    use, and the information practices of these advertisers and third-party websites
+    are not covered by this Privacy Notice. Please contact them directly for more
+    information about their privacy practices. In addition, the Network Advertising
+    Initiative offers useful information about Internet advertising companies (also
+    called "ad networks" or "network advertisers"), including information about how
+    to opt-out of their information collection.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These third-party websites and advertisers, or Internet advertising
+      companies working on their behalf, sometimes use technology to send (or "serve")
+      the advertisements that appear on our website directly to your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: They automatically receive your IP address when this happens.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+  - sentence_text: They may also use cookies, JavaScript, web beacons (also known
+      as action tags or single-pixel gifs), and other technologies to measure the
+      effectiveness of their ads and to personalize advertising content.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 30
+  segment_text: IMDb also displays personalized third-party advertising based on personal
+    information about users, such as information you submit to us about movies you
+    own or have watched. Click here for more information about the personal information
+    that we gather. Although IMDb does not provide any personal information to advertisers,
+    advertisers (including ad-serving companies) may assume that users who interact
+    with or click on a personalized advertisement meet their criteria to personalize
+    the ad (for example, users in the northwestern United States who bought, watched,
+    or browsed for romantic comedies). If you do not want us to use personal information
+    that we gather to allow third parties to personalize advertisements we display
+    to you, please adjust your Advertising Preferences.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: How Secure Is Information About Me? If you use our subscription service,
+    we work to protect the security of your subscription information during transmission
+    by using Secure Sockets Layer (SSL) software, which encrypts information you input.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: It is important for you to protect against unauthorized access to
+    your password and to your computer. Be sure to sign off when finished using a
+    shared computer.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: What Choices and Access Do I Have? As discussed above, you can always
+    choose not to provide information, even though it might be needed to take advantage
+    of such IMDb features as My Movies and local show times.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: You can add or update certain information, such as your e-mail address,
+    by using our User Administration pages. When you update information, we usually
+    keep a copy of the prior version for our records.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You can add or update certain information, such as your e-mail
+      address, by using our User Administration pages.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: If you do not want to receive e-mail or other mail from us, please
+    use our User Administration pages to adjust your preferences. (If you do not want
+    to receive legal notices from us, such as this Privacy Notice, those notices will
+    still govern your use of IMDb, and it is your responsibility to review them for
+    changes.) If you do not want us to use personal information that we gather to
+    allow third parties to personalize advertisements we display to you, please adjust
+    your Advertising Preferences.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: The "help" portion of the toolbar on most browsers will tell you how
+    to prevent your browser from accepting new cookies, how to have the browser notify
+    you when you receive a new cookie, or how to disable cookies altogether. Additionally,
+    you can disable or delete similar data used by browser add-ons, such as Flash
+    cookies, by changing the add-on's settings or visiting the Web site of its manufacturer.
+    However, because cookies allow you to take advantage of some of IMDb's essential
+    features, we recommend that you leave them turned on.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, you can disable or delete similar data used by browser
+      add-ons, such as Flash cookies, by changing the add-on's settings or visiting
+      the Web site of its manufacturer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: However, because cookies allow you to take advantage of some of
+      IMDb's essential features, we recommend that you leave them turned on.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The "help" portion of the toolbar on most browsers will tell you
+      how to prevent your browser from accepting new cookies, how to have the browser
+      notify you when you receive a new cookie, or how to disable cookies altogether.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 37
+  segment_text: Children IMDb is not intended for use by children under the age of
+    13. If you are under 13, you may not submit information about yourself to IMDb.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: Conditions of Use, Notices, and Revisions If you choose to visit IMDb,
+    your visit and any dispute over privacy is subject to this Notice and our Terms
+    and Conditions of Use, including limitations on damages, resolution of disputes,
+    and application of the law of the state of Washington.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: If you have any concern about privacy at IMDb, please send us a thorough
+    description to our help desk, and we will try to resolve it.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Our business changes constantly. This Notice and the Terms and Conditions
+    of Use will change also, and use of information that we gather now is subject
+    to the Privacy Notice in effect at the time of use. We may e-mail periodic reminders
+    of our notices and conditions, unless you have instructed us not to, but you should
+    check our Web site frequently to see recent changes. Unless stated otherwise,
+    our current Privacy Notice applies to all information that we have about you and
+    your account. We stand behind the promises we make, however, and will never materially
+    change our policies and practices to make them less protective of customer information
+    collected in the past without the consent of affected customers.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: IMDb Everywhere Find showtimes, watch trailers, browse photos, track
+    your Watchlist and rate your favorite movies and TV shows on your phone or tablet!
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: IMDb Mobile site Follow IMDb on Home Top Rated Movies Box Office Coming
+    Soon Site Index Search In Theaters Contact Us Register News Press Room Advertising
+    Jobs IMDbPro Box Office Mojo Withoutabox Conditions of Use Privacy Policy Interest-Based
+    Ads
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: "Copyright \xA9 1990-2017 IMDb.com, Inc."
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: An Amazon.com company.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: Amazon Affiliates Amazon Video Watch Movies & TV Online Prime Video
+    Unlimited Streaming of Movies & TV Amazon Germany Buy Movies on DVD & Blu-ray
+    Amazon Italy Buy Movies on DVD & Blu-ray Amazon France Buy Movies on DVD & Blu-ray
+    Amazon India Buy Movie and TV Show DVDs DPReview Digital Photography Audible Download
+    Audio Books
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: "Mobile: When you download or use\_apps created by IMDb, we do not\
+    \ receive information about your location or the unique identifier for your device."
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "Mobile: When you download or use\_apps created by IMDb, we do\
+      \ not receive information about your location or the unique identifier for your\
+      \ device."
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED

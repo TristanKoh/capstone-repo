@@ -1,0 +1,531 @@
+policy_id: 313
+policy_name: SocialPoint
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: We use cookies on this site to keep track of the pages you visit,
+    so we can give you the very best user experience. By using our site you accept
+    the terms and details of our cookies policy.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using our site you accept the terms and details of our cookies
+      policy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use cookies on this site to keep track of the pages you visit,
+      so we can give you the very best user experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 1
+  segment_text: Accept cookies Home Games Jobs About Blog Press Community
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Accept cookies Home Games Jobs About Blog Press Community
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: "PRIVACY POLICY 1. General Information 1.1 The webpage, URL www.socialpoint.es\
+    \ (the \"Website\"), is property of SOCIAL POINT, S.L. (\"Social Point\"), a Spanish\
+    \ company whose primary place of business is C/ de la Llacuna, n\xBA 166, Planta\
+    \ 12, Barcelona, Spain, 08018, and whose tax ID # is B-64-965-437."
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 1.2 The privacy and privacy protection of Website users is very important
+    to Social Point. This Privacy Policy is applicable to all the services offered
+    on this Website, as well as pages and services that may be added to the Website
+    in the future, and is subject to the terms and conditions provided by Organic
+    Law 15/1999, from December 13, on the Protection of Personal Information ("LOPD"),
+    as well as the rules and regulations thereunder, and Law 34/2002, from July 11,
+    on Information Society Services and Electronic Commerce ("LSSI").
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 1.3 Notwithstanding certain circumstances requiring your express acceptance
+    of this Privacy Policy to access certain services, browsing and use of the services
+    and content hosted on the Website implies that you accept the latest version of
+    the Privacy Policy published by Social Point on the Website. For your convenience,
+    this document can be printed and stored.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 1.4 We recommend you review this Privacy Policy each time you visit
+    our Website. Its content may change in the future so that it can be adapted to
+    new legal requirements or the new ways in which we may use your personal information.
+    Regardless, we will notify you each time we substantially modify our Privacy Policy
+    so that you are aware of the current version at all times.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 2. Minors 2.1 For Social Point, it is very important to protect the
+    privacy of the youngest.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: That is why we do not collect or keep information from minors under
+    the age of 14. Thus, if you are a minor under the age of 14, we ask that you not
+    register or send us your personal information. If, upon inspection, we detect
+    information related to users under the age of 14, we will delete it immediately.
+    If you believe that Social Point has information of minors under the age of 14,
+    please contact us at info@socialpoint.es.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: This notwithstanding, we reserve the right to collect information
+    from minors under the age of 14 in those exceptional instances where, as a part
+    of promotions or services we may offer, minors under the age of 14 are expressly
+    permitted to participate, pursuant to the particular conditions regulating such
+    promotions or services (in which case the relevant authorization for use of your
+    personal information will be requested).
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: In general, if you are a minor under the age of 18, we recommend you
+    ask your parents or legal guardians for permission before sending any information
+    about your person on the Internet.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 2.2 Social Point is free from any liability arising from violations
+    of this advice on the part of minor aged users.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 3. Who is Responsible for Files and Data Management? 3.1 The personal
+    information that you provide us (where applicable) on the various electronic forms
+    found on this Website will be incorporated into a personal data file owned by
+    Social Point and properly registered at the General Register of the Spanish Data
+    Protection Agency.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 3.2 All the fields marked by an asterisk on the forms must be completed
+    so we can help you with any question, request or comment you may have. If you
+    do not provide all the necessary data, we cannot guarantee service for your request.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 4. What is Your Personal Data Used for? 4.1 The personal data you
+    provide us will be used to process and manage the services you have requested
+    from us at all times (including, but not limited to, answering questions, participating
+    in blogs and/or in the forum, participating in promotions, receiving newsletters).
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: 4.2 The information provided in the employment opportunities form,
+    to which you may also attach files (like your resume), will be used, where applicable,
+    to process your application in Social Point's selection process and will be incorporated
+    into the appropriate personal data file related to candidates to work with us.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Please do not send us information about your health, race, ideology,
+    religion, beliefs, trade union membership or sex life.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: 4.3 Additionally, we may collect other information about your Website
+    visits using your IP address login, such as the pages you visit most or the services
+    you pay most attention to.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Additionally, we may collect other information about your Website
+      visits using your IP address login, such as the pages you visit most or the
+      services you pay most attention to.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: 5. Sending Promotional Offers with Electronic Media 5.1 To the extent
+    that you give us your consent by checking the relevant boxes, we will use your
+    e-mail address to send you promotional offers by e-mail or by any other equivalent
+    means of electronic communication (such as direct messages on social networks,
+    for example).
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: mail address to send you promotional offers by e-mail or by any
+      other equivalent means of electronic communication (such as direct messages
+      on social networks, for example).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: (i) These promotional offers refer to goods and services marketed
+    or offered by Social Point in relation to videogames, mobile applications, computer
+    applications, social networks and the Internet in general as well as acts and
+    events organized by Social Point or in which Social Point takes part.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: "(ii) Where applicable, you will be asked if you wish to receive promotional\
+    \ offers related to goods and services marketed or offered by any of Social Point's\
+    \ partners or collaborating entities, or by any other third party, provided that\
+    \ said information is related to videogames, mobile applications, computer applications,\
+    \ social networks and the Internet in general, [\xAE]."
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 6. Cookies We Use Pursuant to Article 22.2, LSSI, we will only use
+    data storage and retrieval devices ("cookies") when you have given us your prior
+    consent to do so, based on what appears in your browser's pop-up window when you
+    access the Website for the first time and the other terms and conditions set forth
+    in Social Point's Cookies Policy, which we recommend you read.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies We Use Pursuant to Article 22.2, LSSI, we will only use
+      data storage and retrieval devices ("cookies") when you have given us your prior
+      consent to do so, based on what appears in your browser's pop-up window when
+      you access the Website for the first time and the other terms and conditions
+      set forth in Social Point's Cookies Policy, which we recommend you read.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 21
+  segment_text: 7. How to Exercise Your Rights of Access, Correction, Cancelation
+    and Opposition.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: 7.1 You have the right to access your personal information stored
+    in Social Point's files at any time as well as correct it, cancel it or
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: "oppose the use thereof (\"ACCO Rights\"). In this manner, you may\
+    \ exercise your ACCO rights by e-mail to info@socialpoint.com or by sending a\
+    \ letter to the following address: C/ de la Llacuna, n\xBA 166, Planta, 12 (08018),\
+    \ Barcelona (Spain). In all instances, and to ensure your security, you must verify\
+    \ your identity with a photocopy of your current identity document or passport\
+    \ to exercise your ACCO rights."
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: 7.2 Additionally, if you register on the Website, you may access the
+    account control panel to set your preferences and, among other things, exercise
+    your ACCO rights so you can see what information we have about you and correct
+    any that is not accurate.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 8. Social Point does not Share Your Information We guarantee we will
+    not share the personal information you provide us to any third parties for their
+    use unless you give us consent to do so or unless we are obligated by law.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: The sole exception to this is if Social Point is sold. In that case,
+    we will transfer your personal information to our buyers so they can continue
+    providing the same services as Social Point (our buyers will assume the same commitments
+    and obligations as Social Point under the Privacy Policy).
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 9. Security of Your Information We have adopted the security measures
+    required by Royal Decree 1720/2007, from December 21, which approved the rules
+    and regulations under the LOPD, suited for the nature of the information that
+    is used at any time. This notwithstanding, technical security in a medium such
+    as the Internet is not impregnable, and there may be wrongful acts committed by
+    third parties even if we use all means at our disposal to avoid such acts.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 10. Governing Law and Competent Jurisdiction The Social Point Website
+    and this Privacy Policy are governed by Spanish law.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: "POL\xCDTICA DE PRIVACIDAD 1. Informaci\xF3n general 1.1 La p\xE1\
+    gina web con URL www.socialpoint.es (el \"Website\") es titularidad de SOCIAL\
+    \ POINT, S.L. (\"Social Point\"), entidad espa\xF1ola con domicilio social en\
+    \ Espa\xF1a, 08018 de Barcelona, c/ de la Llacuna, n\xBA 166, Planta 12, y provista\
+    \ del NIF B-64.965.437."
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: "1.2 La privacidad y la salvaguarda de la intimidad de los usuarios\
+    \ de este Website es lo m\xE1s importante para Social Point. La presente Pol\xED\
+    tica de Privacidad es aplicable a todos los servicios de este Website, as\xED\
+    \ como a las p\xE1ginas y servicios a los que el presente Website se pueda ampliar\
+    \ en el futuro, y est\xE1 sujeta a los t\xE9rminos y condiciones previstos en\
+    \ la Ley Org\xE1nica 15/1999, de 13 de diciembre, de Protecci\xF3n de Datos de\
+    \ Car\xE1cter Personal ( \"LOPD\"), as\xED como su normativa de desarrollo, y\
+    \ en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Informaci\xF3\
+    n y el Comercio Electr\xF3nico (\"LSSI\")."
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: "1.3 Sin perjuicio de que en determinadas circunstancias se requiera\
+    \ tu aceptaci\xF3n expresa de esta Pol\xEDtica de Privacidad para acceder a determinados\
+    \ servicios, la navegaci\xF3n y utilizaci\xF3n de los servicios y contenidos alojados\
+    \ en el Website conlleva la aceptaci\xF3n por tu parte de esta Pol\xEDtica de\
+    \ Privacidad en la \xFAltima versi\xF3n publicada por Social Point en el Website.\
+    \ Para tu mayor comodidad, este documento puede ser impreso y almacenado."
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: "1.4 Te recomendamos que revises esta Pol\xEDtica de Privacidad cada\
+    \ vez que te conectes a nuestro Website. Es posible que su contenido cambie en\
+    \ el futuro para adecuarlo a nuevos requisitos legales o a los nuevos tratamientos\
+    \ que podamos realizar sobre tus datos personales. En cualquier caso, te avisaremos\
+    \ cada vez que modifiquemos nuestra Pol\xEDtica de Privacidad de forma sustancial\
+    \ para que est\xE9s informado en todo momento de la versi\xF3n vigente."
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "2. Menores de edad 2.1 Para Social Point es muy importante proteger\
+    \ la privacidad de los m\xE1s j\xF3venes."
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: "Por este motivo, no recabamos ni mantenemos datos de menores de 14\
+    \ a\xF1os. As\xED, si eres menor de 14 a\xF1os te pedimos que no te registres\
+    \ ni nos mandes tus datos de car\xE1cter personal. En el caso de que, fruto de\
+    \ nuestras inspecciones, detectemos informaci\xF3n relativa a usuarios menores\
+    \ de 14 a\xF1os, procederemos a cancelar estos datos de forma inmediata. Si crees\
+    \ que Social Point cuenta con datos de personas menores de 14 a\xF1os, rogamos\
+    \ nos lo comuniques a la direcci\xF3n info@socialpoint.es."
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: "Sin perjuicio de lo anterior, nos reservamos la posibilidad de recabar\
+    \ datos de personas menores de 14 a\xF1os en aquellos casos excepcionales en los\
+    \ que, atendiendo a promociones o servicios especiales que ofrezcamos, expresamente\
+    \ se permita la participaci\xF3n de menores de 14 a\xF1os, de conformidad con\
+    \ las condiciones particulares que regulen dichas promociones o servicios (en\
+    \ cuyo caso se solicitar\xE1n las autorizaciones pertinentes para el tratamiento\
+    \ de sus datos de car\xE1cter personal)."
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: "De manera general, si eres menor de 18 a\xF1os recomendamos que pidas\
+    \ permiso a tus padres o tutores legales antes de enviar cualquier informaci\xF3\
+    n sobre tu persona por la red."
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 2.2 Social Point se exonera de cualquier responsabilidad derivada
+    del incumplimiento por parte de usuarios menor de edad de estas indicaciones.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: "3. \xBFQui\xE9n es el responsable de los ficheros y del tratamiento\
+    \ de los datos?"
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: "3.1 Los datos de car\xE1cter personal que, en su caso, nos proporciones\
+    \ a trav\xE9s de los distintos formularios electr\xF3nicos que se encuentran en\
+    \ este Website ser\xE1n incorporados en un fichero de datos de car\xE1cter personal\
+    \ titularidad de Social Point, debidamente inscrito en el Registro General de\
+    \ la Agencia Espa\xF1ola de Protecci\xF3n de Datos."
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: "3.2 Todos los campos marcados con un asterisco en los formularios\
+    \ deber\xE1n rellenarse con car\xE1cter obligatorio para que podamos dar tr\xE1\
+    mite a la consulta, petici\xF3n o comentario que hayas formulado. En caso de que\
+    \ no sean facilitados todos los datos requeridos, no garantizamos que tu solicitud\
+    \ pueda ser atendida."
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: "4. \xBFCu\xE1l es la finalidad del tratamiento de los datos?"
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: "4.1 Los datos de car\xE1cter que nos proporciones ser\xE1n tratados\
+    \ con la finalidad de tramitar y gestionar la prestaci\xF3n del servicio que nos\
+    \ hayas solicitado en cada momento (respuesta a consultas planteadas, participaci\xF3\
+    n en blog y/o en el foro, participaci\xF3n en promociones, recepci\xF3n de newsletters,\
+    \ entre otros)."
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: "4.2 Los datos proporcionados a trav\xE9s del formulario de contacto\
+    \ para candidaturas laborales, en los que adem\xE1s podr\xE1s incorporar archivos\
+    \ adjuntos (como tu curr\xEDculo vitae), ser\xE1n utilizados para, en su caso,\
+    \ gestionar tu candidatura en los procesos de selecci\xF3n de Social Point, y\
+    \ ser\xE1n incorporados al correspondiente fichero de datos de car\xE1cter personal\
+    \ relativos a los candidatos a trabajar con nosotros."
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: "Por favor, no nos remitas informaci\xF3n relativa a tu salud, origen\
+    \ racial, ideolog\xEDa, religi\xF3n, creencias, afiliaci\xF3n sindical o vida\
+    \ sexual."
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: "4.3 Adicionalmente, podr\xE1 recabarse informaci\xF3n complementaria\
+    \ de las visitas que realices al Website como, por ejemplo, las p\xE1ginas m\xE1\
+    s visitadas o los servicios a los que le prestas una mayor atenci\xF3n, mediante\
+    \ el registro de tu direcci\xF3n IP."
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: "5. Env\xEDo de comunicaciones comerciales por medios electr\xF3nicos\
+    \ 5.1 En la medida que nos des tu autorizaci\xF3n mediante la marcaci\xF3n de\
+    \ las correspondientes casillas, utilizaremos tu direcci\xF3n de correo electr\xF3\
+    nico con la finalidad de remitirte comunicaciones comerciales por correo electr\xF3\
+    nico o cualquier otro medio de comunicaci\xF3n electr\xF3nica equivalente (como,\
+    \ por ejemplo, mensajes directos a trav\xE9s de redes sociales)."
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: "(i) Dichas comunicaciones comerciales estar\xE1n referidas a bienes\
+    \ y servicios comercializados o prestados por Social Point en relaci\xF3n con\
+    \ el sector de los videojuegos, aplicaciones m\xF3viles, aplicaciones inform\xE1\
+    ticas, redes sociales e Internet en general as\xED como a los actos y eventos\
+    \ que organice o en los que participe Social Point."
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: "(ii) En su caso, se te preguntar\xE1 tambi\xE9n si deseas recibir\
+    \ comunicaciones comerciales en relaci\xF3n con bienes y servicios comercializados\
+    \ o prestados por cualquiera de los partners o entidades colaboradoras de Social\
+    \ Point, as\xED como por cualquier otro tercero, siempre y cuando dicha informaci\xF3\
+    n est\xE9 relacionada con el sector de los videojuegos, aplicaciones m\xF3viles,\
+    \ aplicaciones inform\xE1ticas, redes sociales e Internet en general, [\xAE]."
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: "6. Cookies que utilizamos En cumplimiento de lo dispuesto en el art\xED\
+    culo 22.2 LSSI, \xFAnicamente utilizaremos dispositivos de almacenamiento y recuperaci\xF3\
+    n de datos ('cookies') cuando nos hayas dado tu consentimiento previo para ello,\
+    \ de acuerdo con lo que se indica en la ventana emergente de tu navegador cuando\
+    \ accedes por primera vez al Website y en los dem\xE1s t\xE9rminos y condiciones\
+    \ que se indican en la Pol\xEDtica de Cookies de Social Point, cuya lectura te\
+    \ recomendamos."
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: "7. C\xF3mo ejercer tus derechos de acceso, rectificaci\xF3n, cancelaci\xF3\
+    n y oposici\xF3n"
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: "7.1 Tendr\xE1s derecho a acceder en cualquier momento a tus datos\
+    \ personales registrados en los ficheros de Social Point as\xED como a rectificarlos,\
+    \ cancelarlos u oponerte al tratamiento de los mismos (\"Derechos ARCO\"). En\
+    \ este sentido, podr\xE1s ejercer tus Derechos ARCO a trav\xE9s del correo electr\xF3\
+    nico info@socialpoint.com o mediante carta remitida a la siguiente direcci\xF3\
+    n: c/ de la Llacuna, n\xBA 166, Planta, 12 (08018), Barcelona (Espa\xF1a). En\
+    \ todos los casos y para garantizar tu seguridad, para ejercer tus Derechos ARCO,\
+    \ deber\xE1s acreditar tu identidad mediante fotocopia de tu documento de identidad\
+    \ o pasaporte en vigor."
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: "7.2 Adicionalmente, en caso de que te registres en el Website, podr\xE1\
+    s acceder al panel de control de cuenta para configurar tus preferencias y, entre\
+    \ otros, ejercer tus Derechos ARCO, viendo qu\xE9 datos disponemos sobre ti y\
+    \ pudiendo corregirlos en caso de error."
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: "8. Social Point no cede tus datos Te garantizamos que los datos personales\
+    \ que nos facilites no los cederemos a ning\xFAn tercero para su uso propio excepto\
+    \ que nos des tu autorizaci\xF3n para ello o vengamos obligados por ley."
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: "La \xFAnica excepci\xF3n a lo anterior podr\xEDa darse en el caso\
+    \ de que Social Point sea vendida. En ese caso les transferir\xEDamos tus datos\
+    \ personales a nuestros compradores para que pudieran seguir proporcion\xE1ndote\
+    \ los mismos servicios que Social Point (nuestros compradores asumir\xE1n los\
+    \ mismos compromisos y obligaciones que Social Point de conformidad con esta Pol\xED\
+    tica de Privacidad)."
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: "9. Seguridad de tus datos Tenemos adoptadas las medidas de seguridad\
+    \ requeridas por el Real Decreto 1720/2007, de 21 de diciembre, por el que se\
+    \ aprueba el Reglamento de desarrollo de la LOPD, adecuados a la naturaleza de\
+    \ los datos que son objeto de tratamiento en cada momento. No obstante lo anterior,\
+    \ la seguridad t\xE9cnica en un medio como internet no es inexpugnable y pueden\
+    \ existir actuaciones dolosas de terceros, si bien ponemos todos los medios a\
+    \ nuestro alcance para evitar dichas actuaciones."
+  annotations: []
+  sentences: []
+- segment_id: 56
+  segment_text: "10. Legislaci\xF3n aplicable y jurisdicci\xF3n competente El Website\
+    \ de Social Point y la presente Pol\xEDtica de Privacidad se rigen conforme a\
+    \ la Ley espa\xF1ola."
+  annotations: []
+  sentences: []
+- segment_id: 57
+  segment_text: More from our blog We became part of the Take-Two... We went back
+    to the future... Game design, the art of defining... We launched a data challenge
+    once... One of the most important gaming... Dragon Land shone at Gamescom Cologne
+    CONCEPT ART WITH PURPOSE AT SOCIAL... FIND OUT MORE ABOUT A-B TEST,... SOCIAL
+    POINT, APPLE AND WWF ARE... DRAGON LAND, OUR NEW GAME IS... We became part of
+    the Take-Two... We went back to the future... Game design, the art of defining...
+    We launched a data challenge once... One of the most important gaming... Dragon
+    Land shone at Gamescom Cologne CONCEPT ART WITH PURPOSE AT SOCIAL... FIND OUT
+    MORE ABOUT A-B TEST,... SOCIAL POINT, APPLE AND WWF ARE... DRAGON LAND, OUR NEW
+    GAME IS...
+  annotations: []
+  sentences: []
+- segment_id: 58
+  segment_text: Games Dragon City Monster Legends Dragon Land World Chef Social Empires
+    Social Wars
+  annotations: []
+  sentences: []
+- segment_id: 59
+  segment_text: Jobs Openings People at Social Point Office Tour 10 Reasons Living
+    in Barcelona
+  annotations: []
+  sentences: []
+- segment_id: 60
+  segment_text: About About Social Point Mission Investors Contact
+  annotations: []
+  sentences: []
+- segment_id: 61
+  segment_text: Press In the media Press Releases Press Kit
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: Community Support & Forum Dragon Land Create Your Own Skin Competition
+    Game Freebies
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: Contact Social Point Llacuna St. 166 - 10th floor 08018 Barcelona
+    T. + 34 93 181 40 98 info@socialpoint.es Terms of service | Privacy policy | Cookies
+    policy
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: We will not obtain your e-mail.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We will not obtain your e-mail.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 65
+  segment_text: Additionally, we do not collect your IP addresses.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Additionally, we do not collect your IP addresses.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED

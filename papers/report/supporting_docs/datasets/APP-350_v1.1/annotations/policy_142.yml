@@ -1,0 +1,518 @@
+policy_id: 142
+policy_name: com.arcsoft.perfect365
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Toggle navigation Download iOS Download Android Home Today Explorer
+    All Looks Artists Contact
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Perfect365 Privacy Policy Welcome to Perfect365 ("Perfect365", "we",
+    "us" or "our"). Our Privacy Policy explains how we and some of the companies we
+    work with collect, use, share and protect information in relation to our mobile
+    services, website, and any application provided on or in connection with Perfect365
+    service (collectively, the "Service"), and your choices about the collection and
+    use of your information. By using our Service you understand and agree that we
+    are providing a platform for you to edit content, including photos and other materials
+    ("User Content") and to post and share User Content publicly through the Service,
+    and you consent to the data practices prescribed in this Privacy Policy. Our Privacy
+    Policy applies to all visitors, users, and others who access the Service ("Users").
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 1. INFORMATION WE COLLECT AND HOW WE COLLECT IT We collect the following
+    types of information.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Information you provide us directly Our Service may require you to
+    sign up an account. When you do, we will ask for personal information, like your
+    name or email address. We may also collect demographic information, such as age,
+    gender, or preferences. We might also ask you to create a publicly visible profile,
+    which may include your name and photo.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our Service may require you to sign up an account.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect demographic information, such as age, gender,
+      or preferences.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+  - sentence_text: When you do, we will ask for personal information, like your name
+      or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: You may provide User Content that you post to the Service. Your User
+    Content are posted and transmitted to others at your own risk.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: You may also provide information through communications between you
+    and Perfect365, Inc. ("Perfect365"). We may send you Service-related emails (e.g.,
+    account verification, changes/updates to features of the Service, technical and
+    security notices). Note that you may not opt out of Service-related e-mails.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Analytics information We use third-party analytics tools to help us
+    measure traffic and usage trends for the Service. These tools collect information
+    sent by your device or our Service, including the web pages you visit, add-ons,
+    and other information that assists us in improving the Service. We collect and
+    use this analytics information with analytics information from other Users so
+    that it cannot reasonably be used to identify any particular individual user.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Cookies and similar technologies When you use the Service, we may
+    use cookies and similar technologies like pixels, web beacons, and local storage
+    to collect information about how you use the Service.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you use the Service, we may use cookies and similar technologies
+      like pixels, web beacons, and local storage to collect information about how
+      you use the Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: We may ask advertisers or other partners to serve ads or services
+    to your devices, which may use cookies or similar technologies placed by us to
+    the third party.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may ask advertisers or other partners to serve ads or services
+      to your devices, which may use cookies or similar technologies placed by us
+      to the third party.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Log information When you use our Service, we may automatically collect
+    and store certain information in server logs. This may include: information on
+    how you interact with our Service. IP address. device event information such as
+    crashes, system activity, hardware settings, browser type, browser language, the
+    date and time of your request and referral URL.'
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'This may include:'
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you use our Service, we may automatically collect and store
+      certain information in server logs.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Device and usage information* We may collect device and usage information
+    such as (i) information specific to your mobile device (e.g., make, model, operating
+    system, advertising identifier and similar information); (ii) information about
+    your use of features, functions, or notifications on the device; and (iii) signal
+    strength relating to WiFi or Bluetooth functionality, temperature, battery level,
+    and similar technical data.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect device and usage information such as
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: information specific to your mobile device (e.g., make, model,
+      operating system, advertising identifier and similar information);
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: signal strength relating to WiFi or Bluetooth functionality, temperature,
+      battery level, and similar technical data.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Location Information* We may collect location information which allows
+    us to periodically determine your location, including your location relative to
+    and within third party merchant locations.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect location information which allows us to periodically
+      determine your location, including your location relative to and within third
+      party merchant locations.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: '*We may collect this information even if the application is not visible
+    on screen.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: 'For iOS: You should be able to adjust the settings on your iOS mobile
+    device to limit our collection of Location Information through the location services
+    feature on your device.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For iOS: You should be able to adjust the settings on your iOS
+      mobile device to limit our collection of Location Information through the location
+      services feature on your device.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: 'For Android: You should be able to adjust your settings on your Android
+    mobile device to prevent our collection of Location Information by disabling Bluetooth
+    and Location.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'For Android: You should be able to adjust your settings on your
+      Android mobile device to prevent our collection of Location Information by disabling
+      Bluetooth and Location.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: Local storage We may access metadata and other information associated
+    with other files stored on your device. This may include, for example, photographs.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: If you do not want us to collect this information, do not use the
+    Service or delete the Perfect365 app from your device.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: '2. THIRD-PARTY INFORMATION COLLECTION When you use the Service, certain
+    third parties may use tracking technologies to collect personal information about
+    you or your device. These third parties may include our partners such as: advertisers,
+    ad networks and ad servers analytics companies'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'These third parties may include our partners such as: advertisers,
+      ad networks and ad servers analytics companies'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: When you use the Service, certain third parties may use tracking
+      technologies to collect personal information about you or your device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: These third parties may use tracking technologies to collect personal
+    information about you when you use the Service. They may use this information
+    to provide you with interest-based (behavioral) advertising or other targeted
+    content. We do not control these third parties' tracking technologies or how they
+    may be used. You may limit ad tracking on your iOS mobile device by turning on
+    the "Limit Ad Tracking" setting. If you have any questions about an advertisement
+    or other targeted content, you should contact the responsible provider directly.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These third parties may use tracking technologies to collect personal
+      information about you when you use the Service.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: They may use this information to provide you with interest-based
+      (behavioral) advertising or other targeted content.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: '3. HOW WE USE YOUR INFORMATION In addition to some of the specific
+    uses of information we describe in this Privacy Policy, we may use information
+    that we receive to: allow us to keep you posted on Perfect365''s latest product
+    announcements, application updates, and upcoming events help us develop, deliver,
+    test and improve our products, and services provide personalized content and information
+    to you and others, which could include online ads or other forms of marketing
+    provide, improve, test, and monitor the effectiveness of our Service monitor metrics
+    such as total number of visitors, traffic, and demographic patterns diagnose or
+    fix technology problems'
+  annotations:
+  - practice: Demographic_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'In addition to some of the specific uses of information we describe
+      in this Privacy Policy, we may use information that we receive to:'
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+  - sentence_text: monitor metrics such as total number of visitors, traffic, and
+      demographic patterns
+    annotations:
+    - practice: Demographic_1stParty
+      modality: PERFORMED
+- segment_id: 20
+  segment_text: provide you the opportunity to participate in contests or surveys
+    on our Service. Participation in these surveys or contests is completely voluntary.
+    If you participate, we will request certain personal information from you and
+    we may use the information you provide to administer those programs.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: 4. California Do Not Track Notice We do not currently respond or take
+    any action with respect to web browser "do not track" signals or other mechanisms
+    that provide consumers the ability to exercise choice regarding the collection
+    of personally identifiable information about a user's online activities over time
+    and across third-party web sites or online services. We may allow third parties,
+    such as companies that provide us with analytics tools or advertising services,
+    to collect personally identifiable information about a user's online activities
+    over time and across different web sites when he or she uses the Service.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: '5. SHARING OF YOUR INFORMATION Parties with whom we may share your
+    information: We may share User Content and your information with businesses that
+    are legally part of the same group of companies that Perfect365 is part of, or
+    that become part of that group ("Affiliates"). Affiliates may use this information
+    to help provide, understand, and improve the Service (including by providing analytics)
+    and Affiliates'' own services (including by providing you with better and more
+    relevant experiences)./li>'
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: We also may share your information with third-party organizations
+    that help us provide the Service to you ("Service Providers"). Our Service Providers
+    will be given access to your information as is reasonably necessary to provide
+    the Service under reasonable confidentiality terms.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: We may also share certain information with third-party advertising
+    partners. This information would allow third-party ad networks to, among other
+    things, deliver targeted advertisements that they believe will be of most interest
+    to you.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: We share the information we collect with third-party business partners
+    who commit to comply with applicable laws concerning their usage of the information.
+    Our third-party business partners may share anonymized information with their
+    own third party business partners and use the information either for themselves
+    or on behalf of their own business partners to operate and improve their services;
+    provide you with advertisements and information for products and services in this
+    app or on other apps or websites based on variables such as your location, and
+    assess your level of engagement with them; and carry out other purposes that are
+    disclosed to you and to which you consent.
+  annotations:
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our third-party business partners may share anonymized information
+      with their own third party business partners and use the information either
+      for themselves or on behalf of their own business partners to operate and improve
+      their services; provide you with advertisements and information for products
+      and services in this app or on other apps or websites based on variables such
+      as your location, and assess your level of engagement with them; and carry out
+      other purposes that are disclosed to you and to which you consent.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+  - sentence_text: We share the information we collect with third-party business partners
+      who commit to comply with applicable laws concerning their usage of the information.
+    annotations:
+    - practice: Location_3rdParty
+      modality: PERFORMED
+- segment_id: 26
+  segment_text: We may remove parts of data that can identify you and share anonymized
+    data with other parties. We may also combine your information with other information
+    in a way that it is no longer associated with you and share that aggregated information.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 'Parties with whom you may choose to share your User Content: Any
+    information or content that you voluntarily disclose for posting through the Service,
+    such as User Content, becomes available to the public, as controlled by any applicable
+    privacy settings that you set. Once you have shared User Content or made it public,
+    that User Content may be re-shared by others. If you remove information that you
+    posted publicly through the Service, copies may remain viewable in cached and
+    archived pages of the Service.'
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'Responding to legal requests and preventing harm: We may access,
+    preserve and share your information in response to a legal request (like a search
+    warrant, court order or subpoena) if we have a good faith belief that the law
+    requires us to do so. This may include responding to legal requests from jurisdictions
+    outside of the United States where we have a good faith belief that the response
+    is required by law in that jurisdiction, affects Users in that jurisdiction, and
+    is consistent with internationally recognized standards. We may also access, preserve
+    and share information when we have a good faith belief it is necessary to: detect,
+    prevent and address fraud and other illegal activity; to protect ourselves, you
+    and others, including as part of investigations; and to prevent death or imminent
+    bodily harm. Information we receive about you may be accessed, processed and retained
+    for an extended period of time when it is the subject of a legal request or obligation,
+    governmental investigation, or investigations concerning possible violations of
+    our terms or policies, or otherwise to prevent harm. In addition, we may disclose
+    your information that we collect or you provide to enforce our rights arising
+    from any contracts entered into between you and us, including the Terms of Use,https://perfect365.com/about/terms-of-use.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: '6. HOW WE STORE YOUR INFORMATION Storage and Processing: Your information
+    collected through the Service may be stored and processed in the United States
+    or any other country in which Perfect365, its Affiliates or Service Providers
+    maintain facilities. Perfect365, its Affiliates, or Service Providers may transfer
+    information that we collect about you, including personal information across borders
+    and from your country or jurisdiction to other countries or jurisdictions around
+    the world. By registering for and using the Service you consent to the transfer
+    of information to the U.S. or to any other country in which Perfect365, its Affiliates
+    or Service Providers maintain facilities and the use and disclosure of information
+    about you as described in this Privacy Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: We use commercially reasonable safeguards to help keep the information
+    collected through the Service secure. However, Perfect365 cannot ensure the security
+    of any information you transmit to the Service or guarantee that information on
+    the Service may not be accessed, disclosed, altered, or destroyed.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: You are responsible for maintaining the secrecy of your unique password
+    and account information at all times. Your privacy settings may also be affected
+    by changes the social media services you connect to Perfect365 make to their services.
+    We are not responsible for the functionality, privacy, or security measures of
+    any other organization.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: '7. YOUR CHOICES ABOUT YOUR INFORMATION Your account information and
+    profile/privacy settings: Update your account at any time by logging in and changing
+    your profile settings.'
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Unsubscribe from email communications from us by clicking on the "unsubscribe
+    link" provided in such communications. As noted above, you may not opt out of
+    Service-related communications (e.g., account verification, changes/updates to
+    features of the Service, technical and security notices).
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 'How long we keep your User Content: We will retain your information
+    and User Content for as long as your account is active or as needed to provide
+    you services. Upon request we will terminate or deactivate your account, Perfect365,
+    its Affiliates, or its Service Providers may retain information (including your
+    profile information) and User Content for a commercially reasonable time for backup,
+    archival, and/or audit purposes unless a longer retention period is required by
+    law.'
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 8. CHILDREN'S PRIVACY Perfect365 does not knowingly collect or solicit
+    any information from anyone under the age of 13 or knowingly allow such persons
+    to register for the Service. The Service and its content are not directed at children
+    under the age of 13. In the event that we learn that we have collected personal
+    information from a child under age 13 without parental consent, we will delete
+    that information as quickly as possible. If you believe that we might have any
+    information from or about a child under 13, please contact us at legal@perfect365.com.
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: 9. OTHER WEB SITES AND SERVICES We are not responsible for the practices
+    employed by any websites or services linked to or from our Service, including
+    the information or content contained within them. When you use a link to go from
+    our Service to another website or service, our Privacy Policy does not apply to
+    those third-party websites or services. Your browsing and interaction on any third-party
+    website or service, including those that have a link on our website, are subject
+    to that third party's own rules and policies. In addition, you agree that we are
+    not responsible and do not have control over any third-parties that you authorize
+    to access your User Content. If you are using a third-party website or service
+    and you allow them to access your User Content you do so at your own risk.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 10. HOW TO CONTACT US If you have questions or concerns about Perfect365's
+    Privacy Policy, please contact us at legal@perfect365.com.
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: 11. YOUR CALIFORNIA PRIVACY RIGHTS California Civil Code Section 1798.83,
+    also known as the "Shine The Light" law, permits our users who are California
+    residents to request and obtain from us once a year, free of charge, information
+    about the personal information (if any) we disclosed to third parties for direct
+    marketing purposes in the preceding calendar year. If applicable, this information
+    would include a list of the categories of personal information that was shared
+    and the names and addresses of all third parties with which we shared information
+    in the immediately preceding calendar year. If you are a California resident and
+    would like to make such a request, please submit your request to legal@perfect365.com.
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: 12. CHANGES TO OUR PRIVACY POLICY Perfect365 may modify or update
+    this Privacy Policy from time to time, so please review it periodically. We may
+    provide you additional forms of notice of modifications or updates as appropriate
+    under the circumstances. Your continued use of Perfect365 or the Service after
+    any modification to this Privacy Policy will constitute your acceptance of such
+    modification.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 'Last modified: February 7 th , 2017 FAQ Press Blog Terms of Use Privacy
+    Policy'
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: "\xA92017 Perfect365, Inc. All rights reserved."
+  annotations: []
+  sentences: []

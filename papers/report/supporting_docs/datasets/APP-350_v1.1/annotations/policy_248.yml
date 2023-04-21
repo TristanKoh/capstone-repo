@@ -1,0 +1,623 @@
+policy_id: 248
+policy_name: jp.konami.pesclubmanager
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: "Select Language English Deutsch Francais Italiano Espanol \u0440\u0443\
+    \u0441\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A Portugues \u7E41\u9AD4\
+    \u4E2D\u6587 PRIVACY POLICY Konami Digital Entertainment Co., Ltd. (\"Konami\"\
+    \ or \"we\") is committed to protecting and respecting your privacy. To further\
+    \ this commitment, we have adopted this Privacy Policy to describe how we collect,\
+    \ use, safeguard and disclose your personal information and the choices you can\
+    \ make about our use of the information. This Privacy Policy may be revised from\
+    \ time to time, so please revisit this website regularly to remain fully informed\
+    \ of our policies."
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: By using the Sites (as defined below), or otherwise providing your
+    personal information to Konami, you consent to the collection and use of such
+    personal information as set forth in this Privacy Policy. If you do not agree
+    to the terms of this Privacy Policy, please do not provide us with any information
+    and do not use the Sites(as defined below).
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: The scope of this Privacy Policy This Privacy Policy currently applies
+    to any applications stated to be subject to this Privacy Policy ("Sites")
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Please note that this Privacy Policy does not apply to any other websites,
+    webpages or applications other than the Sites, including any such websites, webpages
+    or applications to which we link. Konami is not responsible for the content or
+    activities provided on websites, webpages or applications other than the Sites,
+    and we recommend that you independently review the privacy policies and terms
+    of use for such websites, webpages or applications. This Privacy Policy only relates
+    to the collection and use of information by or on behalf of Konami; it does not
+    govern the collection, use or disclosure of information by any third party, including
+    without limitation social media websites such as Facebook, Twitter and Google+
+    or third party service providers such as Apple, Google, Microsoft and Sony Computer
+    Entertainment.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: Information that we may collect about you Konami may collect information
+    about you when you use the Sites or our products or services, or when you otherwise
+    provide personally identifiable information to us. For example, we may collect
+    and process the following types of information from you.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may collect and process the following types of
+      information from you.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Information that you provide by filling in forms on the Sites. This
+    includes information provided in order to subscribe and/or pay for a service,
+    to register a Konami product, to register for online games or tournaments, to
+    participate in forums or chat rooms or to receive ongoing marketing or other information.
+    Information that you submit to us via email or other means when contacting Konami
+    customer service or support. Information that you provide in response to online
+    or offline polls or surveys.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Information that you provide in order to take advantage of particular
+    opportunities (e.g. contests, sweepstakes, events, games or other applications)
+    provided through third party social media websites or other third party websites
+    or services. Such information may include your name, user name, profile pictures,
+    telephone number, email address, IDs, the names of your friends, your gender,
+    social media networks, workplace, geographic location, application settings and
+    statistics, status updates and user interactions. We and our third party service
+    providers collect such information from you through third party social media websites
+    or other third party websites or services only when you voluntarily provide it,
+    either directly or indirectly as a result of such websites or services being authorised
+    to submit such information to us.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information that you provide in order to take advantage of particular
+      opportunities (e.g.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: Such information may include your name, user name, profile pictures,
+      telephone number, email address, IDs, the names of your friends, your gender,
+      social media networks, workplace, geographic location, application settings
+      and statistics, status updates and user interactions.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: We and our third party service providers collect such information
+      from you through third party social media websites or other third party websites
+      or services only when you voluntarily provide it, either directly or indirectly
+      as a result of such websites or services being authorised to submit such information
+      to us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: contests, sweepstakes, events, games or other applications) provided
+      through third party social media websites or other third party websites or services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: Information that you provide by downloading certain of our services
+    and/or applications to your device. We and our third party service providers collect
+    such information from you through your device, including your name, user name,
+    profile pictures, telephone number, device identifiers, email address, contacts,
+    GPS location, browser history, chat or messaging activity, application linked
+    friends and respective IDs. Certain collection of information may be disabled
+    or limited in specific applications in the user settings. Details of transactions
+    you carry out through the Sites and of the fulfilment of your orders, including
+    information that you provide to our third party service providers to enable them
+    to process payments and provide customer support in connection with certain products
+    and services. Details of your visits to the Sites (including, but not limited
+    to, traffic data, location data, access logs and other communication data) and
+    the resources that you access.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_3rdParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_3rdParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Details of your visits to the Sites (including, but not limited
+      to, traffic data, location data, access logs and other communication data) and
+      the resources that you access.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We and our third party service providers collect such information
+      from you through your device, including your name, user name, profile pictures,
+      telephone number, device identifiers, email address, contacts, GPS location,
+      browser history, chat or messaging activity, application linked friends and
+      respective IDs.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_3rdParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_3rdParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_3rdParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Use of cookies, IP addresses and other technologies A cookie is a
+    small file of letters and numbers generated by the servers used to manage and
+    operate the service Konami provided to you that is stored on your computer. The
+    Sites may use cookies to distinguish you from other users of the Sites, in order
+    to provide you with a good experience and to allow us to improve the Sites. If
+    you register with us or complete our online forms, we will use cookies to remember
+    your details during your current visit, and any future visits provided the cookie
+    was not deleted in the interim.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you register with us or complete our online forms, we will use
+      cookies to remember your details during your current visit, and any future visits
+      provided the cookie was not deleted in the interim.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The Sites may use cookies to distinguish you from other users of
+      the Sites, in order to provide you with a good experience and to allow us to
+      improve the Sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: You may block cookies by activating the setting on your browser that
+    allows you to refuse the setting of all or some cookies. However, please note
+    that deleting or deactivating our cookies may mean that you may not be able to
+    access all or parts of the Sites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, please note that deleting or deactivating our cookies
+      may mean that you may not be able to access all or parts of the Sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You may block cookies by activating the setting on your browser
+      that allows you to refuse the setting of all or some cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: We may use the following types of cookies. Strictly necessary cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Strictly necessary cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use the following types of cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: These are cookies that are required for the operation of tne Sites.
+    They include, for example, cookies that enable you to log into secure areas of
+    the Sites, use a shopping cart or make use of e-billing services. Analytical/performance
+    cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytical/performance cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These are cookies that are required for the operation of tne Sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: They allow us to recognise and count the number of visitors and to
+    see how visitors move around the Sites when they are using them. This helps us
+    to improve the way the Sites work, for example, by ensuring that users are finding
+    what they are looking for easily. Functionality cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Functionality cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They allow us to recognise and count the number of visitors and
+      to see how visitors move around the Sites when they are using them.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: These are used to recognise you when you return to the Sites. This
+    enables us to personalise our content for you, greet you by name and remember
+    your preferences (e.g. your choice of language or region). Targeting cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Targeting cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These are used to recognise you when you return to the Sites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: These cookies record your visit to the Sites, the webpages you have
+    visited and the links you have followed. We will use this information to make
+    the Sites and the advertising displayed on them more relevant to your interests.
+    We may also share this information with third parties for this purpose.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These cookies record your visit to the Sites, the webpages you
+      have visited and the links you have followed.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We will use this information to make the Sites and the advertising
+      displayed on them more relevant to your interests.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: We may also collect information about your computer or other devices
+    that you use to access the Sites, including where available the IP address, unique
+    identifier, operating system, browser type and network information. The services
+    provided by us may use any tools, including but not limited to cookies, provided
+    by any third parties for the purpose of collecting marketing information from
+    and distributing advertisements to each users. If you do NOT want to be used such
+    tools in relation to you, please click here.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The services provided by us may use any tools, including but not
+      limited to cookies, provided by any third parties for the purpose of collecting
+      marketing information from and distributing advertisements to each users.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We may also collect information about your computer or other devices
+      that you use to access the Sites, including where available the IP address,
+      unique identifier, operating system, browser type and network information.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Please note that third parties (including, for example, advertising
+    networks and providers of external services like web traffic analysis services)
+    may also use cookies, over which we have no control. The social media websites
+    or other third party websites or services that offer our applications may also
+    use cookies and other tools to recognise users and provide products and services.
+    This is beyond our control and is subject to these third parties' own terms and
+    policies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please note that third parties (including, for example, advertising
+      networks and providers of external services like web traffic analysis services)
+      may also use cookies, over which we have no control.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: The social media websites or other third party websites or services
+      that offer our applications may also use cookies and other tools to recognise
+      users and provide products and services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: This is beyond our control and is subject to these third parties'
+      own terms and policies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: 'Uses of the information We may use the information held about you
+    for a number of purposes, including: To create your profile and to enable you
+    to participate in interactive features of the Sites, where you choose to do so.
+    To provide you with information, products or services that you request us, or
+    which we feel may interest you, where you have consented to be contacted for such
+    purposes. To carry out our obligations arising from any contracts entered into
+    between you and us. To respond to your queries and to provide technical support.
+    To notify you of game updates and changes to our service. To recognise you when
+    you return to the Sites and to keep track of your preferences, so that we can
+    customise the Sites to be relevant to your individual interests. For our internal
+    marketing and demographic studies, so that we can constantly improve the products
+    and services that we provide to you and better meet your needs.'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'We may also use the information collected about your computer or
+    the devices that you use to access the Sites in a number of ways, including: To
+    ensure that content from the Sites is presented effectively. To report aggregate
+    information to our advertisers. To identify which location you are accessing the
+    Sites from, so that we can limit access to certain applications with territorial
+    restrictions. To carry out system administration.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To identify which location you are accessing the Sites from, so
+      that we can limit access to certain applications with territorial restrictions.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We may also use the information collected about your computer
+      or the devices that you use to access the Sites in a number of ways, including:'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: Disclosure of your personal information Except as expressly provided
+    in this Privacy Policy, Konami does not sell, rent or disclose your personally
+    identifiable information to third parties.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: Konami may share your personally identifiable information with its
+    parent, subsidiary and/or affiliate companies for the purposes described in this
+    Privacy Policy, including allowing them to send you information about their own
+    products and services.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: From time to time, Konami may share your personally identifiable information
+    with its third-party service providers and/or licensors, to enable them to provide
+    services in connection with the operation, maintenance and/or support of the Sites.
+    Such services may include, without limitation, message board operation, email
+    delivery, product registration, storage, website hosting, data analysis, payment
+    processing, order fulfilment, infrastructure provision, IT support, customer support,
+    credit card processing and website auditing.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We may disclose personally identifiable information and other information
+    we obtain from you to third parties in the event of a reorganisation, merger,
+    sale, joint venture, assignment, transfer or other disposition of all or any portion
+    of our business, assets or stock.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: In addition, we may use and disclose the information we maintain,
+    including personally identifiable information, in order to comply with any legal
+    obligation, or in order to enforce or apply our terms and conditions, or to protect
+    the rights, property, or safety of Konami, our customers, or others.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Where we store your personal information Your personal information
+    may be stored and processed in, and transferred to, any country where we have
+    facilities or in which we engage service providers. By using the Sites, you agree
+    to the storage, processing and transfer of your information to countries outside
+    your country of residence which may have different data protection rules (or none)
+    compared with your country.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: Security of your personal information Konami maintains appropriate
+    safeguards that ensure the security, integrity and privacy of the personal information
+    that we collect from our users. Personal information collected by Konami is stored
+    on secure servers. We also have security measures in place to protect against
+    the loss, misuse and alteration of the information under our control.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Nonetheless, please be aware that the transmission of information
+    via the internet is not completely secure. Although we will always make reasonable
+    efforts to ensure the security of the Sites, we cannot warrant or guarantee that
+    information you transmit using the Sites is secure, and any transmission is at
+    your own risk. Where we have given you (or you have chosen) a password which enabled
+    you to access certain parts of the Sites, you are responsible for keeping this
+    password confidential.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Konami's policy regarding children The Sites are not intended for
+    children under 13 years of age. Konami does not permit children under 13 years
+    of age to become registered users of the Sites, and we do not knowingly collect
+    information from children under 13 years of age through the Sites. By using any
+    portion of the Sites, you represent that you are not under 13 years of age.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: The social media websites or other third party websites or services
+    that offer our applications may have different minimum age requirements. We recommend
+    that you independently review the privacy policies and terms of use posted on
+    such third party websites or services in order to ensure that you also meet their
+    minimum age requirements.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Changes to our Privacy Policy Konami reserves the right, at any time,
+    to make changes to this Privacy Policy. Any change will be announced with a clear
+    reference on the Sites and/or here, and we will indicate at the top of the Privacy
+    Policy when it was most recently updated.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Please check back from time to time to ensure you are aware of these
+    changes. In the event that we change this Privacy Policy, your continued use of
+    the Sites will signify your acceptance of the modified Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Contacting us Users in certain jurisdictions are entitled to ask to
+    access, amend or delete the personal information stored about themselves. These
+    rights can be exercised in accordance with applicable law. To request to access,
+    amend or delete your personal information, please contact us please click here.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: Questions, comments and requests regarding our Privacy Policy or practices
+    are welcomed and should be addressed to please click here.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Governing law and jurisdiction This Privacy Policy and any dispute
+    or claim arising out of or in connection with it or its subject matter or formation
+    (including non-contractual disputes or claims) shall be governed by and construed
+    in accordance with the law of Japan.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: The Tokyo District Courts shall have non-exclusive jurisdiction to
+    settle any dispute or claim arising out of or in connection with this Privacy
+    Policy or its subject-matter or formation (including non-contractual disputes
+    or claims).
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: "\u25B2 Page Top \xA92017 Konami Digital Entertainment"
+  annotations: []
+  sentences: []

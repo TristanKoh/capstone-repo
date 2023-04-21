@@ -1,0 +1,185 @@
+policy_id: 158
+policy_name: com.damiapp.softdatacable
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: 'Privacy Policy Last update: Aug 8, 2015 General Guidelines: Your
+    contact information belongs to you. We don''t share it with anyone. Seriously
+    we will do our best to protect your information and we will never abuse your information.'
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy Table of Contents: Overview The types of information
+    we collect Security Third Party Services What do we do with your feedback Contacting
+    us'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: 'Privacy Policy: Overview At Dami App (''DamiApp'', ''We'', ''Us'',
+    ''Our'') We are creating services and software (such as Software Data Cable) aimed
+    to help our users simplify the way they live. Improve the experience in using
+    Android devices.'
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We believe that it is important to keep our users informed regarding
+    our privacy guidelines and principles. This Privacy Policy ('Privacy Policy')
+    explains what kind of information is collected when you use Our Services and how
+    this information is used. This Privacy Policy applies to all of Our Services.
+    By using Our Services you are accepting the principles, guidelines and practices
+    set forth herein.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: By using Our Services you hereby agree that all personal data that
+    you submit to us and/or any personal or non-personal data generated while and/or
+    by using Our Services may be stored and/or processed by Us as described herein.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: We may change, update and modify this Privacy Policy from time to
+    time. Upon any change made to this Privacy Policy We will update the 'Last update'
+    field at the top section of this Privacy Policy. You are responsible to regularly
+    check this Privacy Policy for any changes. Your continuing use of Our Services
+    constitutes your acceptance of any changes, updates and/or modifications made
+    in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'The types of information we collect We may collect the following
+    information: When signing up to Our Services you may be required to submit information
+    such as name, email address, etc. We may use this information as well as other
+    information in order to provide you with Our Services and personalize your experience.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We may collect the following information:'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We may collect the following information: When signing up to Our
+      Services you may be required to submit information such as name, email address,
+      etc.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: When you send an email or any other communication to us (e.g. when
+    you send an email to our support), we may retain those communications in order
+    to process and respond to your inquiry, as well as to improve Our Services. When
+    you use Our Services our servers may automatically record information created
+    by your use of Our Services, this recorded information is non-personal and shall
+    be used strictly for analyzing and improving our services.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you send an email or any other communication to us (e.g.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: when you send an email to our support), we may retain those communications
+      in order to process and respond to your inquiry, as well as to improve Our Services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: In order to further improve our services and provide you with a better
+    experience you may send system log reports when reporting an issue. In addition,
+    We may use services such as Flurry, Application Crash Report System for Android
+    ('ACRA' - http://code.google.com/p/acra/) and other services which provide information
+    in the event of a crash or other bugs and enable us to fix such issues and improve
+    your experience.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'We may use "Cookies" to improve your experience. You can disable
+    "Cookies" from your browser settings. As general information, "Cookies" are defined
+    by Wikipedia as follows: "A cookie, also known as an HTTP cookie, web cookie,
+    or browser cookie, is usually a small piece of data sent from a website and stored
+    in a user''s web browser while a user is browsing a website. When the user browses
+    the same website in the future, the data stored in the cookie can be retrieved
+    by the website to notify the website of the user''s previous activity. We may
+    reveal personal information to Third Parties or related parties if required to
+    do so by law and/or by court order and in cases of danger or potential harm and/or
+    threat to any Third Party. We may process information (personal and non-personal)
+    at Our secured servers, which may be located at any location worldwide.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may use "Cookies" to improve your experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You can disable "Cookies" from your browser settings.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Security DamiApp takes reasonable steps to protect the Personal Data
+    provided via the Site and our Services from loss, misuse, and unauthorized access,
+    disclosure, alteration, or destruction. However, no Internet, email or other electronic
+    transmission is ever fully secure or error free, so you should take special care
+    in deciding what information you send to us in this way.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Third Party Services Our Services may enable access and/or include
+    links to other websites, applications and other media types outside or provided
+    by Third Parties ('Third Party' and 'Third Party Services'). Third Party Services
+    are not controlled or monitored by Us. It is important to note that We do not
+    collect passwords during the authentication process to Third Party Services.
+  annotations:
+  - practice: Contact_Password_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: It is important to note that We do not collect passwords during
+      the authentication process to Third Party Services.
+    annotations:
+    - practice: Contact_Password_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 12
+  segment_text: Third Party Services are provided to you for your convenience and
+    the inclusion of any Third Party links or access does not imply any endorsement
+    by Us of any Third Party Services. We shall not be held responsible for the content,
+    privacy maintenance, or any action taken by any Third Party. When you choose to
+    connect and use Third Party Services you do so at your own risk and under your
+    own discretion. You hereby expressly relieve Gentoo from any liability relating
+    to any Third Party Services. We shall not be responsible for any loss or damages
+    of any sort relating to your use of any Third Party Services or derived from your
+    exposure to Third Party content. We shall not be responsible for and We makes
+    no warranties, express or implied, as to Third Party Services, including but not
+    limited to, any privacy practices thereof. These Terms do not grant you with any
+    right with respect to Third Party Services.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: What do we do with your feedback We may use feedback or other information
+    for user experience improvements and for upgrading and adding new features to
+    Our Services. We may use your email address and any other means of communication
+    in order to send you software updates and other notifications and to respond to
+    your feedback.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may use your email address and any other means of communication
+      in order to send you software updates and other notifications and to respond
+      to your feedback.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: What do we do with your feedback We may use feedback or other information
+      for user experience improvements and for upgrading and adding new features to
+      Our Services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: 'Contacting Us Should you have any other questions or concerns about
+    our privacy policy, please contact us: damiapp@gmail.com'
+  annotations: []
+  sentences: []

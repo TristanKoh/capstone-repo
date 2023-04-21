@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Brightest Flashlight</title>
+<meta name="google-site-verification" content="6eIf5YZ70iRwO3yn4__8DRNwiHbyau0n_9B9LOomdzY" />
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	color: #000000;
+}
+
+
+.reviewtext {
+	color: #FFFFFF;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~this fixed width container surrounds the other divs~~ */
+.container {
+	width: 960px;
+	background: #FFF5D8;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	background: #000000;
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 360px;
+	background: #001C32;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+.content {
+
+	padding: 10px 0;
+	width: 600px;
+	float: left;
+	background: #FFF5D8;
+}
+
+.news_bubble {
+	padding: 10px 15px 15px 20px;
+	margin: 10px 15px 10px 15px;
+	background:#F2D9BC;
+	border: thick #001C32;
+	border-style:solid;
+	border-width: thick;
+	
+	
+	
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 340px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background: #FFC90E;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background: #FFC90E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background: #CCC49F;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="images/cftextembeddedbanner_512X376.png" alt="Brightest Flashlight" name="Insert_logo" width="512" height="376" id="Insert_logo" style="background: #000000; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="http://market.android.com/details?id=goldenshorestechnologies.brightestflashlight.free">Install Now from Google Play</a></li>
+      <li><a href="http://www.goldenshorestechnologies.com/">Home</a></li>
+      <li><a href="mailto:brightestflashlightfree@gmail.com">Email Support</a></li>
+    </ul>
+
+    <div>
+      <div id="five_stars1"></div>
+         <h7></h7>
+    </div>
+    <div>
+      <div id="five_stars"></div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <div id="five_stars3"><!-- end .sidebar1 --> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  <div class="content">
+    <h1>Privacy Policy</h1>
+    <div class="news_bubble" id="news_bubble10">
+      <br>
+      <p>Below is a summary of the Brightest Flashlight® privacy policy. The full privacy policy is contained within the Brightest Flashlight Free® EULA (End-User License Agreement), which is reproduced below. In the case where the summary and the EULA disagree, the EULA is the controlling document.</p>
+      <p>Privacy Policy Summary: 1. COLLECTION &amp; TRANSMISSION OF GEOLOCATION INFORMATION. Goldenshores Technologies and its subsidiaries and agents may collect your geolocation based information and transmit that information to third-party service providers. Geolocation includes data regarding your device’s geolocation, including but not limited to GPS-based, WiFi-based, or cell-based location information. The specific category of persons or entities referred to as “third-party service provider” consists of persons or entities that provide advertisements to you during your use of the Brightest Flashlight® software.  Goldenshores Technologies does NOT store geolocation information.  TO TURN OFF THE GEOLOCATION COLLECTION, PLEASE DO SO BY USING YOUR SETTINGS WITHIN YOUR DEVICE.</p>
+      <p>2.  COLLECTION &amp; TRANSMISSION OF PERSISTENT IDENTIFIERS.  Goldenshores Technologies and its subsidiaries and agents may collect your persistent identifiers, such as a customer number held in a “cookie,” a static Internet Protocol (“IP”) address, a mobile device ID, or processor serial number.  Goldenshores Technologies and its subsidiaries and agents may transmit that information to third-party services providers for the purpose of providing you better services in the form of advertisements displayed during your use of the app.  Goldenshores Technologies does NOT store this information. </p>
+      <p>3.  CONSENT TO USE DATA.  Goldenshores Technologies and its subsidiaries and agents may collect, maintain, process and use diagnostic, technical and related information, including but not limited to information about your computer, system and application software, and peripherals, that is gathered periodically to facilitate the provision of software updates, product support and other services to you (if any) related to the Goldenshores Technologies Software, and to verify compliance with the terms of the License. Goldenshores Technologies may use this information, as long as it is in a form that does not personally identify you, to improve our products or to provide services or technologies to you.</p>
+<p>&nbsp;</p>
+    </div>
+    <h1></h1>
+    <div class="news_bubble" id="news_bubble">
+      <br>
+      <strong>Brightest Flashlight Free EULA</strong>
+<p>------------------<br />
+  GOLDENSHORES TECHNOLOGIES, LLC<br />
+  BRIGHTEST FLASHLIGHT END-USER LICENSE AGREEMENT <br />
+  PLEASE READ THIS SOFTWARE LICENSE AGREEMENT (&quot;LICENSE&quot;) CAREFULLY BEFORE USING THE GOLDENSHORES TECHNOLOGIES SOFTWARE. BY USING THE GOLDENSHORES TECHNOLOGIES SOFTWARE, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT INSTALL AND/OR USE THE SOFTWARE.</p>
+<p>IMPORTANT NOTE: To the extent that this software may be used to reproduce materials, it is licensed to you only for reproduction of noncopyrighted<br />
+  materials, materials in which you own the copyright, or materials you are authorized or legally permitted to reproduce. If you are<br />
+  uncertain about your right to copy any material, you should contact your legal advisor.</p>
+<p>1. General.<br />
+  (a) The Goldenshores Technologies Brightest Flashlight software, content, documentation and any fonts included in the Software (collectively the &quot;Goldenshores Technologies Software&quot;) are licensed, not sold,<br />
+  to you by Goldenshores Technologies, LLC (“Goldenshores Technologies”) for use only under the terms of this License. Goldenshores Technologies and/or Goldenshores Technologies's licensors retain ownership of the Goldenshores Technologies Software itself and<br />
+  reserve all rights not expressly granted to you. The terms of this License will govern any software upgrades provided by Goldenshores Technologies that replace and/or supplement the original Goldenshores Technologies Software product, unless such upgrade is accompanied by a separate license in which case the terms of that license will<br />
+  govern.</p>
+<p>(b) From time to time, Goldenshores Technologies may release software updates to the version of Goldenshores Technologies Software you originally purchased. Goldenshores Technologies will provide you any such<br />
+  updates that it may release up to, but not including, the next major release of the Goldenshores Technologies Software, for free. For example, if you originally purchased version 1.X of the Goldenshores Technologies Software, Goldenshores Technologies would provide you for free any software updates it might release (e.g. version 1.2 or 1.3) up to, but not including, version 2.X of the Goldenshores Technologies Software.</p>
+<p>2. Permitted License Uses and Restrictions.<br />
+  (a) Subject to the terms and conditions of this License and as permitted in the &quot;Usage Rules&quot; set forth in the Android Market Terms and Conditions, you are granted a limited non-transferable license to install and use the Goldenshores Technologies Software on any Android-branded mobile device that you own or control. You may not distribute or make the Goldenshores Technologies Software available over a network where it could be used by multiple devices at the same time. You may not rent, lease, lend, sell, redistribute or sublicense the Goldenshores Technologies Software.</p>
+<p>(b) You may not and you agree not to, or to enable others to, copy (except as expressly permitted by this License and the &quot;Usage Rules&quot;), decompile, reverse engineer, disassemble, attempt to derive the source code of, decrypt, modify, or create derivative works of the Goldenshores Technologies Software or any services provided by the Goldenshores Technologies Software, or any part thereof (except as and only to the extent any foregoing restriction is prohibited by applicable law or to the extent as may be permitted by the licensing terms governing use of any open sourced components included with the Goldenshores Technologies Software). Any attempt to do so is a violation of the rights of Goldenshores Technologies and its licensors of the Goldenshores Technologies Software.</p>
+<p>(c) The Goldenshores Technologies Software may be used to reproduce materials so long as such use is limited to reproduction of non-copyrighted materials, materials in which you own the copyright, or materials you are authorized or legally permitted to reproduce. Title and intellectual property rights in and to any content displayed by or accessed through the Goldenshores Technologies Software belongs to the respective content owner. Such content may be protected by copyright or other intellectual property laws and treaties, and may be subject to terms of use of the third party providing such content. This License does not grant you any rights to use such content. For example, any stock photographs, images, graphics, clipart, artwork or similar assets (“Digital Imagery”) that are provided by Goldenshores Technologies and/or its licensors as part of the Goldenshores Technologies Software or Services (including but not limited to any Digital Imagery contained within templates, themes or user guides and tutorials) may not be extracted and distributed, commercially or otherwise, on a standalone basis outside of the Goldenshores Technologies Software.</p>
+<p>(d) Any financial or health information displayed by the Goldenshores Technologies Software is provided for general informational purposes only and is not intended to be relied upon as, or a substitute for, financial or medical advice. You are solely responsible for the financial or health decisions made by you and any consequences resulting therefrom, and should always seek the guidance and advice of a financial or medical professional as appropriate. Neither Goldenshores Technologies nor any of its licensors guarantees the accuracy, completeness, or timeliness of financial or health information appearing within the Goldenshores Technologies Software or that desired results will be obtained.</p>
+<p>3. Privacy &amp; Consent to Use of Data. You agree that Goldenshores Technologies and its subsidiaries and agents may collect, maintain, process and use diagnostic, technical and related information, including but not limited to information about your computer, system and application software, and peripherals, that is gathered periodically to facilitate the provision of software updates, product support and other services to you (if any) related to the Goldenshores Technologies Software, and to verify compliance with the terms of this License. Goldenshores Technologies may use this information, as long as it is in a form that does not personally identify you, to improve our products or to provide services or technologies to you.</p>
+<p> 3. COLLECTION &amp; TRANSMISSION OF GEOLOCATION INFORMATION.  Goldenshores Technologies and its subsidiaries and agents may collect your geolocation based information and transmit that information to third-party service providers.  Geolocation includes data regarding your device’s geolocation, including but not limited to GPS-based, WiFi-based, or cell-based location information.  The specific category of persons or entities referred to as “third-party service provider” consists of persons or entities that provide advertisements to you during your use of the Brightest Flashlight® software.  Goldenshores Technologies does NOT store geolocation information.  TO TURN OFF THE GEOLOCATION COLLECTION, PLEASE DO SO BY USING YOUR SETTINGS WITHIN YOUR DEVICE. 
+  COLLECTION &amp; TRANSMISSION OF PERSISTENT IDENTIFIERS.  Goldenshores Technologies and its subsidiaries and agents may collect your persistent identifiers, such as a customer number held in a “cookie,” a static Internet Protocol (“IP”) address, a mobile device ID, or processor serial number.  Goldenshores Technologies and its subsidiaries and agents may transmit that information to third-party services providers for the purpose of providing you better services in the form of advertisements displayed during your use of the app.  Goldenshores Technologies does NOT store this information. </p>
+  <p>CONSENT TO USE DATA.  Goldenshores Technologies and its subsidiaries and agents may collect, maintain, process and use diagnostic, technical and related information, including but not limited to information about your computer, system and application software, and peripherals, that is gathered periodically to facilitate the provision of software updates, product support and other services to you (if any) related to the Goldenshores Technologies Software, and to verify compliance with the terms of the License. Goldenshores Technologies may use this information, as long as it is in a form that does not personally identify you, to improve our products or to provide services or technologies to you.</p>
+<p>4. Termination. This License is effective until terminated. Your rights under this License will terminate automatically or otherwise cease to be effective without notice from Goldenshores Technologies if you fail to comply with any term(s) of this License. Upon the termination of this License, you shall cease all use of the Goldenshores Technologies Software and destroy all copies, full or partial, of the Goldenshores Technologies Software. Sections 6, 7, 10 and 11 of this License shall survive any such termination.</p>
+<p>5. Privacy, Services and Third Party Materials.</p>
+<p>(a) The Goldenshores Technologies Software enables access to third party services and web sites (collectively and individually, &quot;Services&quot;). Such services may not be available in all languages or in all countries. Use of the Services requires Internet access and use of certain Services requires you to accept additional terms.</p>
+<p>(b) You understand that by using any of the Services, you may encounter content that may be deemed offensive, indecent, or objectionable, which content may or may not be identified as having explicit language, and that the results of any search or entering of a particular URL may automatically and unintentionally generate links or references to objectionable material. Nevertheless, you agree to use the Services at your sole risk and that Goldenshores Technologies shall have no liability to you for content that may be found to be offensive, indecent, or objectionable.</p>
+<p>(c) Certain Services may display, include or make available content, data, information, applications or materials from third parties (“Third Party Materials”) or provide links to certain third party web sites. By using the Services, you acknowledge and agree that Goldenshores Technologies is not responsible for examining or evaluating the content, accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect of such Third Party<br />
+  Materials or web sites. Goldenshores Technologies, its officers, affiliates and subsidiaries do not warrant or endorse and do not assume and will not have any liability or responsibility to you or any other person for any third-party Services, Third Party Materials or web sites, or for any other materials, products, or services of third parties. Third Party Materials and links to other web sites are provided solely as a convenience to you.</p>
+<p>(d) You agree that the Services contain proprietary content, information and material that is owned by Goldenshores Technologies and/or its licensors, and is protected by applicable intellectual property and other laws, including but not limited to copyright, and that you will not use such proprietary content, information or materials in any way whatsoever except for permitted use of the Services or in any manner that is inconsistent with the terms of this License or that infringes any intellectual property rights of a third party or Goldenshores Technologies. No portion of the Services may be reproduced in any form or by any means. You agree not to modify, rent, lease, loan, sell, distribute, or create derivative works based on the Services, in any manner, and you shall not exploit the Services in any unauthorized way whatsoever, including but not limited to, using the Services to transmit any computer viruses, worms, trojan horses or other malware, or by trespass or burdening network capacity. You further agree not to use the Services in any manner to harass, abuse, stalk, threaten, defame or otherwise infringe or violate the rights of any other party, and that Goldenshores Technologies is not in any way responsible for any such use by you, nor for any harassing, threatening, defamatory, offensive, infringing or illegal messages or transmissions that you may receive as a result of using any of the Services.</p>
+<p>(e) In addition, Services and Third Party Materials that may be accessed from, displayed on or linked to from the Goldenshores Technologies Software are not available in all languages or in all countries. Goldenshores Technologies makes no representation that such Services and Materials are appropriate or available for use in any particular location. To the extent you choose to access such Services or Materials, you do so at your own initiative and are responsible for compliance with any applicable laws, including but not limited to applicable local laws. Goldenshores Technologies and its licensors reserve the right to change, suspend, remove, or disable access to any Services at any time without notice. In no event will Goldenshores Technologies be liable for the removal of or disabling of access to any such Services. Goldenshores Technologies may also impose limits on the use of or access to certain Services, in any case and without notice or liability.</p>
+<p>6. Disclaimer of Warranties.<br />
+  6.1 If you are a customer who is a consumer (someone who uses the Goldenshores Technologies Software outside of your trade, business or profession), you may have legal rights in your country of residence which would prohibit the following limitations from applying to you, and where prohibited they will not apply to you. To find out more about rights, you should contact a local consumer advice organization.</p>
+<p>6.2 YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT TO THE EXTENT PERMITTED BY APPLICABLE LAW, USE OF THE GOLDENSHORES TECHNOLOGIES SOFTWARE AND SERVICES IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU.</p>
+<p>6.3 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE GOLDENSHORES TECHNOLOGIES SOFTWARE AND SERVICES ARE PROVIDED &quot;AS IS&quot;, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND GOLDENSHORES TECHNOLOGIES AND GOLDENSHORES TECHNOLOGIES'S LICENSORS (COLLECTIVELY REFERRED TO AS &quot;GOLDENSHORES TECHNOLOGIES&quot; FOR THE PURPOSES OF SECTIONS 6 AND 7) HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE GOLDENSHORES TECHNOLOGIES SOFTWARE AND SERVICES, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OF QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.</p>
+<p>6.4 GOLDENSHORES TECHNOLOGIES DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES, THAT THE FUNCTIONS CONTAINED IN THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE, THAT THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES WILL BE COMPATIBLE WITH THIRD PARTY SOFTWARE, OR THAT DEFECTS IN THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES WILL BE CORRECTED.</p>
+<p>6.5 YOU FURTHER ACKNOWLEDGE THAT THE GOLDENSHORES TECHNOLOGIES SOFTWARE AND SERVICES ARE NOT INTENDED OR SUITABLE FOR USE IN SITUATIONS OR ENVIRONMENTS WHERE THE FAILURE OF, OR ERRORS OR INACCURACIES IN THE CONTENT, DATA OR INFORMATION PROVIDED BY, THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE, INCLUDING WITHOUT LIMITATION THE OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL, LIFE SUPPORT OR WEAPONS SYSTEMS.</p>
+<p>6.6 NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY GOLDENSHORES TECHNOLOGIES OR AN GOLDENSHORES TECHNOLOGIES AUTHORIZED REPRESENTATIVE SHALL CREATE A WARRANTY. SHOULD THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES PROVE DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON APPLICABLE STATUTORY RIGHTS OF A CONSUMER, SO THE ABOVE EXCLUSION AND LIMITATIONS MAY NOT APPLY TO YOU.</p>
+<p>7. Limitation of Liability. TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT SHALL GOLDENSHORES TECHNOLOGIES BE LIABLE FOR PERSONAL INJURY, OR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, CORRUPTION OR LOSS OF DATA, BUSINESS INTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE GOLDENSHORES TECHNOLOGIES SOFTWARE OR SERVICES, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT OR OTHERWISE) AND EVEN IF GOLDENSHORES TECHNOLOGIES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OF LIABILITY FOR PERSONAL INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU. In no event shall Goldenshores Technologies's total liability to you for all damages (other than as may be required by applicable law in cases involving personal injury) exceed the amount of fifty dollars ($50.00). The foregoing limitations will apply even if the above stated remedy fails of its essential purpose.</p>
+<p>8. Export Control. You may not use or otherwise export or re-export the Goldenshores Technologies Software except as authorized by United States law and the laws of the jurisdiction in which the Goldenshores Technologies Software was obtained. In particular, but without limitation, the Goldenshores Technologies Software may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List. By using the Goldenshores Technologies Software, you represent and warrant that you are not located in any such country or on any such list. You also agree that you will not use the Goldenshores Technologies Software for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture or production of nuclear, chemical or biological weapons.</p>
+<p>9. Government End Users. The Goldenshores Technologies Software and related documentation are &quot;Commercial Items&quot;, as that term is defined at 48 C.F.R. §2.101, consisting of &quot;Commercial Computer Software&quot; and &quot;Commercial Computer Software Documentation&quot;, as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights reserved under the copyright laws of the United States.</p>
+<p>10. Controlling Law and Severability. This License will be governed by and construed in accordance with the laws of the State of Delaware, excluding its conflict of law principles. This License shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. If you are a consumer based in the United Kingdom, this License will be governed by the laws of the jurisdiction of your residence. If for any reason a court of competent jurisdiction finds any provision, or portion thereof, to be unenforceable, the remainder of this License shall continue in full force and effect.</p>
+<p>11. Complete Agreement; Governing Language. This License constitutes the entire agreement between you and Goldenshores Technologies relating to the Goldenshores Technologies Software, and supersedes all prior or contemporaneous understandings regarding such subject matter. No amendment to or modification of this License will be binding unless in writing and signed by Goldenshores Technologies. Any translation of this License is done for local requirements and in the event of a dispute between the English and any non-English versions, the English version of this License shall govern, to the extent not prohibited by local law in your jurisdiction.</p>
+<p>12. Third Party Acknowledgements. Portions of the Goldenshores Technologies Software utilize or include third party software and other copyrighted material. Acknowledgements, licensing terms and disclaimers for such material are contained in the “online” electronic documentation for the Goldenshores Technologies Software, or may otherwise accompany such material, and your use of such material is governed by their respective terms.</p>
+    </div>
+    <p></p>
+    
+  </div>
+  <div class="footer">
+    <p>Copyright 2011 GoldenShores Technologies, LLC</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

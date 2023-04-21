@@ -1,0 +1,125 @@
+policy_id: 169
+policy_name: com.herocraft.game.farmfrenzy.freemium
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Games Publishing Press Jobs Contact Us
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy HeroCraft Privacy Policy This privacy policy reflects the
+    ways we are dealing with information, which is considered "personal information"
+    and is addressed to the end-users of our apps, site www.herocraft.com and YourCraft
+    social service.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: What we gather We are keeping information about installation of our
+    apps on your device (like time, date, IP-address). We are keeping the unique ID
+    of your device, if it is submitted by your device during installation.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We are keeping information about installation of our apps on your
+      device (like time, date, IP-address).
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We are keeping the unique ID of your device, if it is submitted
+      by your device during installation.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: We can request some information directly for the purpose of registering
+    you in the Youcraft social network or high scores system (like e-mail address).
+    If you are purchasing the license via our web-site we will store your IP-address,
+    country information mobile number and the transaction information.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you are purchasing the license via our web-site we will store
+      your IP-address, country information mobile number and the transaction information
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We can request some information directly for the purpose of registering
+      you in the Youcraft social network or high scores system (like e-mail address).
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: How do we use it We process the statistics of downloaded apps in an
+    anonymous way to improve our services and provide you with better services.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: How do we store it All collected information is stored on our servers
+    in the USA and is accessed via secure connections.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: How do we share it We do not. We do not give access to our information
+    to the third parties, we never link our information to any other databases. For
+    the last five years we have never received any requests from the state authorities
+    of any country for providing such information.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Miscellaneous Some of our Android apps were reported to be requesting
+    access to the contacts book of the mobile phones. This is required by the "tell
+    a friend" feature. Nevertheless, your contacts information is used within your
+    phone and never downloaded by us.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Nevertheless, your contacts information is used within your phone
+      and never downloaded by us.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Our policy may be updated from time to time. Latest version will be
+    posted on our site.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 'Should you have any questions regarding your personal information,
+    please contact us by e-mail: support@herocraft.com.'
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Tell us which marketing messages are acceptable to you. Email us at
+    press@herocraft.com to tell us your marketing preferences.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Stop receiving HeroCraft marketing emails by clicking the unsubscribe
+    link included at the bottom of HeroCraft marketing emails. You cannot opt out
+    of certain emails we need to send you relating to normal business operations (for
+    example, we may email you to deliver a content that your bought using a HeroCraft
+    online service). Pinterest
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: "All rights reserved \xA9 2017 HeroCraft. Privacy policy Subscribe\
+    \ You have successfully subscribed to our newsletter! Subscribe error Your email\
+    \ Subscribe"
+  annotations: []
+  sentences: []

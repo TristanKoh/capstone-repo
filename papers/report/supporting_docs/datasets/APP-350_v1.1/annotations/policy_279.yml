@@ -1,0 +1,517 @@
+policy_id: 279
+policy_name: Nekki
+policy_type: VALIDATION
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "\u0413\u043B\u0430\u0432\u043D\u0430\u044F \u041E \u043D\u0430\u0441\
+    \ \u0412\u0430\u043A\u0430\u043D\u0441\u0438\u0438 \u041F\u0440\u043E\u0435\u043A\
+    \u0442\u044B \u041F\u0440\u0435\u0441\u0441\u0430 \u041F\u043E\u0434\u0434\u0435\
+    \u0440\u0436\u043A\u0430"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\
+    \u0432\u0430\u0442\u044C! \u041A\u043E\u043C\u043F\u0430\u043D\u0438\u044F Nekki\
+    \ - \u0438\u0437\u0434\u0430\u0442\u0435\u043B\u044C \u0438 \u0440\u0430\u0437\
+    \u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A \u043E\u043D\u043B\u0430\u0439\
+    \u043D-\u0438\u0433\u0440 \u0438 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\
+    -\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432, \u0442\u0430\u043A\u0438\u0445\
+    \ \u043A\u0430\u043A Vector, 11x11, \u0413\u043B\u0430\u0434\u0438\u0430\u0442\
+    \u043E\u0440\u044B, \u0411\u043E\u0439 \u0441 \u0442\u0435\u043D\u044C\u044E,\
+    \ Soccer.Ru."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435 \u043E \u043A\
+    \u043E\u043C\u043F\u0430\u043D\u0438\u0438 ... \xBB \u041D\u0430\u0448\u0438 \u0446\
+    \u0435\u043D\u043D\u043E\u0441\u0442\u0438 \u0438 \u043C\u0438\u0441\u0441\u0438\
+    \u044F ... \xBB \u0421\u0442\u0430\u0436\u0438\u0440\u043E\u0432\u043A\u0430 \u0432\
+    \ Nekki \u0428\u0430\u043D\u0441 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\
+    \u043D\u0438\u0442\u044C\u0441\u044F \u043A \u043D\u0430\u0448\u0435\u0439 \u043A\
+    \u043E\u043C\u0430\u043D\u0434\u0435 \u0438 \u043D\u0430\u0439\u0442\u0438 \u0441\
+    \u0432\u043E\u0451 \u043F\u0440\u0438\u0437\u0432\u0430\u043D\u0438\u0435 \u0434\
+    \u043B\u044F \u0442\u0430\u043B\u0430\u043D\u0442\u043B\u0438\u0432\u044B\u0445\
+    \ \u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043E\u0432 \u0438 \u043C\u043E\u043B\
+    \u043E\u0434\u044B\u0445 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\
+    \u0442\u043E\u0432!"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: "\u0423\u0437\u043D\u0430\u0442\u044C \u043F\u043E\u0434\u0440\u043E\
+    \u0431\u043D\u043E\u0441\u0442\u0438 ... \xBB \u041E\u0442\u043F\u0440\u0430\u0432\
+    \u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443 ... \xBB \u0420\u0430\u0431\
+    \u043E\u0442\u0430 \u0432 Nekki \u0420\u0430\u0431\u043E\u0442\u0430 \u0443 \u043D\
+    \u0430\u0441 - \u044D\u0442\u043E \u044D\u043D\u0442\u0443\u0437\u0438\u0430\u0437\
+    \u043C, \u0441\u0442\u0430\u0431\u0438\u043B\u044C\u043D\u043E\u0441\u0442\u044C\
+    , \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u043E, \u043E\u0442\u043B\
+    \u0438\u0447\u043D\u044B\u0439 \u0434\u0440\u0443\u0436\u0435\u043B\u044E\u0431\
+    \u043D\u044B\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432 \u0438\
+    \ \u0437\u0430\u043C\u0435\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u0430\u044F\
+    \ \u043F\u0435\u0440\u0441\u043F\u0435\u043A\u0442\u0438\u0432\u0430 \u0440\u043E\
+    \u0441\u0442\u0430!"
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0440\u0430\u0431\u043E\
+    \u0442\u044B \u0438 \u0444\u043E\u0442\u043E \u043E\u0444\u0438\u0441\u0430 ...\
+    \ \xBB \u041D\u0430\u0448\u0438 \u0432\u0430\u043A\u0430\u043D\u0441\u0438\u0438\
+    \ ... \xBB \u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u041E\u0431\
+    \u0449\u0435\u043D\u0438\u0435 \u0441 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\
+    \u0430\u0442\u0435\u043B\u044F\u043C\u0438 \u043E\u0447\u0435\u043D\u044C \u0432\
+    \u0430\u0436\u043D\u043E \u0434\u043B\u044F \u043D\u0430\u0441, \u043F\u043E\u044D\
+    \u0442\u043E\u043C\u0443 \u043C\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438\
+    \ \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u0430\
+    \u0439\u0442 \u0441\u043B\u0443\u0436\u0431\u044B \u043F\u043E\u0434\u0434\u0435\
+    \u0440\u0436\u043A\u0438 \u0438 \u0441\u0442\u0440\u0435\u043C\u0438\u043C\u0441\
+    \u044F \u043F\u043E\u0432\u044B\u0448\u0430\u0442\u044C \u0435\u0433\u043E \u043A\
+    \u0430\u0447\u0435\u0441\u0442\u0432\u043E."
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: "\u0421\u0430\u0439\u0442 \u0441\u043B\u0443\u0436\u0431\u044B \u043F\
+    \u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 ... \xBB \u041F\u0430\u0440\u0442\
+    \u043D\u0435\u0440\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0433\u0440\u0430\
+    \u043C\u043C\u0430 \u041F\u0430\u0440\u0442\u043D\u0435\u0440\u0441\u0442\u0432\
+    \u043E \u0441 Nekki - \u043E\u0442\u043B\u0438\u0447\u043D\u0430\u044F \u0432\u043E\
+    \u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0434\u043B\u044F \u0432\
+    \u0435\u0431-\u043C\u0430\u0441\u0442\u0435\u0440\u043E\u0432 \u0438 \u0440\u0430\
+    \u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\u043E\u0432 \u043F\u0440\
+    \u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u043F\u043E\u043B\u0443\u0447\
+    \u0430\u0442\u044C \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u044B\u0439\
+    \ \u0438 \u0440\u0430\u0441\u0442\u0443\u0449\u0438\u0439 \u0434\u043E\u0445\u043E\
+    \u0434."
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435 \u043E \u043F\
+    \u0430\u0440\u0442\u043D\u0435\u0440\u0441\u043A\u043E\u0439 \u043F\u0440\u043E\
+    \u0433\u0440\u0430\u043C\u043C\u0435 ... \xBB \u041D\u0430\u0447\u043D\u0438\u0442\
+    \u0435 \u0437\u0430\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C\
+    \ ... \xBB NEKKI \"PRIVACY POLICY\" v07072015 Thank you for playing the games\
+    \ and game services developed and published by Nekki (Caliburnus Limited) (the\
+    \ \"Game\" or \"Games\")! In this Privacy Policy \"You\" and \"Your\" refer to\
+    \ you, the person visiting or playing our Games. \"We\", \"Us\" and \"Our\" refer\
+    \ to the staff, sites, and other resources of Nekki."
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: We believe in protecting Your privacy. Please read the following Privacy
+    Policy to understand how We use and protect the information that You provide to
+    Us.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: '1. Contacting Nekki Nekki (Caliburnus Limited) is a company incorporated
+    in Cyprus. If You want to know what information We hold about You or if You have
+    any other queries in relation to this Privacy Policy, please contact Us in writing.
+    Our contact information is below: Postal Address: 116, Gladstonos str, M. Kyprianou
+    house; 3rd&4th floors, 3032, Limassol, Cyprus Email: info@nekki.com 2. Information
+    That We Collect From You 2.1 When you play a Game, We will collect some of your
+    personal information that might include, but is not be limited to, your Facebook
+    ID number.'
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: 2.2 By playing the Game, You consent to the collection, use and transfer
+    of Your information in accordance with the terms of this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: 2.3 We may also collect information about You, from any e-mails or
+    letters that You send to Us. We will only use any such information in accordance
+    with the terms of this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: '2.4 Any materials or information that You post or upload to the Games
+    or to Us may be visible to other users of the Games and will be stored on Our
+    servers for the purposes of making the Games available. We advise You to be selective
+    about what information You post. Please do not include the following information
+    in any post: telephone numbers, addresses, surname, date of birth, or other information
+    you might want to hold private.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 2.5 We may receive information that You submit to any third party
+    website You access from links contained within the Games, including without limitation
+    any third party payment processor or e-commerce portal provided by an e-commerce
+    operator that may from time to time be made available to You via the Games. We
+    and the owner/ operator of that third party website will be the data controller
+    in respect to any such information. You should check the privacy policy of such
+    third party website to find out how they will use Your data. We will only use
+    the information we receive in accordance with this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: '2.6 We may collect information about the location of your computer
+    or the device upon which you access the Games. We may also collect information
+    about in-game activity and how the Games are used. Such information may include
+    but shall not be limited to: (a) login information (time of login and the number
+    of logins)'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may collect information about the location of your computer
+      or the device upon which you access the Games.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: (b) locations visited within the Games; (c) character interactions
+    within the Games; (d) items purchased; (e) items sold; (f) missions accepted;
+    (g) missions completed; (h) the number of times You share Game activity with friends;
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: (i) the number of Game invitations You send to friends;
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: (j) the amount of virtual currency You have; and (k)and the amount
+    of virtual currency You have either earned or purchased.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We may use this information for a number of purposes such as optimizing
+    gameplay, security, and to help us provide more efficient customer support.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 2.7 When you download Nekki mobile application by or through a Third
+    Party Platform-including Facebook-you allow us to access and/or collect certain
+    information from your Third Party Platform profile/account. You additionally allow
+    us to access information contained in cookies placed on your device by the Third
+    Party Platform as permitted by the terms of your agreement and privacy settings
+    with the Third Party Platform. We may share this information with the Third Party
+    Platform for their use as permitted by the terms of your agreement and privacy
+    settings with the Third Party Platform.
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "When you download Nekki mobile application by or through a Third\
+      \ Party Platform\u2014including Facebook\u2014you allow us to access and/or\
+      \ collect certain information from your Third Party Platform profile/account."
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: We will share some of the information we collect from you with vendors
+    and other service providers who work with us to support the internal operations
+    of our website and/or mobile application. For example, we use a third-party service
+    for ad tracking and to help us prepare website and mobile application analytics.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: For example, we use a third-party service for ad tracking and to
+      help us prepare website and mobile application analytics.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+  - sentence_text: We will share some of the information we collect from you with
+      vendors and other service providers who work with us to support the internal
+      operations of our website and/or mobile application.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 20
+  segment_text: Our third-party ad tracking and analytics company never sends emails,
+    notifications, or other communications to our end users. If you would like to
+    opt out of third-party ad tracking and analytics, please visit here. Your choice
+    to opt out of ad tracking and analytics services does not limit our ability to
+    email you or collect other information from you for other vendors, subject to
+    the terms of this privacy policy.
+  annotations:
+  - practice: Contact_E_Mail_Address_3rdParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Our third-party ad tracking and analytics company never sends emails,
+      notifications, or other communications to our end users.
+    annotations:
+    - practice: Contact_E_Mail_Address_3rdParty
+      modality: NOT_PERFORMED
+- segment_id: 21
+  segment_text: '3. Use Of Your Information 3.1 We may use Your information for the
+    following purposes: (a)To administer Your membership account; (b)to and enable
+    Us to provide You with access to the Games;'
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: (c)to enable You to download information and materials from the Games;
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: (d)to provide You with services You subscribed to; (e)to display Your
+    username and contact details to other players;
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: (f)to enable other members of the Games to contact You;
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: (g)to provide customer service in relation to Your use of the the
+    Games; and
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: (h)to administer, support, improve and develop the Games.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: 3.2 We may also use Your information to contact you about the Games
+    or to send you other content We think may be of interest to You. We will only
+    do this if You have so consented or requested to receive such information when
+    you downloaded the Games. If at any time You no longer wish to be contacted, please
+    let Us know in writing and We will arrange this.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 4. Disclosure Of Your Information 4.1 Other than as expressly set
+    out in this Privacy Policy or as otherwise required or permitted by law, We will
+    not share, sell or distribute any of the information You provide to Us without
+    Your consent.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: '4.2 We may disclose Your personal information to: (a)Any third party
+    to whom disclosure is necessary to enable Us to provide You with the services
+    to which You have subscribed;'
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: (b)any person to whom disclosure is necessary to enable Us to enforce
+    Our rights under this Privacy Policy or under the Terms of Use (including, without
+    limitation, our proprietary rights in or to the Games); or
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: (c)any entity that legally acquires Nekki or any of Our Games
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 4.3 We may pass to third party payment processors certain information
+    that identifies you as the Game's player along with information on whatever you
+    have selected to purchase.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: 4.4 We may disclose generic non-personal information in the aggregate
+    (that is not specific to and does not identify You) to third parties including,
+    but not limited to, third party advertisers and/or any third party game developer
+    that develops or modifies the Games for Us on Our behalf.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 4.5 You should always be careful when submitting information about
+    Yourself within the Games and You should only submit information that You consent
+    to make public.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: 5. Children 5.1 We do not knowingly collect or solicit personal information
+    from anyone under 14 years old or knowingly allow such persons to register. If
+    You are under the age of 13 years, please do not attempt to access the Games or
+    send any information about Yourself to Us including, without limitation, Your
+    name, address, telephone number, or email address. No person under the age of
+    14 may provide any personal information to Us or the Games. In the event that
+    We learn that We have collected personal information from anyone under the age
+    of 13, We will delete that information as soon as practicable. If You believe
+    that We might have any information from or about a child under the age of 14,
+    please contact Us in writing.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If You are under the age of 13 years, please do not attempt to
+      access the Games or send any information about Yourself to Us including, without
+      limitation, Your name, address, telephone number, or email address.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We do not knowingly collect or solicit personal information from
+      anyone under 14 years old or knowingly allow such persons to register.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 36
+  segment_text: 5.2 If You are a minor aged between 14 and 18 years old, it is important
+    that you ask your parent or legal guardian for permission before sending any information
+    about Yourself to anyone.
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: 6. Cookies The Game use cookies to ensure proper function and so You
+    get the highest level of satisfaction. Cookies are small amounts of information
+    which We store on Your computer. They make it easier for You to log into and use
+    the Games. They also allow Us to monitor website traffic and to personalize the
+    content of the Games for You. If You do not wish Us to install cookies on Your
+    computer for these purposes, You may change the settings on Your internet browser
+    to reject cookies. For more information please consult the "Help" section of Your
+    internet browser. Please note that if You do set Your internet browser to reject
+    cookies, You may not be able to use all of the features of the Games.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies The Game use cookies to ensure proper function and so You
+      get the highest level of satisfaction.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies are small amounts of information which We store on Your
+      computer.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For more information please consult the "Help" section of Your
+      internet browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: If You do not wish Us to install cookies on Your computer for these
+      purposes, You may change the settings on Your internet browser to reject cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that if You do set Your internet browser to reject
+      cookies, You may not be able to use all of the features of the Games.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They also allow Us to monitor website traffic and to personalize
+      the content of the Games for You.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They make it easier for You to log into and use the Games.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 38
+  segment_text: 7. Third Party Sites and Contributors 7.1 The Games may contain links
+    to websites and microsites that are operated by third parties. We do not control
+    those websites and microsites and as such this Privacy Policy does not apply to
+    those websites and microsites. Please consult the terms and conditions and privacy
+    policies of those third party websites and microsites to find out how they collect
+    and use Your personal data and to establish whether and for what purpose they
+    use cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please consult the terms and conditions and privacy policies of
+      those third party websites and microsites to find out how they collect and use
+      Your personal data and to establish whether and for what purpose they use cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third Party Sites and Contributors 7.1 The Games may contain links
+      to websites and microsites that are operated by third parties.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We do not control those websites and microsites and as such this
+      Privacy Policy does not apply to those websites and microsites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 39
+  segment_text: 7.2 Advertisements contained on Our Games operate as links to that
+    advertiser's websites and as such any information they collect by virtue of Your
+    clicking on that link will be collected and used in accordance with the privacy
+    policy of that advertiser.
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: 8. Security And Data Retention We employ reasonable security measures
+    to protect Your information from access by unauthorized persons and against unlawful
+    processing, accidental loss, destruction and damage. We will retain Your information
+    for the duration of Your membership of the Games and/or whilst you continue to
+    have access to the Games and for a reasonable period thereafter or as long as
+    the law requires or permits.
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: 9. Data Access and Corrections 9.1 You are entitled to see the information
+    We hold about You and You may ask Us to make any necessary changes to ensure that
+    it is accurate and kept up to date. If You wish to do this, please contact Us
+    in writing using the information provided above. We may charge a small fee to
+    meet Our costs in providing You with details of the information We hold about
+    You.
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: 9.2 You may also withdraw Your consent for Us to process Your data
+    at any time by notifying Us in writing, but if You withdraw Your consent to certain
+    types of processing described above We may be unable to maintain Your membership
+    of the Games and you may no longer be able to access the Games.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: 9.3 If you are accessing Our Games on Facebook, you may update, amend
+    or delete Your information on Facebook, that we may receive from Facebook, by
+    amending Your Facebook account information in accordance with Facebook's terms
+    and conditions of use.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 10. Changes To Our Privacy Policy We reserve the right to make changes
+    to Our Privacy Policy from time to time. Any such changes to Our privacy policy
+    will be posted here.
+  annotations: []
+  sentences: []
+- segment_id: 45
+  segment_text: "\u041F\u043E \u0432\u043E\u043F\u0440\u043E\u0441\u0430\u043C \u0441\
+    \u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0435\u0441\u0442\u0432\u0430\
+    \ \u043E\u0431\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044C \u043D\u0430\
+    \ info@nekki.com \xA9 2002-2017"
+  annotations: []
+  sentences: []
+- segment_id: 46
+  segment_text: We do not collect information about the location of your computer
+    or the device upon which you access the Games.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect information about the location of your computer
+      or the device upon which you access the Games.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 47
+  segment_text: "You cannot access Nekki mobile application by or through a Third\
+    \ Party Platform\u2014including Facebook."
+  annotations:
+  - practice: Facebook_SSO
+    modality: NOT_PERFORMED
+  - practice: SSO
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: "You cannot access Nekki mobile application by or through a Third\
+      \ Party Platform\u2014including Facebook."
+    annotations:
+    - practice: Facebook_SSO
+      modality: NOT_PERFORMED
+    - practice: SSO
+      modality: NOT_PERFORMED

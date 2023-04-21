@@ -1,0 +1,702 @@
+policy_id: 150
+policy_name: com.celltick.lockscreen
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Home Themes Plug-ins FAQ
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy policy Last updated: 2 February 2017 Thank you for using
+    Start! Celltick Technologies Ltd. ("Celltick", "we", "our" or "us") is committed
+    to the users'' privacy. This privacy policy ("Privacy Policy") describes how we
+    collect, use and share your information, including any information that may personally
+    identify you ("Personal Information"), in connection with the use of our Start
+    application ("Start").'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: By downloading or using Start, you agree to the collection, use and
+    disclosure of your information, including Personal Information, in accordance
+    with the terms of the Privacy Policy. Please read our Privacy Policy carefully
+    before installing or using Start. If you do not agree to this Privacy Policy,
+    please remove or disable Start.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: This Privacy Policy forms a part of the Terms of Use, available here
+    - http://startscreen.com/terms-conditions/ ("Terms"), and is incorporated thereto
+    by reference, along with such other policies of which you may be notified of by
+    us from time to time. The definitions in our Terms apply to this Privacy Policy
+    unless stated otherwise. To learn about our privacy practices in relation to the
+    Magazine SDK, please visit here https://startgallery.celltick.com/cdocs/site/privacy-policy-magazine.html.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: WHAT INFORMATION WE COLLECT? We currently do not require you to actively
+    provide any Personal Information in order to install or access Start. However,
+    certain features of Start may require you to submit Personal Information, as explained
+    below.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'We collect the following types of information: Device information
+    - we automatically record and collect certain information from or about your device,
+    such as your device''s type and model, mobile device ID, language preferences,
+    time zone, the device''s operating system, mobile carrier and internet service
+    provider information, network connection type, mobile browsers installed on the
+    device, hardware information, running and installed apps on your device, your
+    device''s approximate location, your device''s IP address, GCM Registration ID,
+    and unique device identifiers assigned to your device (a number uniquely allocated
+    to your device by your device manufacturer). We also automatically record your
+    Android Advertising ID (if available), for advertising and analytics purposes.
+    The Android Advertising ID is an anonymous identifier, provided by Google Play
+    services. By downloading or using Start, you explicitly agree that we may associate
+    your Advertising ID with your applicable persistent device identifier. This will
+    facilitate our ability to improve your personalized experience. If your device
+    does not have Advertising ID, we will use other persistent identifiers.'
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We also automatically record your Android Advertising ID (if available),
+      for advertising and analytics purposes.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: 'We collect the following types of information:'
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+  - sentence_text: we automatically record and collect certain information from or
+      about your device, such as your device's type and model, mobile device ID, language
+      preferences, time zone, the device's operating system, mobile carrier and internet
+      service provider information, network connection type, mobile browsers installed
+      on the device, hardware information, running and installed apps on your device,
+      your device's approximate location, your device's IP address, GCM Registration
+      ID, and unique device identifiers assigned to your device (a number uniquely
+      allocated to your device by your device manufacturer).
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: App information, browsing history and search logs - when using Start,
+    we may collect certain app information, including app history and usage information,
+    information regarding downloads and installations of mobile applications and any
+    information regarding in-app events, internet domains visited in Start, the duration
+    of your visits and actions in these visits (such as clicks on certain items or
+    products), your browsing history, browser and system settings, dates and time-stamps,
+    and specific details of use of Start. In addition, certain features of Start allow
+    you to search for content. Your depersonalized search logs may be stored locally
+    on your device, and may be stored by our search service providers as well. We
+    and our partners use this information to offer you relevant content, such as customized
+    search results or tailored advertising. You may at any time delete your local
+    search logs through the relevant settings.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Location information - we collect information about your general location
+    (such as city and country). For example, we may use the IP address to identify
+    your general location. This information does not tell us where your device is
+    precisely located. This information is sent as a normal part of internet traffic.
+    In addition, we also collect implicit location information, which allows us to
+    infer that you are either interested in a place or that you might be at the place
+    - this information does not actually tell us where your device is precisely located.
+    In addition, we also collect the precise location of your device (using GPS signals,
+    device sensors, Wi-Fi access points and cell tower ids that can be used to derive
+    or estimate precise location, or other geo-location data), when location services
+    have been enabled by the user. Information we receive from our partners and other
+    third parties - we collect information we receive from our partners, such as our
+    analytics vendors or marketing partners, which we work with to help us improve
+    our services and personalize your experience on Start.
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may use the IP address to identify your general
+      location.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition, we also collect implicit location information, which
+      allows us to infer that you are either interested in a place or that you might
+      be at the place - this information does not actually tell us where your device
+      is precisely located.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: In addition, we also collect the precise location of your device
+      (using GPS signals, device sensors, Wi-Fi access points and cell tower ids that
+      can be used to derive or estimate precise location, or other geo-location data),
+      when location services have been enabled by the user.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Information we receive from our partners and other third parties
+      - we collect information we receive from our partners, such as our analytics
+      vendors or marketing partners, which we work with to help us improve our services
+      and personalize your experience on Start.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: Location information - we collect information about your general
+      location (such as city and country).
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: This information does not tell us where your device is precisely
+      located.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: This information is sent as a normal part of internet traffic.
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: Information you directly volunteer to us - to use certain features
+    of Start, you may be asked to provide your personal information, such as your
+    name, mobile number, email address, user-name, password and other registration
+    information as well as age, gender, interests and other information. In addition,
+    when you make purchases, respond to any offers, or download or use purchasable
+    applications from us, you may be asked to submit transaction-related information
+    (such as billing information). Further, when you contact us for support, feedbacks
+    or questions, you may provide us with additional information. At all times, you
+    may choose whether or not to provide such information, however, please note that
+    if you decide not to provide such information, certain features of Start may not
+    be enabled or may not function properly.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: "Information you directly volunteer to us \u2013 to use certain\
+      \ features of Start, you may be asked to provide your personal information,\
+      \ such as your name, mobile number, email address, user-name, password and other\
+      \ registration information as well as age, gender, interests and other information."
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: HOW DO WE USE THE INFORMATION WE COLLECT? To improve and personalize
+    Start - we use the information to improve and personalize your experience on Start,
+    and to identify and authenticate your access to certain features of Start. In
+    addition, we will use your information to provide targeted and customized content,
+    such as interest-based ads, that enrich your experience and provide you with a
+    personalized service, as well as enhanced services that are location-based or
+    context-based, and to provide a superior user experience of Start. Surveys and
+    research - from time to time, we conduct surveys or test features in Start, and
+    analyze the information we have to develop, evaluate and improve these features.
+    To communicate with you - for example, we will use your email address to respond
+    to your queries or feedback and to keep you informed of Celltick's latest product
+    announcements and software updates. Sweepstakes, contest and promotions - if you
+    enter into a sweepstakes, contest or similar promotion, we may use the information
+    you provided us to administer those programs, subject to applicable laws and regulations.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition, we will use your information to provide targeted and
+      customized content, such as interest-based ads, that enrich your experience
+      and provide you with a personalized service, as well as enhanced services that
+      are location-based or context-based, and to provide a superior user experience
+      of Start.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: 'Direct marketing - we may use your phone number and email address
+    to send you marketing information about products, services and offers, whether
+    by us or by our trusted partners, which may be of relevance to you, but only as
+    permitted by law or specifically approved by you. If you do not want to receive
+    any more communications from us, please follow the unsubscribing instructions
+    contained in the email, or send an email to privacy@celltick.com. Please note
+    that unsubscribing from promotional emails will not affect our ability to send
+    you non-promotional emails in the future. Enforcement and security - we also use
+    your information if we have a good faith belief that disclosure of such information
+    is helpful or reasonably necessary to: (i) comply with any applicable law, regulation,
+    legal process or governmental request; (ii) enforce our policies (including our
+    Terms and Privacy Policy), including investigations of potential violations thereof;
+    (iii) investigate, detect, prevent, or take action regarding illegal activities
+    or other wrongdoing, suspected fraud or security issues; (iv) to establish or
+    exercise our rights to defend against legal claims; or (v) prevent harm to the
+    rights, property or safety of Celltick, our users, yourself or any third party.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Direct marketing - we may use your phone number and email address
+      to send you marketing information about products, services and offers, whether
+      by us or by our trusted partners, which may be of relevance to you, but only
+      as permitted by law or specifically approved by you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Enforcement and security - we also use your information if we
+      have a good faith belief that disclosure of such information is helpful or reasonably
+      necessary to: (i) comply with any applicable law, regulation, legal process
+      or governmental request; (ii) enforce our policies (including our Terms and
+      Privacy Policy), including investigations of potential violations thereof; (iii)
+      investigate, detect, prevent, or take action regarding illegal activities or
+      other wrongdoing, suspected fraud or security issues; (iv) to establish or exercise
+      our rights to defend against legal claims; or (v) prevent harm to the rights,
+      property or safety of Celltick, our users, yourself or any third party.'
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: If you do not want to receive any more communications from us,
+      please follow the unsubscribing instructions contained in the email, or send
+      an email to privacy@celltick.com.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note that unsubscribing from promotional emails will not
+      affect our ability to send you non-promotional emails in the future.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Use of Anonymous Information - we store, use or share Anonymous Information
+    (meaning, information which does not enable identification of an individual user,
+    such as aggregated or anonymous information) in any of the above circumstances,
+    as well as for the purpose of providing and improving our services, aggregate
+    statistics, advertising purposes, conduct business and marketing analysis. We
+    may enable trusted third parties (such as ad servers) to collect Anonymous Information,
+    by deploying certain tracking technologies within Start, including, but not limited
+    to, for these purposes. The use of these technologies is subject to such third
+    parties' own privacy policies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may enable trusted third parties (such as ad servers) to collect
+      Anonymous Information, by deploying certain tracking technologies within Start,
+      including, but not limited to, for these purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: HOW WE COLLECT THE INFORMATION? As explained above, you may either
+    volunteer to us certain information (such as your email address), or we may automatically
+    collect certain information, such as through the use of your mobile device system's
+    permissions, or through the use of cookies or similar tracking technologies. We
+    and our trusted partners use cookies and other technologies in our related services.
+    As is true of most applications, we gather some information automatically and
+    store it in log files.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: As explained above, you may either volunteer to us certain information
+      (such as your email address), or we may automatically collect certain information,
+      such as through the use of your mobile device system's permissions, or through
+      the use of cookies or similar tracking technologies.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We and our trusted partners use cookies and other technologies
+      in our related services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: A "cookie" is a small piece of information that a website assigns
+    to your device while you are viewing a website. Cookies are very helpful and can
+    be used for various different purposes. These purposes include allowing you to
+    navigate between pages efficiently, enable automatic activation of certain features,
+    remembering your preferences and making the interaction between you and our services
+    quicker and easier. Cookies are also used to help ensure that the advertisements
+    you see are relevant to you and your interests. You can find more information
+    about cookies at www.allaboutcookies.org. You may remove our cookies by following
+    the instructions of your device preferences; however, if you choose to disable
+    cookies, some features of Start may not operate properly and your online experience
+    may be limited.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are also used to help ensure that the advertisements you
+      see are relevant to you and your interests.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies are very helpful and can be used for various different
+      purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: These purposes include allowing you to navigate between pages efficiently,
+      enable automatic activation of certain features, remembering your preferences
+      and making the interaction between you and our services quicker and easier.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: In some of our messages, we use a "click-through URL" linked to information
+    and content. When you click on such links, they may pass through a third party
+    web server before arriving at the destination page on Start or on one of our partners'
+    websites. Celltick or its trusted partners may track this click-through data to
+    help us determine interest in particular topics, measure the effectiveness and
+    performance of our customer communications and promotions.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: To serve personalized content and ads we may use technologies that
+    perform similar functions to cookies. Sometimes we link the identifier used for
+    advertising on mobile applications to an advertising cookie on the same device
+    in order to coordinate ads across your mobile apps and mobile browser. This also
+    helps us improve the reports we give to our advertisers on the effectiveness of
+    their campaigns.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Sometimes we link the identifier used for advertising on mobile
+      applications to an advertising cookie on the same device in order to coordinate
+      ads across your mobile apps and mobile browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: To serve personalized content and ads we may use technologies that
+      perform similar functions to cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: 'WITH WHOM WE SHARE YOUR INFORMATION? We share information about you
+    with: With our service providers - we share your information with our service
+    providers and subcontractors who assist us with our business operations (as listed
+    above), such as for the purpose of storing the information, performing research,
+    technical diagnostics, analytics or statistical purposes, or other business operations.
+    Our trusted partners also assist us with personalizing your experience and presenting
+    to you targeted advertisements. These third parties (such as advertisers, marketing
+    affiliates, ad agencies and ad servers) use cookies, clear gifs or similar technologies
+    to help present such advertisements, and to help track, measure and research the
+    advertisements'' performance and effectiveness, as well as for other purposes,
+    such as analytics and statistics.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: These third parties (such as advertisers, marketing affiliates,
+      ad agencies and ad servers) use cookies, clear gifs or similar technologies
+      to help present such advertisements, and to help track, measure and research
+      the advertisements' performance and effectiveness, as well as for other purposes,
+      such as analytics and statistics.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 17
+  segment_text: 'We also share information with the following third parties: Google
+    Analytics: We may use Google Analytics cookies to collect information about visitor
+    behavior on Start. These cookies allow us to quantify the number of users and
+    to perform measures and statistical analysis of the utilization that the users
+    perform of our provided services. Google Analytics stores information about what
+    pages you visit, how long you are on Start, how you got here and what you click
+    on.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We may use Google Analytics cookies to collect information about
+      visitor behavior on Start.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: 'AdMob, AdSense and DoubleClick: We may use AdMob, AdSense and DoubleClick
+    cookies for advertising purposes. These cookies register how many times you visited
+    Start, if the visit was a direct access, a search or a referral from other site
+    or app, and the keywords used in the searches. Finally, these cookies are used
+    to select and analyze the advertisements that are shown to you and their relevancy.
+    Some advertisements can be segmented by information available about you (such
+    as geographical location, age group or interests), while respecting your ad configuration.
+    You can learn more about Google cookies by visiting Google''s Privacy Policy.
+    You can also learn here how Google uses data through its partners'' sites or apps.
+    For ad configuration, please visit here. With our subsidiaries or in connection
+    with a sale of our business - if a third party acquires some or all of our business
+    or assets, we may disclose your information in connection with the sale. In connection
+    with legal proceedings - when we are under a legal obligation to do so, for example
+    to comply with a binding order of a court, or where disclosure is necessary to
+    exercise our or our partners'' legal rights.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Finally, these cookies are used to select and analyze the advertisements
+      that are shown to you and their relevancy.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Some advertisements can be segmented by information available about
+      you (such as geographical location, age group or interests), while respecting
+      your ad configuration.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: These cookies register how many times you visited Start, if the
+      visit was a direct access, a search or a referral from other site or app, and
+      the keywords used in the searches.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may use AdMob, AdSense and DoubleClick cookies for advertising
+      purposes.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 19
+  segment_text: In addition, we may disclose aggregated, anonymized information with
+    other third parties. This information cannot be used to identify you.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: INTERNATIONAL TRANSFERS We may transfer the information we collect
+    about you to countries other than the country where we originally collected it
+    for the purposes of storage and processing of information and operating our services.
+    Those countries may not have the same information protection laws as your country.
+    However, when we transfer your information to other countries, we will protect
+    that information as described in this Privacy Policy and take steps, where necessary,
+    to ensure that international transfers comply with applicable laws.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: ACCESS TO INFORMATION, RETENTION AND USER CHOICE We wish to ensure
+    that your Personal Information is maintained accurate. If you would like to delete
+    or correct any of your Personal Information, you may submit a request to us by
+    sending an email to privacy@celltick.com. Your email should include adequate details
+    of your request and you may be further requested to provide additional details
+    in order to authenticate your identity and thereby accommodate your requests.
+    Please note that unless you instruct us otherwise, we retain the information we
+    collect (including your Personal Information) for as long as needed to provide
+    our services and to comply with our legal obligations, resolve disputes and enforce
+    our policies and agreements.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: You can turn off certain third party cookies for advertising purposes
+    by visiting the Network Advertising Initiative.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You can turn off certain third party cookies for advertising purposes
+      by visiting the Network Advertising Initiative.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: To opt out of interest-based ads in apps on Android devices which
+    make available the Android Advertising ID, please follow the instructions on your
+    device.
+  annotations:
+  - practice: Identifier_Ad_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: To opt out of interest-based ads in apps on Android devices which
+      make available the Android Advertising ID, please follow the instructions on
+      your device.
+    annotations:
+    - practice: Identifier_Ad_ID_1stParty
+      modality: PERFORMED
+- segment_id: 24
+  segment_text: INTERACTION WITH THIRD PARTY PRODUCTS This Privacy Policy does not
+    apply to the practices of companies that we do not own or control, or to individuals
+    whom we do not employ or manage, including any of the third parties to which we
+    may disclose information as set forth in this Privacy Policy (each a "Third Party
+    Service") or Third Party Services you interact with through Start. We are not
+    responsible for the privacy practices or the content of these Third Party Services.
+    Accordingly, we encourage you to review the conditions of each Third Party Service
+    that you choose to use or interact with.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: 'CHILDREN PRIVACY Start is not intended for children under the age
+    of 13 years, and we do not knowingly obtain personal information from children
+    under the age of 13 years without parental consent. If we learn that we have collected
+    such information, we will delete it as quickly as possible. If you are aware of
+    any personal information in our possession which may relate to children under
+    the age of 13 years, please contact us at: privacy@celltick.com.'
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: SECURITY The security of your Personal Information is important to
+    us. We follow generally accepted industry standards, including the use of appropriate
+    administrative, physical and technical safeguards, to protect the Personal Information
+    submitted to us. However, no method of transmission over the Internet, or method
+    of electronic storage, is 100% secure. Therefore, we cannot guarantee the confidentiality
+    of your personal information. If you have any questions or security concerns,
+    please contact us at privacy@celltick.com.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: CHANGES TO OUR PRIVACY POLICY We reserve the right, at our discretion,
+    to revise or update this Privacy Policy at any time. Any material change will
+    be effective five (5) days following posting the revised Privacy Policy (available
+    from Start). The last revision will be reflected in the "Last Updated" heading.
+    Your continued use of Start thereafter means you consent to such changes and your
+    agreement to be bound by them. Please make sure to review our Privacy Policy periodically.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: 'CONTACT US If you have any other questions or queries about our Privacy
+    Policy, please contact us by email in the following address: privacy@celltick.com.'
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: DOWNLOAD the App FAQ Copyrights reserved to Celltick Privacy policy
+    Third Party Licenses and Open Source Licenses Terms and Conditions Contact us
+    Themes FAQ
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: "\xA9 All rights reserved Celltick Privacy policy Third Party Licenses\
+    \ and Open Source Licenses Terms and Conditions Contact us Themes FAQ"
+  annotations: []
+  sentences: []

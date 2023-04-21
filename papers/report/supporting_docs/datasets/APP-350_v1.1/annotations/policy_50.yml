@@ -1,0 +1,82 @@
+policy_id: 50
+policy_name: GoogleBooks
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: About privacy on Google Play Books December 16, 2015 | View archived
+    version The main Google Privacy Policy describes how we treat personal information
+    when you use Google's products and services, including Google Play. Below, we
+    describe privacy practices specific to books on Google Play.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Practices specific to Google Play Books The privacy practices that
+    are specific to books on Google Play are: To fulfill contractual commitments to
+    rightsholders who license us books, we enforce certain security limits (for example,
+    to prevent abusive sharing of purchased books and to enforce page view limits
+    on some book previews), and we also enforce limits on the numbers of browsers
+    or devices that can access an account during a given period of time. In order
+    to enforce limits on numbers of devices, we will store the unique ID numbers of
+    your devices on our servers. You can delete a device ID number when you wish to
+    stop using that device.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In order to enforce limits on numbers of devices, we will store
+      the unique ID numbers of your devices on our servers.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: You will need to have a Google Account in order to purchase books
+    because account information is necessary to provide access to users who bought
+    the book. We limit the information (such as books titles) we provide to credit
+    card companies, and enable you to delete purchased books from your Google Account.
+    However, you will not be able to delete the record of your purchase transaction
+    (including the title of the book) from your Google Payments account history.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: If you are part of a family group on Google Play and purchase books
+    using a family payment method, your family manager will be responsible for these
+    purchases and will therefore see a record of your books purchases made using the
+    family payment method, including titles and genres. Although you will be able
+    to delete purchased books from your Google Account, you will not be able to delete
+    the family manager's records of the purchase transactions.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: In order to enable consistent reading position across devices and
+    provide useful navigation within a book, we store the last five pages (only) in
+    each book a user has viewed with the user's account. We also store pages viewed
+    for security monitoring and/or if the user elects to use the Web History service.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Special legal privacy protections for users may apply in cases where
+    law enforcement or civil litigants ask Google for information about what books
+    an individual user has looked at. Some jurisdictions have special "books laws"
+    saying that this information is not available unless the person asking for it
+    meets a special, high standard such as proving to a court that there is a compelling
+    need for the information, and that this need outweighs the reader's interest in
+    reading anonymously under the United States First Amendment or other applicable
+    laws. Where these "books laws" exist and apply to books on Google Play, we will
+    raise them. We will also continue our strong history of fighting for high standards
+    to protect users, regardless of whether a particular "books law" applies. In addition,
+    we are committed to notifying the affected user if we receive such a request that
+    may lead to disclosure of their information; if we are permitted to do so by law
+    and if we have an effective way to contact the user, we will seek to do so in
+    time for the user to challenge the request.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: For additional information about books on Google Play and privacy,
+    please see our FAQ.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: "\xA9 Google Help"
+  annotations: []
+  sentences: []

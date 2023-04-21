@@ -1,0 +1,166 @@
+policy_id: 177
+policy_name: com.mobile.bizo.reverse
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: PRIVACY POLICY Bizo Mobile respects the privacy rights of its customers
+    and protects the personal information collected, stored and used in connection
+    with Bizo Mobile products, services, applications and websites (the "Services").
+    To further this commitment, we have adopted this Privacy Policy ("Privacy Policy")
+    to guide how we collect, store, and use the information you provide us.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: I. SCOPE OF THIS PRIVACY POLICY This Privacy Policy applies to personal
+    and anonymous information submitted and collected through the Services. By installing,
+    using, registering to or otherwise accessing the Services, you are accepting the
+    practices described in this Privacy Policy. If you do not agree to this Privacy
+    Policy, please do not install, use, register to or otherwise access the Services.
+    Bizo Mobile reserves the right to modify this Privacy Policy at reasonable times,
+    so please review it frequently. Your continued used of the Services will signify
+    your acceptance to the changes to this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: II. INFORMATION COLLECTED 1) We use technologies like cookies (small
+    files stored by your browser), web beacons, or unique device identifiers to anonymously
+    identify your computer or device so we can deliver a better experience. Our systems
+    also log information like your browser, operating system and IP address, device
+    information.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Our systems also log information like your browser, operating system
+      and IP address, device information.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We use technologies like cookies (small files stored by your browser),
+      web beacons, or unique device identifiers to anonymously identify your computer
+      or device so we can deliver a better experience.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 2) We collect information about how you use our apps, your results
+    (in case of a game), how often you use a specific feature.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We do not knowingly contact or collect personal information from children
+    under 13. If you believe we have inadvertently collected such information, please
+    contact us so we can promptly obtain parental consent or remove the information.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 3) In serving you, we may use or store your precise geographic location,
+    if you give us permission to do so.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Bluetooth_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In serving you, we may use or store your precise geographic location,
+      if you give us permission to do so.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Bluetooth_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: 4) If you use Facebook or Google Account to register into our app,
+    we collect only your name, e-mail addres and store it only for registering or
+    loging in purposes. In case of Facebook we may collect your friends list or other
+    information provided by Facebook that you agree to give to us.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you use Facebook or Google Account to register into our app,
+      we collect only your name, e-mail addres and store it only for registering or
+      loging in purposes.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: In case of Facebook we may collect your friends list or other information
+      provided by Facebook that you agree to give to us.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: 5) In case of applications which purpose is to process images, videos,
+    sound, we don't collect your recorded video, image or sound anywhere on our servers.
+    All files recorded by you are stored on your device's memory card. We don't share
+    it to any third party company, or anywhere in the Internet.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: 'III. USE OF INFORMATION COLLECTED 1) Ad companies may use and collect
+    anonymous data about your interests to customize content and advertising here
+    and in other sites and applications. Interest and location data may be linked
+    to your device, but is not linked to your identity. Ad companies that we cooperate
+    with, and which may collect anonymous data: admob.com facebook.com applovin.com
+    2) We don''t share your personal data such as name, e-mail or other (collected
+    from Google Account or Facebook) to any third party.'
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Interest and location data may be linked to your device, but is
+      not linked to your identity.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'If you have any questions or concerns about our privacy policies,
+    please contact us: contact@bizomobile.com 3) Analytics companies may access anonymous
+    data (such as your IP address or device ID) to help us understand how our services
+    are used. They use this data solely on our behalf. They do not share it except
+    in aggregate form; no data is shared as to any individual user. Analytics companies
+    that we work with: analytics.google.com batch.com 4) We may use your name in ranks
+    showing the best results among all users of the app. The rank is visible only
+    in the app you use and you provided such information.'
+  annotations:
+  - practice: Identifier_Device_ID_3rdParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Analytics companies may access anonymous data (such as your IP
+      address or device ID) to help us understand how our services are used.
+    annotations:
+    - practice: Identifier_Device_ID_3rdParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_3rdParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: IV. UPDATES This privacy policy was last updated on 27-08-2016. Our
+    privacy policy may change from time to time. If we make any material changes to
+    our policies, we will place a prominent notice on our website or application.
+    If the change materially affects registered users, we will send a notice to you
+    by email, push notification or text.
+  annotations: []
+  sentences: []

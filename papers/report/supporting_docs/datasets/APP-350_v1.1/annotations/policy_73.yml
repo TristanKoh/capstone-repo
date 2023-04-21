@@ -1,0 +1,408 @@
+policy_id: 73
+policy_name: PrettySimple
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Facebook Twitter Home Games Careers About Press Blog Support Terms
+    of Use Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Privacy Policy Last update: July 24,2013 Pretty Simple pays attention
+    to your personal data. Please read our Privacy Policy, in order to be aware of
+    what type of information we collect, how we use/store/transfer it. Your use of
+    the application signifies your agreement with our Privacy Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: This Privacy Policy may be amended from time to time. These modifications
+    will be notified to you on http://www.prettysimplegames.com/privacy-policy. You
+    are invited to look at this page periodically. Your continued use of the application
+    will signify your acceptance of the changes.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: The game is served on the Facebook Platform, so your activity on the
+    game may sometimes be ruled by Facebook Privacy Policy and not ours.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We, as developers, also respect Facebook Principle and Policies. You
+    can read them on http://developers.facebook.com/policy/.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 'If you have any questions, feel free to contact us at: contact@prettysimplegames.com.'
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: WHAT WE COLLECT First of all, the main aim of collecting personal
+    data is to help us improve the game.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: First, we collect Personal Information. By Personal Information, we
+    mean data that identify you, such as name, address, telephone number, social security
+    number, email, etc. We will not ask for all these data, but we may need some extra
+    Personal Information for payment.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By Personal Information, we mean data that identify you, such as
+      name, address, telephone number, social security number, email, etc.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: First, we collect Personal Information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: We will not ask for all these data, but we may need some extra
+      Personal Information for payment.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 8
+  segment_text: We harvest these data from Facebook, from You and from third parties.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We harvest these data from Facebook, from You and from third parties.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: 'Facebook: When you access the Game through Facebook, we may receive
+    your basic account information (user ID, name, email, gender, birthday, current
+    city, profile picture URL, and the user IDs of the user''s friends who have also
+    connected with your application) from Facebook.'
+  annotations:
+  - practice: Contact_City_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Facebook: When you access the Game through Facebook, we may receive
+      your basic account information (user ID, name, email, gender, birthday, current
+      city, profile picture URL, and the user IDs of the user''s friends who have
+      also connected with your application) from Facebook.'
+    annotations:
+    - practice: Contact_City_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Please note again, that we abide by Facebook rules that manage the
+    use of personal data.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'You: You may want to share additional information with us. In that
+    case, we may use the information you voluntarily give to us. We will not collect
+    any personal data, except name and email.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'Third Parties: We may call upon the services of third parties that
+    may collect information about you. In that case, they may share these data with
+    us, according to their own Privacy Policies. Please note that this Privacy Policy
+    applies only for Pretty Simple, and that we are not responsible for Privacy Policies
+    of other sites.'
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: We also collect non-Personal Information. By non-Personal Information,
+    we mean data that cannot identify you. Non-Personal Information can be linked
+    to the game (score, length of playing, activities) or to the general use ( Internet
+    Protocol Addresses, Browser type, Browser Language, referring and exit URLs, number
+    of clicks).
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By non-Personal Information, we mean data that cannot identify
+      you.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Non-Personal Information can be linked to the game (score, length
+      of playing, activities) or to the general use (Internet Protocol Addresses,
+      Browser type, Browser Language, referring and exit URLs, number of clicks).
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We also collect non-Personal Information.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: "We may use generated user content. This is the content you can publish\
+    \ through the game and that is visible by everyone (posts wall, sent messages,\
+    \ actions with other players,\u2026). Please note, that if you post Personal Information\
+    \ on things like comment or wall, we cannot guarantee the protection of your information.\
+    \ So, be careful of the content you publish on public domain. We cannot guarantee\
+    \ the use of this information."
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: We and our third parties may use cookies in your browser. Cookies
+    are small file texts stored in your hard drive, that identify you as unique user
+    and that contain non-Personal Information, such as information about a particular
+    login session. Those Cookies help us to improve the service, to know how many
+    visitors came and how they interact with the game. They are also used to remember
+    the site personal look. Note that you can disable cookies, thanks to the parameters
+    of your browser. This can prevent you from accessing the game, or having all functions.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are small file texts stored in your hard drive, that identify
+      you as unique user and that contain non-Personal Information, such as information
+      about a particular login session.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Note that you can disable cookies, thanks to the parameters of
+      your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: They are also used to remember the site personal look.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: This can prevent you from accessing the game, or having all functions.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Those Cookies help us to improve the service, to know how many
+      visitors came and how they interact with the game.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We and our third parties may use cookies in your browser.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: Special Note about Children The game does not directly target Children
+    under 13. According to Facebook Terms of Use, Children under 13 are not allowed
+    to access Facebook Site.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: We do not collect information about Children under 13. In the event
+    that such information was collect, we will delete this information as possible.
+    You can contact us at:contact@prettysimplegames.com
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: We strongly recommend that Children between 13 and 18 ask their parents
+    before sending any private information.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: HOW WE USE COLLECTED DATA Again, the aim of harvesting data is the
+    improvement of our game.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: We abide by Facebook rules concerning the use of data. So we will
+    never share/sell/rent/transfer any Personal Information about you to any third
+    party without your consent.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: We use the collected information to improve the quality of our game.
+    We use the statistics that we have, thanks to your Personal and non-Personal Information,
+    to establish profiles of our gamers. Like that, the game evolves in the best way
+    to fit with people's wishes. In fact, it helps us to understand who plays the
+    most and why and to adapt the game to provide the content people really like to
+    view.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: We will also use collected data to technically manage the application.
+    For example, we may log your IP addresses to monitor the traffic. We will never
+    disclose your IP to a third party.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: For example, we may log your IP addresses to monitor the traffic.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 23
+  segment_text: Personal Information allows us to contact you, if we need to. It allows
+    us to send you notifications. If you do not want to receive further notifications
+    from us, you can opt out at any time.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: You may provide us email addresses of your friends to invite them
+    to the game. We keep these addresses for a while to contact them and remind them
+    that they have been invited to the application. They can opt not to receive further
+    mail from us, at any time.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: We keep these addresses for a while to contact them and remind
+      them that they have been invited to the application.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: You may provide us email addresses of your friends to invite them
+      to the game.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 25
+  segment_text: "We may disclose or access data about you if the law requires it (subpoena,\
+    \ court order, \u2026) or if we have a good faith belief that it will avoid liability\
+    \ or fraud or to comply with legal process. This includes sharing data with companies\
+    \ or governments. Pretty Simple does not have to question such governmental process."
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: TRANSFER In the event of an acquisition or merger, we may transfer
+    your data to the new owner to keep the application working. Your information would
+    be protected by any pre-existed privacy policy.
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: STORAGE, SECURITY AND MODIFICATIONS We use means as secure as possible
+    to protect your data. Data are stored in an external server protected behind a
+    firewall.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: For sensitive information such as credit card number or password,
+    we use SSL encryption (Secure Socket Technology Layer).
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: However, while we strive to protect your Personal Information, no
+    transmission on the Internet or electronic storage is 100% secure. Any information
+    you share is at your own risk. We disclaim liability for any unauthorized access
+    or damage into any data.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Please note, that you can at any time modify your personal information
+    thanks to your Facebook Profile.
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: 'You can also terminate at any time your account and ask for a complete
+    delete of the data we have recorded about you. Please contact us at: contact@prettysimplegames.com.'
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: THIRD PARTIES POLICIES AND LINKS We may post links to others sites
+    on our game. We are not responsible for their activities and the way they use
+    information. Please read their own privacy policies.
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: The content of the site may be served or hosted by other web sites.
+    In this case again, the web sites have their own privacy policies.
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: Third party advertising companies serve ads on our site. We will not
+    share data that can identify you personally. They may also use cookies or beacons
+    (also called clear gifs) to manage the best their online advertising.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: They may also use cookies or beacons (also called clear gifs) to
+      manage the best their online advertising.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Third party advertising companies serve ads on our site.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We will not share data that can identify you personally.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 35
+  segment_text: 'ADDITIONAL QUESTIONS If you have any question, feel free to contact
+    us at: contact@prettysimplegames.com.'
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: "We're Hiring Apply now See all open positions \xA9 2013 Pretty Simple\
+    \ SA | Terms of Service | Privacy Policy"
+  annotations: []
+  sentences: []

@@ -1,0 +1,220 @@
+policy_id: 44
+policy_name: FirstTouchGames
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Skip to content Skip to content HOME ABOUT BLOG GAMES SUPPORT PRESS
+    JOBS
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: PRIVACY POLICY This privacy policy sets out how First Touch Games
+    uses and protects any information that you give First Touch Games when you use
+    their applications through Social Networking Services (SNS).
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: First Touch Games is committed to ensuring that your privacy is protected.
+    Should we ask you to provide certain information by which you can be identified
+    when using this website, then you can be assured that it will only be used in
+    accordance with this privacy statement.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: First Touch Games may change this policy from time to time by updating
+    this page. You should check this page from time to time to ensure that you are
+    happy with any changes. This policy is effective from 01/12/2011
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: "What we collect When you use any First Touch Games applications at\
+    \ an SNS such as Facebook or Twitter you allow First Touch Games to access certain\
+    \ information from your profile for that site. The information you allow First\
+    \ Touch Games to access varies by game and SNS, and it is affected by the privacy\
+    \ settings you and your friends establish at the SNS. \u2022 your first and last\
+    \ name \u2022 your profile picture or its URL \u2022 your user ID number, which\
+    \ is linked to publicly available information such as name and profile photo \u2022\
+    \ the user ID numbers and other public data for your friends \u2022 the login\
+    \ e-mail you provided to that SNS when you enable it via our applications \u2022\
+    \ your password you provided to that SNS when you enable it via our applications"
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: The information you allow First Touch Games to access varies by
+      game and SNS, and it is affected by the privacy settings you and your friends
+      establish at the SNS.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: When you use any First Touch Games applications at an SNS such
+      as Facebook or Twitter you allow First Touch Games to access certain information
+      from your profile for that site.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+  - sentence_text: "\u2022 your first and last name \u2022 your profile picture or\
+      \ its URL \u2022 your user ID number, which is linked to publicly available\
+      \ information such as name and profile photo \u2022 the user ID numbers and\
+      \ other public data for your friends \u2022 the login e-mail you provided to\
+      \ that SNS when you enable it via our applications \u2022 your password you\
+      \ provided to that SNS when you enable it via our applications"
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+    - practice: Facebook_SSO
+      modality: PERFORMED
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: By using a First Touch Games application in conjunction with an SNS,
+    you are authorizing First Touch Games to collect, store, and use in accordance
+    with this Privacy Policy any and all information that you agreed the SNS could
+    provide to First Touch Games through the SNS Application Programming Interface
+    ("API"). Your agreement takes place when you "accept" or "allow" (or similar terms)
+    one of our applications on an SNS.
+  annotations:
+  - practice: SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: By using a First Touch Games application in conjunction with an
+      SNS, you are authorizing First Touch Games to collect, store, and use in accordance
+      with this Privacy Policy any and all information that you agreed the SNS could
+      provide to First Touch Games through the SNS Application Programming Interface
+      ("API").
+    annotations:
+    - practice: SSO
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Analytics First Touch Games uses Flurry for analytics & metrics, in
+    order to improve the quality of our products. All of our products have an option
+    to switch metric recording off, which will be in each product's options/settings
+    menus. To view the Flurry privacy policy click here
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: "What we do with the information we gather We require this information\
+    \ to understand your needs and provide you with a better service, and in particular\
+    \ for the following reasons: \u2022 Internal record keeping. \u2022 We may use\
+    \ the information to improve our products and services. \u2022 To notify users\
+    \ of in-game updates \u2022 To inform users about new products or promotional\
+    \ offers"
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Security We are committed to ensuring that your information is secure.
+    In order to prevent unauthorised access or disclosure, we have put in place suitable
+    physical, electronic and managerial procedures to safeguard and secure the information
+    we collect online.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Links to other websites Our website may contain links to other websites
+    of interest. However, once you have used these links to leave our site, you should
+    note that we do not have any control over that other website. Therefore, we cannot
+    be responsible for the protection and privacy of any information which you provide
+    whilst visiting such sites and such sites are not governed by this privacy statement.
+    You should exercise caution and look at the privacy statement applicable to the
+    website in question.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Ad Serving Technology First Touch Games may employ third party ad
+    serving technologies (for example Flurry, AdMob, iAd, AdColony) that use precise
+    methods to collect information as a result of ad serving through Services. Third
+    parties may collect and use data for this purpose including software, applications,
+    hardware, browser information, internet and on-line usage information and in-game
+    information. The aforementioned data may be used and disclosed in accordance with
+    this Privacy Policy and the privacy policy of the company providing the ad serving
+    technologies.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: You recognize and comply that the advertising companies who deliver
+    ads for First Touch Games may combine the information collected with other information
+    they have independently collected from other services or products. These companies
+    collect and use information under their own privacy policies. Although First Touch
+    Games takes commercially reasonable steps to instruct such advertising companies
+    to comply with the terms and conditions of this Privacy Policy, First Touch Games
+    does not have access to or control of third party technologies.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Contact Us If you have any questions, comments or concerns regarding
+    our Privacy Policy and/or practices, please send an e-mail to privacy@firsttouchgames.com.
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Be Sociable, Share! Tweet
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Comments are closed.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Who are we ? First Touch Games are an award-winning independent games
+    development studio based in Oxford, UK.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: We develop sports games for digital platforms, our best known products
+    are Score! Hero & Dream League Soccer.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: 'Social Media Twitter Feed Error: Twitter did not respond. Please
+    wait a few minutes and refresh this page.'
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Recent Posts BREAKING NEWS! Dream League Soccer 2017 Released! Dream
+    League Soccer 2017 - Multiplayer Troubleshooting
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: BREAKING NEWS! Dream League Soccer 2016 Released!
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: BREAKING NEWS! Score! Hero Released! First Touch Soccer 2015 Released!
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Categories Development Dream League Soccer Euro Soccer First Touch
+    Soccer Fresh Tracks Snowboarding General Real World Football Score! Support X2
+    Football
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: "First Touch Games Archive First Touch Games Archive Select Month\
+    \ March 2017 February 2016 August 2015 December 2014 July 2014 May 2014 December\
+    \ 2013 November 2013 September 2013 June 2013 May 2013 April 2013 November 2012\
+    \ September 2012 August 2012 July 2012 June 2012 May 2012 March 2012 February\
+    \ 2012 January 2012 December 2011 November 2011 August 2011 July 2011 June 2011\
+    \ May 2011 March 2011 February 2011 January 2011 December 2010 November 2010 September\
+    \ 2010 July 2010 Search for: TWITTER FACEBOOK PRIVACY POLICY CONTACT US \xA9 2017\
+    \ - First Touch Games Proudly powered by WordPress. 2010 Weaver by WPWeaver.info"
+  annotations: []
+  sentences: []

@@ -1,0 +1,351 @@
+policy_id: 63
+policy_name: MobiSystems
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: Store Company For Business Support News Sign in Authorization error.
+    Please, refresh the page.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: 'Sign in Forgot your password? Log in with Facebook Log In with Google+
+    Don''t have an account? Register here Sign-in Troubleshooting Select Your Platform:
+    All Search Home Privacy Policy Privacy Policy Last updated: July 01, 2016 MobiSystems,
+    Inc. ("us", "we", or "our") operates the MobiSystems web site and a number of
+    mobile applications, including but not limited to OfficeSuite, File Commander,
+    UB Reader and Quick PDF Scanner (the "Service").'
+  annotations:
+  - practice: Facebook_SSO
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Log in with Facebook Log In with Google+ Don't have an account?
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: 'Register here Sign-in Troubleshooting Select Your Platform: All
+      Search Home Privacy Policy Privacy Policy Last updated: July 01, 2016 MobiSystems,
+      Inc. ("us", "we", or "our") operates the MobiSystems web site and a number of
+      mobile applications, including but not limited to OfficeSuite, File Commander,
+      UB Reader and Quick PDF Scanner (the "Service").'
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+  - sentence_text: Sign in Forgot your password?
+    annotations:
+    - practice: Facebook_SSO
+      modality: PERFORMED
+- segment_id: 2
+  segment_text: This page informs you of our policies regarding the collection, use
+    and disclosure of Personal Information when you use our Service.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: We will not use or share your information with anyone except as described
+    in this Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: We use your Personal Information for providing and improving the Service.
+    By using the Service, you agree to the collection and use of information in accordance
+    with this policy. Unless otherwise defined in this Privacy Policy, terms used
+    in this Privacy Policy have the same meanings as in our Terms and Conditions.
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Information Collection And Use While using our Service, we may ask
+    you to provide us with certain personally identifiable information that can be
+    used to contact or identify you. Personally identifiable information may include,
+    but is not limited to, your email address, name, other information ("Personal
+    Information"). We collect this information for the purpose of providing the Service,
+    identifying and communicating with you, responding to your requests/inquiries,
+    servicing your purchase orders, and improving our services.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Information Collection And Use While using our Service, we may
+      ask you to provide us with certain personally identifiable information that
+      can be used to contact or identify you.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: Personally identifiable information may include, but is not limited
+      to, your email address, name, other information ("Personal Information").
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: We collect this information for the purpose of providing the Service,
+      identifying and communicating with you, responding to your requests/inquiries,
+      servicing your purchase orders, and improving our services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Log Data When you access the Service by or through a mobile device,
+    we may collect certain information automatically, including, but not limited to,
+    the type of mobile device you use, your mobile device unique ID, the IP address
+    of your mobile device, your mobile operating system, the type of mobile Internet
+    browser you use and other statistics ("Log Data").
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: When you access the Service by or through a mobile device, we may
+      collect certain information automatically, including, but not limited to, the
+      type of mobile device you use, your mobile device unique ID, the IP address
+      of your mobile device, your mobile operating system, the type of mobile Internet
+      browser you use and other statistics ("Log Data").
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 7
+  segment_text: In addition, we may use third party services such as Google Analytics
+    that collect, monitor and analyze this type of information in order to increase
+    our Service's functionality. These third party service providers have their own
+    privacy policies addressing how they use such information.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Please see the section regarding Location Information below regarding
+    the use of your location information and your options.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Please see the section regarding Location Information below regarding
+      the use of your location information and your options.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Location Information We may use and store information about your location
+    depending on the permissions you have set on your device. We use this information
+    to provide features of our Service, to improve and customize our Service. You
+    can enable or disable location services when you use our Service at anytime, through
+    your mobile device settings.
+  annotations:
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Location Information We may use and store information about your
+      location depending on the permissions you have set on your device.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: We use this information to provide features of our Service, to
+      improve and customize our Service.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: You can enable or disable location services when you use our Service
+      at anytime, through your mobile device settings.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 10
+  segment_text: Cookies Cookies are files with a small amount of data, which may include
+    an anonymous unique identifier. Cookies are sent to your browser from a web site
+    and transferred to your device. We use cookies to collect information in order
+    to improve our services for you.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are files with a small amount of data, which may include
+      an anonymous unique identifier.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies are sent to your browser from a web site and transferred
+      to your device.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use cookies to collect information in order to improve our services
+      for you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: You can instruct your browser to refuse all cookies or to indicate
+    when a cookie is being sent. The Help feature on most browsers provide information
+    on how to accept cookies, disable cookies or to notify you when receiving a new
+    cookie.
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: If you do not accept cookies, you may not be able to use some features
+    of our Service and we recommend that you leave them turned on.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If you do not accept cookies, you may not be able to use some features
+      of our Service and we recommend that you leave them turned on.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: Do Not Track Disclosure We do not support Do Not Track ("DNT"). Do
+    Not Track is a preference you can set in your web browser to inform websites that
+    you do not want to be tracked.
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: You can enable or disable Do Not Track by visiting the Preferences
+    or Settings page of your web browser.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Service Providers We may employ third party companies and individuals
+    to facilitate our Service, to provide the Service on our behalf, to perform Service-related
+    services and/or to assist us in analyzing how our Service is used.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: These third parties have access to your Personal Information only
+    to perform specific tasks on our behalf and are obligated not to disclose or use
+    your information for any other purpose.
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Communications We may use your Personal Information to contact you
+    with newsletters, marketing or promotional materials and other information that
+    may be of interest to you. You may opt out of receiving any, or all, of these
+    communications from us by following the unsubscribe link or instructions provided
+    in any email we send.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: You may opt out of receiving any, or all, of these communications
+      from us by following the unsubscribe link or instructions provided in any email
+      we send.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 18
+  segment_text: Compliance With Laws We will disclose your Personal Information where
+    required to do so by law or subpoena or if we believe that such action is necessary
+    to comply with the law and the reasonable requests of law enforcement or to protect
+    the security or integrity of our Service.
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: Security The security of your Personal Information is important to
+    us, and we strive to implement and maintain reasonable, commercially acceptable
+    security procedures and practices appropriate to the nature of the information
+    we store, in order to protect it from unauthorized access, destruction, use, modification,
+    or disclosure.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: However, please be aware that no method of transmission over the internet,
+    or method of electronic storage is 100% secure and we are unable to guarantee
+    the absolute security of the Personal Information we have collected from you.
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: International Transfer Your information, including Personal Information,
+    may be transferred to - and maintained on - computers located outside of your
+    state, province, country or other governmental jurisdiction where the data protection
+    laws may differ than those from your jurisdiction.
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: If you are located outside United States and choose to provide information
+    to us, please note that we transfer the information, including Personal Information,
+    to United States and process it there.
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Your consent to this Privacy Policy followed by your submission of
+    such information represents your agreement to that transfer.
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Links To Other Sites Our Service may contain links to other sites
+    that are not operated by us. If you click on a third party link, you will be directed
+    to that third party's site. We strongly advise you to review the Privacy Policy
+    of every site you visit.
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: We have no control over, and assume no responsibility for the content,
+    privacy policies or practices of any third party sites or services.
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Children's Privacy Only persons age 18 or older have permission to
+    access our Service. Our Service does not address anyone under the age of 13 ("Children").
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: We do not knowingly collect personally identifiable information from
+    children under 13. If you are a parent or guardian and you learn that your Children
+    have provided us with Personal Information, please contact us. If we become aware
+    that we have collected Personal Information from a children under age 13 without
+    verification of parental consent, we take steps to remove that information from
+    our servers.
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Changes To This Privacy Policy This Privacy Policy is effective as
+    of July 01, 2016 and will remain in effect except with respect to any changes
+    in its provisions in the future, which will be in effect immediately after being
+    posted on this page.
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: We reserve the right to update or change our Privacy Policy at any
+    time and you should check this Privacy Policy periodically. Your continued use
+    of the Service after we post any modifications to the Privacy Policy on this page
+    will constitute your acknowledgment of the modifications and your consent to abide
+    and be bound by the modified Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: If we make any material changes to this Privacy Policy, we will notify
+    you either through the email address you have provided us, or by placing a prominent
+    notice on our website.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: If we make any material changes to this Privacy Policy, we will
+      notify you either through the email address you have provided us, or by placing
+      a prominent notice on our website.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 31
+  segment_text: Contact Us If you have any questions about this Privacy Policy, please
+    contact us.
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: 'MobiSystems 3390 Carmel Mountain Road Suite 110 San Diego, CA 92121
+    United States Email: [email protected] Store Featured OfficeSuite Productivity
+    Dictionaries Reference eBooks Company About MobiSystems Partners News & Reviews
+    Careers Contact Support Popular Help Topics Download Protection Product FAQs Policies
+    Contact Support Sitemap Contacts MobiSystems, Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: "3390 Carmel Mountain Road Suite 110 San Diego, CA 92121, USA Tel:\
+    \ +1 858 350 0315 Email: [email protected] Social Copyright \xA9 2017 MobiSystems."
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: All rights reserved.
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Privacy | Terms of Use
+  annotations: []
+  sentences: []

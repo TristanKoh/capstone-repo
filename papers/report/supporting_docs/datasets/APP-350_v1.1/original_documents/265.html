@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Privacy Policy | avd-app.com</title>
+	<meta name="description" content="Your privacy is very important to us.">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="robots" content="index,follow">
+
+<link rel="stylesheet" href="./layout.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/icon/144.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/icon/114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/icon/72.png">
+<link rel="apple-touch-icon-precomposed" href="./img/icon/57.png">
+
+<script type="text/javascript" charset="utf-8">
+// Browser Slide-Show script. With image cross fade effect for those browsers
+// that support it.
+// Script copyright (C) 2004-2010 www.cryer.co.uk.
+// Script is free to use provided this copyright header is included.
+var FadeDurationMS=1000;
+function SetOpacity(object,opacityPct)
+{
+	// IE.
+	object.style.filter = 'alpha(opacity=' + opacityPct + ')';
+	// Old mozilla and firefox
+	object.style.MozOpacity = opacityPct/100;
+	// Everything else.
+	object.style.opacity = opacityPct/100;
+}
+function ChangeOpacity(id,msDuration,msStart,fromO,toO)
+{
+	var element=document.getElementById(id);
+	var msNow = (new Date()).getTime();
+	var opacity = fromO + (toO - fromO) * (msNow - msStart) / msDuration;
+	if (opacity>=100)
+	{
+		SetOpacity(element,100);
+		element.timer = undefined;
+	}
+	else if (opacity<=0)
+	{
+		SetOpacity(element,0);
+		element.timer = undefined;
+	}
+	else 
+	{
+		SetOpacity(element,opacity);
+		element.timer = window.setTimeout("ChangeOpacity('" + id + "'," + msDuration + "," + msStart + "," + fromO + "," + toO + ")",10);
+	}
+}
+function FadeInImage(foregroundID,newImage,backgroundID)
+{
+	var foreground=document.getElementById(foregroundID);
+	if (foreground.timer) window.clearTimeout(foreground.timer);
+
+	if (backgroundID)
+	{
+		var background=document.getElementById(backgroundID);
+		if (background)
+		{
+			if (background.src)
+			{
+				foreground.src = background.src;	
+				SetOpacity(foreground,100);
+			}
+			background.src = newImage;
+			background.style.backgroundImage = 'url(' + newImage + ')';
+			background.style.backgroundRepeat = 'no-repeat';
+			var startMS = (new Date()).getTime();
+			foreground.timer = window.setTimeout("ChangeOpacity('" + foregroundID + "'," + FadeDurationMS + "," + startMS + ",100,0)",10);
+		}
+	} else {
+		foreground.src = newImage;
+	}
+}
+var slideCache = new Array();
+function RunSlideShow(pictureID,backgroundID,imageFiles,displaySecs)
+{
+	var imageSeparator = imageFiles.indexOf(";");
+	var nextImage = imageFiles.substring(0,imageSeparator);
+	if (slideCache[nextImage] && slideCache[nextImage].loaded)
+	{
+		FadeInImage(pictureID,nextImage,backgroundID);
+		var futureImages = imageFiles.substring(imageSeparator+1,imageFiles.length)
+			+ ';' + nextImage;
+		setTimeout("RunSlideShow('"+pictureID+"','"+backgroundID+"','"+futureImages+"',"+displaySecs+")",
+			displaySecs*1000);
+		// Identify the next image to cache.
+		imageSeparator = futureImages.indexOf(";");
+		nextImage = futureImages.substring(0,imageSeparator);
+	} else {
+		setTimeout("RunSlideShow('"+pictureID+"','"+backgroundID+"','"+imageFiles+"',"+displaySecs+")",
+			250);
+	}
+	// Cache the next image to improve performance.
+	if (slideCache[nextImage] == null)
+	{
+		slideCache[nextImage] = new Image;
+		slideCache[nextImage].loaded = false;
+		slideCache[nextImage].onload = function(){this.loaded=true};
+		slideCache[nextImage].src = nextImage;
+	}
+}
+</script>
+<script type="text/javascript" charset="utf-8">
+RunSlideShow("slidepics","slidebackground",
+	"img/nexus/00.png;img/nexus/01.png;img/nexus/02.png;img/nexus/03.png;img/nexus/04.png;img/nexus/05.png;img/nexus/06.png;img/nexus/07.png;img/nexus/08.png",9);
+</script>
+</head>
+<body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47713705-1', 'avd-app.com');
+  ga('send', 'pageview');
+
+</script>	<div id="page">
+		<ul id="menu">
+	<li><a href="./">Home</a></li>
+	<li><a href="./faq.php">FAQ</a></li>
+	<li><a href="./terms.php">Terms of Service</a></li>
+	<li><a href="./privacy.php">Privacy Policy</a></li>
+	<li><a href="mailto:support@avd-app.com">Contact</a></li>
+</ul>
+<div class="div_clear"></div>		<div class="nexus">
+	<div class="the_slideshow">
+		<div id="slidebackground">
+			<a href="./"><img src="./img/nexus/00.png" alt="Android Video Downloader" id="slidepics"></a>
+		</div>
+	</div>
+</div>		<div class="about">
+			<h1><strong>Privacy Policy</strong></h1>
+			<h3>Warning</h3>
+			<p>MBFG may periodically update this policy. We will notify you about significant changes in the way we treat personal information by sending a notice to the primary email address specified in your primary account holder account or by placing a prominent notice on our site.</p>
+			<h3>Privacy Policy</h3>
+			<p>Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.</p>
+			<p>Before or at the time of collecting personal information, we will identify the purposes for which information is being collected. We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.</p>
+			<p>We will only retain personal information as long as necessary for the fulfillment of those purposes.</p>
+			<p>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.</p>
+			<p>Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date. We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
+			<p>We will make readily available to customers information about our policies and practices relating to the management of personal information.</p>
+			<p>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.</p>
+			<p>Any questions about this Privacy Policy should be addressed to <a href="mailto:support@avd-app.com">support@avd-app.com</a></p>
+			
+			<div style="margin:30px 0 0 0;padding:14px 0;text-align:center;">
+	<a class="download_button" href="http://goo.gl/iH2ii6" target="_blank">Free download</a>
+</div>		</div>
+		<div class="div_clear"></div>
+		<div id="footer">
+	<div style="text-align:center;">
+		<a href="http://goo.gl/iH2ii6" title="Download AVD on Google Play !" target="_blank"><img src="./img/google_play.png" alt="Google Play" class="footer_logo" style="width:125px;height:23px;"></a>
+		<a href="https://www.facebook.com/appavd" title="Like AVD on Facebook !" target="_blank"><img src="./img/facebook.png" alt="Facebook" class="footer_logo" style="width:32px;height:32px;"></a>
+	</div>
+	<p class="copyright"><a href="./faq.php" title="Frequently asked questions">FAQ</a> - <a href="./terms.php" title="Terms and Conditions of Use">Terms of Service</a> - <a href="./privacy.php" title="Terms and Conditions of Use">Privacy Policy</a> - <a href="mailto:support@avd-app.com">Email us</a> | avd-app.com &#169; 2017</p>
+</div>	</div>
+	<div id="bannercolor"></div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+policy_id: 249
+policy_name: JPBrothers
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: "Privacy Policy (English/\uD55C\uAD6D\uC5B4) JP Brothers, Inc. (henceforth\
+    \ referred to as \"JP Brothers\") handles JP Brothers services' user information\
+    \ as follows."
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Articles of Information Collected JP Brothers collects the following
+    information for purposes of service provision.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: "[iPhone, Android] Collected Items: Device information unidentified\
+    \ with personal information, and service usage information \u203B Unidentified\
+    \ with personal information: Unable to identify individuals with collected information"
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Manner of Information Collection JP Brothers collects information
+    through the following methods: Through the process of accessing and using JP Brothers
+    programs Through generated information collection tools'
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: 'Information Collection and Utilization Purposes JP Brothers utilizes
+    collected information for the following purposes: To help users use JP Brothers
+    services with ease To compile statistical data about JP Brothers service uses
+    For internal review and improvement of JP Brothers services To give important
+    announcements when necessary (Push alarm services) For mobile business using big
+    data'
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: Information sharing and supply Device information unidentified with
+    personal information collected during the use of JP Brothers services will be
+    used within the means listed in Information Collection and Utilization Purposes.
+    Furthermore, information that may be used to identify individuals is not collected
+    or shared with outside parties.
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: 'Some of the data collected from you in connection with your use of
+    this app, as applicable, is shared or otherwise made available to third parties
+    with whom we are affiliated, and is collected, stored and used in accordance with
+    the third-party privacy policy set forth at: http://app-privacy.info/'
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Personal Information Handling Consignment JP Brothers does not collect
+    information that may be used to identify individuals.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Information Regarding Outside Party Module Uses JP Brothers may insert
+    outside party models in JP Brothers services' smartphone applications for the
+    purpose of calculating efficiency of ads pushed in outside party media, in order
+    to make payments to ad agencies, and for the purpose of analyzing user patterns.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Rights of Users and Legal Representatives and Exercising Them JP Brothers
+    services collects device information unidentified with personal information. Therefore
+    it is impossible to inquire into, or make adjustments to particular individuals.
+    Users or legal representatives, should they no longer wish to have information
+    collected, may use the functions of the device to delete the service. Information
+    collected through services, once deleted by users or legal representatives, will
+    be processed as stated in "Information Possession and Duration of Use," and will
+    be processed as such that they are not open to browsing or other uses.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Automatic Information Collection Module Installation/Operation and
+    Rejection Purpose of Cookies To provide information optimized for users based
+    on the services they have used and websites they have visited.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Automatic Information Collection Module Installation/Operation
+      and Rejection Purpose of Cookies To provide information optimized for users
+      based on the services they have used and websites they have visited.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 11
+  segment_text: Cookies Installation/Operation and Rejection Users have the right
+    to opt out of Cookies. Therefore, users may through the web browser's settings
+    and options, check every time Cookies are saved, or reject all permissions and/or
+    saving of Cookies. There may be difficulties in certain services that require
+    log-in if saving of Cookies is denied.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies Installation/Operation and Rejection Users have the right
+      to opt out of Cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: There may be difficulties in certain services that require log-in
+      if saving of Cookies is denied.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Therefore, users may through the web browser's settings and options,
+      check every time Cookies are saved, or reject all permissions and/or saving
+      of Cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 12
+  segment_text: "\u203B Cookies Installation, Permissions and Settings (In the case\
+    \ of Internet Explorer) - On the top menu of web browser: Tools > Internet Options\
+    \ > Security"
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: Analysis of Applogs through Google Analytics Analysis of users' usage
+    of services using Google Analytics Big Data Analysis through Information Collection
+    Tools (unidentified with personal information)
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Analysis of device information using internal information collection
+    tools Information Possession and Duration of Use JP Brothers destroys users' information
+    on principal once the purpose of information collection has been reached. However,
+    should there be a need to preserve information unidentified with personal information,
+    according to internal policy or related legislative regulation, it may be stored
+    for a certain amount of time.
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: Personal Information Destruction Procedure and Method JP Brothers
+    does not collect information that is identified with personal information.
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Privacy-related Contact Information If there should arise questions,
+    dissatisfaction, or need for consultation on the topic of this privacy policy,
+    you can report your inquiries to the user information management (paul@jp-brothers.com)
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Privacy Policy Revision If there should be an addition or edition
+    to his privacy policy based on legislative policies or a change in security technology,
+    the content and reason of the revision will be announced, at least 7 days prior,
+    on the JP Brothers website (www.jp-brothers.com) and/or JP Brothers applicaions,
+    in Settings > App Information.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: 'Effective: January 1st, 2015'
+  annotations: []
+  sentences: []

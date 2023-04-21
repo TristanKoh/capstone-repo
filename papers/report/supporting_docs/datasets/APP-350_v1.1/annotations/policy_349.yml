@@ -1,0 +1,172 @@
+policy_id: 349
+policy_name: Zello
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "Support Sign In English English Portugu\xEAs (Brasil) \u0420\u0443\
+    \u0441\u0441\u043A\u0438\u0439 Espa\xF1ol \u0411\u044A\u043B\u0433\u0430\u0440\
+    \u0441\u043A\u0438 Hrvatski Svenska T\xFCrk\xE7e Polski"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Privacy Policy We value your privacy. This Privacy Policy applies
+    to your usage of the software and services provided by Zello Inc ("Services").
+    We only collect your information in order to improve the Services and will never
+    sell or share your information with other legal entities for commercial purposes,except
+    in the cases when it's required as a part of the Services you requested.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: The information we collect and how we use it The information you provide
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: During the registration or your use of the Services we ask you for
+    your personal data such as name, email address, billing information. We use that
+    information to provision the Services, contact you when necessary, and improve
+    the Services. Cookies
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: During the registration or your use of the Services we ask you
+      for your personal data such as name, email address, billing information.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: Cookies are a small piece of data used to exchange information between
+    your browser and the server. We use cookies to store your session identifier.
+    The server erases your cookies when you log out. We may use the permanent cookies
+    to store some of your preferences, such as user interface language. Server logs
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are a small piece of data used to exchange information
+      between your browser and the server.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Server logs
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The server erases your cookies when you log out.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We may use the permanent cookies to store some of your preferences,
+      such as user interface language.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: We use cookies to store your session identifier.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: Every time you visit the Services web interface, servers log an entry
+    that includes date and time, your IP address, browser type, browser language,
+    referrer and an address of the page requested. When you connect using client software,
+    the server log file adds that includes timestamp, your IP address, your Services
+    username, client platform and client software version. We use this information
+    for analytical purposes in aggregated form.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Every time you visit the Services web interface, servers log an
+      entry that includes date and time, your IP address, browser type, browser language,
+      referrer and an address of the page requested.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: When you connect using client software, the server log file adds
+      that includes timestamp, your IP address, your Services username, client platform
+      and client software version.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: Public channels When you connect to a public channel, your Services
+    username is visible to other users connected to the same channel. Public channels
+    communication may be stored in voice history on participant's computers or mobile
+    devices.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: Communication privacy We do not record or keep track of your voice
+    communication in using the Service. However, the person you are talking to may
+    save, replay and share your messages from voice history.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Data storage Services uses third party hosting providers to store
+    your data. We store your username, encrypted password, contact list and email
+    address.
+  annotations:
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Data storage Services uses third party hosting providers to store
+      your data.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: We store your username, encrypted password, contact list and email
+      address.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+- segment_id: 9
+  segment_text: Disclosure Services may disclose personally identifiable information
+    when it's required to comply with law enforcement requests or subpoenas when you
+    violate the Terms of Service.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: Changes This privacy policy may be modified from time to time. When
+    changes are significant, we will notify you by publishing the notice in our blog
+    at http://blog.zello.com/. iPhone Android Windows Phone beta signup BlackBerry
+    Public Channels Support Accessories ZelloWork Privacy Terms of Service Press Jobs
+    Blog Contact Team
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: "Follow @Zello \xA9 2017 Zello Inc"
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: No users will be asked for names or email addresses.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No users will be asked for names or email addresses.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 13
+  segment_text: We do not collect your IP address.
+  annotations:
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your IP address.
+    annotations:
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED

@@ -1,0 +1,368 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>HOTTRIX</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="/images/yeti.min.css">
+
+<style type="text/css">
+hr.style-two {
+	margin-top: 7px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+</style>
+
+
+</head>
+
+<body style="background:url(/images/background.png) center top repeat-y;">
+
+<div align="center">
+
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Contact -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" align="left">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Talk to Us</h4>
+      </div>
+      <div class="modal-body">
+
+		<form class="form-horizontal" role="form" id="contactForm">
+		  <div class="form-group">
+		    <label for="name" class="col-sm-2 control-label">Your name</label>
+		    <div class="col-sm-10">
+		      <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="email" class="col-sm-2 control-label">Your email</label>
+		    <div class="col-sm-10">
+		      <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="review" class="col-sm-2 control-label">Request</label>
+		    <div class="col-sm-10">
+		      <textarea name="request" rows="3" class="form-control" id="request" placeholder="Talk to us here"></textarea>
+		    </div>
+		  </div>
+		</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onClick="submitContact();">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="mobileMenu" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mobileMenu" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:15px;margin-bottom:15px;">
+	  <tr>
+    	<td align="left" style="font-size:18px;padding:12px 15px;"><a style="color:#000;" onClick="showMobileMenu();" href="/#Mobile" >APPS</a></td>
+	  </tr>
+      <tr>
+    	<td align="left" style="font-size:18px;padding:12px 15px;"><a style="color:#000;" onClick="showMobileMenu();" href="/#Software" >SOFTWARE</a></td>
+	  </tr>
+      <tr>
+	    <td align="left" style="font-size:18px;padding:12px 15px;"><a style="color:#000;" onClick="showMobileMenu();" href="/#Products" >PRODUCTS</a></td>
+	  </tr>
+      <tr>
+	    <td align="left" style="font-size:18px;padding:12px 15px;"><a style="color:#000;" onClick="showMobileMenu();" href="javascript:showContact();">CONTACT</a></td>
+	  </tr>
+      <tr>
+	    <td align="left" style="font-size:18px;padding:12px 15px;"><a style="color:#000;" onClick="showMobileMenu();" href="/#Footer" >MORE...</a></td>
+	  </tr>
+	</table>
+    </div>
+  </div>
+</div>
+
+
+<div id="logo" onClick="self.location.href='/';" style="cursor:pointer;width:304px;height:90px;background:url(/images/hottrix.png) center center no-repeat;background-size:100% 100%;position:absolute;z-index:2;left:50%;margin-left:-152px;"></div>
+
+<div id="ribbonDiv" style="position:absolute;z-index:1;left:50%;top:0;display:none;width:100%;max-width:1314px;height:108px;background:url(/images/ribbonBlack.png) center center no-repeat;margin-top:28px;">
+
+	<div style="width:100%;max-width:1200px;height:108px;overflow:hidden;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+    	<td align="center" style="width:20%;color:#fff;font-size:18px;text-shadow:0 1px 1px #000;"><a href="/#Apps" style="color:#fff;" >Apps</a></td>
+    	<td align="center" style="width:20%;color:#fff;font-size:18px;text-shadow:0 1px 1px #000;"><a href="/#Software" style="color:#fff;" >Software</a></td>
+	    <td style="width:20%;min-width:320px;height:98px;">&nbsp;</td>
+	    <td align="center" style="width:20%;color:#fff;font-size:18px;text-shadow:0 1px 1px #000;"><a href="/#Products" style="color:#fff;" >Products</a></td>
+	    <td align="center" style="width:20%;color:#fff;font-size:18px;text-shadow:0 1px 1px #000;"><a href="javascript:showContact();" style="color:#fff;">Contact</a></td>
+	  </tr>
+	</table>
+    </div>
+
+</div>
+
+<div onClick="showMobileMenu();" id="ribbonDiv2" style="position:absolute;z-index:1;left:50%;display:none;width:304px;color:#000;padding-left:1px;" align="left">
+<i class="fa fa-bars fa-lg"></i> MENU
+</div>
+
+<div id="menuSpacer" style="width:100%;height:108px;margin-top:30px;">
+</div>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script>
+
+$(document).ready(function(e) {
+
+	rdW = $("#ribbonDiv").width();
+	$("#ribbonDiv").css('margin-left','-' + rdW/2 + 'px');
+	rd2W = $("#ribbonDiv2").width();
+	$("#ribbonDiv2").css('margin-left','-' + rd2W/2 + 'px');
+
+	//show or hide menu?
+	if ($(window).width()<1024) { 
+		setTimeout(function(){
+			$("#ribbonDiv2").fadeIn(function(){});
+			$("#logo").css('top','70px');
+		},1500);
+	} else {
+		//$("#ribbonDiv2").show();
+		setTimeout(function(){
+			$("#ribbonDiv").fadeIn(function(){});
+		},1500);
+	}
+	
+	/*
+	if ($(window).width()<321) { 
+		$("#logo").css('width','250px');
+		$("#logo").css('height','74px');
+		$("#ribbonDiv2").css('height','74px');
+		$("#menuSpacer").css('height','74px');
+		$("#logo").css('margin-left','-125px');
+	} else {
+	}
+	*/
+	
+});
+
+function showContact() {
+	$("#contactModal").modal('toggle');	
+}
+
+function submitContact() {
+	var feedURL = '/contact.php';
+	$.post(feedURL, $("#contactForm").serialize(), function(data){
+		$('#contactModal').modal('toggle');
+	});
+}
+
+function showMobileMenu() {
+	$("#mobileMenu").modal('toggle');	
+}
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53c9d7c16d74ff53"></script>
+<!-- site -->
+
+<div id="siteDiv" style="width:100%;max-width:1100px;margin-top:50px;" align="left">
+
+
+Your Privacy Rights.<br />
+Hottrix Privacy Policy<br />
+<br />
+Hottrix, LLC ("Hottrix" or "We" or "Us") has created this privacy statement (this "Statement") in order to demonstrate its commitment to customer privacy. Privacy on Hottrix’ website (the "Website") and in its applications (the “Apps”) is of great importance to Us.  Because We and our third party providers ("TPPs") may gather important information via the Website or the Apps from our visitors or customers (collectively "Customer" or "You" or "Your"), We have established this Statement as a means to communicate our information gathering and dissemination practices. We reserve the right to change this Statement at any time and will provide notification of any material change on the Website.<br />
+<br />
+COLLECTED INFORMATION<br />
+<br />
+What do we collect?  <br />
+We or our TPPs, may require Customers who register to purchase products (including, but not limited to, end-user licenses to use our intellectual property) from our Website or within our Apps, to be on our e-mail list, or generally to use our products, including, but not limited to, our Website and Apps (collectively, the "Service" or "Services") to give Us or our TPPs contact and other information, which may include but is not limited to Your name, company name, address, phone number, email address, cookies, IP address (collectively "Personal Information"). You can opt out of providing said information by not entering it when asked or not visiting the Website or using the Apps, although not providing it may hinder Your ability to use the Services. You can opt out of any correspondence from Us by following the applicable opt out procedures listed on any correspondence, but You should be aware that archival or back-up copies of said Personal Information will not cease to exist and your Personal Information may still be included in the aggregate and in the Hottrix history files. Further, We are under no obligation to remove said information or make any edits to your Personal Information and shall not be held liable for failing to do so nor for any of our TPPs failure to do so.  <br />
+<br />
+How do we use or disseminate the information we collect?<br />
+We may use the information that we collect to enhance the Services for You. For example, our use of Google-Analytics allows us to better serve you in the language you're most familiar with. We or our TPPs may also use the information to contact you to further discuss interest in our company, the Website, any partners of Hottrix, or in any way that We, in our sole discretion, deem to be reasonable. Your email address and any Personal Information will not be distributed or shared with third parties unless it is to transact such business as You have contracted us to do, to comply with any legal processes and/or law enforcement requests, or in order to conduct business as We, in our sole discretion, deem reasonable. <br />
+<br />
+How do I opt-out or correct my information?<br />
+You can opt out of being contacted by Us, or receiving such information from Us, at any time by sending an email to legal@hottrix.com or by using the applicable opt out process.  You may also email us to change any of your information that we may have on file.  We may also email information regarding updates to the System, Service or company, and may send a customer newsletter, advertisement, or other correspondence. Any opt-out by You is not deemed valid until processed by Us. It is your obligation to verify that you have been opted-out. Hottrix shall not be liable for problems with the opt-out procedures.   Except as We explicitly state at the time We request information, or as provided for herein or in the Hottrix Terms of Use Agreement, We do not disclose to third parties the information provided. Any billing information you provide Us is not used by Us for marketing or promotional purposes, except as provided for herein.<br />
+<br />
+THIRD-PARTY WEBSITES<br />
+The Website contains links to other websites. We are not responsible for the privacy practices or the content of these other websites. You will need to check the policy statement of these others websites to understand their policies. When you access a linked site you may be disclosing your Personal Information. It is your responsibility to keep such information private and confidential.<br />
+<br />
+ADDITIONAL INFORMATION<br />
+Questions regarding this Statement or the practices of Hottrix should be directed to Hottrix’ Administrator by emailing such questions to legal@hottrix.com or by U.S. mail return receipt requested, addressed to Hottrix, Attn: System Administrator, 7500 W Lake Mead Blvd. Suite 9-478, Las Vegas, NV 89128.<br />
+<br />
+This policy is effective as of November 9, 2010	
+</div>
+
+<br clear="all">
+
+
+
+<br>
+
+
+
+
+<div class="modal fade bs-example-modal-sm" id="subModal" tabindex="-1" role="dialog" aria-labelledby="subModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+      	<div class="alert alert-danger" id="subWarn" style="display:none;font-weight:bold;">
+        Please enter a valid email address.
+        </div>
+      	<div class="alert alert-success" id="subDone" style="display:none;font-weight:bold;">
+        You are now subscribed to our news.
+        </div>
+		<form class="form-horizontal" role="form" id="subForm" action="/subscribe.php" method="post" target="subFrame">
+			<input name="email" type="email" class="form-control" id="subEmail" placeholder="Your Email Address">
+		</form>
+        <button id="subButton" data-loading-text="Please wait..." type="button" class="btn btn-primary btn-sm" style="width:100%;" onClick="subNow();">Subscribe to News</button>
+        <br>
+        <div style="font-size:12px;color:#999;padding-top:6px;">No spam ever. Unsubscribe anytime.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="width:100%;max-width:1100px;margin-top:175px;margin-bottom:45px;" align="center">
+<a name="Footer"></a>
+<!-- tags -->
+
+<div style="width:95%;max-width:900px;margin-bottom:50px;font-size:18px;">
+
+<a href="/#Apps" style="color:#000;" >Apps</a> &bull; 
+<a href="/#Software" style="color:#000;" >Software</a> &bull; 
+<a href="/#Products" style="color:#000;" >Products</a> &bull; 
+<a href="javascript:showContact();" style="color:#000;">Contact</a> &bull; 
+
+<a  style="color:#000;" href="/Aboutus">About us</a>
+ &bull; 
+
+<a  style="color:#000;" href="/tags/Magic Tricks">Magic Tricks</a> &bull; <a  style="color:#000;" href="/tags/iPhone">iPhone</a> &bull; <a  style="color:#000;" href="/tags/Prosthetics">Prosthetics</a> &bull; <a  style="color:#000;" href="/tags/Stage">Stage</a> &bull; <a  style="color:#000;" href="/tags/Video Tutorials">Video Tutorials</a> &bull; <a  style="color:#000;" href="/tags/Instruction Manuals">Instruction Manuals</a> &bull; <a  style="color:#000;" href="/tags/James Bond">James Bond</a> &bull; <a  style="color:#000;" href="/tags/Android">Android</a> &bull; <a  style="color:#000;" href="/tags/ShowBiz Solutions">ShowBiz Solutions</a>
+ &bull; 
+
+<a href="/gallery/" style="color:#000;" >Photos</a>
+
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subModal">Subscribe to News</button>
+
+<div style="width:100%;min-width:300px;margin-top:50px;">
+
+AS SEEN ON<br>
+<img src="/images/asSeenOn.jpg" style="width:95%;max-width:600px;">
+
+<br><br><br>
+
+AUTHORIZED RETAILERS<br>
+<img src="/images/retailLocals.jpg" style="width:97%;max-width:600px;">
+
+<br><br>
+
+        <div style="display:inline-block;width:100px;margin-bottom:10px;" align="center">
+		<img onClick="javascript:window.open('https://itunes.apple.com/us/artist/hottrix/id283914073?mt=8');" src="/images/buy_apple.png" style="width:100%;cursor:pointer;border:0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;">
+        </div>
+
+        <div style="display:inline-block;width:100px;margin:0 5px 10px 5px;" align="center">
+		<img onClick="javascript:window.open('http://www.amazon.com/gp/node/index.html?ie=UTF8&marketplaceID=ATVPDKIKX0DER&me=A1F9DH4WC7WBUW&merchant=A1F9DH4WC7WBUW&redirect=true');" src="/images/buy_amazon.jpg" style="width:100%;cursor:pointer;border:0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;">
+        </div>
+
+        <div style="display:inline-block;width:100px;margin-bottom:10px;" align="center">
+		<img onClick="javascript:window.open('https://play.google.com/store/apps/developer?id=HOTTRIX&hl=en');" src="/images/buy_google.png" style="width:100%;cursor:pointer;border:0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;">
+        </div>
+
+
+
+</div>
+
+<br clear="all">
+<br>
+
+<div align="center" style="color:#CCC;margin-top:50px;font-size:12px;">
+<a href="/privacy" style="color:#999;" >Privacy Policy</a> &bull; <a href="/terms" style="color:#999;" >Terms of Use</a><br>
+<br>
+&copy; Copyright 2017 Hottrix&reg;<br>
+No parts of this website may be reproduced without permission.<br>
+Hottrix&reg; is a registered trademark with the United States Patent and Trademark Office 
+</div>
+
+</div>
+
+<iframe name="subFrame" width="0" height="0" frameborder="0"></iframe>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53358248-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+function subNow() {
+	
+	if ($('#subEmail').val()=="" || document.getElementById('subEmail').value.indexOf('@')==-1 || document.getElementById('subEmail').value.indexOf('.')==-1) {
+		$('#subWarn').fadeIn();
+	} else {
+		$('#subButton').button('loading');
+		$('#subForm').submit();
+	}
+
+}
+
+function doneSub() {
+
+	$('#subWarn').fadeOut(function(){
+	
+		$('#subDone').fadeIn();
+		setTimeout(function(){$('#subModal').modal('toggle');},3500);
+				
+	});
+	
+}
+
+</script>
+
+
+
+
+</div>
+
+
+<script>
+
+
+</script>
+
+</body>
+</html>

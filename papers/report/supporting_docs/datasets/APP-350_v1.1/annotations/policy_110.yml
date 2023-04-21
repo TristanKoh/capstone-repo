@@ -1,0 +1,907 @@
+policy_id: 110
+policy_name: Asus
+policy_type: TRAINING
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: "Products What\xB4s Hot Commercial Service Login"
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: ASUS Account Logout Message Center Display all Products Phones Notebook
+    & 2-in-1 PCs Tablets Motherboards Graphics Cards Wearable & Healthcare Desktop
+    & All-in-One PCs Display Networking Sound Home & Automotive Peripheral Gaming
+    Servers & Workstations Zenbo
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Phones Phone ZenFone ZenFone AR ZenFone Deluxe ZenFone Ultra ZenFone
+    Zoom ZenFone Max ZenFone Live ZenFone Selfie ZenFone Laser ZenFone Go Other Phones
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: Phone Accessory Photography Accessories Power Banks Cases, Covers
+    & Sleeves Adapters Headphones & Headsets Docks Screen Protectors Battery Charger
+    Storage
+  annotations: []
+  sentences: []
+- segment_id: 4
+  segment_text: ZenFone AR (ZS571KL) Built for augmented reality Learn more Notebook
+    & 2-in-1 PCs Notebooks ZenBook Pro Series ZenBook Series VivoBook Pro Series VivoBook
+    Series Chromebook Series ASUSPRO Series Gaming Series FX / ZX Series
+  annotations: []
+  sentences: []
+- segment_id: 5
+  segment_text: 2-in-1 PCs Transformer Series (Detachable) Transformer Series (Convertible)
+    VivoBook Flip Series ZenBook Flip Series Chromebook Flip Series
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: Notebooks Accessory Adapters Cases, Covers & Sleeves Stylus Docks
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: ZenBook 3 Deluxe The world's most prestigious laptop, enhanced.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Learn more Tablets Tablets ZenPad Fonepad Transformer Pad Vivo Tab
+    Nexus MeMO Pad Business Series
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Tablet Accessory Cases, Covers & Sleeves Adapters Headphones & Headsets
+    Keyboards Docks Stylus
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: ZenPad 3S 10 (Z500M) Cinematic Entertainment, Supercharged Performance
+    Learn more Motherboards Motherboards ASUS Prime ROG - Republic of Gamers Pro Gaming
+    TUF - 24/7 Durability Commercial Workstation Intel platform AMD platform
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: Motherboard Accessory SABERTOOTH X99 Extremely tough. Total reliability
+    Learn more Graphics Cards Graphics Cards AMD Series NVIDIA Series ROG - Republic
+    of Gamers Turbo Series Dual Series Expedition Series Phoenix Series
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: Graphics Cards Accessory SLI Bridge External Graphics Dock
+  annotations: []
+  sentences: []
+- segment_id: 13
+  segment_text: "ROG-STRIX-GTX1080TI-O11G-GAMING ROG Strix GeForce\xAE GTX 1080 Ti\
+    \ OC edition 11GB GDDR5X with Aura Sync RGB for best VR & 4K gaming"
+  annotations: []
+  sentences: []
+- segment_id: 14
+  segment_text: Learn more Wearable & Healthcare ZenWatch ZenWatch ZenWatch Accessory
+  annotations: []
+  sentences: []
+- segment_id: 15
+  segment_text: "VivoWatch ASUS ZenWatch 3 \u200F(WI503Q)\u200F Time-Honored Craftsmanship,\
+    \ Infinite Styles Learn more Desktop & All-in-One PCs Tower PCs ROG Series Gaming\
+    \ Series VivoPC Series ASUSPRO Series"
+  annotations: []
+  sentences: []
+- segment_id: 16
+  segment_text: Mini PCs ROG Series VivoPC VivoMini
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: Stick PCs VivoStick PC Stick PC QM1
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: Chrome Devices Chromebox Chromebit
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: All-in-One PCs Zen AiO Series Vivo AiO ASUSPRO Series
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: ASUS Zen AiO Pro Z240 The Art of Performance in Stunning Detail Learn
+    more Display Monitors Gaming Eye Care Professional Designo 4K UHD & 2K WQHD ZenScreen
+    Business Touch Essential
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: Monitor Accessory Projectors Projectors
+  annotations: []
+  sentences: []
+- segment_id: 22
+  segment_text: PG348Q Expand Your Gaming Horizons Learn more Networking Networking
+    Wireless Routers Wireless AP/Repeater/Bridges xDSL Modem Routers Wireless Adapters
+    Wired Networking Powerline Networking 4G LTE / 3G Routers Bluetooth & Antennas
+    Cable Modems & Routers Security Cameras Wi-Fi System
+  annotations: []
+  sentences: []
+- segment_id: 23
+  segment_text: Business Networking Business Switches Business Wireless Routers
+  annotations: []
+  sentences: []
+- segment_id: 24
+  segment_text: Gaming Networking Gaming Routers
+  annotations: []
+  sentences: []
+- segment_id: 25
+  segment_text: RT-AC5300 Wireless-AC5300 Tri-Band Gigabit Router Learn more Sound
+    Essence Hi-Fi Audio Hi-Fi Sound Cards DACs & Amplifiers Accessories
+  annotations: []
+  sentences: []
+- segment_id: 26
+  segment_text: Sound Cards Hi-Fi Sound Cards ROG - Republic of Gamers Gaming Entertainment
+  annotations: []
+  sentences: []
+- segment_id: 27
+  segment_text: Wireless & Bluetooth Audio Music streamer Headphones & Headsets
+  annotations: []
+  sentences: []
+- segment_id: 28
+  segment_text: Headphones & Headsets ROG - Republic of Gamers Gaming Entertainment
+  annotations: []
+  sentences: []
+- segment_id: 29
+  segment_text: Speakers Speakers
+  annotations: []
+  sentences: []
+- segment_id: 30
+  segment_text: Essence III Preamplifier, USB DAC and headphone amplifier Learn more
+    Home & Automotive Home Entertainment Android TV USB TV Tuner O!Play Digital Media
+    Player O!Play Blu-ray/HD Media Player Gamepad
+  annotations: []
+  sentences: []
+- segment_id: 31
+  segment_text: Car Electronics Video Recorder & Camcorder
+  annotations: []
+  sentences: []
+- segment_id: 32
+  segment_text: "Nexus Player Nexus Player \u2122 : Entertainment tailored for you\
+    \ Learn more Peripheral Computer Bags Backpacks Carry Cases Messengers Sleeves\
+    \ Accessory Packs Trolleys"
+  annotations: []
+  sentences: []
+- segment_id: 33
+  segment_text: Keyboards & Mice Keyboards Mice Combo Mouse pads
+  annotations: []
+  sentences: []
+- segment_id: 34
+  segment_text: 3D Sensor Optical Drives & Storage External Blu-ray Drive External
+    Slim DVD Drive Internal Blu-ray Drive Internal DVD Drive SSD Storage
+  annotations: []
+  sentences: []
+- segment_id: 35
+  segment_text: Docks Chargers Zenny UT210 Rainbow of comfy mouse input Learn more
+    Gaming ROG - Republic Of Gamers Notebooks Desktops Motherboards Graphics Cards
+    Monitors Headsets Keyboards Sound Cards Mice Mousepads Bags Wireless Routers
+  annotations: []
+  sentences: []
+- segment_id: 36
+  segment_text: Gaming Notebooks - Gaming Series Motherboards - Pro Gaming Graphics
+    Cards - STRIX Gaming Desktop - Gaming Series Monitor - Gaming Series Sound Cards
+    - Gaming Series Headphones & Headsets - Gaming Series Wireless Router - Gaming
+    Series
+  annotations: []
+  sentences: []
+- segment_id: 37
+  segment_text: STRIX 7.1 True 7.1 gaming headset with 10 discrete neodymium-magnet
+    drivers and a plug-and-play USB audio station
+  annotations: []
+  sentences: []
+- segment_id: 38
+  segment_text: "Learn more What\xB4s Hot ASUS ZenBook 3 UX390UA Tech in Style - Mobile\
+    \ Tech in Style - Notebook & PC Win Dream Aura PC/Peripherals BEST 200 series\
+    \ Motherboards NO.1 GAMING MONITOR Get MAFIA III with Select Gears Republic of\
+    \ Gamers ASUS & CableMod Promotion"
+  annotations: []
+  sentences: []
+- segment_id: 39
+  segment_text: Commercial Products Business Size Solution Industry
+  annotations: []
+  sentences: []
+- segment_id: 40
+  segment_text: Products Tablets Projectors Notebooks Desktop Servers & Workstations
+    Monitors All-in-One PCs Signage Networking Business Size SOHO & Micro Business
+    Small & Mid-size Business Enterprise & Large Business Solution Mobile Solution
+    Business Protection Improve Performance Enhance Communication Green Office Industry
+    Education Retail & Service Service Support ZenTalk ZenCircle ZenUI ZenFone Care
+  annotations: []
+  sentences: []
+- segment_id: 41
+  segment_text: Terms of Use Notice / Privacy Policy Privacy Policy Terms of Use Notice
+    Privacy Policy
+  annotations: []
+  sentences: []
+- segment_id: 42
+  segment_text: Terms of Use Notice Privacy Policy ASUS Privacy Policy ASUSTeK COMPUTER
+    INC. and its affiliated companies (hereinafter referred to as "ASUS", "we/our/us")
+    are committed to protecting and respecting your privacy. We endeavor to comply
+    with all applicable laws on privacy protection and personal information security.
+    ASUS Privacy Policy, together with any additional terms and conditions that contain
+    supplementary information in connection with particular services you are using
+    (hereinafter referred to as "Privacy Policy"), outline our privacy practices regarding
+    the collection, use and safeguard of your personal information through ASUS websites,
+    devices, applications and any services, both online and offline we provide (hereinafter
+    referred to as "SERVICE"), along with whom we may share or disclose the collected
+    information. If you are a minor, you shall access or use the SERVICE only after
+    your parents (or your guardian) read and agree our Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 43
+  segment_text: The use, access or submission of personal information to the SERVICE
+    by you, or if you are a minor, the submission of your personal information either
+    by your parents (or your guardian) or by you with the permission of your parents
+    (or guardian) to ASUS will be deemed as your acceptance of the Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 44
+  segment_text: 'Information ASUS Collect When you use our SERVICE, we may need to
+    collect certain information from you when use or interact with our SERVICE (hereinafter
+    referred to as "Information"); we may ask for the following information: Information
+    you provide to us Your e-mail address and country/region when you sign up or log
+    in ASUS Member account; if you use your social media account to log in or sign
+    up for ASUS Member account to use our SERVICE, any publicly available information
+    (including but not limited to your profile picture, gender, date of birth and
+    language setting) associated to your social media account may also be collected
+    by us. Your name, mailing/shipping/billing address (including zip code), contact
+    information, e-mail address, credit card number or other payment service information
+    when you make a purchase of our devices, paid services or for certain customer
+    service request. Your name, mailing/shipping address (including zip code), contact
+    information, e-mail, gender, date of birth and ID number when you enter our events
+    or campaigns. Your age, date of birth, gender, height, weight, body temperature,
+    heart rate, blood pressure as well as certain data about your daily activities,
+    for example, your step taken, calories burned and sleep patterns, when you use
+    our healthcare devices or services.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_ZIP_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'When you use our SERVICE, we may need to collect certain information
+      from you when use or interact with our SERVICE (hereinafter referred to as "Information");
+      we may ask for the following information:'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+  - sentence_text: 'When you use our SERVICE, we may need to collect certain information
+      from you when use or interact with our SERVICE (hereinafter referred to as "Information");
+      we may ask for the following information: Information you provide to us Your
+      e-mail address'
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+  - sentence_text: Your name, mailing/shipping/billing address (including zip code),
+      contact information, e-mail address
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_ZIP_1stParty
+      modality: PERFORMED
+- segment_id: 45
+  segment_text: 'Information from your use of SERVICE Device information: such as
+    your device model, serial number, the version and type of your operation system,
+    IP Address, MAC Address, IMEI number and other unique device identifiers. Log
+    information: such as the settings, activation time of your devices, the network
+    you use to connect to our SERVICE, the status of the network, telephony log information,
+    standby status, crash history, preferred interface, type and language settings
+    of browser, diagnose and usage data as well as your usage behavior on our SERVICE.
+    Location information: such as the version of your devices'' GPS and Wi-Fi module,
+    GPS signal, data identifying nearby Wi-Fi access points and cell towers, the time
+    zone and local time where the device is used. Application information: such as
+    the type of your installed applications or software, your usage and interaction
+    with content offered through SERVICE, for instance, the install and uninstall
+    time, frequency of your usage, the category of your preferred applications and
+    software.'
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IMEI_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  - practice: Identifier_SIM_Serial_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  - practice: Location_Cell_Tower_1stParty
+    modality: PERFORMED
+  - practice: Location_GPS_1stParty
+    modality: PERFORMED
+  - practice: Location_WiFi_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Device information: such as your device model, serial number,
+      the version and type of your operation system, IP Address, MAC Address, IMEI
+      number and other unique device identifiers.'
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+  - sentence_text: Information from your use of SERVICE
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IMEI_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+    - practice: Identifier_SIM_Serial_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Location information: such as the version of your devices'' GPS
+      and Wi-Fi module, GPS signal, data identifying nearby Wi-Fi access points and
+      cell towers, the time zone and local time where the device is used.'
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+    - practice: Location_Cell_Tower_1stParty
+      modality: PERFORMED
+    - practice: Location_GPS_1stParty
+      modality: PERFORMED
+    - practice: Location_WiFi_1stParty
+      modality: PERFORMED
+- segment_id: 46
+  segment_text: 'How ASUS use information We may use information we collect for the
+    purposes below: To assess and improve the SERVICE. To obtain customer feedback
+    and to analyze user experience for the purpose of development and evaluation of
+    new services and devices. To fulfill the sign-up process of ASUS Member account
+    or device registration. To deliver and fulfill any requests made by you, including
+    but not limited to, providing information and documentation regarding purchases
+    such as delivering purchase invoices or proof of purchase; provide software updates
+    and technical notices.'
+  annotations: []
+  sentences: []
+- segment_id: 47
+  segment_text: To process and fulfill any subscriptions you have signed up for, including
+    ASUS eDMs or newsletters to keep you up to date with the latest ASUS news, promotions
+    and upcoming events. You may unsubscribe it at any time with no charge.
+  annotations: []
+  sentences: []
+- segment_id: 48
+  segment_text: To send you important notifications, such as communications about
+    changes to our terms, conditions and policies. Because of the importance of the
+    communications, you may not opt out of receiving these communications. To verify
+    your identity, deliver campaign entries and rewards, provide shuttle services
+    and cover you with insurance if it is a necessity when you enter our events or
+    contests.
+  annotations: []
+  sentences: []
+- segment_id: 49
+  segment_text: To assist you on recording, analyzing, modifying and storing information
+    including data about you, your daily activities and the activity results calculated
+    from the data above. Moreover, we will support you on editing and accessing the
+    data and activity results, when you share this information with your family, caregivers,
+    and health care professionals. To provide you with recommendation about services
+    you may be interest in based on your use of our SERVICE. To provide you with marketing
+    communications and advertising that we believe may be of interest of you. To respond
+    to customer support requests, such as product repair requests and respond to your
+    questions. To provide you with our customer care and customer satisfaction survey
+    for user experience analysis. Any other purposes with your consent.
+  annotations: []
+  sentences: []
+- segment_id: 50
+  segment_text: 'To whom ASUS disclose your information Your information will not
+    be disclosed to any third parties without the following exceptions: Your Consent
+    We will only disclose or share your information to other third parties with your
+    consent.'
+  annotations: []
+  sentences: []
+- segment_id: 51
+  segment_text: Business Partners We may disclose hashed and anonymized information
+    to our business partners, for example, business partners who provide data analytics
+    services or advertisings and marketing communications based on the hashed and
+    anonymized information.
+  annotations: []
+  sentences: []
+- segment_id: 52
+  segment_text: Service Providers We may disclose and share your information to our
+    service providers that provide services for or on behalf of us, for instance,
+    service providers assist us with sending marketing communications, providing customer
+    support, delivering purchases and billing. These service providers shall only
+    use your information in compliance with our instruction and with the scope of
+    the purposes hereof; Asus ensures that all of our service providers strictly comply
+    with the Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 53
+  segment_text: 'For legal, protection, security purposes We may disclose or share
+    your information with third parties for legal or security purposes: To the extent
+    it is required by applicable laws or regulations or competent governmental or
+    judicial authorities, necessary to establish or preserve a legal claim or defense,
+    or necessary to prevent fraud or other illegal activities. To protect the rights,
+    property or safety of ASUS, our service providers, customers or the public, as
+    required or permitted by law.'
+  annotations: []
+  sentences: []
+- segment_id: 54
+  segment_text: International transfers of your information You understand and consent
+    to the transfer, storage, use or process of your information to ASUS and any of
+    its affiliated companies, service providers who may be located in a different
+    country to you. All said transfer, storage, or process of your information, shall
+    be subject to the Privacy Policy and applicable laws on privacy protection and
+    personal information security.
+  annotations: []
+  sentences: []
+- segment_id: 55
+  segment_text: 'Cookies and similar technologies ASUS uses cookies and similar technologies,
+    such as web beacons to provide our SERVICE: Cookies Cookies are small text files
+    placed on your devices to personalize your user experience on our SERVICE. Cookies
+    will not collect information that identifies you: Sign-up and authentication:
+    We use cookies to store your unique sign-up ID number and authentication information
+    on your device. Cookies allow you to visit and move from page to page within our
+    websites without having to log in again on subsequent visits. Storing your preferences
+    and settings: Cookies maintain your settings and preferences on your devices,
+    such as your preferred language or location; by storing the settings in cookies,
+    it is not a necessity to reapply your preferences and settings each time you visit
+    our websites.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies allow you to visit and move from page to page within our
+      websites without having to log in again on subsequent visits.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Cookies and similar technologies ASUS uses cookies and similar
+      technologies, such as web beacons to provide our SERVICE: Cookies Cookies are
+      small text files placed on your devices to personalize your user experience
+      on our SERVICE.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Cookies will not collect information that identifies you: Sign-up
+      and authentication: We use cookies to store your unique sign-up ID number and
+      authentication information on your device.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Storing your preferences and settings: Cookies maintain your settings
+      and preferences on your devices, such as your preferred language or location;
+      by storing the settings in cookies, it is not a necessity to reapply your preferences
+      and settings each time you visit our websites.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 56
+  segment_text: 'Analytics: We use cookies to count the number and length of your
+    visit on our websites as well as which part or features you visit the most as
+    well. This information helps us analyze the performance and operation of our SERVICE
+    to improve performance and develop new features, functions and services.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Analytics: We use cookies to count the number and length of your
+      visit on our websites as well as which part or features you visit the most as
+      well.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: This information helps us analyze the performance and operation
+      of our SERVICE to improve performance and develop new features, functions and
+      services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 57
+  segment_text: 'Advertising: We use cookies to collect data about your use on our
+    websites and identify your interests, such as the advertisings you have viewed.
+    ASUS, and our business partners, use this data so that we can provide advertising
+    that is most relevant to you.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ASUS, and our business partners, use this data so that we can provide
+      advertising that is most relevant to you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We use cookies to collect data about your use on our websites and
+      identify your interests, such as the advertisings you have viewed.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 58
+  segment_text: Please note, you can configure cookies preferences by accessing [tools
+    and settings] of the browser to accept, block or delete cookies. The location
+    of the [tools and settings] of the browser may vary depending on the browser you
+    install, please visit browser's privacy or support page for further information.
+    Certain features of our SERVICE depend on the use of cookies, if you choose to
+    disable cookies, you may not be able to use the all of the features of our websites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Certain features of our SERVICE depend on the use of cookies, if
+      you choose to disable cookies, you may not be able to use the all of the features
+      of our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please note, you can configure cookies preferences by accessing
+      [tools and settings] of the browser to accept, block or delete cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The location of the [tools and settings] of the browser may vary
+      depending on the browser you install, please visit browser's privacy or support
+      page for further information.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 59
+  segment_text: 'Cookies used on our websites have been categorized below; you may
+    also refer to the charts to know which cookies we use on our websites and who
+    hosts it: Category 1: performance Cookies Category 2: functionality Cookies Category
+    3: targeting Cookies or advertising Cookies Category 1: performance cookies Cookies
+    collect information about how you use our websites, for instance which pages you
+    go to most often, and if you get error messages from our web pages. Cookies will
+    not collect information that identifies you. All information cookies collect is
+    aggregated and anonymous. They are only used to improve the performance of our
+    websites.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: All information cookies collect is aggregated and anonymous.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: 'Cookies used on our websites have been categorized below; you
+      may also refer to the charts to know which cookies we use on our websites and
+      who hosts it: Category 1: performance Cookies Category 2: functionality Cookies
+      Category 3: targeting Cookies or advertising Cookies Category 1: performance
+      cookies Cookies collect information about how you use our websites, for instance
+      which pages you go to most often, and if you get error messages from our web
+      pages.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies will not collect information that identifies you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: They are only used to improve the performance of our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 60
+  segment_text: Cookie Name Host Google Analytics Google Inc.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookie Name Host Google Analytics Google Inc.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 61
+  segment_text: TagMan Ensighten, Inc.
+  annotations: []
+  sentences: []
+- segment_id: 62
+  segment_text: eTrack eTrack Products Pty. Ltd Crazyegg Crazy Egg, Inc MIGO MIGO
+    Corp.
+  annotations: []
+  sentences: []
+- segment_id: 63
+  segment_text: Yandex Metrica Yandex Europe AG Optimizely Optimizely, Inc.
+  annotations: []
+  sentences: []
+- segment_id: 64
+  segment_text: 'Category 2: functionality cookies Cookies allow our websites to save
+    your settings and preferences (such as your preferred language or the region you
+    are in) in order to provide you with a more personal and consistent experience
+    each time you visit our websites.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'Category 2: functionality cookies Cookies allow our websites to
+      save your settings and preferences (such as your preferred language or the region
+      you are in) in order to provide you with a more personal and consistent experience
+      each time you visit our websites.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 65
+  segment_text: For instance, our websites are able to remember the web pages you
+    recently viewed, the number of times you visit the forums listed on our websites
+    or allow you to review the devices you recently compared on our websites. Cookies
+    can also be used to remember changes you have made to text size, fonts and other
+    parts of our websites that you can customize. Cookies may also be used to provide
+    service you have asked for, such as watching a video on our websites. The collected
+    information such as your browsing activities on our websites is anonymized and
+    cannot be tracked by non-ASUS websites.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies can also be used to remember changes you have made to text
+      size, fonts and other parts of our websites that you can customize.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Cookies may also be used to provide service you have asked for,
+      such as watching a video on our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: For instance, our websites are able to remember the web pages you
+      recently viewed, the number of times you visit the forums listed on our websites
+      or allow you to review the devices you recently compared on our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: The collected information such as your browsing activities on our
+      websites is anonymized and cannot be tracked by non-ASUS websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 66
+  segment_text: Cookies Name Host Popup ASUS ProductGroup_RelationId ASUS comparecookiename
+    ASUS isBusiness ASUS recently ASUS Lang ASUS Google Tag Manager Google Inc.
+  annotations: []
+  sentences: []
+- segment_id: 67
+  segment_text: 'Category 3: targeting cookies or advertising cookies Cookies are
+    used to deliver advertising that is more relevant to you and your interests by
+    storing how you use our SERVICE. Cookies are also used to limit the number of
+    times you see an advertisement as well as help measure the effectiveness of the
+    advertising campaigns. ASUS places cookies by using advertising campaign services,
+    such as Hubrus DSP, Google AdWords, and Google DoubleClick. The information cookies
+    collect is only used between ASUS and advertising campaign service providers.'
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: ASUS places cookies by using advertising campaign services, such
+      as Hubrus DSP, Google AdWords, and Google DoubleClick.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: 'Category 3: targeting cookies or advertising cookies Cookies are
+      used to deliver advertising that is more relevant to you and your interests
+      by storing how you use our SERVICE.'
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: Cookies are also used to limit the number of times you see an advertisement
+      as well as help measure the effectiveness of the advertising campaigns.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: The information cookies collect is only used between ASUS and advertising
+      campaign service providers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 68
+  segment_text: 'Cookie Name Host Google AdWords: Conversion, and Remarketing Cookies
+    Google Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 69
+  segment_text: Google DoubleClick Google Inc.
+  annotations: []
+  sentences: []
+- segment_id: 70
+  segment_text: 'Facebook: Conversion, and Remarketing Cookies Facebook, Inc.'
+  annotations: []
+  sentences: []
+- segment_id: 71
+  segment_text: Adform Adform Hubrus DSP HUBRUS Web Beacons
+  annotations: []
+  sentences: []
+- segment_id: 72
+  segment_text: A web beacon is an often-transparent graphic 1x1 (pixel) GIF or PNG
+    image that is implemented on websites or in an email to measure the effectiveness
+    of campaigns. ASUS or our service providers may use web beacons to know if you
+    visit certain pages or click links on our websites. We may implement web beacons
+    in our marketing communications such as eDMs or ASUS newsletters to know which
+    communication contents you have clicked or read. We will use the information from
+    web beacons to improve our websites and SERVICE.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: A web beacon is an often-transparent graphic 1x1 (pixel) GIF or
+      PNG image that is implemented on websites or in an email to measure the effectiveness
+      of campaigns.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: ASUS or our service providers may use web beacons to know if you
+      visit certain pages or click links on our websites.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We may implement web beacons in our marketing communications such
+      as eDMs or ASUS newsletters to know which communication contents you have clicked
+      or read.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+  - sentence_text: We will use the information from web beacons to improve our websites
+      and SERVICE.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Cookie_or_similar_Tech_3rdParty
+      modality: PERFORMED
+- segment_id: 73
+  segment_text: Third-party links on our websites Our SERVICE may contain links to
+    third-party websites. Please be aware that ASUS is not responsible for the security,
+    the privacy practices and the materials of those third-party websites. We encourage
+    you to be aware of when you leave our SERVICE, and to read the privacy statements
+    of those third-party websites carefully. This Privacy Policy applies to ASUS SERVICE
+    only.
+  annotations: []
+  sentences: []
+- segment_id: 74
+  segment_text: Security We take precautions to protect your information against unauthorized
+    access, alteration, disclosure or destruction. We conduct internal reviews of
+    our information collection, storage and processing practices and security measures,
+    as well as physical security measures to guard against unauthorized access to
+    systems where we store your information.
+  annotations: []
+  sentences: []
+- segment_id: 75
+  segment_text: Transmission of information between different locations of ASUS and
+    its affiliated companies is performed through our secured wide area network. When
+    you submit your information to us, your information is protected both online and
+    offline.
+  annotations: []
+  sentences: []
+- segment_id: 76
+  segment_text: 'However, ASUS cannot guarantee perfect security on the internet.
+    To protect your data from unauthorized access, we recommend that you: To use alphanumerical
+    passwords when signing up ASUS Member account. To change your passwords on a regular
+    basis. To keep your devices up to date by applying the latest available security
+    updates for your software and use such tools as virus/spyware scanners.'
+  annotations: []
+  sentences: []
+- segment_id: 77
+  segment_text: If you become aware of a technical vulnerability affecting ASUS SERVICE,
+    please do not hesitate to contact us through privacy@asus.com
+  annotations: []
+  sentences: []
+- segment_id: 78
+  segment_text: Manage Your Information We want to help you keep your information
+    accurate. You may view and change your information by logging in your ASUS Member
+    account and editing your account information.
+  annotations: []
+  sentences: []
+- segment_id: 79
+  segment_text: For further inquiries about information ASUS collect about you, kindly
+    contact us through privacy@asus.com
+  annotations: []
+  sentences: []
+- segment_id: 80
+  segment_text: 'Whenever you use our SERVICE, we strive to maintain the accuracy
+    of your data and protect your information against any accidental or malicious
+    destruction. We will accommodate your requests regarding your data; however, we
+    may not be able to fulfill all your requests in the following circumstances: As
+    required or permitted under application laws; For legitimate business purposes;
+    Unreasonably repetitive requests that require disproportionate technical efforts
+    and resources, for example, developing a new system or fundamentally changing
+    the current practices; Potentially risks on the privacy of others;'
+  annotations: []
+  sentences: []
+- segment_id: 81
+  segment_text: Minor's Privacy We do not knowingly collect information from a minor
+    under the age of thirteen (13), or equivalent minimum age in the relevant jurisdiction,
+    without parental consent. We encourage parents (or guardian) to take an active
+    role in a minor's online activities and interests while using our SERVICE.
+  annotations: []
+  sentences: []
+- segment_id: 82
+  segment_text: If you are a minor, please seek parental consent before your use of
+    our SERVICE. You may submit your information with parental consent to us only.
+    Your parents (or guardian) can revoke any consent previously given at all times.
+  annotations: []
+  sentences: []
+- segment_id: 83
+  segment_text: Sensitive Personal Information ASUS will never ask you to provide
+    sensitive information such as information about your medical or health records,
+    political or religious beliefs, criminal offences (alleged, or committed), criminal
+    conviction background, sexual orientation, sexual history, behavior or genetic
+    information. Please refrain from providing us with such information.
+  annotations: []
+  sentences: []
+- segment_id: 84
+  segment_text: Changes to ASUS Privacy Policy We may change the Privacy Policy from
+    time to time, we highly recommend you periodically review the Privacy Policy posted
+    on our websites. By accessing or using our SERVICE after the Privacy Policy has
+    been updated, ASUS will deem that you consent to the Privacy Policy, including
+    any updates. The most current version of the Privacy Policy will always be available
+    on this page; a prominent notice such as email notification will be delivered
+    to you about any significant changes. You can always check the "updated time"
+    at the bottom for the most current version of Privacy Policy.
+  annotations: []
+  sentences: []
+- segment_id: 85
+  segment_text: Contacting Us If you have any inquiries, questions, comments or complaints
+    about the Privacy Policy, or if you believe that ASUS did not comply with the
+    Privacy Policy, please feel free to contact us. ASUSTeK COMPUTER INC.
+  annotations: []
+  sentences: []
+- segment_id: 86
+  segment_text: Legal Compliance Department Legal Affairs Center 15, Li-Te Rd., Taipei
+    112, Taiwan privacy@asus.com Updated March 23, 2016 by ASUS Legal Affairs Center
+    Want More? SonicMaster TUF Asus Design Center ROG ASUSPRO Automotive Solutions
+    ASUS HealthCare
+  annotations: []
+  sentences: []
+- segment_id: 87
+  segment_text: Who We Are Awards News About ASUS Investor Relations About CSR for
+    global Press Room
+  annotations: []
+  sentences: []
+- segment_id: 88
+  segment_text: Need Help? Check Repair Status Find Service Locations Product Registration
+    Email Us Call Us Security Advisory
+  annotations: []
+  sentences: []
+- segment_id: 89
+  segment_text: "Community Global / English Terms of Use Notice Privacy Policy \xA9\
+    ASUSTeK Computer Inc. All rights reserved."
+  annotations: []
+  sentences: []

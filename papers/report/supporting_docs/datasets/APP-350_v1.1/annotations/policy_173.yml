@@ -1,0 +1,170 @@
+policy_id: 173
+policy_name: com.juniorpear.animal_sound
+policy_type: TRAINING
+contains_synthetic: true
+segments:
+- segment_id: 0
+  segment_text: "PRIVACY POLICY Th\u1EE9 B\u1EA3y, 29 th\xE1ng 3, 2014 PRIVACY POLICY\
+    \ Privacy Policy Viet Nam Jingle software and its websites, games and other applications\
+    \ (\"we,\" \"our\" or \"us\") believe that your privacy is very important. This\
+    \ Policy outlines the types data that we will collect from you through the various\
+    \ websites, games and applications we provide (\"Websites/Apps\"). Your installation\
+    \ and/or use of these Websites/Apps and/or submission of information to us constitute\
+    \ your consent to this Privacy Policy. This Privacy Policy is effective as of\
+    \ March 29, 2014 and was last modified on April 8, 2014."
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: "\u200BOnly one type of information we may collect through your use\
+    \ of the Websites/Apps: \u200B1."
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: Non-personal "Usage Data" which is anonymous data about your use of
+    the Websites/Apps that is tied to your computer and/or device through which you
+    use the Websites/Apps.
+  annotations: []
+  sentences: []
+- segment_id: 3
+  segment_text: 'Usage Data That We Collect and How We Collect It may collect the
+    following Usage Data when you make use of the Websites/Apps: your computer''s
+    IP address, your mobile phone''s unique device ID or other persistent identifiers,
+    geolocation information, your device''s software platform and firmware, the type
+    of browser you use, the date and time of your use of our Websites/Apps, the actions
+    you take within the Websites/Apps, your game progress, play time, score and achievements,
+    and the URLs you visited and/or apps you used before and after using our Websites/Apps.'
+  annotations:
+  - practice: Identifier_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: 'We may collect the following Usage Data when you make use of the
+      Websites/Apps: your computer''s IP address, your mobile phone''s unique device
+      ID or other persistent identifiers, geolocation information, your device''s
+      software platform and firmware, the type of browser you use, the date and time
+      of your use of our Websites/Apps, the actions you take within the Websites/Apps,
+      your game progress, play time, score and achievements, and the URLs you visited
+      and/or apps you used before and after using our Websites/Apps.'
+    annotations:
+    - practice: Identifier_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: "\u200BUse Usage Data That We Collect Usage Data may be used by us\
+    \ for administrative, analytical, research, optimization, security and other purposes.\
+    \ Specifically, we may use your Usage Data to help us learn more about your gaming\
+    \ activities, personalize your content, compile statistics, respond to customer\
+    \ service inquiries, provide security and to otherwise enhance your gaming experience.\
+    \ Usage Data may also be used to help us provide you advertising that better suits\
+    \ your interests. Geolocation information will be used to determine the jurisdiction\
+    \ in which you're located so we can determine what set of laws apply to you. Your\
+    \ device ID may be used so we can send you push notifications (if you choose to\
+    \ allow that function) and track your use of our Websites/Apps so that we can\
+    \ better understand your preferences and tendencies which will help us best personalize\
+    \ your experience and provide you with in-game offers and notifications that are\
+    \ tailored to you."
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Geolocation information will be used to determine the jurisdiction
+      in which you're located so we can determine what set of laws apply to you.
+    annotations:
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: Your device ID may be used so we can send you push notifications
+      (if you choose to allow that function) and track your use of our Websites/Apps
+      so that we can better understand your preferences and tendencies which will
+      help us best personalize your experience and provide you with in-game offers
+      and notifications that are tailored to you.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: More info If you need more information about Viet Nam Jingle software
+    policy please contacting us at store.ursagames@gmail.com
+  annotations: []
+  sentences: []
+- segment_id: 6
+  segment_text: "\u0110\u01B0\u1EE3c \u0111\u0103ng b\u1EDFi Pear Junior v\xE0o l\xFA\
+    c 01:35 G\u1EEDi email b\xE0i \u0111\u0103ng n\xE0yBlogThis!Chia s\u1EBB l\xEA\
+    n TwitterChia s\u1EBB l\xEAn FacebookChia s\u1EBB l\xEAn Pinterest"
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: "Kh\xF4ng c\xF3 nh\u1EADn x\xE9t n\xE0o: \u0110\u0103ng nh\u1EADn\
+    \ x\xE9t Trang ch\u1EE7 \u0110\u0103ng k\xFD: \u0110\u0103ng Nh\u1EADn x\xE9t\
+    \ (Atom) Gi\u1EDBi thi\u1EC7u b\u1EA3n th\xE2n Pear Junior Xem h\u1ED3 s\u01A1\
+    \ ho\xE0n ch\u1EC9nh c\u1EE7a t\xF4i L\u01B0u tr\u1EEF Blog \u25BC 2014(1) \u25BC\
+    \ th\xE1ng ba(1) PRIVACY POLICY"
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: "Ch\u1EE7 \u0111\u1EC1 \u0110\u01A1n gi\u1EA3n. \u0110\u01B0\u1EE3\
+    c t\u1EA1o b\u1EDFi Blogger."
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: We do not collect your computer's IP address, your mobile phone's
+    unique device ID or other persistent identifiers, geolocation information, your
+    device's software platform and firmware, the type of browser you use, the date
+    and time of your use of our Websites/Apps, the actions you take within the Websites/Apps,
+    your game progress, play time, score and achievements, and the URLs you visited
+    and/or apps you used before and after using our Websites/Apps.
+  annotations:
+  - practice: Identifier_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: NOT_PERFORMED
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: We do not collect your computer's IP address, your mobile phone's
+      unique device ID or other persistent identifiers, geolocation information, your
+      device's software platform and firmware, the type of browser you use, the date
+      and time of your use of our Websites/Apps, the actions you take within the Websites/Apps,
+      your game progress, play time, score and achievements, and the URLs you visited
+      and/or apps you used before and after using our Websites/Apps.
+    annotations:
+    - practice: Identifier_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: NOT_PERFORMED
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 10
+  segment_text: No Geolocation information will be used.
+  annotations:
+  - practice: Location_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: No Geolocation information will be used.
+    annotations:
+    - practice: Location_1stParty
+      modality: NOT_PERFORMED
+- segment_id: 11
+  segment_text: Your device ID will not be used.
+  annotations:
+  - practice: Identifier_Device_ID_1stParty
+    modality: NOT_PERFORMED
+  sentences:
+  - sentence_text: Your device ID will not be used.
+    annotations:
+    - practice: Identifier_Device_ID_1stParty
+      modality: NOT_PERFORMED

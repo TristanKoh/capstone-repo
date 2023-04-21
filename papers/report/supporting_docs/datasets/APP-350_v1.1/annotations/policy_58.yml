@@ -1,0 +1,518 @@
+policy_id: 58
+policy_name: KAKAO
+policy_type: TEST
+contains_synthetic: false
+segments:
+- segment_id: 0
+  segment_text: KAKAO Privacy Policy[1] Welcome! Keeping your personal information
+    safe is one of our top priorities. KAKAO will use your personal information only
+    for the purpose and within the scope to which you consent with the goal of providing
+    KAKAO services (each a "Service" and, collectively, the "Services") in a seamless
+    manner. You may rest assured that KAKAO will never disclose your personal information
+    to a third party unless otherwise required by the relevant laws and regulations
+    or consented by you. We have developed this privacy policy (the "Privacy Policy")
+    applicable to all of the Services provided by KAKAO so that you may easily understand
+    the way in which we protect your personal information and other related details.
+    The Privacy Policy is open to the public at all times so you may read the full
+    text of the Privacy Policy whenever you need to do so. Any changes to the Privacy
+    Policy will be notified to you to ensure that you understand the details of and
+    reasons for such changes.
+  annotations: []
+  sentences: []
+- segment_id: 1
+  segment_text: Your personal information will be used by KAKAO to provide better
+    services.
+  annotations: []
+  sentences: []
+- segment_id: 2
+  segment_text: KAKAO will collect your personal information as necessary to provide
+    the Services in a seamless manner and to improve your user experience. In order
+    to provide the basic features and other specialized functionalities of the Services
+    pursuant to the Terms of Service for which your consent is given, it may be necessary
+    for KAKAO to verify your identity information, age, account, contact information
+    and device information. Your personal information may be used to search, register
+    or notify other Service users who are in your contact list or who may be your
+    KAKAO friends. Furthermore, your personal information may also be used to give
+    any individual notifications, deal with any inquiries or disputes arising in connection
+    with your use of the Services, send content for paid services, or process shipping
+    and payment. In addition, your personal information may be used to perform statistical
+    analysis for new customized services, provide event and advertising information,
+    comply with obligations required under applicable laws and regulations, and prevent
+    any improper use of your personal information that may cause harm to you in violation
+    of law or the Terms of Service.
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In order to provide the basic features and other specialized functionalities
+      of the Services pursuant to the Terms of Service for which your consent is given,
+      it may be necessary for KAKAO to verify your identity information, age, account,
+      contact information and device information.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+  - sentence_text: KAKAO will collect your personal information as necessary to provide
+      the Services in a seamless manner and to improve your user experience.
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+  - sentence_text: Your personal information may be used to search, register or notify
+      other Service users who are in your contact list or who may be your KAKAO friends.
+    annotations:
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+- segment_id: 3
+  segment_text: 'KAKAO will collect the following information: When you sign up for
+    the Services or in the course of your use of the Services, KAKAO will collect
+    your telephone number, contact information saved on your smartphone or other device
+    (telephone numbers and names of third parties), username (nickname), Kakao Account
+    email address, For information about sending e-mail and password through the official
+    website of KAKAO, individual applications or programs. You may choose to provide
+    us with your birthday, gender, user ID, photos (including meta-information), and
+    location information. Device-specific information (such as your operating system,
+    screen size and unique device identifiers), IP address, cookies, date of visit,
+    record of illegitimate use, service use records, etc. can be created automatically
+    and collected in the course of service use or business process.'
+  annotations:
+  - practice: Contact_1stParty
+    modality: PERFORMED
+  - practice: Contact_Address_Book_1stParty
+    modality: PERFORMED
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Password_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Age_1stParty
+    modality: PERFORMED
+  - practice: Demographic_Gender_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Device_ID_1stParty
+    modality: PERFORMED
+  - practice: Identifier_IP_Address_1stParty
+    modality: PERFORMED
+  - practice: Location_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Device-specific information (such as your operating system, screen
+      size and unique device identifiers), IP address, cookies, date of visit, record
+      of illegitimate use, service use records, etc.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+  - sentence_text: For information about sending e-mail and password through the official
+      website of KAKAO, individual applications or programs.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Password_1stParty
+      modality: PERFORMED
+  - sentence_text: When you sign up for the Services or in the course of your use
+      of the Services, KAKAO will collect your telephone number, contact information
+      saved on your smartphone or other device (telephone numbers and names of third
+      parties), username (nickname), Kakao Account email address
+    annotations:
+    - practice: Contact_1stParty
+      modality: PERFORMED
+    - practice: Contact_Address_Book_1stParty
+      modality: PERFORMED
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: You may choose to provide us with your birthday, gender, user ID,
+      photos (including meta-information), and location information.
+    annotations:
+    - practice: Demographic_Age_1stParty
+      modality: PERFORMED
+    - practice: Demographic_Gender_1stParty
+      modality: PERFORMED
+    - practice: Location_1stParty
+      modality: PERFORMED
+  - sentence_text: can be created automatically and collected in the course of service
+      use or business process.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+    - practice: Identifier_Device_ID_1stParty
+      modality: PERFORMED
+    - practice: Identifier_IP_Address_1stParty
+      modality: PERFORMED
+- segment_id: 4
+  segment_text: However, in some games services provided by the company can be MacAddress
+    after your prior consent collected for hacking and eobyujing protection.
+  annotations:
+  - practice: Identifier_MAC_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, in some games services provided by the company can be
+      Mac Address after your prior consent collected for hacking and eobyujing protection.
+    annotations:
+    - practice: Identifier_MAC_1stParty
+      modality: PERFORMED
+- segment_id: 5
+  segment_text: KAKAO will also collect shipping information (including the name,
+    mobile phone number and address) to ship your order. In addition to the above
+    information, KAKAO may collect your credit card information, carrier information,
+    gift certificate number or other information required for payment processing when
+    you use paid services. Before you get started with an application or program,
+    KAKAO will inform you of the personal information we collect to which you must
+    consent in order to use the Service.
+  annotations:
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  - practice: Contact_Postal_Address_1stParty
+    modality: PERFORMED
+  - practice: Identifier_Mobile_Carrier_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: In addition to the above information, KAKAO may collect your credit
+      card information, carrier information
+    annotations:
+    - practice: Identifier_Mobile_Carrier_1stParty
+      modality: PERFORMED
+  - sentence_text: KAKAO will also collect shipping information (including the name,
+      mobile phone number and address) to ship your order.
+    annotations:
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+    - practice: Contact_Postal_Address_1stParty
+      modality: PERFORMED
+- segment_id: 6
+  segment_text: KAKAO will never disclose your personal information to a third party
+    unless consented by you or otherwise required by law.
+  annotations: []
+  sentences: []
+- segment_id: 7
+  segment_text: KAKAO will use your personal information only for the purposes set
+    forth above and will not disclose to or share your personal information with any
+    third party unless consented by you in the course of your use of the Services
+    or otherwise required by law. For any Services that are linked to a third-party
+    service, KAKAO may provide your personal information to such third party with
+    your consent within the scope necessary for your use of the Services.
+  annotations: []
+  sentences: []
+- segment_id: 8
+  segment_text: Click here for details on the parties to be provided with your personal
+    information. To view the list of connected Services you are currently using, go
+    to "Manage Connected Services" in the KAKAO Account menu on your app.
+  annotations: []
+  sentences: []
+- segment_id: 9
+  segment_text: Also, users who have given advance permission can click here what
+    kind of personal information has been shared.
+  annotations: []
+  sentences: []
+- segment_id: 10
+  segment_text: KAKAO may entrust a third party with the handling of your personal
+    information when necessary for seamless provision of the Services.
+  annotations: []
+  sentences: []
+- segment_id: 11
+  segment_text: 'KAKAO may delegate the handling of your personal information to third
+    parties (the "Service Providers") when it is necessary to ensure seamless Services.
+    Please refer to the following list for more information on the Service Providers
+    and the services provided by the Service Providers: Service provider: Transcosmos
+    Korea & Metanet MCC & dk Service Purpose: For customer service Term of retention
+    and use: Until you unregister from the Services or the delegation agreement with
+    the Service Provider is terminated Service provider: dk techin Purpose: Development
+    & operation of the service system for kakao Term of retention and use: Until you
+    unregister from the Service or the delegation agreement with the Service Provider
+    is terminated Service provider: Danal Purpose: For verification of age for services
+    with an age limit, verification of identity for payment processing, and payment
+    using mobile phones or gift vouchers Term of retention and use: Until you unregister
+    from the Services or the delegation agreement with the Service Provider is terminated
+    Service provider: NICE Investors Service Purpose: For verification of age for
+    services with an age limit Term of retention and use: Until you unregister from
+    the Services or the delegation agreement with the Service Provider is terminated
+    Service provider: LG U+ Purpose: For verification of identity for refunds and
+    payments including credit card payments, bank transfers and issuance of cash receipts
+    Term of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service provider: Podotree Purpose:
+    For customer service related to Kakao Page, and development & operation of the
+    service system Term of retention and use: Until you unregister from the Services
+    or the delegation agreement with the Service Provider is terminated Service provider:
+    SureM Purpose: For phone number and voice call verification Term of retention
+    and use: Until you unregister from the Services or the delegation agreement with
+    the Service Provider is terminated Service provider: DreamSecurity Purpose: For
+    verification of age for services with an age limit Term of retention and use:
+    Until you unregister from the Service or the delegation agreement with the Service
+    Provider is terminated Service provider: SKtelink, NOSTech Purpose: For generating
+    and sending a temporary phone number to KakaoTaxi drivers Term of retention and
+    use: Transmission from the date of 6 months Service provider: KT, KTH Purpose:
+    For generating and sending a temporary phone number to KakaoTaxi driversp Term
+    of retention and use: Transport 1 year from the date Service provider: Korea Smart
+    Card.,Ltd, Purpose: Taxi fare Term of retention and use: Until you unregister
+    from the Services or the delegation agreement with the Service Provider is terminated
+    Service provider: NICE Information&Telecommunication.Inc, Credit Card Companies[Samsung,
+    Shinhan, KB, Hana, BC, Citi, hyundai, Lotte, NHnonghyup] Purpose: Credit card
+    payment Term of retention and use: Until you unregister from the Services or the
+    delegation agreement with the Service Provider is terminated Service provider:
+    ShinHan Bank, SC Bank, KDB Bank, Jeju Bank, National Credit Union Federation of
+    Bank, Daegu Bank, Hana Bank Purpose: For customer service related to KakaoMoney
+    Term of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service provider: Settlebank.INC
+    Purpose: In relation to KakaoMoney Service, consent authorization for ARS withdrawal,
+    validity verification of account holders and transmission of withdrawal request
+    Term of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service provider: High End Co.Ltd
+    Purpose: For customer service related & booking service to KakaoTaxi Black Term
+    of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service provider: kakaogames
+    Purpose: For customer service related to "Kakao publishing games", and development
+    & operation of the service system Term of retention and use: Until you unregister
+    from the Services or the delegation agreement with the Service Provider is terminated
+    Service provider: patigames Purpose: System development and operation required
+    for membership mangement, customer service and services related to the game "I
+    Love Nikki" Term of retention and use: Until you unregister from the Services
+    or the delegation agreement with the Service Provider is terminated Service provider:
+    netmarblegames Purpose: For customer service related to "puzzle pet party", and
+    development & operation of the service system Term of retention and use: Until
+    you unregister from the Services or the delegation agreement with the Service
+    Provider is terminated Service provider: Hong Kong NetEase Interactive Entertainment
+    Limited Purpose: Development of the service system for "KUNG FU PANDA 3" Term
+    of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service provider: Infobank,
+    Standard Networks, Nexmo, Infobip, Tyntec Purpose: Operation of SMS transmission
+    system Term of retention and use: Until you unregister from the Services or the
+    delegation agreement with the Service Provider is terminated Service provider:
+    ThinkAT Purpose: For ARS verification Term of retention and use: Until you unregister
+    from the Services or the delegation agreement with the Service Provider is terminated
+    Service provider: LG CNS Purpose: Credit card payment Term of retention and use:
+    Until you unregister from the Services or the delegation agreement with the Service
+    Provider is terminated Service provider: KG INICIS Purpose: Credit card payment
+    Term of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service provider: Galaxia Communications
+    Purpose: Convenience store payment Term of retention and use: Until you unregister
+    from the Services or the delegation agreement with the Service Provider is terminated
+    Service provider: KG Mobilians Purpose: Cellular phone payment Term of retention
+    and use: Until you unregister from the Services or the delegation agreement with
+    the Service Provider is terminated Service provider: 4:33 Creative Lab Purpose:
+    System development and operation required for membership mangement, customer service
+    and services related to the game "uicheondolyong-gi" Term of retention and use:
+    Until you unregister from the Services or the delegation agreement with the Service
+    Provider is terminated Service provider: kakao makers Purpose: For customer service
+    related to MAKERS with kakao, and development & operation of the service system
+    Term of retention and use: Until you unregister from the Services or the delegation
+    agreement with the Service Provider is terminated Service providers: Shipping
+    companies Purpose: For shipping of purchased goods Term of retention and use:
+    Until you unregister from the Services or the delegation agreement with the Service
+    Provider is terminated Service providers: Shipping companies Purpose: For shipping
+    of purchased goods(MAKERS with kakao) Term of retention and use: Until you unregister
+    from the Services or the delegation agreement with the Service Provider is terminated
+    Your personal information will be discarded without delay after fulfilling the
+    purpose of collection and use unless it is required to retain such information
+    under the applicable laws or KAKAO''s internal policies.'
+  annotations: []
+  sentences: []
+- segment_id: 12
+  segment_text: 'After fulfilling the purpose of collection and use of your personal
+    information to which you have consented, your personal information will be placed
+    in a separate database (or a filing cabinet in case of paper records) and retained
+    for a certain period of time stipulated under the applicable laws and regulations
+    before being discarded. Paper records will be either shredded or incinerated,
+    and electronic records will be discarded in an irreversible manner using technical
+    methods. However, your email address (to send out emails regarding deleting your
+    Kakao Account and respond to user inquiries) and records pertaining to improper
+    use of Services (to prevent any disputes arising from improper use of the Services)
+    will be retained for a period of one year before being discarded in the manners
+    as set forth above in accordance with KAKAO''s internal policies to prevent any
+    disputes arising from improper use of the Services. Personal information retained
+    by KAKAO as required by the applicable laws is as follows: Information to be retained:
+    Records on contracts and withdrawal of offers, etc. Applicable laws: Act on the
+    Consumer Protection in the Electronic Commerce Transactions, etc. Term of retention:
+    5 years Information to be retained: Records on payment and supply of goods, etc.
+    Applicable laws: Act on the Consumer Protection in the Electronic Commerce Transactions,
+    etc. Term of retention: 5 years Information to be retained: Records on customer
+    complaints and resolution of disputes Applicable laws: Act on the Consumer Protection
+    in the Electronic Commerce Transactions, etc. Term of retention: 3 years Information
+    to be retained: Records on marks & advertisements Applicable laws: Act on the
+    Consumer Protection in the Electronic Commerce Transactions, etc. Term of retention:
+    6 months Information to be retained: Books and documentary evidence related to
+    all transactions as prescribed by tax law Applicable laws: Framework Act on National
+    Taxes Term of retention: 5 years Information to be retained: Records on electronic
+    financial transactions Applicable laws: Electronic Financial Transaction Act Term
+    of retention: 5 years Information to be retained: Records on Service visits Applicable
+    laws: Protection of Communications Secrets Act Term of retention: 3 months KAKAO
+    will protect your rights.'
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: However, your email address (to send out emails regarding deleting
+      your Kakao Account and respond to user inquiries) and records pertaining to
+      improper use of Services (to prevent any disputes arising from improper use
+      of the Services) will be retained for a period of one year before being discarded
+      in the manners as set forth above in accordance with KAKAO's internal policies
+      to prevent any disputes arising from improper use of the Services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+- segment_id: 13
+  segment_text: You (or your legal guardian if you are under 14 years of age) may
+    review or change your personal information at any time, and you may also request
+    to withdraw your consent to KAKAO's collection and use of your personal information
+    or to unregister from the Services. To be more specific, you may change your personal
+    information by changing the relevant settings within the Services or unregister
+    from the Services (or withdraw your consent) by simply clicking on "Unregister"
+    in the Settings menu. You are also free to contact our personal information manager
+    in writing, by phone or by email through our Customer Service Center for immediate
+    action. Once you request to have your personal information corrected, we will
+    not use or provide your personal information until it is corrected as requested.
+  annotations:
+  - practice: Contact_E_Mail_Address_1stParty
+    modality: PERFORMED
+  - practice: Contact_Phone_Number_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Once you request to have your personal information corrected, we
+      will not use or provide your personal information until it is corrected as requested.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: To be more specific, you may change your personal information by
+      changing the relevant settings within the Services or unregister from the Services
+      (or withdraw your consent) by simply clicking on "Unregister" in the Settings
+      menu.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: You (or your legal guardian if you are under 14 years of age) may
+      review or change your personal information at any time, and you may also request
+      to withdraw your consent to KAKAO's collection and use of your personal information
+      or to unregister from the Services.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+  - sentence_text: You are also free to contact our personal information manager in
+      writing, by phone or by email through our Customer Service Center for immediate
+      action.
+    annotations:
+    - practice: Contact_E_Mail_Address_1stParty
+      modality: PERFORMED
+    - practice: Contact_Phone_Number_1stParty
+      modality: PERFORMED
+- segment_id: 14
+  segment_text: KAKAO may use cookies to provide the Services on personal computers.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: KAKAO may use cookies to provide the Services on personal computers.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 15
+  segment_text: In order to provide you with customized Services, KAKAO uses cookies,
+    which are saved on your personal computer ("PC") and retrieved whenever required
+    for any PC-based Services. Cookies are small text files of information sent to
+    your browser by the website operating server, which are then stored on the hard
+    drive of your PC. When you visit a website, cookies are accessed by the server
+    to ensure that your preferences are maintained, which helps you be more efficient.
+    Moreover, cookies tell us how often your visit the website, how you use the website
+    and what information interests you. In this way, we can provide the Services optimized
+    for your needs. You have an option to enable or disable cookies. You may configure
+    your browser to accept all cookies, get an alert before accepting cookies, or
+    disable all cookies. Please bear in mind that you will not be able to access some
+    of the Services requiring a login process if you disable cookies.
+  annotations:
+  - practice: Identifier_Cookie_or_similar_Tech_1stParty
+    modality: PERFORMED
+  sentences:
+  - sentence_text: Cookies are small text files of information sent to your browser
+      by the website operating server, which are then stored on the hard drive of
+      your PC.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: In order to provide you with customized Services, KAKAO uses cookies,
+      which are saved on your personal computer ("PC") and retrieved whenever required
+      for any PC-based Services.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: In this way, we can provide the Services optimized for your needs.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Moreover, cookies tell us how often your visit the website, how
+      you use the website and what information interests you.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: Please bear in mind that you will not be able to access some of
+      the Services requiring a login process if you disable cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: When you visit a website, cookies are accessed by the server to
+      ensure that your preferences are maintained, which helps you be more efficient.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You have an option to enable or disable cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+  - sentence_text: You may configure your browser to accept all cookies, get an alert
+      before accepting cookies, or disable all cookies.
+    annotations:
+    - practice: Identifier_Cookie_or_similar_Tech_1stParty
+      modality: PERFORMED
+- segment_id: 16
+  segment_text: For any inquiries...
+  annotations: []
+  sentences: []
+- segment_id: 17
+  segment_text: If you have any questions, complaints or suggestions regarding the
+    protection of personal information, please contact our Personal Information Protection
+    Manager. We will use our best efforts to provide you with a timely and satisfactory
+    response.
+  annotations: []
+  sentences: []
+- segment_id: 18
+  segment_text: '[Personal Information Protection Manager] Name: Andy kang Division:
+    Privacy Protection Part Contact: Customer Service, [1577-3754] Any changes to
+    our Privacy Policy will be notified separately.'
+  annotations: []
+  sentences: []
+- segment_id: 19
+  segment_text: KAKAO may amend this Privacy Policy to, for example, reflect changes
+    to the Services or applicable law. We will post a notice about any Privacy Policy
+    changes, and the updated Privacy Policy will become effective 7 days from the
+    day on which the notice is posted. However, if changes to our Privacy Policy materially
+    affect your rights due to unavoidable reasons, we will give you a 30-day prior
+    notice.
+  annotations: []
+  sentences: []
+- segment_id: 20
+  segment_text: 'Date of Announcement: February 22, 2017 Date of Implementation: March
+    1, 2017 View the previous version of our Privacy Policy.'
+  annotations: []
+  sentences: []
+- segment_id: 21
+  segment_text: '[1] This is applicable to all of KAKAO services ("KAKAO" and "Services")
+    provided by Kakao Corp.'
+  annotations: []
+  sentences: []
